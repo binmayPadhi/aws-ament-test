@@ -1,0 +1,1933 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 66%;
+    /* -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; */
+
+}
+
+body{
+    margin:0px 140px 0px 140px;
+    left: 140px;
+    left: 140px !important;
+    overflow-x: hidden;
+}
+
+.all-margin{
+    margin:0px 140px 0px 140px;
+    background-color: transparent;
+}
+
+.section-header{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #FD5D14;
+}
+
+.section-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: #000000;
+}
+
+/* FOR INDUSTRY AND CASE-STUDIES */
+.dot-icon {
+    position: absolute;
+    transform: translate(-50%, -60%);
+    height: 132px;
+    width: 132px;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+
+
+/* NAVIGATION BAR */
+/* ............................................................................................................................ */
+.navigation-bar{
+    /* position: fixed; */
+    background-color: #0C0C0C;
+    width: 100%;
+    height: 75px;
+    vertical-align: middle;
+    z-index: 99;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav .active a{
+    color: #19AF8F;    
+  }
+
+
+.navbar-brand .logo{
+    width: 244px;
+    height: 54px;
+}
+
+.navbar-nav .nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color:white;
+}
+
+.nav-item .contact-btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color:black;
+}
+
+.navbar-nav .nav-item{
+    margin-right: 25px;
+}
+
+.custom-toggler{
+    background-color: black;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+  
+.custom-toggler.navbar-toggler {
+    border-color: none;
+} 
+
+.contact-btn{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* FOR STICKY NAVBAR */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  /* to prevent sudden quick movement */
+  /* .sticky + .content {
+    padding-top: 30px;
+  } */
+
+
+
+
+/* HOMEPAGE INTRO */
+/* ............................................................................................................................... */
+
+.homepage-intro{
+    position: relative;
+    width: 100%;
+    height: 895px;
+    background: #5F5F5F ;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    /* background-image:url('../src/assets/images/HomePage/amnet-home-bg.jpg');
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.homepage-bg{
+    width: 100%;
+}
+
+.homepage-intro-caption{
+    top: 150px;
+    height: 640px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.homepage-intro-caption h2{
+    margin-top: 70px;
+    margin-left: 29px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10rem;
+    font-weight: 800;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.homepage-intro-caption p {
+    margin-left: 41px;
+    margin-top: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0px;
+    color: #4D4D4F;
+}
+
+.homepage-intro-btn{
+    padding: 50px 35px;
+}
+
+.homepage-intro-btn button {
+    width: 180px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font: normal normal 600 15px/25px Poppins;
+    letter-spacing: 0px;
+    
+}
+
+.homepage-intro-btn .btn-default{
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal 600 20px/30px Poppins;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-left: 15px;
+    color: #000000;
+    background-color: white;
+}
+
+/* verticla line */
+.vr{
+    position: absolute;
+    top: 240px; 
+    left: 140px;
+    width: 12px;
+    height: 229px;
+    background: #FD5D14 0% 0% no-repeat padding-box;
+    border-radius: 1px;
+    opacity: 1;
+    z-index: 2;
+}
+
+
+/* HOMEPAGE QUOTE */
+/* ........................................................................................................................ */
+.homepage-quote{
+    background-color: #f2f2f2;
+}
+
+.blockquote p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    color: #000000;
+}
+
+.blockquote .blockquote-author{
+    color: #FD5D14;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+
+
+
+/*AI PRODUCT, SOLUTIONS AND SERVICES */
+/* ........................................................................................................................ */
+
+.solutions-services{
+    margin-top: 100px;
+}
+
+.solutions-services-details h6{
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #FD5D14;
+}
+
+.solutions-services-details h2{
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.solutions-services-details p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #4D4D4F;
+}
+
+.solutions-services-lists{
+    margin-top: 35px;
+    padding-inline-start: 0px;
+    
+}
+
+.solutions-services-lists li{
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #4D4D4F;
+    list-style: none;
+}
+
+.list-icon{
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+}
+
+
+
+/* HOMEPAGE ABOUT DETAILS */
+/* ........................................................................................................................ */
+
+.homepage-about-details{
+    position: relative;
+    margin-top: 80px;
+    background: url("../src//assets/images/HomePage/amnet-about-details.jpg");
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-details-row{
+    padding: 45px 25px;
+}
+
+.about-details-header img{
+   width: 60px;
+   height: 60px;
+   margin-right: 10px;
+}
+
+.about-details-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 1000;
+    color: #ffffff;
+}
+
+.homepage-about-details p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-left: 80px;
+    opacity: 0.8;
+}
+
+
+/*INDUSTRIES SECTION */
+/* ........................................................................................................................ */
+
+.industry-section{
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.industry-section-row{
+    margin-top: 80px;
+}
+
+.industry-section .card-body{
+    background-color: white;
+    box-shadow: 3px 6px 16px #00000029;
+    border-style: none;
+    height: 150px;
+}
+
+.industry-section .dot-icon {
+    position: absolute;
+    transform: translate(-50%, -60%);
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+.industry-section h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-top: 60px;
+}
+
+
+/* OUR SERVICES SECTION */
+/* ........................................................................................................................ */
+
+.our-services{
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+    height: 600px;
+    margin-left: 0;
+    padding: 30px;
+    /* background-image:url('../images/HomePage/our-services/amnet-our-services-bg.png');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.our-service-lists{
+    margin-top: 30px;
+}
+
+
+.our-services h1{
+    color: white;
+}
+
+.carousel-indicators {
+    top: 110%;
+}
+
+.service-card .card{
+    border-style: none;
+}
+
+.service-card .card-body{
+    padding: 110px 30px;
+    height: 385px;
+    text-align: left;
+}
+.service-card h3{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.service-card p{
+    font-size: 1.8rem;
+}
+.service-card a{
+    font-size: 1.5rem;
+}
+
+.carousel .carousel-indicators li{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 3px 6px 16px #00000029;
+    margin-top: 50px;    
+}
+
+ .carousel .carousel-indicators .active{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #6d6d6d;
+    margin-bottom: -20rem; 
+ }
+
+.carousel-indicators{
+    top: 100%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+
+/* OUR PARTNER LOGOS */
+/* ........................................................................................................................ */
+
+.our-partner{
+    position: relative;
+    margin-top: 60px;
+    background-color: #F1f1f1;
+    padding: 15px;
+}
+
+.partner-logo img{
+    width: 120px;
+    height: auto;
+    display: block;
+}
+
+/* CASE STUDIES SECTION */
+/* ........................................................................................................................ */
+
+.case-studies{
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.case-studies h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 80px;
+}
+
+.case-studies p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 800;
+    opacity: 0.8;
+    margin-top: 25px;
+}
+
+.propensity-modelling a{
+    color: #0154F7;
+}
+
+.risk-analytics a{
+    color: #FD5D14;
+}
+
+.preventive-maintenance a{
+    color: #18AE8E;
+}
+
+.case-studies a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+.case-studies .card-body{
+    background-color: white;
+    box-shadow: 3px 6px 16px #00000029;
+    border-style: none;
+    height: 320px;
+    
+}
+
+.case-studies .explore-all-link{
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #0154F7;
+    text-decoration: underline;
+}
+
+
+/* CAREER SECTION */
+/* ........................................................................................................................ */
+
+.career-section{
+    transform: translate(0%,-40%);
+}
+.career-section-row{
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.career{
+    margin-top: 200px;
+    width: 100%;
+    height: 250px;
+    /* background-image:url("../src/assets/images/HomePage/amnet-career-section-bg.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.career-caption{
+    background-color: #EF5B51;
+    color: white;
+    padding: 50px;
+}
+
+.career-caption h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.career-caption h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.2rem;
+    font-weight: 800;
+}
+
+.career-section button{
+    width: 150px;
+    margin-left: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    box-shadow: 2px 2px 6px #0000004D;
+}
+
+.career-details{
+    background-color: #ffffff;
+}
+
+.career-details p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #4D4D4F;
+    padding: 35px;
+}
+
+
+/* FOOTER SECTION */
+/* ........................................................................................................................ */
+
+.footer{
+    background-color: #0C0C0C;
+    color: white;
+    margin-top: 80px;
+}
+
+.footer h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.footer h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.footer p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.useful-links li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+}
+
+.useful-links li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+}
+
+hr{
+    width: 100%;
+    border-color: white;
+    background-color: white;
+}
+
+.amnet-email{
+    margin-right: auto;
+}
+
+.amnet-copyright{
+    margin-left: auto;
+}
+
+/* ICONS */
+.footer .fa {
+    padding: 20px;
+    font-size: 1.2rem;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 25px 5px 2px 0px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+.fa:hover {
+    opacity: 0.8;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+  
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+
+
+
+
+/* RESPONSIVE SECTION */
+/* .................................................................................................................... */
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+
+    .section-header{
+        font-size: 1.5rem;
+    }
+    
+    .section-title{
+        font-size: 3rem;
+    }
+
+    .all-margin{
+        margin: 0px 21px 0px 21px;
+    }
+    .navbar-brand .logo{
+        width: 170px;
+    }
+    .navigation-bar{
+        text-align: center;
+    }
+    .navbar-collapse{
+        background-color: black;
+        padding: 5px;
+    }
+
+    /* HOMEPAGE-INTRO */
+    .homepage-intro{
+        height: 736px;
+    }
+    .homepage-intro-caption{
+        height: 501px;
+    }
+    .homepage-intro-caption h2{
+        margin-top: 50px;
+        font-size: 3.5rem;
+        font-weight: bolder;
+    }
+    .homepage-intro-caption p {
+        font-size: 1.2rem;
+        margin-left: 30px;
+    }
+    .homepage-intro-btn{
+        padding: 50px 25px;
+    }
+    .homepage-intro-btn .btn{
+        border-radius: 4px;
+    }
+    .homepage-intro-btn .btn-default{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .vr{
+        top:200px;
+        left: 21px;
+    }
+
+    /* BLOCKQUOTE */
+    .blockquote p{
+       font-size: 2rem;
+       font-weight: 800;
+    }
+
+    /* SOLUTION AND SERVICES */
+    .solutions-services{
+        margin-top: 50px;
+    }
+
+    .solutions-services-lists{
+        padding-inline-start: 0px;
+    }
+    .solutions-services-lists li{
+        font-size: 1.2rem;
+    }
+    .solutions-services-details h2{
+        font-size: 2.5rem;
+    }
+    .solutions-services-details p{
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+    .solutions-services-details-img{
+        margin-top: 35px;
+    }
+    .about-details-header img{
+        width: 30px;
+        height: 30px;
+     }
+    
+
+
+    /* HOMEPAGE ABOUT DETAILS */
+
+    .homepage-about-details{
+        margin-top: 50px;
+    }
+    .homepage-about-details .about-details-bgImg{
+        width: 100%;
+        height: 550px;
+    }
+    .about-details-row{
+        margin-top: 0px;
+        padding: 10px 3px;
+    }
+    .homepage-about-details p{
+        font-size: .9rem;
+        margin-left: 43px;
+    }
+    .homepage-about-details h3{
+        font-size: 1.2rem;
+    }
+
+    /* INDUSTRIES SECTION */
+
+    .industry-section{
+        margin-top: 60PX;
+    }
+
+    .industry-section .card{
+        margin-top: 30px;
+    }
+
+    /* OUR SERVICE SECTION */
+
+    .our-services{
+        height: 550px;
+    }
+    
+    .service-card .card-body{
+        padding: 20px 10px;
+        height: 230px;
+        text-align: center;
+    }
+    .service-card h3{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    .service-card p{
+        font-size: 1.2rem;
+    }
+    .service-card a{
+        font-size: 1.2rem;
+    }
+
+
+    /* CASE STUDIES */
+    .case-studies{
+        margin-top: 50px;
+    }
+
+    .case-studies-card{
+        margin-top: 15px;
+    }
+
+    /* CAREER SECTION */
+
+    .career{
+        background-image: none;
+    }
+
+    .career-section{
+        position: relative;
+        transform: translate(0%,-30%);
+    }
+    .career-bg-img{
+        display: none;
+    }
+
+    .career-details button{
+        width: 200px;
+        margin-left: 40px;
+    }
+
+    .career-caption h5{
+        font-size: 1.8rem;
+    }
+    
+    .career-caption h2{
+        font-size: 2.5rem;
+    }
+    .career-caption p{
+        text-align: left;
+    }
+
+    /* LATEST BLOG PART */
+    .latest-blog-section{
+        margin-top: 250px;
+    }
+
+    /* FOOTER  */
+
+    .footer{
+        margin-top: 120px;
+    }
+
+    .useful-links{
+        margin-top: 15px;
+        padding-inline-start: 0px;
+        list-style-type: none;
+        color: white;
+    }
+    .footer h3{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    
+    .footer p{
+        font-size: 1rem;
+    }
+    
+    .useful-links li{
+        font-size: 1rem;
+    }
+    .useful-links li a{
+        font-size: 1rem;
+        
+    }
+    
+    .amnet-copyright{
+        margin-left: 0;
+    }
+}
+
+
+
+
+/* FOR SMALLER DEVICES 375PX */
+/* ...................................................................................................................... */
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+
+
+    .section-header{
+        font-size: 1.5rem;
+    }
+    
+    .section-title{
+        font-size: 3rem;
+    }
+
+    .all-margin{
+        margin: 0px 21px 0px 21px;
+    }
+    .navbar-brand .logo{
+        width: 190px;
+        /* height: 43px; */
+    }
+    .navigation-bar{
+        text-align: center;
+    }
+    .navbar-collapse{
+        background-color: black;
+        padding: 5px;
+    }
+
+    /* HOMEPAGE-INTRO */
+    .homepage-intro{
+        height: 736px;
+    }
+    .homepage-intro-caption{
+        height: 501px;
+    }
+    .homepage-intro-caption h2{
+        font-size: 4.5rem;
+        font-weight: bolder;
+    }
+    .homepage-intro-caption p {
+        font-size: 1.2rem;
+        margin-left: 30px;
+    }
+    .homepage-intro-btn{
+        padding: 50px 25px;
+    }
+    .homepage-intro-btn .btn{
+        border-radius: 4px;
+    }
+    .homepage-intro-btn .btn-default{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .vr{
+        top:220px;
+        left: 21px;
+    }
+
+    /* BLOCKQUOTE */
+    .blockquote p{
+       font-size: 2rem;
+       font-weight: 800;
+    }
+
+    /* SOLUTION AND SERVICES */
+    .solutions-services{
+        margin-top: 50px;
+    }
+
+    .solutions-services-lists{
+        padding-inline-start: 0px;
+    }
+    .solutions-services-lists li{
+        font-size: 1.2rem;
+    }
+    .solutions-services-details h2{
+        font-size: 2.5rem;
+    }
+    .solutions-services-details p{
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+    .solutions-services-details-img{
+        margin-top: 35px;
+    }
+    .about-details-header img{
+        width: 30px;
+        height: 30px;
+     }
+    
+
+
+    /* HOMEPAGE ABOUT DETAILS */
+    .homepage-about-details{
+        margin-top: 50px;
+    }
+    .homepage-about-details .about-details-bgImg{
+        width: 100%;
+        height: 550px;
+        /* position: absolute; */
+    }
+    .about-details-row{
+        margin-top: 5px;
+        padding: 3px;
+    }
+    .homepage-about-details p{
+        font-size: 1rem;
+        margin-left: 50px;
+    }
+    .homepage-about-details h3{
+        font-size: 1.5rem;   
+    }
+
+    /* INDUSTRIES SECTION */
+
+    .industry-section{
+        margin-top: 60PX;
+    }
+
+    .industry-section .card{
+        margin-top: 20px;
+    }
+
+    /* OUR SERVICE SECTION */
+    .our-services{
+        height: 580px;
+    }
+    .service-card .card-body{
+        padding: 20px 10px;
+        height: 230px;
+        text-align: center;
+    }
+    .service-card h3{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    .service-card p{
+        font-size: 1.2rem;
+    }
+    .service-card a{
+        font-size: 1.2rem;
+    }
+
+
+    /* CASE STUDIES */
+    .case-studies{
+        margin-top: 50px;
+    }
+
+    .case-studies-card{
+        margin-top: 15px;
+    }
+
+    /* CAREER SECTION */
+
+    .career{
+        background-image: none;
+    }
+
+    .career-section{
+        position: relative;
+        /* margin-top: 120px; */
+        transform: translate(0%,-30%);
+    }
+
+    .career-details button{
+        width: 200px;
+        margin-left: 55px;
+    }
+
+    .career-caption h5{
+        font-size: 1.8rem;
+    }
+    
+    .career-caption h2{
+        font-size: 2.5rem;
+    }
+    .career-caption p{
+        text-align: left;
+    }
+
+    /* LATEST BLOG PART */
+    .latest-blog-section{
+        margin-top: 250px;
+    }
+
+    /* FOOTER  */
+
+    .footer{
+        margin-top: 120px;
+    }
+
+    .useful-links{
+        margin-top: 15px;
+        padding-inline-start: 0px;
+        list-style-type: none;
+    }
+    .footer h3{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    
+    .footer p{
+        font-size: 1rem;
+        /* display: flex;
+        flex-direction: column; */
+    }
+    
+    .useful-links li{
+        font-size: 1rem;
+    }
+    .useful-links li a{
+        font-size: 1rem;
+    }
+    .amnet-copyright{
+        margin-left: 0;
+    }
+}
+
+
+/* ...................................................................................................................... */
+@media only screen and (min-width: 425px) and (max-width: 767px){
+    .industry-card .card-body{
+        transform: translate(20%, 150%);
+        width: 250px;
+        height: 177px;
+    }
+    .career-details button{
+        width: 200px;
+        margin-left: 75px;
+    }
+
+    .our-services{
+        height: 600px;
+    }
+    .service-card .card-body{
+        padding: 20px 10px;
+        height: 230px;
+        text-align: center;
+    }
+    .service-card h3{
+        font-size: 1.8rem;
+        font-weight: 800;
+    }
+    .service-card p{
+        font-size: 1.5rem;
+    }
+    .service-card a{
+        font-size: 1.5rem;
+    }
+}
+
+
+/* FOR MEDIUM DEVICES 834PX */
+/* ...................................................................................................................... */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* *{
+        font-size: 30%;
+    } */
+    .section-header{
+        font-size: 1.5rem;
+    }
+    
+    .section-title{
+        font-size: 3rem;
+    }
+
+    .all-margin{
+        margin: 0px 81px 0px 81px;
+    }
+    .navbar-brand .logo{
+        width: 190px;
+        /* height: 43px; */
+    }
+    .navigation-bar{
+        text-align: center;
+    }
+    .navbar-collapse{
+        background-color: black;
+        padding: 5px;
+    }
+
+    /* HOMEPAGE-INTRO */
+    .homepage-intro{
+        height: 895px;
+    }
+    .homepage-intro-caption{
+        height: 609px;
+    }
+    .homepage-intro-caption h2{
+        font-size: 8rem;
+        font-weight: bolder;
+    }
+    .homepage-intro-caption p {
+        font-size: 2rem;
+        margin-left: 30px;
+    }
+    .homepage-intro-btn{
+        padding: 50px 25px;
+    }
+    .homepage-intro-btn .btn{
+        border-radius: 4px;
+    }
+    .homepage-intro-btn .btn-default{
+        margin-top: 0px;
+        
+    }
+    .vr{
+        top:230px;
+        left: 81px;
+    }
+
+    /* BLOCKQUOTE */
+    .blockquote p{
+       font-size: 2.8rem;
+       font-weight: 600;
+       text-align: center;
+    }
+
+    /* SOLUTION AND SERVICES */
+    .solutions-services{
+        margin-top: 50px;
+    }
+    .solutions-services-lists li{
+        font-size: 1.5rem;
+    }
+    .solutions-services-details h2{
+        font-size: 5rem;
+    }
+    .solutions-services-details p{
+        font-size: 1.7rem;
+        margin-top: 10px;
+    }
+    .solutions-services-details h6{
+        font-size: 2rem;
+    }
+    .solutions-services-details-img{
+        margin-top: 35px;
+    }
+
+    .solutions-services-lists{
+        padding-inline-start: 0px;
+    }
+    
+
+    /* HOMEPAGE ABOUT DETAILS */
+    .homepage-about-details{
+        margin-top: 50px;
+    }
+    .homepage-about-details .about-details-bgImg{
+        height: 750px;
+    }
+    .about-details-row{
+        margin-top: 0px;
+        padding: 10px;
+    }
+    .about-details-header img{
+        width: 60px;
+        height: 60px;
+     }
+    .homepage-about-details p{
+        font-size: 1.5rem;
+        margin-left: 80px;
+    }
+   
+    .marginRow{
+        margin-bottom:0px !important; 
+    }
+
+    /* INDUSTRIES SECTION */
+
+
+    .industry-section{
+        margin-top: 60PX;
+    }
+
+    .industry-section .card{
+        margin-top: 20px;
+    }
+
+    /* OUR SERVICE SECTION */
+
+
+    .our-services{
+        height: 700px;
+    }
+    .service-card .card-body{
+        padding: 20px 10px;
+        height: 200px;
+        text-align: center;
+    }
+    .service-card h3{
+        font-size: 1.8rem;
+        font-weight: 800;
+    }
+    .service-card p{
+        font-size: 1.5rem;
+    }
+    .service-card a{
+        font-size: 1.5rem;
+    }
+
+    /* CASE STUDIES */
+    .case-studies{
+        margin-top: 70px;
+    }
+    /* .case-studies .explore-all-link{
+        margin-top: 55px;
+    } */
+    .case-studies-card{
+        margin-top: 20px;
+    }
+
+    /* CAREER SECTION */
+
+    .career{
+        background-image: none;
+    }
+
+    .career-section{
+        position: relative;
+        /* margin-top: 120px; */
+        transform: translate(0%,-30%);
+    }
+
+    /* .career-bg-img{
+        display: none;
+    } */
+    /* .career-section-row .career-caption{
+       padding-right: 0px;
+    } */
+
+    .career-details button{
+        width: 200px;
+        margin-left: 40px;
+    }
+
+    .career-caption h5{
+        font-size: 1.8rem;
+    }
+    
+    .career-caption h2{
+        font-size: 5rem;
+    }
+    .career-caption p{
+        text-align: left;
+    }
+
+    /* LATEST BLOG PART */
+    .latest-blog-section{
+        margin-top: 200px;
+    }
+
+    /* FOOTER  */
+    .useful-links{
+        padding-inline-start: 0px;
+        list-style-type: none;
+    }
+    .footer h2{
+        font-size: 2rem;
+    }
+    .footer h3{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    
+    .footer p{
+        font-size: 1.5rem;
+    }
+
+    .useful-links{
+        margin-top: 20px;
+    }
+    
+    .useful-links li{
+        font-size: 1.3rem;
+    }
+    .useful-links li a{
+        font-size: 1.3rem;
+    }
+    .copyright{
+        text-align: center;
+    }
+}
+
+
+/* ...................................................................................................................... */
+
+@media only screen and (min-width: 834px) and (max-width: 1024px) {
+    .navbar-collapse{
+        background-color:transparent;
+        padding: 0px;
+    }
+    
+    .industry-card .card-body{
+        transform: translate(25%, 140%);
+    }
+    .our-services{
+        height: 700px;
+    }
+    .our-services img{
+        height: 350px;
+    }
+    .service-card .card-body{
+        padding: 20px 10px;
+        height: 170px;
+    }
+    .service-card h3{
+        font-size: 1.8rem;
+        font-weight: 800;
+    }
+    .service-card p{
+        font-size: 1.5rem;
+    }
+    .service-card a{
+        font-size: 1.5rem;
+    }
+
+    .dot-icon{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* ...................................................................................................................... */
+
+@media only screen and (min-width: 1024px) {
+    .homepage-intro-caption h2{
+        font-size: 6.5rem;
+    }
+    .homepage-intro-caption p {
+        font-size: 1.8rem;
+    }
+    .homepage-about-details .about-details-bgImg{
+        height: 550px;
+    }
+
+    /* INDUSTRIES SECTION */
+
+    .industries-section{
+        margin-top: 200PX;
+    }
+    .industries-section .industry-card{
+        margin-top: 125px;
+    }
+    .industry-card .card-body{
+        transform: translate(50%, 180%);
+            /* padding-right: 0px; */
+        
+    }
+    .industries-details h5{
+        font-size: 2rem;
+    }
+    
+    .industries-details a{
+        font-size: 1.5rem;
+    }
+
+    .case-studies h5{
+        font-size: 1.5rem;
+    }
+
+    /* OUR SERVICE SECTION */
+  
+}
+
+/* ...................................................................................................................... */
+
+@media only screen and (min-width: 1025px) and (max-width:1439px) {
+    
+    /* HOMEPAGE INTRO */
+
+    .homepage-intro-caption h2{
+        font-size: 10rem;
+    }
+    .homepage-intro-caption p {
+        font-size: 2rem;
+    }
+    .homepage-intro-btn{
+        padding: 50px 25px;
+    }
+    
+    
+    /* CAREER SECTION */
+  .career-section{
+    position: absolute;
+    transform: translate(0%,-50%);
+    }
+
+    /* .our-services{
+        height: 700px;
+    }*/
+    .our-services img{
+        height: 330px;
+    } 
+    .service-card .card-body{
+        padding: 58px 30px;
+        height: 330px;
+    }
+    .service-card h3{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .service-card p{
+        font-size: 1.8rem;
+    }
+    .service-card a{
+        font-size: 1.8rem;
+    }
+
+}
+
+
+
+/* ...................................................................................................................... */
+
+@media only screen and (min-width: 1440px) {
+    .homepage-intro-caption h2{
+        font-size: 9rem;
+    }
+    .homepage-intro-caption p {
+        font-size: 2rem;
+    }
+
+    .industries-section .industry-card{
+        margin-top: 50px;
+    }
+
+    .industry-card .card-body{
+        transform: translate(20%, 120%);
+            /* padding-right: 0px; */
+        
+    }
+    .case-studies h5{
+        font-size: 2rem;
+    }
+
+     /* OUR SERVICE SECTION */
+     .our-services img{
+        height: 385px;
+    }
+}
+
+
+
+
+/* CONTACT US PAGE STYLE SECTION */
+/*............................................................................................................................*/
+
+.contact-us-page{
+    position: relative;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+
+.contact-form-header{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    padding: 25px;
+}
+
+.contact-form-user-details{
+    box-shadow: 3px 6px 16px #0000004D;
+    
+}
+
+.form-IMG{
+    /* width: 40%; */
+    height: auto;
+}
+
+.user-name{
+    margin-top: 0px;
+    padding: 15px;
+}
+
+.user-name input{
+    display: block;
+}
+
+.form-group{
+    margin-top: 0px;
+    padding: 15px;
+}
+.form-group input{
+    /* width: 650px; */
+    display: block;
+}
+
+.form-group textarea{
+    display: block;
+}
+
+.contact-form-header h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+
+.contact-form-header p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #4D4D4F;
+}
+
+label{
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #000000;
+    width: 100%;
+}
+
+.submit-button{
+    padding: 20px 0px;
+}
+
+.submit-button button{
+    background-color: #FD5D14;
+    width: 140px;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.contact-us-location{
+    margin-top: 100px;
+}
+
+
+/* CONTACT US PAGE LOCATION SECTION */
+/* .......................................................................................................................... */
+
+/* .about-us-page-location{
+    background-image:url('../images/About-Us-Page/amnet-about-us-our-locations.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+} */
+
+.about-us-page-location h1{
+    color: white;
+}
+
+.about-us-page-location-row .card{
+    position: relative;
+    /* width: 30rem; */
+    margin-top: 60px;
+    margin-bottom: 50px;
+    
+}
+
+.about-us-page-location-row .card-body{
+   height: 200px;
+    
+}
+
+.about-us-page-location-row .dot{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    transform: translate(-45%,-70%);
+}
+
+
+.location-details{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+.location-details h2{
+    margin-top: 60px;
+    font-weight: 800;
+    font-size: 2rem;
+    /* text-align: center; */
+}
+
+.location-details p{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.location-details a{
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 1.5rem;
+    /* text-align: center; */
+    text-decoration: underline;
+}
+
+
+
+/* CONTACT US PAGE RESPONSIVE STYLE SECTION */
+/*............................................................................................................................*/
+
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    
+    .contact-us-page{
+        margin-top: 80px;
+        flex-direction: column;
+    }
+
+    .form-IMG{
+        display: none;
+    }
+    .contact-form-header h1{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    
+    .contact-form-header p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #4D4D4F;
+    }
+    
+    .lastName{
+        margin-top: 15px;
+    }
+
+    label{
+        /* margin-top: 10px; */
+        font-size: 1.3rem;
+        font-weight: 800;
+        color: #000000;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    
+    .contact-us-page{
+        margin-top: 100px;
+        flex-direction: column;
+    }
+
+    .form-IMG{
+        display: none;
+    }
+    .contact-form-header h1{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    
+    .contact-form-header p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #4D4D4F;
+    }
+
+    .lastName{
+        margin-top: 20px;
+        /* padding: 25px 0px; */
+    }
+    
+    label{
+        font-size: 1.55rem;
+        font-weight: 800;
+        color: #000000;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    
+    .contact-us-page{
+        margin-top: 100px;
+        flex-direction: column;
+    }
+
+    .form-IMG{
+        display: none;
+    }
+    .contact-form-header h1{
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+    
+    .contact-form-header p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #4D4D4F;
+    }
+
+    .lastName{
+        margin-top: 20px;
+    }
+    
+    label{
+        font-size: 1.55rem;
+        font-weight: 800;
+        color: #000000;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .contact-us-page{
+        margin-top: 100px;
+        flex-direction: column;
+    }
+
+    .form-IMG{
+        display: none;
+    }
+    .contact-form-header h1{
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+    
+    .contact-form-header p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #4D4D4F;
+    }
+
+    .lastName{
+        margin-top: 25px;
+    }
+    
+    label{
+        font-size: 1.55rem;
+        font-weight: 800;
+        color: #000000;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1350px) {
+    
+    .contact-us-page{
+        margin-top: 100px;
+        flex-direction: row;
+    }
+
+    .form-IMG{
+        width: 90%;
+        /* height: auto; */
+    }
+    .contact-form-header h1{
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+    
+    .contact-form-header p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #4D4D4F;
+    }
+
+    .lastName{
+        margin-top: 0px;
+    }
+    
+    label{
+        font-size: 1.55rem;
+        font-weight: 800;
+        color: #000000;
+    }
+}
+
+
+@media only screen and (min-width: 1351px) and (max-width: 1439px) {
+    
+    .contact-us-page{
+        margin-top: 100px;
+        flex-direction: row;
+    }
+
+    .form-IMG{
+        width: 40%;
+        /* height: auto; */
+    }
+    .contact-form-header h1{
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+    
+    .contact-form-header p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #4D4D4F;
+    }
+
+    .lastName{
+        margin-top: 0px;
+    }
+    
+    label{
+        font-size: 1.55rem;
+        font-weight: 800;
+        color: #000000;
+    }
+}
+
+
+@media only screen and (min-width: 1440px){
+    
+    .contact-us-page{
+        margin-top: 100px;
+        flex-direction: row;
+    }
+
+    .contact-form-header{
+        padding: 25px 15px;
+    }
+
+    .form-IMG{
+        width: 41%;
+    }
+    .submit-button{
+        padding: 25px 0px;
+    }
+}
