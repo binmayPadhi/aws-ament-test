@@ -49,7 +49,7 @@ body{
 /* NAVIGATION BAR */
 /* ............................................................................................................................ */
 .navigation-bar{
-    /* position: fixed; */
+    position: fixed;
     background-color: #0C0C0C;
     width: 100%;
     height: 75px;
@@ -74,11 +74,11 @@ body{
     height: 54px;
 }
 
-.navbar-nav .nav-link{
+/* .navbar-nav .nav-link{
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     color:white;
-}
+} */
 
 .nav-item .contact-btn{
     font-family: 'Poppins', sans-serif;
@@ -87,7 +87,11 @@ body{
 }
 
 .navbar-nav .nav-item{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color:white;
     margin-right: 25px;
+    margin-top: 5px;
 }
 
 .custom-toggler{
@@ -709,6 +713,7 @@ hr{
     .navbar-collapse{
         background-color: black;
         padding: 5px;
+        z-index: 1;
     }
 
     /* HOMEPAGE-INTRO */
@@ -938,6 +943,7 @@ hr{
     .navbar-collapse{
         background-color: black;
         padding: 5px;
+        z-index: 1;
     }
 
     /* HOMEPAGE-INTRO */
@@ -1193,6 +1199,7 @@ hr{
     .navbar-collapse{
         background-color: black;
         padding: 5px;
+        z-index: 1;
     }
 
     /* HOMEPAGE-INTRO */
@@ -1405,6 +1412,7 @@ hr{
     .navbar-collapse{
         background-color:transparent;
         padding: 0px;
+        z-index: 1;
     }
     
     .industry-card .card-body{
@@ -1563,11 +1571,19 @@ hr{
 /*............................................................................................................................*/
 
 .contact-us-page{
-    position: relative;
+    /* position: relative; */
     margin-top: 80px;
     display: flex;
     flex-direction: row;
     /* justify-content: space-around; */
+}
+
+.contact-us-intro{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    background: #ffffff ;
+    opacity: 1;
 }
 
 .contact-form-header{
@@ -1929,5 +1945,801 @@ label{
     }
     .submit-button{
         padding: 25px 0px;
+    }
+}
+
+
+
+
+
+/* ABOUT US PAGE STYLE SECTION */
+/* ..................................................................................................................... */
+
+.about-us-intro-bg{
+    /* background-image: url('../images/About-Us-Page/amnet-about-us-bg.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+}
+
+.about-us-img-left{
+    float: left;
+    margin-right: 20px;
+}
+
+.about-us-img-right{
+    float: right;
+}
+
+.about-us-page-details{
+    margin-top: 60px;
+}
+
+.about-us-page-desc p{
+    font-size: 1.8rem;
+    color: #4D4D4F;
+}
+
+.about-us-page-quote{
+    margin-top: 70px;
+}
+
+.about-us-desc{
+    padding: 130px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-us-desc h2{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.about-us-desc p{
+    font-size: 2rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.about-us-details{
+    margin-top: 50px;
+}
+
+.about-us-desc-img-right h2{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.about-us-desc-img-right p{
+    font-size: 2rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+
+
+
+
+/* ABOUT US PAGE RESPONSIVE SECTION */
+/* .............................................................................................................................. */
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+
+    /* body{
+        overflow-x: hidden;
+    } */
+
+    .about-us-img-left{
+        float: none;
+    }
+    
+    .about-us-img-right{
+        float: none;
+    }
+
+    .location-details a{
+        margin-top: 15px;
+    }
+    
+
+    .about-us-page-desc p{
+        font-size: 1.5rem;
+        color: #4D4D4F;
+    }
+
+    .about-us-desc{
+        padding: 15px 0;
+    }
+
+    .about-us-desc-img-right{
+        margin-top: 0px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+    
+    .about-us-img-left{
+        float: none;
+    }
+    
+    .about-us-img-right{
+        float: none;
+    }
+    
+    .about-us-desc{
+        padding: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .about-us-img-left{
+        width: 100%;
+        float: none;
+    }
+    
+    .about-us-img-right{
+        width: 100%;
+        float: none;
+    }
+    
+    .about-us-desc{
+        padding: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    .about-us-img-left{
+        float: none;
+        width: 100%;
+    }
+    
+    .about-us-img-right{
+        float: none;
+        width: 100%;
+    }
+    
+    .about-us-desc{
+        padding: 30px 0px;
+    }
+}
+
+
+
+
+/* SERVICES PAGE STYLES */
+/* ................................................................................................ */
+
+.service-page-intro{
+    /* background-image:url('../images/Service-Page/amnet-our-services-bg.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.img-left{
+    float: left;
+    width: 430px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.img-right{
+    float: right;
+    width: 430px;
+    height: auto;
+}
+
+.service-list{
+    margin-top: 50px;
+    box-shadow: 3px 6px 16px #0000004D;
+}
+
+/* .service-page-img:nth-child(even) {
+    float: right;
+  } */
+
+.service-desc{
+    margin-left: 10px;
+    /* padding: 60px; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.service-desc h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 30px;
+}
+.service-desc p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.service-desc-long-text{
+    margin-left: 10px;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.service-desc-long-text h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.service-desc-long-text p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.service-desc-mid-text{
+    margin-left: 10px;
+    padding: 63px 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.service-desc-mid-text h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.service-desc-mid-text p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+
+/* SERVICE PAGE RESPONSIVE SECTION */
+/* ...................................................................................................................... */
+
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    
+    
+    .service{
+        margin: 0px 21px 0px 21px;
+    }
+    .img-left{
+        width: 100%;
+        float: none;
+    }
+    .img-right{
+        width: 100%;
+        float: none;
+    }
+    
+    .service-desc{
+        padding: 5px 20px;
+    }
+    .service-desc h2{
+        font-size: 1.8rem;
+    }
+    .service-desc p{
+        font-size: 1.2rem;
+    }
+
+    .service-desc-long-text{
+        padding: 20px;
+    }
+    .service-desc-long-text h2{
+        font-size: 1.8rem;
+    }
+    .service-desc-long-text p{
+        font-size: 1.2rem;
+    }
+
+    .service-desc-mid-text{
+        padding: 20px;
+    }
+    .service-desc-mid-text h2{
+        font-size: 1.8rem;
+    }
+    .service-desc-mid-text p{
+        font-size: 1.2rem;
+    }
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+
+.service{
+    margin: 0px 21px 0px 21px;
+}
+.img-left{
+    width: 100%;
+    float: none;
+}
+.img-right{
+    width: 100%;
+    float: none;
+}
+
+.service-desc{
+    padding: 5px 20px;
+}
+.service-desc h2{
+    font-size: 2rem;
+}
+.service-desc p{
+    font-size: 1.5rem;
+}
+
+.service-desc-long-text{
+    padding: 20px;
+}
+.service-desc-long-text h2{
+    font-size: 2rem;
+}
+.service-desc-long-text p{
+    font-size: 1.5rem;
+}
+
+.service-desc-mid-text{
+    padding: 20px;
+}
+.service-desc-mid-text h2{
+    font-size: 1.8rem;
+}
+.service-desc-mid-text p{
+    font-size: 1.2rem;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .service{
+        margin: 0px 21px 0px 21px;
+    }
+    .img-left{
+        width: 100%;
+        float: none;
+    }
+    .img-right{
+        width: 100%;
+        float: none;
+    }
+    
+    .service-desc{
+        padding: 5px 20px;
+    }
+
+    .service-desc-mid-text{
+        padding: 20px;
+    }
+  
+}
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1439px) {
+  
+    .service-desc{
+        padding: 50px 20px;
+    }
+    .service-desc-long-text{
+        padding:15px 5px;
+        
+    }
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .service-desc{
+        padding: 30px 20px;
+    }
+  
+    .service-desc-long-text{
+        padding:15px 5px;
+        
+    }
+}
+
+
+
+
+
+
+/* CASE STUDIES PAGE STYLES */
+/* .................................................................................................................... */
+
+.case-studies-intro{
+    /* background-image:url('../images/Case-Studies-Page/amnet-case-studies-bg.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+
+.case-studies-page-row{
+    margin-top: -30px;
+}
+
+.case-studies-page-row .case-studies-page-card{
+    border: none;
+}
+
+.case-studies-page-card{
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 3px 6px 16px #0000004D;
+    text-align: center;
+}
+
+.case-studies-icon{
+    position:absolute;
+    height: 132px;
+    width: 132px;
+    transform: translate(-50%, -80%);  
+}
+
+.case-studies-list{
+    margin-top: 60px;
+}
+
+.case-studies-page-card .card-body{
+    padding: 35px;
+}
+
+
+.case-studies-page-card h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.case-studies-page-card-info h4{
+    font-size: 1.8rem;
+    color: #FD5D14;
+    font-weight: 800;
+    margin-top: 25px;
+    text-align: left;
+}
+
+.case-studies-page-card-info p{
+    font-size: 1.5rem;
+    opacity: 1;
+    margin-top: 10px;
+    text-align: left;
+}
+
+
+
+
+/* CASE STUDIES PAGE RESPONSIVE SECTION */
+/* .............................................................................................................................. */
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    
+    .case-studies-icon{
+        position:absolute;
+        height: 80px;
+        width: 80px;
+        transform: translate(-45%, -90%);  
+    }
+    
+    
+    .case-studies-page-card h2{
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+    
+    .case-studies-page-card-info h4{
+        font-size: 1.4rem;
+      
+    }
+    
+    .case-studies-page-card-info p{
+        font-size: 1.2rem;
+      
+    }
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+    
+    .case-studies-icon{
+        position:absolute;
+        height: 80px;
+        width: 80px;
+        /* top: 50%; */
+        left: 38%;
+        transform: translate(0%, -90%);  
+    }
+    
+    
+    .case-studies-page-card h2{
+        margin-top: 30px;
+        font-size: 1.8rem;
+    }
+    
+    .case-studies-page-card-info h4{
+        font-size: 1.4rem;
+      
+    }
+    
+    .case-studies-page-card-info p{
+        font-size: 1.2rem;
+      
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .case-studies-icon{
+        position:absolute;
+        height: 100px;
+        width: 100px;
+        /* top: 50%; */
+        left: 43%;
+        transform: translate(0%, -90%);  
+    }
+    
+    
+    .case-studies-page-card h2{
+        margin-top: 20px;
+        font-size: 2rem;
+    }
+    
+    .case-studies-page-card-info h4{
+        font-size: 1.4rem;
+      
+    }
+    
+    .case-studies-page-card-info p{
+        font-size: 1.2rem;
+      
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    
+    .case-studies-icon{
+        position:absolute;
+        height: 100px;
+        width: 100px;
+        /* top: 50%; */
+        left: 43%;
+        transform: translate(0%, -90%);  
+    }
+    
+    
+    .case-studies-page-card-title{
+        font-size: 1.8rem;
+       
+    }
+    
+    .case-studies-page-card-info h4{
+        font-size: 1.4rem;
+      
+    }
+    
+    .case-studies-page-card-info p{
+        font-size: 1.2rem;
+      
+    }
+}
+
+
+
+
+
+/* CAREERS PAGE STYLES */
+/* ........................................................................................................................... */
+
+.careers-page-bg{
+    /* background-image:url('../images/careers-page/amnet-careers-bg.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.careers-page-details{
+    font-family: 'Poppins', sans-serif;
+    color: #4D4D4F;
+    margin-top: 20px;
+}
+
+.careers-page-details p{
+    font-size: 1.8rem;
+}
+
+.careers-details-lists{
+    margin-top: 20px;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.careers-details-lists li{
+    font-size: 1.8rem;
+    padding: 10px 0px;
+}
+
+
+.careers-our-culture-header{
+    margin-top: 60px;
+}
+
+.our-culture-section{
+    margin-top: 60px;
+    padding: 15px;
+}
+
+.culture-img-left .team-img{
+    margin-top: 8px;
+}
+
+.amnet-images:nth-child(2) {
+    margin-top: 8px;
+  }
+
+.job-desc-header{
+    margin-top: 60px;
+}
+
+.job-desc-lists{
+    margin-top: 60px;
+}
+
+.job-desc-lists .card{
+    box-shadow: 3px 6px 16px #0000004D;
+    border-style: none;
+    margin-top: 40px;
+}
+
+.collapse-content{
+    box-shadow: 3px 6px 16px #0000004D;
+    border-style: none;
+}
+
+.job-desc-lists button{
+    color: #000000;
+    font-size: 2rem;
+    padding: 25px 10px;
+    font-weight: 800;
+    border-style: none;
+}
+
+.job-desc-card .job-icon{
+    float: right;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #0154F7;
+}
+
+.job-desc-lists .fa-arrow-down{
+   font-size: 1.5rem;
+   text-align: center;
+   color: white;
+}
+
+.job-desc-card-info{
+    padding: 15px;
+}
+
+.job-desc-card-info h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.careers-page-details span a{
+    color: #000000;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+.job-desc-card-info .job-info-footer span a{
+    color: #FD5D14;
+    font-size: 1.8rem;
+}
+
+.job-desc-card-info h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+.job-desc-card-info p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+.job-desc-card-info h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.job-desc-card-info .job-info-lists{
+    padding-inline-start: 20px;
+}
+
+.job-desc-card-info li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #4D4D4F;
+    margin-top: 10px;
+}
+
+/* CAREERS PAGE RESPONSIVE STYLES */
+/* ........................................................................................................................... */
+
+@media only screen and (min-width: 320px) and (max-width: 424px) {
+    .careers-page-details p{
+        font-size: 1.5rem;
+        margin-top: 15px;
+    }
+
+    .careers-page-details li{
+        font-size: 1.5rem;
+    }
+
+    .careers-our-culture-header h1{
+        font-size: 2rem;
+    }
+
+    .culture-img-left{
+        margin-top: 8px;
+    }
+
+    .job-desc-card button{
+        font-size: 1.2rem;
+    }
+    .job-desc-lists .job-icon{
+        margin-top: 10px;
+    }
+
+    .collapse-content h4{
+        font-size: 1.5rem;
+    }
+
+    .collapse-content h5{
+        font-size: 1.8rem;
+    }
+    .collapse-content p{
+        font-size: 1.2rem;
+    }
+
+    .collapse-content h1{
+        font-size: 1.8rem;
+    }
+
+    .collapse-content li{
+        font-size: 1.2rem;
+    }
+
+    .job-desc-card-info .job-info-footer span a {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .job-desc-lists .job-icon{
+        margin-top: 15px;
+    }
+    .job-desc-card button {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .culture-img-left{
+        margin-top: 8px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .culture-img-left{
+        margin-top: 8px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    
+    .our-culture-section .team-img{
+        margin-top: 6px;
     }
 }

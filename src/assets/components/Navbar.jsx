@@ -3,6 +3,10 @@ import {Link} from "react-router-dom";
 import amnetLogo from "../images/AD-Logo.png";
 
 function Navbar(){
+  const navStyle = {
+    color : "white",
+    textDecoration : "none"
+}
     return (
         <>
             {/* <!-- NAVIGATION BAR --> */}
@@ -23,15 +27,21 @@ function Navbar(){
                 {/* <!-- <li className="nav-item active">
                   <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
                 </li> --> */}
-                {/* <li className="nav-item">
-                  <a className="nav-link" href="./aboutUs.html">About Us</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="./services.html">Services</a>
-                  </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="./caseStudies.html">Case Studies</a>
-                </li> */}
+                  <Link to = "/aboutus" style={navStyle}>
+                    <li className="nav-item" >
+                    About Us
+                    </li>
+                </Link>
+                <Link to = "/services" style={navStyle}>
+                    <li className="nav-item" >
+                    Services
+                    </li>
+                </Link>
+                <Link to = "/casestudies" style={navStyle}>
+                    <li className="nav-item" >
+                    Case Studies
+                    </li>
+                </Link>
                 {/* <!-- <li className="nav-item">
                   <a className="nav-link " href="#">Blog</a>
                 </li> --> */}
