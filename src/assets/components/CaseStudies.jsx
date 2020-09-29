@@ -1,6 +1,8 @@
 import React from "react";
 import CaseStudiesData from "../Data/CaseStudies-Data/CaseStudiesData";
 import CaseStudiesBG from "../images/Case-Studies-Page/amnet-case-studies-bg.jpg";
+import {Link} from "react-scroll";
+import {NavLink} from "react-router-dom";
 
 function CaseStudies (){
 
@@ -28,8 +30,19 @@ function CaseStudies (){
                             </p>
 
                             <div className="homepage-intro-btn">
-                                <button type="button" className="btn btn-primary">Learn more</button>
-                                <button type="button" className="btn btn-default">Contact Us</button>
+                            <Link
+                                activeClass="active"
+                                to="details"
+                                spy={true}
+                                smooth={true}
+                                offset={0}
+                                duration={500}>
+                                <button type="button" className="btn btn-primary learn-more-btn">Learn more</button>
+                            </Link>
+                        
+                            <NavLink to="/contactus">
+                                <button type="button" className="btn btn-default" >{`Contact Us ->`}</button>
+                            </NavLink>
                             </div>
                         </div>
                     </div>

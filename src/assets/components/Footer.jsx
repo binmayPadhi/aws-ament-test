@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function Footer (){
     return (
         <>
@@ -20,10 +21,10 @@ function Footer (){
             <div className="col-lg-2 col-md-4 col-sm-4 ">
                 <ul className="useful-links">
                     <h3>References</h3>
-                    <li><a href="./aboutUs.html">About Us</a></li>
-                    <li><a href="./services.html">Services</a></li>
-                    <li><a href="./caseStudies.html">Case Studies</a></li>
-                    <li><a href="./careers.html">Careers</a></li>
+                    <li><a href="/aboutUs">About Us</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/caseStudies">Case Studies</a></li>
+                    {/* <li><a href="./careers.html">Careers</a></li> */}
                 </ul>
             </div>
             <hr></hr>

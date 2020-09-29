@@ -38,7 +38,9 @@ function AboutUs (){
                             duration={500}>
                             <button type="button" className="btn btn-primary learn-more-btn">Learn more</button>
                         </Link>
-                        <button type="button" className="btn btn-default">Case Studies</button>
+                        <a href="/casestudies">
+                            <button type="button" className="btn btn-default">{`Case Studies ->`}</button>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -26,8 +26,10 @@ function CareerSection (){
                             that make a difference! Come work with us!
                         </p>
                     
-                        <button type="button" className="btn btn-primary">Careers</button>
-                        <button type="button" className="btn btn-default">Contact Us</button>
+                        {/* <button type="button" className="btn btn-primary">Careers</button> */}
+                        <a href="/contactus">
+                            <button type="button" className="btn btn-default" >Contact Us</button>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@ function SolutionsServices(){
         <>
             {/* <!--HOMEPAGE AI PRODUCT, SOLUTIONS AND SERVICES--> */}
     
-    <div className="solutions-services all-margin">
+    <div className="solutions-services all-margin" >
         <div className="row">
             <div className="col-xl-6 col-lg-12 col-sm-12 solutions-services-details">
                 <h6>MAKE A DIFFERENCE</h6>

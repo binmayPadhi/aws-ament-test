@@ -41,7 +41,7 @@ function ContactUs (){
         }
         else{
           alert("You have entered an invalid email or name, Please use only alphabets for name and enter valid email!")
-          return (userDetails.email.focus());
+          return (false);
         };
     }
 

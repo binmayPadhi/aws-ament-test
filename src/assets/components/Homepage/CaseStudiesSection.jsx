@@ -1,6 +1,7 @@
 import React from "react";
 import CaseStudiesSectionData from "../../Data/Homepage-Data/CaseStudiesSectionData";
 
+
 function CaseStudiesSection (){
     return (
         <>
@@ -28,7 +29,7 @@ function CaseStudiesSection (){
                 )
             })}
         </div>
-        <a href="./caseStudies.html" className="explore-all-link">Explore All</a>
+        <a href="/caseStudies" className="explore-all-link">Explore All</a>
     </div>
         </>
     )

@@ -44,19 +44,21 @@ function Homepage(){
                             duration={500}>
                             <button type="button" className="btn btn-primary learn-more-btn">Learn more</button>
                         </Link>
-                            <button type="button" className="btn btn-default">Case Studies</button>
+                            <a href="/casestudies" id ="details">
+                                <button type="button" className="btn btn-default">{`Case Studies ->`}</button>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
 
             {/* <!-- HOMEPAGE-QUOTE --> */}
-            <div className="contaner-fluid homepage-quote p-3" id ="details">
+            {/* <div className="contaner-fluid homepage-quote p-3"">
                 <blockquote className="blockquote text-center">
                     <p className="mb-0">"AI-Enabled tools will generate $2.9 trillion in business value by 2021"</p>
                     <p className="blockquote-author">~ U D A C I T Y</p>
                 </blockquote>
-            </div>
+            </div> */}
 
             {/* <!-- HOMEPAGE-AI-SOLUTION AND SERVICES --> */}
             <SolutionsServices />
@@ -71,7 +73,7 @@ function Homepage(){
             <OurServices />
 
             {/* <!--OUR PARTNER--> */}
-            <OurPartner />
+            {/* <OurPartner /> */}
 
             {/* <!--CASE STUDIES SECTION--> */}
             <CaseStudiesSection />

@@ -2,6 +2,7 @@ import React from "react";
 import OurServicesData from "../../Data/Homepage-Data/OurServicesData";
 import AiServiceIMG from "../../images/HomePage/our-services/amnet-ai-ml.jpg";
 import ourServiceBG from "../../images/HomePage/our-services/amnet-our-services-bg.png";
+import {Link} from "react-router-dom";
 
 function OurServices (){
 
@@ -48,7 +49,8 @@ function OurServices (){
                                                     <p className="card-text">Take advantage of the data-driven mindset that leverages cutting-edge 
                                                         technology to develop world className solutions.
                                                     </p>
-                                                    {/* <a href="./services.html#AI-ML" className="learn-more-services">Learn More -></a> */}
+                                                    {/* <Link to="/services#AI-ML" className="learn-more-services">Learn More</Link> */}
+                                                    <a href="./services#AI-ML" className="learn-more-services">Learn More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -67,7 +69,8 @@ function OurServices (){
                                                         <div className="card-body">
                                                             <h3 className="card-title">{serviceList.serviceTitle}</h3>
                                                             <p className="card-text">{serviceList.serviceDesc}</p>
-                                                            {/* <a href="./services.html#AI-ML" className="learn-more-services">Learn More -></a> */}
+                                                            {/* <Link to ={`/services#${serviceList.id}`} className="learn-more-services">Learn More</Link> */}
+                                                            <a href={`./services#${serviceList.id}`} className="learn-more-services">Learn More</a>
                                                         </div>
                                                     </div>
                                                 </div>

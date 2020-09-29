@@ -74,25 +74,16 @@ body{
     height: 54px;
 }
 
-/* .navbar-nav .nav-link{
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
-    color:white;
-} */
 
 .nav-item .contact-btn{
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color:black;
 }
 
-.navbar-nav .nav-item{
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
-    color:white;
-    margin-right: 25px;
-    margin-top: 5px;
-}
+.navbar__link--active {
+    color: red;
+  }
 
 .custom-toggler{
     background-color: black;
@@ -110,11 +101,6 @@ body{
 .custom-toggler.navbar-toggler {
     border-color: none;
 } 
-
-.contact-btn{
-    background-color: white;
-    font-family: 'Poppins', sans-serif;
-}
 
 /* FOR STICKY NAVBAR */
 .sticky {

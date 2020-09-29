@@ -1,6 +1,8 @@
 import React from "react";
 import ServicesData from "../Data/Services-Data/ServicesData";
 import ServiceBG from "../images/Service-Page/amnet-our-services-bg.jpg";
+import {Link} from "react-scroll";
+import {NavLink} from "react-router-dom";
 
 function Services (){
 
@@ -26,8 +28,18 @@ function Services (){
                         </p>
 
                         <div className="homepage-intro-btn">
-                            <button type="button" className="btn btn-primary" >Learn more</button>
-                            <button type="button" className="btn btn-default" >Contact Us</button>
+                        <Link
+                            activeClass="active"
+                            to="details"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration={500}>
+                            <button type="button" className="btn btn-primary learn-more-btn">Learn more</button>
+                        </Link>
+                            <NavLink to="/contactus">
+                                <button type="button" className="btn btn-default" >{`Contact Us ->`}</button>
+                            </NavLink>
                         </div>
                     </div>
                 </div>
@@ -46,7 +58,7 @@ function Services (){
 
                     {ServicesData.map(service => {
                         return(
-                            <div className="col-12 service-list p-0 clearfix" key = {service.id}>
+                            <div className="col-12 service-list p-0 clearfix" key = {service.id} id={service.id}>
                                 <img className="img-fluid img-left service-page-img" src= {service.serviceIMG} alt="Service" />
                                 <div className="service-desc">
                                     <h2>{service.title}</h2>
