@@ -1,6 +1,5 @@
 import React from "react";
-import JobTitleData from "../../Data/Careers-Data/JobTitleData";
-import JobContents from "../Careers/JobContents";
+import JobDetails from "./Job Openings/JobDetails";
 
 function JobLists(){
     return (
@@ -13,24 +12,7 @@ function JobLists(){
             </div>
 
             <div class="job-desc-lists all-margin">
-
-                {JobTitleData.map(jobList => {
-                    return (
-                        <div class="card job-desc-card " key = {jobList.id}>
-                            <div class="card-header" data-toggle="collapse" data-target={jobList.id} id="job-desc-2">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link"  aria-expanded="true" aria-controls="data-engineer">
-                                        {jobList.jobTitle}
-                                    </button>
-                                    <span class="job-icon"><i class="fa fa-arrow-down" aria-hidden="true"></i></span>
-                                </h5>
-                            </div>
-                        </div>
-                    )
-                })}
-
-                {/* JOB CONTENTS */}
-                <JobContents />
+                <JobDetails />
             </div>
         </>
     )

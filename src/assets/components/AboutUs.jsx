@@ -34,7 +34,7 @@ function AboutUs (){
                             to="details"
                             spy={true}
                             smooth={true}
-                            offset={0}
+                            offset={-100}
                             duration={500}>
                             <button type="button" className="btn btn-primary learn-more-btn">Learn more</button>
                         </Link>

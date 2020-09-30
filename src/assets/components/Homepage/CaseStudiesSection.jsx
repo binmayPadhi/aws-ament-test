@@ -22,7 +22,7 @@ function CaseStudiesSection (){
                                 <span className="dot-icon"><img className="img-fluid" src={list.caseStudiesIcon} alt={list.caseStudiesTitle} /> </span>
                                 <h5 className="card-title">{list.caseStudiesTitle}</h5>
                                 <p>{list.caseStudiesDesc}</p>
-                                {/* <a href="./caseStudies.html#propensity-modelling">Learn More -></a> */}
+                                <a href={`./casestudies#${list.id}`}>{`Learn More ->`}</a>
                             </div>
                         </div>
                     </div>

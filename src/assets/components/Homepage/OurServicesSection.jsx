@@ -47,10 +47,10 @@ function OurServices (){
                                                 <div className="card-body">
                                                     <h3 className="card-title">AI / ML SERVICES</h3>
                                                     <p className="card-text">Take advantage of the data-driven mindset that leverages cutting-edge 
-                                                        technology to develop world className solutions.
+                                                        technology to develop world class solutions.
                                                     </p>
                                                     {/* <Link to="/services#AI-ML" className="learn-more-services">Learn More</Link> */}
-                                                    <a href="./services#AI-ML" className="learn-more-services">Learn More</a>
+                                                    <a href="./services#AI-ML" className="learn-more-services">{`Learn More ->`}</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -70,7 +70,7 @@ function OurServices (){
                                                             <h3 className="card-title">{serviceList.serviceTitle}</h3>
                                                             <p className="card-text">{serviceList.serviceDesc}</p>
                                                             {/* <Link to ={`/services#${serviceList.id}`} className="learn-more-services">Learn More</Link> */}
-                                                            <a href={`./services#${serviceList.id}`} className="learn-more-services">Learn More</a>
+                                                            <a href={`./services#${serviceList.id}`} className="learn-more-services">{`Learn More ->`}</a>
                                                         </div>
                                                     </div>
                                                 </div>

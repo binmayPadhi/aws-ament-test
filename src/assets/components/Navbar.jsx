@@ -19,9 +19,9 @@ function Navbar(){
     <div className = "navigation-bar" id="navbar">
         <nav className="navbar navbar-expand-lg all-margin">
             {/* <!-- navigation bar logo --> */}
-            <NavLink to = "/" className="navbar-brand">
+            <a href = "/" className="navbar-brand">
               <img className="img-fluid logo" src= {amnetLogo} alt="logo" />
-            </NavLink>
+            </a>
             <button className="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <div className="navbar-toggler-icon"></div>
               <div className="navbar-toggler-icon"></div>
@@ -33,8 +33,8 @@ function Navbar(){
                 {/* <!-- <li className="nav-item active">
                   <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
                 </li> --> */}
-                  <NavLink to = "/aboutus" style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
-                    
+                <NavLink to = "/aboutus" style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
+
                    About Us
                     
                 </NavLink>
@@ -51,9 +51,11 @@ function Navbar(){
                 {/* <!-- <li className="nav-item">
                   <a className="nav-link " href="#">Blog</a>
                 </li> --> */}
-                {/* <li className="nav-item">
-                    <a className="nav-link " href="./careers.html">Careers</a>
-                </li> */}
+                <NavLink  to = "/careers" style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
+                    
+                    Careers
+                    
+                </NavLink>
                 <NavLink to = "/contactus" style={navStyle}>
                 <button  type="button" className="btn btn-default  contact-btn">Contact Us</button>
                 </NavLink>

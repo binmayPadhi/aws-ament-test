@@ -2,12 +2,24 @@ import React from "react";
 import CareersDetails from "./Careers/CareersDetails";
 import OurCulture from "./Careers/OurCulture";
 import JobLists from "./Careers/JobLists";
+import {Link} from "react-scroll";
+import CareersBG from "../images/careers-page/amnet-careers-bg.jpg"
+
 
 function Careers(){
+
+    const careerStyle = {
+        backgroundImage:`url(${CareersBG})`,
+        backgroundAttachment: "scroll",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        position : "relative"
+    }
+
     return (
         <>
             {/* <!-- Careers Page intro --> */}
-            <div class="homepage-intro container-fluid careers-page-bg">
+            <div class="homepage-intro container-fluid careers-page-bg" style={careerStyle}>
                 <div class="vr "></div>
                 <div class="row all-margin">
             
@@ -17,9 +29,19 @@ function Careers(){
                             Come join the fastest growing company in the region working in the hottest technology sector!
                         </p>
 
-                        <div class="homepage-intro-btn" id="details">
-                            <button type="button" class="btn btn-primary learn-more-btn">Learn more</button>
-                            <button type="button" class="btn btn-default">Contact Us</button>
+                        <div class="homepage-intro-btn">
+                        <Link
+                            activeClass="active"
+                            to="details"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>
+                            <button type="button" className="btn btn-primary learn-more-btn">Learn more</button>
+                        </Link>
+                            <a href="/contactus">
+                                <button type="button" className="btn btn-default" >{`Contact Us ->`}</button>
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -59,7 +59,7 @@ function CaseStudies (){
                     <div className="row case-studies-page-row ml-0 mr-0">
                         {CaseStudiesData.map(caseStudy => {
                             return (
-                                <div className="col-12 case-studies-list p-0" id={caseStudy.title} key ={caseStudy.id}>
+                                <div className="col-12 case-studies-list p-0" id={caseStudy.id} key ={caseStudy.id}>
                                     <div className="card case-studies-page-card">
                                         <img className="img-fluid card-img-top" src={caseStudy.caseStudiesIMG} alt ="case-studies"/>
                                         <div className="card-body">

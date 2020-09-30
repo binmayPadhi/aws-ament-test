@@ -40,11 +40,11 @@ function Homepage(){
                             to="details"
                             spy={true}
                             smooth={true}
-                            offset={0}
+                            offset={-100}
                             duration={500}>
                             <button type="button" className="btn btn-primary learn-more-btn">Learn more</button>
                         </Link>
-                            <a href="/casestudies" id ="details">
+                            <a href="/casestudies">
                                 <button type="button" className="btn btn-default">{`Case Studies ->`}</button>
                             </a>
                         </div>

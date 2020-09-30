@@ -25,8 +25,10 @@ function CareerSection (){
                         <p>We are on a mission to solve complex problems and provide solutions 
                             that make a difference! Come work with us!
                         </p>
-                    
-                        {/* <button type="button" className="btn btn-primary">Careers</button> */}
+
+                        <a href="/careers">
+                        <button type="button" className="btn btn-primary">Careers</button>
+                        </a>
                         <a href="/contactus">
                             <button type="button" className="btn btn-default" >Contact Us</button>
                         </a>

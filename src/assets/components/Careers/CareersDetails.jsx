@@ -6,7 +6,7 @@ function CareersDetails (){
         <>
             {/* <!-- CAREER-PAGE-DETAILS-SECTION --> */}
 
-            <div class="careers-page-header text-center mt-5">
+            <div class="careers-page-header text-center mt-5" id="details">
                 <h3 class="section-header" >LET'S DO IT</h3>
                 <h1 class="section-title mt-3">Working With Us</h1>     
             </div>

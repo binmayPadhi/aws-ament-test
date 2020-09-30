@@ -10,7 +10,7 @@ import riskAnalyticsIcon from "../../images/Case-Studies-Page/amnet-risk-analyti
 
 const caseStudiesData = [
     {
-        id : 1,
+        id : "propensity-modelling",
         title : "PROPENSITY MODELLING & RECOMMENDATION SYSTEM",
         requirement : "REQUIREMENT",
         solution : "SOLUTION APPROACH",
@@ -24,7 +24,7 @@ const caseStudiesData = [
         caseStudiesIcon : propensityIcon
     },
     {
-        id : 2,
+        id : "preventive-maintenance",
         title : "PREVENTIVE MAINTENANCE",
         requirement : "REQUIREMENT",
         solution : "SOLUTION APPROACH",
@@ -38,7 +38,7 @@ const caseStudiesData = [
         caseStudiesIcon : preventiveIcon
     },
     {
-        id : 3,
+        id : "virtual-shopping",
         title : "VIRTUAL SHOPPING ASSISTANT",
         requirement : "REQUIREMENT",
         solution : "SOLUTION APPROACH",
@@ -46,13 +46,13 @@ const caseStudiesData = [
         benefits : "BENEFITS OBSERVED",
         requirementDesc : "Develop a virtual shopping assistant to help shoppers find the best products in the easiest way across multiple domains like retail, eCommerce and healthcare.",
         solutionDesc : "Conversational AI & Visual Search to help users intuitively find what they're searching for.",
-        highlightDesc : "Deep learning techniques like Encoder-Decoder models, RNNs & deep Seq-2-Seq models to create conversational assistants. Used deep CNN to create image tagging and openCV\CNN classification to match similar products to implement visual search.",
+        highlightDesc : `Deep learning techniques like Encoder-Decoder models, RNNs & deep Seq-2-Seq models to create conversational assistants. Used deep CNN to create image tagging and openCV\\CNN classification to match similar products to implement visual search.`,
         benefitDesc : "Enhanced customer shopping experience by providing customer centric search. Could run personalized loyalty programs that resulted in improved sales and customer loyalty.",
         caseStudiesIMG : virtualShoppingIMG,
         caseStudiesIcon : virtualShoppingIcon
     },
     {
-        id : 4,
+        id : "risk-analytics",
         title : "RISK ANALYTICS",
         requirement : "REQUIREMENT",
         solution : "SOLUTION APPROACH",
@@ -64,7 +64,8 @@ const caseStudiesData = [
         benefitDesc : "Reduces risk of loss, higher interest incomes, lower sales and operating costs, reduced costs associated with risk mitigation, improved capital efficiency.",
         caseStudiesIMG : riskAnalyticsIMG,
         caseStudiesIcon : riskAnalyticsIcon
-    }
+    },
+    
 ]
 
 export default caseStudiesData;
