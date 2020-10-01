@@ -7,13 +7,13 @@ function CareerSection (){
         backgroundImage:`url(${careerBG})`,
         backgroundAttachment: "scroll",
         backgroundRepeat: "no-repeat",
-        backgroundSize: "cover" 
+        backgroundSize: "cover",
     }
 
     return (
         <>
             {/* <!--CAREER SECTION--> */}
-            <div className="career" style = {careerStyle}>
+            <div className="career career-bg" style = {careerStyle}>
                 <div className="career-section all-margin">
         
                 <div className="career-section-row row g-0">

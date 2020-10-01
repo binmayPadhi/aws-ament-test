@@ -46,7 +46,7 @@ const caseStudiesData = [
         benefits : "BENEFITS OBSERVED",
         requirementDesc : "Develop a virtual shopping assistant to help shoppers find the best products in the easiest way across multiple domains like retail, eCommerce and healthcare.",
         solutionDesc : "Conversational AI & Visual Search to help users intuitively find what they're searching for.",
-        highlightDesc : `Deep learning techniques like Encoder-Decoder models, RNNs & deep Seq-2-Seq models to create conversational assistants. Used deep CNN to create image tagging and openCV\\CNN classification to match similar products to implement visual search.`,
+        highlightDesc : `Deep learning techniques like Encoder-Decoder models, RNNs & deep Seq-2-Seq models to create conversational assistants. Used deep CNN to create image tagging and open CV\\CNN classification to match similar products to implement visual search.`,
         benefitDesc : "Enhanced customer shopping experience by providing customer centric search. Could run personalized loyalty programs that resulted in improved sales and customer loyalty.",
         caseStudiesIMG : virtualShoppingIMG,
         caseStudiesIcon : virtualShoppingIcon

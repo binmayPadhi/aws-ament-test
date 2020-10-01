@@ -44,7 +44,7 @@ const jobDetailsData = [
     },
     {
         id : "data-visualization",
-        jobTitle : "Data Visualization / Power BI",
+        jobTitle : "Data Visualization",
         role : "About the Role",
         roleDesc : "The Advanced Data Analytics Visualizer (Business Intelligence Lead) should have strong knowledge on advanced Power BI concepts and will define, develop and deploy dashboards, reports and visualizations to enable metrics-driven decisions to support business needs. The Advanced Data Analytics Visualizer (Business Intelligence Developer) will be able to understand business activities in a multiple business/functional area and be able to capture requirements, identify required data sources, design and develop reports using BI reporting tools, keeping in mind data governance and compliance guidelines.",
         responsibilities : "Your Key Responsibilities",
@@ -139,7 +139,7 @@ const jobDetailsData = [
                 list : "Document defects, reasons, find trends and minimize the defects from happening again."
             },
             {
-                list : "Provide training  Maintain system documentation and user guides."
+                list : "Provide training."
             },
             {
                 list : "Maintain system documentation and user guides."

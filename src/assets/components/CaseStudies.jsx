@@ -41,7 +41,7 @@ function CaseStudies (){
                             </Link>
                         
                             <NavLink to="/contactus">
-                                <button type="button" className="btn btn-default" >{`Contact Us ->`}</button>
+                                <button type="button" className="btn btn-default" >{`Contact Us -`}&gt;</button>
                             </NavLink>
                             </div>
                         </div>

@@ -13,6 +13,7 @@ function JobDetails (){
                             <h5 class="mb-0">
                                 <button class="btn btn-link"  aria-expanded="true" aria-controls="data-engineer">
                                     {data.jobTitle}
+                                    {/* {data.jobTitle.length > 15 ? data.jobTitle.substring(0,15)+"..." : data.jobTitle } */}
                                 </button>
                                 <span class="job-icon"><i class="fa fa-arrow-down" aria-hidden="true"></i></span>
                             </h5>
@@ -21,6 +22,7 @@ function JobDetails (){
                     {/* <!--COLLAPSE CONTENT--> */}
                     <div id={data.id} class="collapse collapse-content" aria-labelledby="job-desc-2" data-parent="#accordion">
                         <div class="card-body">
+                            {/* <h1 className = "text-center">{data.jobTitle}</h1> */}
                             <div class="job-desc-card-info">
                                 <h1>{data.role}</h1>
                                 <p>

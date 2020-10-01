@@ -14,7 +14,7 @@ function CareersDetails (){
             <div class="careers-page-details all-margin">
                 <p>Amnet Digital is made up of a bunch of passionate people whose sole focus is to reimagine & 
                     redefine products and solutions. Be a part of fun-loving and people friendly company! Write to 
-                    <span><a href="mailto:careers@amnetdigital.com">careers@amnetdigital.com</a></span>.
+                    <span><a href="mailto:careers@amnetdigital.com"> careers@amnetdigital.com</a></span>.
                 </p>
 
                 <div class="careers-page-details-list-row row">

@@ -3,6 +3,13 @@ import ContactUsIMG from "../images/Contact-Us-Page/amnet-contact-us.jpg";
 import OurLocation from "./OurLocation";
 
 function ContactUs (){
+    const tooltipStyle = {
+        color : "black",
+        textDecoration : "none",
+        fontSize : "1rem",
+        fontFamily: `'Poppins', sans-serif`,
+        padding: "5px"
+    }
 
     const [userDetails, setUserDetails] = useState({
         fName : "",
@@ -10,6 +17,7 @@ function ContactUs (){
         email : "",
         message : ""
     });
+
 
     function handleChange (event){
         const {value, name} = event.target;
@@ -46,7 +54,7 @@ function ContactUs (){
     }
 
     return (
-        <>
+    <>
         <div className="contact-us-intro container-fluid">
 
         </div>
@@ -80,7 +88,10 @@ function ContactUs (){
                             value = {userDetails.fName}
                             placeholder="First name" 
                             id="first-name" required /></label>
-                          
+
+                            {/* <div className="showhide" style={tooltipStyle}>{/^[ ]+$/i.test(userDetails.fName)?" " : /^[a-z]+$/i.test(userDetails.fName)?" " : " "}</div> */}
+                            <div style = {/^$/.test(userDetails.fName)?{display : "none"} : /^[a-z]+$/i.test(userDetails.fName) ? {display : "none"} : {display : "block",fontSize:"1rem",color:"red"}}>Use only alphabets</div>
+
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 lastName">
                             <label>Last Name*
@@ -94,6 +105,7 @@ function ContactUs (){
                             placeholder="Last name" 
                             id="last-name" required />
                             </label>
+                            <div style = {/^$/.test(userDetails.lName)?{display : "none"} : /^[a-z]+$/i.test(userDetails.lName) ? {display : "none"} : {display : "block",fontSize:"1rem",color:"red"}}>Use only alphabets</div>
                         </div>
                     </div>
 
@@ -111,6 +123,7 @@ function ContactUs (){
                       aria-describedby="emailHelp" 
                       placeholder="Enter email" required />
                       </label>
+                      <div style = {/^$/.test(userDetails.email)?{display : "none"} : /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i.test(userDetails.email) ? {display : "none"} : {display : "block",fontSize:"1rem",color:"red"}}>Enter Valid Email</div>
                     </div>
 
                     {/* <!-- MESSAGE --> */}

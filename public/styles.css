@@ -65,19 +65,15 @@ body{
 }
 
 .navbar-nav .active a{
-    color: #19AF8F;    
+    color: #9de0d2;    
 }
 
 .navbar-brand .logo{
     width: 244px;
     height: 54px;
 }
-
-
-.nav-item .contact-btn{
-    font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
-    color:black;
+.navbar-nav .menu{
+    padding: 0px 20px;
 }
 
 .navbar__link--active {
@@ -696,7 +692,7 @@ hr{
         text-align: center;
     }
     .navbar-collapse{
-        background-color: black;
+        background-color:  #0C0C0C;
         padding: 5px;
         z-index: 1;
     }
@@ -839,9 +835,6 @@ hr{
         position: relative;
         transform: translate(0%,-30%);
     }
-    .career-bg-img{
-        display: none;
-    }
 
     .career-details button{
         width: 200px;
@@ -926,7 +919,7 @@ hr{
         text-align: center;
     }
     .navbar-collapse{
-        background-color: black;
+        background-color:  #0C0C0C;
         padding: 5px;
         z-index: 1;
     }
@@ -1182,7 +1175,7 @@ hr{
         text-align: center;
     }
     .navbar-collapse{
-        background-color: black;
+        background-color:  #0C0C0C;
         padding: 5px;
         z-index: 1;
     }
@@ -1888,7 +1881,7 @@ label{
     }
 
     .form-IMG{
-        width: 40%;
+        width: 46%;
         /* height: auto; */
     }
     .contact-form-header h1{
@@ -1926,10 +1919,10 @@ label{
     }
 
     .form-IMG{
-        width: 41%;
+        width: 42%;
     }
     .submit-button{
-        padding: 25px 0px;
+        padding: 20px 0px;
     }
 }
 
@@ -2105,7 +2098,7 @@ label{
 .img-left{
     float: left;
     width: 430px;
-    height: auto;
+    height: 100% !important;
     margin-right: 15px;
 }
 
@@ -2184,6 +2177,7 @@ label{
     }
     .img-left{
         width: 100%;
+        height: auto !important;
         float: none;
     }
     .img-right{
@@ -2230,6 +2224,7 @@ label{
 }
 .img-left{
     width: 100%;
+    height: auto !important;
     float: none;
 }
 .img-right{
@@ -2275,6 +2270,7 @@ label{
     }
     .img-left{
         width: 100%;
+        height: auto !important;
         float: none;
     }
     .img-right{
@@ -2296,7 +2292,7 @@ label{
 @media only screen and (min-width: 1025px) and (max-width: 1439px) {
   
     .service-desc{
-        padding: 50px 20px;
+        padding: 20px 20px;
     }
     .service-desc-long-text{
         padding:15px 5px;
@@ -2307,7 +2303,7 @@ label{
 
 @media only screen and (min-width: 1440px) {
     .service-desc{
-        padding: 30px 20px;
+        padding: 10px 20px;
     }
   
     .service-desc-long-text{
