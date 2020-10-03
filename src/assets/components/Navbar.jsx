@@ -10,7 +10,7 @@ function Navbar(){
     // marginRight: "25px",
     fontFamily: `'Poppins', sans-serif`,
     marginTop: "5px",
-    padding: "10px 15px"
+    padding: "10px 15px",
 }
 const contactUsButtonStyle = {
   display: "inline-block",
@@ -57,12 +57,12 @@ const contactUsButtonStyle = {
                     Case Studies
                     
                 </NavLink>
-                <NavLink  to = "/careers" onClick={() => window.location.href="/careers"} style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
+                <NavLink  to = "/careers"  onClick={() => window.location.href="/careers"} style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                     
                     Careers
                     
                 </NavLink>
-                <NavLink  to = "/contactus" onClick={() => window.location.href="/contactus"} style={contactUsButtonStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
+                <NavLink  to = "/contactus" onClick={() => window.location.href="/contactus"} className="contactus-button" activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                     
                     Contact Us
                     

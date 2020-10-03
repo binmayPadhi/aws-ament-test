@@ -8,48 +8,48 @@ function JobDetails (){
         {JobDetailsData.map(data => {
             return(
                 <>
-                    <div class="card job-desc-card " data-toggle="collapse" data-target={`#${data.id}`}>
-                        <div class="card-header" id="job-desc-2">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link"  aria-expanded="true" aria-controls="data-engineer">
+                    <div className="card job-desc-card " data-toggle="collapse" data-target={`#${data.id}`} key = {data.id}>
+                        <div className="card-header" id="job-desc-2">
+                            <h5 className="mb-0">
+                                <button className="btn btn-link"  aria-expanded="true" aria-controls="data-engineer">
                                     {data.jobTitle}
                                     {/* {data.jobTitle.length > 15 ? data.jobTitle.substring(0,15)+"..." : data.jobTitle } */}
                                 </button>
-                                <span class="job-icon"><i class="fa fa-arrow-down" aria-hidden="true"></i></span>
+                                <span className="job-icon"><i className="fa fa-arrow-down" aria-hidden="true"></i></span>
                             </h5>
                         </div>
                     </div>
                     {/* <!--COLLAPSE CONTENT--> */}
-                    <div id={data.id} class="collapse collapse-content" aria-labelledby="job-desc-2" data-parent="#accordion">
-                        <div class="card-body">
+                    <div id={data.id} className="collapse collapse-content" aria-labelledby="job-desc-2" data-parent="#accordion">
+                        <div className="card-body">
                             {/* <h1 className = "text-center">{data.jobTitle}</h1> */}
-                            <div class="job-desc-card-info">
+                            <div className="job-desc-card-info">
                                 <h1>{data.role}</h1>
                                 <p>
                                     {data.roleDesc}
                                 </p>
                       
                                 <h1>{data.responsibilities}</h1>
-                                <ul class="job-info-lists">
+                                <ul className="job-info-lists">
                                     {data.responsibilitiesList.map(list => {
                                         return(
-                                            <li>
+                                            <li key={list.id}>
                                                 {list.list}
                                             </li>
                                         )
                                     })}
                                 </ul>
                                 <h1>{data.toBring}</h1>
-                                <ul class="job-info-lists">
+                                <ul className="job-info-lists">
                                     {data.toBringLists.map(list => {
                                         return(
-                                            <li>
+                                            <li key={list.id}>
                                                 {list.list}
                                             </li>
                                         )
                                     })}
                                 </ul>
-                                <h4 class="job-info-footer"> CANDIDATES MAY SHARE THEIR RESUMES AT: <span><a href="mailto:careers@amnetdigital.com">careers@amnetdigital.com</a></span></h4>
+                                <h4 className="job-info-footer"> CANDIDATES MAY SHARE THEIR RESUMES AT: <span><a href="mailto:careers@amnetdigital.com">careers@amnetdigital.com</a></span></h4>
                             </div>
                         </div>
                     </div>

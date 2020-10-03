@@ -19,17 +19,17 @@ function Careers(){
     return (
         <>
             {/* <!-- Careers Page intro --> */}
-            <div class="homepage-intro container-fluid careers-page-bg" style={careerStyle}>
-                <div class="vr "></div>
-                <div class="row all-margin">
+            <div className="homepage-intro container-fluid careers-page-bg" style={careerStyle}>
+                <div className="vr "></div>
+                <div className="row all-margin">
             
-                    <div class="col-lg-6 homepage-intro-caption all-margin">
+                    <div className="col-lg-6 homepage-intro-caption all-margin">
                         <h2>Create your Future!</h2>
                         <p>We are on a mission to solve world’s toughest problems. 
                             Come join the fastest growing company in the region working in the hottest technology sector!
                         </p>
 
-                        <div class="homepage-intro-btn">
+                        <div className="homepage-intro-btn">
                         <Link
                             activeClass="active"
                             to="details"

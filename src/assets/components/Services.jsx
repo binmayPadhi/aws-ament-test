@@ -56,23 +56,29 @@ function Services (){
             <div className="service-page-all-services all-margin" >
                 <div className="row service-page-row ml-0 mr-0">
 
-                    {ServicesData.map(service => {
+                    {ServicesData.map((service, index) => {
                         return(
-                            <div className="col-12 service-list p-0 clearfix" key = {service.id} id={service.id}>
-                                <img className="img-fluid img-left service-page-img" src= {service.serviceIMG} alt="Service" />
-                                <div className="service-desc">
-                                    <h2>{service.title}</h2>
-                                    <p>{service.description}</p>
+                            !( index % 2 ) ? 
+                                <div className="col-12 service-list p-0 clearfix" key = {service.id} id={service.id}>
+                                    <img className="img-fluid img-left service-page-img" src= {service.serviceIMG} alt="Service" />
+                                    <div className="service-desc">  
+                                        <h2>{service.title}</h2>
+                                        <p>{service.description}</p>
+                                    </div>
+                                </div> : 
+                                <div className="col-12 service-list p-0 clearfix" key = {service.id} id={service.id}>
+                                    <img className="img-fluid img-right service-page-img" src= {service.serviceIMG} alt="Service" />
+                                    <div className="service-desc">  
+                                        <h2>{service.title}</h2>
+                                        <p>{service.description}</p>
+                                    </div>
                                 </div>
-                            </div>
-                        )
-                    })}
-                    
+                            )
+                        })}
+                    </div> 
                 </div>
-                
-            </div>
-        </>
-    )
-}
+            </>
+        )
+    }
 
 export default Services;

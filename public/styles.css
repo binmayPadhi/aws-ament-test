@@ -97,6 +97,22 @@ body{
     border-color: none;
 } 
 
+.navbar-nav .contactus-button{
+ text-decoration : "none";
+ color: black;
+ font-size: 1.5rem;
+ padding: 10px;
+ margin-top: 5px;
+ background-color: white;
+ border-radius: 4px;
+}
+
+.navbar-nav .contactus-button:hover{
+    background-color: #0154F7;
+    color: white;
+    text-decoration: none;
+}
+
 /* FOR STICKY NAVBAR */
 .sticky {
     position: fixed;
@@ -565,7 +581,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     font-weight: 800;
-    color: #4D4D4F;
+    color:black;
     padding: 35px;
 }
 
@@ -940,7 +956,7 @@ hr{
         margin-left: 30px;
     }
     .homepage-intro-btn{
-        padding: 50px 25px;
+        padding: 20px 25px;
     }
     .homepage-intro-btn .btn{
         border-radius: 4px;
@@ -1188,7 +1204,7 @@ hr{
         height: 609px;
     }
     .homepage-intro-caption h2{
-        font-size: 8rem;
+        font-size: 7rem;
         font-weight: bolder;
     }
     .homepage-intro-caption p {
@@ -1472,7 +1488,7 @@ hr{
     /* HOMEPAGE INTRO */
 
     .homepage-intro-caption h2{
-        font-size: 10rem;
+        font-size: 7.5rem;
     }
     .homepage-intro-caption p {
         font-size: 2rem;
@@ -1956,7 +1972,7 @@ label{
 
 .about-us-page-desc p{
     font-size: 1.8rem;
-    color: #4D4D4F;
+    color: black;
 }
 
 .about-us-page-quote{
@@ -1971,11 +1987,12 @@ label{
 .about-us-desc h2{
     font-size: 3rem;
     font-weight: 800;
+    color: black;
 }
 .about-us-desc p{
     font-size: 2rem;
     font-weight: 500;
-    opacity: 0.8;
+    color: black;
 }
 
 .about-us-details{
@@ -2105,7 +2122,7 @@ label{
 .img-right{
     float: right;
     width: 430px;
-    height: auto;
+    height: 100% !important;
 }
 
 .service-list{
@@ -2127,11 +2144,11 @@ label{
     font-size: 2.5rem;
     font-weight: 800;
     margin-top: 30px;
+    color: black;
 }
 .service-desc p{
     font-size: 1.5rem;
     font-weight: 500;
-    opacity: 0.8;
 }
 
 .service-desc-long-text{
@@ -2182,6 +2199,7 @@ label{
     }
     .img-right{
         width: 100%;
+        height: auto !important;
         float: none;
     }
     
@@ -2229,6 +2247,7 @@ label{
 }
 .img-right{
     width: 100%;
+    height: auto !important;
     float: none;
 }
 
@@ -2275,6 +2294,7 @@ label{
     }
     .img-right{
         width: 100%;
+        height: auto !important;
         float: none;
     }
     
@@ -2291,19 +2311,22 @@ label{
 
 @media only screen and (min-width: 1025px) and (max-width: 1439px) {
   
-    .service-desc{
-        padding: 20px 20px;
+    .service-desc {
+        padding: 20px 5px;
     }
     .service-desc-long-text{
         padding:15px 5px;
         
+    }
+    .service-desc p{
+        font-size: 1.3rem;
     }
 }
 
 
 @media only screen and (min-width: 1440px) {
     .service-desc{
-        padding: 10px 20px;
+        padding: 10px 5px;
     }
   
     .service-desc-long-text{
@@ -2363,6 +2386,7 @@ label{
     font-weight: 800;
     margin-top: 50px;
     text-align: left;
+    color: black;
 }
 
 .case-studies-page-card-info h4{
@@ -2375,9 +2399,9 @@ label{
 
 .case-studies-page-card-info p{
     font-size: 1.5rem;
-    opacity: 1;
     margin-top: 10px;
     text-align: left;
+    color: black;
 }
 
 
@@ -2625,6 +2649,7 @@ label{
 .job-desc-card-info p{
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
+    color: black;
 }
 
 .job-desc-card-info h1{
@@ -2632,6 +2657,7 @@ label{
     font-size: 2rem;
     font-weight: 800;
     margin-top: 20px;
+    color: black;
 }
 
 .job-desc-card-info .job-info-lists{
@@ -2641,7 +2667,7 @@ label{
 .job-desc-card-info li{
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
-    color: #4D4D4F;
+    color: black;
     margin-top: 10px;
 }
 
