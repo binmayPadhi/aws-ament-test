@@ -1598,7 +1598,7 @@ hr{
 
 .user-name{
     margin-top: 0px;
-    padding: 15px;
+    padding: 0px 15px;
 }
 
 .user-name input{
@@ -1880,6 +1880,9 @@ label{
     .lastName{
         margin-top: 0px;
     }
+    .form-IMG img{
+        width: 110%;
+    }
     
     label{
         font-size: 1.55rem;
@@ -1913,6 +1916,9 @@ label{
 
     .lastName{
         margin-top: 0px;
+    }
+    .form-IMG img{
+        width: 105%;
     }
     
     label{
@@ -2517,7 +2523,7 @@ label{
     }
     
     .case-studies-page-card-info p{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
       
     }
 }

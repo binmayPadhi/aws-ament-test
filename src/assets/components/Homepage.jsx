@@ -45,7 +45,7 @@ function Homepage(){
                             <button type="button" className="btn btn-primary learn-more-btn">Learn more</button>
                         </Link>
                             <a href="/casestudies">
-                                <button type="button" className="btn btn-default">{`Case Studies -`}&gt;</button>
+                                <button type="button" className="btn btn-default">Case Studies <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
                             </a>
                         </div>
                     </div>
