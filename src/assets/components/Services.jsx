@@ -38,7 +38,7 @@ function Services (){
                             <button type="button" className="btn btn-primary learn-more-btn">Learn more</button>
                         </Link>
                             <NavLink to="/contactus">
-                                <button type="button" className="btn btn-default" >{`Contact Us -`}&gt;</button>
+                                <button type="button" className="btn btn-default" >Contact Us <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
                             </NavLink>
                         </div>
                     </div>

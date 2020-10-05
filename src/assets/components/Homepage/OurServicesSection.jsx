@@ -70,7 +70,8 @@ function OurServices (){
                                                             <h3 className="card-title">{serviceList.serviceTitle}</h3>
                                                             <p className="card-text">{serviceList.serviceDesc}</p>
                                                             {/* <Link to ={`/services#${serviceList.id}`} className="learn-more-services">Learn More</Link> */}
-                                                            <a href={`./services#${serviceList.id}`} className="learn-more-services">{`Learn More ->`}</a>
+                                                            {/* <a href={`./service/${serviceList.id}`} className="learn-more-services">{`Learn More ->`}</a> */}
+                                                            <a href={`/services#${serviceList.id}`} className="learn-more-services">{`Learn More ->`}</a>
                                                         </div>
                                                     </div>
                                                 </div>

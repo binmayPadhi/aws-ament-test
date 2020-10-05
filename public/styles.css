@@ -881,7 +881,7 @@ hr{
 
     .useful-links{
         margin-top: 15px;
-        padding-inline-start: 0px;
+        padding-inline-start: 0px !important;
         list-style-type: none;
         color: white;
     }
@@ -1106,7 +1106,7 @@ hr{
 
     .useful-links{
         margin-top: 15px;
-        padding-inline-start: 0px;
+        padding-inline-start: 0px !important;
         list-style-type: none;
     }
     .footer h3{
@@ -1589,6 +1589,11 @@ hr{
 .contact-form-user-details{
     box-shadow: 3px 6px 16px #0000004D;
     
+}
+
+.btn-default .fa-arrow-right{
+    font-size: 1.8rem;
+    color: #000000;
 }
 
 .form-IMG{
@@ -2755,4 +2760,78 @@ label{
     .our-culture-section .team-img{
         margin-top: 6px;
     }
+}
+
+
+
+
+
+
+/* SUB-SERVICE AIML PAGE STYLES */
+/*..............................................................................................................................*/
+
+.sub-service-intro{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: #444444 ;
+    opacity: 1;
+}
+
+.subService-AIML-intro-caption{
+    top: 150px;
+    color: white;
+}
+
+.subService-AIML-intro-caption h2{
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+.subService-AIML-intro-caption p{
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+
+.subService-AIML-intro-btn button{
+    width: 180px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: 0px;
+    background-color: #19AF8F;
+    color: white;
+}
+
+.subService-AIML-intro{
+   margin-top: 50px;
+}
+
+.sub-service-data-section{
+    margin-top: 80px;
+}
+
+.sub-service-data-section p{
+    font-size: 1.8rem;
+    padding: 0px 5px 5px 90px;
+}
+
+.sub-service-data-section h2{
+    font-size: 2.4rem;
+    font-weight: 800;
+    padding: 50px 5px 5px 0px;
+    margin-bottom: 0px;
+}
+
+.sub-service-data-section .about-icons{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+
+.sub-service-data-section img{
+    width: 610px;
+    height: 374px;
 }

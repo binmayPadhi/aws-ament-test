@@ -8,22 +8,25 @@ import CaseStudies from "./CaseStudies";
 import Careers from "./Careers";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import AIML from "./SubServices/AIML";
 
 function App(){
     return (
         <>
-            <Router>
+            <Router forceRefresh={true}>
               <div>
                 <Navbar />
               </div>
             <div>
                 <Switch>
                     <Route exact path = "/" component = {Homepage} />
-                    <Route exact path = "/contactus" component = {ContactUs} />
+                    <Route  path = "/contactus" component = {ContactUs} />
                     <Route  path = "/aboutus" component = {AboutUs} />
                     <Route  path = "/services" component = {Services} />
                     <Route  path = "/casestudies" component = {CaseStudies} />
                     <Route  path = "/careers" component = {Careers} />
+                    {/* <Route exact  path = "/service/:id" component = {AIML} />
+                    <Route exact  path = "/data-labeling" component = {AIML} /> */}
                 </Switch>
             </div>
             <div>
