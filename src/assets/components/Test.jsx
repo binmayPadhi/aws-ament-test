@@ -1,11 +1,11 @@
 import React from "react";
-import DataLabeling from "../../Data/SubService-Data/DataLabeling";
-import SubServicesData from "../../Data/SubService-Data/SubServicesData";
-import SubServiceCareer from "../SubServices/SubServiceCareer";
+import DataLabeling from "../Data/SubService-Data/DataLabeling";
+import SubServicesData from "../Data/SubService-Data/SubServicesData";
+
 
 // import styled from "styled-components";
 
-function AIML ({match}){
+function Test ({match}){
 
     // const dataLabelingStyle = {
     //     backgroundImage:`url(${DataLabelingBG})`,
@@ -118,12 +118,12 @@ function AIML ({match}){
                                     })}
                                 </div>
 
-                               <SubServiceCareer />
+                               
                             </>
                         );
                     }
 
-export default AIML;
+export default Test;
 
 
 // <div key={dataDetail.id} className="service-all-margin" style={{marginTop:"45px"}}>
