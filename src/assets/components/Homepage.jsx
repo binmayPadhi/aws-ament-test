@@ -3,7 +3,6 @@ import SolutionsServices from "./Homepage/SolutionsServices";
 import AboutDetails from "./Homepage/AboutDetails";
 import IndustrySection from "./Homepage/IndustrySection";
 import OurServices from "./Homepage/OurServicesSection";
-import OurPartner from "./Homepage/OurPartner";
 import CaseStudiesSection from "./Homepage/CaseStudiesSection";
 import CareerSection from "./Homepage/CareerSection";
 import HomepageBG from "../images/HomePage/amnet-home-bg.jpg";

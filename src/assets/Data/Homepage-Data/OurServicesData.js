@@ -12,7 +12,7 @@ import DataAnnotationIMG from "../../images/HomePage/our-services/amnet-data-ann
 
 const OurServicesData = [
     // {
-    //     id : 1,
+    //     id : "aiml",
     //     serviceTitle : "AI / ML SERVICES",
     //     serviceDesc : "Take advantage of the data-driven mindset that leverages cutting-edge technology to develop world class solutions.",
     //     serviceIMG : AiServiceIMG

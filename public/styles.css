@@ -99,17 +99,18 @@ body{
 
 .navbar-nav .contactus-button{
  text-decoration : "none";
- color: black;
+ color: white;
  font-size: 1.5rem;
  padding: 10px;
  margin-top: 5px;
- background-color: white;
+ background-color: #FD5D14;
+ transition: .5s;
  border-radius: 4px;
 }
 
 .navbar-nav .contactus-button:hover{
-    background-color: #0154F7;
-    color: white;
+    background-color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -654,7 +655,9 @@ hr{
     text-decoration: none;
     margin: 25px 5px 2px 0px;
     border-color: white;
+    background-color: #18AE8E;
     border-style: solid;
+    border-radius: 4px;
     border-width: 1px;
 }
 .fa:hover {
@@ -2773,7 +2776,7 @@ label{
 .sub-service-intro{
     position: relative;
     width: 100%;
-    height: 70vh;
+    height: 550px;
     background: #444444 ;
     opacity: 1;
 }
@@ -2784,7 +2787,7 @@ label{
 }
 
 .subService-AIML-intro-caption h2{
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 800;
 }
 
@@ -2795,43 +2798,487 @@ label{
 
 .subService-AIML-intro-btn button{
     width: 180px;
-    height: 50px;
+    height: 45px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 1.8rem;
     letter-spacing: 0px;
     background-color: #19AF8F;
     color: white;
+    /* margin-top: 2rem; */
 }
 
 .subService-AIML-intro{
    margin-top: 50px;
 }
 
+.sub-service-details-bg{
+    background-color: #f2f2f2;
+    padding: 10px 10px 20px 10px;
+    margin-top: 45px;
+}
+
 .sub-service-data-section{
     margin-top: 80px;
 }
 
+.sub-service-details-bg-color{
+    margin-top: 45px;
+    background-color: #F2F2F2;
+    padding: 15px 0px;
+}
+
+.sub-service-details-bg-color .about-us-details {
+    margin-top: 0px;
+}
+
 .sub-service-data-section p{
     font-size: 1.8rem;
-    padding: 0px 5px 5px 90px;
+    padding: 5px 5px 5px 0px;
 }
 
 .sub-service-data-section h2{
     font-size: 2.4rem;
     font-weight: 800;
-    padding: 50px 5px 5px 0px;
+    padding: 25px 5px 5px 0px;
     margin-bottom: 0px;
 }
 
 .sub-service-data-section .about-icons{
     width: 80px;
     height: 80px;
-    margin-left: 10px;
+}
+
+.sub-service-img-right-desc{
+    padding-top: 70px;
+}
+
+.sub-service-img-left-desc{
+    padding-top: 70px;
+}
+
+.sub-service-img-right-desc .about-icons{
+    margin-left: 15px;
+    margin-right: 20px;
+    /* margin-top: 30px; */
+}
+
+.sub-service-img-left-desc .about-icons{
+    margin-left: 35px;
+    margin-right: 20px;
+}
+
+.sub-service-img-left h2{
+    padding: 25px 5px 5px 20px;
+}
+
+.sub-service-img-left p{
+    padding: 5px 5px 5px 20px;
+}
+
+.subService-AIML-intro-btn{
+    padding: 10px 0px;
+}
+
+/* .service-all-margin .about-us-img-right{
+    width: 664px;
+    height: 380px;
+} */
+
+
+/* .sub-service-data-section img{
+    width: 610px;
+    height: 374px;
+} */
+
+/* .sub-service-data-section .sub-service-all-margin{
+    margin: 0px 100px 0px 100px;
+} */
+
+.sub-service-data-section .service-all-margin{
+    margin: 0px 100px 0px 100px;
 }
 
 
-.sub-service-data-section img{
-    width: 610px;
-    height: 374px;
+
+/* SUB SERVICE CAREER SECTION */
+
+.career-section{
+    transform: translate(0%,-40%);
+}
+.career-section-row{
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.career{
+    margin-top: 200px;
+    width: 100%;
+    height: 250px;
+    /* background-image:url("../src/assets/images/HomePage/amnet-career-section-bg.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.sub-service-career .career-caption{
+    background-color: #18AE8E;
+    color: white;
+    padding: 60px 30px;
+}
+
+.career-caption h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.sub-service-career .career-caption h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.career-section .career-btn{
+    width: 180px;
+    height: 45px;
+    margin-left: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: white;
+    background-color: #FD5D14;
+}
+
+.career-section .service-btn{
+    width: 180px;
+    height: 45px;
+    margin-left: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: black;
+    background-color: white;
+    box-shadow: 2px 2px 6px #0000004D;
+}
+
+.sub-service-career .career-details{
+    background-color: #FBFBFB;
+}
+
+.sub-service-career .career-details p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color:black;
+    padding: 30px 35px;
+}
+
+
+/* SUB SERVICE RESPONSIVE STYLE SECTION */
+/* ............................................................................................................................... */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .sub-service-data-section .service-all-margin{
+        margin: 0px 80px 0px 80px;
+    }
+
+    .subService-AIML-intro-caption {
+        top: 150px;
+    }
+
+    .sub-service-img-left-desc .about-icons{
+        margin-left: 0px;
+    }
+
+    .sub-service-img-right-desc .about-icons{
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .sub-service-data-section {
+        margin-top: 40px;
+    }
+
+    .sub-service-img-right-desc {
+        padding-top: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    .sub-service-data-section .service-all-margin {
+        margin: 0px 20px 0px 20px;
+    }
+    .sub-service-data-section{
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    /* .sub-service-intro {
+        height: 80vh;
+    } */
+    .subService-AIML-intro-caption h2 {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    /* .subService-AIML-intro-caption {
+        top: 110px;
+    } */
+
+    .subService-AIML-intro-caption p {
+    font-size: 1.2rem;
+    font-weight: 200;
+    }
+
+    .sub-service-data-section p {
+        font-size: 1.5rem;
+    }
+
+    .sub-service-img-right-desc {
+        padding-top: 0px;
+    }
+    .sub-service-data-section h2 {
+        font-size: 2rem;
+    }
+    .sub-service-career .career-details p {
+        font-size: 1.5rem;
+        padding: 15px 15px;
+    }
+
+    .sub-service-career .career-caption {
+        padding: 25px 30px;
+    }
+
+    .sub-service-career .career-caption h2 {
+        font-size: 2.5rem;
+    }
+
+    .career-section .career-btn {
+        margin-left: 15px;
+    }
+
+    .career-section .service-btn {
+        margin-left: 15px;
+    }
+
+    .sub-service-img-left-desc .about-icons{
+        margin-left: 0px;
+    }
+
+    .sub-service-img-right-desc .about-icons{
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .sub-service-data-section .service-all-margin {
+        margin: 0px 20px 0px 20px;
+    }
+    /* .sub-service-intro {
+        height: 80vh;
+    } */
+    /* .subService-AIML-intro-caption {
+        top: 110px;
+    } */
+    .sub-service-data-section{
+        text-align: left;
+        margin-top: 20px;
+    }
+    .sub-service-img-right-desc {
+        padding-top: 0px;
+    }
+    .subService-AIML-intro-caption h2 {
+        font-size: 2.5rem;
+    }
+    .subService-AIML-intro-caption p {
+        font-size: 1.5rem;
+    }
+    .sub-service-data-section h2 {
+        font-size: 2rem;
+    }
+    .sub-service-career .career-details p {
+        font-size: 1.5rem;
+        padding: 15px 15px;
+    }
+
+    .sub-service-career .career-caption {
+        padding: 25px 30px;
+    }
+
+    .sub-service-career .career-caption h2 {
+        font-size: 2.5rem;
+    }
+
+    .career-section .career-btn {
+        margin-left: 15px;
+    }
+
+    .career-section .service-btn {
+        margin-left: 15px;
+    }
+
+    .sub-service-img-left-desc .about-icons{
+        margin-left: 0px;
+    }
+
+    .sub-service-img-right-desc .about-icons{
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+}
+
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .sub-service-data-section .service-all-margin{
+        margin: 0px 20px 0px 20px;
+    }
+
+    .subService-AIML-intro-caption {
+        top: 110px;
+        color: white;
+    }
+
+    .sub-service-data-section{
+        margin-top: 40px;
+    }
+
+    .sub-service-img-left h2{
+        padding: 25px 5px 5px 0px;
+    }
+    
+    .sub-service-img-left p{
+        padding: 5px 5px 5px 0px;
+    }
+
+    .subService-AIML-intro-caption h2 {
+        font-size: 3.5rem;
+    }
+    .subService-AIML-intro-caption p {
+        font-size: 1.5rem;
+    }
+
+    .sub-service-img-left-desc .about-icons{
+        margin-left: 0px;
+    }
+
+    .sub-service-img-right-desc .about-icons{
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+
+    .sub-service-details-bg{
+        padding: 10px 10px 20px 0px;
+    }
+
+    .sub-service-img-right-desc{
+        padding-top: 0px;
+    }
+
+    .sub-service-img-left-desc{
+        padding-top: 50px;
+    }
+
+    .sub-service-career{
+        margin-top: 250px;
+    }
+
+    .sub-service-career .career-details p{
+        padding: 30px 15px;
+    }
+
+    .career-section .career-btn{
+        margin-left: 15px;
+    }
+    
+    .career-section .service-btn{
+        margin-left: 15px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    
+    .sub-service-intro{
+        height: 650px;
+    }
+
+    .sub-service-img-right-desc .about-icons {
+        margin-left: 0px;
+    }
+
+    .sub-service-img-right-desc {
+        padding-top: 30px;
+    }
+
+    .subService-AIML-intro-caption h2 {
+        font-size: 4rem;
+    }
+
+    .subService-AIML-intro-caption p {
+        font-size: 1.8rem;
+    }
+
+    .sub-service-data-section {
+        margin-top: 30px;
+    }
+
+}
+
+@media only screen and (min-width: 1210px) and (max-width: 1439px) {
+    
+    .sub-service-data-section .about-us-img-left {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    .sub-service-data-section .about-us-img-right {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .sub-service-img-right-desc .about-icons {
+        margin-left: 10px;
+    }
+
+    .about-us-img-left {
+        width: 50%;
+    }
+
+    .about-us-img-right {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .sub-service-data-section .service-all-margin{
+        margin: 0px 140px 0px 140px;
+    }
+
+    .sub-service-data-section p {
+        font-size: 2.3rem;
+    }
+
+    .sub-service-data-section .about-icons {
+        width: 110px;
+        height: 110px;
+    }
+
+    .sub-service-img-right-desc .about-icons {
+        margin-left: 0px;
+    }
 }

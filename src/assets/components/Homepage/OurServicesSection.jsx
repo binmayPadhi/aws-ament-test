@@ -50,7 +50,7 @@ function OurServices (){
                                                         technology to develop world class solutions.
                                                     </p>
                                                     {/* <Link to="/services#AI-ML" className="learn-more-services">Learn More</Link> */}
-                                                    <a href="./services#AI-ML" className="learn-more-services">{`Learn More ->`}</a>
+                                                    {/* <a href={`./service/${`aiml`}`} className="learn-more-services">{`Learn More ->`}</a> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -71,7 +71,7 @@ function OurServices (){
                                                             <p className="card-text">{serviceList.serviceDesc}</p>
                                                             {/* <Link to ={`/services#${serviceList.id}`} className="learn-more-services">Learn More</Link> */}
                                                             {/* <a href={`./service/${serviceList.id}`} className="learn-more-services">{`Learn More ->`}</a> */}
-                                                            <a href={`/services#${serviceList.id}`} className="learn-more-services">{`Learn More ->`}</a>
+                                                            {/* <a href={`/services#${serviceList.id}`} className="learn-more-services">{`Learn More ->`}</a> */}
                                                         </div>
                                                     </div>
                                                 </div>

@@ -43,7 +43,7 @@ const servicesData = [
     }
     ,
     {
-        id : "user-experience",
+        id : "ux-design",
         title : "USER EXPERIENCE",
         description : "Amnet Digital aims at designing products that deliver a positive experience by bridging the gap between the stakeholder goals and user expectations. With an emotionally balanced human-centered approach we empathize with the end users and leverage effective user-centric design techniques delivering the best experience for your users across all touch points of your business! We enable our clients to build a compelling online presence, spurring customer loyalty & retention and ever improving brand value whilst reducing development, bug fixing and marketing costs down the line.",
         serviceIMG : UserExperienceIMG
@@ -58,7 +58,7 @@ const servicesData = [
     {
         id : "quality-assurance",
         title : "QUALITY ASSURANCE",
-        description : "We provide dedicated Quality Assurance services aligned to latest Agile, AI/ML and Digital transformation trends and offer end-to-end functional testing (manual/automation), performance testing, API testing, Security testing, ETL testing, reports validation services and strives for quality shift left and high quality deliverables with optimized COQ (Cost of Quality) and significant Return on Investments (ROI). We also have expertise in setting up Test Center of excellence (TCOE) and delivering projects in Global Delivery Model (GDM) with optimized onshore offshore ratio and in a complex multi-vendor environment.",
+        description : "We provide dedicated Quality Assurance services aligned to latest Agile, AI/ML and Digital transformation trends and offer end-to-end functional testing (manual/automation), Performance testing, Mobile testing, API testing, Security testing, ETL testing, Reports validation services and strives for quality shift left and high quality deliverables with optimized COQ (Cost of Quality) and significant Return on Investments (ROI). We also have expertise in setting up Test Center of excellence (TCOE) and delivering projects in Global Delivery Model (GDM) with optimized onshore offshore ratio and in a complex multi-vendor environment.",
         serviceIMG : QualityAssuranceIMG
     },
     {

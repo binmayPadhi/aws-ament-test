@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Homepage from "./Homepage";
 import ContactUs from "./ContactUs";
 import AboutUs from "./AboutUs";
@@ -25,8 +25,9 @@ function App(){
                     <Route  path = "/services" component = {Services} />
                     <Route  path = "/casestudies" component = {CaseStudies} />
                     <Route  path = "/careers" component = {Careers} />
-                    {/* <Route exact  path = "/service/:id" component = {AIML} />
-                    <Route exact  path = "/data-labeling" component = {AIML} /> */}
+                    <Route exact  path = "/service/:id" component = {AIML} />
+                    {/* <Route exact  path = "/data-labeling" component = {AIML} /> */}
+                    {/* <Route exact  path = "/service/data-management" component = {AIML} /> */}
                 </Switch>
             </div>
             <div>
