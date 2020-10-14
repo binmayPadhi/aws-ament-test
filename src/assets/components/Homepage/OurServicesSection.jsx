@@ -49,9 +49,9 @@ function OurServices (){
                                                     <p className="card-text">Take advantage of the data-driven mindset that leverages cutting-edge 
                                                         technology to develop world class solutions.
                                                     </p>
-                                                    <Router forceRefresh={true} basename="/service">
+                                                    {/* <Router forceRefresh={true} basename="/service">
                                                                 <Link to={`/${`aiml`}`} className="learn-more-services">{`Learn More ->`}</Link> 
-                                                            </Router>
+                                                            </Router> */}
                                                     {/* <Link to="/services#AI-ML" className="learn-more-services">Learn More</Link> */}
                                                     {/* <a href={`/${`aiml`}`} className="learn-more-services">{`Learn More ->`}</a> */}
                                                 </div>
