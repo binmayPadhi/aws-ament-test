@@ -1,3 +1,55 @@
+//FOR AI / ML SUB SERVICE
+import StatisticalAnalysisIMG from "../../images/Sub-Service-Images/AI-ML-Images/statistical-analysis-image.jpg";
+import StatisticalAnalysisIcon from "../../images/Sub-Service-Images/AI-ML-Images/statistical-analysis-icon.png";
+import VisualizationsIMG from "../../images/Sub-Service-Images/AI-ML-Images/visualizations-image.jpg";
+import VisualizationsIcon from "../../images/Sub-Service-Images/AI-ML-Images/visualizations-icon.png";
+import DashboardsIMG from "../../images/Sub-Service-Images/AI-ML-Images/dashboards-image.jpg";
+import DashboardsIcon from "../../images/Sub-Service-Images/AI-ML-Images/dashboards-icon.png";
+import AnomalyDetectionIMG from "../../images/Sub-Service-Images/AI-ML-Images/anomaly-detection-image.jpg";
+import AnomalyDetectionIcon from "../../images/Sub-Service-Images/AI-ML-Images/anomaly-detection-icon.png";
+import CompetitoranalysisIMG from "../../images/Sub-Service-Images/AI-ML-Images/competitor-analysis-image.jpg";
+import CompetitoranalysisIcon from "../../images/Sub-Service-Images/AI-ML-Images/competitor-analysis-icon.png";
+import VirtualAssistantsIMG from "../../images/Sub-Service-Images/AI-ML-Images/convo-ai-virtual-assistant-image.jpg";
+import VirtualAssistantsIcon from "../../images/Sub-Service-Images/AI-ML-Images/convo-ai-virtual-assistant-icon.png";
+import CustomerChurnAnalysisIMG from "../../images/Sub-Service-Images/AI-ML-Images/customer-churn-analysis-image.jpg";
+import CustomerChurnAnalysisIcon from "../../images/Sub-Service-Images/AI-ML-Images/customer-churn-analysis-icon.png";
+import CustomerProfileIMG from "../../images/Sub-Service-Images/AI-ML-Images/customer-profile-image.jpg";
+import CustomerProfileIcon from "../../images/Sub-Service-Images/AI-ML-Images/customer-profile-icon.png";
+import CustomerSegmentationIMG from "../../images/Sub-Service-Images/AI-ML-Images/customer-segmentation-image.jpg";
+import CustomerSegmentationIcon from "../../images/Sub-Service-Images/AI-ML-Images/customer-segmentation-icon.png";
+import CustomerTargetingIMG from "../../images/Sub-Service-Images/AI-ML-Images/customer-targeting-image.jpg";
+import CustomerTargetingIcon from "../../images/Sub-Service-Images/AI-ML-Images/customer-targeting-icon.png";
+import DemandForecastingIMG from "../../images/Sub-Service-Images/AI-ML-Images/demand-forecasting-image.jpg";
+import DemandForecastingIcon from "../../images/Sub-Service-Images/AI-ML-Images/demand-forecasting-icon.png";
+import ImageAnalyticsIMG from "../../images/Sub-Service-Images/AI-ML-Images/image-analytics-image.jpg";
+import ImageAnalyticsIcon from "../../images/Sub-Service-Images/AI-ML-Images/image-analytics-icon.png";
+import InventoryOptimizatonIMG from "../../images/Sub-Service-Images/AI-ML-Images/inventory-optimization-image.jpg";
+import InventoryOptimizatonIcon from "../../images/Sub-Service-Images/AI-ML-Images/inventory-optimization-icon.png";
+import LogisticsOptimizationIMG from "../../images/Sub-Service-Images/AI-ML-Images/logistics-optimization-image.jpg";
+import LogisticsOptimizationIcon from "../../images/Sub-Service-Images/AI-ML-Images/logistics-optimization-icon.png";
+import MarketBasketAnalysisIMG from "../../images/Sub-Service-Images/AI-ML-Images/market-basket-analysis-image.jpg";
+import MarketBasketAnalysisIcon from "../../images/Sub-Service-Images/AI-ML-Images/market-basket-analysis-icon.png";
+import PriceOptimizationIMG from "../../images/Sub-Service-Images/AI-ML-Images/price-opti-image.jpg";
+import PriceOptimizationIcon from "../../images/Sub-Service-Images/AI-ML-Images/price-opti-icon.png";
+import ProductBundlingIMG from "../../images/Sub-Service-Images/AI-ML-Images/product-bundling-image.jpg";
+import ProductBundlingIcon from "../../images/Sub-Service-Images/AI-ML-Images/product-bundling-icon.png";
+import RecommendationEngineIMG from "../../images/Sub-Service-Images/AI-ML-Images/recomm-engine-image.jpg";
+import RecommendationEngineIcon from "../../images/Sub-Service-Images/AI-ML-Images/recomm-engine-icon.png";
+import SmartRoutingIMG from "../../images/Sub-Service-Images/AI-ML-Images/smart-routing-image.jpg";
+import SmartRoutingIcon from "../../images/Sub-Service-Images/AI-ML-Images/smart-routing-icon.png";
+import SocialMediaAnalyticsIMG from "../../images/Sub-Service-Images/AI-ML-Images/sm-analytics-image.jpg";
+import SocialMediaAnalyticsIcon from "../../images/Sub-Service-Images/AI-ML-Images/sm-analytics-icon.png";
+import SupplyChainOptimizationIMG from "../../images/Sub-Service-Images/AI-ML-Images/scm-image.jpg";
+import SupplyChainOptimizationIcon from "../../images/Sub-Service-Images/AI-ML-Images/scm-icon.png";
+import MLOpsIMG from "../../images/Sub-Service-Images/AI-ML-Images/ml-ops-image.jpg";
+import MLOpsIcon from "../../images/Sub-Service-Images/AI-ML-Images/ml-ops-icon.png";
+import AutoMLIMG from "../../images/Sub-Service-Images/AI-ML-Images/automl-image.jpg";
+import AutoMLIcon from "../../images/Sub-Service-Images/AI-ML-Images/automl-icon.png";
+import ExplainableAIIMG from "../../images/Sub-Service-Images/AI-ML-Images/xai-image.jpg";
+import ExplainableAIIcon from "../../images/Sub-Service-Images/AI-ML-Images/xai-icon.png";
+
+
+
 //FOR DATA ANNOTATION SUB SERVICE
 import ImageAnnotationIMG from "../../images/Sub-Service-Images/Data-Labeling-Images/image-annotation-image.jpg";
 import VideoAnnotationIMG from "../../images/Sub-Service-Images/Data-Labeling-Images/video-annotation-image.jpg";
@@ -103,8 +155,8 @@ import DataSecurityManagementIMG from "../../images/Sub-Service-Images/Data-Mana
 import DataSecurityManagementIcon from "../../images/Sub-Service-Images/Data-Management-Images/data-security-mgmt-icon.png";
 import BusinessIntelligenceIMG from "../../images/Sub-Service-Images/Data-Management-Images/data-warehousing-bi-image.jpg";
 import BusinessIntelligenceIcon from "../../images/Sub-Service-Images/Data-Management-Images/data-warehousing-bi-icon.png";
-import ContentManagementIMG from "../../images/Sub-Service-Images/Data-Management-Images/data-architecture-mgmt-image.jpg";
-import ContentManagementIcon from "../../images/Sub-Service-Images/Data-Management-Images/data-architecture-mgmt-icon.png";
+import ContentManagementIMG from "../../images/Sub-Service-Images/Data-Management-Images/document-content-mgmt-image.jpg";
+import ContentManagementIcon from "../../images/Sub-Service-Images/Data-Management-Images/document-content-mgmt-icon.png";
 import MetadataManagementIMG from "../../images/Sub-Service-Images/Data-Management-Images/meta-data-mgmt-image.jpg";
 import MetadataManagementIcon from "../../images/Sub-Service-Images/Data-Management-Images/meta-data-mgmt-icon.png";
 import MasterDataManagementIMG from "../../images/Sub-Service-Images/Data-Management-Images/reference-mdm-mgmt-image.jpg";
@@ -145,216 +197,216 @@ const dataLabelingData = [
         name : "aiml",
         title : "Statistical Analysis",
         description : "Leverage out data science capabilities to get the maximum value from your data. Our data science teams use tools like Python, R, SAS etc for statistical analysis & modeling to analyze your data to uncover patters and trends and to convert your data into information and knowledge.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :StatisticalAnalysisIMG,
+        icon : StatisticalAnalysisIcon
     },
     {
         id : "visualizations",
         float : "right",
         name : "aiml",
         title : "Visualizations",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        description : "Rapidly integrate data from different sources and develop key metrics for faster decisions. We assist in data aggregation & management, managed reporting with leading platforms, automated data reporting, dashboard development and data visualization.",
+        imgSrc :VisualizationsIMG,
+        icon : VisualizationsIcon
     },
-    {
-        id : "dashboards",
-        float : "left",
-        name : "aiml",
-        title : "Dashboards",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
-    },
+    // {
+    //     id : "dashboards",
+    //     float : "left",
+    //     name : "aiml",
+    //     title : "Dashboards",
+    //     description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    //     imgSrc :DashboardsIMG,
+    //     icon : DashboardsIcon
+    // },
     {
         id : "anomaly-detection",
-        float : "right",
+        float : "left",
         name : "aiml",
         title : "Anomaly Detection",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        description : "Identify, or even predict, abnormal patterns in unbounded data streams to discover positive buying behaviours, detect fraud or mitigate potential threats and more. We pre-determine anamolies with potential impacts eliminating false alerts resulting in less noise and more problem solving.",
+        imgSrc :AnomalyDetectionIMG,
+        icon : AnomalyDetectionIcon
     },
     {
         id : "competitor-analysis",
-        float : "left",
+        float : "right",
         name : "aiml",
         title : "Competitor analysis",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :CompetitoranalysisIMG,
+        icon : CompetitoranalysisIcon
     },
     {
         id : "virtual-assistants",
-        float : "right",
+        float : "left",
         name : "aiml",
         title : "Conversational AI & Virtual Assistants",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :VirtualAssistantsIMG,
+        icon : VirtualAssistantsIcon
     }
     ,
     {
         id : "customer-churn-analysis",
-        float : "left",
+        float : "right",
         name : "aiml",
         title : "Customer Churn Analysis",
         description : "Identify high, medium and low-risk customers to devise strategies to prevent customer attrition. We use Supervised Learning methods like Data Gathering/Analysis (geographic, demographic, behavioral, transactional data), Attrition Stage Analysis, Engagment, Responsiveness & Feedback Analysis, Customer Classification using Trained Models and Retention Strategies.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :CustomerChurnAnalysisIMG,
+        icon : CustomerChurnAnalysisIcon
     },
     {
         id : "customer-profile",
-        float : "right",
+        float : "left",
         name : "aiml",
         title : "Customer Profile",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :CustomerProfileIMG,
+        icon : CustomerProfileIcon
     },
     {
         id : "customer-segmentation",
-        float : "left",
+        float : "right",
         name : "aiml",
         title : "Customer Segmentation",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :CustomerSegmentationIMG,
+        icon : CustomerSegmentationIcon
     },
     {
         id : "customer-targeting",
-        float : "right",
+        float : "left",
         name : "aiml",
         title : "Customer Targeting",
         description : "Target customers & prospects by drawing similarities with other customers to improve sales revenue by improved cross-sell and up-sell opportunities. We leverage Supervised Learning methods to Analyze & Select Type of Targeting, Create Propensity Models, Stratify Customers, Devise Targeted Marketing Strategies & Perform Campaign Effectiveness Analysis to identify gaps and improve.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :CustomerTargetingIMG,
+        icon : CustomerTargetingIcon
     },
     {
         id : "demand-forecasting",
-        float : "left",
+        float : "right",
         name : "aiml",
         title : "Demand Forecasting",
         description : "Understand patterns, trends and seasonality in historical sales and predict future demand. We support Demand Forecasting by leveraging Statistical Time Series algorithms' characteristics like Time Dependency Audits, Repeating Trends Analysis, Seasonal Patterns Anatomization and Impact of Special Events.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :DemandForecastingIMG,
+        icon : DemandForecastingIcon
     },
     {
         id : "Image Analytics",
-        float : "right",
+        float : "left",
         name : "aiml",
-        title : "image-analytics",
+        title : "Image-analytics",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :ImageAnalyticsIMG,
+        icon : ImageAnalyticsIcon
     },
     {
         id : "inventory-optimizaton",
-        float : "left",
+        float : "right",
         name : "aiml",
         title : "Inventory Optimizaton",
         description : "Maintain optimum inventory levels to meet the current & expected demand without under/overstocking products. We power Inventory Optimization with Product Analysis, Demand Forecasting (Product & Average Lead times), Financial Model Development and Outlier Analysis.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :InventoryOptimizatonIMG,
+        icon : InventoryOptimizatonIcon
     },
     {
         id : "logistics-optimization",
-        float : "right",
+        float : "left",
         name : "aiml",
         title : "Logistics Optimization",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :LogisticsOptimizationIMG,
+        icon : LogisticsOptimizationIcon
     },
     {
         id : "market-basket-analysis",
-        float : "left",
+        float : "right",
         name : "aiml",
         title : "Market Basket Analysis",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :MarketBasketAnalysisIMG,
+        icon : MarketBasketAnalysisIcon
     },
     {
         id : "price-optimization",
-        float : "right",
+        float : "left",
         name : "aiml",
         title : "Price Optimization",
         description : "Analyze demand, seasonality, operating costs & other KPIs to determine optimal price for products generating maximum profits. We enable Price Optimization with Data Gathering/Analysis (Internal, External), Intent Analysis, Anomalies Detection, Model Generation and Scheduled Price Updation.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :PriceOptimizationIMG,
+        icon : PriceOptimizationIcon
     },
     {
         id : "product-bundling",
-        float : "left",
+        float : "right",
         name : "aiml",
         title : "Product Bundling",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :ProductBundlingIMG,
+        icon : ProductBundlingIcon
     },
     {
         id : "recommendation-engine",
-        float : "right",
+        float : "left",
         name : "aiml",
         title : "Recommendation Engine",
         description : "Understand customers purchase patterns, interests, preferences and similarties with other users to recommend relevant products to achieve increased cross-selling/up-selling opportunities. We build customized Recommendation Engines with Data Gathering/Analysis (Users, Products), Similarity Analysis, Product Categorization and Product Ranking.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :RecommendationEngineIMG,
+        icon : RecommendationEngineIcon
     },
     {
         id : "smart-routing",
-        float : "left",
+        float : "right",
         name : "aiml",
         title : "Smart Routing",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :SmartRoutingIMG,
+        icon : SmartRoutingIcon
     },
     {
         id : "social-media-analytics",
-        float : "right",
+        float : "left",
         name : "aiml",
         title : "Social Media Analytics",
         description : "Collect, analyze and evaluate vast amount of semi-structured and unstructured social media data and turn it into insights for business with Descriptive, Predictive and Prescriptive analytics. We support Strategy Development, Tool Identification (for gathering data and performing analytics), Data Gathering/Analysis and track metrics related to content, timing, audience, sentiments and competitors to assess social media marketing efforts and improve them.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :SocialMediaAnalyticsIMG,
+        icon : SocialMediaAnalyticsIcon
     },
     {
         id : "supply-chain-optimization",
-        float : "left",
+        float : "right",
         name : "aiml",
         title : "Supply Chain Optimization",
         description : "Improve efficiency of Supply Chain activities to achieve the capability to cater to customers demands with accuracy and minimum possible investment. We support optimization of Supply Chain through Demand Forecasting, Inventory Management, Preventive Maintenance, Quality Inspections, Production Planning and through Disruption Handling.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :SupplyChainOptimizationIMG,
+        icon : SupplyChainOptimizationIcon
     },
     {
         id : "mL-ops",
-        float : "right",
+        float : "left",
         name : "aiml",
         title : "ML Ops",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        description : "Create reproduceable workflows and machine learning models for easy deployment on any platform. We assist with development of enterpirse architure to deploy and maintain all machine learning solutions with versioning and monitoring controls.",
+        imgSrc :MLOpsIMG,
+        icon : MLOpsIcon
     },
     {
         id : "automl",
-        float : "left",
+        float : "right",
         name : "aiml",
         title : "AutoML",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        description : "Enable automation of ML pipeline flow without manual intervention starting from raw data to deployment resulting in effortless and accurate machine learning solutions. We assist in pre-processing and cleansing of data, construction of appropriate features, selection of model family, optimization of model hyperparameters and post-processing of machine learning models.",
+        imgSrc :AutoMLIMG,
+        icon : AutoMLIcon
     },
     {
         id : "explainable-AI",
-        float : "right",
+        float : "left",
         name : "aiml",
         title : "Explainable AI",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        description : "Identify model accuracy, fairness, transparency, outcomes, it's expected impact and potential biases, to make your model insights accountable and effective. We develop individualized models with robust and validated algorithms that enable automated learning workflow keeping data & models in sync.",
+        imgSrc :ExplainableAIIMG,
+        icon : ExplainableAIIcon
     },
 
 
@@ -429,8 +481,8 @@ const dataLabelingData = [
         name : "data-management",
         title : "Document and Content Management",
         description : "Collect, store and utlizie data to execute business processes and workflows through structured features for business transformation. We assist in acquistion & storage, backup & recovery, retrieval and rentention of the content.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :ContentManagementIMG,
+        icon : ContentManagementIcon
     },
     {
         id : "meta-data-management",
@@ -467,7 +519,7 @@ const dataLabelingData = [
         float : "right",
         name : "advanced-analytics",
         title : "Deep Learning",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Control the power of unstructured data such as images, text, and speech to give transformative use cases that leverage techniques like AI, image analysis, natural language processing, and more. We use layered algorithms for the models to draw conclusions similar to humans and assist in AI consulting, engineering, training, support and custom software development.",
         imgSrc :DeepLearningIMG,
         icon : DeepLearningIcon
     },
@@ -476,67 +528,67 @@ const dataLabelingData = [
         float : "left",
         name : "advanced-analytics",
         title : "Graph Analysis",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Improve efficiency of machine learning algortihms with pre-connected data in graph models, enabling relationships of numerous degrees of separation to be traversed and analyzed quickly at scale.",
         imgSrc :GraphAnalysisIMG,
         icon : GraphAnalysisIcon
     },
-    {
-        id : "network-analysis",
-        float : "right",
-        name : "advanced-analytics",
-        title : "Network Analysis",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :NetworkAnalysisIMG,
-        icon : NetworkAnalysisIcon
-    },
+    // {
+    //     id : "network-analysis",
+    //     float : "right",
+    //     name : "advanced-analytics",
+    //     title : "Network Analysis",
+    //     description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    //     imgSrc :NetworkAnalysisIMG,
+    //     icon : NetworkAnalysisIcon
+    // },
     {
         id : "NLP",
-        float : "left",
+        float : "right",
         name : "advanced-analytics",
         title : "NLP",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Understand, interpret, and process natural human language with advanced machine learning models to build products that understand your customers better. We integrate or build powerful NLP applications that let you gain actionable insights from vast unstructured data sets using artificial intelligence, machine learning and linguistics.",
         imgSrc :NLPIMG,
         icon : NLPIcon
     },
     {
         id : "pattern-matching",
-        float : "right",
+        float : "left",
         name : "advanced-analytics",
         title : "Pattern Matching",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Recognize and extract specific types of entities in sequences of data of some pattern among raw data or a sequence of tokens. We assist in digitalizaton of historic & current documents and images to to determine the existence of specified subjects.",
         imgSrc :PatternMatchingIMG,
         icon : PatternMatchingIcon
     },
     {
         id : "semantic-analysis",
-        float : "left",
+        float : "right",
         name : "advanced-analytics",
         title : "Semantic Analysis",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Understand the context of natural language, detect emotions and extract valuable information from unstructured data, achieving human-level accuracy with machine learning algorithms. We aid in developing self-service reporting by providing a cleansed, understandable, trustworthy environment which can be used by business users.",
         imgSrc :SemanticAnalysisIMG,
         icon : SemanticAnalysisIcon
     },
     {
         id : "sentiment-analysis",
-        float : "right",
+        float : "left",
         name : "advanced-analytics",
         title : "Sentiment Analysis",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Extract meaning from product or service reviews to better understand customers opinions and sentiments about your company or it's offerings. We offer analysis of data from a variety of media, such as social media, customer reviews, mass media including newspapers, television and business data.",
         imgSrc :SentimentAnalysisIMG,
         icon : SentimentAnalysisIcon
     },
     {
         id : "simulation",
-        float : "left",
+        float : "right",
         name : "advanced-analytics",
         title : "Simulation",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Create detailed and robust use cases to train or test artificial intelligence models for high accuracy. We expose AI models to a vast array of business scenarios resulting in optimized solutions.",
         imgSrc :SimulationIMG,
         icon : SimulationIcon
     },
     {
         id : "text-mining",
-        float : "right",
+        float : "left",
         name : "advanced-analytics",
         title : "Text Mining",
         description : "Enanble retrieval of highly specified content from unstructerd text to provide meaningful connections between unstructured text and structured data. We support Advanced Discvoery & Search, Document Classification, Keyword Analysis, Citation Detection, Content Recommendation and Sentiment Analysis.",

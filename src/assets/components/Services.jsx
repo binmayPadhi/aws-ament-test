@@ -69,7 +69,7 @@ function Services (){
                                         {/* <a href={`/${service.id}`} className="learn-more-services">{`Learn More ->`}</a> */}
                                         {/* <NavLink to = {`/${service.id}`}  activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                   
-                                        <button className="btn btn-default" style={{fontSize : "1.5rem", backgroundColor: '#19AF8F', color:"white"}}>Learn More</button>
+                                        <button className="btn btn-default" style={{fontSize : "1.5rem", backgroundColor: '#19AF8F',padding:"5px 15px", color:"white"}}>Learn More</button>
                     
                                         </NavLink> */}
 
@@ -83,7 +83,7 @@ function Services (){
                                         <br />
                                         {/* <NavLink to = {`/${service.id}`}  activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                   
-                                        <button className="btn btn-default" style={{fontSize : "1.5rem", backgroundColor: '#19AF8F', color:"white"}}>Learn More</button>
+                                        <button className="btn btn-default" style={{fontSize : "1.5rem", backgroundColor: '#19AF8F',padding:"5px 15px" ,color:"white"}}>Learn More</button>
                     
                                         </NavLink> */}
                                     </div>

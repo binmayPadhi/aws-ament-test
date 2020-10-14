@@ -43,7 +43,7 @@ const servicesData = [
     }
     ,
     {
-        id : "ux-design",
+        id : "user-experience",
         title : "USER EXPERIENCE",
         description : "Amnet Digital aims at designing products that deliver a positive experience by bridging the gap between the stakeholder goals and user expectations. With an emotionally balanced human-centered approach we empathize with the end users and leverage effective user-centric design techniques delivering the best experience for your users across all touch points of your business! We enable our clients to build a compelling online presence, spurring customer loyalty & retention and ever improving brand value whilst reducing development, bug fixing and marketing costs down the line.",
         serviceIMG : UserExperienceIMG

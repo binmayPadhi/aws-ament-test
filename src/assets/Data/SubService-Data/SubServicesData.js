@@ -12,7 +12,7 @@ const subServicesData = [
     {
         id : "aiml",
         title : "AI / ML",
-        BG : dmBG1,
+        BG : dmBG,
         description : "We maintain a data-driven mindset all throughout the engagement, whether it is during strategy support phase or model development phase, and focus on utilization of big data and machine learning by empowered business users.",
     }
     ,
@@ -47,7 +47,7 @@ const subServicesData = [
     {
         id : "user-experience",
         title : "User Experience",
-        BG : dmBG1,
+        BG : dmBG,
         description : "Amnet Digital aims at designing products that deliver a positive experience by bridging the gap between the stakeholder goals and user expectations. With an emotionally balanced human-centered approach we empathize with the end users and leverage effective user-centric design techniques delivering the best experience for your users across all touch points of your business!",
     }
     ,
