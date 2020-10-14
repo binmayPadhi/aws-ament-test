@@ -1,20 +1,34 @@
 import React from "react";
 import SubServiceCareerBG from "../../images/Sub-Service-Images/Data-Labeling-Images/we-are-available-bg.jpg";
+import styled from "styled-components";
 
 function SubServiceCareerSection (){
 
-    const careerStyle = {
-        backgroundImage:`url(${SubServiceCareerBG})`,
-        backgroundAttachment: "scroll",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-    }
+    // const careerStyle = {
+    //     backgroundImage:`url(${SubServiceCareerBG})`,
+    //     backgroundAttachment: "scroll",
+    //     backgroundRepeat: "no-repeat",
+    //     backgroundSize: "cover",
+    // }
+
+    const Content = styled.div`
+        padding: 10px;
+        background-image: url(${SubServiceCareerBG});
+        backgroundAttachment: scroll;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        color: red;
+
+        @media (max-width: 768px) {
+            background-image: none;
+        }
+    `;
 
     return (
         
         <>
             {/* <!--CAREER SECTION--> */}
-            <div className="career career-bg sub-service-career" style = {careerStyle}>
+            <Content className="career career-bg sub-service-career">
                 <div className="career-section all-margin">
         
                 <div className="career-section-row row g-0">
@@ -36,7 +50,7 @@ function SubServiceCareerSection (){
                     </div>
                 </div>
             </div>
-        </div>
+        </Content>
         </>
     )
 }

@@ -56,6 +56,37 @@ import ApplicationDevelopmentIcon from "../../images/Sub-Service-Images/Consulti
 import AICustomizationIMG from "../../images/Sub-Service-Images/Consulting-Images/ai-customization-image.jpg";
 import AICustomizationIcon from "../../images/Sub-Service-Images/Consulting-Images/ai-customization-icon.png";
 
+//FOR USER EXPERIENCE SUB SERVICE
+import DesignThinkingIMG from "../../images/Sub-Service-Images/User-Experience-Images/design-thinking-image.jpg";
+import DesignThinkingIcon from "../../images/Sub-Service-Images/User-Experience-Images/design-thinking-icon.png";
+import UserResearchIMG from "../../images/Sub-Service-Images/User-Experience-Images/user-research-image.jpg";
+import UserResearchIcon from "../../images/Sub-Service-Images/User-Experience-Images/user-research-icon.png";
+import InteractionDesignIMG from "../../images/Sub-Service-Images/User-Experience-Images/experience-interaction-design-image.jpg";
+import InteractionDesignIcon from "../../images/Sub-Service-Images/User-Experience-Images/experience-interaction-design-icon.png";
+import VisualDesignIMG from "../../images/Sub-Service-Images/User-Experience-Images/rapid-prototyping-visual-design-image.jpg";
+import VisualDesignIcon from "../../images/Sub-Service-Images/User-Experience-Images/rapid-prototyping-visual-design-icon.png";
+import UsabilityTestingIMG from "../../images/Sub-Service-Images/User-Experience-Images/usability-testing-image.jpg";
+import UsabilityTestingIcon from "../../images/Sub-Service-Images/User-Experience-Images/usability-testing-icon.png";
+
+
+//FOR DATA ENGINEERING SUB SERVICE
+import DataPipelinesIMG from "../../images/Sub-Service-Images/Data-Engineering-Images/data-pipeline-image.jpg";
+import DataPipelinesIcon from "../../images/Sub-Service-Images/Data-Engineering-Images/data-pipeline-icon.png";
+import DataTransformationsIMG from "../../images/Sub-Service-Images/Data-Engineering-Images/data-transformation-image.jpg";
+import DataTransformationsIcon from "../../images/Sub-Service-Images/Data-Engineering-Images/data-transformation-icon.png";
+import DataCleansingIMG from "../../images/Sub-Service-Images/Data-Engineering-Images/data-cleansing-image.jpg";
+import DataCleansingIcon from "../../images/Sub-Service-Images/Data-Engineering-Images/data-cleansing-icon.png";
+import DataIntegrityIMG from "../../images/Sub-Service-Images/Data-Engineering-Images/data-integrity-image.jpg";
+import DataIntegrityIcon from "../../images/Sub-Service-Images/Data-Engineering-Images/data-integrity-icon.png";
+import DataEnrichmentIMG from "../../images/Sub-Service-Images/Data-Engineering-Images/data-enrichment-image.jpg";
+import DataEnrichmentIcon from "../../images/Sub-Service-Images/Data-Engineering-Images/data-enrichment-icon.png";
+import DataWarehousingIMG from "../../images/Sub-Service-Images/Data-Engineering-Images/data-warehousing-image.jpg";
+import DataWarehousingIcon from "../../images/Sub-Service-Images/Data-Engineering-Images/data-warehousing-icon.png";
+import DataLakesIMG from "../../images/Sub-Service-Images/Data-Engineering-Images/data-lake-image.jpg";
+import DataLakesIcon from "../../images/Sub-Service-Images/Data-Engineering-Images/data-lake-icon.png";
+import BigDataIMG from "../../images/Sub-Service-Images/Data-Engineering-Images/big-data-image.jpg";
+import BigDataIcon from "../../images/Sub-Service-Images/Data-Engineering-Images/big-data-icon.png";
+
 
 
 const dataLabelingData = [
@@ -474,8 +505,8 @@ const dataLabelingData = [
         name : "data-engineering",
         title : "Data Pipelines",
         description : "Automate the movement and transformation of data, eliminating manual intervention, reducing errors during data transportation. We assist in data source identification & verification, data ingestion, batch & streaming ingestion, data transformation using ETL or ELT and data monitoring.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :DataPipelinesIMG,
+        icon : DataPipelinesIcon
     },
     {
         id : "data-transformations",
@@ -483,8 +514,8 @@ const dataLabelingData = [
         name : "data-engineering",
         title : "Data Transformations",
         description : "Support comprehensive and effective data warehousing & data migration solutions that enable efficient movement and management of data. We support seamless integrations, automatic failover, transformation versioning, transformation as a service, rule based transformations and sacalable architectures for bulk processing.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :DataTransformationsIMG,
+        icon : DataTransformationsIcon
     },
     {
         id : "data-cleansing",
@@ -492,8 +523,8 @@ const dataLabelingData = [
         name : "data-engineering",
         title : "Data Cleansing",
         description : "Optimize the quality and accuracy of data by reconciling duplicate records, data validation, updating business records to achieve higher analytical productivity. We support data de-duplication, data standardization/normalization, data scrubbing, data verification and validation.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :DataCleansingIMG,
+        icon : DataCleansingIcon
     },
     {
         id : "data-integrity",
@@ -501,8 +532,8 @@ const dataLabelingData = [
         float : "left",
         title : "Data Integrity",
         description : "Ensure overall accuracy, completeness and consistency of data while complying with regulatory standards and securities. We offer data integrity consultancy, data integrity audits and data integrity remediation services.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :DataIntegrityIMG,
+        icon : DataIntegrityIcon
     },
     {
         id : "data-enrichment",
@@ -510,8 +541,8 @@ const dataLabelingData = [
         name : "data-engineering",
         title : "Data Enrichment",
         description : "Incorporate new information in existing records to improve accuracy, value and reduce gaps in customer database for highly effective various business initiatives. We assist in data auditing, data cleansing, restructuring, data accumulation and post-processing.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :DataEnrichmentIMG,
+        icon : DataEnrichmentIcon
     },
     {
         id : "data-warehousing",
@@ -519,8 +550,8 @@ const dataLabelingData = [
         name : "data-engineering",
         title : "Data Warehousing",
         description : "Design data warehouses including business intelligence frameworks, a robust data model, an efficient data integration architecture and an intelligent database ideal for BI and analytics. We support data warehouse migration, data modelling and architecting, data integration, enterprise data management , data governance, performance and managed services.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :DataWarehousingIMG,
+        icon : DataWarehousingIcon
     },
     {
         id : "data-lakes",
@@ -528,8 +559,8 @@ const dataLabelingData = [
         name : "data-engineering",
         title : "Data Lakes",
         description : "Support big data volume and velocity to enable enterprise wide information by simplifying data ingestion, enabling self-service capabilities and reducing storage and computing costs. We support in system infrastructure assesment, data lake architecture consulting, data lake governance & security strategy, data preparation & enrichment, front-end integration testing and managed services.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :DataLakesIMG,
+        icon : DataLakesIcon
     },
     {
         id : "big-data",
@@ -537,8 +568,8 @@ const dataLabelingData = [
         name : "data-engineering",
         title : "Big Data",
         description : "Discover valuable insights about your processes through data and turn them into actionable insights. We take an AI-driven big data anlytics approach and support in big data security solutions, big data analytics solutions, big data integration solutions, big data implementation & adoption, big data governance, data warehousing and architecture design.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :BigDataIMG,
+        icon : BigDataIcon
     },
 
     //FOR USER EXPERIENCE SUB SERVICE
@@ -549,8 +580,8 @@ const dataLabelingData = [
         name : "user-experience",
         title : "Design Thinking",
         description : "An iterative approach to recognize patterns and construct ideas that are meaningful and intuitive. We apply design thinking techniques across disciplines to match people's needs and provide solutions to formulate effective business strategies resulting in sustainable service models.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :DesignThinkingIMG,
+        icon : DesignThinkingIcon
     },
     {
         id : "user-research",
@@ -558,8 +589,8 @@ const dataLabelingData = [
         name : "user-experience",
         title : "User Research & Analysis",
         description : "Thouroughly understand customer behaviour, attitude, needs and pain points to deliver effective, optimized and customer-centric solutions that produce tangible results. We adopt a user-centered approach and identify gaps in process & data to deliver an in-depth solution analysis for building world-class products or solutions.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :UserResearchIMG,
+        icon : UserResearchIcon
     },
     {
         id : "interaction-design",
@@ -567,8 +598,8 @@ const dataLabelingData = [
         name : "user-experience",
         title : "Experience & Interaction Design",
         description : "Meld usable interfaces which are mobile friendly with equally powerful back end architectures that result in robust and scalable solutions that ensure a dynamic experience for users. Our design approach is outcome driven - to produce outcomes that fulfil user expectations and differentiate you from competition.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :InteractionDesignIMG,
+        icon : InteractionDesignIcon
     },
     {
         id : "visual-design",
@@ -576,8 +607,8 @@ const dataLabelingData = [
         name : "user-experience",
         title : "Rapid Prototyping & Visual Design",
         description : "An accelerated and iterative approach to develop system mock-ups, giving potential end-users or stakeholders a feel for the final product before moving towards full-scale production. We incorporate real data and add as many interactions/micro-interactions in the prototype for testing to avoid any uncertainities & gaps early in the product roadmap saving time and money.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :VisualDesignIMG,
+        icon : VisualDesignIcon
     },
     {
         id : "usability-testing ",
@@ -585,8 +616,8 @@ const dataLabelingData = [
         name : "user-experience",
         title : "Usability Testing ",
         description : "Optimize the products or solutions for best in-class user experience improving customer loyalty & life. We craft a detailed testing plan which includes A/B testing & exception handling scenarios and conduct remote or in-person usability tests to understand how users feel and engage with your newly designed or existing products or solutions.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :UsabilityTestingIMG,
+        icon : UsabilityTestingIcon
     },
 
 

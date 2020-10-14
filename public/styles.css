@@ -3093,9 +3093,9 @@ label{
     /* .sub-service-intro {
         height: 80vh;
     } */
-    /* .subService-AIML-intro-caption {
-        top: 110px;
-    } */
+    .subService-AIML-intro-caption {
+        top: 130px;
+    }
     .sub-service-data-section{
         text-align: left;
         margin-top: 20px;
@@ -3118,7 +3118,7 @@ label{
     }
 
     .sub-service-career .career-caption {
-        padding: 25px 30px;
+        padding: 40px 30px;
     }
 
     .sub-service-career .career-caption h2 {
@@ -3198,6 +3198,9 @@ label{
 
     .sub-service-career{
         margin-top: 250px;
+    }
+    .sub-service-career .career-caption {
+        padding: 40px 30px;
     }
 
     .sub-service-career .career-details p{

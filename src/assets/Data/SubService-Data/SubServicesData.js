@@ -4,6 +4,7 @@ import CloudServiceBG from "../../images/Sub-Service-Images/Cloud-Images/cloud-s
 import PlatformEngineeringBG from "../../images/Sub-Service-Images/Platform-Engineering-Images/platform-engineering-bg.jpg";
 import QualityAssuranceBG from "../../images/Sub-Service-Images/Quality-Assurance-Images/quality-assurance-bg.jpg";
 import ConsultingBG from "../../images/Sub-Service-Images/Consulting-Images/strategy-consulting-bg.jpg";
+import DataEngineeringIMG from "../../images/Sub-Service-Images/Data-Engineering-Images/data-engineering-bg.jpg";
 
 const subServicesData = [
     {
@@ -58,7 +59,7 @@ const subServicesData = [
     {
         id : "data-engineering",
         title : "Data Engineering",
-        BG : dmBG1,
+        BG : DataEngineeringIMG,
         description : "Amnet Digital takes a business focused approach to data engineering to align analytics and technology. By leveraging modern techniques like fast cluster computing you can maximize the value of your data assets . Create foundation of data and transform extracted knowledge into insights for more informed and timely business decisions.",
     }
     ,
