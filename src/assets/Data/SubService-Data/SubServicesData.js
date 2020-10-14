@@ -4,7 +4,9 @@ import CloudServiceBG from "../../images/Sub-Service-Images/Cloud-Images/cloud-s
 import PlatformEngineeringBG from "../../images/Sub-Service-Images/Platform-Engineering-Images/platform-engineering-bg.jpg";
 import QualityAssuranceBG from "../../images/Sub-Service-Images/Quality-Assurance-Images/quality-assurance-bg.jpg";
 import ConsultingBG from "../../images/Sub-Service-Images/Consulting-Images/strategy-consulting-bg.jpg";
-import DataEngineeringIMG from "../../images/Sub-Service-Images/Data-Engineering-Images/data-engineering-bg.jpg";
+import DataEngineeringBG from "../../images/Sub-Service-Images/Data-Engineering-Images/data-engineering-bg.jpg";
+import DataManagementBG from "../../images/Sub-Service-Images/Data-Management-Images/data-management-bg.jpg";
+import AdvancedAnalyticsBG from "../../images/Sub-Service-Images/Advanced-Analytics-Images/advanced-analytics-bg.jpg"
 
 const subServicesData = [
     {
@@ -59,20 +61,20 @@ const subServicesData = [
     {
         id : "data-engineering",
         title : "Data Engineering",
-        BG : DataEngineeringIMG,
+        BG : DataEngineeringBG,
         description : "Amnet Digital takes a business focused approach to data engineering to align analytics and technology. By leveraging modern techniques like fast cluster computing you can maximize the value of your data assets . Create foundation of data and transform extracted knowledge into insights for more informed and timely business decisions.",
     }
     ,
     {
         id : "advanced-analytics",
-        BG : dmBG,
+        BG : AdvancedAnalyticsBG,
         title : "Advanced Analytics",
         description : "Our proven experience in delivering analytics solutions to enterprises can help your business gain a competitive advantage. We can contribute in a crucial role to formulate the ways to improve business operations and make smart business decisions that result in best return on investments.",
     }
     ,
     {
         id : "data-management",
-        BG : dmBG,
+        BG : DataManagementBG,
         title : "Data Management",
         description : "Our data management services span a wide range of business capabilities around data quality management. We help businesses create robust data management solutions that capture the most critical information within your organization 'master data' & create a single source of truth.",
     }

@@ -31,13 +31,13 @@ function CareersDetails (){
                                     </li>
                                     <li>
                                         <span>
-                                            <img src={list.listIcon} className="img-fluid list-icon" />
+                                            <img src={list.listIcon} className="img-fluid list-icon" alt="list-icon"/>
                                         </span>
                                         {list.listTwo}
                                     </li>
                                     <li>
                                         <span>
-                                            <img src={list.listIcon} className="img-fluid list-icon" />
+                                            <img src={list.listIcon} className="img-fluid list-icon" alt="list-icon"/>
                                         </span>
                                         {list.listThree}
                                     </li>

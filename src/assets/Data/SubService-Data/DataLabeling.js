@@ -88,6 +88,53 @@ import BigDataIMG from "../../images/Sub-Service-Images/Data-Engineering-Images/
 import BigDataIcon from "../../images/Sub-Service-Images/Data-Engineering-Images/big-data-icon.png";
 
 
+//FOR DATA MANAGEMENT SUB SERVICE
+import DataArchitectureManagementIMG from "../../images/Sub-Service-Images/Data-Management-Images/data-architecture-mgmt-image.jpg";
+import DataArchitectureManagementIcon from "../../images/Sub-Service-Images/Data-Management-Images/data-architecture-mgmt-icon.png";
+import DataDevelopmentIMG from "../../images/Sub-Service-Images/Data-Management-Images/data-development-image.jpg";
+import DataDevelopmentIcon from "../../images/Sub-Service-Images/Data-Management-Images/data-development-icon.png";
+import DataGovernanceIMG from "../../images/Sub-Service-Images/Data-Management-Images/data-governance-image.jpg";
+import DataGovernanceIcon from "../../images/Sub-Service-Images/Data-Management-Images/data-governance-icon.png";
+import DataOperationsManagementIMG from "../../images/Sub-Service-Images/Data-Management-Images/data-ops-mgmt-image.jpg";
+import DataOperationsManagementIcon from "../../images/Sub-Service-Images/Data-Management-Images/data-ops-mgmt-icon.png";
+import DataQualityManagementIMG from "../../images/Sub-Service-Images/Data-Management-Images/data-quality-mgmt-image.jpg";
+import DataQualityManagementIcon from "../../images/Sub-Service-Images/Data-Management-Images/data-quality-mgmt-icon.png";
+import DataSecurityManagementIMG from "../../images/Sub-Service-Images/Data-Management-Images/data-security-mgmt-image.jpg";
+import DataSecurityManagementIcon from "../../images/Sub-Service-Images/Data-Management-Images/data-security-mgmt-icon.png";
+import BusinessIntelligenceIMG from "../../images/Sub-Service-Images/Data-Management-Images/data-warehousing-bi-image.jpg";
+import BusinessIntelligenceIcon from "../../images/Sub-Service-Images/Data-Management-Images/data-warehousing-bi-icon.png";
+import ContentManagementIMG from "../../images/Sub-Service-Images/Data-Management-Images/data-architecture-mgmt-image.jpg";
+import ContentManagementIcon from "../../images/Sub-Service-Images/Data-Management-Images/data-architecture-mgmt-icon.png";
+import MetadataManagementIMG from "../../images/Sub-Service-Images/Data-Management-Images/meta-data-mgmt-image.jpg";
+import MetadataManagementIcon from "../../images/Sub-Service-Images/Data-Management-Images/meta-data-mgmt-icon.png";
+import MasterDataManagementIMG from "../../images/Sub-Service-Images/Data-Management-Images/reference-mdm-mgmt-image.jpg";
+import MasterDataManagementIcon from "../../images/Sub-Service-Images/Data-Management-Images/reference-mdm-mgmt-icon.png";
+
+
+//FOR ADVANCED ANALYTICS SUB SERVICE
+import ComplexEventProcessingIMG from "../../images/Sub-Service-Images/Advanced-Analytics-Images/complex-event-processing-image.jpg";
+import ComplexEventProcessingIcon from "../../images/Sub-Service-Images/Advanced-Analytics-Images/complex-event-processing-icon.png";
+import DeepLearningIMG from "../../images/Sub-Service-Images/Advanced-Analytics-Images/deep-learning-image.jpg";
+import DeepLearningIcon from "../../images/Sub-Service-Images/Advanced-Analytics-Images/deep-learning-icon.png";
+import GraphAnalysisIMG from "../../images/Sub-Service-Images/Advanced-Analytics-Images/graph-analysis-image.jpg";
+import GraphAnalysisIcon from "../../images/Sub-Service-Images/Advanced-Analytics-Images/graph-analysis-icon.png";
+import NetworkAnalysisIMG from "../../images/Sub-Service-Images/Advanced-Analytics-Images/network-analysis-image.jpg";
+import NetworkAnalysisIcon from "../../images/Sub-Service-Images/Advanced-Analytics-Images/network-analysis-icon.png";
+import NLPIMG from "../../images/Sub-Service-Images/Advanced-Analytics-Images/nlp-image.jpg";
+import NLPIcon from "../../images/Sub-Service-Images/Advanced-Analytics-Images/nlp-icon.png";
+import PatternMatchingIMG from "../../images/Sub-Service-Images/Advanced-Analytics-Images/pattern-matching-image.jpg";
+import PatternMatchingIcon from "../../images/Sub-Service-Images/Advanced-Analytics-Images/pattern-matching-icon.png";
+import SemanticAnalysisIMG from "../../images/Sub-Service-Images/Advanced-Analytics-Images/semantic-analysis-image.jpg";
+import SemanticAnalysisIcon from "../../images/Sub-Service-Images/Advanced-Analytics-Images/semantic-analysis-icon.png";
+import SentimentAnalysisIMG from "../../images/Sub-Service-Images/Advanced-Analytics-Images/sentiment-analysis-image.jpg";
+import SentimentAnalysisIcon from "../../images/Sub-Service-Images/Advanced-Analytics-Images/sentiment-analysis-icon.png";
+import SimulationIMG from "../../images/Sub-Service-Images/Advanced-Analytics-Images/simulation-image.jpg";
+import SimulationIcon from "../../images/Sub-Service-Images/Advanced-Analytics-Images/simulation-icon.png";
+import TextMiningIMG from "../../images/Sub-Service-Images/Advanced-Analytics-Images/text-mining-image.jpg";
+import TextMiningIcon from "../../images/Sub-Service-Images/Advanced-Analytics-Images/text-mining-icon.png";
+
+
+
 
 const dataLabelingData = [
 
@@ -319,8 +366,8 @@ const dataLabelingData = [
         name : "data-management",
         title : "Data Architecture Management",
         description : "Build a robust enterprise data architecture and consolidate disparate warehouses into a single unified warehouse that reduces the total cost of ownership. We help in defining enterprise data model, value chain analysis and data architecture development and maintenance.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :DataArchitectureManagementIMG,
+        icon : DataArchitectureManagementIcon
     },
     {
         id : "data-development",
@@ -328,8 +375,8 @@ const dataLabelingData = [
         name : "data-management",
         title : "Data Development",
         description : "Integrate your data into analytics-ready systems or build scalable solutions from scratch to maximize return on investment. We assist in data analysis, data modelling, database design, implementation and maintenance.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :DataDevelopmentIMG,
+        icon : DataDevelopmentIcon
     },
     {
         id : "data-governance",
@@ -337,8 +384,8 @@ const dataLabelingData = [
         name : "data-management",
         title : "Data Governance",
         description : "Ensure proactive and efficient management of data throughout enterprise in a standardized format with high accessibility. We help design and deploy end-to-end data governance frameworks from scratch, or improve and enhance existing capabilities.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :DataGovernanceIMG,
+        icon : DataGovernanceIcon
     },
     {
         id : "data-operations-management",
@@ -346,8 +393,8 @@ const dataLabelingData = [
         name : "data-management",
         title : "Data Operations Management",
         description : "Get a consolidated view and control of data from all data sources covering business processes and applications. Discover intelligent data relationships, have efficient data enrichment & scalable data operations, optimal compliance and data governance across enterprise.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :DataOperationsManagementIMG,
+        icon : DataOperationsManagementIcon
     },
     {
         id : "data-quality-management",
@@ -355,8 +402,8 @@ const dataLabelingData = [
         name : "data-management",
         title : "Data Quality Management",
         description : "Improve the quality of data and establish the desired business outcome that depends on the high quality of the data. We offer data quality analysis, data standardization, data cleansing, data de-duplication and data enrichment.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :DataQualityManagementIMG,
+        icon : DataQualityManagementIcon
     },
     {
         id : "data-security-management",
@@ -364,8 +411,8 @@ const dataLabelingData = [
         name : "data-management",
         title : "Data Security Management",
         description : "Secure sensitive data in your organization across creation, use and transmission and mitigate the risk and threats identified to each sensitive data type on basis of specific protection required for data silos. We offer both consulting and integration services with critical data protection plan, data loss prevention & encryption and managed cloud data protection.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :DataSecurityManagementIMG,
+        icon : DataSecurityManagementIcon
     },
     {
         id : "business-intelligence",
@@ -373,8 +420,8 @@ const dataLabelingData = [
         name : "data-management",
         title : "Data Warehousing and Business Intelligence",
         description : "Design data warehouses including business intelligence frameworks, a robust data model, an efficient data integration architecture and an intelligent database ideal for BI and analytics. We support data warehouse migration, data modelling and architecting, data integration, enterprise data management , data governance, performance and managed services.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :BusinessIntelligenceIMG,
+        icon : BusinessIntelligenceIcon
     },
     {
         id : "content-management",
@@ -391,8 +438,8 @@ const dataLabelingData = [
         name : "data-management",
         title : "Meta-data Management",
         description : "Define a central metadata management strategy to ensure accurate data interpretation by including collection, storage, processing and cleaning of the data. We support architecture development, integrations, metadata control and delivery modules.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :MetadataManagementIMG,
+        icon : MetadataManagementIcon
     },
     {
         id : "master-data-management",
@@ -400,8 +447,8 @@ const dataLabelingData = [
         name : "data-management",
         title : "Reference and Master Data Management",
         description : "Craft and manage a central repository of your data assets to analyze risks, predict churn, detect fraud, enhance security & privacy and administer accurate reporting and regulatory compliance. We support MDM & data quality management, multi-domain mastering, reference data management, data integration & synchronization, operational management (stewardship & authoring) and dimension management.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :MasterDataManagementIMG,
+        icon : MasterDataManagementIcon
     },
 
     //FOR ADVANCED ANALYTICS SUB SERVICE
@@ -412,8 +459,8 @@ const dataLabelingData = [
         name : "advanced-analytics",
         title : "Complex Event Processing",
         description : "Discover hard to find opportunities or threaths from high-volume, rapidly occuring data spanning departments and different sources to achieve high operational intelligence. We help you define define, manage and predict events, situations, exceptional conditions, opportunities and threats in complex, heterogeneous networks.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :ComplexEventProcessingIMG,
+        icon : ComplexEventProcessingIcon
     },
     {
         id : "deep-learning",
@@ -421,8 +468,8 @@ const dataLabelingData = [
         name : "advanced-analytics",
         title : "Deep Learning",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :DeepLearningIMG,
+        icon : DeepLearningIcon
     },
     {
         id : "graph-analysis",
@@ -430,8 +477,8 @@ const dataLabelingData = [
         name : "advanced-analytics",
         title : "Graph Analysis",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :GraphAnalysisIMG,
+        icon : GraphAnalysisIcon
     },
     {
         id : "network-analysis",
@@ -439,8 +486,8 @@ const dataLabelingData = [
         name : "advanced-analytics",
         title : "Network Analysis",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :NetworkAnalysisIMG,
+        icon : NetworkAnalysisIcon
     },
     {
         id : "NLP",
@@ -448,8 +495,8 @@ const dataLabelingData = [
         name : "advanced-analytics",
         title : "NLP",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :NLPIMG,
+        icon : NLPIcon
     },
     {
         id : "pattern-matching",
@@ -457,8 +504,8 @@ const dataLabelingData = [
         name : "advanced-analytics",
         title : "Pattern Matching",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :PatternMatchingIMG,
+        icon : PatternMatchingIcon
     },
     {
         id : "semantic-analysis",
@@ -466,8 +513,8 @@ const dataLabelingData = [
         name : "advanced-analytics",
         title : "Semantic Analysis",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :SemanticAnalysisIMG,
+        icon : SemanticAnalysisIcon
     },
     {
         id : "sentiment-analysis",
@@ -475,8 +522,8 @@ const dataLabelingData = [
         name : "advanced-analytics",
         title : "Sentiment Analysis",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :SentimentAnalysisIMG,
+        icon : SentimentAnalysisIcon
     },
     {
         id : "simulation",
@@ -484,8 +531,8 @@ const dataLabelingData = [
         name : "advanced-analytics",
         title : "Simulation",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :SimulationIMG,
+        icon : SimulationIcon
     },
     {
         id : "text-mining",
@@ -493,8 +540,8 @@ const dataLabelingData = [
         name : "advanced-analytics",
         title : "Text Mining",
         description : "Enanble retrieval of highly specified content from unstructerd text to provide meaningful connections between unstructured text and structured data. We support Advanced Discvoery & Search, Document Classification, Keyword Analysis, Citation Detection, Content Recommendation and Sentiment Analysis.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
+        imgSrc :TextMiningIMG,
+        icon : TextMiningIcon
     },
 
     //FOR DATA ENGINEERING SUB SERVICE

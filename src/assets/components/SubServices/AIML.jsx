@@ -34,8 +34,6 @@ function AIML ({match}){
 
     return (
         <>
-        {console.log(match)}
-
                 {SubServicesData.filter(data => data.id === match.params.id).map(serviceDetail => {
                     return (
                         <>
@@ -83,7 +81,7 @@ function AIML ({match}){
                         !(dataDetail.float === "left") ?
                                     <div className="row service-all-margin" key={dataDetail.id}>
                                         <div className="col-xl-12 col-lg-12 about-us-details p-0" key = {dataDetail.id}>
-                                            <img className="img-fluid about-us-img-right " src={dataDetail.imgSrc} alt="mission" />
+                                            <img className="img-fluid about-us-img-right " src={dataDetail.imgSrc} alt={dataDetail.name} />
                                             <div className="row no-gutters sub-service-img-right-desc">
                                                 <div className="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                     <span>
@@ -105,7 +103,7 @@ function AIML ({match}){
                                      <div className="sub-service-details-bg-color">
                                          <div className="row service-all-margin ">
                                         <div className="col-12 about-us-details p-0" key = {dataDetail.id}>
-                                            <img className="img-fluid about-us-img-left " src={dataDetail.imgSrc} alt="mission" />
+                                            <img className="img-fluid about-us-img-left " src={dataDetail.imgSrc} alt={dataDetail.name} />
                                             <div className="row no-gutters sub-service-img-right-desc">
                                                 <div className="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                     <span>

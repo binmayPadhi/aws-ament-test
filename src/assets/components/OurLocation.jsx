@@ -28,7 +28,7 @@ function OurLocation(){
                                     <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 " key = {list.id}>
                                         <div className="card ">
                                             <div className="card-body location-details">
-                                                <span className="dot"><img className="img-fluid" src={list.locationIcon} /> </span>
+                                                <span className="dot"><img className="img-fluid" src={list.locationIcon} alt="location"/> </span>
                                                 <h2>{list.cityName}</h2>
                                                 <p>{list.address}</p>
                                             </div>
