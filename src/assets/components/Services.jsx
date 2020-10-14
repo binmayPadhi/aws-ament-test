@@ -64,6 +64,9 @@ function Services (){
                                     <div className="service-desc">  
                                         <h2>{service.title}</h2>
                                         <p>{service.description}</p>
+                                        <br />
+                                        {/* <button className="btn btn-primary" style={{fontSize : "1.5rem"}}>Learn More</button> */}
+
                                     </div>
                                 </div> : 
                                 <div className="col-12 service-list p-0 clearfix" key = {service.id} id={service.id}>
@@ -71,6 +74,8 @@ function Services (){
                                     <div className="service-desc">  
                                         <h2>{service.title}</h2>
                                         <p>{service.description}</p>
+                                        <br />
+                                        {/* <button className="btn btn-primary" style={{fontSize : "1.5rem"}}>Learn More</button> */}
                                     </div>
                                 </div>
                             )

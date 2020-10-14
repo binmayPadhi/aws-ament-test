@@ -8,7 +8,7 @@ import ConsultingBG from "../../images/Sub-Service-Images/Consulting-Images/stra
 const subServicesData = [
     {
         id : "aiml",
-        title : "AIML",
+        title : "AI / ML",
         BG : dmBG1,
         description : "We maintain a data-driven mindset all throughout the engagement, whether it is during strategy support phase or model development phase, and focus on utilization of big data and machine learning by empowered business users.",
     }
@@ -24,7 +24,7 @@ const subServicesData = [
         id : "quality-assurance",
         title : "Quality Assurance",
         BG : QualityAssuranceBG,
-        description : "We provide dedicated Quality Assurance services aligned to latest Agile, AI/ML and Digital Transformation trends and offer end-to-end functional testing (manual/automation), performance testing, API testing, security testing, ETL testing, report validation services and strive for quality shift left and high quality deliverables with optimized COQ (Cost of Quality) and significant Return on Investments (ROI).",
+        description : "We provide dedicated Quality Assurance services aligned to latest Agile, AI/ML and Digital Transformation trends and offer end-to-end functional testing (manual/automation), performance testing, Mobile testing, API testing, security testing, ETL testing, report validation services and strive for quality shift left and high quality deliverables with optimized COQ (Cost of Quality) and significant Return on Investments (ROI).",
     }
     ,
     {
@@ -36,7 +36,7 @@ const subServicesData = [
     ,
     {
         id : "cloud",
-        title : "Cloud",
+        title : "Cloud Services",
         BG : CloudServiceBG,
         description : "We adopt a structured approach that offers the flexibility needed to unify your systems within an optimized environment that prioritizes the performance you want , yet at the lowest cost.",
     }

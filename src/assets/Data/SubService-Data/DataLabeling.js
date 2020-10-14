@@ -287,7 +287,7 @@ const dataLabelingData = [
         float : "right",
         name : "data-management",
         title : "Data Architecture Management",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Build a robust enterprise data architecture and consolidate disparate warehouses into a single unified warehouse that reduces the total cost of ownership. We help in defining enterprise data model, value chain analysis and data architecture development and maintenance.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -296,7 +296,7 @@ const dataLabelingData = [
         float : "left",
         name : "data-management",
         title : "Data Development",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Integrate your data into analytics-ready systems or build scalable solutions from scratch to maximize return on investment. We assist in data analysis, data modelling, database design, implementation and maintenance.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -305,7 +305,7 @@ const dataLabelingData = [
         float : "right",
         name : "data-management",
         title : "Data Governance",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Ensure proactive and efficient management of data throughout enterprise in a standardized format with high accessibility. We help design and deploy end-to-end data governance frameworks from scratch, or improve and enhance existing capabilities.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -314,7 +314,7 @@ const dataLabelingData = [
         float : "left",
         name : "data-management",
         title : "Data Operations Management",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Get a consolidated view and control of data from all data sources covering business processes and applications. Discover intelligent data relationships, have efficient data enrichment & scalable data operations, optimal compliance and data governance across enterprise.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -323,7 +323,7 @@ const dataLabelingData = [
         float : "right",
         name : "data-management",
         title : "Data Quality Management",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Improve the quality of data and establish the desired business outcome that depends on the high quality of the data. We offer data quality analysis, data standardization, data cleansing, data de-duplication and data enrichment.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -332,7 +332,7 @@ const dataLabelingData = [
         float : "left",
         name : "data-management",
         title : "Data Security Management",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Secure sensitive data in your organization across creation, use and transmission and mitigate the risk and threats identified to each sensitive data type on basis of specific protection required for data silos. We offer both consulting and integration services with critical data protection plan, data loss prevention & encryption and managed cloud data protection.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -341,7 +341,7 @@ const dataLabelingData = [
         float : "right",
         name : "data-management",
         title : "Data Warehousing and Business Intelligence",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Design data warehouses including business intelligence frameworks, a robust data model, an efficient data integration architecture and an intelligent database ideal for BI and analytics. We support data warehouse migration, data modelling and architecting, data integration, enterprise data management , data governance, performance and managed services.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -350,7 +350,7 @@ const dataLabelingData = [
         float : "left",
         name : "data-management",
         title : "Document and Content Management",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Collect, store and utlizie data to execute business processes and workflows through structured features for business transformation. We assist in acquistion & storage, backup & recovery, retrieval and rentention of the content.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -359,7 +359,7 @@ const dataLabelingData = [
         float : "right",
         name : "data-management",
         title : "Meta-data Management",
-        description : "Define a central metadata management strategy to ensure accurate data interpretation by including collection, storage, processing and cleaning of the data. We support Architecture Development, Integrations, Metadata Control & Delivery modules.",
+        description : "Define a central metadata management strategy to ensure accurate data interpretation by including collection, storage, processing and cleaning of the data. We support architecture development, integrations, metadata control and delivery modules.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -368,7 +368,7 @@ const dataLabelingData = [
         float : "left",
         name : "data-management",
         title : "Reference and Master Data Management",
-        description : "Craft and manage a central repository of your data assets to analyze risks, predict churn, detect fraud, enhance security & privacy and administer accurate reporting and regulatory compliance. We support MDM & Data Quality Management, Multi-Domain Mastering, Reference Data Management, Data Integration & Synchronization, Operational Management (Stewardship & Authoring) and Dimension Management.",
+        description : "Craft and manage a central repository of your data assets to analyze risks, predict churn, detect fraud, enhance security & privacy and administer accurate reporting and regulatory compliance. We support MDM & data quality management, multi-domain mastering, reference data management, data integration & synchronization, operational management (stewardship & authoring) and dimension management.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -473,7 +473,7 @@ const dataLabelingData = [
         float : "right",
         name : "data-engineering",
         title : "Data Pipelines",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Automate the movement and transformation of data, eliminating manual intervention, reducing errors during data transportation. We assist in data source identification & verification, data ingestion, batch & streaming ingestion, data transformation using ETL or ELT and data monitoring.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -482,7 +482,7 @@ const dataLabelingData = [
         float : "left",
         name : "data-engineering",
         title : "Data Transformations",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Support comprehensive and effective data warehousing & data migration solutions that enable efficient movement and management of data. We support seamless integrations, automatic failover, transformation versioning, transformation as a service, rule based transformations and sacalable architectures for bulk processing.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -491,7 +491,7 @@ const dataLabelingData = [
         float : "right",
         name : "data-engineering",
         title : "Data Cleansing",
-        description : "Optimize the quality and accuracy of data by reconciling duplicate records, data validation, updating business records to achieve higher analytical productivity.",
+        description : "Optimize the quality and accuracy of data by reconciling duplicate records, data validation, updating business records to achieve higher analytical productivity. We support data de-duplication, data standardization/normalization, data scrubbing, data verification and validation.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -500,7 +500,7 @@ const dataLabelingData = [
         name : "data-engineering",
         float : "left",
         title : "Data Integrity",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Ensure overall accuracy, completeness and consistency of data while complying with regulatory standards and securities. We offer data integrity consultancy, data integrity audits and data integrity remediation services.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -509,7 +509,7 @@ const dataLabelingData = [
         float : "right",
         name : "data-engineering",
         title : "Data Enrichment",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Incorporate new information in existing records to improve accuracy, value and reduce gaps in customer database for highly effective various business initiatives. We assist in data auditing, data cleansing, restructuring, data accumulation and post-processing.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -518,7 +518,7 @@ const dataLabelingData = [
         float : "left",
         name : "data-engineering",
         title : "Data Warehousing",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Design data warehouses including business intelligence frameworks, a robust data model, an efficient data integration architecture and an intelligent database ideal for BI and analytics. We support data warehouse migration, data modelling and architecting, data integration, enterprise data management , data governance, performance and managed services.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -527,7 +527,7 @@ const dataLabelingData = [
         float : "right",
         name : "data-engineering",
         title : "Data Lakes",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Support big data volume and velocity to enable enterprise wide information by simplifying data ingestion, enabling self-service capabilities and reducing storage and computing costs. We support in system infrastructure assesment, data lake architecture consulting, data lake governance & security strategy, data preparation & enrichment, front-end integration testing and managed services.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -536,7 +536,7 @@ const dataLabelingData = [
         float : "left",
         name : "data-engineering",
         title : "Big Data",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Discover valuable insights about your processes through data and turn them into actionable insights. We take an AI-driven big data anlytics approach and support in big data security solutions, big data analytics solutions, big data integration solutions, big data implementation & adoption, big data governance, data warehousing and architecture design.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -557,7 +557,7 @@ const dataLabelingData = [
         float : "left",
         name : "user-experience",
         title : "User Research & Analysis",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Thouroughly understand customer behaviour, attitude, needs and pain points to deliver effective, optimized and customer-centric solutions that produce tangible results. We adopt a user-centered approach and identify gaps in process & data to deliver an in-depth solution analysis for building world-class products or solutions.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -566,7 +566,7 @@ const dataLabelingData = [
         float : "right",
         name : "user-experience",
         title : "Experience & Interaction Design",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Meld usable interfaces which are mobile friendly with equally powerful back end architectures that result in robust and scalable solutions that ensure a dynamic experience for users. Our design approach is outcome driven - to produce outcomes that fulfil user expectations and differentiate you from competition.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -575,7 +575,7 @@ const dataLabelingData = [
         float : "left",
         name : "user-experience",
         title : "Rapid Prototyping & Visual Design",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "An accelerated and iterative approach to develop system mock-ups, giving potential end-users or stakeholders a feel for the final product before moving towards full-scale production. We incorporate real data and add as many interactions/micro-interactions in the prototype for testing to avoid any uncertainities & gaps early in the product roadmap saving time and money.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -584,19 +584,11 @@ const dataLabelingData = [
         float : "right",
         name : "user-experience",
         title : "Usability Testing ",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        description : "Optimize the products or solutions for best in-class user experience improving customer loyalty & life. We craft a detailed testing plan which includes A/B testing & exception handling scenarios and conduct remote or in-person usability tests to understand how users feel and engage with your newly designed or existing products or solutions.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
-    {
-        id : "implementation",
-        float : "left",
-        name : "user-experience",
-        title : "Implementation & Management",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        imgSrc :SecurityTestingIMG,
-        icon : SecurityTestingIcon
-    },
+
 
     //FOR DATA ANNOTATION SUB SERVICE
 
@@ -605,7 +597,7 @@ const dataLabelingData = [
         float : "right",
         name : "data-annotation",
         title : "Image Annotation",
-        description : "Human-assisted annotation approach to deliver higher quality data guaranteeing excellent machine learning experience. We support 2D and 3D Bounding Boxes, Labelling, Semantic Segmentation, Polygon, Polyline, Landmark and Keypoint Annotation.",
+        description : "Human-assisted annotation approach to deliver high quality data guaranteeing excellent machine learning experience. We support 2D and 3D Bounding Boxes, Labelling, Semantic Segmentation, Polygon, Polyline, Landmark and Key point Annotation.",
         imgSrc : ImageAnnotationIMG,
         icon : ImageAnnotationIcon
     },
@@ -614,7 +606,7 @@ const dataLabelingData = [
         float : "left",
         name : "data-annotation",
         title : "Video Annotation",
-        description : "Annotation by capturing objects in a video frame-by-frame and reconstructing after completion improving object tracking and video labelling. We support 2D and 3D Bounding Boxes, Semantic Segmentation, Polygon & Landmark Video Annotation.",
+        description : "Annotation by capturing objects in a video frame-by-frame and reconstructing after completion, improving object tracking and video labelling. We support 2D and 3D Bounding Boxes, Semantic Segmentation, Polygon & Landmark Video Annotation.",
         imgSrc :VideoAnnotationIMG,
         icon: VideoAnnotationIcon
     },

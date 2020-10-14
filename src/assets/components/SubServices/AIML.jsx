@@ -2,6 +2,7 @@ import React from "react";
 import DataLabeling from "../../Data/SubService-Data/DataLabeling";
 import SubServicesData from "../../Data/SubService-Data/SubServicesData";
 import SubServiceCareer from "../SubServices/SubServiceCareer";
+import {Link} from "react-scroll";
 
 // import styled from "styled-components";
 
@@ -49,9 +50,18 @@ function AIML ({match}){
                             </p>
 
                             <div className="subService-AIML-intro-btn">
-                                <a href="/casestudies">
+                                {/* <a href="/casestudies">
                                     <button type="button" className="btn btn-default">View Details</button>
-                                </a>
+                                </a> */}
+                                <Link
+                            activeClass="active"
+                            to="details"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>
+                            <button type="button" className="btn btn-primary learn-more-btn">View Details</button>
+                        </Link>
                             </div>
                         </div>
                         </div>
@@ -67,7 +77,7 @@ function AIML ({match}){
 
 
 
-            <div className="sub-service-data-section">
+            <div className="sub-service-data-section" id="details">
                 {DataLabeling.filter(data => data.name === match.params.id).map((dataDetail, index) => {
                     return (
                         !(dataDetail.float === "left") ?

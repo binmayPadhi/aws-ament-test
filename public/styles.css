@@ -2989,6 +2989,14 @@ label{
         top: 150px;
     }
 
+    .subService-AIML-intro-caption h2 {
+        font-size: 3.8rem;
+    }
+
+    .subService-AIML-intro-caption p {
+        font-size: 1.5rem;
+    }
+
     .sub-service-img-left-desc .about-icons{
         margin-left: 0px;
     }
@@ -3222,11 +3230,11 @@ label{
     }
 
     .subService-AIML-intro-caption h2 {
-        font-size: 4rem;
+        font-size: 3.8rem;
     }
 
     .subService-AIML-intro-caption p {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .sub-service-data-section {

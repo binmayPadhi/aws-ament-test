@@ -2,7 +2,7 @@ import React from "react";
 import OurServicesData from "../../Data/Homepage-Data/OurServicesData";
 import AiServiceIMG from "../../images/HomePage/our-services/amnet-ai-ml.jpg";
 import ourServiceBG from "../../images/HomePage/our-services/amnet-our-services-bg.png";
-import {Link} from "react-router-dom";
+import {BrowserRouter as Router, Link} from "react-router-dom";
 
 function OurServices (){
 
@@ -49,6 +49,9 @@ function OurServices (){
                                                     <p className="card-text">Take advantage of the data-driven mindset that leverages cutting-edge 
                                                         technology to develop world class solutions.
                                                     </p>
+                                                    <Router forceRefresh={true} basename="/service">
+                                                                <Link to={`/${`aiml`}`} className="learn-more-services">{`Learn More ->`}</Link> 
+                                                            </Router>
                                                     {/* <Link to="/services#AI-ML" className="learn-more-services">Learn More</Link> */}
                                                     {/* <a href={`/${`aiml`}`} className="learn-more-services">{`Learn More ->`}</a> */}
                                                 </div>
@@ -69,6 +72,9 @@ function OurServices (){
                                                         <div className="card-body">
                                                             <h3 className="card-title">{serviceList.serviceTitle}</h3>
                                                             <p className="card-text">{serviceList.serviceDesc}</p>
+                                                            <Router forceRefresh={true} basename="/service">
+                                                                <Link to={`/${serviceList.id}`} className="learn-more-services">{`Learn More ->`}</Link> 
+                                                            </Router>
                                                             {/* <Link to ={`/services#${serviceList.id}`} className="learn-more-services">Learn More</Link> */}
                                                             {/* <a href={`/${serviceList.id}`} className="learn-more-services">{`Learn More ->`}</a> */}
                                                             {/* <a href={`/services#${serviceList.id}`} className="learn-more-services">{`Learn More ->`}</a> */}
