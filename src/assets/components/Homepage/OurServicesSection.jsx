@@ -72,9 +72,9 @@ function OurServices (){
                                                         <div className="card-body">
                                                             <h3 className="card-title">{serviceList.serviceTitle}</h3>
                                                             <p className="card-text">{serviceList.serviceDesc}</p>
-                                                            <Router forceRefresh={true} basename="/service">
+                                                            {/* <Router forceRefresh={true} basename="/service">
                                                                 <Link to={`/${serviceList.id}`} className="learn-more-services">{`Learn More ->`}</Link> 
-                                                            </Router>
+                                                            </Router> */}
                                                             {/* <Link to ={`/services#${serviceList.id}`} className="learn-more-services">Learn More</Link> */}
                                                             {/* <a href={`/${serviceList.id}`} className="learn-more-services">{`Learn More ->`}</a> */}
                                                             {/* <a href={`/services#${serviceList.id}`} className="learn-more-services">{`Learn More ->`}</a> */}
