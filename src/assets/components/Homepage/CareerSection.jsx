@@ -1,19 +1,33 @@
 import React from "react";
 import careerBG from "../../images/HomePage/amnet-career-section-bg.jpg";
+import styled from "styled-components";
 
 function CareerSection (){
 
-    const careerStyle = {
-        backgroundImage:`url(${careerBG})`,
-        backgroundAttachment: "scroll",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
+    // const careerStyle = {
+    //     backgroundImage:`url(${careerBG})`,
+    //     backgroundAttachment: "scroll",
+    //     backgroundRepeat: "no-repeat",
+    //     backgroundSize: "cover",
+    // }
+
+    const Content = styled.div`
+    padding: 10px;
+    background-image: url(${careerBG});
+    backgroundAttachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: red;
+
+    @media (max-width: 768px) {
+        background-image: none;
     }
+`;
 
     return (
         <>
             {/* <!--CAREER SECTION--> */}
-            <div className="career career-bg" style = {careerStyle}>
+            <Content className="career career-bg">
                 <div className="career-section all-margin">
         
                 <div className="career-section-row row g-0">
@@ -35,7 +49,7 @@ function CareerSection (){
                     </div>
                 </div>
             </div>
-        </div>
+        </Content>
         </>
     )
 }

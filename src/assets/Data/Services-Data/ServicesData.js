@@ -63,7 +63,7 @@ const servicesData = [
     },
     {
         id : "consulting",
-        title : "CONSULTING",
+        title : "STARTEGY & CONSULTING",
         description : "The era of the standalone digital project is over. Amnet Digital can help you create solutions that influence your whole organization. Digital powers virtually every move a company makes. Analytics informs every high-stakes decision. And emerging technologies offer huge advantage to companies that adopt them first. We help you bring all this together, infusing every project with a set of digital capabilities that focus on fulfilling your strategy. We combine our diverse expertise in data science, automation, digital experiences, enterprise technology and related disciplines, to help you take a digital-first approach to every engagement.",
         serviceIMG : ConsultingIMG
     }

@@ -11,7 +11,7 @@ import AdvancedAnalyticsBG from "../../images/Sub-Service-Images/Advanced-Analyt
 const subServicesData = [
     {
         id : "aiml",
-        title : "AI / ML",
+        title : "AI & ML Services",
         BG : dmBG,
         description : "We maintain a data-driven mindset all throughout the engagement, whether it is during strategy support phase or model development phase, and focus on utilization of big data and machine learning by empowered business users. We have capability to help evolve solutions that start as process automation to cognitive insight and finally cognitive engagement when systems work autonomously.",
     }
@@ -27,7 +27,7 @@ const subServicesData = [
         id : "quality-assurance",
         title : "Quality Assurance",
         BG : QualityAssuranceBG,
-        description : "We provide dedicated Quality Assurance services aligned to latest Agile, AI/ML and Digital Transformation trends and offer end-to-end functional testing (manual/automation), performance testing, Mobile testing, API testing, security testing, ETL testing, report validation services and strive for quality shift left and high quality deliverables with optimized COQ (Cost of Quality) and significant Return on Investments (ROI).",
+        description : "We provide dedicated Quality Assurance services aligned to latest agile, AI/ML and Digital Transformation trends and offer end-to-end testing & report validation services. At Amnet Digital, we strive for quality shift left and high-grade deliverables with optimized Cost of Quality and significant Return on Investments.",
     }
     ,
     {
@@ -62,7 +62,7 @@ const subServicesData = [
         id : "data-engineering",
         title : "Data Engineering",
         BG : DataEngineeringBG,
-        description : "Amnet Digital takes a business focused approach to data engineering to align analytics and technology. By leveraging modern techniques like fast cluster computing you can maximize the value of your data assets . Create foundation of data and transform extracted knowledge into insights for more informed and timely business decisions.",
+        description : "Amnet Digital takes a business focused approach to data engineering to align analytics and technology. By leveraging modern techniques like fast cluster computing you can maximize the value of your data assets. Create foundation of data and transform extracted knowledge into insights for more informed and timely business decisions.",
     }
     ,
     {

@@ -53,7 +53,7 @@ function OurServices (){
                                                                 <Link to={`/${`aiml`}`} className="learn-more-services">{`Learn More ->`}</Link> 
                                                             </Router> */}
                                                     {/* <Link to="/services#AI-ML" className="learn-more-services">Learn More</Link> */}
-                                                    {/* <a href={`/${`aiml`}`} className="learn-more-services">{`Learn More ->`}</a> */}
+                                                    <a href={`/${`aiml`}`} className="learn-more-services">{`Learn More ->`}</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -76,7 +76,7 @@ function OurServices (){
                                                                 <Link to={`/${serviceList.id}`} className="learn-more-services">{`Learn More ->`}</Link> 
                                                             </Router> */}
                                                             {/* <Link to ={`/services#${serviceList.id}`} className="learn-more-services">Learn More</Link> */}
-                                                            {/* <a href={`/${serviceList.id}`} className="learn-more-services">{`Learn More ->`}</a> */}
+                                                            <a href={`/${serviceList.id}`} className="learn-more-services">{`Learn More ->`}</a>
                                                             {/* <a href={`/services#${serviceList.id}`} className="learn-more-services">{`Learn More ->`}</a> */}
                                                         </div>
                                                     </div>
