@@ -34,7 +34,7 @@ const subServicesData = [
         id : "consulting",
         BG : ConsultingBG,
         title : "Strategy & Consulting",
-        description : "The era of the standalone digital project is over. Amnet Digital can help you create solutions that influence your whole organization. Digital powers virtually every move a company makes. Analytics informs every high-stakes decision. And emerging technologies offer huge advantage to companies that adopt them first. We help you bring all this together, infusing every project with a set of digital capabilities that focus on fulfilling your strategy.",
+        description : "The era of the standalone digital project is over. We can help you create solutions that influence your whole organization. Digital powers virtually every move a company makes. Analytics informs every high-stakes decision. And emerging technologies offer huge advantage to companies that adopt them first. We help you bring all this together, infusing every project with a set of digital capabilities that focus on fulfilling your strategy.",
     }
     ,
     {

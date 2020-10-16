@@ -196,7 +196,7 @@ const dataLabelingData = [
         float : "left",
         name : "aiml",
         title : "Statistical Analysis",
-        description : "Leverage data science capabilities to get the maximum value from your data. Our data science teams use tools like python, r, SAS etc for statistical analysis & modeling to analyze your data to uncover patters and trends and to convert your data into information and knowledge.",
+        description : "Leverage data science capabilities to get the maximum value from your data. Our data science teams use tools like Python, R, SAS etc for statistical analysis & modeling to analyze your data to uncover patterns and trends and to convert your data into information and knowledge.",
         imgSrc :StatisticalAnalysisIMG,
         icon : StatisticalAnalysisIcon
     },
@@ -241,7 +241,7 @@ const dataLabelingData = [
         float : "left",
         name : "aiml",
         title : "Conversational AI & Virtual Assistant",
-        description : "Use intelligent chatbots to assist customers throughout their shopping experience. We develop custom virtual assistants using NLP and machine learning with features like multipronged NLP engine, flexible deployment, conversational intelligence, omnichannel platform and extract insights through self-reporting dashboards.",
+        description : "Use intelligent chatbots to assist customers throughout their shopping experience. We develop custom virtual assistants using NLP and machine learning algorithms with features like multipronged NLP engine, flexible deployment, conversational intelligence, omnichannel platform and extract insights through self-reporting dashboards.",
         imgSrc :VirtualAssistantsIMG,
         icon : VirtualAssistantsIcon
     }
@@ -251,7 +251,7 @@ const dataLabelingData = [
         float : "right",
         name : "aiml",
         title : "Customer Churn Analysis",
-        description : "Identify high, medium and low-risk customers to devise strategies to prevent customer attrition. We use supervised learning methods like data gathering/analysis (geographic, demographic, behavioural, transactional data), attrition stage analysis, engagement, responsiveness & feedback analysis, customer classification using trained models and retention strategies.",
+        description : "Identify high, medium and low-risk customers to devise strategies for preventing customer attrition. We use supervised learning methods like data gathering/analysis (geographic, demographic, behavioural, transactional data), attrition stage analysis, engagement, responsiveness & feedback analysis, customer classification using trained models and retention strategies.",
         imgSrc :CustomerChurnAnalysisIMG,
         icon : CustomerChurnAnalysisIcon
     },
@@ -269,7 +269,7 @@ const dataLabelingData = [
         float : "right",
         name : "aiml",
         title : "Customer Segmentation",
-        description : "Group customers based on the similarities observed from the data to improve customer service leading to customer loyalty and retention. We segment customers using un-supervised learning methods and specify ideal segments, collect & explore data, extract segments, profile segments, describe segments and choose segments of interest and customize sales & marketing efforts around them.",
+        description : "Group customers based on the similarities observed from the data to improve customer service leading to customer loyalty and retention. We segment customers using un-supervised learning methods and specify ideal segments, collect & explore data, extract segments, profile segments, describe segments, choose segments of interest and customize sales & marketing efforts around them.",
         imgSrc :CustomerSegmentationIMG,
         icon : CustomerSegmentationIcon
     },
@@ -332,7 +332,7 @@ const dataLabelingData = [
         float : "left",
         name : "aiml",
         title : "Price Optimization",
-        description : "Analyze demand, seasonality, operating costs & other KPIs to determine optimal price for products generating maximum profits. We enable price optimization with data gathering/analysis (internal, external), intent analysis, anomalies detection, model generation and scheduled price updating.",
+        description : "Analyze demand, seasonality, operating costs & other KPIs to determine optimal price for products generating maximum profits. We enable price optimization with data gathering/analysis (internal, external), intent analysis, anomalies detection, model generation and scheduled price updates.",
         imgSrc :PriceOptimizationIMG,
         icon : PriceOptimizationIcon
     },
@@ -341,7 +341,7 @@ const dataLabelingData = [
         float : "right",
         name : "aiml",
         title : "Product Bundling",
-        description : "Identify frequently occurring and interesting patterns in data majorly pertaining to transaction data to help make decisions related to marketing, sales, store management, inventory management and more. We pre-process the data using methods like data cleansing, transaction identification & classification, data transformation, data enrichment and apply association rule mining to understand what products sell best together.",
+        description : "Identify frequently occurring patterns in data majorly pertaining to transaction data to help make decisions related to marketing, sales, store management, inventory management and more. We pre-process the data using methods like data cleansing, transaction identification & classification, data transformation, data enrichment and apply association rule mining to understand what products sell best together.",
         imgSrc :ProductBundlingIMG,
         icon : ProductBundlingIcon
     },
@@ -350,7 +350,7 @@ const dataLabelingData = [
         float : "left",
         name : "aiml",
         title : "Recommendation Engine",
-        description : "Understand customers purchase patterns, interests, preferences and similarities with other users to recommend relevant products to achieve increased cross-selling/up-selling opportunities. We build customized recommendation engines with data gathering/analysis (users, products), similarity analysis, product categorization and product ranking.",
+        description : "Understand customers purchase patterns, interests, preferences and similarities with other users to recommend relevant products for achieving increased cross-sell/up-sell opportunities. We build customized recommendation engines with data gathering/analysis (users, products), similarity analysis, product categorization and product ranking.",
         imgSrc :RecommendationEngineIMG,
         icon : RecommendationEngineIcon
     },
@@ -368,7 +368,7 @@ const dataLabelingData = [
         float : "left",
         name : "aiml",
         title : "Social Media Analytics",
-        description : "Collect, analyze and evaluate vast amount of semi-structured and unstructured social media data and turn it into insights for business with descriptive, predictive and prescriptive analytics. We support strategy development, tool identification (for gathering data and performing analytics), data gathering/analysis and track metrics related to content, timing, audience, sentiments and competitors to assess social media marketing efforts and improve them.",
+        description : "Collect, analyze and evaluate vast amount of semi-structured and unstructured social media data and turn it into insights for business with descriptive, predictive and prescriptive analytics. We support strategy development, tool identification, data gathering/analysis and track metrics related to content, timing, audience, sentiments and competitors to assess social media marketing efforts and improve them.",
         imgSrc :SocialMediaAnalyticsIMG,
         icon : SocialMediaAnalyticsIcon
     },
@@ -377,7 +377,7 @@ const dataLabelingData = [
         float : "right",
         name : "aiml",
         title : "Supply Chain Optimization",
-        description : "Improve efficiency of supply chain activities to achieve the capability to cater to customers demands with accuracy and minimum possible investment. We support optimization of supply chain through demand forecasting, inventory management, preventive maintenance, quality inspections, production planning and through disruption handling.",
+        description : "Improve efficiency of supply chain activities to achieve the capability to cater to customers demands with accuracy and minimum possible investment. We support optimization of supply chain through demand forecasting, inventory management, preventive maintenance, quality inspections, production planning and disruption handling.",
         imgSrc :SupplyChainOptimizationIMG,
         icon : SupplyChainOptimizationIcon
     },
@@ -395,7 +395,7 @@ const dataLabelingData = [
         float : "right",
         name : "aiml",
         title : "AutoML",
-        description : "Enable automation of ml pipeline flow without manual intervention starting from raw data to deployment resulting in effortless and accurate machine learning solutions. We assist in pre-processing and cleansing of data, construction of appropriate features, selection of model family, optimization of model hyperparameters and post-processing of machine learning models.",
+        description : "Enable automation of ML pipeline flow without manual intervention starting from raw data to deployment resulting in effortless and accurate machine learning solutions. We assist in pre-processing and cleansing of data, construction of appropriate features, selection of model family, optimization of model hyperparameters and post-processing of machine learning models.",
         imgSrc :AutoMLIMG,
         icon : AutoMLIcon
     },
@@ -471,7 +471,7 @@ const dataLabelingData = [
         float : "right",
         name : "data-management",
         title : "Data Warehousing and Business Intelligence",
-        description : "Design data warehouses including business intelligence frameworks, a robust data model, an efficient data integration architecture and an intelligent database ideal for bi and analytics. We support data warehouse migration, data modelling and architecting, data integration, enterprise data management, data governance, performance and managed services.",
+        description : "Design data warehouses including business intelligence frameworks, a robust data model, an efficient data integration architecture and an intelligent database ideal for bi and analytics. We support data warehouse migration, data modelling and architecture, data integration, enterprise data management, data governance, performance and managed services.",
         imgSrc :BusinessIntelligenceIMG,
         icon : BusinessIntelligenceIcon
     },
@@ -519,7 +519,7 @@ const dataLabelingData = [
         float : "right",
         name : "advanced-analytics",
         title : "Deep Learning",
-        description : "Control the power of unstructured data such as images, text, and speech to give transformative use cases that leverage techniques like ai, image analysis, natural language processing, and more. We use layered algorithms for the models to draw conclusions similar to humans and assist in ai consulting, engineering, training, support and custom software development.",
+        description : "Control the power of unstructured data such as images, text, and speech to give transformative use cases that leverage techniques like AI, image analysis, natural language processing, and more. We use layered algorithms for the models to draw conclusions similar to humans and assist in AI consulting, engineering, training, support and custom software development.",
         imgSrc :DeepLearningIMG,
         icon : DeepLearningIcon
     },
@@ -648,7 +648,7 @@ const dataLabelingData = [
         float : "left",
         name : "data-engineering",
         title : "Data Warehousing",
-        description : "Design data warehouses including business intelligence frameworks, a robust data model, an efficient data integration architecture and an intelligent database ideal for BI and analytics. We support data warehouse migration, data modelling and architecting, data integration, enterprise data management, data governance, performance and managed services.",
+        description : "Design data warehouses including business intelligence frameworks, a robust data model, an efficient data integration architecture and an intelligent database ideal for BI and analytics. We support data warehouse migration, data modelling and architecture, data integration, enterprise data management, data governance, performance and managed services.",
         imgSrc :DataWarehousingIMG,
         icon : DataWarehousingIcon
     },
@@ -657,7 +657,7 @@ const dataLabelingData = [
         float : "right",
         name : "data-engineering",
         title : "Data Lakes",
-        description : "Support big data volume and velocity to enable enterprise wide information by simplifying data ingestion, enabling self-service capabilities and reducing storage and computing costs. We support in system infrastructure assessment, data lake architecture consulting, data lake governance & security strategy, data preparation & enrichment, front-end integration testing and managed services.",
+        description : "Support big data volume and velocity to enable enterprise wide information by simplifying data ingestion, enabling self-service capabilities, reducing storage and computing costs. We support in system infrastructure assessment, data lake architecture consulting, data lake governance & security strategy, data preparation & enrichment, front-end integration testing and managed services.",
         imgSrc :DataLakesIMG,
         icon : DataLakesIcon
     },
@@ -727,7 +727,7 @@ const dataLabelingData = [
         float : "right",
         name : "data-annotation",
         title : "Image Annotation",
-        description : "Human-assisted annotation approach to deliver higher quality data guaranteeing excellent machine learning experience. We support 2D and 3D bounding boxes, labelling, semantic segmentation, polygon, polyline, landmark & key point annotation.",
+        description : "Leverage human-assisted annotation approach to deliver higher quality data guaranteeing excellent machine learning experience. We support 2D and 3D bounding boxes, labelling, semantic segmentation, polygon, polyline, landmark & key point annotation.",
         imgSrc : ImageAnnotationIMG,
         icon : ImageAnnotationIcon
     },
@@ -736,7 +736,7 @@ const dataLabelingData = [
         float : "left",
         name : "data-annotation",
         title : "Video Annotation",
-        description : "Annotation by capturing objects in a video frame-by-frame and reconstructing after completion improving object tracking and video labelling. We support 2D and 3D bounding boxes, semantic segmentation, polygon & landmark video annotation.",
+        description : "Annotate by capturing objects in a video frame-by-frame and reconstruct after completion, improving object tracking and video labelling. We support 2D and 3D bounding boxes, semantic segmentation, polygon & landmark video annotation.",
         imgSrc :VideoAnnotationIMG,
         icon: VideoAnnotationIcon
     },
@@ -824,7 +824,7 @@ const dataLabelingData = [
         float : "left",
         name : "cloud",
         title : "Cloud Advisory Services",
-        description : "Craft a comprehensive cloud transformation roadmap and deploy a strategy that aids your current and upcoming business-critical objectives. We offer analysis of existing applications providing insights for cloud suitability and readiness (Assessment, Analysis, Strategy).",
+        description : "Craft a comprehensive cloud transformation roadmap and deploy a strategy that aids your current and upcoming business-critical objectives. We offer analysis of existing applications providing insights for cloud suitability and readiness (assessment, analysis, strategy).",
         imgSrc : CloudAdvisoryIMG,
         icon : CloudAdvisoryIcon
     },
@@ -833,7 +833,7 @@ const dataLabelingData = [
         float : "right",
         name : "cloud",
         title : "Cloud Migration Services",
-        description : "Achieve digital transformation and uncover growth opportunities with enhanced security and qualitative outputs. We support Cloud Migration Discovery, Analysis, Strategy, Planning and Cloud Governance & Management.",
+        description : "Achieve digital transformation and uncover growth opportunities with enhanced security and qualitative outputs. We support cloud migration discovery, analysis, strategy, planning and cloud governance & management.",
         imgSrc :CloudMigrationIMG,
         icon: CloudMigrationIcon
     },
@@ -842,7 +842,7 @@ const dataLabelingData = [
         float : "left",
         name : "cloud",
         title : "Cloud Integration",
-        description : "Connect your systems and applications for seamless data sharing and better connectivity in dynamic business environments. We support in Integration Strategy Development, Incubation, Implementation, Maintenance & Enhancements.",
+        description : "Connect your systems and applications for seamless data sharing and better connectivity in dynamic business environments. We support in integration strategy development, incubation, implementation, maintenance and enhancements.",
         imgSrc : CloudIntegrationIMG,
         icon : CloudIntegrationIcon
     },
@@ -851,7 +851,7 @@ const dataLabelingData = [
         float : "right",
         name : "cloud",
         title : "Cloud Application Management",
-        description : "Effectively manage, package and deploy applications across public & private cloud computing platforms with maximum interoperability. We support Forecasting & Trends Reporting, Risk Evaluation & Reporting, Remediation Strategies, Spend Optimization, Disaster Recover, Automation and DevOps.",
+        description : "Effectively manage, package and deploy applications across public & private cloud computing platforms with maximum interoperability. We support forecasting & trends reporting, risk evaluation & reporting, remediation strategies, spend optimization, disaster recover, automation and DevOps.",
         imgSrc :CloudApplicationIMG,
         icon : CloudApplicationIcon
     },
@@ -869,7 +869,7 @@ const dataLabelingData = [
         float : "right",
         name : "cloud",
         title : "Security Assessment and Planning",
-        description : "Continuously supervise and assess cloud assets and resources for misconfigurations and unusual deployments. We support Current State Assessment, Application Assessment Cloud Security Enhancements, Continuous Security Monitoring, Insight & Threat Reporting and DevOps Protection.",
+        description : "Continuously supervise and assess cloud assets and resources for misconfigurations and unusual deployments. We support current state assessment, application assessment cloud security enhancements, continuous security monitoring, insight & threat reporting and DevOps protection.",
         imgSrc :SecurityAssessmentIMG,
         icon : SecurityAssessmentIcon
     },
@@ -882,7 +882,7 @@ const dataLabelingData = [
         float : "left",
         name : "platform-engineering",
         title : "Application Engineering",
-        description : "Design, develop & maintain highly complex software applications with industry-standard best practices to deliver reliable, efficient and cost-effective solutions. We support custom application software development, application modernization, legacy application migration, eCommerce applications, omnichannel software's, enterprise integration & microservices while leveraging AI, ML, business analytics and data science.",
+        description : "Design, develop & maintain highly complex software applications with industry-standard best practices to deliver reliable, efficient and cost-effective solutions. We support custom application software development, application modernization, legacy application migration, eCommerce applications, omnichannel applications, enterprise integration & microservices while leveraging AI, ML, business analytics and data science.",
         imgSrc :ApplicationEngineeringIMG,
         icon: ApplicationEngineeringIcon
         
@@ -921,7 +921,7 @@ const dataLabelingData = [
             float : "left",
             name : "consulting",
             title : "Data Strategy",
-            description : "Enhance data visibility, sharing, and combination while incorporating data visualization/tracking methods like analytics and tracking. We support Data Strategy, Data Quality Audit, Data Governance & Operating Model, Data Analytics, Data Visualization and Data Ecosystem Setup.",
+            description : "Enhance data visibility, sharing, and combination while incorporating data visualization/tracking methods like analytics and tracking. We support data strategy, data quality audit, data governance & operating model, data analytics, data visualization and data ecosystem setup.",
             imgSrc : DataStrategyIMG,
             icon : DataStrategyIcon
         },

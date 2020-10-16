@@ -63,14 +63,14 @@ function AIML ({match}){
                                 {/* <a href="/casestudies">
                                     <button type="button" className="btn btn-default">View Details</button>
                                 </a> */}
-                                <Link
+                            <Link
                             activeClass="active"
                             to="details"
                             spy={true}
                             smooth={true}
                             offset={-100}
                             duration={500}>
-                            <button type="button" className="btn btn-primary learn-more-btn">View Details</button>
+                            <button type="button" className="btn btn-default sub-service-view-details-btn">View Details</button>
                         </Link>
                             </div>
                         </div>

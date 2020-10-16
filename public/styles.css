@@ -2796,7 +2796,7 @@ label{
     font-weight: 200;
 }
 
-.subService-AIML-intro-btn button{
+.subService-AIML-intro-btn .sub-service-view-details-btn{
     width: 180px;
     height: 45px;
     font-family: 'Poppins', sans-serif;
@@ -2806,6 +2806,12 @@ label{
     background-color: #19AF8F;
     color: white;
     /* margin-top: 2rem; */
+}
+
+.subService-AIML-intro-btn .sub-service-view-details-btn:hover{
+  background-color: white;
+  color: black;
+  transition: .5s;
 }
 
 .subService-AIML-intro{
