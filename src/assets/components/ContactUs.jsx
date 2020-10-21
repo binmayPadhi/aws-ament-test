@@ -2,6 +2,8 @@ import React, {useState} from "react";
 import ContactUsIMG from "../images/Contact-Us-Page/amnet-contact-us.jpg";
 import OurLocation from "./OurLocation";
 import emailjs from "emailjs-com";
+import { init } from "emailjs-com";
+init(process.env.REACT_APP_API_KEY);
 
 function ContactUs (){
     const tooltipStyle = {
@@ -31,7 +33,6 @@ function ContactUs (){
             )
         })
     }
-    console.log(process.env.REACT_APP_API_KEY);
 
     function submitDetails (e){
         e.preventDefault();
