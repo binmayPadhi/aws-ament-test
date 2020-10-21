@@ -21,6 +21,8 @@ function ContactUs (){
         message : ""
     });
 
+    console.log(process.env.REACT_APP_SERVICE_ID);
+
 
     function handleChange (event){
         const {value, name} = event.target;
