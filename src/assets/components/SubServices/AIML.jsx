@@ -91,6 +91,9 @@ function AIML ({match}){
                 {DataLabeling.filter(data => data.name === match.params.id).map((dataDetail, index) => {
                     return (
                         !(dataDetail.float === "left") ?
+                                    // <> {(index === 2) ? <div>
+                                    //     <h1>hey there</h1>
+                                    // </div> : <h2 className="text-center">bye</h2>}
                                     <div className="row service-all-margin" key={dataDetail.id}>
                                         <div className="col-xl-12 col-lg-12 about-us-details p-0" key = {dataDetail.id}>
                                             <img className="img-fluid about-us-img-right " src={dataDetail.imgSrc} alt={dataDetail.name} />
@@ -111,6 +114,7 @@ function AIML ({match}){
                                             </div>
                                         </div>
                                     </div>
+                                    // </>
                                      :
                                      <div className="sub-service-details-bg-color">
                                          <div className="row service-all-margin ">
@@ -138,7 +142,15 @@ function AIML ({match}){
                                     })}
                                 </div>
 
-                               <SubServiceCareer />
+                                {/* SUB SERVICE CAREER SECTION */}
+
+                                {SubServicesData.filter(data => data.id === match.params.id).map(serviceDetail => {
+                                    return(
+                                        <SubServiceCareer careerBg={serviceDetail.subCareerBG}/>
+                                    )
+                                })}
+
+                               
                             </>
                         );
                     }

@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import ContactUsIMG from "../images/Contact-Us-Page/amnet-contact-us.jpg";
 import OurLocation from "./OurLocation";
+import emailjs from "emailjs-com";
 
 function ContactUs (){
     const tooltipStyle = {
@@ -30,21 +31,28 @@ function ContactUs (){
             )
         })
     }
+    console.log(process.env.REACT_APP_API_KEY);
 
-    function submitDetails (event){
-        event.preventDefault();
+    function submitDetails (e){
+        e.preventDefault();
         const aplhabetPattern = /^[a-z]+$/i;
         const emailpattern = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
         
+        
+
         if (aplhabetPattern.test(userDetails.fName) && aplhabetPattern.test(userDetails.lName) && emailpattern.test(userDetails.email))
         {
           alert("Your message has been recevied. We'll get in touch with you shortly!");
-          return (setUserDetails({
-            fName : "",
-            lName : "",
-            email : "",
-            message : ""
-        }));
+          return (
+            emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_API_KEY)
+            .then( setUserDetails({
+                fName : "",
+                lName : "",
+                email : "",
+                message : ""
+            }), (error) => {
+              console.log(error.text);
+            }))
           
         }
         else{
@@ -52,6 +60,13 @@ function ContactUs (){
           return (false);
         };
     }
+
+    // setUserDetails({
+    //     fName : "",
+    //     lName : "",
+    //     email : "",
+    //     message : ""
+    // }));
 
     return (
     <>

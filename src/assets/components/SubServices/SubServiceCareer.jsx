@@ -1,8 +1,7 @@
 import React from "react";
-import SubServiceCareerBG from "../../images/Sub-Service-Images/Data-Labeling-Images/we-are-available-bg.jpg";
 import styled from "styled-components";
 
-function SubServiceCareerSection (){
+function SubServiceCareerSection (props){
 
     // const careerStyle = {
     //     backgroundImage:`url(${SubServiceCareerBG})`,
@@ -13,7 +12,7 @@ function SubServiceCareerSection (){
 
     const Content = styled.div`
         padding: 10px;
-        background-image: url(${SubServiceCareerBG});
+        background-image: url(${props.careerBg});
         backgroundAttachment: scroll;
         background-repeat: no-repeat;
         background-size: 100% 100%;

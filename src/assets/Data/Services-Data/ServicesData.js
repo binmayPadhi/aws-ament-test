@@ -1,13 +1,13 @@
-import AiMlIMG from "../../images/Service-Page/amnet-ai-ml-services.png";
+import AiMlIMG from "../../images/Service-Page/amnet-ai-ml-services.jpg";
 import DataManagementIMG from "../../images/Service-Page/amnet-data-management-services.jpg";
 import AdvanceAnalyticsIMG from "../../images/Service-Page/amnet-advanced-analytics-services.jpg";
-import DataEngineeringIMG from "../../images/Service-Page/amnet-data-engg-services.png";
+import DataEngineeringIMG from "../../images/Service-Page/amnet-data-engg-services.jpg";
 import PlatformEngineeringIMG from "../../images/Service-Page/amnet-platform-engineering-services.jpg";
 import UserExperienceIMG from "../../images/Service-Page/amnet-ux-services.jpg";
-import CloudIMG from "../../images/Service-Page/amnet-cloud-services.png";
+import CloudIMG from "../../images/Service-Page/amnet-cloud-services.jpg";
 import QualityAssuranceIMG from "../../images/Service-Page/amnet-qa-services.jpg";
 import ConsultingIMG from "../../images/Service-Page/amnet-consulting.jpg";
-import DataAnnotationIMG from "../../images/Service-Page/amnet-data-annotation-services.png";
+import DataAnnotationIMG from "../../images/Service-Page/amnet-data-annotation-services.jpg";
 
 
 const servicesData = [
