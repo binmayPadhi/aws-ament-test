@@ -2,8 +2,8 @@ import React, {useState} from "react";
 import ContactUsIMG from "../images/Contact-Us-Page/amnet-contact-us.jpg";
 import OurLocation from "./OurLocation";
 import emailjs from "emailjs-com";
-import { init } from "emailjs-com";
-init(process.env.REACT_APP_API_KEY);
+// import { init } from "emailjs-com";
+// init(process.env.REACT_APP_API_KEY);
 
 function ContactUs (){
     const tooltipStyle = {
@@ -20,8 +20,6 @@ function ContactUs (){
         email : "",
         message : ""
     });
-
-    console.log(process.env.REACT_APP_SERVICE_ID);
 
 
     function handleChange (event){
@@ -47,7 +45,7 @@ function ContactUs (){
         {
           alert("Your message has been recevied. We'll get in touch with you shortly!");
           return (
-            emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_API_KEY)
+            emailjs.sendForm("gmail","template_opai50d", e.target,"user_gk2s5L3y9LhSSq66o6aWz")
             .then( setUserDetails({
                 fName : "",
                 lName : "",

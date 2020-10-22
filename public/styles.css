@@ -3477,3 +3477,12 @@ label{
     border-bottom: 3px solid #19AF8F;
     transition: .5s;
 }
+
+
+.dp-link-test .dropdown-item{
+    padding: 25px 5px 5px 0px;
+}
+
+.dp-link-test p{
+    padding: 5px 5px 5px 0px;
+}

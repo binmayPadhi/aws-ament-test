@@ -80,37 +80,66 @@ const contactUsButtonStyle = {
                       <div class="row">
                         <div class="column">
                           
+                          <div className="col-12 dp-link-test">
                           <NavLink className="dropdown-item" to={`/${`aiml`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>AI / ML</NavLink>
                           <p>Amnet Digital is enabling enterprises reimagine and redefine</p>
+                          </div>
+
+                          <div className="col-12 dp-link-test">
                           <NavLink className="dropdown-item" to={`/${`data-management`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Data-management</NavLink>
                           <p>Amnet Digital is enabling enterprises reimagine and redefine</p>
+                          </div>
+
+                          <div className="col-12 dp-link-test">
                           <NavLink className="dropdown-item" to={`/${`advanced-analytics`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Advanced Analytics</NavLink>
-                          <p>Amnet Digital is enabling enterprises reimagine and redefine</p>                        
+                          <p>Amnet Digital is enabling enterprises reimagine and redefine</p>     
+                          </div>
+
+                          
+                                             
                         </div>
                       <div className="column">
-                        
-                      <NavLink className="dropdown-item" to={`/${`data-engineering`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Data Engineering</NavLink>
-                          <p>Amnet Digital is enabling enterprises reimagine and redefine</p>
+
+                          <div className="col-12 dp-link-test">
+                          <NavLink className="dropdown-item" to={`/${`data-engineering`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Data Engineering</NavLink>
+                          <p>Amnet Digital is enabling enterprises reimagine and redefine</p>  
+                          </div>
+
+                          <div className="col-12 dp-link-test">
                           <NavLink className="dropdown-item" to={`/${`platform-engineering`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Platform Engineering</NavLink>
-                          <p>Amnet Digital is enabling enterprises reimagine and redefine</p>
+                          <p>Amnet Digital is enabling enterprises reimagine and redefine</p>   
+                          </div>
+
+                          <div className="col-12 dp-link-test">
                           <NavLink className="dropdown-item" to={`/${`user-experience`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>User Experience</NavLink>
                           <p>Amnet Digital is enabling enterprises reimagine and redefine</p>  
+                          </div>
+                          
                       </div>
                       <div className="column">
-                        
-                      <NavLink className="dropdown-item" to={`/${`cloud`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Cloud</NavLink>
+
+                          <div className="col-12 dp-link-test">
+                          <NavLink className="dropdown-item" to={`/${`cloud`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Cloud</NavLink>
                           <p>Amnet Digital is enabling enterprises reimagine and redefine</p>
+                          </div>
+
+                          <div className="col-12 dp-link-test">
                           <NavLink className="dropdown-item" to={`/${`quality-assurance`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Quality Assurance</NavLink>
                           <p>Amnet Digital is enabling enterprises reimagine and redefine</p>
+                          </div>
+
+                          <div className="col-12 dp-link-test">
                           <NavLink className="dropdown-item" to={`/${`consulting`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Strategy & Consulting</NavLink>
                           <p>Amnet Digital is enabling enterprises reimagine and redefine</p>  
+                          </div>
+                         
                       </div>
                       <div className="column">
-                        
-                      <NavLink className="dropdown-item" to={`/${`data-annotation`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Data Annotation</NavLink>
+
+                          <div className="col-12 dp-link-test">
+                          <NavLink className="dropdown-item" to={`/${`data-annotation`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Data Annotation</NavLink>
                           <p>Amnet Digital is enabling enterprises reimagine and redefine</p>
-                          
-                            
+                          </div>
                       </div>
                     </div>
                   </div>
@@ -137,9 +166,9 @@ const contactUsButtonStyle = {
                         <NavLink className="dropdown-item" to={`/${`data-annotation`}`}>Data Annotation</NavLink>
                         <NavLink className="dropdown-item" to={`/${`aiml`}`}>AI / ML</NavLink>
                       </div>
-                    </div> */}
+                    </div>  */}
 
-                  {/* </NavLink> */}
+                  {/* </NavLink>*/}
 
                     
                     
