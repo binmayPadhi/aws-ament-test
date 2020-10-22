@@ -3320,11 +3320,11 @@ label{
 
 
 .dropdown-item{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400px;
     color: white !important;
     padding: 25px 15px;
-    text-align: left !important;
+    text-align: center !important;
 }
 
 .dropdown-menu {
@@ -3391,8 +3391,8 @@ label{
     padding: 25px 10px;
     background-color: #0c0c0c;
     height: auto;
-    border-radius: 20px;
-    border-color: 3px solid #19AF8F;
+    /* border-radius: 20px; */
+    /* border-color: 3px solid #19AF8F; */
 }
 
 
@@ -3407,7 +3407,7 @@ label{
   .column a {
     float: none;
     color: white;
-    padding: 16px;
+    padding: 0px 5px;
     font-size: 1.8rem;
     text-decoration: none;
     display: block;
@@ -3416,7 +3416,9 @@ label{
 
   .dropdown-content p{
       font-size: 1.3rem;
-      padding-left: 15px;
+      padding-left: 5px;
+      padding-top: 5px;
+      padding-right: 15px;
       text-align: left;
   }
   
@@ -3441,7 +3443,7 @@ label{
   }
 
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 830px) {
     .column {
       width: 100%;
       height: auto;
@@ -3479,10 +3481,30 @@ label{
 }
 
 
-.dp-link-test .dropdown-item{
+/* .dp-link-test .dropdown-item{
     padding: 25px 5px 5px 0px;
 }
 
 .dp-link-test p{
     padding: 5px 5px 5px 0px;
+} */
+
+.navFlex img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+.navFlex{
+    display: flex;
+}
+
+.nav-sub-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-right: -15px;
+    margin-left: -15px;
 }
