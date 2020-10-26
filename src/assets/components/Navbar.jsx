@@ -219,7 +219,7 @@ const contactUsButtonStyle = {
                           </div> */}
                          
                       </div>
-                      <div className="column">
+                      <div className="column extra-column">
 
                           <div className="navFlex">
                           <img src={navIcon} className="img-fluid navIcon" alt="icon" />
@@ -240,13 +240,18 @@ const contactUsButtonStyle = {
                     
                   </div>
 
-                    <div className="dropdown sub-service-dropdown" style={{marginTop:"14.5px"}}>
-                      <div className=" dropdown-toggle"  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <NavLink to = "/services" onClick={() => window.location.href="/services"} style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
+                    <div className="dropdown sub-service-dropdown" style={{marginTop:"5.5px"}}>
+                      <div className=" dropdown-toggle d-flex"  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <NavLink to = "/services" onClick={() => window.location.href="/services"}   style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                   
                           Services
-                    
+            
                         </NavLink>
+                        <div  style={navStyle}>
+                  
+                          {`>`}
+                    
+                        </div>
                       </div>
                       <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <NavLink className="dropdown-item" to={`/${`aiml`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>AI / ML</NavLink>
