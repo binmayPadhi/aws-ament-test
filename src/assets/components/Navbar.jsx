@@ -54,11 +54,13 @@ const contactUsButtonStyle = {
             <div className="collapse navbar-collapse" id="navbarNav">
                 {/* <!-- navigation bar menus --> */}
               <ul className="navbar-nav ml-auto">
+                <div style={{padding:"15px 0px 0px 0px"}}>
                 <NavLink to = "/aboutus" onClick={() => window.location.href="/aboutus"} style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                   
                   About Us
                     
                 </NavLink>
+                </div>
 
                 {/* <NavLink to = "/services" onClick={() => window.location.href="/aboutus"} style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                   
@@ -274,16 +276,22 @@ const contactUsButtonStyle = {
                     
                 
                 
+                <div style={{padding:"15px 0px 0px 0px"}}>
                 <NavLink to = "/casestudies" onClick={() => window.location.href="/casestudies"} style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                     
                     Case Studies
                     
                 </NavLink>
+                </div>
+
+                <div style={{padding:"15px 0px 0px 0px"}}>
                 <NavLink  to = "/careers"  onClick={() => window.location.href="/careers"} style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                     
                     Careers
                     
                 </NavLink>
+                </div>
+                
                 <NavLink  to = "/contactus" onClick={() => window.location.href="/contactus"} className="contactus-button" activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                     
                     Contact Us
