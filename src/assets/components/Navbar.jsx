@@ -243,7 +243,7 @@ const contactUsButtonStyle = {
                   </div>
 
                     <div className="dropdown sub-service-dropdown" style={{marginTop:"5.5px"}}>
-                      <div className=" dropdown-toggle d-flex"  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <div className=" dropdown-toggle d-flex" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <NavLink to = "/services" onClick={() => window.location.href="/services"}   style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                   
                           Services
@@ -291,7 +291,7 @@ const contactUsButtonStyle = {
                     
                 </NavLink>
                 </div>
-                
+
                 <NavLink  to = "/contactus" onClick={() => window.location.href="/contactus"} className="contactus-button" activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                     
                     Contact Us
