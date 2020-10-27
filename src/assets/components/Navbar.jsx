@@ -14,6 +14,16 @@ function Navbar(){
     padding: "10px 15px",
 }
 
+const subServiceDropdownStyle = {
+  color : "white",
+  textDecoration : "none",
+  fontSize : "1.5rem",
+  // marginRight: "25px",
+  fontFamily: `'Poppins', sans-serif`,
+  marginTop: "5px",
+  padding: "10px 0px",
+}
+
 const serviceDropdown = {
   color : "white",
     textDecoration : "none",
@@ -240,7 +250,7 @@ const contactUsButtonStyle = {
                     
                   </div>
 
-                    <div className="dropdown sub-service-dropdown" style={{marginTop:"5.5px"}}>
+                    <div className="dropdown sub-service-dropdown" style={subServiceDropdownStyle}>
                       <div className=" dropdown-toggle d-flex"  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <NavLink to = "/services" onClick={() => window.location.href="/services"}   style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                   
