@@ -2952,6 +2952,7 @@ label{
     opacity: 1;
 }
 
+
 .subService-AIML-intro-caption{
     top: 150px;
     color: white;
@@ -3019,6 +3020,11 @@ label{
     font-weight: 800;
     padding: 25px 5px 5px 0px;
     margin-bottom: 0px;
+}
+
+.sub-service-data-section .dummy{
+    width: auto;
+    height: 40px;
 }
 
 .sub-service-data-section .about-icons{
@@ -3158,6 +3164,10 @@ label{
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
+    .sub-service-data-section .dummy{
+        height: 20px;
+    }
+
     .sub-service-data-section .service-all-margin{
         margin: 0px 80px 0px 80px;
     }
@@ -3197,6 +3207,9 @@ label{
 @media only screen and (min-width: 320px) and (max-width: 374px) {
     .sub-service-data-section .service-all-margin {
         margin: 0px 20px 0px 20px;
+    }
+    .sub-service-data-section .dummy{
+        height: 10px;
     }
     .sub-service-data-section{
         text-align: left;
@@ -3267,6 +3280,10 @@ label{
     .sub-service-data-section .service-all-margin {
         margin: 0px 20px 0px 20px;
     }
+
+    .sub-service-data-section .dummy{
+        height: 10px;
+    }
     /* .sub-service-intro {
         height: 80vh;
     } */
@@ -3325,6 +3342,10 @@ label{
 @media only screen and (min-width: 425px) and (max-width: 767px) {
     .sub-service-data-section .service-all-margin{
         margin: 0px 20px 0px 20px;
+    }
+
+    .sub-service-data-section .dummy{
+        height: 10px;
     }
 
     .subService-AIML-intro-caption {
@@ -3399,6 +3420,10 @@ label{
 
     .sub-service-intro{
         height: 650px;
+    }
+
+    .sub-service-data-section .dummy{
+        height: 10px;
     }
 
     .sub-service-img-right-desc .about-icons {

@@ -89,7 +89,7 @@ const contactUsButtonStyle = {
                           <div className="col-12 dp-link-test">
                           <NavLink to={`/${`aiml`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>AI / ML</NavLink>
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`aiml`}#statistical-analysis`}>Statistical Analysis</a></p>
-                          <p className="sub-service-links"><a href={`/${`aiml`}#visualizations`}>Visualizations</a></p>
+                          <p className="sub-service-links"><a  href={`/${`aiml`}#visualizations`}>Visualizations</a></p>
                           <p className="sub-service-links"><a href={`/${`aiml`}#anomaly-detection`}>Anomaly Detection</a></p>
                           <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`aiml`}`}>View All</a></p>
                           
@@ -188,7 +188,7 @@ const contactUsButtonStyle = {
 
                           <div className="col-12 dp-link-test">
                           <NavLink to={`/${`consulting`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Strategy & Consulting</NavLink>
-                          <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`data-strategy`}#statistical-analysis`}>Data Strategy</a></p>
+                          <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`consulting`}#data-strategy`}>Data Strategy</a></p>
                           <p className="sub-service-links"><a href={`/${`consulting`}#ai-strategy`}>AI Strategy</a></p>
                           <p className="sub-service-links"><a href={`/${`consulting`}#application-development`}>Application Development</a></p>
                           <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`consulting`}`}>View All</a></p>

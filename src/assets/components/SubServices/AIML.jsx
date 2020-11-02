@@ -94,9 +94,13 @@ function AIML ({match}){
                                     // <> {(index === 2) ? <div>
                                     //     <h1>hey there</h1>
                                     // </div> : <h2 className="text-center">bye</h2>}
-                                    <div className="row service-all-margin" key={dataDetail.id} id={dataDetail.id}>
+                                    <>
+                                    <div className="dummy" id={dataDetail.id}>
+
+                                    </div>
+                                        <div className="row service-all-margin" key={dataDetail.id} >
                                         <div className="col-xl-12 col-lg-12 about-us-details p-0" key = {dataDetail.id}>
-                                            <img className="img-fluid about-us-img-right " src={dataDetail.imgSrc} alt={dataDetail.name} />
+                                            <img className="img-fluid about-us-img-right "  src={dataDetail.imgSrc} alt={dataDetail.name} />
                                             <div className="row no-gutters sub-service-img-right-desc">
                                                 <div className="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                     <span>
@@ -114,9 +118,14 @@ function AIML ({match}){
                                             </div>
                                         </div>
                                     </div>
+                                    </>
                                     // </>
                                      :
-                                     <div className="sub-service-details-bg-color">
+                                     <>
+                                     <div className="dummy" id={dataDetail.id}>
+
+                                     </div>
+                                        <div className="sub-service-details-bg-color">
                                          <div className="row service-all-margin ">
                                         <div className="col-12 about-us-details p-0" key = {dataDetail.id} id={dataDetail.id}>
                                             <img className="img-fluid about-us-img-left " src={dataDetail.imgSrc} alt={dataDetail.name} />
@@ -138,6 +147,7 @@ function AIML ({match}){
                                         </div>
                                     </div>
                                      </div>
+                                     </>
                                         )
                                     })}
                                 </div>
