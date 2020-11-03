@@ -101,7 +101,7 @@ const contactUsButtonStyle = {
 
                           <div className="col-12 dp-link-test">
                           <NavLink to={`/${`data-management`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Data management</NavLink>
-                          <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`data-management`}#data-architecture-management`}>Data Architecture Management</a></p>
+                          <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`data-management`}#data-architecture-management`}>Data Architecture</a></p>
                           <p className="sub-service-links"><a href={`/${`data-management`}#data-development`}>Data Development</a></p>
                           <p className="sub-service-links"><a href={`/${`data-management`}#data-governance`}>Data Governance</a></p>
                           <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`data-management`}`}>View All</a></p>

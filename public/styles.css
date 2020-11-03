@@ -1612,11 +1612,11 @@ hr{
 
 /* ...................................................................................................................... */
 
-@media only screen and (min-width: 1024px) and (max-width:1439px) {
+@media only screen and (min-width: 1024px) and (max-width:1359px) {
     .dropdown-content .column {
         float: left;
         width: 27%;
-        padding: 25px 10px;
+        padding: 5px 10px;
         background-color: white;
         height: auto;
         border-radius: 20px 0px;
@@ -1625,6 +1625,10 @@ hr{
 
     .dropdown-content .column1 {
         margin-left: 81px !important;
+    }
+
+    .extra-column .navFlex{
+        margin-top: 0px;
     }
 
     .dropdown-content .extra-column{
@@ -1638,7 +1642,7 @@ hr{
     }
 }
 
-@media only screen and (min-width: 1025px) and (max-width:1439px) {
+@media only screen and (min-width: 1360px) and (max-width:1439px) {
     .dropdown-content .column1 {
         margin-left: 140px !important;
     }
@@ -1646,11 +1650,11 @@ hr{
     .dropdown-content .extra-column{
         float: left;
         width: 25%;
-        padding: 0px 10px;
+        padding: 21px 10px;
         background-color: white;
         height: auto;
         border-radius: 0px 20px;
-        margin-left: 140px;
+        /* margin-left: 140px; */
     }
 }
 
@@ -2997,7 +3001,7 @@ label{
 }
 
 .sub-service-data-section{
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 .sub-service-details-bg-color{
@@ -3418,6 +3422,7 @@ label{
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
 
+
     .sub-service-intro{
         height: 650px;
     }
@@ -3570,6 +3575,14 @@ label{
     color: #FD5D14 !important;
   }
 
+  .column .sub-service-links{
+    display: block;
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
   .dropdown-icon{
       display: none;
   }
@@ -3652,6 +3665,7 @@ label{
     font-size: 1.3rem;
     font-weight: 400;
     padding-right: 15px;
+    padding-top: 5px;
     text-align: left;
     color: black;
   }
@@ -3742,6 +3756,7 @@ label{
 }
 .navFlex{
     display: flex;
+    margin-top: 10px;
 }
 
 .nav-sub-menu {
