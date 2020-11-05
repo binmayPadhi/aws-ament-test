@@ -40,7 +40,7 @@ function Careers(){
                             <button type="button" className="btn btn-primary learn-more-btn">Learn more</button>
                         </Link>
                             <a href="/contactus">
-                                <button type="button" className="btn btn-default" >Conatact Us <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                                <button type="button" className="btn btn-default" >Contact Us <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
                             </a>
                         </div>
                     </div>
