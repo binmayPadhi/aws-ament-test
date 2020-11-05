@@ -100,7 +100,7 @@ const contactUsButtonStyle = {
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`aiml`}#statistical-analysis`}>Statistical Analysis</a></p>
                           <p className="sub-service-links"><a  href={`/${`aiml`}#visualizations`}>Visualizations</a></p>
                           <p className="sub-service-links"><a href={`/${`aiml`}#anomaly-detection`}>Anomaly Detection</a></p>
-                          <p className="sub-service-links dropdown-view-all-link dropdownd-ai-viewall-link"><a href={`/${`aiml`}`} >View All</a></p>
+                          <p className="sub-service-links dropdown-view-all-link dropdownd-ai-viewall-link"><a href={`/${`aiml`}`} >{`View all ->`}</a></p>
                           
                           </div>
                           </div>
@@ -113,7 +113,7 @@ const contactUsButtonStyle = {
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`data-management`}#data-architecture-management`}>Data Architecture</a></p>
                           <p className="sub-service-links"><a href={`/${`data-management`}#data-development`}>Data Development</a></p>
                           <p className="sub-service-links"><a href={`/${`data-management`}#data-governance`}>Data Governance</a></p>
-                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`data-management`}`}>View All</a></p>
+                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`data-management`}`}>{`View all ->`}</a></p>
                           </div>
                           </div>
 
@@ -125,7 +125,7 @@ const contactUsButtonStyle = {
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`advanced-analytics`}#complex-event-processing`}>Complex Event Processing</a></p>
                           <p className="sub-service-links"><a href={`/${`advanced-analytics`}#deep-learning`}>Deep Learning</a></p>
                           <p className="sub-service-links"><a href={`/${`advanced-analytics`}#graph-analysis`}>Graph Analysis</a></p>
-                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`advanced-analytics`}`}>View All</a></p>
+                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`advanced-analytics`}`}>{`View all ->`}</a></p>
                           </div>
                           </div>
          
@@ -140,7 +140,7 @@ const contactUsButtonStyle = {
                           <p className="sub-service-links"style={{marginTop:"5px"}}><a href={`/${`data-engineering`}#data-pipelines`}>Data Pipelines</a></p>
                           <p className="sub-service-links"><a href={`/${`data-engineering`}#data-transformations`}>Data Transformations</a></p>
                           <p className="sub-service-links"><a href={`/${`data-engineering`}#data-cleansing`}>Data Cleansing</a></p>
-                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`data-engineering`}`}>View All</a></p>
+                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`data-engineering`}`}>{`View all ->`}</a></p>
                           </div>
                           </div>
                           <div className="navFlex">
@@ -151,7 +151,7 @@ const contactUsButtonStyle = {
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`platform-engineering`}#application-engineering`}>Application Engineering</a></p>
                           <p className="sub-service-links"><a href={`/${`platform-engineering`}#infrastructure`}>Infrastructure</a></p>
                           <p className="sub-service-links"><a href={`/${`platform-engineering`}#payment-gateways`}>Payment Gateways</a></p>
-                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`platform-engineering`}`}>View All</a></p>
+                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`platform-engineering`}`}>{`View all ->`}</a></p>
                           </div>
                           </div>
                           <div className="navFlex">
@@ -162,7 +162,7 @@ const contactUsButtonStyle = {
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`user-experience`}#design-thinking`}>Design Thinking</a></p>
                           <p className="sub-service-links"><a href={`/${`user-experience`}#user-research`}>User Research</a></p>
                           <p className="sub-service-links"><a href={`/${`user-experience`}#interaction-design`}>Interaction Design</a></p>
-                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`user-experience`}`}>View All</a></p>
+                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`user-experience`}`}>{`View all ->`}</a></p>
                           </div>
                           </div>
 
@@ -174,11 +174,11 @@ const contactUsButtonStyle = {
                           <img src={CloudDropdownIcon} className="img-fluid navIcon" alt="icon" />
 
                           <div className="col-12 service-dropdown-link">
-                          <NavLink  to={`/${`cloud`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Cloud</NavLink>
+                          <NavLink  to={`/${`cloud`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Cloud Services</NavLink>
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`cloud`}#cloud-advisory-services`}>Cloud Advisory Services</a></p>
                           <p className="sub-service-links"><a href={`/${`cloud`}#cloud-migration-services`}>Cloud Migration Services</a></p>
                           <p className="sub-service-links"><a href={`/${`cloud`}#cloud-integration`}>Cloud Integration</a></p>
-                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`cloud`}`}>View All</a></p>
+                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`cloud`}`}>{`View all ->`}</a></p>
                           </div>
                           </div>
                           <div className="navFlex">
@@ -189,7 +189,7 @@ const contactUsButtonStyle = {
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`quality-assurance`}#functional-testing`}>Functional Testing</a></p>
                           <p className="sub-service-links"><a href={`/${`quality-assurance`}#compatibility-testing`}>Compatibility Testing</a></p>
                           <p className="sub-service-links"><a href={`/${`quality-assurance`}#performance-testing`}>Performance Testing</a></p>
-                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`quality-assurance`}`}>View All</a></p>
+                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`quality-assurance`}`}>{`View all ->`}</a></p>
                           </div>
                           </div>
                           <div className="navFlex">
@@ -200,7 +200,7 @@ const contactUsButtonStyle = {
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`consulting`}#data-strategy`}>Data Strategy</a></p>
                           <p className="sub-service-links"><a href={`/${`consulting`}#ai-strategy`}>AI Strategy</a></p>
                           <p className="sub-service-links"><a href={`/${`consulting`}#application-development`}>Application Development</a></p>
-                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`consulting`}`}>View All</a></p>
+                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`consulting`}`}>{`View all ->`}</a></p>
                           </div>
                           </div>
 
@@ -216,7 +216,7 @@ const contactUsButtonStyle = {
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`data-annotation`}#image-annotation`}>Image Annotation</a></p>
                           <p className="sub-service-links"><a href={`/${`data-annotation`}#video-annotation`}>Video Annotation</a></p>
                           <p className="sub-service-links"><a href={`/${`data-annotation`}#audio-annotation`}>Audio Annotation</a></p>
-                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`data-annotation`}`}>View All</a></p>
+                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`data-annotation`}`}>{`View all ->`}</a></p>
                           </div>
                           </div>
 

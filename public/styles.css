@@ -3596,6 +3596,8 @@ label{
   .dropdown-view-all-link a{
     color:#19AF8F !important;
     font-weight: 800 !important;
+    padding-bottom: 5px;
+    text-decoration: underline !important;
   }
 
   .dropdownd-ai-viewall-link a{
