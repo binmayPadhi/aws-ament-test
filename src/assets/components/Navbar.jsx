@@ -1,7 +1,16 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 import amnetLogo from "../images/AD-Logo.png";
-import navIcon from "../images/Sub-Service-Images/AI-ML-Images/automl-icon.png";
+import AimlDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-ai-ml.png";
+import DataManagementDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-data-mgmt.png";
+import AdvancedAnalyticsDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-advanced-analytics.png";
+import DataEngineeringDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-data-engg.png";
+import PlatformEngineeringDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-platform-engg.png";
+import UXDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-ux.png";
+import CloudDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-cloud.png";
+import QADropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-qa.png";
+import ConsultingDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-strat-consult.png";
+import DataAnnotationDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-data-annotation.png";
 
 function Navbar(){
   const navStyle = {
@@ -72,7 +81,7 @@ const contactUsButtonStyle = {
                 {/* SERVICE DROPDOWN MENU   */}
                   {/* <NavLink  to = "/services" className="sub-menu"  style={navStyle} > */}
 
-                  <div  className="dp-test" style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
+                  <div  className="service-dropdown-menu" style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                   
                     <NavLink to = "/services" onClick={() => window.location.href="/aboutus"} style={serviceDropdown} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                   
@@ -82,24 +91,24 @@ const contactUsButtonStyle = {
                           
                     <div class="dropdown-content">  
                       <div class="row nav-sub-menu">
-                        <div class="column column1">
+                        <div class="column nav-first-column">
                           <div className="navFlex">
-                          <img src={navIcon} className="img-fluid navIcon" alt="icon" />
+                          <img src={AimlDropdownIcon} className="img-fluid navIcon" alt="icon" />
 
-                          <div className="col-12 dp-link-test">
+                          <div className="col-12 service-dropdown-link">
                           <NavLink to={`/${`aiml`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>AI / ML</NavLink>
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`aiml`}#statistical-analysis`}>Statistical Analysis</a></p>
                           <p className="sub-service-links"><a  href={`/${`aiml`}#visualizations`}>Visualizations</a></p>
                           <p className="sub-service-links"><a href={`/${`aiml`}#anomaly-detection`}>Anomaly Detection</a></p>
-                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`aiml`}`}>View All</a></p>
+                          <p className="sub-service-links dropdown-view-all-link dropdownd-ai-viewall-link"><a href={`/${`aiml`}`} >View All</a></p>
                           
                           </div>
                           </div>
 
                           <div className="navFlex">
-                          <img src={navIcon} className="img-fluid navIcon" alt="icon" />
+                          <img src={DataManagementDropdownIcon} className="img-fluid navIcon" alt="icon" />
 
-                          <div className="col-12 dp-link-test">
+                          <div className="col-12 service-dropdown-link">
                           <NavLink to={`/${`data-management`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Data management</NavLink>
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`data-management`}#data-architecture-management`}>Data Architecture</a></p>
                           <p className="sub-service-links"><a href={`/${`data-management`}#data-development`}>Data Development</a></p>
@@ -109,9 +118,9 @@ const contactUsButtonStyle = {
                           </div>
 
                           <div className="navFlex">
-                          <img src={navIcon} className="img-fluid navIcon" alt="icon" />
+                          <img src={AdvancedAnalyticsDropdownIcon} className="img-fluid navIcon" alt="icon" />
 
-                          <div className="col-12 dp-link-test">
+                          <div className="col-12 service-dropdown-link">
                           <NavLink  to={`/${`advanced-analytics`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Advanced Analytics</NavLink>
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`advanced-analytics`}#complex-event-processing`}>Complex Event Processing</a></p>
                           <p className="sub-service-links"><a href={`/${`advanced-analytics`}#deep-learning`}>Deep Learning</a></p>
@@ -124,9 +133,9 @@ const contactUsButtonStyle = {
                       <div className="column">
 
                           <div className="navFlex">
-                          <img src={navIcon} className="img-fluid navIcon" alt="icon" />
+                          <img src={DataEngineeringDropdownIcon} className="img-fluid navIcon" alt="icon" />
 
-                          <div className="col-12 dp-link-test">
+                          <div className="col-12 service-dropdown-link">
                           <NavLink to={`/${`data-engineering`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Data Engineering</NavLink>
                           <p className="sub-service-links"style={{marginTop:"5px"}}><a href={`/${`data-engineering`}#data-pipelines`}>Data Pipelines</a></p>
                           <p className="sub-service-links"><a href={`/${`data-engineering`}#data-transformations`}>Data Transformations</a></p>
@@ -135,9 +144,9 @@ const contactUsButtonStyle = {
                           </div>
                           </div>
                           <div className="navFlex">
-                          <img src={navIcon} className="img-fluid navIcon" alt="icon" />
+                          <img src={PlatformEngineeringDropdownIcon} className="img-fluid navIcon" alt="icon" />
 
-                          <div className="col-12 dp-link-test">
+                          <div className="col-12 service-dropdown-link">
                           <NavLink to={`/${`platform-engineering`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Platform Engineering</NavLink>
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`platform-engineering`}#application-engineering`}>Application Engineering</a></p>
                           <p className="sub-service-links"><a href={`/${`platform-engineering`}#infrastructure`}>Infrastructure</a></p>
@@ -146,9 +155,9 @@ const contactUsButtonStyle = {
                           </div>
                           </div>
                           <div className="navFlex">
-                          <img src={navIcon} className="img-fluid navIcon" alt="icon" />
+                          <img src={UXDropdownIcon} className="img-fluid navIcon" alt="icon" />
 
-                          <div className="col-12 dp-link-test">
+                          <div className="col-12 service-dropdown-link">
                           <NavLink to={`/${`user-experience`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>User Experience</NavLink>
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`user-experience`}#design-thinking`}>Design Thinking</a></p>
                           <p className="sub-service-links"><a href={`/${`user-experience`}#user-research`}>User Research</a></p>
@@ -162,9 +171,9 @@ const contactUsButtonStyle = {
                       <div className="column">
 
                           <div className="navFlex">
-                          <img src={navIcon} className="img-fluid navIcon" alt="icon" />
+                          <img src={CloudDropdownIcon} className="img-fluid navIcon" alt="icon" />
 
-                          <div className="col-12 dp-link-test">
+                          <div className="col-12 service-dropdown-link">
                           <NavLink  to={`/${`cloud`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Cloud</NavLink>
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`cloud`}#cloud-advisory-services`}>Cloud Advisory Services</a></p>
                           <p className="sub-service-links"><a href={`/${`cloud`}#cloud-migration-services`}>Cloud Migration Services</a></p>
@@ -173,9 +182,9 @@ const contactUsButtonStyle = {
                           </div>
                           </div>
                           <div className="navFlex">
-                          <img src={navIcon} className="img-fluid navIcon" alt="icon" />
+                          <img src={QADropdownIcon} className="img-fluid navIcon" alt="icon" />
 
-                          <div className="col-12 dp-link-test">
+                          <div className="col-12 service-dropdown-link">
                           <NavLink to={`/${`quality-assurance`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Quality Assurance</NavLink>
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`quality-assurance`}#functional-testing`}>Functional Testing</a></p>
                           <p className="sub-service-links"><a href={`/${`quality-assurance`}#compatibility-testing`}>Compatibility Testing</a></p>
@@ -184,9 +193,9 @@ const contactUsButtonStyle = {
                           </div>
                           </div>
                           <div className="navFlex">
-                          <img src={navIcon} className="img-fluid navIcon" alt="icon" />
+                          <img src={ConsultingDropdownIcon} className="img-fluid navIcon" alt="icon" />
 
-                          <div className="col-12 dp-link-test">
+                          <div className="col-12 service-dropdown-link">
                           <NavLink to={`/${`consulting`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Strategy & Consulting</NavLink>
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`consulting`}#data-strategy`}>Data Strategy</a></p>
                           <p className="sub-service-links"><a href={`/${`consulting`}#ai-strategy`}>AI Strategy</a></p>
@@ -200,9 +209,9 @@ const contactUsButtonStyle = {
                       <div className="column extra-column">
 
                           <div className="navFlex">
-                          <img src={navIcon} className="img-fluid navIcon" alt="icon" />
+                          <img src={DataAnnotationDropdownIcon} className="img-fluid navIcon" alt="icon" />
 
-                          <div className="col-12 dp-link-test">
+                          <div className="col-12 service-dropdown-link">
                           <NavLink to={`/${`data-annotation`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Data Annotation</NavLink>
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`data-annotation`}#image-annotation`}>Image Annotation</a></p>
                           <p className="sub-service-links"><a href={`/${`data-annotation`}#video-annotation`}>Video Annotation</a></p>
@@ -226,7 +235,7 @@ const contactUsButtonStyle = {
                         </NavLink>
                         <div  style={navStyle}>
                   
-                          {`>`}
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
                     
                         </div>
                       </div>

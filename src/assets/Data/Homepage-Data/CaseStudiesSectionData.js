@@ -8,25 +8,32 @@ import preventiveIcon from "../../images/HomePage/case-studies/amnet-recom-syste
 const CaseStudiesSectionData = [
     {
         id : "propensity-modelling",
-        caseStudiesTitle : "PROPENSITY MODELLING",
+        caseStudiesTitle : "Propensity Modelling",
         caseStudiesDesc : "Targeted marketing campaigns based on insights provided by propensity models for a large eCommerce client. Improved campaign effectiveness.",
         caseStudiesIMG : propensityIMG,
         caseStudiesIcon : propensityIcon
     },
     {
         id : "risk-analytics",
-        caseStudiesTitle : "RISK ANALYTICS",
+        caseStudiesTitle : "Risk Analytics",
         caseStudiesDesc : "Client mandated solution that can automate the lending process, credit checks, design alerts to monitor anomalies & outliers and identify high risk customers.",
         caseStudiesIMG : riskAnalyticsIMG,
         caseStudiesIcon : riskAnalyticsIcon
     },
     {
         id : "preventive-maintenance",
-        caseStudiesTitle : "PREVENTIVE MAINTENANCE",
+        caseStudiesTitle : "Preventive Maintenance",
         caseStudiesDesc : "Develop an automated process solution that continuously monitors sensor data to predict upcoming downtime/faults and raise tickets ahead of time.",
         caseStudiesIMG : preventiveIMG,
         caseStudiesIcon : preventiveIcon
-    }
+    // },
+    // {
+    //     id : "virtual-assistant",
+    //     caseStudiesTitle : "Virtual Assistant",
+    //     caseStudiesDesc : "Develop an automated process solution that continuously monitors sensor data to predict upcoming downtime/faults and raise tickets ahead of time.",
+    //     caseStudiesIMG : preventiveIMG,
+    //     caseStudiesIcon : preventiveIcon
+     }
 ];
 
 export default CaseStudiesSectionData;

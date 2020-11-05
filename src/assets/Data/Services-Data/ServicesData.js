@@ -71,7 +71,7 @@ const servicesData = [
     {
         id : "data-annotation",
         title : "DATA ANNOTATION",
-        description : "At Amnet Digital we combine our human-assisted approach with machine-learning and give you the high-quality training data you need. Our image & video annotation, text annotation, speech/audio annotation services will give you the confidence to deploy your AI and ML models at scale. We use proprietary or open source annotation tools and provide both automated & manual tagging with pixel level segementation to deliver high quality results. Our services are tailor-made and customized to the requirement of every project.",
+        description : "At Amnet Digital we combine our human-assisted approach with machine-learning and give you the high-quality training data you need. Our image & video annotation, text annotation, speech/audio annotation services will give you the confidence to deploy your AI and ML models at scale. We use proprietary or open source annotation tools and provide both automated & manual tagging with pixel level segmentation to deliver high quality results. Our services are tailor-made and customized to the requirement of every project.",
         serviceIMG : DataAnnotationIMG
     }
 ];

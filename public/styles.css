@@ -670,6 +670,7 @@ body{
 }
 
 hr{
+    margin-top: 4rem !important;
     width: 100%;
     border-color: white;
     background-color: white;
@@ -690,7 +691,7 @@ hr{
     width: 50px;
     text-align: center;
     text-decoration: none;
-    margin: 25px 5px 2px 0px;
+    margin: 25px 10px 2px 0px;
     border-color: white;
     background-color: #18AE8E;
     border-style: solid;
@@ -1268,7 +1269,7 @@ hr{
         margin-right: 0px;
         margin-left: 70px !important;
     }
-   
+
 }
 
 
@@ -1276,7 +1277,7 @@ hr{
     /* *{
         font-size: 30%;
     } */
-   
+
     .section-header{
         font-size: 1.5rem;
     }
@@ -1518,7 +1519,7 @@ hr{
 
     /* DROPDOWN MENU */
 
-    .dropdown-content .column1 {
+    .dropdown-content .nav-first-column {
         margin-left: 81px !important;
     }
 
@@ -1567,7 +1568,7 @@ hr{
 
 @media only screen and (min-width: 1024px) {
 
-    
+
 
 
     .homepage-intro-caption h2{
@@ -1623,7 +1624,24 @@ hr{
         /* border-color: 3px solid #19AF8F; */
     }
 
-    .dropdown-content .column1 {
+    .service-dropdown-link a {
+        padding-top: 2px;
+    }
+
+    .navFlex img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .service-dropdown-link a {
+        font-size: 1.5rem !important;
+    }
+
+    .sub-service-links a {
+        font-size: 1.2rem !important;
+    }
+
+    .dropdown-content .nav-first-column {
         margin-left: 81px !important;
     }
 
@@ -1643,10 +1661,10 @@ hr{
 }
 
 @media only screen and (min-width: 1360px) and (max-width:1439px) {
-    .dropdown-content .column1 {
+    .dropdown-content .nav-first-column {
         margin-left: 140px !important;
     }
-    
+
     .dropdown-content .extra-column{
         float: left;
         width: 25%;
@@ -3564,7 +3582,11 @@ label{
     /* border-radius: 20px; */
   }
 
-  .dropdown-content .column1{
+  .fa-angle-right{
+      font-size: 2.1rem !important;
+  }
+
+  .dropdown-content .nav-first-column{
       margin-left:140px;
   }
 
@@ -3572,7 +3594,12 @@ label{
       margin-top: -5px;
   }
   .dropdown-view-all-link a{
-    color: #FD5D14 !important;
+    color:#19AF8F !important;
+    font-weight: 800 !important;
+  }
+
+  .dropdownd-ai-viewall-link a{
+      color: #FD5D14 !important;
   }
 
   .column .sub-service-links{
@@ -3593,11 +3620,11 @@ label{
     color: white;
   }
 
-  .dp-test:hover{
+  .service-dropdown-menu:hover{
     transition: 2s;
   }
 
-  .dp-test:hover .dropdown-content {
+  .service-dropdown-menu:hover .dropdown-content {
     display: block;
     transition: 2s;
   }
@@ -3636,10 +3663,10 @@ label{
 } */
 
 
-  .column a {
+  .service-dropdown-link a {
     float: none;
     color: black;
-    padding: 0px 5px;
+    padding-top: 7px;
     font-size: 1.8rem;
     text-decoration: none;
     display: block;
@@ -3648,7 +3675,7 @@ label{
   }
 
   .column a:hover{
-      color: #FD5D14 !important;
+      color:  #19AF8F !important;
       text-decoration: none;
   }
 
@@ -3705,7 +3732,7 @@ label{
     .sub-service-dropdown{
         display: block;
     }
-    .dp-test{
+    .service-dropdown-menu{
         display: none;
     }
     .navbar-nav .service-dd{
@@ -3715,7 +3742,7 @@ label{
 
 
   @media only screen and (min-width: 1150px) and (max-width: 1438px){
-    
+
 
 
   }
@@ -3733,7 +3760,7 @@ label{
     background-color: transparent !important;
 }
 
-.dp-test:hover{
+.service-dropdown-menu:hover{
     /* background-color:#FD5D14; */
     /* border-radius: 4px; */
     border-bottom: 5px solid #19AF8F;
@@ -3741,17 +3768,17 @@ label{
 }
 
 
-/* .dp-link-test .dropdown-item{
+/* .service-dropdown-link .dropdown-item{
     padding: 25px 5px 5px 0px;
 }
 
-.dp-link-test p{
+.service-dropdown-link p{
     padding: 5px 5px 5px 0px;
 } */
 
 .navFlex img{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin-left: 10px;
 }
 .navFlex{
@@ -3810,3 +3837,304 @@ label{
 }
 
 
+
+
+
+
+/* NEW HOMEPAGE DESIGN SECTION */
+
+/* .homepage-quote{
+    background-color: #19AF8F;
+    color: white;
+    padding: 15px 0px;
+}
+
+.homepage-quote h2{
+    font-weight: 800;
+} */
+
+
+/* NEW HOMEPAGE ABOUT DETAILS SECTION */
+/* 
+.new-home-about-details{
+    margin-top: 80px;
+}
+
+.new-home-about-details h1{
+    font-size: 4rem;
+    font-weight: 800;
+    color: black;
+}
+
+.new-home-about-details p{
+    font-size: 2rem;
+    font-weight: 400;
+    color: black;
+}
+
+.solutions-services-lists .ai-icon{
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+}
+
+.solutions-services-lists .ai-list{
+    color: black;
+    font-weight: 600;
+} */
+
+/* NEW HOMEPAGE ABOUT US DETAILS SECTION */
+/* 
+.new-about-details-heading .new-about-heading{
+    font-size: 5rem;
+    color: white;
+    font-weight: 800;
+    padding: 130px 0px;
+}
+
+
+.new-about-details-lists{
+    color: white;
+    list-style: none;
+}
+
+.new-about-details-list{
+ margin-top: 25px;
+}
+
+.new-about-details-list h2{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.new-about-details-list .about-icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.new-about-details-list p{
+    color: white;
+    font-size: 1.5rem;
+    opacity: 1;
+    display: block;
+    margin-block-start: -1em;
+    margin-block-end: 0em;
+    margin-inline-start: 70px;
+    margin-inline-end: 0px;
+}
+
+.new-about-details-heading-row{
+    padding: 50px 0px;
+} */
+
+
+
+/* NEW HOMEPAGE INDUSTRY SECTION */
+
+/* .new-industry-header h5{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 10px;
+} */
+
+
+
+/* NEW HOMEPAGE OUR SERVICE SECTION */
+/* 
+.new-our-service-card{
+    background-color: white;
+    margin-top: 40px;
+}
+
+.new-our-service-card img{
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.new-our-service-card .card-body{
+    width: auto;
+    height: 280px;
+    padding: 0px 25px;
+    text-align: left;
+    border-bottom: 5px solid  #19AF8F;
+
+}
+
+.new-our-service-card .card-title{
+    color: black;
+    padding: 15px 0px 5px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.new-our-service-card .card-text{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.new-our-service-card a{
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 15px 0px;
+    font-weight: 800;
+    color: #19AF8F;
+}
+
+.new-our-service-card a:hover{
+    color:#FD5D14;
+}
+
+.our-services hr{
+    text-align: center;
+    width: 10%;
+    height: 3px;
+    background-color:#19AF8F;
+}
+
+.case-studies hr{
+    text-align: center;
+    width: 10%;
+    height: 3px;
+    background-color:#19AF8F;
+} */
+
+
+
+/* NEW HOMEPAGE CASESTUDIES SECTION */
+
+/* .no-gutters>.col, .no-gutters>[class*=col-] {
+    padding-right: 10px !important;
+    padding-left: 0;
+}
+
+.new-case-studies-row{
+    margin-top: 40px;
+}
+
+.new-case-studies-card .card-body{
+    text-align: left;
+    height: 260px;
+}
+
+.new-case-studies-card .card-title{
+    color: black;
+    font-size: 1.8rem;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+.new-case-studies-card p{
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    opacity: 1;
+    font-weight: 400;
+}
+
+.new-case-studies-card a{
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 15px 0px;
+    font-weight: 800;
+    color: #19AF8F;
+}
+
+.new-case-studies-card a:hover{
+    color:#FD5D14;
+}
+
+.new-explore-link{
+    margin-top: 25px;
+}
+
+.new-explore-link a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #19AF8F;
+    text-decoration: underline;
+}
+
+.new-explore-link a:hover{
+    color:#FD5D14;
+} */
+
+
+/* NEW HOMEPAGE OUR PARTNER SECTION */
+
+/* .new-our-partner{
+    position: relative;
+    background-color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.our-partner {
+    position: relative;
+    margin-top: 40px;
+    background-color: white;
+    padding: 15px;
+} */
+
+
+/* NEW HOMEPAGE CLIENT SAY SECTION */
+/*
+.client-say{
+    background-color: black;
+    padding: 60px 0px;
+}
+
+.client-say .section-title{
+    color: white;
+}
+
+.client-say .card{
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid  #19AF8F;
+}
+
+.client-say .client-say-row {
+    padding: 30px 0px 0px 0px;
+}
+
+.client-say-card .card-title{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 40px;
+}
+
+.client-say-card .card-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 10px;
+} */
+
+
+
+/* NEW HOMEPAGE CAREER SECTION */
+/*
+.new-career-section .career-caption {
+    background-color: transparent;
+    color: white;
+    padding: 50px;
+}
+
+.new-career-section button {
+    width: 150px;
+    margin-left: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    box-shadow: 2px 2px 6px #0000004D;
+}
+
+.new-career-section h2{
+    font-family: 'Jost', sans-serif !important;
+} */
