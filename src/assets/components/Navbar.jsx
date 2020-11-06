@@ -47,6 +47,27 @@ const contactUsButtonStyle = {
   padding: "10px"
 }
 
+function showDropdown() {
+  document.getElementsByClassName("dropdown-content")[0].style.display="block";
+  // setTimeout(function(){
+  //   document.getElementsByClassName("dropdown-content")[0].style.display="none";
+  //  }, 100);
+  // window.location.reload(false);
+}
+function hideDropdown() {
+  document.getElementsByClassName("dropdown-content")[0].style.display="none";
+  // setTimeout(function(){
+  //   document.getElementsByClassName("dropdown-content")[0].style.display="none";
+  //  }, 100);
+  // window.location.reload(false);
+}
+
+// function clearTime() {
+//   document.getElementsByClassName("dropdown-content")[0].style.display="block";
+// }
+
+
+
     return (
         <>
             {/* <!-- NAVIGATION BAR --> */}
@@ -81,15 +102,15 @@ const contactUsButtonStyle = {
                 {/* SERVICE DROPDOWN MENU   */}
                   {/* <NavLink  to = "/services" className="sub-menu"  style={navStyle} > */}
 
-                  <div  className="service-dropdown-menu" style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
+                  <div  className="service-dropdown-menu" onMouseOver={showDropdown} onMouseOut={hideDropdown} style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                   
-                    <NavLink to = "/services" onClick={() => window.location.href="/aboutus"} style={serviceDropdown} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
+                    <NavLink to = "/services"  onClick={() => window.location.href="/aboutus"} style={serviceDropdown} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                   
                       Services
                     
                     </NavLink>
                           
-                    <div class="dropdown-content">  
+                    <div class="dropdown-content" onClick={hideDropdown}>  
                       <div class="row nav-sub-menu">
                         <div class="column nav-first-column">
                           <div className="navFlex">
@@ -216,7 +237,7 @@ const contactUsButtonStyle = {
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`data-annotation`}#image-annotation`}>Image Annotation</a></p>
                           <p className="sub-service-links"><a href={`/${`data-annotation`}#video-annotation`}>Video Annotation</a></p>
                           <p className="sub-service-links"><a href={`/${`data-annotation`}#audio-annotation`}>Audio Annotation</a></p>
-                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`data-annotation`}`}>{`View all ->`}</a></p>
+                          <p className="sub-service-links dropdown-view-all-link" ><a href={`/${`data-annotation`}`}>View All</a></p>
                           </div>
                           </div>
 
