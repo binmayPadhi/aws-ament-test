@@ -19,8 +19,8 @@ function Test (){
  
     return(<>
             <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${HomeBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-                         <div className="row service-all-margin">
-                        <div className="col-lg-5 subService-AIML-intro-caption all-margin">
+                         <div className="row service-new-all-margin">
+                        <div className="col-lg-5 subService-AIML-intro-caption new-all-margin">
                             <h2>
                             Reimagine & Redefine
                             </h2>
@@ -57,7 +57,7 @@ function Test (){
 
 
             {/* NEW HOMEPAGE SOLUTION SERVICE SECTION */}
-            <div className ="new-home-about-details all-margin" id="details">
+            <div className ="new-home-about-details new-all-margin" id="details">
                 <h1>AI-Enabled Products, Solutions & Services</h1>
                 <p>Amnet Digital is your innovation catalyst. We develop products and solutions that enable you to realize the true 
                     potential of AI. We offer you a comprehensive portfolio of services – innovation lab, consulting, 
@@ -65,15 +65,16 @@ function Test (){
                 </p>
             </div>
 
-            <div className="solutions-services all-margin" id ="details">
+            <div className="solutions-services new-all-margin" id ="details">
         <div className="row">
 
             <div className="col-xl-6 col-lg-12 col-sm-12 solutions-services-details-img">
-                <img className="img-fluid" src={AIServiceIMG} alt="Solutions and Service" />
+            <img className="img-fluid" src={AIServiceIMG} alt="Solutions and Service" />
+                {/* <img className="img-fluid" src={AIServiceIMG} srcSet={`${AboutIcon} 300w, ${AIIcon} 768w, ${OurServiceBG} 1280w, ${IndustryIMG} 3200w`} alt="Solutions and Service" /> */}
             </div>
 
             <div className="col-xl-6 col-lg-12 col-sm-12 solutions-services-details">
-                <ul className="solutions-services-lists">
+                <ul className="new-solutions-services-lists">
 
                                 <li className="ai-list">
                                     <span>
@@ -110,12 +111,12 @@ function Test (){
     <div className="homepage-about-details" style={{backgroundImage:`url(${AboutDetailsBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
             
 
-            <div className="all-margin new-about-details-heading-row">
+            <div className="new-all-margin new-about-details-heading-row">
             <div className="row  ml-0 mr-0">
-                    <div className="col-6  new-about-details-heading">
+                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12  new-about-details-heading">
                         <h1 className="new-about-heading">Building an Efficient & Intelligent Tomorrow!</h1>
                     </div>
-                    <div className="col-6">
+                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <ul className="new-about-details-lists">
 
                                 <li className="new-about-details-list">
@@ -162,7 +163,8 @@ function Test (){
 
     {/* NEW HOMEPAGE INDUSTRIES SECTION */}
 
-    <div className="industry-section all-margin">
+    <div className="industry-section">
+    <div className=" new-all-margin">
     <h1 className="section-title mt-3">Industries We Cover</h1>      
     
     <div className="industry-section-row row mt-5">
@@ -218,12 +220,13 @@ function Test (){
             
     </div>
     </div>
+    </div>
 
 
     {/* NEW HOMEPAGE OUR SERVICE SECTION */}
-    <div className="industry-section">
+    {/* <div className="industry-section">
     <h1 className="section-title mt-3">Our Services</h1>      
-  <div className="new-our-service-section all-margin">
+  <div className="new-our-service-section new-all-margin">
   <Splide
         options={ {
             rewind : true,
@@ -251,18 +254,18 @@ function Test (){
         </SplideSlide>
     </Splide>
   </div>
-  </div>
+  </div> */}
 
 
 {/* NEW HOMEPAGE OUR SERVICE SECTION */}
 <div className="our-services" style={{backgroundImage:`url(${OurServiceBG})`,backgroundAttachment:"scroll",height:"auto",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
     <h1 className="section-title text-center">Our Services</h1>
     <hr></hr>
-    <div className="all-margin">
+    <div className="new-all-margin">
     <div className="row">
     {OurServicesData.map(data => {
         return(
-                    <div className="col-4" key={data.id}>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12" key={data.id}>
                     <div className="new-our-service-card">
                     <div className="card-img-top">
                         <img src={AIIcon} className="img-fluid text-center" alt="icon" />
@@ -283,11 +286,11 @@ function Test (){
 
 {/* NEW HOMEPAGE CASESTUDIES SECTION */}
 
-<div className="case-studies all-margin">
+<div className="case-studies new-all-margin">
         <h1 className="section-title mt-3">Case Studies</h1> 
         <hr></hr>
 
-    <div className="row no-gutters new-case-studies-row">
+    <div className="row  new-case-studies-row">
     {CaseStudiesSectionData.map(list => {
                 return (
                     <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 new-case-studies-card" key={list.id}>
@@ -321,9 +324,9 @@ function Test (){
     {/* NEW HOMEPAGE CLIENT SAY */}
         <div className="client-say">
         <h1 className="section-title mt-3 text-center">WHAT OUR CLIENTS SAY</h1> 
-            <div className="client-say-row all-margin">
+            <div className="client-say-row new-all-margin">
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <div className="card client-say-card">
                         <div className="card-body">
                             <img src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
@@ -336,7 +339,7 @@ function Test (){
                     </div>
                     </div>
 
-                    <div className="col-4">
+                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <div className="card client-say-card">
                         <div className="card-body">
                             <img src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
@@ -349,7 +352,7 @@ function Test (){
                     </div>
                     </div>
 
-                    <div className="col-4">
+                    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <div className="card client-say-card">
                         <div className="card-body">
                             <img src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
@@ -371,7 +374,7 @@ function Test (){
         <div className="new-career-section" style={{width:"auto", height:"auto", backgroundColor:"#19AF8F", padding:"30px"}}>
 
  
-                <div className="new-career-section all-margin">
+                <div className="new-career-section new-all-margin">
         
                 <div className="career-section-row row g-0">
                     <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-caption">

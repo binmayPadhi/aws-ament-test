@@ -3499,10 +3499,12 @@ label{
 
     .about-us-img-left {
         width: 50%;
+        background-color: rgb(41, 36, 31);
     }
 
     .about-us-img-right {
         width: 50%;
+        background-color: rgb(41, 36, 31);
     }
 }
 
@@ -3851,7 +3853,11 @@ label{
 
 /* NEW HOMEPAGE DESIGN SECTION */
 
-/* .homepage-quote{
+.new-all-margin{
+    margin: 0px 100px 0px 100px;
+}
+
+.homepage-quote{
     background-color: #19AF8F;
     color: white;
     padding: 15px 0px;
@@ -3859,11 +3865,11 @@ label{
 
 .homepage-quote h2{
     font-weight: 800;
-} */
+}
 
 
 /* NEW HOMEPAGE ABOUT DETAILS SECTION */
-/* 
+
 .new-home-about-details{
     margin-top: 80px;
 }
@@ -3875,25 +3881,40 @@ label{
 }
 
 .new-home-about-details p{
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 400;
     color: black;
 }
 
-.solutions-services-lists .ai-icon{
+.new-solutions-services-lists {
+    margin-top: 35px;
+    padding-inline-start: 0px;
+}
+
+.new-solutions-services-lists li {
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #4D4D4F;
+    list-style: none;
+}
+
+.new-solutions-services-lists .ai-icon{
         width: 30px;
         height: 30px;
         margin-right: 5px;
         margin-bottom: 5px;
 }
 
-.solutions-services-lists .ai-list{
+.new-solutions-services-lists .ai-list{
     color: black;
     font-weight: 600;
-} */
+}
 
 /* NEW HOMEPAGE ABOUT US DETAILS SECTION */
-/* 
+
 .new-about-details-heading .new-about-heading{
     font-size: 5rem;
     color: white;
@@ -3936,23 +3957,23 @@ label{
 
 .new-about-details-heading-row{
     padding: 50px 0px;
-} */
+}
 
 
 
 /* NEW HOMEPAGE INDUSTRY SECTION */
 
-/* .new-industry-header h5{
+.new-industry-header h5{
     color: white;
     font-size: 2.5rem;
     font-weight: 800;
     margin-top: 10px;
-} */
+}
 
 
 
 /* NEW HOMEPAGE OUR SERVICE SECTION */
-/* 
+
 .new-our-service-card{
     background-color: white;
     margin-top: 40px;
@@ -3987,10 +4008,12 @@ label{
 }
 
 .new-our-service-card a{
+    position: absolute;
     text-align: left;
     font-size: 1.5rem;
     padding: 15px 0px;
     font-weight: 800;
+    top: 80%;
     color: #19AF8F;
 }
 
@@ -4010,7 +4033,7 @@ label{
     width: 10%;
     height: 3px;
     background-color:#19AF8F;
-} */
+}
 
 
 
@@ -4019,7 +4042,7 @@ label{
 /* .no-gutters>.col, .no-gutters>[class*=col-] {
     padding-right: 10px !important;
     padding-left: 0;
-}
+} */
 
 .new-case-studies-row{
     margin-top: 40px;
@@ -4045,12 +4068,14 @@ label{
     font-weight: 400;
 }
 
-.new-case-studies-card a{
+.new-case-studies-card a {
     text-align: left;
     font-size: 1.5rem;
     padding: 15px 0px;
     font-weight: 800;
     color: #19AF8F;
+    position: absolute;
+    top: 80%;
 }
 
 .new-case-studies-card a:hover{
@@ -4071,12 +4096,12 @@ label{
 
 .new-explore-link a:hover{
     color:#FD5D14;
-} */
+}
 
 
 /* NEW HOMEPAGE OUR PARTNER SECTION */
 
-/* .new-our-partner{
+.new-our-partner{
     position: relative;
     background-color: white;
     padding: 15px;
@@ -4088,11 +4113,11 @@ label{
     margin-top: 40px;
     background-color: white;
     padding: 15px;
-} */
+}
 
 
 /* NEW HOMEPAGE CLIENT SAY SECTION */
-/*
+
 .client-say{
     background-color: black;
     padding: 60px 0px;
@@ -4122,12 +4147,12 @@ label{
     font-size: 1.5rem;
     font-weight: 400;
     margin-top: 10px;
-} */
+}
 
 
 
 /* NEW HOMEPAGE CAREER SECTION */
-/*
+
 .new-career-section .career-caption {
     background-color: transparent;
     color: white;
@@ -4145,4 +4170,56 @@ label{
 
 .new-career-section h2{
     font-family: 'Jost', sans-serif !important;
-} */
+}
+
+
+
+
+
+
+
+/* NEW HOME RESPONSIVE DESIGN */
+
+@media only screen and (max-width: 425px){
+
+    .new-all-margin{
+        margin: 0px 20px 0px 20px;
+    }
+
+    .new-home-about-details h1 {
+        font-size: 3rem;
+        margin-top: 40px;
+    }
+
+    .new-home-about-details p {
+        font-size: 1.5rem;
+    }
+
+    .new-solutions-services-lists li {
+        font-size: 1.2rem;
+    }
+
+    .new-about-details-heading .new-about-heading {
+        font-size: 2rem;
+        padding: 10px 0px;
+    }
+
+    .new-about-details-lists {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+    }
+
+    .new-our-service-card .card-title {
+        font-size: 1.8rem;
+    }
+
+    .new-our-service-card .card-text {
+        font-size: 1.2rem;
+    }
+
+}
