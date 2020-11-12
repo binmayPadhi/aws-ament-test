@@ -29,6 +29,7 @@ const servicesData = [
         description : "Our proven experience in delivering analytics solutions to enterprises can help your business gain a competitive advantage. Advanced analytics use data engineering and AI to get the most out of your data, whether to identify an anomaly in your data that can cause loss or to anticipate an adverse event. Amnet Digital can contribute in a crucial role to formulate the ways to improve business operations and make smart business decisions that result in competitive advantage.",
         serviceIMG : AdvanceAnalyticsIMG
     },
+   
     {
         id : "data-engineering",
         title : "DATA ENGINEERING",

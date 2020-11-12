@@ -364,8 +364,15 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     color: #ffffff;
-    margin-left: 80px;
+    margin-left: 70px;
     opacity: 0.8;
+}
+
+.homepage-quote p{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding: 10px 0px;
 }
 
 
@@ -2814,7 +2821,7 @@ label{
     margin-top: 20px;
     padding: 15px;
     border-radius: 50%;
-    background-color: #0154F7;
+    background-color: #19AF8F;
 }
 
 .job-desc-lists .fa-arrow-down{
@@ -3853,8 +3860,23 @@ label{
 
 /* NEW HOMEPAGE DESIGN SECTION */
 
-.new-all-margin{
+/* .new-all-margin{
     margin: 0px 100px 0px 100px;
+}
+
+.new-subService-AIML-intro-caption {
+    top: 180px;
+    color: white;
+}
+
+.new-subService-AIML-intro-caption h2 {
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+
+.new-subService-AIML-intro-caption p {
+    font-size: 1.8rem;
+    font-weight: 200;
 }
 
 .homepage-quote{
@@ -3865,12 +3887,12 @@ label{
 
 .homepage-quote h2{
     font-weight: 800;
-}
+} */
 
 
 /* NEW HOMEPAGE ABOUT DETAILS SECTION */
 
-.new-home-about-details{
+/* .new-home-about-details{
     margin-top: 80px;
 }
 
@@ -3911,11 +3933,11 @@ label{
 .new-solutions-services-lists .ai-list{
     color: black;
     font-weight: 600;
-}
+} */
 
 /* NEW HOMEPAGE ABOUT US DETAILS SECTION */
 
-.new-about-details-heading .new-about-heading{
+/* .new-about-details-heading .new-about-heading{
     font-size: 5rem;
     color: white;
     font-weight: 800;
@@ -3957,24 +3979,24 @@ label{
 
 .new-about-details-heading-row{
     padding: 50px 0px;
-}
+} */
 
 
 
 /* NEW HOMEPAGE INDUSTRY SECTION */
 
-.new-industry-header h5{
+/* .new-industry-header h5{
     color: white;
     font-size: 2.5rem;
     font-weight: 800;
     margin-top: 10px;
-}
+} */
 
 
 
 /* NEW HOMEPAGE OUR SERVICE SECTION */
 
-.new-our-service-card{
+/* .new-our-service-card{
     background-color: white;
     margin-top: 40px;
 }
@@ -3996,7 +4018,7 @@ label{
 
 .new-our-service-card .card-title{
     color: black;
-    padding: 15px 0px 5px;
+    padding: 25px 0px 5px;
     font-size: 2rem;
     font-weight: 800;
 }
@@ -4033,7 +4055,7 @@ label{
     width: 10%;
     height: 3px;
     background-color:#19AF8F;
-}
+} */
 
 
 
@@ -4044,7 +4066,7 @@ label{
     padding-left: 0;
 } */
 
-.new-case-studies-row{
+/* .new-case-studies-row{
     margin-top: 40px;
 }
 
@@ -4096,12 +4118,12 @@ label{
 
 .new-explore-link a:hover{
     color:#FD5D14;
-}
+} */
 
 
 /* NEW HOMEPAGE OUR PARTNER SECTION */
 
-.new-our-partner{
+/* .new-our-partner{
     position: relative;
     background-color: white;
     padding: 15px;
@@ -4113,12 +4135,12 @@ label{
     margin-top: 40px;
     background-color: white;
     padding: 15px;
-}
+} */
 
 
 /* NEW HOMEPAGE CLIENT SAY SECTION */
 
-.client-say{
+/* .client-say{
     background-color: black;
     padding: 60px 0px;
 }
@@ -4147,13 +4169,13 @@ label{
     font-size: 1.5rem;
     font-weight: 400;
     margin-top: 10px;
-}
+} */
 
 
 
 /* NEW HOMEPAGE CAREER SECTION */
 
-.new-career-section .career-caption {
+/* .new-career-section .career-caption {
     background-color: transparent;
     color: white;
     padding: 50px;
@@ -4170,9 +4192,267 @@ label{
 
 .new-career-section h2{
     font-family: 'Jost', sans-serif !important;
+} */
+
+
+
+
+
+
+/* NEW ABOUT US PAGE DESIGN SECTION */
+
+/* .new-aboutus-info-section{
+    background-color: rgb(228, 228, 228);
+    padding: 25px 0px;
+    border-bottom: 5px solid #19AF8F;
+}
+
+.new-aboutus-info-section p {
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    font-weight: 800;
+}
+
+.homepage-about-details hr{
+    text-align: center;
+    width: 10%;
+    height: 3px;
+    background-color:#19AF8F;
+}
+
+.new-location-card img{
+    width: 100px;
+    height: 100px;
+}
+
+.new-our-location-column .card{
+    border-style: none;
+}
+
+.new-our-location-column .new-location-card{
+    width: auto;
+    height: 350px;
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid #19AF8F;
+} */
+
+
+
+
+
+
+
+/* NEW SERVICE PAGE DESIGN SECTION */
+
+/* .btn-group-toggle {
+    margin-top: 60px;
+}
+
+.btn-group-toggle .service-toggle-btn{
+    background-color:  #19AF8F;
+    color: white;
+}
+
+.btn-group-toggle .service-toggle-btn:hover{
+    background-color:  #000000;
+    color: white;
+}
+
+.btn-group-toggle .btn-secondary {
+    font-size: 1.8rem;
+    padding: 10px;
+    border-style: none;
+}
+
+.btn-group-toggle .scroll-service-btn{
+    padding: 0px 15px;
+}
+
+.btn-group-toggle input{
+    appearance: none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active{
+    color: #fff;
+    background-color: #00478f !important;
+    border-style: none !important;
+}
+
+.new-service-info{
+    margin-top: 40px;
+    box-shadow: 3px 10px 10px #cecece;
+    padding: 40px 0px;
+}
+.new-service-info button{
+    margin-top: 10px;
+}
+
+.new-service-image{
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.new-service-info h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.new-service-info p{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.new-service-contact-section{
+    background-color: black;
+    color: white;
+    padding: 30px 0px;
+}
+
+.new-service-contact-section h3{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #19AF8F;
+}
+.new-service-contact-section p{
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+
+.new-service-contact-section button{
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 10px 20px;
+    background-color: #FD5D14;
+    color: white;
+    font-weight: 800;
+    margin-top: 20px;
+} */
+
+
+
+
+
+/* NEW CASE STUDIES DESIGN SECTION */
+
+/* .new-case-studies-list .card-body{
+    background-color: black;
+    color: white;
+    height: 650px;
+}
+
+.new-case-studies-list h2{
+    font-size: 2rem;
+    color: white;
+    margin-top: 0px;
+}
+
+.new-case-studies-list p{
+    color: white;
+}
+
+.new-case-studies-list h4{
+    color:  #19AF8F;
+
+} */
+
+
+
+
+/* NEW CAREERS PAGES DESIGN */
+
+/* .weValueInnovation {
+    background-color: black;
+    border-radius: 4px;
+}
+
+.weValueInnovation h1 {
+    color: white;
+    padding: 30px;
+}
+
+.weValueInnovation p {
+    font-size: 2rem;
+    color: white;
+    padding: 30px;
+}
+
+.weValueInnovationCarousel{
+    padding: 100px 0px;    
+}
+
+.weValueInnovationCarousel .carousel-inner{
+    border-left: 5px solid #19AF8F;
+}
+
+.weValueInnovationCarousel .carousel-indicators{
+    top: 95%;
+}
+
+.employeesSay .card{
+    border-style: none;
+}
+
+.employeesSay img{
+    height: 100%;
+}
+
+.employeesSay .employee-details h1{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.employeesSay .card-text{
+    font-size: 1.8rem;
+    padding: 85px 0px;
+}
+.employeesSay .card-title{
+    font-size: 3rem;
+    color: black;
+    font-weight: 800;
+}
+
+.employeesSay .carousel-inner{
+    border-left: none;
 }
 
 
+.employeesSay .carousel-indicators {
+    position: absolute;
+    top: 5%;
+    left: 1% !important;
+    right: 0;
+    bottom: 10px;
+    z-index: 15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: left;
+    margin-right: 15%;
+    margin-left: 0%;
+    list-style: none;
+}
+
+.employeesSay .carousel-indicators li {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color:#19AF8F;
+    box-shadow: 3px 6px 16px #00000029;
+    margin-top: 50px;
+}
+
+.employeesSay .carousel-indicators .active {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #6d6d6d;
+    margin-bottom: -20rem;
+} */
 
 
 
@@ -4180,7 +4460,7 @@ label{
 
 /* NEW HOME RESPONSIVE DESIGN */
 
-@media only screen and (max-width: 425px){
+/* @media only screen and (max-width: 425px){
 
     .new-all-margin{
         margin: 0px 20px 0px 20px;
@@ -4222,4 +4502,4 @@ label{
         font-size: 1.2rem;
     }
 
-}
+} */

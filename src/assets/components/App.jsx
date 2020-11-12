@@ -10,6 +10,10 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import AIML from "./SubServices/AIML";
 import Test from "./Test";
+import TestAboutUs from "./TestAboutUs";
+import TestService from "./TestService";
+import TestCaseStudies from "./TestCaseStudies";
+import TestCareers from "./TestCareers";
 // import Test from "./Test";
 
 function App(){
@@ -27,7 +31,11 @@ function App(){
                     <Route  path = "/services" component = {Services} />
                     <Route  path = "/casestudies" component = {CaseStudies} />
                     <Route  path = "/careers" component = {Careers} />
-                    <Route path = "/test" component ={Test} />
+                    {/* <Route path = "/test" component ={Test} />
+                    <Route path = "/testaboutus" component ={TestAboutUs} />
+                    <Route path = "/testservice" component ={TestService} />
+                    <Route path = "/testcasestudies" component ={TestCaseStudies} />
+                    <Route path = "/testcareers" component ={TestCareers} /> */}
                     <Route   path = "/:id" component = {AIML} />
                     {/* <Route exact  path = "/data-labeling" component = {AIML} /> */}
                     {/* <Route exact  path = "/service/data-management" component = {AIML} /> */}

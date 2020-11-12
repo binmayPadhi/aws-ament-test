@@ -33,7 +33,7 @@ const CaseStudiesSectionData = [
     //     caseStudiesDesc : "Develop an automated process solution that continuously monitors sensor data to predict upcoming downtime/faults and raise tickets ahead of time.",
     //     caseStudiesIMG : preventiveIMG,
     //     caseStudiesIcon : preventiveIcon
-     }
+      }
 ];
 
 export default CaseStudiesSectionData;

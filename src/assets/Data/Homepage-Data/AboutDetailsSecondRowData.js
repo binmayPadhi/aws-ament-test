@@ -5,12 +5,14 @@ const AboutDetailsSecondRowData = [
     {
         id : 1,
         title : "Technology Agnostic",
+        newTitle : "Attainment",
         description : "Focus on the big picture strategy and be as tech-forward or backward compatible as needed to develop solutions based on your priorities.",
         iconSrc : TechnologyIocn
     },
     {
         id : 2,
         title : "Smart Innovations",
+        newTitle : "Tie-ins",
         description : "We align our products and services with the requirements of the market and customers,we develop smart innovations for digital transformation",
         iconSrc : InnovationIocn
     },

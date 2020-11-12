@@ -12,6 +12,7 @@ const caseStudiesData = [
     {
         id : "propensity-modelling",
         title : "PROPENSITY MODELLING & RECOMMENDATION SYSTEM",
+        newTitle: "Propensity Modelling & Recommendation System",
         requirement : "REQUIREMENT",
         solution : "SOLUTION APPROACH",
         highlight : "HIGHLIGHTS/TECH COMPONENTS",
@@ -26,6 +27,7 @@ const caseStudiesData = [
     {
         id : "preventive-maintenance",
         title : "PREVENTIVE MAINTENANCE",
+        newTitle: "Preventive Maintenance",
         requirement : "REQUIREMENT",
         solution : "SOLUTION APPROACH",
         highlight : "HIGHLIGHTS/TECH COMPONENTS",
@@ -40,6 +42,7 @@ const caseStudiesData = [
     {
         id : "virtual-shopping",
         title : "VIRTUAL SHOPPING ASSISTANT",
+        newTitle: "Virtual Shopping Assistant",
         requirement : "REQUIREMENT",
         solution : "SOLUTION APPROACH",
         highlight : "HIGHLIGHTS/TECH COMPONENTS",
@@ -54,6 +57,7 @@ const caseStudiesData = [
     {
         id : "risk-analytics",
         title : "RISK ANALYTICS",
+        newTitle: "Risk Analytics",
         requirement : "REQUIREMENT",
         solution : "SOLUTION APPROACH",
         highlight : "HIGHLIGHTS/TECH COMPONENTS",

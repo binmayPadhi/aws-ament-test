@@ -20,7 +20,7 @@ function Test (){
     return(<>
             <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${HomeBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
                          <div className="row service-new-all-margin">
-                        <div className="col-lg-5 subService-AIML-intro-caption new-all-margin">
+                        <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
                             <h2>
                             Reimagine & Redefine
                             </h2>
@@ -41,7 +41,7 @@ function Test (){
                             smooth={true}
                             offset={-100}
                             duration={500}>
-                            <button type="button" className="btn btn-default sub-service-view-details-btn">View Details</button>
+                            <button type="button" className="btn btn-default sub-service-view-details-btn">Learn more</button>
                         </Link>
                             </div>
                         </div>
@@ -268,7 +268,7 @@ function Test (){
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12" key={data.id}>
                     <div className="new-our-service-card">
                     <div className="card-img-top">
-                        <img src={AIIcon} className="img-fluid text-center" alt="icon" />
+                        <img src={data.serviceIcon} className="img-fluid text-center" alt="icon" />
                     </div>
                     <div className="card-body">
                         <h3 className="card-title">{data.serviceTitle}</h3>
@@ -279,6 +279,22 @@ function Test (){
                     </div>
         )
     })}
+
+{/* <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12"></div> */}
+
+    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <div className="new-our-service-card">
+                    <div className="card-img-top">
+                        <img src={AIIcon} className="img-fluid text-center" alt="icon" />
+                    </div>
+                    <div className="card-body">
+                        <h3 className="card-title">AI / ML</h3>
+                        <p className ="card-text">Lorem ipslum</p>
+                        <a href="#" className="learn-more-services">{`Learn More ->`}</a>
+                    </div>
+                </div>
+                    </div>
+                    {/* <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12"></div> */}
 </div>
     </div>
 </div>

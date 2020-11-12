@@ -1,5 +1,5 @@
 import dmBG from "../../images/Sub-Service-Images/Data-Labeling-Images/we-are-available-bg.jpg";
-import dmBG1 from "../../images/Sub-Service-Images/Data-Labeling-Images/dl-bg.png";
+import dmBG1 from "../../images/Sub-Service-Images/Data-Labeling-Images/data-annotation-bg.jpg";
 import CloudServiceBG from "../../images/Sub-Service-Images/Cloud-Images/cloud-services-bg.jpg";
 import PlatformEngineeringBG from "../../images/Sub-Service-Images/Platform-Engineering-Images/platform-engineering-bg.jpg";
 import QualityAssuranceBG from "../../images/Sub-Service-Images/Quality-Assurance-Images/quality-assurance-bg.jpg";
