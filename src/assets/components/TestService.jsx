@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-scroll";
-import HomeBG from "../images/Home/home-bg.png";
+import ServiceBG from "../images/Service-Page/services-bg.jpg";
 import ServicesData from "../Data/Services-Data/ServicesData";
 import {NavLink} from "react-router-dom";
 import AIIcon from "../images/Home/ai-icon.png";
@@ -8,7 +8,7 @@ import AIIcon from "../images/Home/ai-icon.png";
 function TestService( ) {
     return(
         <>
-            <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${HomeBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
+            <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${ServiceBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
                          <div className="row service-new-all-margin">
                         <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
                             <h2>
