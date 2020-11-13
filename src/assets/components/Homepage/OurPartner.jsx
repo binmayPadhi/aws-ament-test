@@ -5,7 +5,7 @@ function OurPartner (){
     return (
         <>
             <div className="our-partner container-fluid">
-                <div className=" row all-margin">
+                <div className=" row new-all-margin">
 
                     {ourPartnerData.map(logo => {
                         return (

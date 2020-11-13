@@ -4,14 +4,15 @@ import HomeBG from "../images/Home/home-bg.png";
 import AIServiceIMG from "../images/Home/ai-service.png";
 import AIIcon from "../images/Home/ai-icon.png";
 import AboutIcon from "../images/Home/about-icon.png";
-import AboutDetailsBG from "../images/Home/about-details-bg.png";
-import IndustryIMG from "../images/Home/industriy-img.png";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import OurServiceBG from "../images/Home/our-service-bg.png";
+import AboutDetailsBG from "../images/HomePage/value-bg.jpg";
+// import { Splide, SplideSlide } from "@splidejs/react-splide";
+import OurServiceBG from "../images/HomePage/our-services/our-services-bg.jpg";
 import OurServicesData from "../Data/Homepage-Data/OurServicesData";
 import CaseStudiesSectionData from "../Data/Homepage-Data/CaseStudiesSectionData";
 import OurPartner from "../components/Homepage/OurPartner";
-import QuoteIcon from "../images/Home/left-quote.png"
+import QuoteIcon from "../images/Home/left-quote.png";
+import IndusrtySectionData from "../Data/Homepage-Data/IndustrySectionData";
+import DataAnnotationDropdownIcon from "../images/HomePage/our-services/amnet-data-annotation-icon.png";
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
 
@@ -163,98 +164,33 @@ function Test (){
 
     {/* NEW HOMEPAGE INDUSTRIES SECTION */}
 
-    <div className="industry-section">
-    <div className=" new-all-margin">
-    <h1 className="section-title mt-3">Industries We Cover</h1>      
+    <div className="industry-section new-all-margin">
+    
+    <h1 className="section-title" style={{marginTop:"60px"}}>Industries We Cover</h1>      
     
     <div className="industry-section-row row mt-5">
 
-        
-                <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                    <div className="card industry-section-card">
-                        <img className="card-img-top img-fluid" src= {IndustryIMG} alt="Case Studies" />
-                        <div className="card-img-overlay new-industry-header">
-                        <h5 class="card-title text-center">RETAIL & ECOMMERCE</h5>
-                        </div>
-                        <div className="card-body" style={{display:"none"}}>
-                            {/* <h5 className="card-title">{list.industryTitle}</h5> */}
-                        </div>
-                    </div>
-                </div>
+    {IndusrtySectionData.map(list => {
+        return ( 
 
-                <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                    <div className="card industry-section-card">
-                        <img className="card-img-top img-fluid" src= {IndustryIMG} alt="Case Studies" />
-                        <div className="card-img-overlay new-industry-header">
-                        <h5 class="card-title text-center">HEALTHCARE</h5>
-                        </div>
-                        <div className="card-body" style={{display:"none"}}>
-                            {/* <h5 className="card-title">{list.industryTitle}</h5> */}
-                        </div>
-                    </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 industry-section-column">
+            <div className="card industry-section-card">
+                <img className="card-img-top img-fluid" src= {list.industryIMG} alt="Case Studies" />
+                <div className="card-img-overlay new-industry-header">
+                <h5 class="card-title text-center">{list.industryTitle}</h5>
                 </div>
+                <div className="card-body" style={{display:"none"}}>
+                    {/* <h5 className="card-title">{list.industryTitle}</h5> */}
+                </div>
+            </div>
+            </div>
 
-                <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                    <div className="card industry-section-card">
-                        <img className="card-img-top img-fluid" src= {IndustryIMG} alt="Case Studies" />
-                        <div className="card-img-overlay new-industry-header">
-                        <h5 class="card-title text-center">INFORMATION MANAGEMENT</h5>
-                        </div>
-                        <div className="card-body" style={{display:"none"}}>
-                            {/* <h5 className="card-title">{list.industryTitle}</h5> */}
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                    <div className="card industry-section-card">
-                        <img className="card-img-top img-fluid" src= {IndustryIMG} alt="Case Studies" />
-                        <div className="card-img-overlay new-industry-header">
-                        <h5 class="card-title text-center">FINANCIAL SERVICES</h5>
-                        </div>
-                        <div className="card-body" style={{display:"none"}}>
-                            {/* <h5 className="card-title">{list.industryTitle}</h5> */}
-                        </div>
-                    </div>
-                </div>
+            )
+        })}
             
     </div>
     </div>
-    </div>
-
-
-    {/* NEW HOMEPAGE OUR SERVICE SECTION */}
-    {/* <div className="industry-section">
-    <h1 className="section-title mt-3">Our Services</h1>      
-  <div className="new-our-service-section new-all-margin">
-  <Splide
-        options={ {
-            rewind : true,
-            
-            gap    : '2rem',
-            autoWidth : 'true',
-            perPage : 1,
-            perMove : 1
-          } }
-    >
-        <SplideSlide>
-            <img src={AIServiceIMG} alt="Image 1" className="img-fluid" style={{width:"410px", height:"300px"}}/>
-        </SplideSlide>
-        <SplideSlide>
-            <img src={AIServiceIMG} alt="Image 2" className="img-fluid" style={{width:"410px", height:"300px"}}/>
-        </SplideSlide>
-        <SplideSlide>
-            <img src={AIServiceIMG} alt="Image 2" className="img-fluid" style={{width:"410px", height:"300px"}}/>
-        </SplideSlide>
-        <SplideSlide>
-            <img src={AIServiceIMG} alt="Image 2" className="img-fluid" style={{width:"410px", height:"300px"}}/>
-        </SplideSlide>
-        <SplideSlide>
-            <img src={AIServiceIMG} alt="Image 2" className="img-fluid" style={{width:"410px", height:"300px"}}/>
-        </SplideSlide>
-    </Splide>
-  </div>
-  </div> */}
+   
 
 
 {/* NEW HOMEPAGE OUR SERVICE SECTION */}
@@ -265,7 +201,7 @@ function Test (){
     <div className="row">
     {OurServicesData.map(data => {
         return(
-                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12" key={data.id}>
+                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 new-our-service-column" key={data.id}>
                     <div className="new-our-service-card">
                     <div className="card-img-top">
                         <img src={data.serviceIcon} className="img-fluid text-center" alt="icon" />
@@ -282,14 +218,16 @@ function Test (){
 
 {/* <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12"></div> */}
 
-    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 new-our-service-column">
                     <div className="new-our-service-card">
                     <div className="card-img-top">
-                        <img src={AIIcon} className="img-fluid text-center" alt="icon" />
+                        <img src={DataAnnotationDropdownIcon} className="img-fluid text-center" alt="icon" />
                     </div>
                     <div className="card-body">
-                        <h3 className="card-title">AI / ML</h3>
-                        <p className ="card-text">Lorem ipslum</p>
+                        <h3 className="card-title">Data Annotation</h3>
+                        <p className ="card-text">From complex documents to vital images & speech, precisely tag the data you need to 
+                            train your models and explore a wide variety of business opportunities.
+                        </p>
                         <a href="#" className="learn-more-services">{`Learn More ->`}</a>
                     </div>
                 </div>
@@ -300,10 +238,12 @@ function Test (){
 </div>
 
 
+
+
 {/* NEW HOMEPAGE CASESTUDIES SECTION */}
 
 <div className="case-studies new-all-margin">
-        <h1 className="section-title mt-3">Case Studies</h1> 
+        <h1 className="section-title" style={{marginTop:"60px"}}>Case Studies</h1> 
         <hr></hr>
 
     <div className="row  new-case-studies-row">

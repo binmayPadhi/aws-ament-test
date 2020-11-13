@@ -92,11 +92,11 @@ body{
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
-    margin-left: 140px;
+    margin-left: 100px;
 }
 
 .navbar-nav{
-    margin-right: 140px;
+    margin-right: 100px;
     margin-left: auto;
 }
 
@@ -344,7 +344,7 @@ body{
 }
 
 .about-details-row{
-    padding: 45px 25px;
+    padding: 45px 0px;
 }
 
 .about-details-header img{
@@ -370,8 +370,7 @@ body{
 
 .homepage-quote p{
     text-align: center;
-    font-size: 2.5rem;
-    font-weight: 800;
+    font-size: 1.5rem;
     padding: 10px 0px;
 }
 
@@ -637,7 +636,7 @@ body{
 .footer{
     background-color: #0C0C0C;
     color: white;
-    margin-top: 80px;
+    margin-top: 0px;
 }
 
 .footer h2{
@@ -947,7 +946,7 @@ hr{
     /* FOOTER  */
 
     .footer{
-        margin-top: 120px;
+        margin-top:0px;
     }
 
     .useful-links{
@@ -1194,7 +1193,7 @@ hr{
     /* FOOTER  */
 
     .footer{
-        margin-top: 120px;
+        margin-top: 0px;
     }
 
     .useful-links{
@@ -1874,7 +1873,7 @@ label{
 } */
 
 .about-us-page-location h1{
-    color: white;
+    color: black;
 }
 
 .about-us-page-location-row .card{
@@ -3860,7 +3859,7 @@ label{
 
 /* NEW HOMEPAGE DESIGN SECTION */
 
-/* .new-all-margin{
+.new-all-margin{
     margin: 0px 100px 0px 100px;
 }
 
@@ -3887,12 +3886,13 @@ label{
 
 .homepage-quote h2{
     font-weight: 800;
-} */
+    padding: 10px;
+}
 
 
 /* NEW HOMEPAGE ABOUT DETAILS SECTION */
 
-/* .new-home-about-details{
+.new-home-about-details{
     margin-top: 80px;
 }
 
@@ -3932,12 +3932,11 @@ label{
 
 .new-solutions-services-lists .ai-list{
     color: black;
-    font-weight: 600;
-} */
+}
 
 /* NEW HOMEPAGE ABOUT US DETAILS SECTION */
 
-/* .new-about-details-heading .new-about-heading{
+.new-about-details-heading .new-about-heading{
     font-size: 5rem;
     color: white;
     font-weight: 800;
@@ -3979,24 +3978,34 @@ label{
 
 .new-about-details-heading-row{
     padding: 50px 0px;
-} */
+}
 
 
 
 /* NEW HOMEPAGE INDUSTRY SECTION */
 
-/* .new-industry-header h5{
+.industry-section-column{
+    padding-right: 5px !important;
+    padding-left: 0px !important;
+}
+
+.new-industry-header h5{
     color: white;
     font-size: 2.5rem;
     font-weight: 800;
     margin-top: 10px;
-} */
+}
 
 
 
 /* NEW HOMEPAGE OUR SERVICE SECTION */
 
-/* .new-our-service-card{
+.new-our-service-column{
+    padding-right: 5px !important;
+    padding-left: 0px !important;
+}
+
+.new-our-service-card{
     background-color: white;
     margin-top: 40px;
 }
@@ -4047,27 +4056,31 @@ label{
     text-align: center;
     width: 10%;
     height: 3px;
+    margin-top: 1rem !important;
     background-color:#19AF8F;
 }
 
-.case-studies hr{
-    text-align: center;
-    width: 10%;
-    height: 3px;
-    background-color:#19AF8F;
-} */
+
 
 
 
 /* NEW HOMEPAGE CASESTUDIES SECTION */
 
-/* .no-gutters>.col, .no-gutters>[class*=col-] {
-    padding-right: 10px !important;
-    padding-left: 0;
-} */
+.case-studies hr{
+    text-align: center;
+    width: 10%;
+    height: 3px;
+    margin-top: 1rem !important;
+    background-color:#19AF8F;
+}
 
-/* .new-case-studies-row{
+.new-case-studies-row{
     margin-top: 40px;
+}
+
+.new-case-studies-card{
+    padding-right: 5px !important;
+    padding-left: 0px !important;
 }
 
 .new-case-studies-card .card-body{
@@ -4118,12 +4131,12 @@ label{
 
 .new-explore-link a:hover{
     color:#FD5D14;
-} */
+}
 
 
 /* NEW HOMEPAGE OUR PARTNER SECTION */
 
-/* .new-our-partner{
+.new-our-partner{
     position: relative;
     background-color: white;
     padding: 15px;
@@ -4135,12 +4148,12 @@ label{
     margin-top: 40px;
     background-color: white;
     padding: 15px;
-} */
+}
 
 
 /* NEW HOMEPAGE CLIENT SAY SECTION */
 
-/* .client-say{
+.client-say{
     background-color: black;
     padding: 60px 0px;
 }
@@ -4159,6 +4172,11 @@ label{
     padding: 30px 0px 0px 0px;
 }
 
+.client-say-card img{
+    width: 64px;
+    height: 64px;
+}
+
 .client-say-card .card-title{
     font-size: 2rem;
     font-weight: 800;
@@ -4169,13 +4187,13 @@ label{
     font-size: 1.5rem;
     font-weight: 400;
     margin-top: 10px;
-} */
+}
 
 
 
 /* NEW HOMEPAGE CAREER SECTION */
 
-/* .new-career-section .career-caption {
+.new-career-section .career-caption {
     background-color: transparent;
     color: white;
     padding: 50px;
@@ -4192,7 +4210,7 @@ label{
 
 .new-career-section h2{
     font-family: 'Jost', sans-serif !important;
-} */
+}
 
 
 
@@ -4201,7 +4219,7 @@ label{
 
 /* NEW ABOUT US PAGE DESIGN SECTION */
 
-/* .new-aboutus-info-section{
+.new-aboutus-info-section{
     background-color: rgb(228, 228, 228);
     padding: 25px 0px;
     border-bottom: 5px solid #19AF8F;
@@ -4221,8 +4239,30 @@ label{
     background-color:#19AF8F;
 }
 
+
+/* CREDO SECTION */
+
+.credo-column{
+    padding-right: 5px !important;
+    padding-left: 0px !important;
+}
+
+.credo-info-column{
+    padding-right: 5px !important;
+    padding-left: 0px !important;
+}
+
+.credo-info-column p{
+    display: block;
+    margin-block-start: -.5em !important;
+    margin-block-end: -0em !important;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 70px;
+}
+
 .new-location-card img{
-    width: 100px;
+    width: 70px;
     height: 100px;
 }
 
@@ -4236,7 +4276,7 @@ label{
     background-color: black;
     color: white;
     border-bottom: 5px solid #19AF8F;
-} */
+}
 
 
 
@@ -4246,7 +4286,7 @@ label{
 
 /* NEW SERVICE PAGE DESIGN SECTION */
 
-/* .btn-group-toggle {
+.btn-group-toggle {
     margin-top: 60px;
 }
 
@@ -4329,7 +4369,7 @@ label{
     color: white;
     font-weight: 800;
     margin-top: 20px;
-} */
+}
 
 
 
@@ -4337,7 +4377,21 @@ label{
 
 /* NEW CASE STUDIES DESIGN SECTION */
 
-/* .new-case-studies-list .card-body{
+.subService-AIML-intro-btn .sub-service-contact-us-btn {
+    width: 180px;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: 0px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left: 15px;
+    /* margin-top: 2rem; */
+}
+
+.new-case-studies-list .card-body{
     background-color: black;
     color: white;
     height: 650px;
@@ -4356,14 +4410,14 @@ label{
 .new-case-studies-list h4{
     color:  #19AF8F;
 
-} */
+}
 
 
 
 
 /* NEW CAREERS PAGES DESIGN */
 
-/* .weValueInnovation {
+.weValueInnovation {
     background-color: black;
     border-radius: 4px;
 }
@@ -4452,22 +4506,52 @@ label{
     border-radius: 50%;
     background-color: #6d6d6d;
     margin-bottom: -20rem;
-} */
+}
 
 
+
+
+/* NEW CONTACT US PAGE DESIGN SECTION */
+
+.new-contact-us-page img{
+    width: 100%;
+    height: 54%;
+}
+
+.new-contact-us-page input{
+    box-shadow: 3px 6px 16px #00000029;
+    border-style: none;
+}
+
+.new-contact-us-page textarea{
+    box-shadow: 3px 6px 16px #00000029;
+    border-style: none;
+}
 
 
 
 /* NEW HOME RESPONSIVE DESIGN */
 
-/* @media only screen and (max-width: 425px){
+@media only screen and (min-width: 320px) and (max-width: 424px) {
 
     .new-all-margin{
         margin: 0px 20px 0px 20px;
     }
 
+    .navbar-brand {
+        margin-left: 20px;
+    }
+    
+    .navbar-nav{
+        margin-right: 20px;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+
     .new-home-about-details h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin-top: 40px;
     }
 
@@ -4494,6 +4578,49 @@ label{
         padding-inline-start: 0px;
     }
 
+    .new-about-details-list .about-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .new-about-details-list h2 {
+        font-size: 1.5rem;
+    }
+
+    .new-about-details-list p {
+        margin-inline-start: 40px;
+    }
+
+    /* FOR NEW INDSUSTRY SECTION */
+    .industry-section-column {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .our-services {
+        padding: 30px 0px;
+    }
+
+    .new-our-service-column {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .our-services hr {
+        margin-top: 1rem !important;
+        width: 40%;
+    }
+
+    .new-our-service-card .card-body {
+        padding: 0px 10px;
+        height: 250px;
+    }
+
+    .new-our-service-card a {
+        top: 85%;
+    }
+
     .new-our-service-card .card-title {
         font-size: 1.8rem;
     }
@@ -4502,4 +4629,462 @@ label{
         font-size: 1.2rem;
     }
 
-} */
+
+    .case-studies hr {
+        width: 40%;
+        margin-top: 1rem !important;
+    }
+
+    .new-case-studies-card {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .new-case-studies-card{
+        margin-top: 15px;
+    }
+
+    .client-say .card {
+        margin-top: 15px;
+    }
+
+    .footer .fa {
+        margin: 25px 5px 2px 0px;
+    }
+
+
+    /* FOR NEW CASE STUDIES RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-subService-AIML-intro-caption h2 {
+        font-size: 2.5rem;
+    }
+
+    .new-subService-AIML-intro-caption p {
+        font-size: 1.5rem;
+    }
+
+    .new-subService-AIML-intro-caption {
+        top: 130px;
+    }
+
+    .subService-AIML-intro-btn .sub-service-contact-us-btn {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .new-career-section button {
+        margin-left: 15px;
+    }
+
+    .new-case-studies-list .card-body {
+        padding: 15px;
+    }
+
+    .new-case-studies-list .card-title{
+        font-size: 1.5rem;
+    }
+
+    .new-case-studies-list .card-body {
+        height: auto;
+    }
+
+    .new-career-section .career-caption {
+        padding: 20px;
+    }
+
+    .career-details p {
+        padding: 10px;
+    }
+
+
+
+
+    /* FOR NEW CONTACT US RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-contact-us-page img {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* FOR LARGER MOBILE SCREEN AND SMALL TABLET */
+/* ................................................................................................................................. */
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+
+    .new-all-margin{
+        margin: 0px 20px 0px 20px;
+    }
+
+    /* FOR NEW HOMEPAGE ABOUT DETAILS RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-about-details-lists {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+    }
+
+    .new-about-details-list .about-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .new-about-details-list p {
+        margin-block-start: -0.5em;
+        margin-inline-start: 40px;
+    }
+
+    /* FOR NEW INDUSTRY SECTION RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .industry-section-column {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    /* FOR NEW OUR SERVICE SECTION RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-our-service-column {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .our-services {
+        padding: 30px 0px;
+    }
+
+    .our-services hr {
+        width: 40%;
+        margin-top: 1rem !important;
+    }
+
+    .new-our-service-card a {
+        top: 85%;
+    }
+
+
+
+    /* FOR NEW CASE STUDIES PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+    
+    .case-studies hr {
+        width: 40%;
+        margin-top: 1rem !important;
+    }
+
+    .new-case-studies-card {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .new-subService-AIML-intro-caption h2 {
+        font-size: 3rem;
+    }
+
+    .new-home-about-details h1 {
+        font-size: 3rem;
+        padding: 10px 0px;
+    }
+
+    .new-about-details-heading .new-about-heading {
+        font-size: 3rem;
+        padding: 0px 0px;
+    }
+
+    .new-subService-AIML-intro-caption p {
+        font-size: 1.8rem;
+    }
+
+    .new-subService-AIML-intro-caption {
+        top: 130px;
+    }
+
+    .subService-AIML-intro-btn .sub-service-contact-us-btn {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .new-career-section button {
+        margin-left: 15px;
+    }
+
+    .new-case-studies-card {
+        margin-top: 15px;
+    }
+
+    .client-say .card {
+        margin-top: 15px;
+    }
+
+    .new-case-studies-list .card-body {
+        padding: 15px;
+    }
+
+    .new-case-studies-list .card-title{
+        font-size: 1.5rem;
+    }
+
+    .new-case-studies-list .card-body {
+        height: auto;
+    }
+
+    .new-career-section .career-caption {
+        padding: 20px;
+    }
+
+    .career-details p {
+        padding: 10px;
+    }
+
+    
+    
+    /* FOR NEW CONTACT US RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-contact-us-page img {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+/* FOR TABLET SCREEN AND SMALL LAPTOP SCREEN */
+/* ................................................................................................................................. */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* FOR NEW CASE STUDIES RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-all-margin{
+        margin: 0px 40px 0px 40px;
+    }
+
+    .navbar-brand {
+        margin-left: 40px;
+    }
+    
+    .navbar-nav{
+        margin-right: 40px;
+    }
+
+    .new-case-studies-list .card-body {
+        padding: 15px;
+    }
+
+    .new-case-studies-list .card-title{
+        font-size: 2.5rem;
+    }
+
+    .new-case-studies-list .card-body {
+        height: auto;
+    }
+
+    .new-case-studies-list p{
+        font-size: 1.5rem;
+    }
+
+
+    /* FOR AI SOLUTIONS RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-home-about-details h1 {
+        font-size: 3rem;
+        padding: 10px 0px;
+    }
+
+    /* FOR ABOUT SOLUTIONS RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-about-details-lists {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+    }
+
+    .new-about-details-heading .new-about-heading {
+        font-size: 3.5rem;
+        padding: 0px 0px;
+    }
+
+    /* FOR OUR SERVICE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+    
+    .our-services hr {
+        width: 20%;
+        margin-top: 1rem !important;
+    }
+
+    .our-services {
+        padding: 30px 0px;
+    }
+
+    .new-our-service-column {
+        padding-left: 5px !important;
+        padding-right: 0px !important;
+    }
+
+    .new-our-service-card a {
+        top: 85%;
+    }
+
+
+    /* FOR CASE STUDIES RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .case-studies hr {
+        width: 20%;
+        margin-top: 1rem !important;
+    }
+
+    .new-case-studies-card {
+    padding-right: 5px !important;
+    padding-left: 0px !important;
+    margin-top: 10px;
+}
+
+
+    /* FOR NEW CONTACT US RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-contact-us-page img {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* FOR MEDIUM LAPTOP SCREEN */
+/* ................................................................................................................................. */
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+
+    .navbar-brand {
+        margin-left: 60px;
+    }
+    
+    .navbar-nav{
+        margin-right: 60px;
+    }
+
+    /* FOR NEW HOME PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+    .new-home-about-details h1 {
+        font-size: 4rem;
+        padding: 15px 0px;
+    }
+
+
+    /* FOR NEW INDUSTRY SECTION RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+    .industry-section-column{
+        padding-right: 5px !important;
+        padding-left: 0px !important;
+    }
+
+
+    /* FOR OUR SERVICE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+    
+    .our-services {
+        padding: 30px 0px;
+    }
+
+    .new-our-service-card a {
+        top: 85%;
+    }
+
+    .our-services hr {
+        width: 15%;
+        margin-top: 1rem !important;
+    }
+    
+    .new-our-service-card .card-body {
+        height: 310px;
+    }
+
+    .new-our-service-column {
+        padding-left: 5px !important;
+        padding-right: 0px !important;
+    }
+
+
+    /* FOR NEW CASE STUDIES SECTION RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+    
+    .case-studies hr {
+        width: 15%;
+        margin-top: 1rem !important;
+    }
+
+    .new-case-studies-card{
+        padding-right: 5px !important;
+        padding-left: 0px !important;
+    }
+
+    .new-case-studies-card .card-body {
+        height: 320px;
+    }
+
+
+
+
+
+
+    /* FOR NEW CASE STUDIES PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-all-margin{
+        margin: 0px 60px 0px 60px;
+    }
+
+    .new-case-studies-list .card-body {
+        padding: 15px;
+    }
+
+    .new-case-studies-list .card-title{
+        font-size: 2.5rem;
+    }
+
+    .new-case-studies-list .card-body {
+        height: 720px;
+    }
+
+    .new-case-studies-list p{
+        font-size: 1.5rem;
+    }
+
+
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router-dom";
 import {Link} from "react-scroll";
 import HomeBG from "../images/Home/home-bg.png";
 import CaseStudiesData from "../Data/CaseStudies-Data/CaseStudiesData";
@@ -7,7 +8,7 @@ function TestCaseStudies ( ) {
     return(
         <>
                 <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${HomeBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-                         <div className="row service-new-all-margin">
+                         <div className="row">
                         <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
                             <h2>
                             Make A Difference
@@ -30,7 +31,11 @@ function TestCaseStudies ( ) {
                             offset={-100}
                             duration={500}>
                             <button type="button" className="btn btn-default sub-service-view-details-btn">Learn more</button>
-                        </Link>
+                            </Link>
+
+                            <NavLink to="/contactus">
+                            <button type="button" className="btn btn-default sub-service-contact-us-btn">Contact Us</button>
+                            </NavLink>
                             </div>
                         </div>
                         </div>
@@ -48,11 +53,11 @@ function TestCaseStudies ( ) {
 
 
             {/* <!-- CASE STUDIES PAGE ALL CASE STUDIES --> */}
-            <div className="case-studies-page-all-case-studies all-margin " >
+            <div className="case-studies-page-all-case-studies new-all-margin " >
                     <div className="row case-studies-page-row ml-0 mr-0">
                         {CaseStudiesData.map(caseStudy => {
                             return (
-                                <div className="col-6 case-studies-list new-case-studies-list p-2" id={caseStudy.id} key ={caseStudy.id}>
+                                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 case-studies-list new-case-studies-list p-2" id={caseStudy.id} key ={caseStudy.id}>
                                     <div className="card case-studies-page-card">
                                         <img className="img-fluid card-img-top" src={caseStudy.caseStudiesIMG} style={{borderBottom:"5px solid #19AF8F"}} alt ="case-studies"/>
                                         <div className="card-body">
@@ -90,7 +95,7 @@ function TestCaseStudies ( ) {
 
                 {/* NEW HOMEPAGE CAREER SECTION */}
 
-        <div className="new-career-section" style={{width:"auto", height:"auto", backgroundColor:"#19AF8F", padding:"30px",marginTop:"60px"}}>
+        <div  style={{width:"auto", height:"auto", backgroundColor:"#19AF8F", padding:"30px",marginTop:"60px"}}>
 
 <div className="new-career-section new-all-margin">
 

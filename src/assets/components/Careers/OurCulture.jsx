@@ -8,12 +8,12 @@ function OurCulture (){
             {/* <!-- CAREER-PAGE-OUR-CULTURE --> */}
 
             <div className="careers-our-culture-header text-center">
-                <h3 className="section-header">IT'S EXCITING</h3>
+                {/* <h3 className="section-header">IT'S EXCITING</h3> */}
                 <h1 className="section-title mt-3">Our Culture/Workspace</h1>     
             </div>
 
 
-            <div className="our-culture-section all-margin">
+            <div className="our-culture-section new-all-margin">
                 <div className="row ml-0 mr-0">
                     <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 culture-img-left">
                         <img className="img-fluid" src={AmnetOfficeIMG} alt="Amnet-Office" />

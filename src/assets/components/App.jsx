@@ -14,6 +14,7 @@ import TestAboutUs from "./TestAboutUs";
 import TestService from "./TestService";
 import TestCaseStudies from "./TestCaseStudies";
 import TestCareers from "./TestCareers";
+import TestContactUs from "./TestContactUs";
 // import Test from "./Test";
 
 function App(){
@@ -25,17 +26,20 @@ function App(){
               </div>
             <div>
                 <Switch>
-                    <Route exact path = "/" component = {Homepage} />
+                    {/* <Route exact path = "/" component = {Homepage} />
                     <Route  path = "/contactus" component = {ContactUs} />
                     <Route  path = "/aboutus" component = {AboutUs} />
                     <Route  path = "/services" component = {Services} />
                     <Route  path = "/casestudies" component = {CaseStudies} />
-                    <Route  path = "/careers" component = {Careers} />
-                    {/* <Route path = "/test" component ={Test} />
-                    <Route path = "/testaboutus" component ={TestAboutUs} />
-                    <Route path = "/testservice" component ={TestService} />
-                    <Route path = "/testcasestudies" component ={TestCaseStudies} />
-                    <Route path = "/testcareers" component ={TestCareers} /> */}
+                    <Route  path = "/careers" component = {Careers} /> */}
+
+                    <Route exact path = "/" component ={Test} />
+                    <Route path = "/aboutus" component ={TestAboutUs} />
+                    <Route path = "/services" component ={TestService} />
+                    <Route path = "/casestudies" component ={TestCaseStudies} />
+                    <Route path = "/careers" component ={TestCareers} />
+                    <Route path = "/contactus" component ={TestContactUs} />
+                    
                     <Route   path = "/:id" component = {AIML} />
                     {/* <Route exact  path = "/data-labeling" component = {AIML} /> */}
                     {/* <Route exact  path = "/service/data-management" component = {AIML} /> */}

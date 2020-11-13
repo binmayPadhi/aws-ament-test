@@ -26,13 +26,13 @@ const CaseStudiesSectionData = [
         caseStudiesDesc : "Develop an automated process solution that continuously monitors sensor data to predict upcoming downtime/faults and raise tickets ahead of time.",
         caseStudiesIMG : preventiveIMG,
         caseStudiesIcon : preventiveIcon
-    // },
-    // {
-    //     id : "virtual-assistant",
-    //     caseStudiesTitle : "Virtual Assistant",
-    //     caseStudiesDesc : "Develop an automated process solution that continuously monitors sensor data to predict upcoming downtime/faults and raise tickets ahead of time.",
-    //     caseStudiesIMG : preventiveIMG,
-    //     caseStudiesIcon : preventiveIcon
+    },
+    {
+        id : "virtual-assistant",
+        caseStudiesTitle : "Virtual Assistant",
+        caseStudiesDesc : "Develop an automated process solution that continuously monitors sensor data to predict upcoming downtime/faults and raise tickets ahead of time.",
+        caseStudiesIMG : preventiveIMG,
+        caseStudiesIcon : preventiveIcon
       }
 ];
 

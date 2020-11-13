@@ -7,8 +7,8 @@ import AboutDetailsSecondRowData from "../Data/Homepage-Data/AboutDetailsSecondR
 import AIIcon from "../images/Home/ai-icon.png";
 import OurPartner from "../components/Homepage/OurPartner";
 import OurLocationData from "../Data/ContactUs-Data/OurLocationData";
-import OurLocationBG from "../images/Contact-Us-Page/amnet-about-us-our-locations.jpg";
-import QuoteIcon from "../images/Home/left-quote.png"
+// import OurLocationBG from "../images/Contact-Us-Page/amnet-about-us-our-locations.jpg";
+import QuoteIcon from "../images/About-Us-Page/amnet-left-quote-icon.png"
 
 function TestAboutUs( ) {
     return (
@@ -88,13 +88,13 @@ function TestAboutUs( ) {
             <div className="homepage-about-details" style={{backgroundImage:`url(${HomeBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
             <h1 className="section-title text-center" style={{paddingTop:"15px", color:"white"}}>CREDO</h1>
                 <hr></hr>
-                <div className="row all-margin ml-0 mr-0">
-                    <div className="col-10 mx-auto">
+                <div className="row new-all-margin ml-0 mr-0">
+                    <div className="col-10 credo-column mx-auto">
                         <div className="row about-details-row mx-auto">
                 
                             {AboutDetailsFirstRowData.map(list => {
                                 return (
-                                        <div className="col-lg-6 col-md-12 col-sm-12" key={list.id}>
+                                        <div className="col-lg-6 col-md-12 col-sm-12 credo-info-column" key={list.id}>
                                             <h3 className="about-details-header">
                                                 <span>
                                                     <img src= {AIIcon} className="img-fluid about-icons" alt = "end to end" />
@@ -112,7 +112,7 @@ function TestAboutUs( ) {
             
                             {AboutDetailsSecondRowData.map(list => {
                                 return (
-                                        <div className="col-lg-6 col-md-12 col-sm-12" key={list.id}>
+                                        <div className="col-lg-6 col-md-12 col-sm-12 credo-info-column" key={list.id}>
                                             <h3 className="about-details-header">
                                                 <span>
                                                     <img src= {AIIcon} className="img-fluid about-icons" alt = "end to end" />
@@ -151,8 +151,8 @@ function TestAboutUs( ) {
 
             {/* <!-- NEW ABOUT US PAGE LOCATION SECTION --> */}
 
-            <div className="about-us-page-location contact-us-location" style={{backgroundImage:`url(${OurLocationBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-                <div className="all-margin">
+            <div className="about-us-page-location contact-us-location" style={{backgroundColor:"#F2F2F2",backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
+                <div className="new-all-margin">
                     <div className="about-us-page-header text-center mt-5 p-5">
                         <h1 className="section-title mt-3">WE OPERATE IN</h1>
                     </div>
