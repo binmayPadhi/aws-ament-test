@@ -1,6 +1,7 @@
 import React from "react";
 import {Link} from "react-scroll";
 import HomeBG from "../images/Home/home-bg.png";
+import AboutUsBG from "../images/About-Us-Page/amnet-about-us-bg.jpg";
 import AboutUsMission from "../components/AboutUs/AboutUsMission";
 import AboutDetailsFirstRowData from "../Data/Homepage-Data/AboutDetailsFirstRowData";
 import AboutDetailsSecondRowData from "../Data/Homepage-Data/AboutDetailsSecondRowData";
@@ -13,7 +14,7 @@ import QuoteIcon from "../images/About-Us-Page/amnet-left-quote-icon.png"
 function TestAboutUs( ) {
     return (
         <>
-              <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${HomeBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
+              <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${AboutUsBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
                          <div className="row service-new-all-margin">
                         <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
                             <h2>

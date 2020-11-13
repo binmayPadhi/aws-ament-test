@@ -1,13 +1,13 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 import {Link} from "react-scroll";
-import HomeBG from "../images/Home/home-bg.png";
+import CaseStudiesBG from "../images/Case-Studies-Page/cs-bg.jpg";
 import CaseStudiesData from "../Data/CaseStudies-Data/CaseStudiesData";
 
 function TestCaseStudies ( ) {
     return(
         <>
-                <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${HomeBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
+                <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${CaseStudiesBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
                          <div className="row">
                         <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
                             <h2>
@@ -59,7 +59,7 @@ function TestCaseStudies ( ) {
                             return (
                                 <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 case-studies-list new-case-studies-list p-2" id={caseStudy.id} key ={caseStudy.id}>
                                     <div className="card case-studies-page-card">
-                                        <img className="img-fluid card-img-top" src={caseStudy.caseStudiesIMG} style={{borderBottom:"5px solid #19AF8F"}} alt ="case-studies"/>
+                                        <img className="img-fluid card-img-top" src={caseStudy.caseStudiesIMG} alt ="case-studies"/>
                                         <div className="card-body">
                                             {/* <span className="case-studies-icon"><img className="img-fluid" src={caseStudy.caseStudiesIcon} alt ="case-studies-icon"/> </span> */}
                                             <h2 className="case-studies-page-card-title card-title">{caseStudy.newTitle}</h2>

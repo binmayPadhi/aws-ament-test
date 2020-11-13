@@ -1,6 +1,6 @@
 import React from "react";
 import CaseStudiesData from "../Data/CaseStudies-Data/CaseStudiesData";
-import CaseStudiesBG from "../images/Case-Studies-Page/amnet-case-studies-bg.jpg";
+import CaseStudiesBG from "../images/Case-Studies-Page/cs-bg.jpg";
 import {Link} from "react-scroll";
 import {NavLink} from "react-router-dom";
 

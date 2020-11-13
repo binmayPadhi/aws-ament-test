@@ -1,11 +1,11 @@
-import propensityIMG from "../../images/Case-Studies-Page/amnet-cs-propensity.jpg";
-import preventiveIMG from "../../images/Case-Studies-Page/amnet-cs-preventive.jpg";
-import virtualShoppingIMG from "../../images/Case-Studies-Page/amnet-cs-virtual-shopping.jpg";
-import riskAnalyticsIMG from "../../images/Case-Studies-Page/amnet-cs-risk-analytics.jpg";
-import propensityIcon from "../../images/Case-Studies-Page/amnet-propensity-cs-icon.png";
-import preventiveIcon from "../../images/Case-Studies-Page/amnet-recom-system-cs-icon.png";
-import virtualShoppingIcon from "../../images/Case-Studies-Page/amnet-virtual-shopping-cs-icon.png";
-import riskAnalyticsIcon from "../../images/Case-Studies-Page/amnet-risk-analytics-cs-icon.png";
+import propensityIMG from "../../images/Case-Studies-Page/cs-propensity.jpg";
+import preventiveIMG from "../../images/Case-Studies-Page/cs-preventive-maintenance.jpg";
+import virtualShoppingIMG from "../../images/Case-Studies-Page/cs-virtual-assistant.jpg";
+import riskAnalyticsIMG from "../../images/Case-Studies-Page/cs-risk-analytics.jpg";
+// import propensityIcon from "../../images/Case-Studies-Page/amnet-propensity-cs-icon.png";
+// import preventiveIcon from "../../images/Case-Studies-Page/amnet-recom-system-cs-icon.png";
+// import virtualShoppingIcon from "../../images/Case-Studies-Page/amnet-virtual-shopping-cs-icon.png";
+// import riskAnalyticsIcon from "../../images/Case-Studies-Page/amnet-risk-analytics-cs-icon.png";
 
 
 const caseStudiesData = [
@@ -22,7 +22,6 @@ const caseStudiesData = [
         highlightDesc : "Leveraging techniques like Machine learning, Random Forest, XGBoost collaborative filtering, content based filtering, hybrid filtering, deep learning.",
         benefitDesc : "Improved sales execution to enable cross-sell and up-sell, effective use of resources, improved campaign effectiveness, reduced costs and provided intelligent pricing.",
         caseStudiesIMG : propensityIMG,
-        caseStudiesIcon : propensityIcon
     },
     {
         id : "preventive-maintenance",
@@ -37,7 +36,6 @@ const caseStudiesData = [
         highlightDesc : "Leveraging sensors and machine learning techniques like classification and regression.",
         benefitDesc : "Minimize downtimes, increased customer satisfaction, reduced losses, maximized asset lifetime.",
         caseStudiesIMG : preventiveIMG,
-        caseStudiesIcon : preventiveIcon
     },
     {
         id : "virtual-shopping",
@@ -52,7 +50,6 @@ const caseStudiesData = [
         highlightDesc : `Deep learning techniques like Encoder-Decoder models, RNNs & deep Seq-2-Seq models to create conversational assistants. Used deep CNN to create image tagging and open CV\\CNN classification to match similar products to implement visual search.`,
         benefitDesc : "Enhanced customer shopping experience by providing customer centric search. Could run personalized loyalty programs that resulted in improved sales and customer loyalty.",
         caseStudiesIMG : virtualShoppingIMG,
-        caseStudiesIcon : virtualShoppingIcon
     },
     {
         id : "risk-analytics",
@@ -67,7 +64,6 @@ const caseStudiesData = [
         highlightDesc : "Machine-learning techniques like deep learning, random forest, and XGBoost.",
         benefitDesc : "Reduces risk of loss, higher interest incomes, lower sales and operating costs, reduced costs associated with risk mitigation, improved capital efficiency.",
         caseStudiesIMG : riskAnalyticsIMG,
-        caseStudiesIcon : riskAnalyticsIcon
     },
     
 ]
