@@ -77,44 +77,6 @@ function TestService( ) {
 
                 <Link
                             activeClass="active"
-                            to="platform-engineering"
-                            className="scroll-service-btn"
-                            spy={true}
-                            smooth={true}
-                            offset={-100}
-                            duration={500}>
-                <label class="btn service-toggle-btn btn-secondary">
-                    <input type="radio" name="options" id="option3" autocomplete="off" /> Platform Engineering
-                </label>
-                </Link>
-                <Link
-                            activeClass="active"
-                            to="cloud"
-                            className="scroll-service-btn"
-                            spy={true}
-                            smooth={true}
-                            offset={-100}
-                            duration={500}>             
-                <label className="btn btn-secondary service-toggle-btn">
-                    <input type="radio" name="options" id="option1" autocomplete="off" checked /> Cloud
-                </label>
-                </Link>
-
-                <Link
-                            activeClass="active"
-                            to="data-engineering"
-                            className="scroll-service-btn"
-                            spy={true}
-                            smooth={true}
-                            offset={-100}
-                            duration={500}>
-                <label class="btn service-toggle-btn btn-secondary">
-                    <input type="radio" name="options" id="option2" autocomplete="off" /> Data Engineering
-                </label>
-                </Link>
-
-                <Link
-                            activeClass="active"
                             to="advanced-analytics"
                             className="scroll-service-btn"
                             spy={true}
@@ -125,30 +87,16 @@ function TestService( ) {
                     <input type="radio" name="options" id="option3" autocomplete="off" /> Advanced Analytics
                 </label>
                 </Link>
-
                 <Link
                             activeClass="active"
-                            to="aiml"
+                            to="data-engineering"
                             className="scroll-service-btn"
                             spy={true}
                             smooth={true}
                             offset={-100}
                             duration={500}>             
                 <label className="btn btn-secondary service-toggle-btn">
-                    <input type="radio" name="options" id="option1" autocomplete="off" checked /> Artificial intelligence
-                </label>
-                </Link>
-
-                <Link
-                            activeClass="active"
-                            to="data-management"
-                            className="scroll-service-btn"
-                            spy={true}
-                            smooth={true}
-                            offset={-100}
-                            duration={500}>
-                <label class="btn service-toggle-btn btn-secondary">
-                    <input type="radio" name="options" id="option2" autocomplete="off" /> Data Management
+                    <input type="radio" name="options" id="option1" autocomplete="off" checked /> Data Engineering
                 </label>
                 </Link>
 
@@ -161,9 +109,23 @@ function TestService( ) {
                             offset={-100}
                             duration={500}>
                 <label class="btn service-toggle-btn btn-secondary">
-                    <input type="radio" name="options" id="option3" autocomplete="off" /> Platform Engineering
+                    <input type="radio" name="options" id="option2" autocomplete="off" /> Platform Engineering
                 </label>
                 </Link>
+
+                <Link
+                            activeClass="active"
+                            to="user-experience"
+                            className="scroll-service-btn"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>
+                <label class="btn service-toggle-btn btn-secondary">
+                    <input type="radio" name="options" id="option3" autocomplete="off" /> User Experience
+                </label>
+                </Link>
+
                 <Link
                             activeClass="active"
                             to="cloud"
@@ -174,6 +136,44 @@ function TestService( ) {
                             duration={500}>             
                 <label className="btn btn-secondary service-toggle-btn">
                     <input type="radio" name="options" id="option1" autocomplete="off" checked /> Cloud
+                </label>
+                </Link>
+
+                <Link
+                            activeClass="active"
+                            to="quality-assurance"
+                            className="scroll-service-btn"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>
+                <label class="btn service-toggle-btn btn-secondary">
+                    <input type="radio" name="options" id="option2" autocomplete="off" /> Quality Assurance
+                </label>
+                </Link>
+
+                <Link
+                            activeClass="active"
+                            to="consulting"
+                            className="scroll-service-btn"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>
+                <label class="btn service-toggle-btn btn-secondary">
+                    <input type="radio" name="options" id="option3" autocomplete="off" /> Startegy & Consulting
+                </label>
+                </Link>
+                <Link
+                            activeClass="active"
+                            to="data-annotation"
+                            className="scroll-service-btn"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>             
+                <label className="btn btn-secondary service-toggle-btn">
+                    <input type="radio" name="options" id="option1" autocomplete="off" checked /> Data Annotation
                 </label>
                 </Link>
                 
@@ -188,19 +188,19 @@ function TestService( ) {
             
 
 
-            <div className="service-page-all-services " style={{marginTop:"60px"}}>
+            <div className="service-page-all-services " style={{marginTop:"60px"}} id="details">
                 <div className="row service-page-row ml-0 mr-0">
 
                     {ServicesData.map((service, index) => {
                         return(
-                            !( index === 3 ) ? 
+                            !( service.id === "test" ) ? 
                                 <div className="new-all-margin">
                                     <div className="col-12 new-service-info" key={service.id} id={service.id}>
                                     <div className="row">
-                                        <div className="col-2">
-                                            <img className="img-fluid new-service-image" src={AIIcon} alt="icon" />
+                                        <div className="col-xl-2 col-lg-2 col-md-12 col-sm-12">
+                                            <img className="img-fluid new-service-image" src={service.serviceIMG} alt="icon" />
                                         </div>
-                                        <div className="col-10">
+                                        <div className="col-xl-10 col-lg-10 col-md-12 col-sm-12">
                                         <h2>{service.title}</h2>
                                         <p>{service.description}</p>
                                         <NavLink to = {`/${service.id}`}  activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>

@@ -4304,10 +4304,11 @@ label{
     font-size: 1.8rem;
     padding: 10px;
     border-style: none;
+    width: 230px;
 }
 
 .btn-group-toggle .scroll-service-btn{
-    padding: 0px 15px;
+    padding: 5px 15px;
 }
 
 .btn-group-toggle input{
@@ -4329,11 +4330,13 @@ label{
     margin-top: 10px;
 }
 
-.new-service-image{
+.new-service-image {
     width: 150px;
     height: 150px;
-    margin-left: 30px;
-    margin-top: 30px;
+    /* margin-left: 30px; */
+    /* margin-top: 30px; */
+    transform: translate(10px, 50px);
+    padding: 10px 0px;
 }
 
 .new-service-info h2{
@@ -4530,6 +4533,12 @@ label{
 
 
 
+
+
+
+
+
+
 /* NEW HOME RESPONSIVE DESIGN */
 
 @media only screen and (min-width: 320px) and (max-width: 424px) {
@@ -4653,7 +4662,7 @@ label{
     }
 
 
-    /* FOR NEW CASE STUDIES RESPONSIVE SECTION */
+    /* FOR NEW CASE STUDIES PAGE RESPONSIVE SECTION */
     /* ............................................................................................................................... */
 
     .new-subService-AIML-intro-caption h2 {
@@ -4697,6 +4706,32 @@ label{
         padding: 10px;
     }
 
+
+
+    /* FOR NEW ABOUT US PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .about-us-desc h2 {
+        font-size: 2.5rem;
+    }
+
+    .about-us-desc p {
+        font-size: 1.5rem;
+    }
+
+    /* CREDO SECTION */
+    .homepage-about-details hr {
+        width: 20%;
+        margin-top: 1rem !important;
+    }
+
+    .credo-info-column p {
+        margin-left: 40px;
+    }
+
+    .credo-column {
+        padding-bottom: 20px;
+    }
 
 
 
@@ -4854,6 +4889,38 @@ label{
         padding: 10px;
     }
 
+    /* FOR NEW ABOUT US PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+
+     /* CREDO SECTION */
+     .homepage-about-details hr {
+        width: 20%;
+        margin-top: 1rem !important;
+    }
+
+    .homepage-about-details h3 {
+        font-size: 2rem;
+    }
+
+    .about-details-header img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .new-aboutus-info-section p {
+        font-size: 2rem;
+    }
+
+    .credo-info-column p {
+        font-size: 1.5rem;
+        margin-left: 60px;
+    }
+
+    .credo-column {
+        padding-bottom: 20px;
+    }
+
     
     
     /* FOR NEW CONTACT US RESPONSIVE SECTION */
@@ -4932,6 +4999,8 @@ label{
         padding: 0px 0px;
     }
 
+    
+
     /* FOR OUR SERVICE RESPONSIVE SECTION */
     /* ............................................................................................................................... */
     
@@ -4967,6 +5036,49 @@ label{
     padding-left: 0px !important;
     margin-top: 10px;
 }
+
+
+
+    /* FOR NEW ABOUT US PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+
+     /* CREDO SECTION */
+     .homepage-about-details hr {
+        width: 20%;
+        margin-top: 1rem !important;
+    }
+
+    .homepage-about-details h3 {
+        font-size: 2.5rem;
+        margin-top: 10px;
+    }
+
+    .about-details-header img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .new-aboutus-info-section p {
+        font-size: 2rem;
+    }
+
+    .credo-info-column p {
+        font-size: 1.8rem;
+        margin-left: 60px;
+    }
+
+    .credo-column {
+        padding-bottom: 20px;
+    }
+
+    /* OUR LOCATION SECTION */
+    .location-details h2 {
+        font-size: 2.5rem;
+    }
+    .location-details p {
+        font-size: 2rem;
+    }
 
 
     /* FOR NEW CONTACT US RESPONSIVE SECTION */
@@ -5087,4 +5199,38 @@ label{
     }
 
 
+
+
+      /* FOR NEW ABOUT US PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+
+     /* CREDO SECTION */
+     .homepage-about-details hr {
+        width: 5%;
+        margin-top: 1rem !important;
+    }
+
+    .homepage-about-details h3 {
+        font-size: 2.5rem;
+        margin-top: 10px;
+    }
+
+    .about-details-header img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .new-aboutus-info-section p {
+        font-size: 2rem;
+    }
+
+    .credo-info-column p {
+        font-size: 1.8rem;
+        margin-left: 60px;
+    }
+
+    .credo-column {
+        padding-bottom: 20px;
+    }
 }
