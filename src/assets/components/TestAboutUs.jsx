@@ -21,9 +21,8 @@ function TestAboutUs( ) {
                             Your Innovation Catalyst
                             </h2>
                             <p>
-                            Amnet Digital is enabling enterprises reimagine and redefine their engagement with 
-                            employees, customers, partners and suppliers by providing intelligent 
-                            insights and continuous value.
+                            We have cultivated culture. One that focuses on helping our clients gain maximum advantage from our abilities, 
+                            towards transforming them into AI empowered businesses!
                             </p>
 
                             <div className="subService-AIML-intro-btn">

@@ -21,7 +21,7 @@ function CareersDetails (){
 
                     {CareersDetailsData.map(list => {
                         return(
-                            <div className="col-lg-6" key={list.id}>
+                            <div className="col-lg-6 career-page-details-column" key={list.id}>
                                 <ul className="careers-details-lists">
                                     <li>
                                         <span>

@@ -15,9 +15,8 @@ function TestService( ) {
                             Automate & Modernize!
                             </h2>
                             <p>
-                            Amnet Digital is enabling enterprises reimagine and redefine their engagement with 
-                            employees, customers, partners and suppliers by providing intelligent 
-                            insights and continuous value.
+                            We blend our knowledge of diverse business domains and deep expertise in Data Management, 
+                            AI/ML and Advanced Analytics to solve complex business problems.
                             </p>
 
                             <div className="subService-AIML-intro-btn">

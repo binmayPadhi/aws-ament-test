@@ -1907,13 +1907,14 @@ label{
     margin-top: 60px;
     font-weight: 800;
     font-size: 2rem;
-    /* text-align: center; */
+    text-align: left;
 }
 
 .location-details p{
     margin-top: 20px;
     font-weight: 600;
     font-size: 1.5rem;
+    text-align: left;
 }
 
 .location-details a{
@@ -4001,8 +4002,8 @@ label{
 /* NEW HOMEPAGE OUR SERVICE SECTION */
 
 .new-our-service-column{
-    padding-right: 5px !important;
-    padding-left: 0px !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
 }
 
 .new-our-service-card{
@@ -4012,8 +4013,8 @@ label{
 
 .new-our-service-card img{
     margin-top: 15px;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 .new-our-service-card .card-body{
@@ -4288,6 +4289,7 @@ label{
 
 .btn-group-toggle {
     margin-top: 60px;
+    justify-content: center;
 }
 
 .btn-group-toggle .service-toggle-btn{
@@ -4301,10 +4303,10 @@ label{
 }
 
 .btn-group-toggle .btn-secondary {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding: 10px;
     border-style: none;
-    width: 230px;
+    width: 215px;
 }
 
 .btn-group-toggle .scroll-service-btn{
@@ -4331,11 +4333,11 @@ label{
 }
 
 .new-service-image {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    /* height: 150px; */
     /* margin-left: 30px; */
     /* margin-top: 30px; */
-    transform: translate(10px, 50px);
+    transform: translate(40px, 45px);
     padding: 10px 0px;
 }
 
@@ -4734,6 +4736,68 @@ label{
     }
 
 
+    /* FOR NEW SERVICE PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-service-image {
+        width: 110px;
+        transform: translate(0px, 0px);
+        padding: 20px 0px;
+    }
+
+    .new-service-info {
+        margin-top: 0px;
+        padding: 25px 0px;
+    }
+    
+
+    .new-service-info p {
+        font-size: 1.2rem;
+    }
+
+    .new-service-info h2 {
+        font-size: 1.8rem;
+    }
+
+
+    /* FOR NEW CAREER PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .our-culture-section {
+        padding: 0px;
+    }
+
+    .careers-page-details-list-row .career-page-details-column{
+        margin-bottom: -25px;
+    }
+
+    .weValueInnovation .carousel-indicators {
+        top: 90%;
+    }
+
+    .weValueInnovation p {
+        font-size: 1.5rem;
+        padding: 0px 15px;
+    }
+
+    .weValueInnovationCarousel {
+        padding: 65px 0px;
+    }
+
+    .employeesSay .carousel-indicators {
+        top: 3%;
+    }
+
+    .employeesSay .card-title {
+        font-size: 2.5rem;
+    }
+
+    .employeesSay .card-text {
+        font-size: 1.5rem;
+        padding: 50px 0px;
+    }
+
+
 
     /* FOR NEW CONTACT US RESPONSIVE SECTION */
     /* ............................................................................................................................... */
@@ -4921,6 +4985,59 @@ label{
         padding-bottom: 20px;
     }
 
+
+
+    /* FOR NEW SERVICE PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-service-image {
+        width: 120px;
+        transform: translate(0px, 0px);
+        padding: 20px 0px;
+    }
+
+    .new-service-info {
+        margin-top: 0px;
+        padding: 25px 0px;
+    }
+
+
+    /* FOR NEW CAREER PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .our-culture-section {
+        padding: 0px;
+    }
+
+    .careers-page-details-list-row .career-page-details-column{
+        margin-bottom: -25px;
+    }
+
+    .weValueInnovation .carousel-indicators {
+        top: 90%;
+    }
+
+    .weValueInnovation p {
+        font-size: 1.8rem;
+        padding: 0px 30px;
+    }
+
+    .weValueInnovationCarousel {
+        padding: 65px 0px;
+    }
+
+    .employeesSay .carousel-indicators {
+        top: 3%;
+    }
+
+    .employeesSay .card-title {
+        font-size: 2.5rem;
+    }
+
+    .employeesSay .card-text {
+        font-size: 1.8rem;
+        padding: 50px 0px;
+    }
     
     
     /* FOR NEW CONTACT US RESPONSIVE SECTION */
@@ -5014,8 +5131,8 @@ label{
     }
 
     .new-our-service-column {
-        padding-left: 5px !important;
-        padding-right: 0px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
     }
 
     .new-our-service-card a {
@@ -5078,6 +5195,21 @@ label{
     }
     .location-details p {
         font-size: 2rem;
+    }
+
+
+    /* FOR NEW SERVICE PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-service-image {
+        width: 150px;
+        transform: translate(0px, 0px);
+        padding: 20px 0px;
+    }
+
+    .new-service-info {
+        margin-top: 0px;
+        padding: 25px 0px;
     }
 
 
@@ -5148,8 +5280,8 @@ label{
     }
 
     .new-our-service-column {
-        padding-left: 5px !important;
-        padding-right: 0px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
     }
 
 
@@ -5201,7 +5333,7 @@ label{
 
 
 
-      /* FOR NEW ABOUT US PAGE RESPONSIVE SECTION */
+    /* FOR NEW ABOUT US PAGE RESPONSIVE SECTION */
     /* ............................................................................................................................... */
 
 
@@ -5233,4 +5365,24 @@ label{
     .credo-column {
         padding-bottom: 21px;
     }
+
+
+
+    /* FOR NEW SERVICE PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-service-image {
+        width: 130px;
+        transform: translate(10px, 60px);
+        padding: 20px 0px;
+    }
+
+    .new-service-info {
+        margin-top: 0px;
+        padding: 25px 0px;
+    }
 }
+
+/* .new-service-info img{
+    vertical-align: middle;
+} */

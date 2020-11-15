@@ -17,9 +17,8 @@ function TestCareers( ) {
                             Create Your Future!
                             </h2>
                             <p>
-                            Amnet Digital is enabling enterprises reimagine and redefine their engagement with 
-                            employees, customers, partners and suppliers by providing intelligent 
-                            insights and continuous value.
+                            We are on a mission to solve world’s toughest problems. 
+                            Come join the fastest growing company in the region working in the hottest technology sector!
                             </p>
 
                             <div className="subService-AIML-intro-btn">

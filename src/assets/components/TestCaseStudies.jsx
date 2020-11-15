@@ -14,9 +14,9 @@ function TestCaseStudies ( ) {
                             Make A Difference
                             </h2>
                             <p>
-                            Amnet Digital is enabling enterprises reimagine and redefine their engagement with 
-                            employees, customers, partners and suppliers by providing intelligent 
-                            insights and continuous value.
+                            We adopt a bottom-up approach starting with strategy support through discovery and analysis of existing systems 
+                            and processes and their 
+                            limitations maximizing the leverage of knowledge and results in higher value generation!
                             </p>
 
                             <div className="subService-AIML-intro-btn">

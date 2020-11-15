@@ -1,13 +1,13 @@
-import AiMlIMG from "../../images/HomePage/our-services/amnet-ai-ml-icon.png";
-import DataManagementIMG from "../../images/HomePage/our-services/amnet-data-mgmt-icon.png";
-import AdvanceAnalyticsIMG from "../../images/HomePage/our-services/amnet-advanced-analytics-icon.png";
-import DataEngineeringIMG from "../../images/HomePage/our-services/amnet-data-engg-icon.png";
-import PlatformEngineeringIMG from "../../images/HomePage/our-services/amnet-platform-engg-icon.png";
-import UserExperienceIMG from "../../images/HomePage/our-services/amnet-ux-icon.png";
-import CloudIMG from "../../images/HomePage/our-services/amnet-cloud-icon.png";
-import QualityAssuranceIMG from "../../images/HomePage/our-services/amnet-qa-icon.png";
-import ConsultingIMG from "../../images/HomePage/our-services/amnet-consulting-icon.png";
-import DataAnnotationIMG from "../../images/HomePage/our-services/amnet-data-annotation-icon.png";
+import AiMlIMG from "../../images/Service-Page/service-dropdown-icons/services-dd-ai-ml.png";
+import DataManagementIMG from "../../images/Service-Page/service-dropdown-icons/services-dd-data-mgmt.png";
+import AdvanceAnalyticsIMG from "../../images/Service-Page/service-dropdown-icons/services-dd-advanced-analytics.png";
+import DataEngineeringIMG from "../../images/Service-Page/service-dropdown-icons/services-dd-data-engg.png";
+import PlatformEngineeringIMG from "../../images/Service-Page/service-dropdown-icons/services-dd-platform-engg.png";
+import UserExperienceIMG from "../../images/Service-Page/service-dropdown-icons/services-dd-ux.png";
+import CloudIMG from "../../images/Service-Page/service-dropdown-icons/services-dd-cloud.png";
+import QualityAssuranceIMG from "../../images/Service-Page/service-dropdown-icons/services-dd-qa.png";
+import ConsultingIMG from "../../images/Service-Page/service-dropdown-icons/services-dd-strat-consult.png";
+import DataAnnotationIMG from "../../images/Service-Page/service-dropdown-icons/services-dd-data-annotation.png";
 
 
 const servicesData = [
