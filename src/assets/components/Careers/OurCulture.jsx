@@ -9,7 +9,7 @@ function OurCulture (){
 
             <div className="careers-our-culture-header text-center">
                 {/* <h3 className="section-header">IT'S EXCITING</h3> */}
-                <h1 className="section-title mt-3">Our Culture/Workspace</h1>     
+                <h1 className="section-title mt-3">OUR CULTURE/WORKSPACE</h1>     
             </div>
 
 

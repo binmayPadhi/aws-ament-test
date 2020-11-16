@@ -1,4 +1,4 @@
-import amnetLocationIcon from "../../images/Contact-Us-Page/amnet-location-icon.png";
+import amnetLocationIcon from "../../images/Contact-Us-Page/location-icon.png";
 
 
 const ourLocationData = [

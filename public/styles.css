@@ -505,7 +505,7 @@ body{
 }
 
 .partner-logo img{
-    width: 120px;
+    width: 150px;
     height: auto;
     display: block;
 }
@@ -1849,13 +1849,19 @@ label{
     padding: 20px 0px;
 }
 
-.submit-button button{
+.submit-button button {
     background-color: #FD5D14;
-    width: 140px;
+    width: 120px;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 800;
     padding: 10px;
     margin-left: 15px;
+}
+
+.submit-button button:hover {
+    background-color:#CACACA;
+    color: black;
 }
 
 .contact-us-location{
@@ -1888,7 +1894,7 @@ label{
 
 .about-us-page-location-row .card-body{
    height: 200px;
-
+    padding: 0px 30px;
 }
 
 .about-us-page-location-row .dot{
@@ -1906,7 +1912,7 @@ label{
 }
 
 .location-details h2{
-    margin-top: 60px;
+    margin-top: 40px;
     font-weight: 800;
     font-size: 2rem;
     text-align: left;
@@ -3912,6 +3918,7 @@ label{
 }
 
 .homepage-quote h2{
+    font-size: 1.8rem;
     font-weight: 400;
     padding: 10px;
 }
@@ -3941,7 +3948,7 @@ label{
 }
 
 .new-solutions-services-lists li {
-    margin-top: 5px;
+    margin-top: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 1.7rem;
     font-weight: 500;
@@ -4037,14 +4044,14 @@ label{
     margin-top: 40px;
 }
 
-.new-our-service-card .card-img-top{
+/* .new-our-service-card .card-img-top{
     padding: 15px 0px;
-}
+} */
 
 .new-our-service-card img{
     margin-top: 15px;
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
 }
 
 .new-our-service-card .card-body{
@@ -4241,6 +4248,15 @@ label{
     font-weight: 800;
 }
 
+.new-career-section button:hover {
+    background-color: #CACACA;
+}
+
+.new-career-section .contact-us-button:hover{
+    background-color:white;
+    color: black;
+}
+
 .new-career-section .contact-us-button{
     background-color: #FD5D14;
     color: white;
@@ -4300,8 +4316,7 @@ label{
 }
 
 .new-location-card img{
-    width: 70px;
-    height: 100px;
+    width: 120px;
 }
 
 .new-our-location-column .card{

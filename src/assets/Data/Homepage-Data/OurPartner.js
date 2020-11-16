@@ -1,9 +1,9 @@
-import microsoftLogo from "../../images/HomePage/partner-logos/amnet-microsoft.png";
-import googleLogo from "../../images/HomePage/partner-logos/amnet-google.png";
-import talendLogo from "../../images/HomePage/partner-logos/amnet-talend.png";
-import hadoopLogo from "../../images/HomePage/partner-logos/amnet-hadoop.png";
-import nifiLogo from "../../images/HomePage/partner-logos/amnet-nifi.png";
-import siliconLogo from "../../images/HomePage/partner-logos/amnet-silicon.png";
+import microsoftLogo from "../../images/HomePage/partner-logos/microsoft.png";
+import googleLogo from "../../images/HomePage/partner-logos/google.png";
+import talendLogo from "../../images/HomePage/partner-logos/talend.png";
+import hadoopLogo from "../../images/HomePage/partner-logos/hadoop.png";
+import nifiLogo from "../../images/HomePage/partner-logos/nifi.png";
+import siliconLogo from "../../images/HomePage/partner-logos/silicon.png";
 
 const ourPartnerData = [
     {

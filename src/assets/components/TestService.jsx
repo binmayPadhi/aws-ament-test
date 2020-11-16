@@ -3,6 +3,7 @@ import {Link} from "react-scroll";
 import ServiceBG from "../images/Service-Page/services-bg.jpg";
 import ServicesData from "../Data/Services-Data/ServicesData";
 import {NavLink} from "react-router-dom";
+import serviceSideImage from "../images/Service-Page/services-dots-right.png";
 // import AIIcon from "../images/HomePage/ai-icon.png";
 
 function TestService( ) {
@@ -189,10 +190,9 @@ function TestService( ) {
             </div> */}
             
 
-
+            
             <div className="service-page-all-services " style={{marginTop:"60px"}} id="details">
                 <div className="row service-page-row ml-0 mr-0">
-
                     {ServicesData.map((service, index) => {
                         return(
                             !( service.id === "test" ) ? 
@@ -224,6 +224,8 @@ function TestService( ) {
                         })}
                 </div>
             </div>
+
+            {/* <img src={serviceSideImage} className="img-fluid" alt="icon" /> */}
 
 
             {/* NEW HOMEPAGE CAREER SECTION */}

@@ -6,10 +6,10 @@
 // import preventiveIcon from "../../images/HomePage/case-studies/amnet-recom-system-cs-icon.png";
 
 
-import propensityIMG from "../../images/Case-Studies-Page/cs-propensity.jpg";
-import riskAnalyticsIMG from "../../images/Case-Studies-Page/cs-risk-analytics.jpg";
-import preventiveIMG from "../../images/Case-Studies-Page/cs-preventive-maintenance.jpg";
-import virtualIMG from "../../images/Case-Studies-Page/cs-virtual-assistant.jpg";
+import propensityIMG from "../../images/HomePage/case-studies/home-cs-propensity-modelling.jpg";
+import riskAnalyticsIMG from "../../images/HomePage/case-studies/home-cs-risk-analytics.jpg";
+import preventiveIMG from "../../images/HomePage/case-studies/home-cs-preventive-maintenance.jpg";
+import virtualIMG from "../../images/HomePage/case-studies/home-cs-virtual-assistant.jpg";
 
 const CaseStudiesSectionData = [
     {

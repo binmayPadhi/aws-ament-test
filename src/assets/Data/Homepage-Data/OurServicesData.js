@@ -10,16 +10,16 @@ import ConsultingIMG from "../../images/HomePage/our-services/amnet-consulting.j
 import DataAnnotationIMG from "../../images/HomePage/our-services/amnet-data-annotation.jpg";
 
 // NEW HOME OUR SERVICE SECTION
-import AimlDropdownIcon from "../../images/HomePage/our-services/amnet-ai-ml-icon.png";
-import DataManagementDropdownIcon from "../../images/HomePage/our-services/amnet-data-mgmt-icon.png";
-import AdvancedAnalyticsDropdownIcon from "../../images/HomePage/our-services/amnet-advanced-analytics-icon.png";
-import DataEngineeringDropdownIcon from "../../images/HomePage/our-services/amnet-data-engg-icon.png";
-import PlatformEngineeringDropdownIcon from "../../images/HomePage/our-services/amnet-platform-engg-icon.png";
-import UXDropdownIcon from "../../images/HomePage/our-services/amnet-ux-icon.png";
-import CloudDropdownIcon from "../../images/HomePage/our-services/amnet-cloud-icon.png";
-import QADropdownIcon from "../../images/HomePage/our-services/amnet-qa-icon.png";
-import ConsultingDropdownIcon from "../../images/HomePage/our-services/amnet-consulting-icon.png";
-import DataAnnotationDropdownIcon from "../../images/HomePage/our-services/amnet-data-annotation-icon.png";
+import AimlDropdownIcon from "../../images/HomePage/our-services/ai-ml-icon.png";
+import DataManagementDropdownIcon from "../../images/HomePage/our-services/data-mgmt-icon.png";
+import AdvancedAnalyticsDropdownIcon from "../../images/HomePage/our-services/advanced-analytics-icon.png";
+import DataEngineeringDropdownIcon from "../../images/HomePage/our-services/data-engg-icon.png";
+import PlatformEngineeringDropdownIcon from "../../images/HomePage/our-services/platform-engg-icon.png";
+import UXDropdownIcon from "../../images/HomePage/our-services/ux-icon.png";
+import CloudDropdownIcon from "../../images/HomePage/our-services/cloud-icon.png";
+import QADropdownIcon from "../../images/HomePage/our-services/qa-icon.png";
+import ConsultingDropdownIcon from "../../images/HomePage/our-services/consulting-icon.png";
+import DataAnnotationDropdownIcon from "../../images/HomePage/our-services/data-annotation-icon.png";
 
 
 const OurServicesData = [

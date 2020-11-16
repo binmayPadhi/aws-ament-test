@@ -12,7 +12,7 @@ import CaseStudiesSectionData from "../Data/Homepage-Data/CaseStudiesSectionData
 import OurPartner from "../components/Homepage/OurPartner";
 import QuoteIcon from "../images/Home/left-quote.png";
 import IndusrtySectionData from "../Data/Homepage-Data/IndustrySectionData";
-import DataAnnotationDropdownIcon from "../images/HomePage/our-services/amnet-data-annotation-icon.png";
+import DataAnnotationDropdownIcon from "../images/HomePage/our-services/data-annotation-icon.png";
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
 
