@@ -11,7 +11,7 @@ function TestCaseStudies ( ) {
                          <div className="row">
                         <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
                             <h2>
-                            Make A Difference
+                            Making A Difference!
                             </h2>
                             <p>
                             We adopt a bottom-up approach starting with strategy support through discovery and analysis of existing systems 
@@ -53,7 +53,7 @@ function TestCaseStudies ( ) {
 
 
             {/* <!-- CASE STUDIES PAGE ALL CASE STUDIES --> */}
-            <div className="case-studies-page-all-case-studies new-all-margin " >
+            <div className="case-studies-page-all-case-studies new-all-margin " id="details">
                     <div className="row case-studies-page-row ml-0 mr-0">
                         {CaseStudiesData.map(caseStudy => {
                             return (
@@ -109,10 +109,10 @@ function TestCaseStudies ( ) {
                 that make a difference! Come work with us!
             </p>
             <a href="/careers">
-                <button type="button" className="btn btn-primary">Careers</button>
+                <button type="button" className="btn btn-default contact-us-button" >Contact Us</button>
             </a>
             <a href="/contactus">
-                <button type="button" className="btn btn-default" >Contact Us</button>
+                <button type="button" className="btn btn-default careers-button">Careers</button>
             </a>
         </div>
     </div>

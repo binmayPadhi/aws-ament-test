@@ -2,8 +2,8 @@ import React from "react";
 import {Link} from "react-scroll";
 import HomeBG from "../images/HomePage/home-bg.jpg";
 import AIServiceIMG from "../images/HomePage/home-vr.jpg";
-import AIIcon from "../images/Home/ai-icon.png";
-import AboutIcon from "../images/Home/about-icon.png";
+import AIIcon from "../images/HomePage/ai-icon.png";
+import AboutIcon from "../images/HomePage/about-icon.png";
 import AboutDetailsBG from "../images/HomePage/value-bg.jpg";
 // import { Splide, SplideSlide } from "@splidejs/react-splide";
 import OurServiceBG from "../images/HomePage/our-services/our-services-bg.jpg";
@@ -166,7 +166,7 @@ function Test (){
 
     <div className="industry-section new-all-margin">
     
-    <h1 className="section-title" style={{marginTop:"60px"}}>Industries We Cover</h1>      
+    <h1 className="section-title" style={{marginTop:"60px"}}>INDUSTRIES WE COVER</h1>      
     
     <div className="industry-section-row row mt-5">
 
@@ -195,7 +195,7 @@ function Test (){
 
 {/* NEW HOMEPAGE OUR SERVICE SECTION */}
 <div className="our-services" style={{backgroundImage:`url(${OurServiceBG})`,backgroundAttachment:"scroll",height:"auto",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-    <h1 className="section-title text-center">Our Services</h1>
+    <h1 className="section-title text-center">OUR SERVICES</h1>
     <hr></hr>
     <div className="new-all-margin">
     <div className="row">
@@ -218,7 +218,7 @@ function Test (){
 
 {/* <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12"></div> */}
 
-    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 new-our-service-column">
+    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 mx-auto new-our-service-column">
                     <div className="new-our-service-card">
                     <div className="card-img-top">
                         <img src={DataAnnotationDropdownIcon} className="img-fluid text-center" alt="icon" />
@@ -243,7 +243,7 @@ function Test (){
 {/* NEW HOMEPAGE CASESTUDIES SECTION */}
 
 <div className="case-studies new-all-margin">
-        <h1 className="section-title" style={{marginTop:"60px"}}>Case Studies</h1> 
+        <h1 className="section-title" style={{marginTop:"60px"}}>CASE STUDIES</h1> 
         <hr></hr>
 
     <div className="row  new-case-studies-row">
@@ -342,11 +342,11 @@ function Test (){
                             that make a difference! Come work with us!
                         </p>
 
-                        <a href="/careers">
-                        <button type="button" className="btn btn-primary">Careers</button>
-                        </a>
                         <a href="/contactus">
-                            <button type="button" className="btn btn-default" >Contact Us</button>
+                            <button type="button" className="btn btn-default contact-us-button" >Contact Us</button>
+                        </a>
+                        <a href="/careers">
+                            <button type="button" className="btn btn-default careers-button">Careers</button>
                         </a>
                     </div>
                 </div>

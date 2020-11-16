@@ -298,7 +298,7 @@ function hideDropdown() {
                     
                 </NavLink> */}
 
-                <NavLink  to = "/contactus" onClick={() => window.location.href="/contactus"} className="contactus-button" activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
+                <NavLink  to = "/contactus" onClick={() => window.location.href="/contactus"} className="contactus-button" activeStyle={{color: 'black', textDecoration: 'none'}}>
                     
                     Contact Us
                     

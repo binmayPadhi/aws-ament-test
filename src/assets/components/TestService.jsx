@@ -3,7 +3,7 @@ import {Link} from "react-scroll";
 import ServiceBG from "../images/Service-Page/services-bg.jpg";
 import ServicesData from "../Data/Services-Data/ServicesData";
 import {NavLink} from "react-router-dom";
-import AIIcon from "../images/Home/ai-icon.png";
+// import AIIcon from "../images/HomePage/ai-icon.png";
 
 function TestService( ) {
     return(
@@ -31,7 +31,10 @@ function TestService( ) {
                             offset={-100}
                             duration={500}>
                             <button type="button" className="btn btn-default sub-service-view-details-btn">Learn more</button>
-                        </Link>
+                            </Link>
+                            <NavLink to="/casestudies">
+                            <button type="button" className="btn btn-default sub-service-contact-us-btn">Case Studies</button>
+                            </NavLink>
                             </div>
                         </div>
                         </div>
@@ -56,7 +59,7 @@ function TestService( ) {
                             smooth={true}
                             offset={-100}
                             duration={500}>             
-                <label className="btn btn-secondary service-toggle-btn">
+                <label className="btn btn-secondary service-toggle-btn active">
                     <input type="radio" name="options" id="option1" autocomplete="off" checked /> Artificial intelligence
                 </label>
                 </Link>
@@ -239,10 +242,10 @@ function TestService( ) {
                             that make a difference! Come work with us!
                         </p>
                         <a href="/careers">
-                            <button type="button" className="btn btn-primary">Careers</button>
+                            <button type="button" className="btn btn-default contact-us-button" >Contact Us</button>
                         </a>
                         <a href="/contactus">
-                            <button type="button" className="btn btn-default" >Contact Us</button>
+                            <button type="button" className="btn btn-default careers-button">Careers</button>
                         </a>
                     </div>
                 </div>

@@ -2,6 +2,8 @@ const jobDetailsData = [
     {
         id : "data-engineer",
         jobTitle : "Data Engineer",
+        jobLevel : "Intermediate",
+        experience : "8+",
         role : "About the Role",
         roleDesc : "We are looking for a savvy Data Engineer to join our growing team of analytics experts. The hire will be responsible for expanding and optimizing our data and data pipeline architecture, as well as optimizing data flow and collection for cross functional teams. The ideal candidate is an experienced data pipeline builder and data wrangler who enjoys optimizing data systems and building them from the ground up. The Data Engineer will support our software developers, database architects, data analysts and data scientists on data initiatives and will ensure optimal data delivery architecture is consistent throughout ongoing projects. They must be self-directed and comfortable supporting the data needs of multiple teams, systems and products. The right candidate will be excited by the prospect of optimizing or even re-designing our company’s data architecture to support our next generation of products and data initiatives.",
         responsibilities : "Your Key Responsibilities",
@@ -58,6 +60,8 @@ const jobDetailsData = [
     {
         id : "data-visualization",
         jobTitle : "Data Visualization",
+        jobLevel : "Intermediate",
+        experience : "8+",
         role : "About the Role",
         roleDesc : "The Advanced Data Analytics Visualizer (Business Intelligence Lead) should have strong knowledge on advanced Power BI concepts and will define, develop and deploy dashboards, reports and visualizations to enable metrics-driven decisions to support business needs. The Advanced Data Analytics Visualizer (Business Intelligence Developer) will be able to understand business activities in a multiple business/functional area and be able to capture requirements, identify required data sources, design and develop reports using BI reporting tools, keeping in mind data governance and compliance guidelines.",
         responsibilities : "Your Key Responsibilities",
@@ -138,6 +142,8 @@ const jobDetailsData = [
     {
         id : "qa-lead",
         jobTitle : "QA Lead / Analyst",
+        jobLevel : "Intermediate",
+        experience : "8+",
         role : "About the Role",
         roleDesc : `The Quality Assurance Lead / Analyst is responsible for designing, developing, 
         and executing quality assurance and control processes, test strategies, test plans 
@@ -235,6 +241,8 @@ const jobDetailsData = [
     {
         id : "application-engineer",
         jobTitle : "Application Engineer",
+        jobLevel : "Intermediate",
+        experience : "3+",
         role : "About the Role",
         roleDesc : `We are looking to add bright, focused, resourceful and highly goal-oriented MEAN (Angular 8+ and Node)
         Stack Software Developer. Candidates should enjoy working in a challenging environment; have the enthusiasm 
@@ -355,6 +363,8 @@ const jobDetailsData = [
     {
         id : "data-scientist",
         jobTitle : "Data Scientist",
+        jobLevel : "Intermediate",
+        experience : "8+",
         role : "About the Role",
         roleDesc : `Data scientists work closely with business stakeholders to understand their goals and determine how 
         data can be used to achieve those goals. They design data modeling processes, create algorithms and 
@@ -437,6 +447,8 @@ const jobDetailsData = [
     {
         id : "sql-developer",
         jobTitle : "Senior SSIS & SQL Developer",
+        jobLevel : "Advanced",
+        experience : "8+",
         role : "About the Role",
         roleDesc : `SQL Development with SQL Server 2008, 2012, SQL Server Integration Services (SSIS) 2008 and 2012 The SSIS 
         Developer will be creating SSIS packages, develop and maintain existing Production SSIS/ DTS Packages , 
@@ -523,6 +535,8 @@ const jobDetailsData = [
     {
         id : "hadoop-developer",
         jobTitle : "Senior HADOOP Developer",
+        jobLevel : "Advanced",
+        experience : "5+",
         role : "About the Role",
         roleDesc : `The candidate will be the part of Analytical experts of the organization who would help in expanding and 
         optimizing data, support data initiatives and data structure. The candidate is expected to have a good command 
@@ -607,6 +621,8 @@ const jobDetailsData = [
     {
         id : "graphic-designer",
         jobTitle : "Graphic Designer",
+        jobLevel : "Intermediate",
+        experience : "3+",
         role : "About the Role",
         roleDesc : ` We are looking for a smart and talented graphic designer who possess passion for delivering high 
         quality work and wants to be involved in designing a wide variety of things across digital and offline 
@@ -661,6 +677,8 @@ const jobDetailsData = [
     {
         id : "product-manager",
         jobTitle : "Product Manager",
+        jobLevel : "Intermediate",
+        experience : "13+",
         role : "About the Role",
         roleDesc : `This role requires a high degree of independent execution, ownership and responsibility for business 
         customer success. The Product Manager is responsible for the product planning and execution throughout 

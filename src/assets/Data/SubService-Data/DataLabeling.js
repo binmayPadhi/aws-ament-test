@@ -767,7 +767,7 @@ const dataLabelingData = [
         float : "right",
         name : "quality-assurance",
         title : "Functional Testing",
-        description : "Ensure verification and validation of applications for enterprises against defined specifications to achieve absolute end user acceptance. We support integration testing, UAT testing, system testing and regression testing.",
+        description : "Ensure verification and validation of applications for against defined specifications to achieve absolute end user acceptance. We support system testing, system integration testing (SIT), UAT testing and regression testing.",
         imgSrc : FunctionalTestingIMG,
         icon : FunctionalTestingIcon
     },
@@ -785,7 +785,7 @@ const dataLabelingData = [
         float : "right",
         name : "quality-assurance",
         title : "Performance Testing",
-        description : "Measure, verify and validate the operational capabilities of the application or product, delivering superior performance under the most demanding load conditions. We assist in load testing, stress testing, volume testing, scalability testing and code optimization.",
+        description : "Measure, verify and validate the operational capabilities of the application or product, delivering superior performance under the most demanding load conditions. We assist in load testing, stress testing, endurance testing, volume testing, scalability testing and monitoring server side metrics.",
         imgSrc : PerformanceTestingIMG,
         icon : PerformanceTestingIcon
     },
@@ -794,7 +794,7 @@ const dataLabelingData = [
         float : "left",
         name : "quality-assurance",
         title : "Security Testing",
-        description : "Uncover vulnerabilities within your application, minimize the risks and paradigm your code for superior quality assurance. We support network vulnerability assessment, cloud security testing, threat modelling, source code analysis, API security testing and cross-site scripting.",
+        description : "Uncover vulnerabilities within your application, minimize the risks and paradigm your code for superior quality assurance. We support network vulnerability assessment, cloud security testing,  API security testing and cross-site scripting.",
         imgSrc :SecurityTestingIMG,
         icon : SecurityTestingIcon
     },
@@ -802,8 +802,8 @@ const dataLabelingData = [
         id : "testing-automation",
         float : "right",
         name : "quality-assurance",
-        title : "Testing Automation",
-        description : "Design an automation strategy in line with business goals while leveraging test automation and CI/CD prowess for achieving quality at speed. We influence AI & ML algorithms for intelligent test case management and provide test suite optimization, log analytics, traceability matrix, defect analysis & remediation strategies, impact analysis and thorough documentation.",
+        title : "Automation Testing",
+        description : "Design an automation strategy inline with business goals while leveraging test automation and CI/CD prowess for achieving quality at speed. We influence AI & ML algorithms for intelligent test case management and provide test suite optimization, log analytics, traceability matrix, defect analysis & remediation strategies, impact analysis and thorough documentation.",
         imgSrc :TestingAutomationIMG,
         icon : TestingAutomationIcon
     },

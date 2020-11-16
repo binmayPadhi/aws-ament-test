@@ -1,11 +1,12 @@
+import AIMLBG from "../../images/Sub-Service-Images/AI-ML-Images/ai-ml-bg.jpg";
 import dmBG from "../../images/Sub-Service-Images/Data-Labeling-Images/we-are-available-bg.jpg";
 import dmBG1 from "../../images/Sub-Service-Images/Data-Labeling-Images/data-annotation-bg.jpg";
 import CloudServiceBG from "../../images/Sub-Service-Images/Cloud-Images/cloud-services-bg.jpg";
 import PlatformEngineeringBG from "../../images/Sub-Service-Images/Platform-Engineering-Images/platform-engineering-bg.jpg";
 import QualityAssuranceBG from "../../images/Sub-Service-Images/Quality-Assurance-Images/quality-assurance-bg.jpg";
-import ConsultingBG from "../../images/Sub-Service-Images/Consulting-Images/strategy-consulting-bg.jpg";
-import DataEngineeringBG from "../../images/Sub-Service-Images/Data-Engineering-Images/data-engineering-bg.jpg";
-import DataManagementBG from "../../images/Sub-Service-Images/Data-Management-Images/data-management-bg.jpg";
+import ConsultingBG from "../../images/Sub-Service-Images/Consulting-Images/consulting-bg.jpg";
+import DataEngineeringBG from "../../images/Sub-Service-Images/Data-Engineering-Images/data-engg-bg.jpg";
+import DataManagementBG from "../../images/Sub-Service-Images/Data-Management-Images/data-mgmt-bg.jpg";
 import AdvancedAnalyticsBG from "../../images/Sub-Service-Images/Advanced-Analytics-Images/advanced-analytics-bg.jpg";
 import SubServiceCareerBG from "../../images/Sub-Service-Images/AI-ML-Images/we-are-available-bg.jpg";
 import CloudServiceCareerBG from "../../images/Sub-Service-Images/Cloud-Images/we-are-available-cloud-services.jpg";
@@ -14,7 +15,7 @@ const subServicesData = [
     {
         id : "aiml",
         title : "AI & ML Services",
-        BG : dmBG,
+        BG : AIMLBG,
         description : "We maintain a data-driven mindset all throughout the engagement, whether it is during strategy support phase or model development phase, and focus on utilization of big data and machine learning by empowered business users. We have capability to help evolve solutions that start as process automation to cognitive insight and finally cognitive engagement when systems work autonomously.",
         subCareerBG : SubServiceCareerBG
     }

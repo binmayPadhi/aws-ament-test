@@ -19,7 +19,7 @@ function OurCulture (){
                         <img className="img-fluid" src={AmnetOfficeIMG} alt="Amnet-Office" />
                     </div>
 
-                    <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 culture-img-left">
+                    <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 culture-img-right">
                         <div className="row">
 
                             {OurCultureData.map(img => {

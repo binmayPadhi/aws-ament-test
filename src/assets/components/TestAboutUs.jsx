@@ -1,11 +1,13 @@
 import React from "react";
+import {NavLink} from "react-router-dom";
 import {Link} from "react-scroll";
-import HomeBG from "../images/Home/home-bg.png";
+// import HomeBG from "../images/Home/home-bg.png";
+import careerLinkIcon from "../images/About-Us-Page/amnet-external-link.png";
 import AboutUsBG from "../images/About-Us-Page/amnet-about-us-bg.jpg";
 import AboutUsMission from "../components/AboutUs/AboutUsMission";
 import AboutDetailsFirstRowData from "../Data/Homepage-Data/AboutDetailsFirstRowData";
 import AboutDetailsSecondRowData from "../Data/Homepage-Data/AboutDetailsSecondRowData";
-import AIIcon from "../images/Home/ai-icon.png";
+import AIIcon from "../images/HomePage/ai-icon.png";
 import OurPartner from "../components/Homepage/OurPartner";
 import OurLocationData from "../Data/ContactUs-Data/OurLocationData";
 // import OurLocationBG from "../images/Contact-Us-Page/amnet-about-us-our-locations.jpg";
@@ -37,7 +39,10 @@ function TestAboutUs( ) {
                             offset={-100}
                             duration={500}>
                             <button type="button" className="btn btn-default sub-service-view-details-btn">Learn more</button>
-                        </Link>
+                            </Link>
+                            <NavLink to="/casestudies">
+                            <button type="button" className="btn btn-default sub-service-contact-us-btn">Case Studies</button>
+                            </NavLink>
                             </div>
                         </div>
                         </div>
@@ -70,8 +75,7 @@ function TestAboutUs( ) {
             {/* NEW ABOUT US SOLUTION SERVICE SECTION */}
             <div className="new-home-about-details new-aboutus-info-section">
             <div className ="  new-all-margin">
-                <p>Amnet Digital is your innovation catalyst. We develop products and solutions that enable you to realize the true 
-                    potential of AI.
+                <p>We put your data at work using our tried-and-trusted approaches that yield maximum ROI in the shortest time possible!
                 </p>
             </div>
             </div>
@@ -85,7 +89,7 @@ function TestAboutUs( ) {
 
             {/* NEW ABOUT US CREDO SECTION */}
 
-            <div className="homepage-about-details" style={{backgroundImage:`url(${HomeBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
+            <div className="homepage-about-details" style={{backgroundColor: "#0C0C0C",backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
             <h1 className="section-title text-center" style={{paddingTop:"15px", color:"white"}}>CREDO</h1>
                 <hr></hr>
                 <div className="row new-all-margin ml-0 mr-0">
@@ -132,7 +136,7 @@ function TestAboutUs( ) {
         {/*NEW AboutUS Page Career Link SECTION */}
         <div className="homepage-quote">
                 <h2 className="text-center">
-                    Careers
+                    Careers<span style={{padding:"5px"}}><a href="/careers"><img className="img-fluid career-link-icon" style={{width:"20px", marginBottom:"7px"}} src={careerLinkIcon} alt="career-icon" /></a></span>
                 </h2>
                 <p>Let us transform the world, together!</p>
         </div>
@@ -232,7 +236,7 @@ function TestAboutUs( ) {
 
         <div className="new-career-section" style={{width:"auto", height:"auto", backgroundColor:"#19AF8F", padding:"30px",marginTop:"60px"}}>
 
-            <div className="new-career-section new-all-margin">
+            <div className="new-all-margin">
 
                 <div className="career-section-row row g-0">
                     <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-caption">
@@ -244,10 +248,10 @@ function TestAboutUs( ) {
                             that make a difference! Come work with us!
                         </p>
                         <a href="/careers">
-                            <button type="button" className="btn btn-primary">Careers</button>
+                            <button type="button" className="btn btn-default contact-us-button" >Contact Us</button>
                         </a>
                         <a href="/contactus">
-                            <button type="button" className="btn btn-default" >Contact Us</button>
+                            <button type="button" className="btn btn-default careers-button">Careers</button>
                         </a>
                     </div>
                 </div>

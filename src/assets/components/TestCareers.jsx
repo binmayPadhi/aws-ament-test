@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-scroll";
+import {NavLink} from "react-router-dom";
 import CareerBG from "../images/careers-page/careers-bg.jpg";
 import CareersDetails from "./Careers/CareersDetails";
 import OurCulture from "./Careers/OurCulture";
@@ -33,7 +34,10 @@ function TestCareers( ) {
                             offset={-100}
                             duration={500}>
                             <button type="button" className="btn btn-default sub-service-view-details-btn">Learn more</button>
-                        </Link>
+                            </Link>
+                            <NavLink to="/contactus">
+                            <button type="button" className="btn btn-default sub-service-contact-us-btn">Contact Us</button>
+                            </NavLink>
                             </div>
                         </div>
                         </div>
@@ -82,11 +86,11 @@ function TestCareers( ) {
             <p>We are on a mission to solve complex problems and provide solutions 
                 that make a difference! Come work with us!
             </p>
-            <a href="/careers">
-                <button type="button" className="btn btn-primary">Careers</button>
-            </a>
             <a href="/contactus">
-                <button type="button" className="btn btn-default" >Contact Us</button>
+                <button type="button" className="btn btn-default contact-us-button" >Contact Us</button>
+            </a>
+            <a href="/careers">
+                <button type="button" className="btn btn-default careers-button">Careers</button>
             </a>
         </div>
     </div>

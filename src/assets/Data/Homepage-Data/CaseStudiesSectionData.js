@@ -33,7 +33,7 @@ const CaseStudiesSectionData = [
     {
         id : "virtual-assistant",
         caseStudiesTitle : "Virtual Assistant",
-        caseStudiesDesc : "Develop an automated process solution that continuously monitors sensor data to predict upcoming downtime/faults and raise tickets ahead of time.",
+        caseStudiesDesc : "Virtual shopping assistant to help shoppers find the best products in the easiest way across multiple domains like retail, eCommerce and healthcare.",
         caseStudiesIMG : virtualIMG,
       }
 ];
