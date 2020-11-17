@@ -38,7 +38,7 @@ const caseStudiesData = [
         caseStudiesIMG : preventiveIMG,
     },
     {
-        id : "virtual-shopping",
+        id : "virtual-assistant",
         title : "VIRTUAL SHOPPING ASSISTANT",
         newTitle: "Virtual Shopping Assistant",
         requirement : "Requirement",

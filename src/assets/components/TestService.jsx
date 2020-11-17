@@ -3,8 +3,6 @@ import {Link} from "react-scroll";
 import ServiceBG from "../images/Service-Page/services-bg.jpg";
 import ServicesData from "../Data/Services-Data/ServicesData";
 import {NavLink} from "react-router-dom";
-import serviceSideImage from "../images/Service-Page/services-dots-right.png";
-// import AIIcon from "../images/HomePage/ai-icon.png";
 
 function TestService( ) {
     return(

@@ -1,17 +1,13 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 import {Link} from "react-scroll";
-// import HomeBG from "../images/Home/home-bg.png";
 import careerLinkIcon from "../images/About-Us-Page/amnet-external-link.png";
 import AboutUsBG from "../images/About-Us-Page/amnet-about-us-bg.jpg";
 import AboutUsMission from "../components/AboutUs/AboutUsMission";
 import AboutDetailsFirstRowData from "../Data/Homepage-Data/AboutDetailsFirstRowData";
-import AboutDetailsSecondRowData from "../Data/Homepage-Data/AboutDetailsSecondRowData";
 import AIIcon from "../images/HomePage/ai-icon.png";
 import OurPartner from "../components/Homepage/OurPartner";
 import OurLocationData from "../Data/ContactUs-Data/OurLocationData";
-// import OurLocationBG from "../images/Contact-Us-Page/amnet-about-us-our-locations.jpg";
-import QuoteIcon from "../images/About-Us-Page/amnet-left-quote-icon.png"
 
 function TestAboutUs( ) {
     return (
@@ -52,7 +48,7 @@ function TestAboutUs( ) {
             {/* AboutUS Page QUOTE SECTION */}
             <div className="homepage-quote">
                 <h2 className="text-center">
-                    "Building an Efficient & intelligent Tomorrow!"
+                    "Building an Efficient & Intelligent Tomorrow!"
                 </h2>
             </div>
 

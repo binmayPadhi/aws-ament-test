@@ -8,6 +8,7 @@ import siliconLogo from "../../images/HomePage/partner-logos/silicon.png";
 const ourPartnerData = [
     {
         id : 1,
+        activeClass: "active",
         partnerLogo : microsoftLogo
     },
     {

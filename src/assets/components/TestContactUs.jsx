@@ -2,9 +2,6 @@ import React, {useState} from "react";
 import ContactUsIMG from "../images/Contact-Us-Page/amnet-contact-us.jpg";
 import emailjs from "emailjs-com";
 import OurLocationData from "../Data/ContactUs-Data/OurLocationData";
-// import OurLocationBG from "../images/Contact-Us-Page/amnet-about-us-our-locations.jpg";
-// import { init } from "emailjs-com";
-// init(process.env.REACT_APP_API_KEY);
 
 function TestContactUs (){
     const tooltipStyle = {

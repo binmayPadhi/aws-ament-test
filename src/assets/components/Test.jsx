@@ -5,15 +5,12 @@ import AIServiceIMG from "../images/HomePage/home-vr.jpg";
 import AIIcon from "../images/HomePage/ai-icon.png";
 import AboutIcon from "../images/HomePage/about-icon.png";
 import AboutDetailsBG from "../images/HomePage/value-bg.jpg";
-// import { Splide, SplideSlide } from "@splidejs/react-splide";
 import OurServiceBG from "../images/HomePage/our-services/our-services-bg.jpg";
 import OurServicesData from "../Data/Homepage-Data/OurServicesData";
 import CaseStudiesSectionData from "../Data/Homepage-Data/CaseStudiesSectionData";
 import OurPartner from "../components/Homepage/OurPartner";
-import QuoteIcon from "../images/Home/left-quote.png";
 import IndusrtySectionData from "../Data/Homepage-Data/IndustrySectionData";
 import DataAnnotationDropdownIcon from "../images/HomePage/our-services/data-annotation-icon.png";
-import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
 
 function Test (){

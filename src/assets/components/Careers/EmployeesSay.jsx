@@ -18,14 +18,11 @@ function EmployeesSay( ) {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="card employeeSayCard">
-                                    <div className="card-body">
+                                    <div className="card-body" style={{paddingLeft:"0px"}}>
                                         
                                         <p className="card-text">
-                                        At Amnet Digital I am learning something new every day, The friendly and inclusive working 
-                                        environment at Amnet Digital allows us to progress at the level best suited to our personality, 
-                                        It also implies that you look beyond the drawing board making something from nothing. 
-                                        the collaboration between departments will never make you feel that you’re truly an integral 
-                                        part of the organization's journey.
+                                        At Amnet Digital I am learning something new everyday. The friendly and inclusive working environment allows us to progress at the level best suited to our personality. It also implies that you look beyond the drawing board making something from nothing. 
+                                        The collaboration between departments will make you feel that you’re truly an integral part of the organization's journey.
                                         </p>
                                         <div className="employee-details">
                                             <h1>- Rakesh Reddy, Senior Application Engineer</h1>
@@ -42,11 +39,11 @@ function EmployeesSay( ) {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="card employeeSayCard">
-                                    <div className="card-body">
+                                    <div className="card-body" style={{paddingLeft:"0px"}}>
                                         
                                         <p className="card-text">
-                                        Amnet as a startup gives me a unique opportunity to grow my core skills and work beyond my comfort zone 
-                                        taking on new responsibilities.The office environment is young in spirit but sincere to its future goals.
+                                        Amnet with its fast-paced startup like culture, gives me a unique opportunity to grow my core skills and 
+                                        work beyond my comfort zone taking on new responsibilities.The office environment is young in spirit but sincere to its future goals.
                                         </p>
                                         <div className="employee-details">
                                             <h1>- Proma Pal, Data Scientist</h1>
