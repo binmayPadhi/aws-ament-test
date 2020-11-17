@@ -228,7 +228,7 @@ function Test (){
                         <p className ="card-text">From complex documents to vital images & speech, precisely tag the data you need to 
                             train your models and explore a wide variety of business opportunities.
                         </p>
-                        <a href="#" className="learn-more-services">{`Learn More ->`}</a>
+                        <a href="/data-annotation" className="learn-more-services">{`Learn More ->`}</a>
                     </div>
                 </div>
                     </div>
@@ -278,7 +278,7 @@ function Test (){
 
 
     {/* NEW HOMEPAGE CLIENT SAY */}
-        <div className="client-say">
+        {/* <div className="client-say">
         <h1 className="section-title mt-3 text-center">WHAT OUR CLIENTS SAY</h1> 
             <div className="client-say-row new-all-margin">
                 <div className="row">
@@ -322,7 +322,7 @@ function Test (){
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
 
         {/* NEW HOMEPAGE CAREER SECTION */}

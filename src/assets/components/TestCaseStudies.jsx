@@ -108,10 +108,10 @@ function TestCaseStudies ( ) {
             <p>We are on a mission to solve complex problems and provide solutions 
                 that make a difference! Come work with us!
             </p>
-            <a href="/careers">
+            <a href="/contactus">
                 <button type="button" className="btn btn-default contact-us-button" >Contact Us</button>
             </a>
-            <a href="/contactus">
+            <a href="/careers">
                 <button type="button" className="btn btn-default careers-button">Careers</button>
             </a>
         </div>

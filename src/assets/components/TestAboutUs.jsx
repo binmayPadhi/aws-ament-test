@@ -93,7 +93,26 @@ function TestAboutUs( ) {
             <h1 className="section-title text-center" style={{paddingTop:"15px", color:"white"}}>CREDO</h1>
                 <hr></hr>
                 <div className="row new-all-margin ml-0 mr-0">
-                    <div className="col-10 credo-column mx-auto">
+                <div className="col-10 credo-column mx-auto">
+                        <div className="row about-details-row mx-auto">
+                
+                            {AboutDetailsFirstRowData.map(list => {
+                                return (
+                                        <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 credo-info-column" key={list.id}>
+                                            <h3 className="about-details-header">
+                                                <span>
+                                                    <img src= {AIIcon} className="img-fluid about-icons" alt = "end to end" />
+                                                </span>
+                                                {list.newTitle}
+                                            </h3>
+                                        </div>
+                                    )
+                                })}
+
+                        </div>
+    
+                        </div>              
+                    {/* <div className="col-10 credo-column mx-auto">
                         <div className="row about-details-row mx-auto">
                 
                             {AboutDetailsFirstRowData.map(list => {
@@ -128,16 +147,18 @@ function TestAboutUs( ) {
                                     )
                             })}
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
 
 
         {/*NEW AboutUS Page Career Link SECTION */}
         <div className="homepage-quote">
-                <h2 className="text-center">
-                    Careers<span style={{padding:"5px"}}><a href="/careers"><img className="img-fluid career-link-icon" style={{width:"20px", marginBottom:"7px"}} src={careerLinkIcon} alt="career-icon" /></a></span>
+        <a href="/careers" style={{color:"white"}}>
+                <h2 className="text-center career-link-heading" style={{fontWeight:"800"}}>
+                    Careers<span style={{padding:"5px"}}><img className="img-fluid career-link-icon" style={{width:"25px", marginBottom:"10px", marginLeft:"5px"}} src={careerLinkIcon} alt="career-icon" /></span>
                 </h2>
+                </a>
                 <p>Let us transform the world, together!</p>
         </div>
 
@@ -184,7 +205,7 @@ function TestAboutUs( ) {
 
 
             {/* NEW HOMEPAGE CLIENT SAY */}
-        <div className="client-say" style={{marginTop:"60px"}}>
+        {/* <div className="client-say" style={{marginTop:"60px"}}>
         <h1 className="section-title mt-3 text-center">WHAT OUR CLIENTS SAY</h1> 
             <div className="client-say-row new-all-margin">
                 <div className="row">
@@ -228,13 +249,13 @@ function TestAboutUs( ) {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
 
 
         {/* NEW HOMEPAGE CAREER SECTION */}
 
-        <div className="new-career-section" style={{width:"auto", height:"auto", backgroundColor:"#19AF8F", padding:"30px",marginTop:"60px"}}>
+        <div className="new-career-section" style={{width:"auto", height:"auto", backgroundColor:"#19AF8F", padding:"30px"}}>
 
             <div className="new-all-margin">
 
@@ -247,10 +268,10 @@ function TestAboutUs( ) {
                         <p>We are on a mission to solve complex problems and provide solutions 
                             that make a difference! Come work with us!
                         </p>
-                        <a href="/careers">
+                        <a href="/contactus">
                             <button type="button" className="btn btn-default contact-us-button" >Contact Us</button>
                         </a>
-                        <a href="/contactus">
+                        <a href="/careers">
                             <button type="button" className="btn btn-default careers-button">Careers</button>
                         </a>
                     </div>

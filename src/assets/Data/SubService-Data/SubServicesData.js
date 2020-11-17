@@ -1,15 +1,18 @@
 import AIMLBG from "../../images/Sub-Service-Images/AI-ML-Images/ai-ml-bg.jpg";
-import dmBG from "../../images/Sub-Service-Images/Data-Labeling-Images/we-are-available-bg.jpg";
+// import dmBG from "../../images/Sub-Service-Images/Data-Labeling-Images/we-are-available-bg.jpg";
 import dmBG1 from "../../images/Sub-Service-Images/Data-Labeling-Images/data-annotation-bg.jpg";
 import CloudServiceBG from "../../images/Sub-Service-Images/Cloud-Images/cloud-services-bg.jpg";
 import PlatformEngineeringBG from "../../images/Sub-Service-Images/Platform-Engineering-Images/platform-engineering-bg.jpg";
-import QualityAssuranceBG from "../../images/Sub-Service-Images/Quality-Assurance-Images/quality-assurance-bg.jpg";
+// import QualityAssuranceBG from "../../images/Sub-Service-Images/Quality-Assurance-Images/quality-assurance-bg.jpg";
 import ConsultingBG from "../../images/Sub-Service-Images/Consulting-Images/consulting-bg.jpg";
 import DataEngineeringBG from "../../images/Sub-Service-Images/Data-Engineering-Images/data-engg-bg.jpg";
 import DataManagementBG from "../../images/Sub-Service-Images/Data-Management-Images/data-mgmt-bg.jpg";
 import AdvancedAnalyticsBG from "../../images/Sub-Service-Images/Advanced-Analytics-Images/advanced-analytics-bg.jpg";
 import SubServiceCareerBG from "../../images/Sub-Service-Images/AI-ML-Images/we-are-available-bg.jpg";
 import CloudServiceCareerBG from "../../images/Sub-Service-Images/Cloud-Images/we-are-available-cloud-services.jpg";
+import UXBG from "../../images/Sub-Service-Images/User-Experience-Images/ux-bg.jpg";
+import QABG from "../../images/Sub-Service-Images/Quality-Assurance-Images/qa-bg.jpg";
+
 
 const subServicesData = [
     {
@@ -31,7 +34,7 @@ const subServicesData = [
     {
         id : "quality-assurance",
         title : "Quality Assurance",
-        BG : QualityAssuranceBG,
+        BG : QABG,
         description : "We provide dedicated Quality Assurance services aligned to latest agile, AI/ML and Digital Transformation trends and offer end-to-end testing & report validation services. At Amnet Digital, we strive for quality shift left and high-grade deliverables with optimized Cost of Quality and significant Return on Investments.",
         subCareerBG : SubServiceCareerBG
     }
@@ -55,7 +58,7 @@ const subServicesData = [
     {
         id : "user-experience",
         title : "User Experience",
-        BG : dmBG,
+        BG : UXBG,
         description : "Amnet Digital aims at designing products that deliver a positive experience by bridging the gap between the stakeholder goals and user expectations. With an emotionally balanced human-centered approach we empathize with the end users and leverage effective user-centric design techniques delivering the best experience for your users across all touch points of your business!",
         subCareerBG : SubServiceCareerBG
     }

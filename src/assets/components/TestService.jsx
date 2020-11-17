@@ -200,11 +200,14 @@ function TestService( ) {
                                     <div className="col-12 new-service-info" key={service.id} id={service.id}>
                                     <div className="row">
                                         <div className="col-xl-2 col-lg-2 col-md-12 col-sm-12">
-                                            <img className="img-fluid new-service-image" src={service.serviceIMG} alt="icon" />
+                                            <img className={`img-fluid new-service-image ${service.className}`} src={service.serviceIMG} alt="icon" />
                                         </div>
                                         <div className="col-xl-10 col-lg-10 col-md-12 col-sm-12">
                                         <h2>{service.title}</h2>
                                         <p>{service.description}</p>
+                                        <br />
+                                        <br />
+                                        <p>{service.description1}</p>
                                         <NavLink to = {`/${service.id}`}  activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                   
                                         <button className="btn btn-default" style={{fontSize : "1.5rem", backgroundColor: '#19AF8F',padding:"5px 15px", color:"white"}}>Learn More</button>
@@ -218,12 +221,18 @@ function TestService( ) {
                                 <div className="col-12 new-service-contact-section" style ={{marginTop:"100px", textAlign:"center"}}>
                                     <h3>Unsure how to leverage AI, ML for your buisness?</h3>
                                     <p>Talk to our experts today!</p>
+                                    <a href="/contactus">
                                     <button className="btn btn-default">Contact Us</button>
+                                    </a>
                                 </div>
                             )
                         })}
                 </div>
             </div>
+
+            {/* <div className="service-side-image">
+                <img src={serviceSideImage} className="img-fluid" alt="icon" />
+            </div> */}
 
             {/* <img src={serviceSideImage} className="img-fluid" alt="icon" /> */}
 
@@ -243,10 +252,10 @@ function TestService( ) {
                         <p>We are on a mission to solve complex problems and provide solutions 
                             that make a difference! Come work with us!
                         </p>
-                        <a href="/careers">
+                        <a href="/contactus">
                             <button type="button" className="btn btn-default contact-us-button" >Contact Us</button>
                         </a>
-                        <a href="/contactus">
+                        <a href="/careers">
                             <button type="button" className="btn btn-default careers-button">Careers</button>
                         </a>
                     </div>

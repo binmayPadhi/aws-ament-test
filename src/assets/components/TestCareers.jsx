@@ -47,7 +47,7 @@ function TestCareers( ) {
              {/* New Case Studies QUOTE SECTION */}
              <div className="homepage-quote">
                 <h2 className="text-center">
-                    "Products & Solutions that make a difference!"
+                    "We are a fast growing AI/ML based Product Development Company"
                 </h2>
             </div>
 

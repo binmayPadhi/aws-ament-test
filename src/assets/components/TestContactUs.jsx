@@ -145,7 +145,7 @@ function TestContactUs (){
 
                     {/* <!-- MESSAGE --> */}
 
-                    <div className="form-group">
+                    <div className="form-group user-text">
                        
                         <textarea 
                             className="form-control form-control-lg userMessage" 

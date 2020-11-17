@@ -25,6 +25,7 @@ function Footer (){
                     <li><a href="/services">Services</a></li>
                     <li><a href="/caseStudies">Case Studies</a></li>
                     <li><a href="/careers">Careers</a></li>
+                    <li><a href="/contactus">Contact Us</a></li>
                 </ul>
             </div>
             <hr></hr>

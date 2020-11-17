@@ -27,7 +27,7 @@ function JobDetails (){
                                 <div className="experience-info">
                                     <div className="info"><h3><span>Job Level : </span>{data.jobLevel}</h3></div>
                                     <div className="info "><h3><span>Experience : </span>{data.experience}</h3></div>
-                                    <div className="info"><h3><span>Location : </span>Hyderabad,India</h3></div>
+                                    <div className="info"><h3><span>Location : </span>Hyderabad, India</h3></div>
                                 </div>
                                 <h1>{data.role}</h1>
                                 <p>

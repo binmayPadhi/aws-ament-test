@@ -18,9 +18,11 @@ const servicesData = [
         serviceIMG : AiMlIMG
     },
     {
+        className : "service-icon-center",
         id : "data-management",
         title : "Data Management",
-        description : "Competitive advantages are built from the efficient management, orchestration, and availability of accurate business-critical data, as well as processes which effectively leverage data. Amnet’s Data Management Services help you to enhance the quality of your master data. Whether data quality analytics, validation, duplication or verification.Our data management services span a wide range of business capabilities around data quality management. We help businesses create robust data management solutions that capture the most critical information within your organization 'master data' & create a single source of truth. Whether it is data governance, data quality, master data management or migration, Amnet Digital can assist you with the best quality of resources and services to help automate, and design the analytics that will help you track your data all the time.",
+        description : "Competitive advantages are built from the efficient management, orchestration, and availability of accurate business-critical data, as well as processes which effectively leverage data. Amnet’s Data Management Services help you to enhance the quality of your master data. Whether data quality analytics, validation, duplication or verification.",
+        description1 : "Our data management services span a wide range of business capabilities around data quality management. We help businesses create robust data management solutions that capture the most critical information within your organization 'master data' & create a single source of truth. Whether it is data governance, data quality, master data management or migration, Amnet Digital can assist you with the best quality of resources and services to help automate, and design the analytics that will help you track your data all the time.",
         serviceIMG : DataManagementIMG
     },
     {
@@ -35,15 +37,19 @@ const servicesData = [
     },
    
     {
+        className : "service-icon-center",
         id : "data-engineering",
         title : "Data Engineering",
-        description : "Recent advancements in processing power, combined with dramatic data growth have made unprecedented thinking power a reality. Algorithms give us the ability to manipulate really large data sets and develop solutions for large scale data processing. Amnet Digital takes a business focused approach to data engineering to align analytics and technology. By leveraging modern techniques like fast cluster computing you can maximize the value of your data assets . Create foundation of data and transform extracted knowledge into insights for more informed and timely business decisions.",
+        description : "Recent advancements in processing power, combined with dramatic data growth have made unprecedented thinking power a reality. Algorithms give us the ability to manipulate really large data sets and develop solutions for large scale data processing.",
+        description1 : "Amnet Digital takes a business focused approach to data engineering to align analytics and technology. By leveraging modern techniques like fast cluster computing you can maximize the value of your data assets . Create foundation of data and transform extracted knowledge into insights for more informed and timely business decisions.",
         serviceIMG : DataEngineeringIMG
     },
     {
+        className : "service-icon-center",
         id : "platform-engineering",
         title : "Platform Engineering",
-        description : "Amnet Digital offers a palette of platform engineering services at all scale – small to enterprise level entities – and prepare them to leverage the digital opportunity. We are a proven provider of platform engineering services specializing in the design and development of digital experiences. Our expert teams blend the latest in technology, development methods and tools to deliver bespoke solutions that fit perfectly into your business and elevate your brand’s engagement with your customers. Our teams bring deep experience across a variety of technologies, systems, platforms and applications as well as working across multiple industry verticals, that ensures that no matter the need, we can provide a solution to accommodate. Our integration expertise ensures that the solutions we design integrate seamlessly with your existing systems.",
+        description : "Amnet Digital offers a palette of platform engineering services at all scale – small to enterprise level entities – and prepare them to leverage the digital opportunity. We are a proven provider of platform engineering services specializing in the design and development of digital experiences. Our expert teams blend the latest in technology, development methods and tools to deliver bespoke solutions that fit perfectly into your business and elevate your brand’s engagement with your customers.",
+        description1 : "Our teams bring deep experience across a variety of technologies, systems, platforms and applications as well as working across multiple industry verticals, that ensures that no matter the need, we can provide a solution to accommodate. Our integration expertise ensures that the solutions we design integrate seamlessly with your existing systems.",
         serviceIMG : PlatformEngineeringIMG
     }
     ,
@@ -63,7 +69,7 @@ const servicesData = [
     {
         id : "quality-assurance",
         title : "Quality Assurance",
-        description : "We provide dedicated Quality Assurance services aligned to latest Agile, AI/ML and Digital transformation trends and offer end-to-end functional testing (manual/automation), Performance testing, Mobile testing, API testing, Security testing, ETL testing, Reports validation services and strives for quality shift left and high quality deliverables with optimized COQ (Cost of Quality) and significant Return on Investments (ROI). We also have expertise in setting up Test Center of excellence (TCOE) and delivering projects in Global Delivery Model (GDM) with optimized onshore offshore ratio and in a complex multi-vendor environment.",
+        description : "We provide dedicated Quality Assurance services aligned to latest agile, AI/ML and Digital Transformation trends and offer end-to-end  testing & report validation services. At Amnet Digital, we strive for quality shift left and high grade deliverables with optimized Cost of Quality and significant Return on Investments.",
         serviceIMG : QualityAssuranceIMG
     },
     {

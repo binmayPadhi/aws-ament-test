@@ -322,9 +322,9 @@ body{
     list-style: none;
 }
 
-.list-icon {
-    width: 30px;
-    height: 8px;
+.careers-details-lists .list-icon {
+    width: 50px;
+    
     padding-bottom: 5px;
     margin-right: 5px;
 }
@@ -357,22 +357,23 @@ body{
 
 .about-details-header {
     font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 1000;
     color: #ffffff;
 }
 
 .homepage-about-details p{
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #ffffff;
     margin-left: 70px;
     opacity: 0.8;
+    padding-right: 30px;
 }
 
 .homepage-quote p{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     padding: 10px 0px;
 }
 
@@ -1817,6 +1818,7 @@ hr{
 .form-group{
     margin-top: 0px;
     padding: 15px;
+    margin-bottom: 0rem !important;
 }
 .form-group input{
     /* width: 650px; */
@@ -1827,13 +1829,19 @@ hr{
     display: block;
 }
 
+.user-text{
+    padding: 5px 15px;
+}
+
+
+
 .contact-form-header h1{
     font-size: 4.5rem;
     font-weight: 800;
 }
 
 .contact-form-header p{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 400;
     color: #4D4D4F;
 }
@@ -1887,7 +1895,7 @@ label{
 .about-us-page-location-row .card{
     position: relative;
     /* width: 30rem; */
-    margin-top: 60px;
+    margin-top: 40px;
     margin-bottom: 50px;
 
 }
@@ -1912,17 +1920,17 @@ label{
 }
 
 .location-details h2{
-    margin-top: 40px;
+    margin-top: 10px;
     font-weight: 800;
     font-size: 2rem;
-    text-align: left;
+    
 }
 
 .location-details p{
     margin-top: 20px;
     font-weight: 400;
     font-size: 1.5rem;
-    text-align: left;
+   
 }
 
 .location-details a{
@@ -2885,6 +2893,10 @@ label{
     font-size: 1.5rem;
     font-weight: 600;
     color: black;
+}
+
+.experience-info h3{
+    font-size: 1.5rem;
 }
 
 .job-desc-card-info h5{
@@ -3914,11 +3926,11 @@ label{
 .homepage-quote{
     background-color: #19AF8F;
     color: white;
-    padding: 5px 0px;
+    padding: 2px 0px;
 }
 
 .homepage-quote h2{
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 400;
     padding: 10px;
 }
@@ -3947,6 +3959,12 @@ label{
     padding-inline-start: 0px;
 }
 
+/* .new-solutions-services-lists .list-details{
+    font-size: 1.7rem;
+    color: black;
+    padding: 10px 5px;
+} */
+
 .new-solutions-services-lists li {
     margin-top: 10px;
     font-family: 'Poppins', sans-serif;
@@ -3960,7 +3978,7 @@ label{
 .new-solutions-services-lists .ai-icon{
         width: 50px;
         height: 50px;
-        margin-right: 5px;
+        margin-right: 10px;
         margin-bottom: 5px;
 }
 
@@ -3985,6 +4003,7 @@ label{
 
 .new-about-details-list{
  margin-top: 25px;
+ list-style: none;
 }
 
 .new-about-details-list h2{
@@ -4179,11 +4198,12 @@ label{
     background-color: white;
     padding: 15px;
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .our-partner {
     position: relative;
-    margin-top: 40px;
+    margin-top: 20px;
     background-color: white;
     padding: 15px;
 }
@@ -4291,6 +4311,7 @@ label{
     width: 10%;
     height: 3px;
     background-color:#19AF8F;
+    margin-top: 1rem !important;
 }
 
 
@@ -4317,6 +4338,7 @@ label{
 
 .new-location-card img{
     width: 120px;
+    padding:  20px 0px;
 }
 
 .new-our-location-column .card{
@@ -4350,7 +4372,9 @@ label{
 }
 
 .btn-group-toggle .service-toggle-btn:hover{
-    background-color:  #000000;
+    background-color:   #19AF8F;
+    opacity: 1;
+    border-color: transparent;
     color: white;
 }
 
@@ -4374,6 +4398,7 @@ label{
     color: #fff;
     background-color:  #19AF8F !important;
     border-style: none !important;
+    border-color: transparent !important;
     opacity: 1;
 }
 
@@ -4395,6 +4420,10 @@ label{
     padding: 10px 0px;
 }
 
+.new-service-info .service-icon-center{
+    transform: translate(40px, 80px);
+}
+
 .new-service-info h2{
     font-size: 2.5rem;
     font-weight: 800;
@@ -4411,7 +4440,7 @@ label{
 }
 
 .new-service-contact-section h3{
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     font-weight: 800;
     color: #19AF8F;
 }
@@ -4461,7 +4490,7 @@ label{
 }
 
 .new-case-studies-list h2{
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: white;
     margin-top: 0px;
 }
@@ -4483,11 +4512,12 @@ label{
 .weValueInnovation {
     background-color: black;
     border-radius: 4px;
+    margin-top: 60px;
 }
 
 .weValueInnovation h1 {
     color: white;
-    padding: 30px;
+    /* padding: 30px; */
 }
 
 .weValueInnovation p {
@@ -4497,12 +4527,16 @@ label{
 }
 
 .weValueInnovationCarousel{
-    padding: 100px 0px;    
+    padding: 50px 0px;    
 }
 
-.weValueInnovationCarousel .carousel-inner{
-    border-left: 5px solid #19AF8F;
+.we-innovation-img{
+    padding: 60px 0px;
 }
+
+/* .weValueInnovationCarousel .carousel-inner{
+    border-left: 5px solid #19AF8F;
+} */
 
 .weValueInnovationCarousel .carousel-indicators{
     top: 95%;
@@ -4578,17 +4612,20 @@ label{
 
 .new-contact-us-page img{
     width: 100%;
-    height: 94%;
+    height: 550px;
+    box-shadow: 3px 6px 16px #0000004D;
 }
 
 .new-contact-us-page input{
     box-shadow: 3px 6px 16px #00000029;
     border-style: none;
+    font-size: 1.8rem;
 }
 
 .new-contact-us-page textarea{
     box-shadow: 3px 6px 16px #00000029;
     border-style: none;
+    font-size: 1.8rem;
 }
 
 
@@ -4803,9 +4840,21 @@ label{
         padding: 20px 0px;
     }
 
+    .new-service-info .service-icon-center {
+        width: 110px;
+        transform: translate(0px, 0px);
+        padding: 20px 0px;
+    }
+
     .new-service-info {
         margin-top: 0px;
         padding: 25px 0px;
+    }
+
+    .new-service-contact-section h3 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: #19AF8F;
     }
     
 
@@ -4859,6 +4908,7 @@ label{
 
     .weValueInnovationCarousel {
         padding: 65px 0px;
+        margin-top: 30px;
     }
 
     .employeesSay .carousel-indicators {
@@ -5073,6 +5123,12 @@ label{
         padding: 20px 0px;
     }
 
+    .new-service-info .service-icon-center{
+        width: 120px;
+        transform: translate(0px, 0px);
+        padding: 20px 0px;
+    }
+
     .new-service-info {
         margin-top: 0px;
         padding: 25px 0px;
@@ -5120,6 +5176,7 @@ label{
 
     .weValueInnovationCarousel {
         padding: 65px 0px;
+        margin-top: 30px;
     }
 
     .employeesSay .carousel-indicators {
@@ -5303,6 +5360,12 @@ label{
         padding: 20px 0px;
     }
 
+    .new-service-info .service-icon-center{
+        width: 150px;
+        transform: translate(0px, 0px);
+        padding: 20px 0px;
+    }
+
     .new-service-info {
         margin-top: 0px;
         padding: 25px 0px;
@@ -5447,7 +5510,7 @@ label{
     }
 
     .homepage-about-details h3 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-top: 10px;
     }
 
@@ -5480,12 +5543,31 @@ label{
         padding: 20px 0px;
     }
 
+    .new-service-info .service-icon-center{
+        width: 130px;
+        transform: translate(10px, 100px);
+        padding: 20px 0px;
+    }
+
     .new-service-info {
         margin-top: 0px;
         padding: 25px 0px;
+    }
+
+
+    /* FOR NEW CONTACT US PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+
+    .new-contact-us-page img {
+        width: 100%;
+        height: 525px;
+        box-shadow: 3px 6px 16px #0000004D;
     }
 }
 
 /* .new-service-info img{
     vertical-align: middle;
 } */
+
+
