@@ -48,7 +48,7 @@ function Test (){
             </div>
 
             {/* HOMEPAGE QUOTE SECTION */}
-            <div className="homepage-quote">
+            <div className="homepage-quote homepage-news-text">
                 <h2 className="text-center">
                     "AI-Enabled tools will generate $2.9 trillion in business value by 2021"
                 </h2>
