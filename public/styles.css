@@ -358,7 +358,7 @@ body{
 .about-details-header {
     font-family: 'Poppins', sans-serif;
     font-size: 3rem;
-    font-weight: 1000;
+    font-weight: 800;
     color: #ffffff;
 }
 
@@ -1016,7 +1016,7 @@ hr{
     }
 
     .section-title{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .all-margin{
@@ -4229,6 +4229,14 @@ label{
     border-bottom: 5px solid  #19AF8F;
 }
 
+.client-say .card-body{
+    height: 350px;
+}
+
+.client-say .client-role{
+    font-weight: 800 !important;
+}
+
 .client-say .client-say-row {
     padding: 30px 0px 0px 0px;
 }
@@ -4261,7 +4269,7 @@ label{
 }
 
 .new-career-section button {
-    width: 120px;
+    width: 180px;
     height: 45px;
     margin-left: 35px;
     font-family: 'Poppins', sans-serif;
@@ -4336,7 +4344,7 @@ label{
     margin-block-end: -0em !important;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    margin-left: 70px;
+    margin-left: 60px;
 }
 
 .new-location-card img{
@@ -4545,6 +4553,14 @@ label{
     top: 95%;
 }
 
+.career-job-icon{
+    width: 20px;
+}
+
+/* .career-job-icon{
+    float: right;
+} */
+
 .employeesSay .card{
     border-style: none;
 }
@@ -4595,7 +4611,7 @@ label{
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background-color:#19AF8F;
+    /* background-color:#19AF8F; */
     box-shadow: 3px 6px 16px #00000029;
     margin-top: 50px;
 }
@@ -4606,6 +4622,8 @@ label{
     border-radius: 50%;
     background-color: #6d6d6d;
     margin-bottom: -20rem;
+    border-color: #19AF8F;
+    border-style: solid;
 }
 
 
@@ -4767,6 +4785,10 @@ label{
 
     .client-say .card {
         margin-top: 15px;
+    }
+
+    .client-say .card-body{
+        height: 460px;
     }
 
     .footer .fa {
@@ -4959,6 +4981,12 @@ label{
     .subService-AIML-intro-btn .sub-service-contact-us-btn {
         margin-left: 0px;
         margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .client-say .card-body{
+        height: 400px;
     }
 }
 
@@ -5207,6 +5235,10 @@ label{
         margin-bottom: -25px;
     }
 
+    .career-job-icon{
+        width: 15px;
+    }
+
     .weValueInnovation .carousel-indicators {
         top: 90%;
     }
@@ -5332,6 +5364,18 @@ label{
 
     .new-our-service-card a {
         top: 85%;
+    }
+
+    /* FOR TESTIMONIAL SECTION */
+
+    .client-say .card-body{
+        height: 410px;
+    }
+
+    .client-say .client-say-card-center{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
     }
 
 
@@ -5461,11 +5505,10 @@ label{
 
     /* FOR NEW INDUSTRY SECTION RESPONSIVE SECTION */
     /* ............................................................................................................................... */
-    .industry-section-column{
-        padding-right: 5px !important;
-        padding-left: 0px !important;
-    }
 
+    .client-say .card-body{
+        height: 460px;
+    }
 
     /* FOR OUR SERVICE RESPONSIVE SECTION */
     /* ............................................................................................................................... */

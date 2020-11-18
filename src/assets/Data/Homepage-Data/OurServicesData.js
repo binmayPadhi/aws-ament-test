@@ -25,7 +25,7 @@ import DataAnnotationDropdownIcon from "../../images/HomePage/our-services/data-
 const OurServicesData = [
     {
         id : "aiml",
-        serviceTitle : "AI / ML Services",
+        serviceTitle : "AI & ML Services",
         serviceDesc : "Take advantage of the data-driven mindset that leverages cutting-edge technology to develop world class solutions.",
         serviceIcon : AimlDropdownIcon
     },

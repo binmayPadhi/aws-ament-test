@@ -2,10 +2,7 @@ import propensityIMG from "../../images/Case-Studies-Page/cs-propensity.jpg";
 import preventiveIMG from "../../images/Case-Studies-Page/cs-preventive-maintenance.jpg";
 import virtualShoppingIMG from "../../images/Case-Studies-Page/cs-virtual-assistant.jpg";
 import riskAnalyticsIMG from "../../images/Case-Studies-Page/cs-risk-analytics.jpg";
-// import propensityIcon from "../../images/Case-Studies-Page/amnet-propensity-cs-icon.png";
-// import preventiveIcon from "../../images/Case-Studies-Page/amnet-recom-system-cs-icon.png";
-// import virtualShoppingIcon from "../../images/Case-Studies-Page/amnet-virtual-shopping-cs-icon.png";
-// import riskAnalyticsIcon from "../../images/Case-Studies-Page/amnet-risk-analytics-cs-icon.png";
+
 
 
 const caseStudiesData = [

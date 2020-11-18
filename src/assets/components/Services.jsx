@@ -1,99 +1,267 @@
 import React from "react";
-import ServicesData from "../Data/Services-Data/ServicesData";
-import ServiceBG from "../images/Service-Page/amnet-our-services-bg.jpg";
 import {Link} from "react-scroll";
+import ServiceBG from "../images/Service-Page/services-bg.jpg";
+import ServicesData from "../Data/Services-Data/ServicesData";
 import {NavLink} from "react-router-dom";
 
-function Services (){
-
-    const serviceStyle = {
-        backgroundImage:`url(${ServiceBG})`,
-        backgroundAttachment: "scroll",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        position : "relative"
-    }
-
-    return (
+function TestService( ) {
+    return(
         <>
-            {/* <!-- Service Page intro --> */}
-            <div className="homepage-intro service-page-intro" style={serviceStyle}>
-                <div className="vr "></div>
-                <div className="row all-margin ml-0 mr-0">
-            
-                    <div className="col-lg-6 homepage-intro-caption all-margin">
-                        <h2>Simplify & Modernize!</h2>
-                        <p>We blend our knowledge of diverse business domains and deep expertise in Data Management, 
-                            AI/ML and Advanced Analytics to solve complex business problems
-                        </p>
+            <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${ServiceBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
+                         <div className="row service-new-all-margin">
+                        <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
+                            <h2>
+                            Automate & Modernize!
+                            </h2>
+                            <p>
+                            We blend our knowledge of diverse business domains and deep expertise in Data Management, 
+                            AI/ML and Advanced Analytics to solve complex business problems.
+                            </p>
 
-                        <div className="homepage-intro-btn">
-                        <Link
+                            <div className="subService-AIML-intro-btn">
+                                {/* <a href="/casestudies">
+                                    <button type="button" className="btn btn-default">View Details</button>
+                                </a> */}
+                            <Link
                             activeClass="active"
                             to="details"
                             spy={true}
                             smooth={true}
-                            offset={0}
+                            offset={-100}
                             duration={500}>
-                            <button type="button" className="btn btn-primary learn-more-btn">Learn more</button>
-                        </Link>
-                            <NavLink to="/contactus">
-                                <button type="button" className="btn btn-default" >Contact Us <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                            <button type="button" className="btn btn-default sub-service-view-details-btn">Learn more</button>
+                            </Link>
+                            <NavLink to="/casestudies">
+                            <button type="button" className="btn btn-default sub-service-contact-us-btn">Case Studies</button>
                             </NavLink>
+                            </div>
                         </div>
-                    </div>
-                </div>
+                        </div>
             </div>
 
-            {/* <!-- Services Page Header and Title --> */}
-            <div className="service-page-header text-center mt-5">
-                <h3 className="section-header" id="details">UNMATCHED EXPERTISE</h3>
-                <h1 className="section-title mt-3" id="AI-ML">Our Services</h1>
+
+             {/* Service Page QUOTE SECTION */}
+             <div className="homepage-quote">
+                <h2 className="text-center">
+                    "Robust, secure & scalable products, services and solutions"
+                </h2>
             </div>
 
-            {/* <!-- Service page All Services --> */}
+
+            {/* NEW SERVICE PAGE BUTTON GROUPS */}
+            <div className="btn-group btn-group-toggle flex-wrap new-all-margin" data-toggle="buttons">
+            <Link
+                            activeClass="active"
+                            to="aiml"
+                            className="scroll-service-btn"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>             
+                <label className="btn btn-secondary service-toggle-btn active">
+                    <input type="radio" name="options" id="option1" autocomplete="off" checked /> Artificial intelligence
+                </label>
+                </Link>
+
+                <Link
+                            activeClass="active"
+                            to="data-management"
+                            className="scroll-service-btn"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>
+                <label class="btn service-toggle-btn btn-secondary">
+                    <input type="radio" name="options" id="option2" autocomplete="off" /> Data Management
+                </label>
+                </Link>
+
+                <Link
+                            activeClass="active"
+                            to="advanced-analytics"
+                            className="scroll-service-btn"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>
+                <label class="btn service-toggle-btn btn-secondary">
+                    <input type="radio" name="options" id="option3" autocomplete="off" /> Advanced Analytics
+                </label>
+                </Link>
+                <Link
+                            activeClass="active"
+                            to="data-engineering"
+                            className="scroll-service-btn"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>             
+                <label className="btn btn-secondary service-toggle-btn">
+                    <input type="radio" name="options" id="option1" autocomplete="off" checked /> Data Engineering
+                </label>
+                </Link>
+
+                <Link
+                            activeClass="active"
+                            to="platform-engineering"
+                            className="scroll-service-btn"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>
+                <label class="btn service-toggle-btn btn-secondary">
+                    <input type="radio" name="options" id="option2" autocomplete="off" /> Platform Engineering
+                </label>
+                </Link>
+
+                <Link
+                            activeClass="active"
+                            to="user-experience"
+                            className="scroll-service-btn"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>
+                <label class="btn service-toggle-btn btn-secondary">
+                    <input type="radio" name="options" id="option3" autocomplete="off" /> User Experience
+                </label>
+                </Link>
+
+                <Link
+                            activeClass="active"
+                            to="cloud"
+                            className="scroll-service-btn"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>             
+                <label className="btn btn-secondary service-toggle-btn">
+                    <input type="radio" name="options" id="option1" autocomplete="off" checked /> Cloud
+                </label>
+                </Link>
+
+                <Link
+                            activeClass="active"
+                            to="quality-assurance"
+                            className="scroll-service-btn"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>
+                <label class="btn service-toggle-btn btn-secondary">
+                    <input type="radio" name="options" id="option2" autocomplete="off" /> Quality Assurance
+                </label>
+                </Link>
+
+                <Link
+                            activeClass="active"
+                            to="consulting"
+                            className="scroll-service-btn"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>
+                <label class="btn service-toggle-btn btn-secondary">
+                    <input type="radio" name="options" id="option3" autocomplete="off" /> Startegy & Consulting
+                </label>
+                </Link>
+                <Link
+                            activeClass="active"
+                            to="data-annotation"
+                            className="scroll-service-btn"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>             
+                <label className="btn btn-secondary service-toggle-btn">
+                    <input type="radio" name="options" id="option1" autocomplete="off" checked /> Data Annotation
+                </label>
+                </Link>
+                
+            </div>
+
+
+
+            {/* <div className="btn-group btn-group-toggle new-all-margin" style={{marginTop:"10px"}} data-toggle="buttons">
             
-            <div className="service-page-all-services all-margin" >
-                <div className="row service-page-row ml-0 mr-0">
+                
+            </div> */}
+            
 
+            
+            <div className="service-page-all-services " style={{marginTop:"60px"}} id="details">
+                <div className="row service-page-row ml-0 mr-0">
                     {ServicesData.map((service, index) => {
                         return(
-                            !( index % 2 ) ? 
-                                <div className="col-12 service-list p-0 clearfix" key = {service.id} id={service.id}>
-                                    <img className="img-fluid img-left service-page-img" src= {service.serviceIMG} alt="Service" />
-                                    <div className="service-desc">  
+                            !( service.id === "test" ) ? 
+                                <div className="new-all-margin">
+                                    <div className="col-12 new-service-info" key={service.id} id={service.id}>
+                                    <div className="row">
+                                        <div className="col-xl-2 col-lg-2 col-md-12 col-sm-12">
+                                            <img className={`img-fluid new-service-image ${service.className}`} src={service.serviceIMG} alt="icon" />
+                                        </div>
+                                        <div className="col-xl-10 col-lg-10 col-md-12 col-sm-12">
                                         <h2>{service.title}</h2>
                                         <p>{service.description}</p>
                                         <br />
-                                        {/* <button className="btn btn-primary" style={{fontSize : "1.5rem"}}>Learn More</button> */}
-                                        {/* <a href={`/${service.id}`} className="learn-more-services">{`Learn More ->`}</a> */}
+                                        <br />
+                                        <p>{service.description1}</p>
                                         <NavLink to = {`/${service.id}`}  activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                   
                                         <button className="btn btn-default" style={{fontSize : "1.5rem", backgroundColor: '#19AF8F',padding:"5px 15px", color:"white"}}>Learn More</button>
                     
                                         </NavLink>
-
+                                        </div>
                                     </div>
-                                </div> : 
-                                <div className="col-12 service-list p-0 clearfix" key = {service.id} id={service.id}>
-                                    <img className="img-fluid img-right service-page-img" src= {service.serviceIMG} alt="Service" />
-                                    <div className="service-desc">  
-                                        <h2>{service.title}</h2>
-                                        <p>{service.description}</p>
-                                        <br />
-                                        <NavLink to = {`/${service.id}`}  activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
-                  
-                                        <button className="btn btn-default" style={{fontSize : "1.5rem", backgroundColor: '#19AF8F',padding:"5px 15px" ,color:"white"}}>Learn More</button>
-                    
-                                        </NavLink>
-                                    </div>
+                                </div>  
+                                </div>
+                                :
+                                <div className="col-12 new-service-contact-section" style ={{marginTop:"100px", textAlign:"center"}}>
+                                    <h3>Unsure how to leverage AI, ML for your business?</h3>
+                                    <p>Talk to our experts today!</p>
+                                    <a href="/contactus">
+                                    <button className="btn btn-default">Contact Us</button>
+                                    </a>
                                 </div>
                             )
                         })}
-                    </div> 
                 </div>
-            </>
-        )
-    }
+            </div>
 
-export default Services;
+            {/* <div className="service-side-image">
+                <img src={serviceSideImage} className="img-fluid" alt="icon" />
+            </div> */}
+
+            {/* <img src={serviceSideImage} className="img-fluid" alt="icon" /> */}
+
+
+            {/* NEW HOMEPAGE CAREER SECTION */}
+
+        <div className="new-career-section" style={{width:"auto", height:"auto", backgroundColor:"#19AF8F", padding:"30px",marginTop:"60px"}}>
+
+            <div className="new-career-section new-all-margin">
+
+                <div className="career-section-row row g-0">
+                    <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-caption">
+                        <h5>WORK WITH US</h5>
+                        <h2>Let's Grow Together!</h2>
+                    </div>
+                    <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-details">
+                        <p>We are on a mission to solve complex problems and provide solutions 
+                            that make a difference! Come work with us!
+                        </p>
+                        <a href="/contactus">
+                            <button type="button" className="btn btn-default contact-us-button" >Contact Us</button>
+                        </a>
+                        <a href="/careers">
+                            <button type="button" className="btn btn-default careers-button">Careers</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </>
+    )
+}
+
+export default TestService;

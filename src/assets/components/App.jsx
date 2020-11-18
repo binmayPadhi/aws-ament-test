@@ -9,13 +9,6 @@ import Careers from "./Careers";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import AIML from "./SubServices/AIML";
-import Test from "./Test";
-import TestAboutUs from "./TestAboutUs";
-import TestService from "./TestService";
-import TestCaseStudies from "./TestCaseStudies";
-import TestCareers from "./TestCareers";
-import TestContactUs from "./TestContactUs";
-// import Test from "./Test";
 
 function App(){
     return (
@@ -26,19 +19,12 @@ function App(){
               </div>
             <div>
                 <Switch>
-                    {/* <Route exact path = "/" component = {Homepage} />
+                    <Route exact path = "/" component = {Homepage} />
                     <Route  path = "/contactus" component = {ContactUs} />
                     <Route  path = "/aboutus" component = {AboutUs} />
                     <Route  path = "/services" component = {Services} />
                     <Route  path = "/casestudies" component = {CaseStudies} />
-                    <Route  path = "/careers" component = {Careers} /> */}
-
-                    <Route exact path = "/" component ={Test} />
-                    <Route path = "/aboutus" component ={TestAboutUs} />
-                    <Route path = "/services" component ={TestService} />
-                    <Route path = "/casestudies" component ={TestCaseStudies} />
-                    <Route path = "/careers" component ={TestCareers} />
-                    <Route path = "/contactus" component ={TestContactUs} />
+                    <Route  path = "/careers" component = {Careers} />
                     
                     <Route   path = "/:id" component = {AIML} />
                     {/* <Route exact  path = "/data-labeling" component = {AIML} /> */}

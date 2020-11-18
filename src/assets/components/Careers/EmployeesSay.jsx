@@ -1,6 +1,8 @@
 import React from "react";
 import careerProfileRakesh from "../../images/careers-page/careers-rakesh.jpg";
 import careerProfileProma from "../../images/careers-page/careers-proma.jpg";
+import RakeshProfile from "../../images/careers-page/rakesh-dp.jpg";
+import PromaProfile from "../../images/careers-page/proma-dp.jpg";
 
 function EmployeesSay( ) {
     return (
@@ -8,10 +10,10 @@ function EmployeesSay( ) {
                 <div className="employeesSay new-all-margin">
                 <div className="weValueInnovationCarousel">
                     <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
-                    <h1 className="card-title">Employee have their say</h1>
+                    <h1 className="card-title">Employees have their say</h1>
                         <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                            <li style={{backgroundImage:`url(${RakeshProfile})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}} data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                            <li style={{backgroundImage:`url(${PromaProfile})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}} data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
                         </ol>
                     <div class="carousel-inner">
                     <div class="carousel-item active">

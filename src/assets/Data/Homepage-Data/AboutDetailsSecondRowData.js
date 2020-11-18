@@ -1,20 +1,20 @@
-import TechnologyIocn from "../../images/HomePage/homepage-about-details-IMG/amnet-tech-agno.png";
-import InnovationIocn from "../../images/HomePage/homepage-about-details-IMG/amnet-smart-innovations.png";
+// import TechnologyIocn from "../../images/HomePage/homepage-about-details-IMG/amnet-tech-agno.png";
+// import InnovationIocn from "../../images/HomePage/homepage-about-details-IMG/amnet-smart-innovations.png";
 
 const AboutDetailsSecondRowData = [
     {
         id : 1,
         title : "Technology Agnostic",
-        newTitle : "Attainment",
-        description : "Focus on the big picture strategy and be as tech-forward or backward compatible as needed to develop solutions based on your priorities.",
-        iconSrc : TechnologyIocn
+        newTitle : "Excellence",
+        description : "We challenge the process and opinions to build premier products and deliver the best services.",
+        // iconSrc : TechnologyIocn
     },
     {
         id : 2,
         title : "Smart Innovations",
-        newTitle : "Tie-ins",
-        description : "We align our products and services with the requirements of the market and customers,we develop smart innovations for digital transformation",
-        iconSrc : InnovationIocn
+        newTitle : "Empathy",
+        description : "We are curious and take leaps to understand others perspective. We appreciate diverse perspectives and allow collaborative solutions.",
+        // iconSrc : InnovationIocn
     },
 ];
 
