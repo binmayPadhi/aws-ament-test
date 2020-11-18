@@ -43,7 +43,7 @@ function TestCaseStudies ( ) {
 
 
              {/* New Case Studies QUOTE SECTION */}
-             <div className="homepage-quote">
+             <div className="homepage-quote homepage-news-text">
                 <h2 className="text-center">
                     "Products & Solutions that make a difference!"
                 </h2>

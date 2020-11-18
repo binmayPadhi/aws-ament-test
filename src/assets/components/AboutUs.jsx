@@ -48,7 +48,7 @@ function TestAboutUs( ) {
 
 
             {/* AboutUS Page QUOTE SECTION */}
-            <div className="homepage-quote">
+            <div className="homepage-quote homepage-news-text">
                 <h2 className="text-center">
                     "Building an Efficient & Intelligent Tomorrow!"
                 </h2>
@@ -226,7 +226,7 @@ function TestAboutUs( ) {
                             {/* <h3 className="card-title">Jamie Lorenzo</h3> */}
                             <p className ="card-text client-role">VP Engineering, Information Management Company</p>
                             <p className="card-text client-desc">We developed a great partnership with Amnet Digital and their dedication towards our digital transformation was commendable. We appreciate their attention to detail, modernization approach, 
-                            incorporation of machine learning & automation of age-old and time-intensive documentation & data deduplication.
+                            incorporation of machine learning & automation of age-old and time-intensive documentation & data deduplication processes.
                             </p>
                         </div>
                     </div>

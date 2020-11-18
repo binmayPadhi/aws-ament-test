@@ -300,7 +300,7 @@ function Test (){
                             {/* <h3 className="card-title">Jamie Lorenzo</h3> */}
                             <p className ="card-text client-role">VP Engineering, Information Management Company</p>
                             <p className="card-text client-desc">We developed a great partnership with Amnet Digital and their dedication towards our digital transformation was commendable. We appreciate their attention to detail, modernization approach, 
-                            incorporation of machine learning & automation of age-old and time-intensive documentation & data deduplication.
+                            incorporation of machine learning & automation of age-old and time-intensive documentation & data deduplication processes.
                             </p>
                         </div>
                     </div>
