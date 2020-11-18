@@ -1,243 +1,5 @@
 const jobDetailsData = [
-    {
-        id : "data-engineer",
-        jobTitle : "Data Engineer",
-        jobLevel : "Mid-Senior level",
-        experience : "8+ years",
-        role : "About the Role",
-        roleDesc : "We are looking for a savvy Data Engineer to join our growing team of analytics experts. The hire will be responsible for expanding and optimizing our data and data pipeline architecture, as well as optimizing data flow and collection for cross functional teams. The ideal candidate is an experienced data pipeline builder and data wrangler who enjoys optimizing data systems and building them from the ground up. The Data Engineer will support our software developers, database architects, data analysts and data scientists on data initiatives and will ensure optimal data delivery architecture is consistent throughout ongoing projects. They must be self-directed and comfortable supporting the data needs of multiple teams, systems and products. The right candidate will be excited by the prospect of optimizing or even re-designing our company’s data architecture to support our next generation of products and data initiatives.",
-        responsibilities : "Your Key Responsibilities",
-        responsibilitiesList: [
-            {   
-                id : 1,
-                list : "Support planning, design, development and delivery of data engineering solutions in alignment with business requirements and design standards."
-            },
-            {
-                id : 2,
-                list : "Design, build, test, and maintain efficient data pipeline architecture to ensure that it supports the requirements of the stakeholders."
-            },
-            {
-                id : 3,
-                list : "Build the infrastructure required for efficient extraction, transformation, and loading of data from a wide variety of data sources."
-            },
-            {
-                id : 4,
-                list : "Develop data set processes for data modeling, mining, and production to deliver data. Delivery of clear, maintainable, and well-tested code in a timely manner Identify, design, and implement internal process."
-            }
-        ],
-        toBring : "What To Bring",
-        toBringLists: [
-            {
-                id : 5,
-                list : "Graduation / post graduation in CSE / IT / ECE."
-            },
-            {
-                id : 6,
-                list : "A minimum of 8+ years of experience in Data Engineering including Talend & Hadoop."
-            },
-            {
-                id : 7,
-                list : "Experience building large scale data engineering solutions and implementation of creative solutions to difficult computational problems (with emphasis on performance and near real-time data analytics)."
-            },
-            {
-                id : 8,
-                list : "Expertise in Talend, Hadoop, Pyspark, Scala, Sqoop, Flume, Kafka."
-            },
-            {
-                id : 9,
-                list : "Experience building big data applications and pipelines using computational environments for large-scale processing (high-performance computing and/or Spark)."
-            },
-            {
-                id : 10,
-                list : "Understanding of ML/DL in big data computing engine. Familiarity with performance tuning skills (Spark, Data I/O)."
-            },
-            {
-                id : 11,
-                list : "Self-motivated, curious, proactive and accountable. Strong communication skills, troubleshooting and problem solving skills."
-            }
-        ]
-    },
-    {
-        id : "data-visualization",
-        jobTitle : "Data Visualization",
-        jobLevel : "Mid-Senior level",
-        experience : "8+ years",
-        role : "About the Role",
-        roleDesc : "The Advanced Data Analytics Visualizer (Business Intelligence Lead) should have strong knowledge on advanced Power BI concepts and will define, develop and deploy dashboards, reports and visualizations to enable metrics-driven decisions to support business needs. The Advanced Data Analytics Visualizer (Business Intelligence Developer) will be able to understand business activities in a multiple business/functional area and be able to capture requirements, identify required data sources, design and develop reports using BI reporting tools, keeping in mind data governance and compliance guidelines.",
-        responsibilities : "Your Key Responsibilities",
-        responsibilitiesList: [
-            {
-                id : 12,
-                list : "Design, develop and test Power BI Applications integrating reporting components from multiple data sources."
-            },
-            {
-                id : 13,
-                list : "Interact with business stakeholders/partners to understand their business and reporting needs, including critical metrics and KPIs."
-            },
-            {
-                id : 14,
-                list : "Transform business requirements & wireframes into guided analytics prototypes to provide business and data insights."
-            },
-            {
-                id : 15,
-                list : "Solicit and document requirements for dashboards, reports and visualization."
-            },
-            {
-                id : 16,
-                list : "Work closely with Advanced Analytics team to provide input on appropriate solutions to meet business requirements."
-            },
-            {
-                id : 17,
-                list : "Work with current reporting standards and processes."
-            },
-            {
-                id : 18,
-                list : "Provide daily support for reporting systems, which includes maintenance and enhancements to reports and dashboards as well as responding to assigned tickets, troubleshooting and final resolution."
-            }
-        ],
-        toBring : "What To Bring",
-        toBringLists: [
-            {
-                id : 19,
-                list : "Hands on experience in working on reporting."
-            },
-            {
-                id : 20,
-                list : "Extensive experience with Advanced Data Analytics Visualization, Power BI, M and DAX."
-            },
-            {
-                id : 21,
-                list : "Expertise in publishing reports to app.powerbi.com and setting up the necessary connection details and scheduling."
-            },
-            {
-                id : 22,
-                list : "Experience in integrating/embedding reports into applications with role/row level security."
-            },
-            {
-                id : 23,
-                list : "Experience in connecting Microsoft Power BI Desktop to various data sources like SQL Server and Big Data."
-            },
-            {
-                id : 24,
-                list : "Expertise in data visualization - present data required for business insight and analytics."
-            },
-            {
-                id : 25,
-                list : "Experience with performance tuning specific to Power BI."
-            },
-            {
-                id : 26,
-                list : "Excellent communication skills to be able to work with business owners to develop and define key business questions and to build specification for the data sets/dashboards that answer those questions."
-            },
-            {
-                id : 27,
-                list : "Experienced in requirements gathering, design, deployment, and on-going enhancements request."
-            },
-            {
-                id : 28,
-                list : "Build prototypes for demonstration and illustration purposes for Business partners, customers or senior leaders."
-            }
-        ]
-    },
-    {
-        id : "qa-lead",
-        jobTitle : "QA Lead / Analyst",
-        jobLevel : "Mid-Senior level",
-        experience : "7+ years",
-        role : "About the Role",
-        roleDesc : `The Quality Assurance Lead / Analyst is responsible for designing, developing, 
-        and executing quality assurance and control processes, test strategies, test plans 
-        and test cases that verify software conformance to defined acceptance criteria and 
-        feature design documents, as well as application standards. Testing will be both manual 
-        and automated. In addition to functional, integration, Regression and Performance testing, 
-        the Testing Specialist is responsible for quality assurance of non-functional areas such as 
-        performance, security and installation/upgrade. The QA should be familiar with Software Quality 
-        Assurance methodologies and be able to clearly communicate concepts to other team members. The 
-        QA will be expected to spend a portion of their time working with internal and external development 
-        teams as well as various business departments.`,
-        responsibilities : "Your Key Responsibilities",
-        responsibilitiesList: [
-            {
-                id : 29,
-                list : "Document and implement test strategies, plans, processes and standards."
-            },
-            {
-                id : 30,
-                list : "Execute testing plans/strategy, create test cases, and user acceptance criteria."
-            },
-            {
-                id : 31,
-                list : "Assist with test execution during test life cycle."
-            },
-            {
-                id : 32,
-                list : "Maintain the defect management life cycle, using a defect tracking tool."
-            },
-            {
-                id : 33,
-                list : "Work with the developer team to ensure all defects are cleared out."
-            },
-            {
-                id : 34,
-                list : "Document defects, reasons, find trends and minimize the defects from happening again."
-            },
-            {
-                id : 35,
-                list : "Provide training."
-            },
-            {
-                id : 36,
-                list : "Maintain system documentation and user guides."
-            }  
-        ],
-        toBring : "What To Bring",
-        toBringLists: [
-            {
-                id : 37,
-                list : "Hands on experience in test Automation framework creation from scratch using Protractor & Selenium."
-            },
-            {
-                id : 38,
-                list : "Should be good at analysing the business requirements and coming up with automation scenarios and test cases for the same."
-            },
-            {
-                id : 39,
-                list : "Working knowledge of API and Web services testing (REST, SOAP UI, Postman etc or similar tools)."
-            },
-            {
-                id : 40,
-                list : "Working knowledge on SQL databases and ETL testing. Should be able to write queries to validate the source and target comparisons and automate the same."
-            },
-            {
-                id : 41,
-                list : "Working experience in analytics projects, with proficiency in popular analytics tools/Platforms leveraging AI/ML/NLP techniques to deliver analytics projects."
-            },
-            {
-                id : 42,
-                list : "Well versed with software quality best practices, Test strategy, Test planning, and automated Test case development."
-            },
-            {
-                id : 43,
-                list : "Experience with all aspects of Devops (Source control, Continuous integration, deployments etc) is an added advantage."
-            },
-            {
-                id : 44,
-                list : "Can do attitude on solving complex business problems with good interpersonal and teamwork skills."
-            },
-            {
-                id : 45,
-                list : "Good experience in Security & Penetration is must."
-            },
-            {
-                id : 46,
-                list : "Performance testing experience using LoadRunner (performing Load, Stress, failover and endurance testing) and performance engineering experience using any of the monitoring tools like Dynatrace or App dynamics."
-            },
-            {
-                id : 47,
-                list : "Identifying performance issues using performance diagnostics tool, analysing the results and sharing observations to the stakeholders/project teams."
-            }
-        ]
-    },
+
     {
         id : "application-engineer",
         jobTitle : "Application Engineer",
@@ -360,6 +122,162 @@ const jobDetailsData = [
             }
         ]
     },
+
+    {
+        id : "data-analyst",
+        jobTitle : "Data Analyst",
+        jobLevel : "Mid-Senior level",
+        experience : "5+ years",
+        role : "About the Role",
+        roleDesc : `We are looking for a detail-oriented and collaborative Data Analyst to join our business analytics team. 
+        The ideal candidate should have experience working with large data sets and understand how to manipulate and analyze 
+        them using various statistical and mathematical methods. Must have prior experience with BI and visualization tools, 
+        have intimate knowledge of Relational Database and Data Warehousing technologies, and have an innate curiosity towards 
+        finding ways to create value for customers from data. The Data Analyst will work alongside product management, 
+        product development, data engineers, and data scientists.`,
+        responsibilities : "Your Key Responsibilities",
+        responsibilitiesList: [
+            {
+                id : 153,
+                list : "Work with a variety of data sources - extracting knowledge and actionable information from massive datasets towards solving business problems."
+            },
+            {
+                id : 154,
+                list : "Own the design of advanced analytics dashboards and KPI reports in our BI tool starting from requirements gathering across sales, product and senior leadership teams to the delivery of final, polished reports in production."
+            },
+            {
+                id : 155,
+                list : "Work closely with the Data Science and Data Engineering team to deliver actionable insights to the organization."
+            },
+            {
+                id : 156,
+                list : "Strong ability to troubleshoot and resolve data-related bugs in a timely manner."
+            },
+            {
+                id : 157,
+                list : "Ability to build tabular and/or visualization reports as needed."
+            },
+            {
+                id : 158,
+                list : "Build and flesh out data models in our Data Warehouse for use in regular and/or automated reporting and analysis."
+            },
+            {
+                id : 159,
+                list : "Evaluate operations for inefficiencies and identify areas where you can create, automate, and develop tools (SQL-based or otherwise)."
+            },
+            {
+                id : 160,
+                list : "Continuously strive for a deeper understanding of our business drivers."
+            },
+            {
+                id : 161,
+                list : "Grow to serve as the team’s subject matter expert for advanced analytics and report design, offering insights and suggestions on what potential problems the team should be solving."
+            }
+        ],
+        toBring : "What To Bring",
+        toBringLists: [
+            {
+                id : 162,
+                list : "5 to 6 years of experience in an analytical role with a heavy focus on querying data, analyzing and clearly presenting analyses to stakeholders across the organization."
+            },
+            {
+                id : 163,
+                list : "Ability to translate between technical metrics and business KPIs and act as a bridge between technical and non-technical internal stakeholders."
+            },
+            {
+                id : 164,
+                list : "A love for insights, innate curiosity, and a deep desire to find ways to create value."
+            },
+            {
+                id : 165,
+                list : "Expertise with SQL and Excel (experience working with Python, HiveQL will be a plus)."
+            },
+            {
+                id : 166,
+                list : "Familiarity with transactional and data warehouse environments."
+            },
+            {
+                id : 167,
+                list : "Experience designing reports, dashboards, and visualizations with a BI product."
+            },
+            {
+                id : 168,
+                list : "Previous experience on a data team in an agile environment preferred."
+            },
+            {
+                id : 169,
+                list : "A flexible, collaborative teammate with the ability to deliver both high level explanations of complex problems while also able to deep dive into complex problems."
+            },
+            {
+                id : 170,
+                list : "Strong communication skills, both verbal and written."
+            },
+            {
+                id : 171,
+                list : "The business sense to understand why you are pulling the data and whether it seems accurate...not just pulling it."
+            }
+        ]
+    },
+
+    {
+        id : "data-engineer",
+        jobTitle : "Data Engineer",
+        jobLevel : "Mid-Senior level",
+        experience : "8+ years",
+        role : "About the Role",
+        roleDesc : "We are looking for a savvy Data Engineer to join our growing team of analytics experts. The hire will be responsible for expanding and optimizing our data and data pipeline architecture, as well as optimizing data flow and collection for cross functional teams. The ideal candidate is an experienced data pipeline builder and data wrangler who enjoys optimizing data systems and building them from the ground up. The Data Engineer will support our software developers, database architects, data analysts and data scientists on data initiatives and will ensure optimal data delivery architecture is consistent throughout ongoing projects. They must be self-directed and comfortable supporting the data needs of multiple teams, systems and products. The right candidate will be excited by the prospect of optimizing or even re-designing our company’s data architecture to support our next generation of products and data initiatives.",
+        responsibilities : "Your Key Responsibilities",
+        responsibilitiesList: [
+            {   
+                id : 1,
+                list : "Support planning, design, development and delivery of data engineering solutions in alignment with business requirements and design standards."
+            },
+            {
+                id : 2,
+                list : "Design, build, test, and maintain efficient data pipeline architecture to ensure that it supports the requirements of the stakeholders."
+            },
+            {
+                id : 3,
+                list : "Build the infrastructure required for efficient extraction, transformation, and loading of data from a wide variety of data sources."
+            },
+            {
+                id : 4,
+                list : "Develop data set processes for data modeling, mining, and production to deliver data. Delivery of clear, maintainable, and well-tested code in a timely manner Identify, design, and implement internal process."
+            }
+        ],
+        toBring : "What To Bring",
+        toBringLists: [
+            {
+                id : 5,
+                list : "Graduation / post graduation in CSE / IT / ECE."
+            },
+            {
+                id : 6,
+                list : "A minimum of 8+ years of experience in Data Engineering including Talend & Hadoop."
+            },
+            {
+                id : 7,
+                list : "Experience building large scale data engineering solutions and implementation of creative solutions to difficult computational problems (with emphasis on performance and near real-time data analytics)."
+            },
+            {
+                id : 8,
+                list : "Expertise in Talend, Hadoop, Pyspark, Scala, Sqoop, Flume, Kafka."
+            },
+            {
+                id : 9,
+                list : "Experience building big data applications and pipelines using computational environments for large-scale processing (high-performance computing and/or Spark)."
+            },
+            {
+                id : 10,
+                list : "Understanding of ML/DL in big data computing engine. Familiarity with performance tuning skills (Spark, Data I/O)."
+            },
+            {
+                id : 11,
+                list : "Self-motivated, curious, proactive and accountable. Strong communication skills, troubleshooting and problem solving skills."
+            }
+        ]
+    },
+    
     {
         id : "data-scientist",
         jobTitle : "Data Scientist",
@@ -444,180 +362,90 @@ const jobDetailsData = [
             }
         ]
     },
+
     {
-        id : "sql-developer",
-        jobTitle : "Senior SSIS & SQL Developer",
-        jobLevel : "Senior level",
-        experience : "9+ years",
+        id : "data-visualization",
+        jobTitle : "Data Visualization",
+        jobLevel : "Mid-Senior level",
+        experience : "8+ years",
         role : "About the Role",
-        roleDesc : `SQL Development with SQL Server 2008, 2012, SQL Server Integration Services (SSIS) 2008 and 2012 The SSIS 
-        Developer will be creating SSIS packages, develop and maintain existing Production SSIS/ DTS Packages , 
-        TSQL Code and Windows batch jobs.`,
+        roleDesc : "The Advanced Data Analytics Visualizer (Business Intelligence Lead) should have strong knowledge on advanced Power BI concepts and will define, develop and deploy dashboards, reports and visualizations to enable metrics-driven decisions to support business needs. The Advanced Data Analytics Visualizer (Business Intelligence Developer) will be able to understand business activities in a multiple business/functional area and be able to capture requirements, identify required data sources, design and develop reports using BI reporting tools, keeping in mind data governance and compliance guidelines.",
         responsibilities : "Your Key Responsibilities",
         responsibilitiesList: [
             {
-                id : 90,
-                list : "Expert Level - Development experience with MS SQL Server, SQL Server Reporting Services and SQL Server Integration Services (SSIS)."
+                id : 12,
+                list : "Design, develop and test Power BI Applications integrating reporting components from multiple data sources."
             },
             {
-                id : 91,
-                list : "Expert Level - Experience in creating Jobs, Alerts, SQL Mail Agent, and schedule DTS/SSIS Package."
+                id : 13,
+                list : "Interact with business stakeholders/partners to understand their business and reporting needs, including critical metrics and KPIs."
             },
             {
-                id : 92,
-                list : "Expert Level - Experience as a SQL Developer or similar role and excellent understanding of T-SQL programming."
+                id : 14,
+                list : "Transform business requirements & wireframes into guided analytics prototypes to provide business and data insights."
             },
             {
-                id : 93,
-                list : "Expert Level - Develop complex SQL scripts, Stored Procedures, Triggers, Functions, and Views."
+                id : 15,
+                list : "Solicit and document requirements for dashboards, reports and visualization."
             },
             {
-                id : 94,
-                list : "Expert Level - Migrating data from various data formats into SQL Server databases using automated import processes (DTS and SSIS packages, etc.). Develop, imports to and extracts from existing SQL databases."
+                id : 16,
+                list : "Work closely with Advanced Analytics team to provide input on appropriate solutions to meet business requirements."
             },
             {
-                id : 95,
-                list : "Expert Level -Data Exploration and ETL: Microsoft BI, Alteryx, Talend Data Integration, Informatica PowerCenter, IBM Infosphere Data Stage etc."
+                id : 17,
+                list : "Work with current reporting standards and processes."
             },
             {
-                id : 96,
-                list : "Expert Level - Experience using Microsoft Technologies (SQL Server 2008/2008 R2/2012/2016, Visual Studio 2008/2010/2012/2015)."
-            },
-            {
-                id : 97,
-                list : "Expert Level -Data Warehouse Solutions: Redshift, Snowflake, Postgres."
-            },
-            {
-                id : 98,
-                list : "Expert Level - Big Data technologies, such as Spark, Hive, NoSQL stores (HBase, Cassandra, DynamoDB, MongoDB)."
+                id : 18,
+                list : "Provide daily support for reporting systems, which includes maintenance and enhancements to reports and dashboards as well as responding to assigned tickets, troubleshooting and final resolution."
             }
         ],
         toBring : "What To Bring",
         toBringLists: [
             {
-                id : 99,
-                list : "Strong Structured Query Language (SQL) skills."
+                id : 19,
+                list : "Hands on experience in working on reporting."
             },
             {
-                id : 100,
-                list : "Fluent in MDX and T-SQL programming language, including stored procedures and user-defined functions."
+                id : 20,
+                list : "Extensive experience with Advanced Data Analytics Visualization, Power BI, M and DAX."
             },
             {
-                id : 101,
-                list : "Strong analytical, quantitative, problem solving, and organizational skills; attention to detail; and ability to coordinate multiple tasks, set priorities, and meet deadlines."
+                id : 21,
+                list : "Expertise in publishing reports to app.powerbi.com and setting up the necessary connection details and scheduling."
             },
             {
-                id : 102,
-                list : "Seek a self-starter who can work effectively as a member of a team or independently as the assignment requires. Excellent interpersonal skills and a successful track record of collaboration toward achieving objectives expected."
+                id : 22,
+                list : "Experience in integrating/embedding reports into applications with role/row level security."
             },
             {
-                id : 103,
-                list : "Demonstrated ability to perform complex queries, assess data quality, and develop data mappings."
+                id : 23,
+                list : "Experience in connecting Microsoft Power BI Desktop to various data sources like SQL Server and Big Data."
             },
             {
-                id : 104,
-                list : "Experience with scripting languages such as PowerShell and VBScript."
+                id : 24,
+                list : "Expertise in data visualization - present data required for business insight and analytics."
             },
             {
-                id : 105,
-                list : "Design and develop ETL Processes that will transform a variety of raw data such as flat files, xl spreadsheets into SQL Databases."
+                id : 25,
+                list : "Experience with performance tuning specific to Power BI."
             },
             {
-                id : 106,
-                list : "Experience with other Microsoft languages and technologies, including VB.Net, C#.Net preferred."
+                id : 26,
+                list : "Excellent communication skills to be able to work with business owners to develop and define key business questions and to build specification for the data sets/dashboards that answer those questions."
             },
             {
-                id : 107,
-                list : "Experience with version control software such as TFS and Git."
+                id : 27,
+                list : "Experienced in requirements gathering, design, deployment, and on-going enhancements request."
+            },
+            {
+                id : 28,
+                list : "Build prototypes for demonstration and illustration purposes for Business partners, customers or senior leaders."
             }
         ]
     },
-    {
-        id : "hadoop-developer",
-        jobTitle : "Senior HADOOP Developer",
-        jobLevel : "Senior level",
-        experience : "9+ years",
-        role : "About the Role",
-        roleDesc : `The candidate will be the part of Analytical experts of the organization who would help in expanding and 
-        optimizing data, support data initiatives and data structure. The candidate is expected to have a good command 
-        over technology and languages like Python, Hadoop, Apache Spark (SparkR, Sparklyr), C, C++ or Java, etc. Repository 
-        maintenance in Git/ GitHub, experience in maintaining security policies on Hadoop. Performance tuning in Spark, experience 
-        in setting up best practices in Hadoop and Spark based projects.`,
-        responsibilities : "Your Key Responsibilities",
-        responsibilitiesList: [
-            {
-                id : 108,
-                list : "Develop detailed ETL specifications based on business requirements."
-            },
-            {
-                id : 109,
-                list : "Analyze functional specifications and assist in designing potential technical solutions."
-            },
-            {
-                id : 110,
-                list : "Identifies data sources and works with source system team and data analyst to define data extraction methodologies."
-            },
-            {
-                id : 111,
-                list : "Unit Integration testing activities and assist in User Acceptance Testing."
-            },
-            {
-                id : 112,
-                list : "Cross functional and ability to tackle any environment, willing to jump into other development roles as needed."
-            },
-            {
-                id : 113,
-                list : "Lead projects and direct activities of a team related to special initiatives or operations."
-            },
-            {
-                id : 114,
-                list : "Collaborate with programmers in diverse geographical locations to coordinate delivery."
-            },
-            {
-                id : 115,
-                list : "Knowledgeable of open source and commercial analytic packages to architect solutions in big data platform."
-            },
-            {
-                id : 116,
-                list : "Understanding of advanced analytics (such as predictive, prescriptive.) and tool sets."
-            }
-        ],
-        toBring : "What To Bring",
-        toBringLists: [
-            {
-                id : 117,   
-                list : "5+ years’ work experience with Big Data Framework Hadoop (Spark, HBase, HDFS etc.)"
-            },
-            {
-                id : 118,
-                list : "Hands on experience building a Hadoop based Data Lake or warehouse."
-            },
-            {
-                id : 119,
-                list : "Experience with traditional ETL technologies and Hadoop Sqoop and Hadoop Flume."
-            },
-            {
-                id : 120,
-                list : "Excellent problem solving and analytical skills."
-            },
-            {
-                id : 121,
-                list : "Excellent verbal and written communication skills."
-            },
-            {
-                id : 122,
-                list : "Experience in optimizing large data loads."
-            },
-            {
-                id : 123,
-                list : "Good experience in participating in design, development, implementation, troubleshooting and optimizing distributed solutions based on modern big data technologies like Hive, Hadoop, Impala, etc."
-            },
-            {
-                id : 124,
-                list : "Experience in any of Scheduling Tools - Tivoli, Autosys, Ctrl-M, CA etc."
-            }
-        ]
-    },
+
     {
         id : "graphic-designer",
         jobTitle : "Graphic Designer",
@@ -674,6 +502,7 @@ const jobDetailsData = [
             }
         ]
     },
+
     {
         id : "product-manager",
         jobTitle : "Product Manager",
@@ -767,7 +596,282 @@ const jobDetailsData = [
                 list : "Reasonable understanding of Enterprise Systems Integration & deployment models."
             }
         ]
-    }
+    },
+
+    {
+        id : "qa-lead",
+        jobTitle : "QA Lead / Analyst",
+        jobLevel : "Mid-Senior level",
+        experience : "7+ years",
+        role : "About the Role",
+        roleDesc : `The Quality Assurance Lead / Analyst is responsible for designing, developing, 
+        and executing quality assurance and control processes, test strategies, test plans 
+        and test cases that verify software conformance to defined acceptance criteria and 
+        feature design documents, as well as application standards. Testing will be both manual 
+        and automated. In addition to functional, integration, Regression and Performance testing, 
+        the Testing Specialist is responsible for quality assurance of non-functional areas such as 
+        performance, security and installation/upgrade. The QA should be familiar with Software Quality 
+        Assurance methodologies and be able to clearly communicate concepts to other team members. The 
+        QA will be expected to spend a portion of their time working with internal and external development 
+        teams as well as various business departments.`,
+        responsibilities : "Your Key Responsibilities",
+        responsibilitiesList: [
+            {
+                id : 29,
+                list : "Document and implement test strategies, plans, processes and standards."
+            },
+            {
+                id : 30,
+                list : "Execute testing plans/strategy, create test cases, and user acceptance criteria."
+            },
+            {
+                id : 31,
+                list : "Assist with test execution during test life cycle."
+            },
+            {
+                id : 32,
+                list : "Maintain the defect management life cycle, using a defect tracking tool."
+            },
+            {
+                id : 33,
+                list : "Work with the developer team to ensure all defects are cleared out."
+            },
+            {
+                id : 34,
+                list : "Document defects, reasons, find trends and minimize the defects from happening again."
+            },
+            {
+                id : 35,
+                list : "Provide training."
+            },
+            {
+                id : 36,
+                list : "Maintain system documentation and user guides."
+            }  
+        ],
+        toBring : "What To Bring",
+        toBringLists: [
+            {
+                id : 37,
+                list : "Hands on experience in test Automation framework creation from scratch using Protractor & Selenium."
+            },
+            {
+                id : 38,
+                list : "Should be good at analysing the business requirements and coming up with automation scenarios and test cases for the same."
+            },
+            {
+                id : 39,
+                list : "Working knowledge of API and Web services testing (REST, SOAP UI, Postman etc or similar tools)."
+            },
+            {
+                id : 40,
+                list : "Working knowledge on SQL databases and ETL testing. Should be able to write queries to validate the source and target comparisons and automate the same."
+            },
+            {
+                id : 41,
+                list : "Working experience in analytics projects, with proficiency in popular analytics tools/Platforms leveraging AI/ML/NLP techniques to deliver analytics projects."
+            },
+            {
+                id : 42,
+                list : "Well versed with software quality best practices, Test strategy, Test planning, and automated Test case development."
+            },
+            {
+                id : 43,
+                list : "Experience with all aspects of Devops (Source control, Continuous integration, deployments etc) is an added advantage."
+            },
+            {
+                id : 44,
+                list : "Can do attitude on solving complex business problems with good interpersonal and teamwork skills."
+            },
+            {
+                id : 45,
+                list : "Good experience in Security & Penetration is must."
+            },
+            {
+                id : 46,
+                list : "Performance testing experience using LoadRunner (performing Load, Stress, failover and endurance testing) and performance engineering experience using any of the monitoring tools like Dynatrace or App dynamics."
+            },
+            {
+                id : 47,
+                list : "Identifying performance issues using performance diagnostics tool, analysing the results and sharing observations to the stakeholders/project teams."
+            }
+        ]
+    },
+    {
+        id : "hadoop-developer",
+        jobTitle : "Senior HADOOP Developer",
+        jobLevel : "Senior level",
+        experience : "9+ years",
+        role : "About the Role",
+        roleDesc : `The candidate will be the part of Analytical experts of the organization who would help in expanding and 
+        optimizing data, support data initiatives and data structure. The candidate is expected to have a good command 
+        over technology and languages like Python, Hadoop, Apache Spark (SparkR, Sparklyr), C, C++ or Java, etc. Repository 
+        maintenance in Git/ GitHub, experience in maintaining security policies on Hadoop. Performance tuning in Spark, experience 
+        in setting up best practices in Hadoop and Spark based projects.`,
+        responsibilities : "Your Key Responsibilities",
+        responsibilitiesList: [
+            {
+                id : 108,
+                list : "Develop detailed ETL specifications based on business requirements."
+            },
+            {
+                id : 109,
+                list : "Analyze functional specifications and assist in designing potential technical solutions."
+            },
+            {
+                id : 110,
+                list : "Identifies data sources and works with source system team and data analyst to define data extraction methodologies."
+            },
+            {
+                id : 111,
+                list : "Unit Integration testing activities and assist in User Acceptance Testing."
+            },
+            {
+                id : 112,
+                list : "Cross functional and ability to tackle any environment, willing to jump into other development roles as needed."
+            },
+            {
+                id : 113,
+                list : "Lead projects and direct activities of a team related to special initiatives or operations."
+            },
+            {
+                id : 114,
+                list : "Collaborate with programmers in diverse geographical locations to coordinate delivery."
+            },
+            {
+                id : 115,
+                list : "Knowledgeable of open source and commercial analytic packages to architect solutions in big data platform."
+            },
+            {
+                id : 116,
+                list : "Understanding of advanced analytics (such as predictive, prescriptive.) and tool sets."
+            }
+        ],
+        toBring : "What To Bring",
+        toBringLists: [
+            {
+                id : 117,   
+                list : "5+ years’ work experience with Big Data Framework Hadoop (Spark, HBase, HDFS etc.)"
+            },
+            {
+                id : 118,
+                list : "Hands on experience building a Hadoop based Data Lake or warehouse."
+            },
+            {
+                id : 119,
+                list : "Experience with traditional ETL technologies and Hadoop Sqoop and Hadoop Flume."
+            },
+            {
+                id : 120,
+                list : "Excellent problem solving and analytical skills."
+            },
+            {
+                id : 121,
+                list : "Excellent verbal and written communication skills."
+            },
+            {
+                id : 122,
+                list : "Experience in optimizing large data loads."
+            },
+            {
+                id : 123,
+                list : "Good experience in participating in design, development, implementation, troubleshooting and optimizing distributed solutions based on modern big data technologies like Hive, Hadoop, Impala, etc."
+            },
+            {
+                id : 124,
+                list : "Experience in any of Scheduling Tools - Tivoli, Autosys, Ctrl-M, CA etc."
+            }
+        ]
+    },
+    {
+        id : "sql-developer",
+        jobTitle : "Senior SSIS & SQL Developer",
+        jobLevel : "Senior level",
+        experience : "9+ years",
+        role : "About the Role",
+        roleDesc : `SQL Development with SQL Server 2008, 2012, SQL Server Integration Services (SSIS) 2008 and 2012 The SSIS 
+        Developer will be creating SSIS packages, develop and maintain existing Production SSIS/ DTS Packages , 
+        TSQL Code and Windows batch jobs.`,
+        responsibilities : "Your Key Responsibilities",
+        responsibilitiesList: [
+            {
+                id : 90,
+                list : "Expert Level - Development experience with MS SQL Server, SQL Server Reporting Services and SQL Server Integration Services (SSIS)."
+            },
+            {
+                id : 91,
+                list : "Expert Level - Experience in creating Jobs, Alerts, SQL Mail Agent, and schedule DTS/SSIS Package."
+            },
+            {
+                id : 92,
+                list : "Expert Level - Experience as a SQL Developer or similar role and excellent understanding of T-SQL programming."
+            },
+            {
+                id : 93,
+                list : "Expert Level - Develop complex SQL scripts, Stored Procedures, Triggers, Functions, and Views."
+            },
+            {
+                id : 94,
+                list : "Expert Level - Migrating data from various data formats into SQL Server databases using automated import processes (DTS and SSIS packages, etc.). Develop, imports to and extracts from existing SQL databases."
+            },
+            {
+                id : 95,
+                list : "Expert Level -Data Exploration and ETL: Microsoft BI, Alteryx, Talend Data Integration, Informatica PowerCenter, IBM Infosphere Data Stage etc."
+            },
+            {
+                id : 96,
+                list : "Expert Level - Experience using Microsoft Technologies (SQL Server 2008/2008 R2/2012/2016, Visual Studio 2008/2010/2012/2015)."
+            },
+            {
+                id : 97,
+                list : "Expert Level -Data Warehouse Solutions: Redshift, Snowflake, Postgres."
+            },
+            {
+                id : 98,
+                list : "Expert Level - Big Data technologies, such as Spark, Hive, NoSQL stores (HBase, Cassandra, DynamoDB, MongoDB)."
+            }
+        ],
+        toBring : "What To Bring",
+        toBringLists: [
+            {
+                id : 99,
+                list : "Strong Structured Query Language (SQL) skills."
+            },
+            {
+                id : 100,
+                list : "Fluent in MDX and T-SQL programming language, including stored procedures and user-defined functions."
+            },
+            {
+                id : 101,
+                list : "Strong analytical, quantitative, problem solving, and organizational skills; attention to detail; and ability to coordinate multiple tasks, set priorities, and meet deadlines."
+            },
+            {
+                id : 102,
+                list : "Seek a self-starter who can work effectively as a member of a team or independently as the assignment requires. Excellent interpersonal skills and a successful track record of collaboration toward achieving objectives expected."
+            },
+            {
+                id : 103,
+                list : "Demonstrated ability to perform complex queries, assess data quality, and develop data mappings."
+            },
+            {
+                id : 104,
+                list : "Experience with scripting languages such as PowerShell and VBScript."
+            },
+            {
+                id : 105,
+                list : "Design and develop ETL Processes that will transform a variety of raw data such as flat files, xl spreadsheets into SQL Databases."
+            },
+            {
+                id : 106,
+                list : "Experience with other Microsoft languages and technologies, including VB.Net, C#.Net preferred."
+            },
+            {
+                id : 107,
+                list : "Experience with version control software such as TFS and Git."
+            }
+        ]
+    },
+    
 ]
 
 

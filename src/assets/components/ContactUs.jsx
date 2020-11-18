@@ -75,7 +75,7 @@ function TestContactUs (){
             {/* <!-- CONTACT US PAGE CONTACT FORM --> */}
 
 
-            <div className="new-contact-us-page new-all-margin" style={{marginTop:"80px"}}>
+            <div className="new-contact-us-page new-all-margin" style={{marginTop:"80px", marginBottom:"100px"}}>
                 <div className="row no-gutters" style={{height:"520px"}}>
                     <div className="col-lg-6">
                     <div className="contact-form-user-details">

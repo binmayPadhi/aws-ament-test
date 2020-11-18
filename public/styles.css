@@ -357,7 +357,7 @@ body{
 
 .about-details-header {
     font-family: 'Poppins', sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 800;
     color: #ffffff;
 }
@@ -1873,7 +1873,7 @@ label{
 }
 
 .contact-us-location{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 
