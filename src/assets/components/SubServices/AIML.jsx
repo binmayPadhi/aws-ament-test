@@ -163,38 +163,9 @@ function AIML ({match}){
                                         <SubServiceCareer careerBg={serviceDetail.subCareerBG}/>
                                     )
                                 })}
-
-                               
                             </>
                         );
                     }
 
 export default AIML;
-
-
-// <div key={dataDetail.id} className="service-all-margin" style={{marginTop:"45px"}}>
-//                                         <div className="row" >
-//                                                         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 desc">
-//                                                         <div className="row no-gutters sub-service-img-right-desc">
-//                                                                 <div className="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12">
-//                                                                     <span>
-//                                                                         <img src= {dataDetail.icon} className="img-fluid about-icons" alt = "end to end" />
-//                                                                     </span>
-//                                                                 </div>
-//                                                                 <div className="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
-//                                                                     <h2>
-//                                                                         {dataDetail.title}
-//                                                                     </h2>
-//                                                                     <p>
-//                                                                         {dataDetail.description}
-//                                                                     </p>
-//                                                                 </div>
-//                                                             </div>
-//                                                             </div>
-//                                                         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
-//                                                             <img src={dataDetail.imgSrc} alt="image" className="img-fluid" />
-//                                                         </div>
-//                                                     </div>
-//                                     </div>
-
 
