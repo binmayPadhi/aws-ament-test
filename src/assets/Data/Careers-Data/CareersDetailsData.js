@@ -1,4 +1,5 @@
-import listIcon from "../../images/HomePage/list-icon.png";
+// import listIcon from "../../images/HomePage/list-icon.png";
+import AIIcon from "../../images/HomePage/ai-icon.png";
 
 const careersDetailsData = [
     {
@@ -6,14 +7,14 @@ const careersDetailsData = [
         listOne : "Fast growing AI / ML based product development company",
         listTwo : "Seek new challenges and solve tough problems",
         listThree : "An atmosphere where learning is always on the to-do list",
-        listIcon : listIcon
+        listIcon : AIIcon
     },
     {
         id : 2,
         listOne : "Talented, highly experienced and a supportive team",
         listTwo : "Take charge as much as you can and show excellence",
         listThree : "Flat organization and transparency in decision making",
-        listIcon : listIcon
+        listIcon : AIIcon
     }
 ];
 

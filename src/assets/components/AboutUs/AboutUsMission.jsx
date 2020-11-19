@@ -4,7 +4,7 @@ import aboutUsMissionData from "../../Data/AboutUs-Data/AboutUsMissionData";
 function AboutUsMission (){
     return (
         <>
-            <div className="about-us-page-details all-margin" >
+            <div className="about-us-page-details new-all-margin" >
 
                 <div className="row about-us-page-row ml-0 mr-0">
 

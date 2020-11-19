@@ -1,5 +1,6 @@
 import React from "react";
 import JobDetailsData from "../../../Data/Careers-Data/JobOpeningsData/JobDetailsData";
+import careerListIcon from "../../../images/careers-page/job-list-arrow.png";
 
 function JobDetails (){
     return (
@@ -15,7 +16,11 @@ function JobDetails (){
                                     {data.jobTitle}
                                     {/* {data.jobTitle.length > 15 ? data.jobTitle.substring(0,15)+"..." : data.jobTitle } */}
                                 </button>
-                                <span className="job-icon"><i className="fa fa-arrow-down" aria-hidden="true"></i></span>
+                                <span className="job-icon"><img src={careerListIcon} className="img-fluid career-job-icon" alt="icon" /></span>
+                                {/* <div className="career-job-icon">
+                                    <img src={careerListIcon} className="img-fluid" alt="icon" />
+                                </div> */}
+                                
                             </h5>
                         </div>
                     </div>
@@ -24,6 +29,11 @@ function JobDetails (){
                         <div className="card-body">
                             {/* <h1 className = "text-center">{data.jobTitle}</h1> */}
                             <div className="job-desc-card-info">
+                                <div className="experience-info">
+                                    <div className="info"><h3><span>Job Level : </span>{data.jobLevel}</h3></div>
+                                    <div className="info "><h3><span>Experience : </span>{data.experience}</h3></div>
+                                    <div className="info"><h3><span>Location : </span>Hyderabad, India</h3></div>
+                                </div>
                                 <h1>{data.role}</h1>
                                 <p>
                                     {data.roleDesc}

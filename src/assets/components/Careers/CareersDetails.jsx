@@ -7,11 +7,11 @@ function CareersDetails (){
             {/* <!-- CAREER-PAGE-DETAILS-SECTION --> */}
 
             <div className="careers-page-header text-center mt-5" id="details">
-                <h3 className="section-header" >LET'S DO IT</h3>
-                <h1 className="section-title mt-3">Working With Us</h1>     
+                {/* <h3 className="section-header" >LET'S DO IT</h3> */}
+                <h1 className="section-title mt-3">WORKING WITH US</h1>     
             </div>
 
-            <div className="careers-page-details all-margin">
+            <div className="careers-page-details new-all-margin">
                 <p>Amnet Digital is made up of a bunch of passionate people whose sole focus is to reimagine & 
                     redefine products and solutions. Be a part of fun-loving and people friendly company! Write to 
                     <span><a href="mailto:careers@amnetdigital.com"> careers@amnetdigital.com</a></span>.
@@ -21,7 +21,7 @@ function CareersDetails (){
 
                     {CareersDetailsData.map(list => {
                         return(
-                            <div className="col-lg-6" key={list.id}>
+                            <div className="col-lg-6 career-page-details-column" key={list.id}>
                                 <ul className="careers-details-lists">
                                     <li>
                                         <span>

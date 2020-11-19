@@ -1,34 +1,35 @@
-import caLogo from "../../images/HomePage/partner-logos/amnet-client-ca-logo.png";
-import apptivoLogo from "../../images/HomePage/partner-logos/amnet-client-apptivo-logo.png";
-import peoplePrimeLogo from "../../images/HomePage/partner-logos/amnet-client-people-prime-logo.png";
-import profitLogo from "../../images/HomePage/partner-logos/amnet-client-profit-logo.png";
-import prestonLogo from "../../images/HomePage/partner-logos/amnet-client-preston-logo.png";
-import teamleaseLogo from "../../images/HomePage/partner-logos/amnet-client-teamlease-logo.png";
+import microsoftLogo from "../../images/HomePage/partner-logos/microsoft.png";
+import googleLogo from "../../images/HomePage/partner-logos/google.png";
+import talendLogo from "../../images/HomePage/partner-logos/talend.png";
+import hadoopLogo from "../../images/HomePage/partner-logos/hadoop.png";
+import nifiLogo from "../../images/HomePage/partner-logos/nifi.png";
+import siliconLogo from "../../images/HomePage/partner-logos/silicon.png";
 
 const ourPartnerData = [
     {
         id : 1,
-        partnerLogo : caLogo
+        activeClass: "active",
+        partnerLogo : microsoftLogo
     },
     {
         id : 2,
-        partnerLogo : apptivoLogo
+        partnerLogo : googleLogo
     },
     {
         id : 3,
-        partnerLogo : peoplePrimeLogo
+        partnerLogo : talendLogo
     },
     {
         id : 4,
-        partnerLogo : profitLogo
+        partnerLogo : hadoopLogo
     },
     {
         id : 5,
-        partnerLogo : prestonLogo
+        partnerLogo : nifiLogo
     },
     {
         id : 6,
-        partnerLogo : teamleaseLogo
+        partnerLogo : siliconLogo
     }
 ];
 

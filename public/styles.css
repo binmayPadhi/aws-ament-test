@@ -52,7 +52,7 @@ body{
     position: fixed;
     background-color: #0C0C0C;
     width: 100%;
-    height: 75px;
+    height: 85px;
     vertical-align: middle;
     z-index: 99;
 }
@@ -64,14 +64,47 @@ body{
     box-shadow: none;
 }
 
+.navbar {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 0rem !important;
+}
+
 .navbar-nav .active a{
-    color: #9de0d2;    
+    color: #9de0d2;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .8225rem !important;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    margin-left: 100px;
+}
+
+.navbar-nav{
+    margin-right: 100px;
+    margin-left: auto;
 }
 
 .navbar-brand .logo{
     width: 244px;
     height: 54px;
 }
+
 .navbar-nav .menu{
     padding: 0px 20px;
 }
@@ -92,20 +125,25 @@ body{
     flex-direction: column;
     margin-top: 5px;
 }
-  
+
 .custom-toggler.navbar-toggler {
     border-color: none;
-} 
+}
 
 .navbar-nav .contactus-button{
  text-decoration : "none";
  color: white;
  font-size: 1.5rem;
- padding: 10px;
- margin-top: 5px;
+ font-weight: 800;
+ padding: 10px 10px;
+ margin-top: 15px;
  background-color: #FD5D14;
  transition: .5s;
  border-radius: 4px;
+ text-align: center;
+ height: 45px;
+ width: 120px;
+ margin-left: 10px;
 }
 
 .navbar-nav .contactus-button:hover{
@@ -186,7 +224,7 @@ body{
     font-weight: 400;
     font: normal normal 600 15px/25px Poppins;
     letter-spacing: 0px;
-    
+
 }
 
 .homepage-intro-btn .btn-default{
@@ -203,7 +241,7 @@ body{
 /* verticla line */
 .vr{
     position: absolute;
-    top: 240px; 
+    top: 240px;
     left: 140px;
     width: 12px;
     height: 229px;
@@ -271,7 +309,7 @@ body{
 .solutions-services-lists{
     margin-top: 35px;
     padding-inline-start: 0px;
-    
+
 }
 
 .solutions-services-lists li{
@@ -284,9 +322,10 @@ body{
     list-style: none;
 }
 
-.list-icon{
-    width: 8px;
-    height: 8px;
+.careers-details-lists .list-icon {
+    width: 50px;
+    
+    padding-bottom: 5px;
     margin-right: 5px;
 }
 
@@ -307,28 +346,35 @@ body{
 }
 
 .about-details-row{
-    padding: 45px 25px;
+    padding: 45px 0px;
 }
 
 .about-details-header img{
-   width: 60px;
-   height: 60px;
+   width: 50px;
+   height: 50px;
    margin-right: 10px;
 }
 
 .about-details-header {
     font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
-    font-weight: 1000;
+    font-size: 2.5rem;
+    font-weight: 800;
     color: #ffffff;
 }
 
 .homepage-about-details p{
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #ffffff;
-    margin-left: 80px;
+    margin-left: 70px;
     opacity: 0.8;
+    padding-right: 30px;
+}
+
+.homepage-quote p{
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 10px 0px;
 }
 
 
@@ -424,7 +470,7 @@ body{
     border-radius: 50%;
     background-color: #ffffff;
     box-shadow: 3px 6px 16px #00000029;
-    margin-top: 50px;    
+    margin-top: 50px;
 }
 
  .carousel .carousel-indicators .active{
@@ -432,7 +478,7 @@ body{
     width: 15px;
     border-radius: 50%;
     background-color: #6d6d6d;
-    margin-bottom: -20rem; 
+    margin-bottom: -20rem;
  }
 
 .carousel-indicators{
@@ -460,7 +506,7 @@ body{
 }
 
 .partner-logo img{
-    width: 120px;
+    width: 150px;
     height: auto;
     display: block;
 }
@@ -514,7 +560,7 @@ body{
     box-shadow: 3px 6px 16px #00000029;
     border-style: none;
     height: 320px;
-    
+
 }
 
 .case-studies .explore-all-link{
@@ -533,9 +579,9 @@ body{
 .career-section{
     transform: translate(0%,-40%);
 }
-.career-section-row{
+/* .career-section-row{
     box-shadow: 0px 3px 6px #00000029;
-}
+} */
 
 .career{
     margin-top: 200px;
@@ -561,7 +607,7 @@ body{
 
 .career-caption h2{
     font-family: 'Poppins', sans-serif;
-    font-size: 3.2rem;
+    font-size: 4.5rem;
     font-weight: 800;
 }
 
@@ -593,7 +639,7 @@ body{
 .footer{
     background-color: #0C0C0C;
     color: white;
-    margin-top: 80px;
+    margin-top: 0px;
 }
 
 .footer h2{
@@ -633,6 +679,7 @@ body{
 }
 
 hr{
+    margin-top: 4rem !important;
     width: 100%;
     border-color: white;
     background-color: white;
@@ -653,7 +700,7 @@ hr{
     width: 50px;
     text-align: center;
     text-decoration: none;
-    margin: 25px 5px 2px 0px;
+    margin: 25px 10px 2px 0px;
     border-color: white;
     background-color: #18AE8E;
     border-style: solid;
@@ -671,12 +718,12 @@ hr{
     background: #55ACEE;
     color: white;
 }
-  
+
 .fa-instagram {
     background: #125688;
     color: white;
   }
-  
+
 .fa-linkedin {
     background: #007bb5;
     color: white;
@@ -693,10 +740,33 @@ hr{
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
 
+    nav.navbar{
+        max-height: 100vh;
+        overflow: auto;
+       /* -webkit-overflow-scrolling: touch; */
+    }
+
+    .navbar-nav {
+        margin-right: 0px;
+    }
+    .navbar-brand{
+        margin-left: 21px;
+    }
+    .navbar-toggler{
+        margin-right: 21px;
+    }
+
+    .navigation-bar{
+        height: 75px;
+    }
+    .navbar-toggler {
+        padding: .25rem .75rem 1.15rem !important;
+    }
+
     .section-header{
         font-size: 1.5rem;
     }
-    
+
     .section-title{
         font-size: 3rem;
     }
@@ -708,7 +778,7 @@ hr{
         width: 170px;
     }
     .navigation-bar{
-        text-align: center;
+        text-align: left;
     }
     .navbar-collapse{
         background-color:  #0C0C0C;
@@ -778,7 +848,7 @@ hr{
         width: 30px;
         height: 30px;
      }
-    
+
 
 
     /* HOMEPAGE ABOUT DETAILS */
@@ -817,7 +887,7 @@ hr{
     .our-services{
         height: 550px;
     }
-    
+
     .service-card .card-body{
         padding: 20px 10px;
         height: 230px;
@@ -863,7 +933,7 @@ hr{
     .career-caption h5{
         font-size: 1.8rem;
     }
-    
+
     .career-caption h2{
         font-size: 2.5rem;
     }
@@ -879,7 +949,7 @@ hr{
     /* FOOTER  */
 
     .footer{
-        margin-top: 120px;
+        margin-top:0px;
     }
 
     .useful-links{
@@ -892,19 +962,19 @@ hr{
         font-size: 1.3rem;
         font-weight: 600;
     }
-    
+
     .footer p{
         font-size: 1rem;
     }
-    
+
     .useful-links li{
         font-size: 1rem;
     }
     .useful-links li a{
         font-size: 1rem;
-        
+
     }
-    
+
     .amnet-copyright{
         margin-left: 0;
     }
@@ -918,13 +988,35 @@ hr{
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
 
+    nav.navbar{
+        max-height: 100vh;
+        overflow: auto;
+       /* -webkit-overflow-scrolling: touch; */
+    }
+
+    .navbar-nav {
+        margin-right: 0px;
+    }
+    .navbar-brand{
+        margin-left: 21px;
+    }
+    .navbar-toggler{
+        margin-right: 21px;
+    }
+
+    .navigation-bar{
+        height: 75px;
+    }
+    .navbar-toggler {
+        padding: .25rem .75rem 1.15rem !important;
+    }
 
     .section-header{
         font-size: 1.5rem;
     }
-    
+
     .section-title{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .all-margin{
@@ -935,7 +1027,7 @@ hr{
         /* height: 43px; */
     }
     .navigation-bar{
-        text-align: center;
+        text-align: left;
     }
     .navbar-collapse{
         background-color:  #0C0C0C;
@@ -1004,7 +1096,7 @@ hr{
         width: 30px;
         height: 30px;
      }
-    
+
 
 
     /* HOMEPAGE ABOUT DETAILS */
@@ -1025,7 +1117,7 @@ hr{
         margin-left: 50px;
     }
     .homepage-about-details h3{
-        font-size: 1.5rem;   
+        font-size: 1.5rem;
     }
 
     /* INDUSTRIES SECTION */
@@ -1088,7 +1180,7 @@ hr{
     .career-caption h5{
         font-size: 1.8rem;
     }
-    
+
     .career-caption h2{
         font-size: 2.5rem;
     }
@@ -1104,7 +1196,7 @@ hr{
     /* FOOTER  */
 
     .footer{
-        margin-top: 120px;
+        margin-top: 0px;
     }
 
     .useful-links{
@@ -1116,13 +1208,13 @@ hr{
         font-size: 1.3rem;
         font-weight: 600;
     }
-    
+
     .footer p{
         font-size: 1rem;
         /* display: flex;
         flex-direction: column; */
     }
-    
+
     .useful-links li{
         font-size: 1rem;
     }
@@ -1170,17 +1262,44 @@ hr{
 
 /* FOR MEDIUM DEVICES 834PX */
 /* ...................................................................................................................... */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    nav.navbar{
+        max-height: 100vh;
+        overflow: auto;
+       /* -webkit-overflow-scrolling: touch; */
+       }
+       .navigation-bar{
+        height: 75px;
+    }
+    .navbar-toggler {
+        padding: .25rem .75rem 1.15rem !important;
+    }
+    .navbar-nav {
+        margin-right: 0px;
+        margin-left: 70px !important;
+    }
+
+}
+
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     /* *{
         font-size: 30%;
     } */
+
     .section-header{
         font-size: 1.5rem;
     }
-    
+
     .section-title{
         font-size: 3rem;
+    }
+
+    .navbar-brand{
+        margin-left: 81px;
+    }
+    .navbar-toggler{
+        margin-right: 81px;
     }
 
     .all-margin{
@@ -1191,7 +1310,7 @@ hr{
         /* height: 43px; */
     }
     .navigation-bar{
-        text-align: center;
+        text-align: left;
     }
     .navbar-collapse{
         background-color:  #0C0C0C;
@@ -1222,7 +1341,7 @@ hr{
     }
     .homepage-intro-btn .btn-default{
         margin-top: 0px;
-        
+
     }
     .vr{
         top:230px;
@@ -1260,7 +1379,7 @@ hr{
     .solutions-services-lists{
         padding-inline-start: 0px;
     }
-    
+
 
     /* HOMEPAGE ABOUT DETAILS */
     .homepage-about-details{
@@ -1281,9 +1400,9 @@ hr{
         font-size: 1.5rem;
         margin-left: 80px;
     }
-   
+
     .marginRow{
-        margin-bottom:0px !important; 
+        margin-bottom:0px !important;
     }
 
     /* INDUSTRIES SECTION */
@@ -1357,7 +1476,7 @@ hr{
     .career-caption h5{
         font-size: 1.8rem;
     }
-    
+
     .career-caption h2{
         font-size: 5rem;
     }
@@ -1382,7 +1501,7 @@ hr{
         font-size: 1.5rem;
         font-weight: 600;
     }
-    
+
     .footer p{
         font-size: 1.5rem;
     }
@@ -1390,7 +1509,7 @@ hr{
     .useful-links{
         margin-top: 20px;
     }
-    
+
     .useful-links li{
         font-size: 1.3rem;
     }
@@ -1406,12 +1525,24 @@ hr{
 /* ...................................................................................................................... */
 
 @media only screen and (min-width: 834px) and (max-width: 1024px) {
+
+    /* DROPDOWN MENU */
+
+    .dropdown-content .nav-first-column {
+        margin-left: 81px !important;
+    }
+
+
+    .dropdown-content .extra-column{
+        margin-left: 81px;
+    }
+
     .navbar-collapse{
         background-color:transparent;
         padding: 0px;
         z-index: 1;
     }
-    
+
     .industry-card .card-body{
         transform: translate(25%, 140%);
     }
@@ -1445,6 +1576,10 @@ hr{
 /* ...................................................................................................................... */
 
 @media only screen and (min-width: 1024px) {
+
+
+
+
     .homepage-intro-caption h2{
         font-size: 6.5rem;
     }
@@ -1466,12 +1601,12 @@ hr{
     .industry-card .card-body{
         transform: translate(50%, 180%);
             /* padding-right: 0px; */
-        
+
     }
     .industries-details h5{
         font-size: 2rem;
     }
-    
+
     .industries-details a{
         font-size: 1.5rem;
     }
@@ -1481,13 +1616,78 @@ hr{
     }
 
     /* OUR SERVICE SECTION */
-  
+
 }
+
 
 /* ...................................................................................................................... */
 
+@media only screen and (min-width: 1024px) and (max-width:1359px) {
+    .dropdown-content .column {
+        float: left;
+        width: 27%;
+        padding: 5px 10px;
+        background-color: white;
+        height: auto;
+        border-radius: 20px 0px;
+        /* border-color: 3px solid #19AF8F; */
+    }
+
+    .service-dropdown-link a {
+        padding-top: 2px;
+    }
+
+    .navFlex img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .service-dropdown-link a {
+        font-size: 1.5rem !important;
+    }
+
+    .sub-service-links a {
+        font-size: 1.2rem !important;
+    }
+
+    .dropdown-content .nav-first-column {
+        margin-left: 81px !important;
+    }
+
+    .extra-column .navFlex{
+        margin-top: 0px;
+    }
+
+    .dropdown-content .extra-column{
+        float: left;
+        width: 25%;
+        padding: 0px 10px;
+        background-color: white;
+        height: auto;
+        border-radius: 0px 20px;
+        margin-left: 81px;
+    }
+}
+
+@media only screen and (min-width: 1360px) and (max-width:1439px) {
+    .dropdown-content .nav-first-column {
+        margin-left: 140px !important;
+    }
+
+    .dropdown-content .extra-column{
+        float: left;
+        width: 25%;
+        padding: 21px 10px;
+        background-color: white;
+        height: auto;
+        border-radius: 0px 20px;
+        /* margin-left: 140px; */
+    }
+}
+
+
 @media only screen and (min-width: 1025px) and (max-width:1439px) {
-    
+
     /* HOMEPAGE INTRO */
 
     .homepage-intro-caption h2{
@@ -1499,8 +1699,10 @@ hr{
     .homepage-intro-btn{
         padding: 50px 25px;
     }
-    
-    
+
+
+
+
     /* CAREER SECTION */
   .career-section{
     position: absolute;
@@ -1512,7 +1714,7 @@ hr{
     }*/
     .our-services img{
         height: 330px;
-    } 
+    }
     .service-card .card-body{
         padding: 58px 30px;
         height: 330px;
@@ -1549,7 +1751,7 @@ hr{
     .industry-card .card-body{
         transform: translate(20%, 120%);
             /* padding-right: 0px; */
-        
+
     }
     .case-studies h5{
         font-size: 2rem;
@@ -1591,7 +1793,7 @@ hr{
 
 .contact-form-user-details{
     box-shadow: 3px 6px 16px #0000004D;
-    
+
 }
 
 .btn-default .fa-arrow-right{
@@ -1616,6 +1818,7 @@ hr{
 .form-group{
     margin-top: 0px;
     padding: 15px;
+    margin-bottom: 0rem !important;
 }
 .form-group input{
     /* width: 650px; */
@@ -1626,13 +1829,19 @@ hr{
     display: block;
 }
 
+.user-text{
+    padding: 0px 15px;
+}
+
+
+
 .contact-form-header h1{
     font-size: 4.5rem;
     font-weight: 800;
 }
 
 .contact-form-header p{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 400;
     color: #4D4D4F;
 }
@@ -1648,17 +1857,23 @@ label{
     padding: 20px 0px;
 }
 
-.submit-button button{
+.submit-button button {
     background-color: #FD5D14;
-    width: 140px;
+    width: 120px;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 800;
     padding: 10px;
     margin-left: 15px;
 }
 
+.submit-button button:hover {
+    background-color:#CACACA;
+    color: black;
+}
+
 .contact-us-location{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 
@@ -1670,24 +1885,24 @@ label{
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 } */
 
 .about-us-page-location h1{
-    color: white;
+    color: black;
 }
 
 .about-us-page-location-row .card{
     position: relative;
     /* width: 30rem; */
-    margin-top: 60px;
+    margin-top: 40px;
     margin-bottom: 50px;
-    
+
 }
 
 .about-us-page-location-row .card-body{
    height: 200px;
-    
+    padding: 0px 30px;
 }
 
 .about-us-page-location-row .dot{
@@ -1705,16 +1920,17 @@ label{
 }
 
 .location-details h2{
-    margin-top: 60px;
+    margin-top: 10px;
     font-weight: 800;
     font-size: 2rem;
-    /* text-align: center; */
+    
 }
 
 .location-details p{
     margin-top: 20px;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.5rem;
+   
 }
 
 .location-details a{
@@ -1732,7 +1948,7 @@ label{
 
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
-    
+
     .contact-us-page{
         margin-top: 80px;
         flex-direction: column;
@@ -1745,13 +1961,13 @@ label{
         font-size: 2rem;
         font-weight: 800;
     }
-    
+
     .contact-form-header p{
         font-size: 1.5rem;
         font-weight: 400;
         color: #4D4D4F;
     }
-    
+
     .lastName{
         margin-top: 15px;
     }
@@ -1765,7 +1981,7 @@ label{
 }
 
 @media only screen and (min-width: 375px) and (max-width: 424px) {
-    
+
     .contact-us-page{
         margin-top: 100px;
         flex-direction: column;
@@ -1778,7 +1994,7 @@ label{
         font-size: 2rem;
         font-weight: 800;
     }
-    
+
     .contact-form-header p{
         font-size: 1.5rem;
         font-weight: 400;
@@ -1789,7 +2005,7 @@ label{
         margin-top: 20px;
         /* padding: 25px 0px; */
     }
-    
+
     label{
         font-size: 1.55rem;
         font-weight: 800;
@@ -1798,7 +2014,7 @@ label{
 }
 
 @media only screen and (min-width: 425px) and (max-width: 767px) {
-    
+
     .contact-us-page{
         margin-top: 100px;
         flex-direction: column;
@@ -1811,7 +2027,7 @@ label{
         font-size: 2.5rem;
         font-weight: 800;
     }
-    
+
     .contact-form-header p{
         font-size: 1.5rem;
         font-weight: 400;
@@ -1821,7 +2037,7 @@ label{
     .lastName{
         margin-top: 20px;
     }
-    
+
     label{
         font-size: 1.55rem;
         font-weight: 800;
@@ -1831,7 +2047,7 @@ label{
 
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    
+
     .contact-us-page{
         margin-top: 100px;
         flex-direction: column;
@@ -1844,7 +2060,7 @@ label{
         font-size: 2.5rem;
         font-weight: 800;
     }
-    
+
     .contact-form-header p{
         font-size: 1.5rem;
         font-weight: 400;
@@ -1854,7 +2070,7 @@ label{
     .lastName{
         margin-top: 25px;
     }
-    
+
     label{
         font-size: 1.55rem;
         font-weight: 800;
@@ -1864,7 +2080,7 @@ label{
 
 
 @media only screen and (min-width: 1024px) and (max-width: 1350px) {
-    
+
     .contact-us-page{
         margin-top: 100px;
         flex-direction: row;
@@ -1878,7 +2094,7 @@ label{
         font-size: 2.5rem;
         font-weight: 800;
     }
-    
+
     .contact-form-header p{
         font-size: 1.5rem;
         font-weight: 400;
@@ -1891,7 +2107,7 @@ label{
     .form-IMG img{
         width: 110%;
     }
-    
+
     label{
         font-size: 1.55rem;
         font-weight: 800;
@@ -1901,7 +2117,7 @@ label{
 
 
 @media only screen and (min-width: 1351px) and (max-width: 1439px) {
-    
+
     .contact-us-page{
         margin-top: 100px;
         flex-direction: row;
@@ -1915,7 +2131,7 @@ label{
         font-size: 2.5rem;
         font-weight: 800;
     }
-    
+
     .contact-form-header p{
         font-size: 1.5rem;
         font-weight: 400;
@@ -1928,7 +2144,7 @@ label{
     .form-IMG img{
         width: 105%;
     }
-    
+
     label{
         font-size: 1.55rem;
         font-weight: 800;
@@ -1938,7 +2154,7 @@ label{
 
 
 @media only screen and (min-width: 1440px){
-    
+
     .contact-us-page{
         margin-top: 100px;
         flex-direction: row;
@@ -1952,7 +2168,7 @@ label{
         width: 42%;
     }
     .submit-button{
-        padding: 20px 0px;
+        padding: 15px 0px;
     }
 }
 
@@ -1968,7 +2184,7 @@ label{
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover; */
-    
+
 }
 
 .about-us-img-left{
@@ -2040,7 +2256,7 @@ label{
     .about-us-img-left{
         float: none;
     }
-    
+
     .about-us-img-right{
         float: none;
     }
@@ -2048,7 +2264,7 @@ label{
     .location-details a{
         margin-top: 15px;
     }
-    
+
 
     .about-us-page-desc p{
         font-size: 1.5rem;
@@ -2062,20 +2278,20 @@ label{
     .about-us-desc-img-right{
         margin-top: 0px;
     }
-    
+
 }
 
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
-    
+
     .about-us-img-left{
         float: none;
     }
-    
+
     .about-us-img-right{
         float: none;
     }
-    
+
     .about-us-desc{
         padding: 15px 0;
     }
@@ -2086,12 +2302,12 @@ label{
         width: 100%;
         float: none;
     }
-    
+
     .about-us-img-right{
         width: 100%;
         float: none;
     }
-    
+
     .about-us-desc{
         padding: 15px 0;
     }
@@ -2102,12 +2318,12 @@ label{
         float: none;
         width: 100%;
     }
-    
+
     .about-us-img-right{
         float: none;
         width: 100%;
     }
-    
+
     .about-us-desc{
         padding: 30px 0px;
     }
@@ -2201,8 +2417,8 @@ label{
 
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
-    
-    
+
+
     .service{
         margin: 0px 21px 0px 21px;
     }
@@ -2216,7 +2432,7 @@ label{
         height: auto !important;
         float: none;
     }
-    
+
     .service-desc{
         padding: 5px 20px;
     }
@@ -2311,7 +2527,7 @@ label{
         height: auto !important;
         float: none;
     }
-    
+
     .service-desc{
         padding: 5px 20px;
     }
@@ -2319,18 +2535,18 @@ label{
     .service-desc-mid-text{
         padding: 20px;
     }
-  
+
 }
 
 
 @media only screen and (min-width: 1025px) and (max-width: 1439px) {
-  
+
     .service-desc {
         padding: 20px 5px;
     }
     .service-desc-long-text{
         padding:15px 5px;
-        
+
     }
     .service-desc p{
         font-size: 1.3rem;
@@ -2342,10 +2558,10 @@ label{
     .service-desc{
         padding: 10px 5px;
     }
-  
+
     .service-desc-long-text{
         padding:15px 5px;
-        
+
     }
 }
 
@@ -2383,7 +2599,7 @@ label{
     position:absolute;
     height: 132px;
     width: 132px;
-    transform: translate(-50%, -80%);  
+    transform: translate(-50%, -80%);
 }
 
 .case-studies-list{
@@ -2425,114 +2641,114 @@ label{
 /* .............................................................................................................................. */
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
-    
+
     .case-studies-icon{
         position:absolute;
         height: 80px;
         width: 80px;
-        transform: translate(-45%, -90%);  
+        transform: translate(-45%, -90%);
     }
-    
-    
+
+
     .case-studies-page-card h2{
         margin-top: 20px;
         font-size: 1.5rem;
     }
-    
+
     .case-studies-page-card-info h4{
         font-size: 1.4rem;
-      
+
     }
-    
+
     .case-studies-page-card-info p{
         font-size: 1.2rem;
-      
+
     }
 }
 
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
-    
+
     .case-studies-icon{
         position:absolute;
         height: 80px;
         width: 80px;
         /* top: 50%; */
         left: 38%;
-        transform: translate(0%, -90%);  
+        transform: translate(0%, -90%);
     }
-    
-    
+
+
     .case-studies-page-card h2{
         margin-top: 30px;
         font-size: 1.8rem;
     }
-    
+
     .case-studies-page-card-info h4{
         font-size: 1.4rem;
-      
+
     }
-    
+
     .case-studies-page-card-info p{
         font-size: 1.2rem;
-      
+
     }
 }
 
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    
+
     .case-studies-icon{
         position:absolute;
         height: 100px;
         width: 100px;
         /* top: 50%; */
         left: 43%;
-        transform: translate(0%, -90%);  
+        transform: translate(0%, -90%);
     }
-    
-    
+
+
     .case-studies-page-card h2{
         margin-top: 20px;
         font-size: 2rem;
     }
-    
+
     .case-studies-page-card-info h4{
         font-size: 1.4rem;
-      
+
     }
-    
+
     .case-studies-page-card-info p{
         font-size: 1.2rem;
-      
+
     }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
-    
+
     .case-studies-icon{
         position:absolute;
         height: 100px;
         width: 100px;
         /* top: 50%; */
         left: 43%;
-        transform: translate(0%, -90%);  
+        transform: translate(0%, -90%);
     }
-    
-    
+
+
     .case-studies-page-card-title{
         font-size: 1.8rem;
-       
+
     }
-    
+
     .case-studies-page-card-info h4{
         font-size: 1.4rem;
-      
+
     }
-    
+
     .case-studies-page-card-info p{
         font-size: 1.5rem;
-      
+
     }
 }
 
@@ -2578,8 +2794,23 @@ label{
 
 .our-culture-section{
     margin-top: 60px;
-    padding: 15px;
+    padding: 15px 0px;
 }
+
+/* .our-culture-section .culture-img-left{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+} */
+
+/* .our-culture-section .culture-img-right{
+    padding-left: 0px !important;
+} */
+
+/* .our-culture-section .amnet-images{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+} */
+
 
 .culture-img-left .team-img{
     margin-top: 8px;
@@ -2621,7 +2852,7 @@ label{
     margin-top: 20px;
     padding: 15px;
     border-radius: 50%;
-    background-color: #0154F7;
+    background-color: #19AF8F;
 }
 
 .job-desc-lists .fa-arrow-down{
@@ -2651,6 +2882,21 @@ label{
 .job-desc-card-info .job-info-footer span a{
     color: #FD5D14;
     font-size: 1.8rem;
+}
+
+.job-desc-card-info .experience-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-info span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+}
+
+.experience-info h3{
+    font-size: 1.5rem;
 }
 
 .job-desc-card-info h5{
@@ -2759,7 +3005,7 @@ label{
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
-    
+
     .our-culture-section .team-img{
         margin-top: 6px;
     }
@@ -2781,6 +3027,7 @@ label{
     opacity: 1;
 }
 
+
 .subService-AIML-intro-caption{
     top: 150px;
     color: white;
@@ -2797,11 +3044,11 @@ label{
 }
 
 .subService-AIML-intro-btn .sub-service-view-details-btn{
-    width: 180px;
+    width: 150px;
     height: 45px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     letter-spacing: 0px;
     background-color: #19AF8F;
     color: white;
@@ -2825,7 +3072,13 @@ label{
 }
 
 .sub-service-data-section{
-    margin-top: 80px;
+    margin-top: 20px;
+}
+
+.sub-service-image{
+    width: auto;
+    height: auto;
+    background-color: gray;
 }
 
 .sub-service-details-bg-color{
@@ -2848,6 +3101,11 @@ label{
     font-weight: 800;
     padding: 25px 5px 5px 0px;
     margin-bottom: 0px;
+}
+
+.sub-service-data-section .dummy{
+    width: auto;
+    height: 40px;
 }
 
 .sub-service-data-section .about-icons{
@@ -2912,14 +3170,12 @@ label{
 .career-section{
     transform: translate(0%,-40%);
 }
-.career-section-row{
-    box-shadow: 0px 3px 6px #00000029;
-}
 
 .career{
     margin-top: 200px;
     width: 100%;
     height: 250px;
+    margin-bottom: 50px;
     /* background-image:url("../src/assets/images/HomePage/amnet-career-section-bg.jpg");
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -2986,7 +3242,11 @@ label{
 /* ............................................................................................................................... */
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    
+
+    .sub-service-data-section .dummy{
+        height: 20px;
+    }
+
     .sub-service-data-section .service-all-margin{
         margin: 0px 80px 0px 80px;
     }
@@ -3026,6 +3286,9 @@ label{
 @media only screen and (min-width: 320px) and (max-width: 374px) {
     .sub-service-data-section .service-all-margin {
         margin: 0px 20px 0px 20px;
+    }
+    .sub-service-data-section .dummy{
+        height: 10px;
     }
     .sub-service-data-section{
         text-align: left;
@@ -3096,6 +3359,10 @@ label{
     .sub-service-data-section .service-all-margin {
         margin: 0px 20px 0px 20px;
     }
+
+    .sub-service-data-section .dummy{
+        height: 10px;
+    }
     /* .sub-service-intro {
         height: 80vh;
     } */
@@ -3156,6 +3423,10 @@ label{
         margin: 0px 20px 0px 20px;
     }
 
+    .sub-service-data-section .dummy{
+        height: 10px;
+    }
+
     .subService-AIML-intro-caption {
         top: 110px;
         color: white;
@@ -3168,7 +3439,7 @@ label{
     .sub-service-img-left h2{
         padding: 25px 5px 5px 0px;
     }
-    
+
     .sub-service-img-left p{
         padding: 5px 5px 5px 0px;
     }
@@ -3216,7 +3487,7 @@ label{
     .career-section .career-btn{
         margin-left: 15px;
     }
-    
+
     .career-section .service-btn{
         margin-left: 15px;
     }
@@ -3225,9 +3496,14 @@ label{
 
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
-    
+
+
     .sub-service-intro{
         height: 650px;
+    }
+
+    .sub-service-data-section .dummy{
+        height: 40px;
     }
 
     .sub-service-img-right-desc .about-icons {
@@ -3253,7 +3529,7 @@ label{
 }
 
 @media only screen and (min-width: 1210px) and (max-width: 1439px) {
-    
+
     .sub-service-data-section .about-us-img-left {
         float: left;
         width: 50%;
@@ -3273,11 +3549,13 @@ label{
     }
 
     .about-us-img-left {
-        width: 50%;
+        width: 45%;
+        background-color: rgb(41, 36, 31);
     }
 
     .about-us-img-right {
-        width: 50%;
+        width: 45%;
+        background-color: rgb(41, 36, 31);
     }
 }
 
@@ -3310,9 +3588,9 @@ label{
     color: #9de0d2 !important;
 }
 
-.dropdown:hover>.dropdown-menu {
+/* .dropdown:hover>.dropdown-menu {
     display: block;
-}
+} */
 
 .sub-service-dropdown .dropdown-menu{
     padding: 15px;
@@ -3320,10 +3598,10 @@ label{
 
 
 .dropdown-item{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400px;
     color: white !important;
-    padding: 25px 15px;
+    padding: 10px 0px !important;
     text-align: left !important;
 }
 
@@ -3351,14 +3629,47 @@ label{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #0C0C0C;
+    background-color: white;
     width: 100%;
-    margin-top: 12px;
+    margin-top: 30px;
     left: 0;
+    /* left: -140px;
+    right: -280px; */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    transition: 2s;
+    /* transition: 2s; */
+    /* border-radius: 20px; */
   }
+
+  .fa-angle-right{
+      font-size: 2.1rem !important;
+  }
+
+  .dropdown-content .nav-first-column{
+      margin-left:140px;
+  }
+
+  .dropdown-view-all-link{
+      margin-top: -5px;
+  }
+  .dropdown-view-all-link a{
+    color:#19AF8F !important;
+    font-weight: 800 !important;
+    padding-bottom: 5px;
+    text-decoration: underline !important;
+  }
+
+  .dropdownd-ai-viewall-link a{
+      color: #FD5D14 !important;
+  }
+
+  .column .sub-service-links{
+    display: block;
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
   .dropdown-icon{
       display: none;
@@ -3370,11 +3681,11 @@ label{
     color: white;
   }
 
-  .dp-test:hover{
+  .service-dropdown-menu:hover{
     transition: 2s;
   }
-  
-  .dp-test:hover .dropdown-content {
+
+  .service-dropdown-menu:hover .dropdown-content {
     display: block;
     transition: 2s;
   }
@@ -3383,16 +3694,25 @@ label{
       display: flex;
       justify-content: center;
   }
-  
+
   /* Create three equal columns that floats next to each other */
   .column {
     float: left;
+    width: 21%;
+    padding: 25px 10px;
+    background-color: white;
+    height: auto;
+    /* border-radius: 20px; */
+    /* border-color: 3px solid #19AF8F; */
+}
+
+.extra-column{
+    float: left;
     width: 25%;
     padding: 25px 10px;
-    background-color: #0c0c0c;
+    background-color: white;
     height: auto;
-    border-radius: 20px;
-    border-color: 3px solid #19AF8F;
+    /* border-radius: 20px; */
 }
 
 
@@ -3403,23 +3723,41 @@ label{
     border-radius: 18px;
 } */
 
-  
-  .column a {
+
+  .service-dropdown-link a {
     float: none;
-    color: white;
-    padding: 16px;
-    font-size: 1.8rem;
+    color: black;
+    padding-top: 7px;
+    font-size: 1.7rem;
     text-decoration: none;
     display: block;
     text-align: left;
+    font-weight: 800;
+  }
+
+  .column a:hover{
+      color:  #19AF8F !important;
+      text-decoration: none;
   }
 
   .dropdown-content p{
       font-size: 1.3rem;
-      padding-left: 15px;
+
+
+      padding-right: 15px;
       text-align: left;
+      color: black;
   }
-  
+
+  .sub-service-links a{
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-right: 15px;
+    padding-top: 5px;
+    text-align: left;
+    color: black;
+  }
+
   /* .column a:hover {
     background-color: #ddd;
     transition: .8s;
@@ -3428,7 +3766,7 @@ label{
     background-color: #ddd;
     transition: .8s;
   } */
-  
+
   /* Clear floats after the columns */
   .row:after {
     content: "";
@@ -3441,7 +3779,7 @@ label{
   }
 
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 830px) {
     .column {
       width: 100%;
       height: auto;
@@ -3455,9 +3793,19 @@ label{
     .sub-service-dropdown{
         display: block;
     }
-    .dp-test{
+    .service-dropdown-menu{
         display: none;
     }
+    .navbar-nav .service-dd{
+        display: block;
+    }
+  }
+
+
+  @media only screen and (min-width: 1150px) and (max-width: 1438px){
+
+
+
   }
 
 
@@ -3473,7 +3821,1842 @@ label{
     background-color: transparent !important;
 }
 
-.dp-test:hover{
-    border-bottom: 3px solid #19AF8F;
+.service-dropdown-menu:hover{
+    /* background-color:#FD5D14; */
+    /* border-radius: 4px; */
+    border-bottom: 5px solid #19AF8F;
     transition: .5s;
 }
+
+
+/* .service-dropdown-link .dropdown-item{
+    padding: 25px 5px 5px 0px;
+}
+
+.service-dropdown-link p{
+    padding: 5px 5px 5px 0px;
+} */
+
+.navFlex img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.navFlex{
+    display: flex;
+    margin-top: 10px;
+}
+
+.nav-sub-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.dropdown-toggle::after {
+    display: none !important;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+.service-dd{
+    display: none;
+}
+
+
+
+
+
+
+
+/*..................................................................................*/
+.video-background {
+  margin-top: 100px;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -99;
+}
+
+
+
+
+
+
+/* NEW HOMEPAGE DESIGN SECTION */
+
+.new-all-margin{
+    margin: 0px 100px 0px 100px;
+}
+
+.new-subService-AIML-intro-caption {
+    top: 180px;
+    color: white;
+}
+
+.new-subService-AIML-intro-caption h2 {
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+
+.new-subService-AIML-intro-caption p {
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+
+.homepage-quote{
+    background-color: #19AF8F;
+    color: white;
+    padding: 2px 0px;
+}
+
+.homepage-quote h2{
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.homepage-news-text h2{
+    font-size: 1.8rem;
+}
+
+
+/* NEW HOMEPAGE ABOUT DETAILS SECTION */
+
+.new-home-about-details{
+    margin-top: 80px;
+}
+
+.new-home-about-details h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: black;
+}
+
+.new-home-about-details p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: black;
+}
+
+.new-solutions-services-lists {
+    margin-top: 35px;
+    padding-inline-start: 0px;
+}
+
+/* .new-solutions-services-lists .list-details{
+    font-size: 1.7rem;
+    color: black;
+    padding: 10px 5px;
+} */
+
+.new-solutions-services-lists li {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #4D4D4F;
+    list-style: none;
+}
+
+.new-solutions-services-lists .ai-icon{
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+}
+
+.new-solutions-services-lists .ai-list{
+    color: black;
+}
+
+/* NEW HOMEPAGE ABOUT US DETAILS SECTION */
+
+.new-about-details-heading .new-about-heading{
+    font-size: 5rem;
+    color: white;
+    font-weight: 800;
+    padding: 130px 0px;
+}
+
+
+.new-about-details-lists{
+    color: white;
+    list-style: none;
+}
+
+.new-about-details-list{
+ margin-top: 25px;
+ list-style: none;
+}
+
+.new-about-details-list h2{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.new-about-details-list .about-icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.new-about-details-list p{
+    color: white;
+    font-size: 1.5rem;
+    opacity: 1;
+    display: block;
+    margin-block-start: -1em;
+    margin-block-end: 0em;
+    margin-inline-start: 70px;
+    margin-inline-end: 0px;
+}
+
+.new-about-details-heading-row{
+    padding: 50px 0px;
+}
+
+
+
+/* NEW HOMEPAGE INDUSTRY SECTION */
+
+.industry-section-column{
+    padding-right: 5px !important;
+    padding-left: 0px !important;
+}
+
+.new-industry-header h5{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+
+
+/* NEW HOMEPAGE OUR SERVICE SECTION */
+
+.new-our-service-column{
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
+.new-our-service-card{
+    background-color: white;
+    margin-top: 40px;
+}
+
+/* .new-our-service-card .card-img-top{
+    padding: 15px 0px;
+} */
+
+.new-our-service-card img{
+    margin-top: 15px;
+    width: 120px;
+    height: 120px;
+}
+
+.new-our-service-card .card-body{
+    width: auto;
+    height: 280px;
+    padding: 0px 25px;
+    text-align: left;
+    border-bottom: 5px solid  #19AF8F;
+
+}
+
+.new-our-service-card .card-title{
+    color: black;
+    padding: 25px 0px 5px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.new-our-service-card .card-text{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.new-our-service-card a{
+    position: absolute;
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 15px 0px;
+    font-weight: 800;
+    top: 80%;
+    color: #19AF8F;
+}
+
+.new-our-service-card a:hover{
+    color:#FD5D14;
+}
+
+.our-services hr{
+    text-align: center;
+    width: 10%;
+    height: 3px;
+    margin-top: 1rem !important;
+    background-color:#19AF8F;
+}
+
+
+
+
+
+/* NEW HOMEPAGE CASESTUDIES SECTION */
+
+.case-studies hr{
+    text-align: center;
+    width: 10%;
+    height: 3px;
+    margin-top: 1rem !important;
+    background-color:#19AF8F;
+}
+
+.new-case-studies-row{
+    margin-top: 40px;
+}
+
+.new-case-studies-card{
+    padding-right: 5px !important;
+    padding-left: 0px !important;
+}
+
+.new-case-studies-card .card-body{
+    text-align: left;
+    height: 260px;
+}
+
+.new-case-studies-card .card-title{
+    color: black;
+    font-size: 1.8rem;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+.new-case-studies-card p{
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    opacity: 1;
+    font-weight: 400;
+}
+
+.new-case-studies-card a {
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 15px 0px;
+    font-weight: 800;
+    color: #19AF8F;
+    position: absolute;
+    top: 80%;
+}
+
+.new-case-studies-card a:hover{
+    color:#FD5D14;
+}
+
+.new-explore-link{
+    margin-top: 25px;
+}
+
+.new-explore-link a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #19AF8F;
+    text-decoration: underline;
+}
+
+.new-explore-link a:hover{
+    color:#FD5D14;
+}
+
+
+/* NEW HOMEPAGE OUR PARTNER SECTION */
+
+.new-our-partner{
+    position: relative;
+    background-color: white;
+    padding: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.our-partner {
+    position: relative;
+    margin-top: 20px;
+    background-color: white;
+    padding: 15px;
+}
+
+.carousel-our-partner{
+    display: none;
+}
+
+/* NEW HOMEPAGE CLIENT SAY SECTION */
+
+.client-say{
+    background-color: black;
+    padding: 60px 0px;
+}
+
+.client-say .section-title{
+    color: white;
+}
+
+.client-say .card{
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid  #19AF8F;
+}
+
+.client-say .card-body{
+    height: 350px;
+}
+
+.client-say .client-role{
+    font-weight: 800 !important;
+}
+
+.client-say .client-say-row {
+    padding: 30px 0px 0px 0px;
+}
+
+.client-say-card img{
+    width: 64px;
+    height: 64px;
+}
+
+.client-say-card .card-title{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 40px;
+}
+
+.client-say-card .card-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+
+
+/* NEW HOMEPAGE CAREER SECTION */
+
+.new-career-section .career-caption {
+    background-color: transparent;
+    color: white;
+    padding: 55px 0px;
+}
+
+.new-career-section button {
+    width: 180px;
+    height: 45px;
+    margin-left: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    box-shadow: 2px 2px 6px #0000004D;
+    font-weight: 800;
+}
+
+.new-career-section button:hover {
+    background-color: #CACACA;
+}
+
+.new-career-section .contact-us-button:hover{
+    background-color:white;
+    color: black;
+}
+
+.new-career-section .contact-us-button{
+    background-color: #FD5D14;
+    color: white;
+}
+
+/* .new-career-section h2{
+    font-family: 'Jost', sans-serif !important;
+} */
+
+
+
+
+
+
+/* NEW ABOUT US PAGE DESIGN SECTION */
+
+.new-aboutus-info-section{
+    background-color: rgb(228, 228, 228);
+    padding: 25px 0px;
+    border-bottom: 5px solid #19AF8F;
+}
+
+.new-aboutus-info-section p {
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    font-weight: 800;
+}
+
+.homepage-about-details hr{
+    text-align: center;
+    width: 10%;
+    height: 3px;
+    background-color:#19AF8F;
+    margin-top: 1rem !important;
+}
+
+
+/* CREDO SECTION */
+
+.credo-column{
+    padding-right: 5px !important;
+    padding-left: 0px !important;
+}
+
+.credo-info-column{
+    padding-right: 5px !important;
+    padding-left: 0px !important;
+}
+
+.credo-info-column p{
+    display: block;
+    margin-block-start: -.5em !important;
+    margin-block-end: -0em !important;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 60px;
+}
+
+.new-location-card img{
+    width: 120px;
+    padding:  20px 0px;
+}
+
+.new-our-location-column .card{
+    border-style: none;
+}
+
+.new-our-location-column .new-location-card{
+    width: auto;
+    height: 350px;
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid #19AF8F;
+}
+
+
+
+
+
+
+
+/* NEW SERVICE PAGE DESIGN SECTION */
+
+.btn-group-toggle {
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.btn-group-toggle .service-toggle-btn{
+    background-color:  #19AF8F;
+    color: white;
+}
+
+.btn-group-toggle .service-toggle-btn:hover{
+    background-color:   #19AF8F;
+    opacity: 1;
+    border-color: transparent;
+    color: white;
+}
+
+.btn-group-toggle .btn-secondary {
+    font-size: 1.5rem;
+    padding: 10px;
+    border-style: none;
+    width: 215px;
+    opacity: 30%;
+}
+
+.btn-group-toggle .scroll-service-btn{
+    padding: 5px 15px;
+}
+
+.btn-group-toggle input{
+    appearance: none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active{
+    color: #fff;
+    background-color:  #19AF8F !important;
+    border-style: none !important;
+    border-color: transparent !important;
+    opacity: 1;
+}
+
+.new-service-info{
+    margin-top: 40px;
+    box-shadow: 3px 10px 10px #cecece;
+    padding: 40px 0px;
+}
+.new-service-info button{
+    margin-top: 10px;
+}
+
+.new-service-image {
+    width: 120px;
+    /* height: 150px; */
+    /* margin-left: 30px; */
+    /* margin-top: 30px; */
+    transform: translate(40px, 45px);
+    padding: 10px 0px;
+}
+
+.new-service-info .service-icon-center{
+    transform: translate(40px, 80px);
+}
+
+.new-service-info h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.new-service-info p{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.new-service-contact-section{
+    background-color: black;
+    color: white;
+    padding: 30px 0px;
+}
+
+.new-service-contact-section h3{
+    font-size: 4.5rem;
+    font-weight: 800;
+    color: #19AF8F;
+}
+.new-service-contact-section p{
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+
+.new-service-contact-section button{
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 10px 20px;
+    background-color: #FD5D14;
+    color: white;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* NEW CASE STUDIES DESIGN SECTION */
+
+.subService-AIML-intro-btn .sub-service-contact-us-btn {
+    width: 150px;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left: 15px;
+    /* margin-top: 2rem; */
+}
+
+.subService-AIML-intro-btn .sub-service-contact-us-btn:hover {
+    background-color: #FD5D14;
+}
+
+.new-case-studies-list .card-body{
+    background-color: black;
+    color: white;
+    height: 650px;
+}
+
+.new-case-studies-list h2{
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 0px;
+}
+
+.new-case-studies-list p{
+    color: white;
+}
+
+.new-case-studies-list h4{
+    color:  #19AF8F;
+
+}
+
+
+
+
+/* NEW CAREERS PAGES DESIGN */
+
+.weValueInnovation {
+    background-color: black;
+    border-radius: 4px;
+    margin-top: 60px;
+}
+
+.weValueInnovation h1 {
+    color: white;
+    /* padding: 30px; */
+}
+
+.weValueInnovation p {
+    font-size: 2rem;
+    color: white;
+    padding: 30px;
+}
+
+.weValueInnovationCarousel{
+    padding: 50px 0px;    
+}
+
+.we-innovation-img{
+    padding: 60px 0px;
+}
+
+/* .weValueInnovationCarousel .carousel-inner{
+    border-left: 5px solid #19AF8F;
+} */
+
+.weValueInnovationCarousel .carousel-indicators{
+    top: 95%;
+}
+
+.career-job-icon{
+    width: 20px;
+}
+
+/* .career-job-icon{
+    float: right;
+} */
+
+.employeesSay .card{
+    border-style: none;
+}
+
+.employeesSay img{
+    height: 100%;
+}
+
+.employeesSay .employee-details h1{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.employeesSay .card-text{
+    font-size: 1.8rem;
+    padding: 85px 0px;
+}
+.employeesSay .card-title{
+    font-size: 3rem;
+    color: black;
+    font-weight: 800;
+}
+
+.employeesSay .carousel-inner{
+    border-left: none;
+}
+
+
+.employeesSay .carousel-indicators {
+    position: absolute;
+    top: 5%;
+    left: 0% !important;
+    right: 0;
+    bottom: 10px;
+    z-index: 15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: left;
+    margin-right: 15%;
+    margin-left: 0%;
+    list-style: none;
+}
+
+.employeesSay .carousel-indicators li {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    /* background-color:#19AF8F; */
+    box-shadow: 3px 6px 16px #00000029;
+    margin-top: 50px;
+}
+
+.employeesSay .carousel-indicators .active {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #6d6d6d;
+    margin-bottom: -20rem;
+    border-color: #19AF8F;
+    border-style: solid;
+}
+
+
+
+
+/* NEW CONTACT US PAGE DESIGN SECTION */
+
+.new-contact-us-page img{
+    width: 100%;
+    height: 540px;
+    box-shadow: 3px 6px 16px #0000004D;
+}
+
+.new-contact-us-page input{
+    box-shadow: 3px 6px 16px #00000029;
+    border-style: none;
+    font-size: 1.8rem;
+}
+
+.new-contact-us-page textarea{
+    box-shadow: 3px 6px 16px #00000029;
+    border-style: none;
+    font-size: 1.8rem;
+}
+
+
+
+
+
+
+
+
+
+/* NEW HOME RESPONSIVE DESIGN */
+
+@media only screen and (min-width: 320px) and (max-width: 424px) {
+
+    .new-all-margin{
+        margin: 0px 20px 0px 20px;
+    }
+
+    .navbar-brand {
+        margin-left: 20px;
+    }
+    
+    .navbar-nav{
+        margin-right: 20px;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    .new-home-about-details h1 {
+        font-size: 2.5rem;
+        margin-top: 40px;
+    }
+
+    .new-home-about-details p {
+        font-size: 1.5rem;
+    }
+
+    .new-solutions-services-lists li {
+        font-size: 1.2rem;
+    }
+
+    .new-about-details-heading .new-about-heading {
+        font-size: 2rem;
+        padding: 10px 0px;
+    }
+
+    .new-about-details-lists {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+    }
+
+    .new-about-details-list .about-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .new-about-details-list h2 {
+        font-size: 1.5rem;
+    }
+
+    .new-about-details-list p {
+        margin-inline-start: 40px;
+    }
+
+    /* FOR NEW INDSUSTRY SECTION */
+    .industry-section-column {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    /* FOR OUR PARTNER SECTION */
+
+    .our-partner {
+        display: none;
+    }
+    
+    .carousel-our-partner{
+        display: block;
+    }
+
+    /* FOR OUR SERVICE SECTION */
+
+    .our-services {
+        padding: 30px 0px;
+    }
+
+    .new-our-service-column {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .our-services hr {
+        margin-top: 1rem !important;
+        width: 40%;
+    }
+
+    .new-our-service-card .card-body {
+        padding: 0px 10px;
+        height: 250px;
+    }
+
+    .new-our-service-card a {
+        top: 85%;
+    }
+
+    .new-our-service-card .card-title {
+        font-size: 1.8rem;
+    }
+
+    .new-our-service-card .card-text {
+        font-size: 1.2rem;
+    }
+
+
+    .case-studies hr {
+        width: 40%;
+        margin-top: 1rem !important;
+    }
+
+    .new-case-studies-card {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .new-case-studies-card{
+        margin-top: 15px;
+    }
+
+    .client-say .card {
+        margin-top: 15px;
+    }
+
+    .client-say .card-body{
+        height: 460px;
+    }
+
+    .footer .fa {
+        margin: 25px 5px 2px 0px;
+    }
+
+
+    /* FOR NEW CASE STUDIES PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .case-studies-list {
+        margin-top: 40px;
+    }
+
+    .new-subService-AIML-intro-caption h2 {
+        font-size: 2.5rem;
+    }
+
+    .new-subService-AIML-intro-caption p {
+        font-size: 1.5rem;
+    }
+
+    .new-subService-AIML-intro-caption {
+        top: 130px;
+    }
+
+    .subService-AIML-intro-btn .sub-service-contact-us-btn {
+        margin-left: 5px;
+        margin-top: 0px;
+    }
+
+    .new-career-section button {
+        margin-left: 15px;
+    }
+
+    .new-case-studies-list .card-body {
+        padding: 15px;
+    }
+
+    .new-case-studies-list .card-title{
+        font-size: 1.5rem;
+    }
+
+    .new-case-studies-list .card-body {
+        height: auto;
+    }
+
+    .new-career-section .career-caption {
+        padding: 20px;
+    }
+
+    .career-details p {
+        padding: 10px;
+    }
+
+
+
+    /* FOR NEW ABOUT US PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .about-us-desc h2 {
+        font-size: 2.5rem;
+    }
+
+    .about-us-desc p {
+        font-size: 1.5rem;
+    }
+
+    /* CREDO SECTION */
+    .homepage-about-details hr {
+        width: 20%;
+        margin-top: 1rem !important;
+    }
+
+    .credo-info-column p {
+        margin-left: 40px;
+    }
+
+    .credo-column {
+        padding-bottom: 20px;
+    }
+
+
+    /* FOR NEW SERVICE PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-service-image {
+        width: 110px;
+        transform: translate(0px, 0px);
+        padding: 20px 0px;
+    }
+
+    .new-service-info .service-icon-center {
+        width: 110px;
+        transform: translate(0px, 0px);
+        padding: 20px 0px;
+    }
+
+    .new-service-info {
+        margin-top: 0px;
+        padding: 25px 0px;
+    }
+
+    .new-service-contact-section h3 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: #19AF8F;
+    }
+    
+
+    .new-service-info p {
+        font-size: 1.2rem;
+    }
+
+    .new-service-info h2 {
+        font-size: 1.8rem;
+    }
+
+
+    /* FOR NEW CAREER PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .our-culture-section {
+        padding: 0px;
+    }
+
+    .our-culture-section .amnet-images{
+        margin-top: 10px;
+    }
+
+    .job-desc-card-info .experience-info{
+        display: block;
+        justify-content: space-between;
+    }
+    
+    .experience-info span{
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: black;
+    }
+
+    .experience-info h3{
+        font-size: 1.2rem;
+    }
+
+    .careers-page-details-list-row .career-page-details-column{
+        margin-bottom: -25px;
+    }
+
+    .weValueInnovation .carousel-indicators {
+        top: 90%;
+    }
+
+    .weValueInnovation p {
+        font-size: 1.5rem;
+        padding: 0px 15px;
+    }
+
+    .weValueInnovationCarousel {
+        padding: 65px 0px;
+        margin-top: 30px;
+    }
+
+    .employeesSay .carousel-indicators {
+        top: 3%;
+    }
+
+    .employeesSay .card-title {
+        font-size: 2.5rem;
+    }
+
+    .employeesSay .card-text {
+        font-size: 1.5rem;
+        padding: 50px 0px;
+    }
+
+
+
+    /* FOR NEW CONTACT US RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-contact-us-page img {
+        display: none;
+    }
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    .subService-AIML-intro-btn .sub-service-contact-us-btn {
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .client-say .card-body{
+        height: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* FOR LARGER MOBILE SCREEN AND SMALL TABLET */
+/* ................................................................................................................................. */
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+
+    .new-all-margin{
+        margin: 0px 20px 0px 20px;
+    }
+
+    /* FOR NEW HOMEPAGE ABOUT DETAILS RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-about-details-lists {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+    }
+
+    .new-about-details-list .about-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .new-about-details-list p {
+        margin-block-start: -0.5em;
+        margin-inline-start: 40px;
+    }
+
+    /* FOR NEW INDUSTRY SECTION RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .industry-section-column {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+
+    /* FOR OUR PARTNER SECTION RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .our-partner {
+        display: none;
+    }
+    
+    .carousel-our-partner{
+        display: block;
+    }
+
+    /* FOR NEW OUR SERVICE SECTION RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-our-service-column {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .our-services {
+        padding: 30px 0px;
+    }
+
+    .our-services hr {
+        width: 40%;
+        margin-top: 1rem !important;
+    }
+
+    .new-our-service-card a {
+        top: 85%;
+    }
+
+
+
+    /* FOR NEW CASE STUDIES PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+    
+    /* .case-studies-list {
+        margin-top: 40px;
+    } */
+
+    .case-studies hr {
+        width: 40%;
+        margin-top: 1rem !important;
+    }
+
+    .new-case-studies-card {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .new-subService-AIML-intro-caption h2 {
+        font-size: 3rem;
+    }
+
+    .new-home-about-details h1 {
+        font-size: 3rem;
+        padding: 10px 0px;
+    }
+
+    .new-about-details-heading .new-about-heading {
+        font-size: 3rem;
+        padding: 0px 0px;
+    }
+
+    .new-subService-AIML-intro-caption p {
+        font-size: 1.8rem;
+    }
+
+    .new-subService-AIML-intro-caption {
+        top: 130px;
+    }
+
+    .subService-AIML-intro-btn .sub-service-contact-us-btn {
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+
+    .new-career-section button {
+        margin-left: 15px;
+    }
+
+    .new-case-studies-card {
+        margin-top: 15px;
+    }
+
+    .client-say .card {
+        margin-top: 15px;
+    }
+
+    .new-case-studies-list .card-body {
+        padding: 15px;
+    }
+
+    .new-case-studies-list .card-title{
+        font-size: 1.5rem;
+    }
+
+    .new-case-studies-list .card-body {
+        height: auto;
+    }
+
+    .new-career-section .career-caption {
+        padding: 20px;
+    }
+
+    .career-details p {
+        padding: 10px;
+    }
+
+    /* FOR NEW ABOUT US PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+
+     /* CREDO SECTION */
+     .homepage-about-details hr {
+        width: 20%;
+        margin-top: 1rem !important;
+    }
+
+    .homepage-about-details h3 {
+        font-size: 2rem;
+    }
+
+    .about-details-header img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .new-aboutus-info-section p {
+        font-size: 2rem;
+    }
+
+    .credo-info-column p {
+        font-size: 1.5rem;
+        margin-left: 60px;
+    }
+
+    .credo-column {
+        padding-bottom: 20px;
+    }
+
+
+
+    /* FOR NEW SERVICE PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-service-image {
+        width: 120px;
+        transform: translate(0px, 0px);
+        padding: 20px 0px;
+    }
+
+    .new-service-info .service-icon-center{
+        width: 120px;
+        transform: translate(0px, 0px);
+        padding: 20px 0px;
+    }
+
+    .new-service-info {
+        margin-top: 0px;
+        padding: 25px 0px;
+    }
+
+
+    /* FOR NEW CAREER PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .our-culture-section {
+        padding: 0px;
+    }
+
+    .our-culture-section .amnet-images{
+        margin-top: 10px;
+    }
+
+    .job-desc-card-info .experience-info{
+        display: block;
+        justify-content: space-between;
+    }
+    
+    .experience-info span{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: black;
+    }
+
+    .experience-info h3{
+        font-size: 1.5rem;
+    }
+
+    .careers-page-details-list-row .career-page-details-column{
+        margin-bottom: -25px;
+    }
+
+    .career-job-icon{
+        width: 15px;
+    }
+
+    .weValueInnovation .carousel-indicators {
+        top: 90%;
+    }
+
+    .weValueInnovation p {
+        font-size: 1.8rem;
+        padding: 0px 30px;
+    }
+
+    .weValueInnovationCarousel {
+        padding: 65px 0px;
+        margin-top: 30px;
+    }
+
+    .employeesSay .carousel-indicators {
+        top: 3%;
+    }
+
+    .employeesSay .card-title {
+        font-size: 2.5rem;
+    }
+
+    .employeesSay .card-text {
+        font-size: 1.8rem;
+        padding: 50px 0px;
+    }
+    
+    
+    /* FOR NEW CONTACT US RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-contact-us-page img {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+/* FOR TABLET SCREEN AND SMALL LAPTOP SCREEN */
+/* ................................................................................................................................. */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* FOR NEW CASE STUDIES RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-all-margin{
+        margin: 0px 40px 0px 40px;
+    }
+
+    .navbar-brand {
+        margin-left: 40px;
+    }
+    
+    .navbar-nav{
+        margin-right: 40px;
+    }
+
+    .new-case-studies-list .card-body {
+        padding: 15px;
+    }
+
+    .new-case-studies-list .card-title{
+        font-size: 2.5rem;
+    }
+
+    .new-case-studies-list .card-body {
+        height: auto;
+    }
+
+    .new-case-studies-list p{
+        font-size: 1.5rem;
+    }
+
+
+    /* FOR AI SOLUTIONS RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-home-about-details h1 {
+        font-size: 3rem;
+        padding: 10px 0px;
+    }
+
+    /* FOR ABOUT SOLUTIONS RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-about-details-lists {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+    }
+
+    .new-about-details-heading .new-about-heading {
+        font-size: 3.5rem;
+        padding: 0px 0px;
+    }
+
+    
+
+    /* FOR OUR SERVICE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+    
+    .our-services hr {
+        width: 20%;
+        margin-top: 1rem !important;
+    }
+
+    .our-services {
+        padding: 30px 0px;
+    }
+
+    .new-our-service-column {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .new-our-service-card a {
+        top: 85%;
+    }
+
+    /* FOR TESTIMONIAL SECTION */
+
+    .client-say .card-body{
+        height: 410px;
+    }
+
+    .client-say .client-say-card-center{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+
+    /* FOR CASE STUDIES RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .case-studies hr {
+        width: 20%;
+        margin-top: 1rem !important;
+    }
+
+    .new-case-studies-card {
+    padding-right: 5px !important;
+    padding-left: 0px !important;
+    margin-top: 10px;
+}
+
+
+
+    /* FOR NEW ABOUT US PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+
+     /* CREDO SECTION */
+     .homepage-about-details hr {
+        width: 20%;
+        margin-top: 1rem !important;
+    }
+
+    .homepage-about-details h3 {
+        font-size: 2.5rem;
+        margin-top: 10px;
+    }
+
+    .about-details-header img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .new-aboutus-info-section p {
+        font-size: 2rem;
+    }
+
+    .credo-info-column p {
+        font-size: 1.8rem;
+        margin-left: 60px;
+    }
+
+    .credo-column {
+        padding-bottom: 20px;
+    }
+
+    /* OUR LOCATION SECTION */
+    .location-details h2 {
+        font-size: 2.5rem;
+    }
+    .location-details p {
+        font-size: 2rem;
+    }
+
+
+    /* FOR NEW SERVICE PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-service-image {
+        width: 150px;
+        transform: translate(0px, 0px);
+        padding: 20px 0px;
+    }
+
+    .new-service-info .service-icon-center{
+        width: 150px;
+        transform: translate(0px, 0px);
+        padding: 20px 0px;
+    }
+
+    .new-service-info {
+        margin-top: 0px;
+        padding: 25px 0px;
+    }
+
+    /* FOR NEW CAREER PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .our-culture-section .amnet-images{
+        margin-top: 10px;
+    }
+
+
+    /* FOR NEW CONTACT US RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-contact-us-page img {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* FOR MEDIUM LAPTOP SCREEN */
+/* ................................................................................................................................. */
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+
+    .navbar-brand {
+        margin-left: 60px;
+    }
+    
+    .navbar-nav{
+        margin-right: 60px;
+    }
+
+    /* FOR NEW HOME PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+    .new-home-about-details h1 {
+        font-size: 4rem;
+        padding: 15px 0px;
+    }
+
+
+    /* FOR NEW INDUSTRY SECTION RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .client-say .card-body{
+        height: 460px;
+    }
+
+    /* FOR OUR SERVICE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+    
+    .our-services {
+        padding: 30px 0px;
+    }
+
+    .new-our-service-card a {
+        top: 85%;
+    }
+
+    .our-services hr {
+        width: 15%;
+        margin-top: 1rem !important;
+    }
+    
+    .new-our-service-card .card-body {
+        height: 310px;
+    }
+
+    .new-our-service-column {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+
+    /* FOR NEW CASE STUDIES SECTION RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+    
+    .case-studies hr {
+        width: 15%;
+        margin-top: 1rem !important;
+    }
+
+    .new-case-studies-card{
+        padding-right: 5px !important;
+        padding-left: 0px !important;
+    }
+
+    .new-case-studies-card .card-body {
+        height: 320px;
+    }
+
+
+
+
+
+
+    /* FOR NEW CASE STUDIES PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-all-margin{
+        margin: 0px 60px 0px 60px;
+    }
+
+    .new-case-studies-list .card-body {
+        padding: 15px;
+    }
+
+    .new-case-studies-list .card-title{
+        font-size: 2.5rem;
+    }
+
+    .new-case-studies-list .card-body {
+        height: 720px;
+    }
+
+    .new-case-studies-list p{
+        font-size: 1.5rem;
+    }
+
+
+
+
+    /* FOR NEW ABOUT US PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+
+     /* CREDO SECTION */
+     .homepage-about-details hr {
+        width: 5%;
+        margin-top: 1rem !important;
+    }
+
+    .homepage-about-details h3 {
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+
+    .about-details-header img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .new-aboutus-info-section p {
+        font-size: 2rem;
+    }
+
+    .credo-info-column p {
+        font-size: 1.8rem;
+        margin-left: 60px;
+    }
+
+    .credo-column {
+        padding-bottom: 21px;
+    }
+
+
+
+    /* FOR NEW SERVICE PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-service-image {
+        width: 130px;
+        transform: translate(10px, 60px);
+        padding: 20px 0px;
+    }
+
+    .new-service-info .service-icon-center{
+        width: 130px;
+        transform: translate(10px, 100px);
+        padding: 20px 0px;
+    }
+
+    .new-service-info {
+        margin-top: 0px;
+        padding: 25px 0px;
+    }
+
+
+    /* FOR NEW CONTACT US PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+
+    .new-contact-us-page img {
+        width: 100%;
+        height: 515px;
+        box-shadow: 3px 6px 16px #0000004D;
+    }
+}
+
+/* .new-service-info img{
+    vertical-align: middle;
+} */
+
+

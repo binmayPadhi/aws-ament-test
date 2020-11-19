@@ -1,18 +1,20 @@
-import EndToEndIocn from "../../images/HomePage/homepage-about-details-IMG/amnet-end-to-end.png";
-import SupportIocn from "../../images/HomePage/homepage-about-details-IMG/amnet-support.png";
+// import EndToEndIocn from "../../images/HomePage/homepage-about-details-IMG/amnet-end-to-end.png";
+// import SupportIocn from "../../images/HomePage/homepage-about-details-IMG/amnet-support.png";
 
 const AboutDetailsFirstRowData = [
     {
         id : 1,
         title : "End-to-end Solutions",
-        description : "360 degree coverage of services and solutions from assessment to managed services with complete automation",
-        iconSrc : EndToEndIocn
+        newTitle : "Innovation",
+        description : "We unleash the creativity by making innovation part of each individual’s job responsibility.",
+        // iconSrc : EndToEndIocn
     },
     {
         id : 2,
         title : "Support",
-        description : "Much like most AI tools, our 24*7 support ensures applications are always available to your customers",
-        iconSrc : SupportIocn
+        newTitle : "Integrity",
+        description : "We strive towards doing the right thing, at the right time for our customers, employees and partners.",
+        // iconSrc : SupportIocn
     },
 ];
 

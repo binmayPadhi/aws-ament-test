@@ -1,5 +1,5 @@
-import visionIMG from "../../images/About-Us-Page/amnet-about-us-vision.jpg";
-import missionIMG from "../../images/About-Us-Page/amnet-about-us-mission.jpg";
+import visionIMG from "../../images/About-Us-Page/amnet-vision.jpg";
+import missionIMG from "../../images/About-Us-Page/amnet-mission.jpg";
 
 
 const aboutUsMissionData = [
