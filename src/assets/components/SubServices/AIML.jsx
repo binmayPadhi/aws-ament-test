@@ -99,7 +99,7 @@ function AIML ({match}){
 
                                     </div>
 
-                                    <div class="row service-all-margin">
+                                    <div class="row service-all-margin sub-service-right-image-row">
                                         <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 sub-service-right-details">
                                         <div className="row no-gutters sub-service-img-right-desc">
                                                 <div className="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-xs-12">
