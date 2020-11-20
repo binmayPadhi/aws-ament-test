@@ -2595,6 +2595,10 @@ label{
     text-align: center;
 }
 
+.case-studies-page-card .card-img-top{
+    height: 246px;
+}
+
 .case-studies-icon{
     position:absolute;
     height: 132px;
@@ -2649,6 +2653,10 @@ label{
         transform: translate(-45%, -90%);
     }
 
+    .case-studies-page-card .card-img-top{
+        height: 150px;
+    }
+
 
     .case-studies-page-card h2{
         margin-top: 20px;
@@ -2678,6 +2686,9 @@ label{
         transform: translate(0%, -90%);
     }
 
+    .case-studies-page-card .card-img-top{
+        height: 150px;
+    }
 
     .case-studies-page-card h2{
         margin-top: 30px;
@@ -2707,6 +2718,9 @@ label{
         transform: translate(0%, -90%);
     }
 
+    .case-studies-page-card .card-img-top{
+        height: 200px;
+    }
 
     .case-studies-page-card h2{
         margin-top: 20px;
@@ -2733,6 +2747,10 @@ label{
         /* top: 50%; */
         left: 43%;
         transform: translate(0%, -90%);
+    }
+
+    .case-studies-page-card .card-img-top{
+        height: 200px;
     }
 
 
