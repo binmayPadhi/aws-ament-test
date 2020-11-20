@@ -98,7 +98,83 @@ function AIML ({match}){
                                     <div className="dummy" id={dataDetail.id}>
 
                                     </div>
-                                        <div className="row service-all-margin" key={dataDetail.id} >
+
+                                    <div class="row service-all-margin">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 sub-service-right-details">
+                                        <div className="row no-gutters sub-service-img-right-desc">
+                                                <div className="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <span>
+                                                        <img src= {dataDetail.icon} className="img-fluid about-icons text-center" alt = "end to end" />
+                                                    </span>
+                                                </div>
+                                                <div className="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <h2>
+                                                        {dataDetail.title}
+                                                    </h2>
+                                                    <p>
+                                                        {dataDetail.description}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                                            <img className="img-fluid" src={dataDetail.imgSrc} alt={dataDetail.name} />
+                                        </div>
+                                     </div>
+                                        
+                                    </>
+                                    // </>
+                                     :
+                                     <>
+                                     <div className="dummy" id={dataDetail.id}>
+
+                                     </div>
+                                     <div className="sub-service-details-bg-color">
+                                     <div class="row service-all-margin">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                                            <img className="img-fluid" src={dataDetail.imgSrc} alt={dataDetail.name} />
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                                        <div className="row no-gutters sub-service-img-right-desc">
+                                                <div className="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <span>
+                                                        <img src= {dataDetail.icon} className="img-fluid about-icons text-center" alt = "end to end" />
+                                                    </span>
+                                                </div>
+                                                <div className="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <h2>
+                                                        {dataDetail.title}
+                                                    </h2>
+                                                    <p>
+                                                        {dataDetail.description}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                     </div>
+                                    </div>
+                                     </>
+                                        )
+                                    })}
+                                </div>
+
+                                {/* SUB SERVICE CAREER SECTION */}
+
+                                {SubServicesData.filter(data => data.id === match.params.id).map(serviceDetail => {
+                                    return(
+                                        <SubServiceCareer careerBg={serviceDetail.subCareerBG}/>
+                                    )
+                                })}
+                            </>
+                        );
+                    }
+
+export default AIML;
+
+
+
+
+{/* <div className="row service-all-margin" key={dataDetail.id} >
                                         <div className="col-xl-12 col-lg-12 about-us-details p-0" key = {dataDetail.id}>
                                             <div className="sub-service-image">
                                                 <img className="img-fluid about-us-img-right "  src={dataDetail.imgSrc} alt={dataDetail.name} />
@@ -119,15 +195,10 @@ function AIML ({match}){
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    </>
-                                    // </>
-                                     :
-                                     <>
-                                     <div className="dummy" id={dataDetail.id}>
+                                    </div> */}
 
-                                     </div>
-                                        <div className="sub-service-details-bg-color">
+
+{/* <div className="sub-service-details-bg-color">
                                          <div className="row service-all-margin ">
                                         <div className="col-12 about-us-details p-0" key = {dataDetail.id} id={dataDetail.id}>
                                         <div className="sub-service-image">
@@ -150,22 +221,4 @@ function AIML ({match}){
                                             </div>
                                         </div>
                                     </div>
-                                     </div>
-                                     </>
-                                        )
-                                    })}
-                                </div>
-
-                                {/* SUB SERVICE CAREER SECTION */}
-
-                                {SubServicesData.filter(data => data.id === match.params.id).map(serviceDetail => {
-                                    return(
-                                        <SubServiceCareer careerBg={serviceDetail.subCareerBG}/>
-                                    )
-                                })}
-                            </>
-                        );
-                    }
-
-export default AIML;
-
+                                     </div> */}
