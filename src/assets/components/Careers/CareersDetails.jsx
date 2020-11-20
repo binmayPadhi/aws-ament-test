@@ -8,7 +8,7 @@ function CareersDetails (){
 
             <div className="careers-page-header text-center mt-5" id="details">
                 {/* <h3 className="section-header" >LET'S DO IT</h3> */}
-                <h1 className="section-title mt-3">WORKING WITH US</h1>     
+                <h1 className="section-title mt-3">WORK WITH US</h1>     
             </div>
 
             <div className="careers-page-details new-all-margin">
