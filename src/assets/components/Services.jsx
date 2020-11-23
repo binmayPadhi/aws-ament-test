@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-scroll";
-import ServiceBG from "../images/Service-Page/services-bg.jpg";
+import ServiceBG from "../images/Service-Page/services-bg.webp";
 import ServicesData from "../Data/Services-Data/ServicesData";
 import {NavLink} from "react-router-dom";
 

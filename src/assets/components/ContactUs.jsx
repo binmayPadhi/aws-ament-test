@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import ContactUsIMG from "../images/Contact-Us-Page/amnet-contact-us.jpg";
+import ContactUsIMG from "../images/Contact-Us-Page/amnet-contact-us.webp";
 import emailjs from "emailjs-com";
 import OurLocationData from "../Data/ContactUs-Data/OurLocationData";
 

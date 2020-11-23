@@ -2,7 +2,7 @@ import React from "react";
 import {NavLink} from "react-router-dom";
 import {Link} from "react-scroll";
 import careerLinkIcon from "../images/About-Us-Page/amnet-external-link.png";
-import AboutUsBG from "../images/About-Us-Page/amnet-about-us-bg.jpg";
+import AboutUsBG from "../images/About-Us-Page/amnet-about-us-bg.webp";
 import AboutUsMission from "../components/AboutUs/AboutUsMission";
 import AboutDetailsFirstRowData from "../Data/Homepage-Data/AboutDetailsFirstRowData";
 import AboutDetailsSecondRowData from "../Data/Homepage-Data/AboutDetailsSecondRowData";

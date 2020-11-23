@@ -1,7 +1,7 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 import {Link} from "react-scroll";
-import CaseStudiesBG from "../images/Case-Studies-Page/cs-bg.jpg";
+import CaseStudiesBG from "../images/Case-Studies-Page/cs-bg.webp";
 import CaseStudiesData from "../Data/CaseStudies-Data/CaseStudiesData";
 
 function TestCaseStudies ( ) {
