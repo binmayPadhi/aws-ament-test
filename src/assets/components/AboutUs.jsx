@@ -2,14 +2,14 @@ import React from "react";
 import {NavLink} from "react-router-dom";
 import {Link} from "react-scroll";
 import careerLinkIcon from "../images/About-Us-Page/amnet-external-link.png";
-import AboutUsBG from "../images/About-Us-Page/amnet-about-us-bg.webp";
+import AboutUsBG from "../images/About-Us-Page/amnet-about-us-bg.jpg";
 import AboutUsMission from "../components/AboutUs/AboutUsMission";
 import AboutDetailsFirstRowData from "../Data/Homepage-Data/AboutDetailsFirstRowData";
 import AboutDetailsSecondRowData from "../Data/Homepage-Data/AboutDetailsSecondRowData";
 import AIIcon from "../images/HomePage/ai-icon.png";
 import QuoteIcon from "../images/About-Us-Page/amnet-left-quote-icon.png";
 import OurPartner from "../components/Homepage/OurPartner";
-import OurLocationData from "../Data/ContactUs-Data/OurLocationData";
+import OurLocation from "../components/OurLocation";
 
 function TestAboutUs( ) {
     return (
@@ -87,7 +87,7 @@ function TestAboutUs( ) {
             {/* NEW ABOUT US CREDO SECTION */}
 
             <div className="homepage-about-details" style={{backgroundColor: "#0C0C0C",backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-            <h1 className="section-title text-center" style={{paddingTop:"15px", color:"white"}}>CREDO</h1>
+            <h1 className="section-title text-center" style={{paddingTop:"35px", color:"white"}}>CREDO</h1>
                 <hr></hr>
                 <div className="row new-all-margin ml-0 mr-0">
                 {/* <div className="col-10 credo-column mx-auto">
@@ -172,30 +172,8 @@ function TestAboutUs( ) {
 
 
             {/* <!-- NEW ABOUT US PAGE LOCATION SECTION --> */}
-
-            <div className="about-us-page-location contact-us-location" style={{backgroundColor:"#F2F2F2",backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-                <div className="new-all-margin">
-                    <div className="about-us-page-header text-center mt-5 p-5">
-                        <h1 className="section-title mt-3">WE OPERATE IN</h1>
-                    </div>
-                    <div className="row about-us-page-location-row  ml-0 mr-0">
-
-                        {OurLocationData.map(list => {
-                            return (
-                                    <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 new-our-location-column" key = {list.id}>
-                                        <div className="card ">
-                                            <div className="card-body location-details new-location-card">
-                                                <img className="img-fluid" src={list.locationIcon} alt="location"/>
-                                                <h2>{list.cityName}</h2>
-                                                <p>{list.address}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                )
-                            })}
-                    </div>
-                </div>
-            </div>
+            <OurLocation />
+            
 
 
 

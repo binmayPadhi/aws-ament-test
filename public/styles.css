@@ -374,7 +374,7 @@ body{
 .homepage-quote p{
     text-align: center;
     font-size: 1.8rem;
-    padding: 10px 0px;
+    padding-bottom: 5px;
 }
 
 
@@ -1016,7 +1016,7 @@ hr{
     }
 
     .section-title{
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .all-margin{
@@ -1895,7 +1895,7 @@ label{
 .about-us-page-location-row .card{
     position: relative;
     /* width: 30rem; */
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 50px;
 
 }
@@ -4279,7 +4279,7 @@ label{
 }
 
 .client-say .card-body{
-    height: 350px;
+    height: 365px;
 }
 
 .client-say .client-role{

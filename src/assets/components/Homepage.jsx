@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-scroll";
-import HomeBG from "../images/HomePage/home-bg.webp";
+import HomeBG from "../images/HomePage/home-bg.jpg";
 import AIServiceIMG from "../images/HomePage/home-vr.jpg";
 import AIIcon from "../images/HomePage/ai-icon.png";
 import AboutIcon from "../images/HomePage/about-icon.png";
