@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import ContactUsIMG from "../images/Contact-Us-Page/amnet-contact-us.webp";
+import AmnetContactUsIMG from "../images/Contact-Us-Page/amnet-contact-us.jpg";
 import emailjs from "emailjs-com";
 import OurLocationData from "../Data/ContactUs-Data/OurLocationData";
 
@@ -166,7 +167,12 @@ function TestContactUs (){
                     </div>
                     <div className="col-lg-6">
                         {/* <div className="form-IMG"> */}
-                            <img className="img-fluid" src= {ContactUsIMG} alt="contactus"/>
+                            {/* <img className="img-fluid" src= {ContactUsIMG} alt="contactus"/> */}
+
+                            <picture class="img-responsive">
+                                <source srcset={ContactUsIMG} type="image/webp" />
+                                <img class="image-image  image-hand" src={AmnetContactUsIMG} srcset="" />
+                            </picture>
                         {/* </div> */}
                     </div>
                 </div>
