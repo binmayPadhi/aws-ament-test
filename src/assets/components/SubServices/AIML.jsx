@@ -104,7 +104,7 @@ function AIML ({match}){
                                         <div className="row no-gutters sub-service-img-right-desc">
                                                 <div className="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                     <span>
-                                                        <img src= {dataDetail.icon} className="img-fluid about-icons text-center" alt = "end to end" />
+                                                        <img loading="lazy" src= {dataDetail.icon} className="img-fluid about-icons text-center" alt = "end to end" />
                                                     </span>
                                                 </div>
                                                 <div className="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -118,7 +118,7 @@ function AIML ({match}){
                                             </div>
                                         </div>
                                         <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                                            <img className="img-fluid" src={dataDetail.imgSrc} alt={dataDetail.name} />
+                                            <img loading="lazy" className="img-fluid" src={dataDetail.imgSrc} alt={dataDetail.name} />
                                         </div>
                                      </div>
                                         
@@ -132,13 +132,13 @@ function AIML ({match}){
                                      <div className="sub-service-details-bg-color">
                                      <div class="row service-all-margin">
                                         <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                                            <img className="img-fluid" src={dataDetail.imgSrc} alt={dataDetail.name} />
+                                            <img loading="lazy" className="img-fluid" src={dataDetail.imgSrc} alt={dataDetail.name} />
                                         </div>
                                         <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
                                         <div className="row no-gutters sub-service-img-right-desc">
                                                 <div className="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                     <span>
-                                                        <img src= {dataDetail.icon} className="img-fluid about-icons text-center" alt = "end to end" />
+                                                        <img loading="lazy" src= {dataDetail.icon} className="img-fluid about-icons text-center" alt = "end to end" />
                                                     </span>
                                                 </div>
                                                 <div className="col-xl-10 col-lg-12 col-md-12 col-sm-12 col-xs-12">

@@ -69,8 +69,6 @@ function TestCareers( ) {
 
               <EmployeesSay />
 
-
-
               {/* NEW HOMEPAGE CAREER SECTION */}
 
         <div className="new-career-section" style={{width:"auto", height:"auto", backgroundColor:"#19AF8F", padding:"30px",marginTop:"60px"}}>
