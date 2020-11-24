@@ -1,14 +1,22 @@
-import React from "react";
+import React ,{ Suspense, lazy } from "react";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import Homepage from "./Homepage";
-import ContactUs from "./ContactUs";
-import AboutUs from "./AboutUs";
-import Services from "./Services";
-import CaseStudies from "./CaseStudies";
-import Careers from "./Careers";
+// import Homepage from "./Homepage";
+// import ContactUs from "./ContactUs";
+// import AboutUs from "./AboutUs";
+// import Services from "./Services";
+// import CaseStudies from "./CaseStudies";
+// import Careers from "./Careers";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import AIML from "./SubServices/AIML";
+// import AIML from "./SubServices/AIML";
+
+const Homepage = lazy(() => import('./Homepage'));
+const ContactUs = lazy(() => import('./ContactUs'));
+const AboutUs = lazy(() => import('./AboutUs'));
+const Services = lazy(() => import('./Services'));
+const CaseStudies = lazy(() => import('./CaseStudies'));
+const Careers = lazy(() => import('./Careers'));
+const AIML = lazy(() => import('./SubServices/AIML'));
 
 function App(){
     return (
@@ -18,6 +26,7 @@ function App(){
                 <Navbar />
               </div>
             <div>
+            <Suspense fallback={<div>Loading...</div>}>
                 <Switch>
                     <Route exact path = "/" component = {Homepage} />
                     <Route  path = "/contactus" component = {ContactUs} />
@@ -29,6 +38,7 @@ function App(){
                     {/* <Route exact  path = "/data-labeling" component = {AIML} /> */}
                     {/* <Route exact  path = "/service/data-management" component = {AIML} /> */}
                 </Switch>
+                </Suspense>
             </div>
             <div>
                 <Footer />
