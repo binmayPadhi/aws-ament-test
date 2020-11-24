@@ -6,20 +6,19 @@ import AIIcon from "../images/HomePage/ai-icon.png";
 import AboutIcon from "../images/HomePage/about-icon.png";
 import QuoteIcon from "../images/About-Us-Page/amnet-left-quote-icon.png";
 import AboutDetailsBG from "../images/HomePage/value-bg.jpg";
-import OurServiceBG from "../images/HomePage/our-services/our-services-bg.jpg";
-import OurServicesData from "../Data/Homepage-Data/OurServicesData";
-import CaseStudiesSectionData from "../Data/Homepage-Data/CaseStudiesSectionData";
-import OurPartner from "../components/Homepage/OurPartner";
-import IndusrtySectionData from "../Data/Homepage-Data/IndustrySectionData";
-import DataAnnotationDropdownIcon from "../images/HomePage/our-services/data-annotation-icon.png";
 
-import LazyLoad from "react-lazyload";
+import OurServicesSection from "../components/Homepage/OurServicesSection";
+import CaseStudiesSection from "../components/Homepage/CaseStudiesSection";
+import OurPartner from "../components/Homepage/OurPartner";
+import IndusrtySection from "../components/Homepage/IndustrySection";
+
+
 
 
 function Test (){
  
     return(<>
-    <LazyLoad>
+    
             <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${HomeBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
                          <div className="row service-new-all-margin">
                         <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
@@ -49,7 +48,6 @@ function Test (){
                         </div>
                         </div>
             </div>
-            </LazyLoad>
 
             {/* HOMEPAGE QUOTE SECTION */}
             <div className="homepage-quote homepage-news-text">
@@ -72,7 +70,7 @@ function Test (){
         <div className="row">
 
             <div className="col-xl-6 col-lg-12 col-sm-12 solutions-services-details-img">
-            <img className="img-fluid" src={AIServiceIMG} alt="Solutions and Service" />
+            <img loading="lazy" className="img-fluid" src={AIServiceIMG} alt="Solutions and Service" />
                 {/* <img className="img-fluid" src={AIServiceIMG} srcSet={`${AboutIcon} 300w, ${AIIcon} 768w, ${OurServiceBG} 1280w, ${IndustryIMG} 3200w`} alt="Solutions and Service" /> */}
             </div>
 
@@ -81,33 +79,25 @@ function Test (){
 
                                 <li className="ai-list">
                                     <span>
-                                    <LazyLoad>
-                                    <img src={AIIcon} className="img-fluid ai-icon" alt="icon"></img>
-                                    </LazyLoad>
+                                        <img loading="lazy" src={AIIcon} className="img-fluid ai-icon" alt="icon"></img>
                                     </span>
                                     User-centered & research backed design
                                 </li>
                                 <li className="ai-list">
                                     <span>
-                                    <LazyLoad>
-                                    <img src={AIIcon} className="img-fluid ai-icon" alt="icon"></img>
-                                    </LazyLoad>
+                                    <img loading="lazy" src={AIIcon} className="img-fluid ai-icon" alt="icon"></img>
                                     </span>
                                     Advanced Automation & Artificial Intelligence techniques
                                 </li>
                                 <li className="ai-list">
                                     <span>
-                                    <LazyLoad>
-                                    <img src={AIIcon} className="img-fluid ai-icon" alt="icon"></img>
-                                    </LazyLoad>
+                                    <img loading="lazy" src={AIIcon} className="img-fluid ai-icon" alt="icon"></img>
                                     </span>
                                     Robust & Scalable Architecture and Infrastructure design
                                 </li>
                                 <li className="ai-list">
                                     <span>
-                                    <LazyLoad>
-                                    <img src={AIIcon} className="img-fluid ai-icon" alt="icon"></img>
-                                    </LazyLoad>
+                                    <img loading="lazy" src={AIIcon} className="img-fluid ai-icon" alt="icon"></img>
                                     </span>
                                     Advanced Analytics, Data Engineering & Visualization practices
                                 </li>
@@ -118,7 +108,7 @@ function Test (){
     </div>
 
     {/* NEW HOMEPAGE SOLUTION SERVICE SECTION */}
-    <LazyLoad>
+
     <div className="homepage-about-details" style={{backgroundImage:`url(${AboutDetailsBG})`,backgroundAttachment:"fixed",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
             
 
@@ -133,9 +123,7 @@ function Test (){
                                 <li className="new-about-details-list">
                                     <h2>
                                     <span>
-                                    <LazyLoad>
-                                        <img src={AboutIcon} className="img-fluid about-icon" alt="icon"></img>
-                                    </LazyLoad>
+                                        <img loading="lazy" src={AboutIcon} className="img-fluid about-icon" alt="icon"></img>
                                     </span>
                                     End-to-end Solutions
                                     </h2>
@@ -146,9 +134,7 @@ function Test (){
                                 <li className="new-about-details-list">
                                 <h2>
                                     <span>
-                                    <LazyLoad>
-                                        <img src={AboutIcon} className="img-fluid about-icon" alt="icon"></img>
-                                    </LazyLoad>
+                                        <img loading="lazy" src={AboutIcon} className="img-fluid about-icon" alt="icon"></img>
                                     </span>
                                     Technology Agnostic
                                     </h2>
@@ -159,9 +145,7 @@ function Test (){
                                 <li className="new-about-details-list">
                                 <h2>
                                     <span>
-                                    <LazyLoad>
-                                        <img src={AboutIcon} className="img-fluid about-icon" alt="icon"></img>
-                                    </LazyLoad>
+                                        <img loading="lazy" src={AboutIcon} className="img-fluid about-icon" alt="icon"></img>
                                     </span>
                                     Smart Innovations
                                     </h2>
@@ -176,136 +160,32 @@ function Test (){
 
 
     </div>
-    </LazyLoad>
 
 
     {/* NEW HOMEPAGE INDUSTRIES SECTION */}
-    <LazyLoad>
 
-    <div className="industry-section new-all-margin">
-    
-    <h1 className="section-title" style={{marginTop:"60px"}}>INDUSTRIES WE COVER</h1>      
-    
-    <div className="industry-section-row row mt-5">
-
-    {IndusrtySectionData.map(list => {
-        return ( 
-
-            <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 industry-section-column">
-            <div className="card industry-section-card">
-            <LazyLoad>
-                <img className="card-img-top img-fluid" src= {list.industryIMG} alt="Case Studies" />
-            </LazyLoad>
-                <div className="card-img-overlay new-industry-header">
-                <h5 class="card-title text-center">{list.industryTitle}</h5>
-                </div>
-                <div className="card-body" style={{display:"none"}}>
-                    {/* <h5 className="card-title">{list.industryTitle}</h5> */}
-                </div>
-            </div>
-            </div>
-
-            )
-        })}
-            
-    </div>
-    </div>
-    </LazyLoad>
+    <IndusrtySection />
+   
 
 
 {/* NEW HOMEPAGE OUR SERVICE SECTION */}
-<LazyLoad>
-<div className="our-services" style={{backgroundImage:`url(${OurServiceBG})`,backgroundAttachment:"scroll",height:"auto",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-    <h1 className="section-title text-center">OUR SERVICES</h1>
-    <hr></hr>
-    <div className="new-all-margin">
-    <div className="row">
-    {OurServicesData.map(data => {
-        return(
-                    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 new-our-service-column" key={data.id}>
-                    <div className="new-our-service-card">
-                    <div className="card-img-top">
-                    <LazyLoad>
-                        <img src={data.serviceIcon} className="img-fluid text-center" alt="icon" />
-                    </LazyLoad>
-                    </div>
-                    <div className="card-body">
-                        <h3 className="card-title">{data.serviceTitle}</h3>
-                        <p className ="card-text">{data.serviceDesc}</p>
-                        <a href={`/${data.id}`} className="learn-more-services">{`Learn More ->`}</a>
-                    </div>
-                </div>
-                    </div>
-        )
-    })}
-   
+<OurServicesSection />
 
-{/* <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12"></div> */}
-
-    <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 mx-auto new-our-service-column">
-                    <div className="new-our-service-card">
-                    <div className="card-img-top">
-                    <LazyLoad>
-                        <img src={DataAnnotationDropdownIcon} className="img-fluid text-center" alt="icon" />
-                    </LazyLoad>
-                    </div>
-                    <div className="card-body">
-                        <h3 className="card-title">Data Annotation</h3>
-                        <p className ="card-text">From complex documents to vital images & speech, precisely tag the data you need to 
-                            train your models and explore a wide variety of business opportunities.
-                        </p>
-                        <a href="/data-annotation" className="learn-more-services">{`Learn More ->`}</a>
-                    </div>
-                </div>
-                    </div>
-                    {/* <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12"></div> */}
-</div>
-    </div>
-</div>
-</LazyLoad>
 
 
 
 {/* NEW HOMEPAGE CASESTUDIES SECTION */}
-<LazyLoad>
 
-<div className="case-studies new-all-margin">
-        <h1 className="section-title" style={{marginTop:"60px"}}>CASE STUDIES</h1> 
-        <hr></hr>
+<CaseStudiesSection />
 
-    <div className="row  new-case-studies-row">
-    {CaseStudiesSectionData.map(list => {
-                return (
-                    <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 new-case-studies-card" key={list.id}>
-                        <div className="card ">
-                        <LazyLoad>
-                            <img className="card-img-top img-fluid" src= {list.caseStudiesIMG} alt="Case Studies" />
-                        </LazyLoad>
-                            <div className="card-body propensity-modelling">
-                                <h5 className="card-title">{list.caseStudiesTitle}</h5>
-                                <p>{list.caseStudiesDesc}</p>
-                                <a href={`./casestudies#${list.id}`}>{`Learn More ->`}</a>
-                            </div>
-                        </div>
-                    </div>
-                )
-        })}
-</div>
-           
-    </div>
-    <div className="new-explore-link text-center">
-                <a href="/casestudies">Explore All</a>
-    </div>
 
-    </LazyLoad>
 
     {/* NEW HOMEPAGE OUR PARTNER SECTION */}
-    <LazyLoad>
     <div className="new-our-partner">
         <h1 className="section-title mt-3 text-center">RECOGNITIONS & PARTNERSHIPS</h1> 
         <OurPartner />
     </div>
-    </LazyLoad>
+
 
     {/* NEW HOMEPAGE CLIENT SAY */}
         <div className="client-say">
@@ -315,9 +195,7 @@ function Test (){
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                     <div className="card client-say-card">
                         <div className="card-body">
-                        <LazyLoad>
-                            <img src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
-                        </LazyLoad>
+                            <img loading="lazy" src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
                             {/* <h3 className="card-title">Jamie Lorenzo</h3> */}
                             <p className ="card-text client-role">Director of Data Science, Retail Marketplace</p>
                             <p className="card-text client-desc">The assistance we got from Amnet Digital was the glue that kept together our transformation initiatives for FY 2018-20. They stayed on top of our challenging unstructured data and provided world-class data analysis. 
@@ -330,9 +208,7 @@ function Test (){
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                     <div className="card client-say-card">
                         <div className="card-body">
-                        <LazyLoad>
-                            <img src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
-                        </LazyLoad>
+                            <img loading="lazy" src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
                             {/* <h3 className="card-title">Jamie Lorenzo</h3> */}
                             <p className ="card-text client-role">VP Engineering, Information Management Company</p>
                             <p className="card-text client-desc">We developed a great partnership with Amnet Digital and their dedication towards our digital transformation was commendable. We appreciate their attention to detail, modernization approach, 
@@ -345,7 +221,7 @@ function Test (){
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 client-say-card-center">
                     <div className="card client-say-card">
                         <div className="card-body">
-                            <img src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
+                            <img loading="lazy" src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
                             {/* <h3 className="card-title">Jamie Lorenzo</h3> */}
                             <p className ="card-text client-role">VP Engineering, eCommerce Company</p>
                             <p className="card-text client-desc">We would like to express our satisfaction regarding the development of our eCommerce web application. The application engineering team did a very professional job. We are satisfied with the solution 

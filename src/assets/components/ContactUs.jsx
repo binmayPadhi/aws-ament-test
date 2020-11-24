@@ -166,7 +166,7 @@ function TestContactUs (){
                     </div>
                     <div className="col-lg-6">
                         {/* <div className="form-IMG"> */}
-                            <img className="img-fluid" src= {ContactUsIMG} alt="contactus"/>
+                            <img loading="lazy" className="img-fluid" src= {ContactUsIMG} alt="contactus"/>
 
                             {/* <picture class="img-responsive">
                                 <source srcset={ContactUsIMG} type="image/webp" />

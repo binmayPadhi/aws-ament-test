@@ -26,7 +26,7 @@ function AboutDetails(){
                                         <div className="col-lg-6 col-md-12 col-sm-12" key={list.id}>
                                             <h3 className="about-details-header">
                                                 <span>
-                                                    <img src= {list.iconSrc} className="img-fluid about-icons" alt = "end to end" />
+                                                    <img loading="lazy" src= {list.iconSrc} className="img-fluid about-icons" alt = "end to end" />
                                                 </span>
                                                 {list.title}
                                             </h3>
@@ -44,7 +44,7 @@ function AboutDetails(){
                                         <div className="col-lg-6 col-md-12 col-sm-12" key={list.id}>
                                             <h3 className="about-details-header">
                                                 <span>
-                                                    <img src= {list.iconSrc} className="img-fluid about-icons" alt = "end to end" />
+                                                    <img loading="lazy" src= {list.iconSrc} className="img-fluid about-icons" alt = "end to end" />
                                                 </span>
                                                 {list.title}
                                             </h3>

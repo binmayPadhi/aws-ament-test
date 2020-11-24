@@ -117,7 +117,7 @@ function TestAboutUs( ) {
                                         <div className="col-lg-6 col-md-12 col-sm-12 credo-info-column" key={list.id}>
                                             <h3 className="about-details-header">
                                                 <span>
-                                                    <img src= {AIIcon} className="img-fluid about-icons" alt = "end to end" />
+                                                    <img loading="lazy" src= {AIIcon} className="img-fluid about-icons" alt = "end to end" />
                                                 </span>
                                                 {list.newTitle}
                                             </h3>
@@ -135,7 +135,7 @@ function TestAboutUs( ) {
                                         <div className="col-lg-6 col-md-12 col-sm-12 credo-info-column" key={list.id}>
                                             <h3 className="about-details-header">
                                                 <span>
-                                                    <img src= {AIIcon} className="img-fluid about-icons" alt = "end to end" />
+                                                    <img loading="lazy" src= {AIIcon} className="img-fluid about-icons" alt = "end to end" />
                                                 </span>
                                                 {list.newTitle}
                                             </h3>
@@ -187,7 +187,7 @@ function TestAboutUs( ) {
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                     <div className="card client-say-card">
                         <div className="card-body">
-                            <img src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
+                            <img loading="lazy" src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
                             {/* <h3 className="card-title">Jamie Lorenzo</h3> */}
                             <p className ="card-text client-role">Director of Data Science, Retail Marketplace</p>
                             <p className="card-text client-desc">The assistance we got from Amnet Digital was the glue that kept together our transformation initiatives for FY 2018-20. They stayed on top of our challenging unstructured data and provided world-class data analysis. 
@@ -200,7 +200,7 @@ function TestAboutUs( ) {
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                     <div className="card client-say-card">
                         <div className="card-body">
-                            <img src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
+                            <img loading="lazy" src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
                             {/* <h3 className="card-title">Jamie Lorenzo</h3> */}
                             <p className ="card-text client-role">VP Engineering, Information Management Company</p>
                             <p className="card-text client-desc">We developed a great partnership with Amnet Digital and their dedication towards our digital transformation was commendable. We appreciate their attention to detail, modernization approach, 
@@ -213,7 +213,7 @@ function TestAboutUs( ) {
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 client-say-card-center">
                     <div className="card client-say-card">
                         <div className="card-body">
-                            <img src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
+                            <img loading="lazy" src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
                             {/* <h3 className="card-title">Jamie Lorenzo</h3> */}
                             <p className ="card-text client-role">VP Engineering, eCommerce Company</p>
                             <p className="card-text client-desc">We would like to express our satisfaction regarding the development of our eCommerce web application. The application engineering team did a very professional job. We are satisfied with the solution 

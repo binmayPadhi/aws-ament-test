@@ -27,7 +27,7 @@ function OurLocation(){
                                     <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 new-our-location-column" key = {list.id}>
                                         <div className="card ">
                                             <div className="card-body location-details new-location-card">
-                                                <img className="img-fluid" src={list.locationIcon} alt="location"/>
+                                                <img loading="lazy" className="img-fluid" src={list.locationIcon} alt="location"/>
                                                 <h2>{list.cityName}</h2>
                                                 <p>{list.address}</p>
                                             </div>

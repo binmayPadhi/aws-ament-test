@@ -16,7 +16,7 @@ function OurCulture (){
             <div className="our-culture-section new-all-margin">
                 <div className="row ml-0 mr-0">
                     <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 culture-img-left" style={{paddingLeft:"0px",paddingRight:"0px"}}>
-                        <img className="img-fluid" src={AmnetOfficeIMG} style={{maxWidth:"99%"}} alt="Amnet-Office" />
+                        <img loading="lazy" className="img-fluid" src={AmnetOfficeIMG} style={{maxWidth:"99%"}} alt="Amnet-Office" />
                     </div>
 
                     <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 culture-img-right">
@@ -25,7 +25,7 @@ function OurCulture (){
                             {OurCultureData.map(img => {
                                 return (
                                     <div className="col-lg-12 amnet-images" key = {img.id} style={{paddingLeft:"0px",paddingRight:"0px"}}>
-                                        <img className="img-fluid" style={{maxWidth:"99%"}} src={img.amnetIMG} alt="Amnet-Culture" />
+                                        <img loading="lazy"  className="img-fluid" style={{maxWidth:"99%"}} src={img.amnetIMG} alt="Amnet-Culture" />
                                     </div>
                                 )
                             })}

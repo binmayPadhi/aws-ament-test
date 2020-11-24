@@ -59,7 +59,7 @@ function TestCaseStudies ( ) {
                             return (
                                 <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 case-studies-list new-case-studies-list p-2" id={caseStudy.id} key ={caseStudy.id}>
                                     <div className="card case-studies-page-card">
-                                        <img className="img-fluid card-img-top" src={caseStudy.caseStudiesIMG} alt ="case-studies"/>
+                                        <img loading="lazy" className="img-fluid card-img-top" src={caseStudy.caseStudiesIMG} alt ="case-studies"/>
                                         <div className="card-body">
                                             {/* <span className="case-studies-icon"><img className="img-fluid" src={caseStudy.caseStudiesIcon} alt ="case-studies-icon"/> </span> */}
                                             <h2 className="case-studies-page-card-title card-title">{caseStudy.newTitle}</h2>
