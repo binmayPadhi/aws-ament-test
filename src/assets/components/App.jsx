@@ -6,10 +6,11 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 // import Services from "./Services";
 // import CaseStudies from "./CaseStudies";
 // import Careers from "./Careers";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+// import Navbar from "./Navbar";
+// import Footer from "./Footer";
 // import AIML from "./SubServices/AIML";
-
+const Navbar = lazy(() => import('./Navbar'));
+const Footer = lazy(() => import('./Footer'));
 const Homepage = lazy(() => import('./Homepage'));
 const ContactUs = lazy(() => import('./ContactUs'));
 const AboutUs = lazy(() => import('./AboutUs'));
@@ -22,11 +23,12 @@ function App(){
     return (
         <>
             <Router forceRefresh={true}>
+            <Suspense fallback={<div>Loading...</div>}>
               <div>
                 <Navbar />
               </div>
             <div>
-            <Suspense fallback={<div>Loading...</div>}>
+            
                 <Switch>
                     <Route exact path = "/" component = {Homepage} />
                     <Route  path = "/contactus" component = {ContactUs} />
@@ -38,11 +40,12 @@ function App(){
                     {/* <Route exact  path = "/data-labeling" component = {AIML} /> */}
                     {/* <Route exact  path = "/service/data-management" component = {AIML} /> */}
                 </Switch>
-                </Suspense>
+                
             </div>
             <div>
                 <Footer />
             </div>
+            </Suspense>
         </Router>
         </>
     )
