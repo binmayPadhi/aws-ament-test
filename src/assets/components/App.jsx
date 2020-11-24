@@ -23,7 +23,7 @@ function App(){
     return (
         <>
             <Router forceRefresh={true}>
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<div></div>}>
               <div>
                 <Navbar />
               </div>
