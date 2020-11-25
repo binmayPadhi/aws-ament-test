@@ -7,19 +7,17 @@ function CaseStudiesSection (){
         <>
              {/* <!--CASE STUDIES SECTION--> */}
 
-    <div className="case-studies all-margin">
-        <h3 className="section-header">PROBLEMS ADDRESSED</h3>
-        <h1 className="section-title mt-3">Case Studies</h1>      
-        
-        <div className="case-studies-row row mt-5">
+             <div className="case-studies new-all-margin">
+        <h1 className="section-title" style={{marginTop:"60px"}}>CASE STUDIES</h1> 
+        <hr></hr>
 
-            {CaseStudiesSectionData.map(list => {
+    <div className="row  new-case-studies-row">
+    {CaseStudiesSectionData.map(list => {
                 return (
-                    <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12" key={list.id}>
-                        <div className="card case-studies-card">
-                            <img className="card-img-top img-fluid" src= {list.caseStudiesIMG} alt="Case Studies" />
+                    <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 new-case-studies-card" key={list.id}>
+                        <div className="card ">
+                            <img loading="lazy" className="card-img-top img-fluid" src= {list.caseStudiesIMG} alt="Case Studies" />
                             <div className="card-body propensity-modelling">
-                                <span className="dot-icon"><img className="img-fluid" src={list.caseStudiesIcon} alt={list.caseStudiesTitle} /> </span>
                                 <h5 className="card-title">{list.caseStudiesTitle}</h5>
                                 <p>{list.caseStudiesDesc}</p>
                                 <a href={`./casestudies#${list.id}`}>{`Learn More ->`}</a>
@@ -27,9 +25,12 @@ function CaseStudiesSection (){
                         </div>
                     </div>
                 )
-            })}
-        </div>
-        <a href="/caseStudies" className="explore-all-link">Explore All</a>
+        })}
+</div>
+           
+    </div>
+    <div className="new-explore-link text-center">
+                <a href="/casestudies">Explore All</a>
     </div>
         </>
     )

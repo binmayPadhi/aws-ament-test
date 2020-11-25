@@ -9,7 +9,7 @@ import AboutDetailsSecondRowData from "../Data/Homepage-Data/AboutDetailsSecondR
 import AIIcon from "../images/HomePage/ai-icon.png";
 import QuoteIcon from "../images/About-Us-Page/amnet-left-quote-icon.png";
 import OurPartner from "../components/Homepage/OurPartner";
-import OurLocationData from "../Data/ContactUs-Data/OurLocationData";
+import OurLocation from "../components/OurLocation";
 
 function TestAboutUs( ) {
     return (
@@ -87,7 +87,7 @@ function TestAboutUs( ) {
             {/* NEW ABOUT US CREDO SECTION */}
 
             <div className="homepage-about-details" style={{backgroundColor: "#0C0C0C",backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-            <h1 className="section-title text-center" style={{paddingTop:"15px", color:"white"}}>CREDO</h1>
+            <h1 className="section-title text-center" style={{paddingTop:"30px", color:"white"}}>CREDO</h1>
                 <hr></hr>
                 <div className="row new-all-margin ml-0 mr-0">
                 {/* <div className="col-10 credo-column mx-auto">
@@ -117,7 +117,7 @@ function TestAboutUs( ) {
                                         <div className="col-lg-6 col-md-12 col-sm-12 credo-info-column" key={list.id}>
                                             <h3 className="about-details-header">
                                                 <span>
-                                                    <img src= {AIIcon} className="img-fluid about-icons" alt = "end to end" />
+                                                    <img loading="lazy" src= {AIIcon} className="img-fluid about-icons" alt = "end to end" />
                                                 </span>
                                                 {list.newTitle}
                                             </h3>
@@ -135,7 +135,7 @@ function TestAboutUs( ) {
                                         <div className="col-lg-6 col-md-12 col-sm-12 credo-info-column" key={list.id}>
                                             <h3 className="about-details-header">
                                                 <span>
-                                                    <img src= {AIIcon} className="img-fluid about-icons" alt = "end to end" />
+                                                    <img loading="lazy" src= {AIIcon} className="img-fluid about-icons" alt = "end to end" />
                                                 </span>
                                                 {list.newTitle}
                                             </h3>
@@ -172,30 +172,8 @@ function TestAboutUs( ) {
 
 
             {/* <!-- NEW ABOUT US PAGE LOCATION SECTION --> */}
-
-            <div className="about-us-page-location contact-us-location" style={{backgroundColor:"#F2F2F2",backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-                <div className="new-all-margin">
-                    <div className="about-us-page-header text-center mt-5 p-5">
-                        <h1 className="section-title mt-3">WE OPERATE IN</h1>
-                    </div>
-                    <div className="row about-us-page-location-row  ml-0 mr-0">
-
-                        {OurLocationData.map(list => {
-                            return (
-                                    <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 new-our-location-column" key = {list.id}>
-                                        <div className="card ">
-                                            <div className="card-body location-details new-location-card">
-                                                <img className="img-fluid" src={list.locationIcon} alt="location"/>
-                                                <h2>{list.cityName}</h2>
-                                                <p>{list.address}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                )
-                            })}
-                    </div>
-                </div>
-            </div>
+            <OurLocation />
+            
 
 
 
@@ -209,7 +187,7 @@ function TestAboutUs( ) {
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                     <div className="card client-say-card">
                         <div className="card-body">
-                            <img src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
+                            <img loading="lazy" src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
                             {/* <h3 className="card-title">Jamie Lorenzo</h3> */}
                             <p className ="card-text client-role">Director of Data Science, Retail Marketplace</p>
                             <p className="card-text client-desc">The assistance we got from Amnet Digital was the glue that kept together our transformation initiatives for FY 2018-20. They stayed on top of our challenging unstructured data and provided world-class data analysis. 
@@ -222,7 +200,7 @@ function TestAboutUs( ) {
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                     <div className="card client-say-card">
                         <div className="card-body">
-                            <img src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
+                            <img loading="lazy" src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
                             {/* <h3 className="card-title">Jamie Lorenzo</h3> */}
                             <p className ="card-text client-role">VP Engineering, Information Management Company</p>
                             <p className="card-text client-desc">We developed a great partnership with Amnet Digital and their dedication towards our digital transformation was commendable. We appreciate their attention to detail, modernization approach, 
@@ -235,7 +213,7 @@ function TestAboutUs( ) {
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 client-say-card-center">
                     <div className="card client-say-card">
                         <div className="card-body">
-                            <img src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
+                            <img loading="lazy" src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
                             {/* <h3 className="card-title">Jamie Lorenzo</h3> */}
                             <p className ="card-text client-role">VP Engineering, eCommerce Company</p>
                             <p className="card-text client-desc">We would like to express our satisfaction regarding the development of our eCommerce web application. The application engineering team did a very professional job. We are satisfied with the solution 

@@ -198,7 +198,7 @@ function TestService( ) {
                                     <div className="col-12 new-service-info" key={service.id} id={service.id}>
                                     <div className="row">
                                         <div className="col-xl-2 col-lg-2 col-md-12 col-sm-12">
-                                            <img className={`img-fluid new-service-image ${service.className}`} src={service.serviceIMG} alt="icon" />
+                                            <img loading="lazy" className={`img-fluid new-service-image ${service.className}`} src={service.serviceIMG} alt="icon" />
                                         </div>
                                         <div className="col-xl-10 col-lg-10 col-md-12 col-sm-12">
                                         <h2>{service.title}</h2>
