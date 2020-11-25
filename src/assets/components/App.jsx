@@ -1,34 +1,23 @@
-import React ,{ Suspense, lazy } from "react";
+import React from "react";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-// import Homepage from "./Homepage";
-// import ContactUs from "./ContactUs";
-// import AboutUs from "./AboutUs";
-// import Services from "./Services";
-// import CaseStudies from "./CaseStudies";
-// import Careers from "./Careers";
-// import Navbar from "./Navbar";
-// import Footer from "./Footer";
-// import AIML from "./SubServices/AIML";
-const Navbar = lazy(() => import('./Navbar'));
-const Footer = lazy(() => import('./Footer'));
-const Homepage = lazy(() => import('./Homepage'));
-const ContactUs = lazy(() => import('./ContactUs'));
-const AboutUs = lazy(() => import('./AboutUs'));
-const Services = lazy(() => import('./Services'));
-const CaseStudies = lazy(() => import('./CaseStudies'));
-const Careers = lazy(() => import('./Careers'));
-const AIML = lazy(() => import('./SubServices/AIML'));
+import Homepage from "./Homepage";
+import ContactUs from "./ContactUs";
+import AboutUs from "./AboutUs";
+import Services from "./Services";
+import CaseStudies from "./CaseStudies";
+import Careers from "./Careers";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import AIML from "./SubServices/AIML";
 
 function App(){
     return (
         <>
             <Router forceRefresh={true}>
-            <Suspense fallback={<div></div>}>
               <div>
                 <Navbar />
               </div>
             <div>
-            
                 <Switch>
                     <Route exact path = "/" component = {Homepage} />
                     <Route  path = "/contactus" component = {ContactUs} />
@@ -40,12 +29,10 @@ function App(){
                     {/* <Route exact  path = "/data-labeling" component = {AIML} /> */}
                     {/* <Route exact  path = "/service/data-management" component = {AIML} /> */}
                 </Switch>
-                
             </div>
             <div>
                 <Footer />
             </div>
-            </Suspense>
         </Router>
         </>
     )

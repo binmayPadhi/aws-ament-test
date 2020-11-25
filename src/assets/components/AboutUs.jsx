@@ -87,7 +87,7 @@ function TestAboutUs( ) {
             {/* NEW ABOUT US CREDO SECTION */}
 
             <div className="homepage-about-details" style={{backgroundColor: "#0C0C0C",backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-            <h1 className="section-title text-center" style={{paddingTop:"35px", color:"white"}}>CREDO</h1>
+            <h1 className="section-title text-center" style={{paddingTop:"30px", color:"white"}}>CREDO</h1>
                 <hr></hr>
                 <div className="row new-all-margin ml-0 mr-0">
                 {/* <div className="col-10 credo-column mx-auto">

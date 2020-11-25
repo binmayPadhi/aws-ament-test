@@ -1,30 +1,25 @@
-import React,{ Suspense, lazy } from "react";
-// import {Link} from "react-scroll";
-import HomeBGTest from "../images/HomePage/home-bg-test.jpg";
-
-// import HomepageIntro from "./Homepage/HomepageIntro";
+import React from "react";
+import {Link} from "react-scroll";
+import HomeBG from "../images/HomePage/home-bg.jpg";
 import AIServiceIMG from "../images/HomePage/home-vr.jpg";
 import AIIcon from "../images/HomePage/ai-icon.png";
 import AboutIcon from "../images/HomePage/about-icon.png";
 import QuoteIcon from "../images/About-Us-Page/amnet-left-quote-icon.png";
 import AboutDetailsBG from "../images/HomePage/value-bg.jpg";
-
 import OurServicesSection from "../components/Homepage/OurServicesSection";
 import CaseStudiesSection from "../components/Homepage/CaseStudiesSection";
 import OurPartner from "../components/Homepage/OurPartner";
 import IndusrtySection from "../components/Homepage/IndustrySection";
 
-const HomepageIntro = React.lazy(() => import('./Homepage/HomepageIntro'));
+
 
 
 function Test (){
  
     return(<>
     
-    <Suspense fallback={
-    <div className="sub-service-intro container-fluid" 
-    style={{backgroundImage:`url(${HomeBGTest})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-        <div className="row service-new-all-margin">
+            <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${HomeBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
+                         <div className="row service-new-all-margin">
                         <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
                             <h2>
                             Reimagine & Redefine
@@ -33,12 +28,26 @@ function Test (){
                             Amnet Digital is enabling enterprises reimagine and redefine their engagement with 
                             employees, customers, partners and suppliers by providing intelligent 
                             insights and continuous value.
-                            </p> </div> </div>
-    </div>}>
-    <HomepageIntro />
+                            </p>
 
-    </Suspense>
-           
+                            <div className="subService-AIML-intro-btn">
+                                {/* <a href="/casestudies">
+                                    <button type="button" className="btn btn-default">View Details</button>
+                                </a> */}
+                            <Link
+                            activeClass="active"
+                            to="details"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}>
+                            <button type="button" className="btn btn-default sub-service-view-details-btn">Learn more</button>
+                        </Link>
+                            </div>
+                        </div>
+                        </div>
+            </div>
+
             {/* HOMEPAGE QUOTE SECTION */}
             <div className="homepage-quote homepage-news-text">
                 <h2 className="text-center">
