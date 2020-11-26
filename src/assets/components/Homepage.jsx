@@ -77,28 +77,58 @@ function Test (){
                 <ul className="new-solutions-services-lists">
 
                                 <li className="ai-list">
+                                    {/* <span>
+                                        <img loading="lazy" src={AIIcon} className="img-fluid ai-icon" alt="icon"></img>
+                                    </span>
+                                    User-centered & research backed design Robust & Scalable Architecture and Infrastructure design Advanced Analytics, Data Engineering & Visualization practices */}
+                                    <div className="AISolutionIcon">
                                     <span>
                                         <img loading="lazy" src={AIIcon} className="img-fluid ai-icon" alt="icon"></img>
                                     </span>
-                                    User-centered & research backed design
+                                    </div>
+                                    <div className="AISolutionInfoText">
+                                    
+                                        <p> User-centered & research backed design</p>
+                        
+                                    </div>
+                                    
+                                </li>
+                                
+                                <li className="ai-list">
+                                <div className="AISolutionIcon">
+                                    <span>
+                                        <img loading="lazy" src={AIIcon} className="img-fluid ai-icon" alt="icon"></img>
+                                    </span>
+                                </div>
+                                    <div className="AISolutionInfo">
+                                    
+                                        <p>Advanced Automation & Artificial Intelligence techniques</p>
+                                   
+                                    </div>
                                 </li>
                                 <li className="ai-list">
+                                <div className="AISolutionIcon">
                                     <span>
-                                    <img loading="lazy" src={AIIcon} className="img-fluid ai-icon" alt="icon"></img>
+                                        <img loading="lazy" src={AIIcon} className="img-fluid ai-icon" alt="icon"></img>
                                     </span>
-                                    Advanced Automation & Artificial Intelligence techniques
+                                </div>
+                                    <div className="AISolutionInfo">
+                                    
+                                        <p>Robust & Scalable Architecture and Infrastructure design</p>
+                        
+                                    </div>
                                 </li>
                                 <li className="ai-list">
+                                <div className="AISolutionIcon">
                                     <span>
-                                    <img loading="lazy" src={AIIcon} className="img-fluid ai-icon" alt="icon"></img>
+                                        <img loading="lazy" src={AIIcon} className="img-fluid ai-icon" alt="icon"></img>
                                     </span>
-                                    Robust & Scalable Architecture and Infrastructure design
-                                </li>
-                                <li className="ai-list">
-                                    <span>
-                                    <img loading="lazy" src={AIIcon} className="img-fluid ai-icon" alt="icon"></img>
-                                    </span>
-                                    Advanced Analytics, Data Engineering & Visualization practices
+                                </div>
+                                    <div className="AISolutionInfo">
+                                    
+                                        <p>Advanced Analytics, Data Engineering & Visualization practices</p>
+                        
+                                    </div>
                                 </li>
                             
                 </ul>

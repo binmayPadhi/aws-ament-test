@@ -301,10 +301,11 @@ body{
 
 .solutions-services-details p{
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: 0px;
-    color: #4D4D4F;
+    color: black;
+    margin-top: 10px;
 }
 
 .solutions-services-lists{
@@ -850,7 +851,10 @@ hr{
     }
     .solutions-services-details p{
         font-size: 1.2rem;
-        margin-top: 10px;
+        margin-top: 5px;
+    }
+    .AISolutionInfo{
+        margin-left: 5px;
     }
     .solutions-services-details-img{
         margin-top: 35px;
@@ -1100,8 +1104,9 @@ hr{
     }
     .solutions-services-details p{
         font-size: 1.2rem;
-        margin-top: 10px;
+        margin-top: 5px;
     }
+  
     .solutions-services-details-img{
         margin-top: 35px;
     }
@@ -2982,6 +2987,10 @@ label{
         font-size: 1.5rem;
     }
 
+    .careers-details-lists .list-icon {
+        width: 30px;
+    }
+
     .careers-our-culture-header h1{
         font-size: 2rem;
     }
@@ -3033,6 +3042,9 @@ label{
 @media only screen and (min-width: 425px) and (max-width: 767px) {
     .culture-img-left{
         margin-top: 8px;
+    }
+    .careers-details-lists .list-icon {
+        width: 40px;
     }
 }
 
@@ -4040,8 +4052,9 @@ label{
     font-size: 1.7rem;
     font-weight: 500;
     letter-spacing: 0px;
-    color: #4D4D4F;
+    color: black;
     list-style: none;
+    display: flex;
 }
 
 .new-solutions-services-lists .ai-icon{
@@ -4051,9 +4064,6 @@ label{
         margin-bottom: 5px;
 }
 
-.new-solutions-services-lists .ai-list{
-    color: black;
-}
 
 /* NEW HOMEPAGE ABOUT US DETAILS SECTION */
 
@@ -4783,6 +4793,10 @@ label{
         width: 30px;
         height: 30px;
         margin-right: 10px;
+    }
+
+    .AISolutionInfo{
+        margin-left: 5px;
     }
 
     .new-about-details-list h2 {
