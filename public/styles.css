@@ -5749,3 +5749,30 @@ label{
 } */
 
 
+/* ANIMATION TEST */
+
+
+
+
+
+
+
+
+.new-our-service-card img:hover{
+    transform: rotate(360deg) scale(1.5);
+    transition: 1s;
+}
+.card:hover img {
+    transform: scale(1.05);
+    transform-origin: 50% 50%;
+}
+
+.card {
+    display: inline-block;
+    border: 1px solid black;
+    overflow: hidden;            
+  }
+  .card img {
+    display: block;
+    transition: transform .4s;   
+  }
