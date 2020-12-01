@@ -17,9 +17,10 @@ import IndusrtySection from "../components/Homepage/IndustrySection";
 function Test (){
  
     return(<>
-    
-            <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${HomeBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-                         <div className="row service-new-all-margin">
+    <img className="home-intro-image sub-service-intro" style={{position:"absolute"}} src={HomeBG} alt="HOME" />
+            <div className="sub-service-intro container-fluid">  
+            {/* style={{backgroundImage:`url(${HomeBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}} */}
+                        <div className="row service-new-all-margin">
                         <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
                             <h2>
                             Reimagine & Redefine
