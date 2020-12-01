@@ -16,7 +16,7 @@ function IndustrySection (){
         return ( 
 
             <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 industry-section-column">
-            <div className="card industry-section-card">
+            <div className="card industry-section-card animation-card">
                 <img loading="lazy" className="card-img-top img-fluid" src= {list.industryIMG} alt="Case Studies" />
                 <div className="card-img-overlay new-industry-header">
                 <h5 class="card-title text-center">{list.industryTitle}</h5>

@@ -15,7 +15,7 @@ function CaseStudiesSection (){
     {CaseStudiesSectionData.map(list => {
                 return (
                     <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 new-case-studies-card" key={list.id}>
-                        <div className="card ">
+                        <div className="card animation-card">
                             <img loading="lazy" className="card-img-top img-fluid" src= {list.caseStudiesIMG} alt="Case Studies" />
                             <div className="card-body propensity-modelling">
                                 <h5 className="card-title">{list.caseStudiesTitle}</h5>
