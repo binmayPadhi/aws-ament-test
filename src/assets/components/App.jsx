@@ -9,8 +9,11 @@ import Careers from "./Careers";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import AIML from "./SubServices/AIML";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App(){
+    AOS.init({ duration:2000, offset:300 });
     return (
         <>
             <Router forceRefresh={true}>
