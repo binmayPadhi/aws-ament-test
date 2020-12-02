@@ -2,19 +2,19 @@ import React,{ Suspense } from "react";
 import {Link} from "react-scroll";
 import HomeBG from "../images/HomePage/home-bg.jpg";
 import SolutionsServices from "../components/Homepage/SolutionsServices";
-
 // import ClientSay from "../components/Homepage/ClientSay";
 import AboutDetails from "../components/Homepage/AboutDetails";
 import OurServicesSection from "../components/Homepage/OurServicesSection";
 // import CaseStudiesSection from "../components/Homepage/CaseStudiesSection";
 import OurPartner from "../components/Homepage/OurPartner";
+
 // import IndusrtySection from "../components/Homepage/IndustrySection";
 
 function Test (){
     const ClientSay = React.lazy(() => import('../components/Homepage/ClientSay'));
     const CaseStudiesSection = React.lazy(() => import('../components/Homepage/CaseStudiesSection'));
     const IndusrtySection = React.lazy(() => import('../components/Homepage/IndustrySection'));
- 
+
     return(<>
     
             <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${HomeBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
@@ -78,7 +78,7 @@ function Test (){
 
             {/* NEW HOMEPAGE OUR PARTNER SECTION */}
             <div className="new-our-partner">
-                <h1 className="section-title mt-3 text-center">RECOGNITIONS & PARTNERSHIPS</h1> 
+                <h1 data-aos="fade-right" className="section-title mt-3 text-center">RECOGNITIONS & PARTNERSHIPS</h1> 
                 <OurPartner />
             </div>
 

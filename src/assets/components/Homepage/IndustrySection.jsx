@@ -1,6 +1,7 @@
 import React from "react";
 import IndusrtySectionData from "../../Data/Homepage-Data/IndustrySectionData";
 
+
 function IndustrySection (){
     return (
         <>
@@ -8,7 +9,7 @@ function IndustrySection (){
 
             <div className="industry-section new-all-margin">
     
-    <h1 className="section-title" style={{marginTop:"60px"}}>INDUSTRIES WE COVER</h1>      
+    <h1 data-aos="fade-right" className="section-title" style={{marginTop:"60px"}}>INDUSTRIES WE COVER</h1>      
     
     <div className="industry-section-row row mt-5">
 

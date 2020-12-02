@@ -8,7 +8,7 @@ function CaseStudiesSection (){
              {/* <!--CASE STUDIES SECTION--> */}
 
              <div className="case-studies new-all-margin">
-        <h1 className="section-title" style={{marginTop:"60px"}}>CASE STUDIES</h1> 
+        <h1 data-aos="fade-right" className="section-title" style={{marginTop:"60px"}}>CASE STUDIES</h1> 
         <hr></hr>
 
     <div className="row  new-case-studies-row">
