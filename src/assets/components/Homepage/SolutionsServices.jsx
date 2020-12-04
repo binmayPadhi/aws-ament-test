@@ -18,7 +18,7 @@ function SolutionsServices(){
             <div className="solutions-services new-all-margin" id ="details">
         <div className="row">
 
-            <div className="col-xl-6 col-lg-12 col-sm-12 solutions-services-details-img">
+            <div className="col-xl-6 col-lg-12 col-sm-12 solutions-services-details-img animation-card">
             <img loading="lazy" className="img-fluid" src={AIServiceIMG} alt="Solutions and Service" />
                 {/* <img className="img-fluid" src={AIServiceIMG} srcSet={`${AboutIcon} 300w, ${AIIcon} 768w, ${OurServiceBG} 1280w, ${IndustryIMG} 3200w`} alt="Solutions and Service" /> */}
             </div>

@@ -1,1 +1,5302 @@
-*{box-sizing:border-box;font-family:'Poppins',sans-serif;font-size:66%}body{margin:0 140px 0 140px;left:140px;left:140px!important;overflow-x:hidden}.all-margin{margin:0 140px 0 140px;background-color:transparent}.section-header{font-family:'Poppins',sans-serif;font-size:1.5rem;font-weight:800;color:#fd5d14}.section-title{font-family:'Poppins',sans-serif;font-size:3.5rem;font-weight:bolder;color:#000}.dot-icon{position:absolute;transform:translate(-50%,-60%);height:132px;width:132px;background-color:#bbb;border-radius:50%}.navigation-bar{position:fixed;background-color:#0c0c0c;width:100%;height:85px;vertical-align:middle;z-index:99}.navbar-toggler:focus,.navbar-toggler:active,.navbar-toggler-icon:focus{outline:0;box-shadow:none}.navbar{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:.5rem 0rem!important}.navbar-nav .active a{color:#9de0d2}.navbar-brand{display:inline-block;padding-top:.3125rem;padding-bottom:.8225rem!important;margin-right:1rem;font-size:1.25rem;line-height:inherit;white-space:nowrap;margin-left:100px}.navbar-nav{margin-right:100px;margin-left:auto}.navbar-brand .logo{width:244px;height:54px}.navbar-nav .menu{padding:0 20px}.navbar__link--active{color:red}.custom-toggler{background-color:black}.custom-toggler .navbar-toggler-icon{width:25px;height:3px;background-color:white;display:flex;flex-direction:column;margin-top:5px}.custom-toggler.navbar-toggler{border-color:none}.navbar-nav .contactus-button{text-decoration:"none";color:white;font-size:1.5rem;font-weight:800;padding:10px 10px;margin-top:15px;background-color:#fd5d14;transition:.5s;border-radius:4px;text-align:center;height:45px;width:120px;margin-left:10px;margin-bottom:10px}.navbar-nav .contactus-button:hover{background-color:white;color:black;text-decoration:none}.sticky{position:fixed;top:0;width:100%}.homepage-intro{position:relative;width:100%;height:895px;background:#5f5f5f;box-shadow:0 3px 6px #00000029;opacity:1}.homepage-bg{width:100%}.homepage-intro-caption{top:150px;height:640px;background:#fff 0 0 no-repeat padding-box;box-shadow:0 3px 6px #00000029;opacity:1}.homepage-intro-caption h2{margin-top:70px;margin-left:29px;font-family:'Poppins',sans-serif;font-size:10rem;font-weight:800;letter-spacing:0;color:#000}.homepage-intro-caption p{margin-left:41px;margin-top:26px;font-family:'Poppins',sans-serif;font-size:2rem;letter-spacing:0;color:#4d4d4f}.homepage-intro-btn{padding:50px 35px}.homepage-intro-btn button{width:180px;height:50px;font-family:'Poppins',sans-serif;font-weight:400;font:normal normal 600 15px/25px Poppins;letter-spacing:0}.homepage-intro-btn .btn-default{text-align:left;text-decoration:underline;font:normal normal 600 20px/30px Poppins;font-family:'Poppins',sans-serif;font-size:2rem;margin-left:15px;color:#000;background-color:white}.vr{position:absolute;top:240px;left:140px;width:12px;height:229px;background:#fd5d14 0 0 no-repeat padding-box;border-radius:1px;opacity:1;z-index:2}.homepage-quote{background-color:#f2f2f2}.blockquote p{font-family:'Poppins',sans-serif;font-size:3.5rem;color:#000}.blockquote .blockquote-author{color:#fd5d14;font-size:1.5rem;font-weight:600}.solutions-services{margin-top:100px}.solutions-services-details h6{margin-top:15px;font-family:'Poppins',sans-serif;font-size:1.2rem;font-weight:800;color:#fd5d14}.solutions-services-details h2{margin-top:15px;font-family:'Poppins',sans-serif;font-size:4rem;font-weight:800;letter-spacing:0;color:#000}.solutions-services-details p{font-family:'Poppins',sans-serif;font-size:1.8rem;font-weight:500;letter-spacing:0;color:black;margin-top:10px}.solutions-services-lists{margin-top:35px;padding-inline-start:0}.solutions-services-lists li{margin-top:15px;font-family:'Poppins',sans-serif;font-size:1.5rem;font-weight:500;letter-spacing:0;color:#4d4d4f;list-style:none}.careers-details-lists .list-icon{width:50px;padding-bottom:5px;margin-right:5px}.homepage-about-details{position:relative;margin-top:80px;background:url("../src//assets/images/HomePage/amnet-about-details.jpg");width:100%;height:100%;background-attachment:fixed;background-size:cover;background-repeat:no-repeat}.about-details-row{padding:45px 0}.about-details-header img{width:50px;height:50px;margin-right:10px}.about-details-header{font-family:'Poppins',sans-serif;font-size:2rem;font-weight:800;color:#fff}.homepage-about-details p{font-family:'Poppins',sans-serif;font-size:1.8rem;color:#fff;margin-left:70px;opacity:.8;padding-right:30px}.homepage-quote p{text-align:center;font-size:1.8rem;padding-bottom:5px}.industry-section{position:relative;margin-top:80px;text-align:center}.industry-section-row{margin-top:80px}.industry-section .card-body{background-color:white;box-shadow:3px 6px 16px #00000029;border-style:none;height:150px}.industry-section .dot-icon{position:absolute;transform:translate(-50%,-60%);height:100px;width:100px;background-color:#bbb;border-radius:50%}.industry-section h5{font-family:'Poppins',sans-serif;font-size:1.8rem;font-weight:800;margin-top:60px}.our-services{position:relative;margin-top:80px;text-align:center;height:600px;margin-left:0;padding:30px}.our-service-lists{margin-top:30px}.our-services h1{color:white}.carousel-indicators{top:110%}.service-card .card{border-style:none}.service-card .card-body{padding:110px 30px;height:385px;text-align:left}.service-card h3{font-size:2rem;font-weight:800}.service-card p{font-size:1.8rem}.service-card a{font-size:1.5rem}.carousel .carousel-indicators li{height:15px;width:15px;border-radius:50%;background-color:#fff;box-shadow:3px 6px 16px #00000029;margin-top:50px}.carousel .carousel-indicators .active{height:15px;width:15px;border-radius:50%;background-color:#6d6d6d;margin-bottom:-20rem}.carousel-indicators{top:100%}.carousel-control-prev-icon{background-image:url("data:image/svg+xml;charset=utf8,%3Csvgxmlns='http://www.w3.org/2000/svg'fill='%23000'viewBox='0088'%3E%3Cpathd='M5.250l-44441.5-1.5-2.5-2.52.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")!important}.carousel-control-next-icon{background-image:url("data:image/svg+xml;charset=utf8,%3Csvgxmlns='http://www.w3.org/2000/svg'fill='%23000'viewBox='0088'%3E%3Cpathd='M2.750l-1.51.52.52.5-2.52.51.51.54-4-4-4z'/%3E%3C/svg%3E")!important}.our-partner{position:relative;margin-top:60px;background-color:#f1f1f1;padding:15px}.partner-logo img{width:150px;height:auto;display:block}.case-studies{position:relative;margin-top:80px;text-align:center}.case-studies h5{font-family:'Poppins',sans-serif;font-size:2rem;font-weight:800;margin-top:80px}.case-studies p{font-family:'Poppins',sans-serif;font-size:1.3rem;font-weight:800;opacity:.8;margin-top:25px}.propensity-modelling a{color:#0154f7}.risk-analytics a{color:#fd5d14}.preventive-maintenance a{color:#18ae8e}.case-studies a{font-family:'Poppins',sans-serif;font-size:1.3rem;font-weight:800;margin-top:25px;text-decoration:underline}.case-studies .card-body{background-color:white;box-shadow:3px 6px 16px #00000029;border-style:none;height:320px}.case-studies .explore-all-link{margin-top:25px;font-family:'Poppins',sans-serif;font-size:2rem;font-weight:800;color:#0154f7;text-decoration:underline}.career-section{transform:translate(0%,-40%)}.career{margin-top:200px;width:100%;height:250px}.career-caption{background-color:#ef5b51;color:white;padding:50px}.career-caption h5{font-family:'Poppins',sans-serif;font-size:1.5rem;font-weight:800}.career-caption h2{font-family:'Poppins',sans-serif;font-size:4.5rem;font-weight:800}.career-section button{width:150px;margin-left:35px;font-family:'Poppins',sans-serif;font-size:1.5rem;margin-bottom:25px;box-shadow:2px 2px 6px #0000004D}.career-details{background-color:#fff}.career-details p{font-family:'Poppins',sans-serif;font-size:1.5rem;font-weight:800;color:black;padding:35px}.footer{background-color:#0c0c0c;color:white;margin-top:0}.footer h2{font-family:'Poppins',sans-serif;font-size:2.2rem;font-weight:600}.footer h3{font-family:'Poppins',sans-serif;font-size:2rem;font-weight:600}.footer p{font-family:'Poppins',sans-serif;font-size:1.8rem;font-weight:400}.amnet-email p{font-size:1.5rem}.amnet-copyright p{font-size:1.5rem}.useful-links li a{font-family:'Poppins',sans-serif;font-size:1.4rem;font-weight:400;list-style:none;margin-top:10px;color:white}.useful-links li{font-family:'Poppins',sans-serif;font-size:1.4rem;font-weight:400;list-style:none;margin-top:10px;color:white}hr{margin-top:4rem!important;width:100%;border-color:white;background-color:white}.amnet-email{margin-right:auto}.amnet-copyright{margin-left:auto}.footer .fa{padding:20px;font-size:1.2rem;width:50px;text-align:center;text-decoration:none;margin:25px 10px 2px 0;border-color:white;background-color:#18ae8e;border-style:solid;border-radius:4px;border-width:1px}.fa:hover{opacity:.8}.fa-facebook{background:#3b5998;color:white}.fa-twitter{background:#55acee;color:white}.fa-instagram{background:#125688;color:white}.fa-linkedin{background:#007bb5;color:white}@media only screen and (min-width:320px) and (max-width:374px){nav.navbar{max-height:100vh;overflow:auto}.navbar-nav{margin-right:0}.navbar-brand{margin-left:21px}.navbar-toggler{margin-right:21px}.navigation-bar{height:75px}.navbar-toggler{padding:.55rem .75rem 1.15rem!important}.navbar-brand .logo{width:175px;height:40px;margin-top:10px}.section-header{font-size:1.5rem}.section-title{font-size:3rem}.all-margin{margin:0 21px 0 21px}.navigation-bar{text-align:left}.navbar-collapse{background-color:#0c0c0c;padding:5px;z-index:1}.homepage-intro{height:736px}.homepage-intro-caption{height:501px}.homepage-intro-caption h2{margin-top:50px;font-size:3.5rem;font-weight:bolder}.homepage-intro-caption p{font-size:1.2rem;margin-left:30px}.homepage-intro-btn{padding:50px 25px}.homepage-intro-btn .btn{border-radius:4px}.homepage-intro-btn .btn-default{margin-top:10px;margin-left:0}.vr{top:200px;left:21px}.blockquote p{font-size:2rem;font-weight:800}.solutions-services{margin-top:50px}.solutions-services-lists{padding-inline-start:0}.solutions-services-lists li{font-size:1.2rem}.solutions-services-details h2{font-size:2.5rem}.solutions-services-details p{font-size:1.2rem;margin-top:5px}.AISolutionInfo{margin-left:5px}.solutions-services-details-img{margin-top:35px}.about-details-header img{width:30px;height:30px}.homepage-about-details{margin-top:50px}.homepage-about-details .about-details-bgImg{width:100%;height:550px}.about-details-row{margin-top:0;padding:10px 3px}.homepage-about-details p{font-size:.9rem;margin-left:43px}.homepage-about-details h3{font-size:1.2rem}.industry-section{margin-top:60PX}.industry-section .card{margin-top:30px}.our-services{height:550px}.service-card .card-body{padding:20px 10px;height:230px;text-align:center}.service-card h3{font-size:1.5rem;font-weight:800}.service-card p{font-size:1.2rem}.service-card a{font-size:1.2rem}.case-studies{margin-top:50px}.case-studies-card{margin-top:15px}.career{background-image:none}.career-section{position:relative;transform:translate(0%,-30%)}.career-details button{width:200px;margin-left:40px}.career-caption h5{font-size:1.8rem}.career-caption h2{font-size:2.5rem}.career-caption p{text-align:left}.latest-blog-section{margin-top:250px}.footer{margin-top:0}.useful-links{margin-top:15px;padding-inline-start:0!important;list-style-type:none;color:white}.footer h3{font-size:1.3rem;font-weight:600}.footer p{font-size:1rem}.useful-links li{font-size:1rem}.useful-links li a{font-size:1rem}.amnet-copyright{margin-left:0}}@media only screen and (min-width:375px) and (max-width:767px){nav.navbar{max-height:100vh;overflow:auto}.navbar-nav{margin-right:0}.navbar-brand{margin-left:21px}.navbar-toggler{margin-right:21px}.navigation-bar{height:75px}.navbar-toggler{padding:.55rem .75rem 1.15rem!important}.navbar-brand .logo{width:175px;height:40px;margin-top:10px}.section-header{font-size:1.5rem}.section-title{font-size:3rem}.all-margin{margin:0 21px 0 21px}.navigation-bar{text-align:left}.navbar-collapse{background-color:#0c0c0c;padding:5px;z-index:1}.homepage-intro{height:736px}.homepage-intro-caption{height:501px}.homepage-intro-caption h2{font-size:4.5rem;font-weight:bolder}.homepage-intro-caption p{font-size:1.2rem;margin-left:30px}.homepage-intro-btn{padding:20px 25px}.homepage-intro-btn .btn{border-radius:4px}.homepage-intro-btn .btn-default{margin-top:10px;margin-left:0}.vr{top:220px;left:21px}.blockquote p{font-size:2rem;font-weight:800}.solutions-services{margin-top:50px}.solutions-services-lists{padding-inline-start:0}.solutions-services-lists li{font-size:1.2rem}.solutions-services-details h2{font-size:2.5rem}.solutions-services-details p{font-size:1.2rem;margin-top:5px}.solutions-services-details-img{margin-top:35px}.about-details-header img{width:30px;height:30px}.homepage-about-details{margin-top:50px}.homepage-about-details .about-details-bgImg{width:100%;height:550px}.about-details-row{margin-top:5px;padding:3px}.homepage-about-details p{font-size:1rem;margin-left:50px}.homepage-about-details h3{font-size:1.5rem}.industry-section{margin-top:60PX}.industry-section .card{margin-top:20px}.our-services{height:580px}.service-card .card-body{padding:20px 10px;height:230px;text-align:center}.service-card h3{font-size:1.5rem;font-weight:800}.service-card p{font-size:1.2rem}.service-card a{font-size:1.2rem}.case-studies{margin-top:50px}.case-studies-card{margin-top:15px}.career{background-image:none}.career-section{position:relative;transform:translate(0%,-30%)}.career-details button{width:200px;margin-left:55px}.career-caption h5{font-size:1.8rem}.career-caption h2{font-size:2.5rem}.career-caption p{text-align:left}.latest-blog-section{margin-top:250px}.footer{margin-top:0}.useful-links{margin-top:15px;padding-inline-start:0!important;list-style-type:none}.footer h3{font-size:1.3rem;font-weight:600}.footer p{font-size:1rem}.useful-links li{font-size:1rem}.useful-links li a{font-size:1rem}.amnet-copyright{margin-left:0}}@media only screen and (min-width:425px) and (max-width:767px){.industry-card .card-body{transform:translate(20%,150%);width:250px;height:177px}.career-details button{width:200px;margin-left:75px}.our-services{height:600px}.service-card .card-body{padding:20px 10px;height:230px;text-align:center}.service-card h3{font-size:1.8rem;font-weight:800}.service-card p{font-size:1.5rem}.service-card a{font-size:1.5rem}}@media only screen and (min-width:768px) and (max-width:1023px){nav.navbar{max-height:100vh;overflow:auto}.navigation-bar{height:75px}.navbar-toggler{padding:.25rem .75rem 1.15rem!important}.navbar-brand .logo{margin-top:5px}.navbar-nav{margin-right:0;margin-left:70px!important}}@media only screen and (min-width:768px) and (max-width:1024px){.section-header{font-size:1.5rem}.section-title{font-size:3rem}.navbar-brand{margin-left:81px}.navbar-toggler{margin-right:81px}.navbar-toggler{padding:.55rem .75rem 1.15rem!important}.navbar-brand .logo{width:200px;height:45px}.all-margin{margin:0 81px 0 81px}.navigation-bar{text-align:left}.navbar-collapse{background-color:#0c0c0c;padding:5px;z-index:1}.homepage-intro{height:895px}.homepage-intro-caption{height:609px}.homepage-intro-caption h2{font-size:7rem;font-weight:bolder}.homepage-intro-caption p{font-size:2rem;margin-left:30px}.homepage-intro-btn{padding:50px 25px}.homepage-intro-btn .btn{border-radius:4px}.homepage-intro-btn .btn-default{margin-top:0}.vr{top:230px;left:81px}.blockquote p{font-size:2.8rem;font-weight:600;text-align:center}.solutions-services{margin-top:50px}.solutions-services-lists li{font-size:1.5rem}.solutions-services-details h2{font-size:5rem}.solutions-services-details p{font-size:1.7rem;margin-top:10px}.solutions-services-details h6{font-size:2rem}.solutions-services-details-img{margin-top:35px}.solutions-services-lists{padding-inline-start:0}.homepage-about-details{margin-top:50px}.homepage-about-details .about-details-bgImg{height:750px}.about-details-row{margin-top:0;padding:10px}.about-details-header img{width:60px;height:60px}.homepage-about-details p{font-size:1.5rem;margin-left:80px}.marginRow{margin-bottom:0!important}.industry-section{margin-top:60PX}.industry-section .card{margin-top:20px}.our-services{height:700px}.service-card .card-body{padding:20px 10px;height:200px;text-align:center}.service-card h3{font-size:1.8rem;font-weight:800}.service-card p{font-size:1.5rem}.service-card a{font-size:1.5rem}.case-studies{margin-top:70px}.case-studies-card{margin-top:20px}.career{background-image:none}.career-section{position:relative;transform:translate(0%,-30%)}.career-details button{width:200px;margin-left:40px}.career-caption h5{font-size:1.8rem}.career-caption h2{font-size:5rem}.career-caption p{text-align:left}.latest-blog-section{margin-top:200px}.useful-links{padding-inline-start:0;list-style-type:none}.footer h2{font-size:2rem}.footer h3{font-size:1.5rem;font-weight:600}.footer p{font-size:1.5rem}.useful-links{margin-top:20px}.useful-links li{font-size:1.3rem}.useful-links li a{font-size:1.3rem}.copyright{text-align:center}}@media only screen and (min-width:834px) and (max-width:1024px){.dropdown-content .nav-first-column{margin-left:81px!important}.dropdown-content .extra-column{margin-left:81px}.navbar-collapse{background-color:transparent;padding:0;z-index:1}.industry-card .card-body{transform:translate(25%,140%)}.our-services{height:700px}.our-services img{height:350px}.service-card .card-body{padding:20px 10px;height:170px}.service-card h3{font-size:1.8rem;font-weight:800}.service-card p{font-size:1.5rem}.service-card a{font-size:1.5rem}.dot-icon{width:100px;height:100px}}@media only screen and (min-width:1024px){.homepage-intro-caption h2{font-size:6.5rem}.homepage-intro-caption p{font-size:1.8rem}.homepage-about-details .about-details-bgImg{height:550px}.industries-section{margin-top:200PX}.industries-section .industry-card{margin-top:125px}.industry-card .card-body{transform:translate(50%,180%)}.industries-details h5{font-size:2rem}.industries-details a{font-size:1.5rem}.case-studies h5{font-size:1.5rem}}@media only screen and (min-width:1024px) and (max-width:1359px){.dropdown-content .column{float:left;width:27%;padding:5px 10px;background-color:white;height:auto;border-radius:20px 0}.service-dropdown-link a{padding-top:2px}.navFlex img{width:40px!important;height:40px!important}.service-dropdown-link a{font-size:1.5rem!important}.sub-service-links a{font-size:1.2rem!important}.dropdown-content .nav-first-column{margin-left:81px!important}.extra-column .navFlex{margin-top:0}.dropdown-content .extra-column{float:left;width:25%;padding:0 10px;background-color:white;height:auto;border-radius:0 20px;margin-left:81px}}@media only screen and (min-width:1360px) and (max-width:1439px){.dropdown-content .nav-first-column{margin-left:140px!important}.dropdown-content .extra-column{float:left;width:25%;padding:21px 10px;background-color:white;height:auto;border-radius:0 20px}}@media only screen and (min-width:1025px) and (max-width:1439px){.homepage-intro-caption h2{font-size:7.5rem}.homepage-intro-caption p{font-size:2rem}.homepage-intro-btn{padding:50px 25px}.career-section{position:absolute;transform:translate(0%,-50%)}.our-services img{height:330px}.service-card .card-body{padding:58px 30px;height:330px}.service-card h3{font-size:2rem;font-weight:800}.service-card p{font-size:1.8rem}.service-card a{font-size:1.8rem}}@media only screen and (min-width:1440px){.homepage-intro-caption h2{font-size:9rem}.homepage-intro-caption p{font-size:2rem}.industries-section .industry-card{margin-top:50px}.industry-card .card-body{transform:translate(20%,120%)}.case-studies h5{font-size:2rem}.our-services img{height:385px}}.contact-us-page{margin-top:80px;display:flex;flex-direction:row}.contact-us-intro{position:relative;width:100%;height:45px;background:#fff;opacity:1}.contact-form-header{font-family:'Poppins',sans-serif;color:#000;padding:25px}.contact-form-user-details{box-shadow:3px 6px 16px #0000004D}.btn-default .fa-arrow-right{font-size:1.8rem;color:#000}.form-IMG{height:auto}.user-name{margin-top:0;padding:0 15px}.user-name input{display:block}.form-group{margin-top:0;padding:15px;margin-bottom:0rem!important}.form-group input{display:block}.form-group textarea{display:block}.user-text{padding:0 15px}.contact-form-header h1{font-size:4.5rem;font-weight:800}.contact-form-header p{font-size:1.8rem;font-weight:400;color:#4d4d4f}label{font-size:1.55rem;font-weight:800;color:#000;width:100%}.submit-button{padding:20px 0}.submit-button button{background-color:#fd5d14;width:120px;color:white;font-size:1.5rem;font-weight:800;padding:10px;margin-left:15px}.submit-button button:hover{background-color:#cacaca;color:black}.contact-us-location{margin-top:50px}.about-us-page-location h1{color:black}.about-us-page-location-row .card{position:relative;margin-top:10px;margin-bottom:50px}.about-us-page-location-row .card-body{height:200px;padding:0 30px}.about-us-page-location-row .dot{position:absolute;width:100px;height:100px;transform:translate(-45%,-70%)}.location-details{font-family:'Poppins',sans-serif;color:#000;text-align:center}.location-details h2{margin-top:10px;font-weight:800;font-size:2rem}.location-details p{margin-top:20px;font-weight:400;font-size:1.8rem}.location-details a{margin-top:20px;font-weight:800;font-size:1.5rem;text-decoration:underline}@media only screen and (min-width:320px) and (max-width:374px){.contact-us-page{margin-top:80px;flex-direction:column}.form-IMG{display:none}.contact-form-header h1{font-size:2rem;font-weight:800}.contact-form-header p{font-size:1.5rem;font-weight:400;color:#4d4d4f}.lastName{margin-top:15px}label{font-size:1.3rem;font-weight:800;color:#000}}@media only screen and (min-width:375px) and (max-width:424px){.contact-us-page{margin-top:100px;flex-direction:column}.form-IMG{display:none}.contact-form-header h1{font-size:2rem;font-weight:800}.contact-form-header p{font-size:1.5rem;font-weight:400;color:#4d4d4f}.lastName{margin-top:20px}label{font-size:1.55rem;font-weight:800;color:#000}}@media only screen and (min-width:425px) and (max-width:767px){.contact-us-page{margin-top:100px;flex-direction:column}.form-IMG{display:none}.contact-form-header h1{font-size:2.5rem;font-weight:800}.contact-form-header p{font-size:1.5rem;font-weight:400;color:#4d4d4f}.lastName{margin-top:20px}label{font-size:1.55rem;font-weight:800;color:#000}}@media only screen and (min-width:768px) and (max-width:1023px){.contact-us-page{margin-top:100px;flex-direction:column}.form-IMG{display:none}.contact-form-header h1{font-size:2.5rem;font-weight:800}.contact-form-header p{font-size:1.5rem;font-weight:400;color:#4d4d4f}.lastName{margin-top:25px}label{font-size:1.55rem;font-weight:800;color:#000}}@media only screen and (min-width:1024px) and (max-width:1350px){.contact-us-page{margin-top:100px;flex-direction:row}.form-IMG{width:90%}.contact-form-header h1{font-size:2.5rem;font-weight:800}.contact-form-header p{font-size:1.5rem;font-weight:400;color:#4d4d4f}.lastName{margin-top:0}.form-IMG img{width:110%}label{font-size:1.55rem;font-weight:800;color:#000}}@media only screen and (min-width:1351px) and (max-width:1439px){.contact-us-page{margin-top:100px;flex-direction:row}.form-IMG{width:46%}.contact-form-header h1{font-size:2.5rem;font-weight:800}.contact-form-header p{font-size:1.5rem;font-weight:400;color:#4d4d4f}.lastName{margin-top:0}.form-IMG img{width:105%}label{font-size:1.55rem;font-weight:800;color:#000}}@media only screen and (min-width:1440px){.contact-us-page{margin-top:100px;flex-direction:row}.contact-form-header{padding:25px 15px}.form-IMG{width:42%}.submit-button{padding:15px 0}}.about-us-img-left{float:left;margin-right:20px}.about-us-img-right{float:right}.about-us-page-details{margin-top:60px}.about-us-page-desc p{font-size:1.8rem;color:black}.about-us-page-quote{margin-top:70px}.about-us-desc{padding:130px 0;font-family:'Poppins',sans-serif}.about-us-desc h2{font-size:3rem;font-weight:800;color:black}.about-us-desc p{font-size:1.8rem;font-weight:500;color:black}.about-us-details{margin-top:50px}.about-us-desc-img-right h2{font-size:3rem;font-weight:800}.about-us-desc-img-right p{font-size:2rem;font-weight:500;opacity:.8}@media only screen and (min-width:320px) and (max-width:374px){.about-us-img-left{float:none}.about-us-img-right{float:none}.location-details a{margin-top:15px}.about-us-page-desc p{font-size:1.5rem;color:#4d4d4f}.about-us-desc{padding:15px 0}.about-us-desc-img-right{margin-top:0}}@media only screen and (min-width:375px) and (max-width:767px){.about-us-img-left{float:none}.about-us-img-right{float:none}.about-us-desc{padding:15px 0}}@media only screen and (min-width:768px) and (max-width:1023px){.about-us-img-left{width:100%;float:none}.about-us-img-right{width:100%;float:none}.about-us-desc{padding:15px 0}}@media only screen and (min-width:1024px) and (max-width:1439px){.about-us-img-left{float:none;width:100%}.about-us-img-right{float:none;width:100%}.about-us-desc{padding:30px 0}}.img-left{float:left;width:430px;height:100%!important;margin-right:15px}.img-right{float:right;width:430px;height:100%!important}.service-list{margin-top:50px;box-shadow:3px 6px 16px #0000004D}.service-desc{margin-left:10px;font-family:'Poppins',sans-serif}.service-desc h2{font-size:2.5rem;font-weight:800;margin-top:30px;color:black}.service-desc p{font-size:1.5rem;font-weight:500}.service-desc-long-text{margin-left:10px;padding:30px;font-family:'Poppins',sans-serif}.service-desc-long-text h2{font-size:2.5rem;font-weight:800}.service-desc-long-text p{font-size:1.5rem;font-weight:500;opacity:.8}.service-desc-mid-text{margin-left:10px;padding:63px 15px;font-family:'Poppins',sans-serif}.service-desc-mid-text h2{font-size:2.5rem;font-weight:800}.service-desc-mid-text p{font-size:1.5rem;font-weight:500;opacity:.8}@media only screen and (min-width:320px) and (max-width:374px){.service{margin:0 21px 0 21px}.img-left{width:100%;height:auto!important;float:none}.img-right{width:100%;height:auto!important;float:none}.service-desc{padding:5px 20px}.service-desc h2{font-size:1.8rem}.service-desc p{font-size:1.2rem}.service-desc-long-text{padding:20px}.service-desc-long-text h2{font-size:1.8rem}.service-desc-long-text p{font-size:1.2rem}.service-desc-mid-text{padding:20px}.service-desc-mid-text h2{font-size:1.8rem}.service-desc-mid-text p{font-size:1.2rem}}@media only screen and (min-width:375px) and (max-width:767px){.service{margin:0 21px 0 21px}.img-left{width:100%;height:auto!important;float:none}.img-right{width:100%;height:auto!important;float:none}.service-desc{padding:5px 20px}.service-desc h2{font-size:2rem}.service-desc p{font-size:1.5rem}.service-desc-long-text{padding:20px}.service-desc-long-text h2{font-size:2rem}.service-desc-long-text p{font-size:1.5rem}.service-desc-mid-text{padding:20px}.service-desc-mid-text h2{font-size:1.8rem}.service-desc-mid-text p{font-size:1.2rem}}@media only screen and (min-width:768px) and (max-width:1024px){.service{margin:0 21px 0 21px}.img-left{width:100%;height:auto!important;float:none}.img-right{width:100%;height:auto!important;float:none}.service-desc{padding:5px 20px}.service-desc-mid-text{padding:20px}}@media only screen and (min-width:1025px) and (max-width:1439px){.service-desc{padding:20px 5px}.service-desc-long-text{padding:15px 5px}.service-desc p{font-size:1.3rem}}@media only screen and (min-width:1440px){.service-desc{padding:10px 5px}.service-desc-long-text{padding:15px 5px}}.case-studies-page-row{margin-top:-30px}.case-studies-page-row .case-studies-page-card{border:0}.case-studies-page-card{font-family:'Poppins',sans-serif;box-shadow:3px 6px 16px #0000004D;text-align:center}.case-studies-page-card .card-img-top{height:246px}.case-studies-icon{position:absolute;height:132px;width:132px;transform:translate(-50%,-80%)}.case-studies-list{margin-top:60px}.case-studies-page-card .card-body{padding:35px}.case-studies-page-card h2{font-size:2.5rem;font-weight:800;margin-top:50px;text-align:left;color:black}.case-studies-page-card-info h4{font-size:1.8rem;color:#fd5d14;font-weight:800;margin-top:25px;text-align:left}.case-studies-page-card-info p{font-size:1.5rem;margin-top:10px;text-align:left;color:black}@media only screen and (min-width:320px) and (max-width:374px){.case-studies-icon{position:absolute;height:80px;width:80px;transform:translate(-45%,-90%)}.case-studies-page-card .card-img-top{height:150px}.case-studies-page-card h2{margin-top:20px;font-size:1.5rem}.case-studies-page-card-info h4{font-size:1.4rem}.case-studies-page-card-info p{font-size:1.2rem}}@media only screen and (min-width:375px) and (max-width:767px){.case-studies-icon{position:absolute;height:80px;width:80px;left:38%;transform:translate(0%,-90%)}.case-studies-page-card .card-img-top{height:150px}.case-studies-page-card h2{margin-top:30px;font-size:1.8rem}.case-studies-page-card-info h4{font-size:1.4rem}.case-studies-page-card-info p{font-size:1.2rem}}@media only screen and (min-width:768px) and (max-width:1023px){.case-studies-icon{position:absolute;height:100px;width:100px;left:43%;transform:translate(0%,-90%)}.case-studies-page-card .card-img-top{height:200px}.case-studies-page-card h2{margin-top:20px;font-size:2rem}.case-studies-page-card-info h4{font-size:1.4rem}.case-studies-page-card-info p{font-size:1.2rem}}@media only screen and (min-width:1024px) and (max-width:1439px){.case-studies-icon{position:absolute;height:100px;width:100px;left:43%;transform:translate(0%,-90%)}.case-studies-page-card .card-img-top{height:200px}.case-studies-page-card-title{font-size:1.8rem}.case-studies-page-card-info h4{font-size:1.4rem}.case-studies-page-card-info p{font-size:1.5rem}}.careers-page-details{font-family:'Poppins',sans-serif;color:#4d4d4f;margin-top:20px}.careers-page-details p{font-size:1.8rem}.careers-details-lists{margin-top:20px;list-style:none;padding-inline-start:0}.careers-details-lists li{font-size:1.8rem;padding:10px 0}.careers-our-culture-header{margin-top:60px}.our-culture-section{margin-top:60px;padding:15px 0}.culture-img-left .team-img{margin-top:8px}.amnet-images:nth-child(2){margin-top:8px}.job-desc-header{margin-top:60px}.job-desc-lists{margin-top:60px}.job-desc-lists .card{box-shadow:3px 6px 16px #0000004D;border-style:none;margin-top:40px}.collapse-content{box-shadow:3px 6px 16px #0000004D;border-style:none}.job-desc-lists button{color:#000;font-size:2rem;padding:25px 10px;font-weight:800;border-style:none}.job-desc-card .job-icon{float:right;margin-top:20px;padding:15px;border-radius:50%;background-color:#19af8f}.job-desc-lists .fa-arrow-down{font-size:1.5rem;text-align:center;color:white}.job-desc-card-info{padding:15px}.job-desc-card-info h4{font-family:'Poppins',sans-serif;font-size:1.8rem;font-weight:600;color:#000;margin-top:20px}.careers-page-details span a{color:#000;font-weight:800;font-size:1.8rem}.job-desc-card-info .job-info-footer span a{color:#fd5d14;font-size:1.8rem}.job-desc-card-info .experience-info{display:flex;justify-content:space-between}.experience-info span{font-size:1.5rem;font-weight:600;color:black}.experience-info h3{font-size:1.5rem}.job-desc-card-info h5{font-family:'Poppins',sans-serif;font-size:1.8rem;font-weight:600;color:#000}.job-desc-card-info p{font-family:'Poppins',sans-serif;font-size:1.5rem;color:black}.job-desc-card-info h1{font-family:'Poppins',sans-serif;font-size:2rem;font-weight:800;margin-top:20px;color:black}.job-desc-card-info .job-info-lists{padding-inline-start:20px}.job-desc-card-info li{font-family:'Poppins',sans-serif;font-size:1.5rem;color:black;margin-top:10px}@media only screen and (min-width:320px) and (max-width:424px){.careers-page-details p{font-size:1.5rem;margin-top:15px}.careers-page-details li{font-size:1.5rem}.careers-details-lists .list-icon{width:30px}.careers-our-culture-header h1{font-size:2rem}.culture-img-left{margin-top:8px}.job-desc-card button{font-size:1.2rem}.job-desc-lists .job-icon{margin-top:10px}.collapse-content h4{font-size:1.5rem}.collapse-content h5{font-size:1.8rem}.collapse-content p{font-size:1.2rem}.collapse-content h1{font-size:1.8rem}.collapse-content li{font-size:1.2rem}.job-desc-card-info .job-info-footer span a{font-size:1.5rem}}@media only screen and (min-width:375px) and (max-width:424px){.job-desc-lists .job-icon{margin-top:15px}.job-desc-card button{font-size:1.5rem}}@media only screen and (min-width:425px) and (max-width:767px){.culture-img-left{margin-top:8px}.careers-details-lists .list-icon{width:40px}}@media only screen and (min-width:768px) and (max-width:1023px){.culture-img-left{margin-top:8px}}@media only screen and (min-width:1024px) and (max-width:1439px){.our-culture-section .team-img{margin-top:6px}}.sub-service-intro{position:relative;width:100%;height:550px;background:#f4f4f4;opacity:1}.subService-AIML-intro-caption{top:150px;color:white}.subService-AIML-intro-caption h2{font-size:4.5rem;font-weight:800}.subService-AIML-intro-caption p{font-size:1.8rem;font-weight:200}.subService-AIML-intro-btn .sub-service-view-details-btn{width:150px;height:45px;font-family:'Poppins',sans-serif;font-weight:600;font-size:1.5rem;letter-spacing:0;background-color:#19af8f;color:white}.subService-AIML-intro-btn .sub-service-view-details-btn:hover{background-color:white;color:black;transition:.5s}.subService-AIML-intro{margin-top:50px}.sub-service-details-bg{background-color:#f2f2f2;padding:10px 10px 20px 10px;margin-top:45px}.sub-service-data-section{margin-top:20px}.sub-service-right-image-row{padding-top:50px}.sub-service-image{width:auto;height:auto;background-color:gray}.sub-service-details-bg-color{margin-top:45px;background-color:#f2f2f2;padding:15px 0}.sub-service-details-bg-color .about-us-details{margin-top:0}.sub-service-data-section p{font-size:1.8rem;padding:5px 5px 5px 0}.sub-service-data-section h2{font-size:2.4rem;font-weight:800;padding:25px 5px 5px 0;margin-bottom:0}.sub-service-data-section .dummy{width:auto;height:40px}.sub-service-data-section .about-icons{width:80px;height:80px}.sub-service-img-right-desc{padding-top:70px}.sub-service-img-left-desc{padding-top:70px}.sub-service-img-right-desc .about-icons{margin-left:15px;margin-right:20px}.sub-service-img-left-desc .about-icons{margin-left:35px;margin-right:20px}.sub-service-img-left h2{padding:25px 5px 5px 20px}.sub-service-img-left p{padding:5px 5px 5px 20px}.subService-AIML-intro-btn{padding:10px 0}.sub-service-data-section .service-all-margin{margin:0 100px 0 100px}.career-section{transform:translate(0%,-40%)}.career{margin-top:200px;width:100%;height:250px;margin-bottom:50px}.sub-service-career .career-caption{background-color:#18ae8e;color:white;padding:60px 30px}.career-caption h5{font-family:'Poppins',sans-serif;font-size:1.5rem;font-weight:800}.sub-service-career .career-caption h2{font-family:'Poppins',sans-serif;font-size:4rem;font-weight:800}.career-section .career-btn{width:180px;height:45px;margin-left:35px;font-family:'Poppins',sans-serif;font-size:1.5rem;font-weight:600;margin-bottom:25px;color:white;background-color:#fd5d14}.career-section .service-btn{width:180px;height:45px;margin-left:35px;font-family:'Poppins',sans-serif;font-size:1.5rem;font-weight:600;margin-bottom:25px;color:black;background-color:white;box-shadow:2px 2px 6px #0000004D}.sub-service-career .career-details{background-color:#fbfbfb}.sub-service-career .career-details p{font-family:'Poppins',sans-serif;font-size:1.8rem;font-weight:400;color:black;padding:30px 35px}@media only screen and (min-width:768px) and (max-width:1023px){.sub-service-data-section .dummy{height:20px}.sub-service-data-section .service-all-margin{margin:0 80px 0 80px}.subService-AIML-intro-caption{top:150px}.subService-AIML-intro-caption h2{font-size:3.8rem}.subService-AIML-intro-caption p{font-size:1.5rem}.sub-service-img-left-desc .about-icons{margin-left:0}.sub-service-img-right-desc .about-icons{margin-left:0;margin-right:20px;margin-top:10px}.sub-service-data-section{margin-top:40px}.sub-service-img-right-desc{padding-top:40px}.sub-service-right-details{order:2}}@media only screen and (min-width:320px) and (max-width:374px){.sub-service-data-section .service-all-margin{margin:0 20px 0 20px}.sub-service-data-section .dummy{height:10px}.sub-service-data-section{text-align:left;margin-top:20px}.subService-AIML-intro-caption h2{font-size:2rem;font-weight:800}.subService-AIML-intro-caption p{font-size:1.2rem;font-weight:200}.sub-service-data-section p{font-size:1.5rem}.sub-service-img-right-desc{padding-top:0}.sub-service-data-section h2{font-size:2rem}.sub-service-career .career-details p{font-size:1.5rem;padding:15px 15px}.sub-service-career .career-caption{padding:25px 30px}.sub-service-career .career-caption h2{font-size:2.5rem}.career-section .career-btn{margin-left:15px}.career-section .service-btn{margin-left:15px}.sub-service-img-left-desc .about-icons{margin-left:0}.sub-service-img-right-desc .about-icons{margin-left:0;margin-right:20px;margin-top:30px}.sub-service-right-details{order:2}}@media only screen and (min-width:375px) and (max-width:424px){.sub-service-data-section .service-all-margin{margin:0 20px 0 20px}.sub-service-data-section .dummy{height:10px}.subService-AIML-intro-caption{top:130px}.sub-service-data-section{text-align:left;margin-top:20px}.sub-service-img-right-desc{padding-top:0}.subService-AIML-intro-caption h2{font-size:2.5rem}.subService-AIML-intro-caption p{font-size:1.5rem}.sub-service-data-section h2{font-size:2rem}.sub-service-career .career-details p{font-size:1.5rem;padding:15px 15px}.sub-service-career .career-caption{padding:40px 30px}.sub-service-career .career-caption h2{font-size:2.5rem}.career-section .career-btn{margin-left:15px}.career-section .service-btn{margin-left:15px}.sub-service-img-left-desc .about-icons{margin-left:0}.sub-service-img-right-desc .about-icons{margin-left:0;margin-right:20px;margin-top:30px}.sub-service-right-details{order:2}}@media only screen and (min-width:425px) and (max-width:767px){.sub-service-data-section .service-all-margin{margin:0 20px 0 20px}.sub-service-data-section .dummy{height:10px}.subService-AIML-intro-caption{top:110px;color:white}.sub-service-data-section{margin-top:40px}.sub-service-img-left h2{padding:25px 5px 5px 0}.sub-service-img-left p{padding:5px 5px 5px 0}.subService-AIML-intro-caption h2{font-size:3.5rem}.subService-AIML-intro-caption p{font-size:1.5rem}.sub-service-img-left-desc .about-icons{margin-left:0}.sub-service-img-right-desc .about-icons{margin-left:0;margin-right:20px;margin-top:30px}.sub-service-details-bg{padding:10px 10px 20px 0}.sub-service-img-right-desc{padding-top:0}.sub-service-img-left-desc{padding-top:50px}.sub-service-career{margin-top:250px}.sub-service-career .career-caption{padding:40px 30px}.sub-service-career .career-details p{padding:30px 15px}.career-section .career-btn{margin-left:15px}.career-section .service-btn{margin-left:15px}.sub-service-right-details{order:2}}@media only screen and (min-width:1024px) and (max-width:1439px){.sub-service-intro{height:650px}.sub-service-data-section .dummy{height:40px}.sub-service-img-right-desc .about-icons{margin-left:0}.sub-service-img-right-desc{padding-top:30px}.subService-AIML-intro-caption h2{font-size:3.8rem}.subService-AIML-intro-caption p{font-size:1.6rem}.sub-service-data-section{margin-top:30px}}@media only screen and (min-width:1024px) and (max-width:1279px){.sub-service-right-details{order:2}}@media only screen and (min-width:1210px) and (max-width:1439px){.sub-service-data-section .about-us-img-left{float:left;width:50%;height:100%}.sub-service-data-section .about-us-img-right{float:right;width:50%;height:100%}}@media only screen and (min-width:1440px){.sub-service-img-right-desc .about-icons{margin-left:10px}.about-us-img-left{width:45%;background-color:#29241f}.about-us-img-right{width:45%;background-color:#29241f}}@media only screen and (min-width:1920px){.sub-service-data-section .service-all-margin{margin:0 140px 0 140px}.sub-service-data-section p{font-size:2.3rem}.sub-service-data-section .about-icons{width:110px;height:110px}.sub-service-img-right-desc .about-icons{margin-left:0}}.navbar-nav .active a{color:#9de0d2!important}.sub-service-dropdown .dropdown-menu{padding:15px}.dropdown-item{font-size:1.5rem;font-weight:400px;color:white!important;padding:10px 0!important;text-align:left!important}.dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;display:none;float:left;min-width:10rem;padding:.5rem 0;margin:.125rem 0 0;font-size:1rem;color:#212529;text-align:center;list-style:none;background-color:#19af8e1a!important;background-clip:padding-box;border:1px solid rgba(0,0,0,.15);border-radius:.25rem}.dropdown-content{display:none;position:absolute;background-color:white;width:100%;margin-top:30px;left:0;box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);z-index:1}.fa-angle-right{font-size:2.1rem!important}.dropdown-content .nav-first-column{margin-left:140px}.dropdown-view-all-link{margin-top:-5px}.dropdown-view-all-link a{color:#19af8f!important;font-weight:800!important;padding-bottom:5px;text-decoration:underline!important}.dropdownd-ai-viewall-link a{color:#fd5d14!important}.column .sub-service-links{display:block;margin-block-start:0!important;margin-block-end:0!important;margin-inline-start:0;margin-inline-end:0}.dropdown-icon{display:none}.dropdown-content .header{background:red;padding:16px;color:white}.service-dropdown-menu:hover{transition:2s}.service-dropdown-menu:hover .dropdown-content{display:block;transition:2s}.sub-menu{display:flex;justify-content:center}.column{float:left;width:21%;padding:25px 10px;background-color:white;height:auto}.extra-column{float:left;width:25%;padding:25px 10px;background-color:white;height:auto}.service-dropdown-link a{float:none;color:black;padding-top:7px;font-size:1.7rem;text-decoration:none;display:block;text-align:left;font-weight:800}.column a:hover{color:#19af8f!important;text-decoration:none}.dropdown-content p{font-size:1.3rem;padding-right:15px;text-align:left;color:black}.sub-service-links a{font-size:1.3rem;font-weight:400;padding-right:15px;padding-top:5px;text-align:left;color:black}.row:after{content:"";display:table;clear:both}.sub-service-dropdown{display:none}@media screen and (max-width:830px){.column{width:100%;height:auto}.sub-menu:hover .dropdown-content{display:none}.dropdown-icon{display:block}.sub-service-dropdown{display:block}.service-dropdown-menu{display:none}.navbar-nav .service-dd{display:block}}.dropdown-item.active,.dropdown-item:active{color:#19af8f;text-decoration:none;background-color:transparent!important}.dropdown-item:focus,.dropdown-item:hover{color:#19af8f!important;text-decoration:none;background-color:transparent!important}.service-dropdown-menu:hover{border-bottom:5px solid #19af8f;transition:.5s}.navFlex img{width:50px;height:50px;margin-left:10px}.navFlex{display:flex;margin-top:10px}.nav-sub-menu{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;width:100%;margin-right:-15px;margin-left:-15px}.dropdown-toggle::after{display:none!important;width:0;height:0;margin-left:.255em;vertical-align:.255em;content:"";border-top:.3em solid;border-right:.3em solid transparent;border-bottom:0;border-left:.3em solid transparent}.service-dd{display:none}.video-background{margin-top:100px}.video-foreground,.video-background iframe{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:-99}.new-all-margin{margin:0 100px 0 100px}.new-subService-AIML-intro-caption{top:180px;color:white}.new-subService-AIML-intro-caption h2{font-size:4.5rem;font-weight:800}.new-subService-AIML-intro-caption p{font-size:1.8rem;font-weight:200}.homepage-quote{background-color:#19af8f;color:white;padding:2px 0}.homepage-quote h2{font-size:2rem;font-weight:400;padding:10px}.homepage-news-text h2{font-size:1.8rem}.new-home-about-details{margin-top:80px}.new-home-about-details h1{font-size:3.5rem;font-weight:800;color:black}.new-home-about-details p{font-size:1.8rem;font-weight:400;color:black}.new-solutions-services-lists{margin-top:35px;padding-inline-start:0}.new-solutions-services-lists li{margin-top:10px;font-family:'Poppins',sans-serif;font-size:1.7rem;font-weight:500;letter-spacing:0;color:black;list-style:none;display:flex}.new-solutions-services-lists .ai-icon{width:50px;height:50px;margin-right:10px;margin-bottom:5px}.new-about-details-heading .new-about-heading{font-size:5rem;color:white;font-weight:800;padding:130px 0}.new-about-details-lists{color:white;list-style:none}.new-about-details-list{margin-top:25px;list-style:none}.new-about-details-list h2{font-size:1.8rem;font-weight:800}.new-about-details-list .about-icon{width:50px;height:50px;margin-right:20px;margin-bottom:5px}.new-about-details-list p{color:white;font-size:1.5rem;opacity:1;display:block;margin-block-start:-1em;margin-block-end:0;margin-inline-start:70px;margin-inline-end:0}.new-about-details-heading-row{padding:50px 0}.industry-section-column{padding-right:5px!important;padding-left:0!important}.new-industry-header h5{color:white;font-size:2.5rem;font-weight:800;margin-top:10px}.new-our-service-column{padding-right:15px!important;padding-left:15px!important}.new-our-service-card{background-color:white;margin-top:40px}.new-our-service-card img{margin-top:15px;width:120px;height:120px}.new-our-service-card .card-body{width:auto;height:280px;padding:0 25px;text-align:left;border-bottom:5px solid #19af8f}.new-our-service-card .card-title{color:black;padding:25px 0 5px;font-size:2rem;font-weight:800}.new-our-service-card .card-text{color:black;font-size:1.5rem;font-weight:400}.new-our-service-card a{position:absolute;text-align:left;font-size:1.5rem;padding:15px 0;font-weight:800;top:80%;color:#19af8f}.new-our-service-card a:hover{color:#fd5d14}.our-services hr{text-align:center;width:10%;height:3px;margin-top:1rem!important;background-color:#19af8f}.case-studies hr{text-align:center;width:10%;height:3px;margin-top:1rem!important;background-color:#19af8f}.new-case-studies-row{margin-top:40px}.new-case-studies-card{padding-right:5px!important;padding-left:0!important}.new-case-studies-card .card-body{text-align:left;height:260px}.new-case-studies-card .card-title{color:black;font-size:1.8rem;margin-top:10px;font-weight:800}.new-case-studies-card p{color:black;font-size:1.5rem;margin-top:10px;opacity:1;font-weight:400}.new-case-studies-card a{text-align:left;font-size:1.5rem;padding:15px 0;font-weight:800;color:#19af8f;position:absolute;top:80%}.new-case-studies-card a:hover{color:#fd5d14}.new-explore-link{margin-top:25px}.new-explore-link a{font-family:'Poppins',sans-serif;font-size:2rem;font-weight:800;color:#19af8f;text-decoration:underline}.new-explore-link a:hover{color:#fd5d14}.new-our-partner{position:relative;background-color:white;padding:15px;margin-top:40px;margin-bottom:20px}.our-partner{position:relative;margin-top:20px;background-color:white;padding:15px}.carousel-our-partner{display:none}.client-say{background-color:black;padding:60px 0}.client-say .section-title{color:white}.client-say .card{background-color:black;color:white;border-bottom:5px solid #19af8f}.client-say .card-body{height:365px}.client-say .client-role{font-weight:800!important}.client-say .client-say-row{padding:30px 0 0 0}.client-say-card img{width:64px;height:64px}.client-say-card .card-title{font-size:2rem;font-weight:800;margin-top:40px}.client-say-card .card-text{font-size:1.5rem;font-weight:400;margin-top:10px}.new-career-section .career-caption{background-color:transparent;color:white;padding:55px 0}.new-career-section button{width:180px;height:45px;margin-left:35px;font-family:'Poppins',sans-serif;font-size:1.5rem;margin-bottom:25px;box-shadow:2px 2px 6px #0000004D;font-weight:800}.new-career-section button:hover{background-color:#cacaca}.new-career-section .contact-us-button:hover{background-color:white;color:black}.new-career-section .contact-us-button{background-color:#fd5d14;color:white}.new-aboutus-info-section{background-color:#e4e4e4;padding:25px 0;border-bottom:5px solid #19af8f}.new-aboutus-info-section p{font-size:3rem;color:black;text-align:center;font-weight:800}.homepage-about-details hr{text-align:center;width:10%;height:3px;background-color:#19af8f;margin-top:1rem!important}.credo-column{padding-right:5px!important;padding-left:0!important}.credo-info-column{padding-right:5px!important;padding-left:0!important}.credo-info-column p{display:block;margin-block-start:-.5em!important;margin-block-end:-0em!important;margin-inline-start:0;margin-inline-end:0;margin-left:60px}.new-location-card img{width:120px;padding:20px 0}.new-our-location-column .card{border-style:none}.new-our-location-column .new-location-card{width:auto;height:350px;background-color:black;color:white;border-bottom:5px solid #19af8f}.btn-group-toggle{margin-top:60px;justify-content:center}.btn-group-toggle .service-toggle-btn{background-color:#19af8f;color:white}.btn-group-toggle .service-toggle-btn:hover{background-color:#19af8f;opacity:1;border-color:transparent;color:white}.btn-group-toggle .btn-secondary{font-size:1.5rem;padding:10px;border-style:none;width:215px;opacity:30%}.btn-group-toggle .scroll-service-btn{padding:5px 15px}.btn-group-toggle input{appearance:none}.btn-secondary:not(:disabled):not(.disabled).active{color:#fff;background-color:#19af8f!important;border-style:none!important;border-color:transparent!important;opacity:1}.new-service-info{margin-top:40px;box-shadow:3px 10px 10px #cecece;padding:40px 0}.new-service-info button{margin-top:10px}.new-service-image{width:120px;transform:translate(40px,45px);padding:10px 0}.new-service-info .service-icon-center{transform:translate(40px,80px)}.new-service-info h2{font-size:2.5rem;font-weight:800}.new-service-info p{font-size:1.8rem;font-weight:400}.new-service-contact-section{background-color:black;color:white;padding:30px 0}.new-service-contact-section h3{font-size:3.5rem;font-weight:800;color:#19af8f}.new-service-contact-section p{font-size:1.8rem;font-weight:200}.new-service-contact-section button{font-size:1.5rem;font-weight:200;padding:10px 20px;background-color:#fd5d14;color:white;font-weight:800;margin-top:20px}.subService-AIML-intro-btn .sub-service-contact-us-btn{width:150px;height:45px;font-family:'Poppins',sans-serif;font-weight:600;font-size:1.5rem;letter-spacing:0;background-color:transparent;border:1px solid white;color:white;margin-left:15px}.subService-AIML-intro-btn .sub-service-contact-us-btn:hover{background-color:#fd5d14}.new-case-studies-list .card-body{background-color:black;color:white;height:650px}.new-case-studies-list h2{font-size:2.5rem;color:white;margin-top:0}.new-case-studies-list p{color:white}.new-case-studies-list h4{color:#19af8f}.weValueInnovation{background-color:black;border-radius:4px;margin-top:60px}.weValueInnovation h1{color:white}.weValueInnovation p{font-size:2rem;color:white;padding:30px}.weValueInnovationCarousel{padding:50px 0}.we-innovation-img{padding:60px 0}.weValueInnovationCarousel .carousel-indicators{top:95%}.career-job-icon{width:20px}.employeesSay .card{border-style:none}.employeesSay img{height:100%}.employeesSay .employee-details h1{font-size:1.8rem;font-weight:600}.employeesSay .card-text{font-size:1.8rem;padding:85px 0}.employeesSay .card-title{font-size:3rem;color:black;font-weight:800}.employeesSay .carousel-inner{border-left:none}.employeesSay .carousel-indicators{position:absolute;top:5%;left:0!important;right:0;bottom:10px;z-index:15;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:left;margin-right:15%;margin-left:0;list-style:none}.employeesSay .carousel-indicators li{height:30px;width:30px;border-radius:50%;box-shadow:3px 6px 16px #00000029;margin-top:50px}.employeesSay .carousel-indicators .active{height:30px;width:30px;border-radius:50%;background-color:#6d6d6d;margin-bottom:-20rem;border-color:#19af8f;border-style:solid}.new-contact-us-page img{width:100%;height:540px;box-shadow:3px 6px 16px #0000004D}.new-contact-us-page input{box-shadow:3px 6px 16px #00000029;border-style:none;font-size:1.8rem}.new-contact-us-page textarea{box-shadow:3px 6px 16px #00000029;border-style:none;font-size:1.8rem}@media only screen and (min-width:320px) and (max-width:424px){.new-all-margin{margin:0 20px 0 20px}.navbar-brand{margin-left:20px}.navbar-nav{margin-right:20px}.section-title{font-size:2.5rem}.new-solutions-services-lists .ai-icon{width:30px;height:30px}.new-home-about-details h1{font-size:2.5rem;margin-top:40px}.new-home-about-details p{font-size:1.5rem}.new-solutions-services-lists li{font-size:1.2rem}.new-about-details-heading .new-about-heading{font-size:2rem;padding:10px 0}.new-about-details-lists{display:block;list-style-type:disc;margin-block-start:1em;margin-block-end:1em;margin-inline-start:0;margin-inline-end:0;padding-inline-start:0}.new-about-details-list .about-icon{width:30px;height:30px;margin-right:10px}.AISolutionInfo{margin-left:5px}.new-about-details-list h2{font-size:1.5rem}.new-about-details-list p{margin-inline-start:40px}.industry-section-column{padding-right:15px!important;padding-left:15px!important}.our-partner{display:none}.carousel-our-partner{display:block}.our-services{padding:30px 0}.new-our-service-column{padding-right:15px!important;padding-left:15px!important}.our-services hr{margin-top:1rem!important;width:40%}.new-our-service-card .card-body{padding:0 10px;height:250px}.new-our-service-card a{top:85%}.new-our-service-card .card-title{font-size:1.8rem}.new-our-service-card .card-text{font-size:1.2rem}.case-studies hr{width:40%;margin-top:1rem!important}.new-case-studies-card{padding-right:15px!important;padding-left:15px!important}.new-case-studies-card{margin-top:15px}.client-say .card{margin-top:15px}.client-say .card-body{height:460px}.footer .fa{margin:25px 5px 2px 0}.case-studies-list{margin-top:40px}.new-subService-AIML-intro-caption h2{font-size:2.5rem}.new-subService-AIML-intro-caption p{font-size:1.5rem}.new-subService-AIML-intro-caption{top:130px}.subService-AIML-intro-btn .sub-service-contact-us-btn{margin-left:5px;margin-top:0}.new-career-section button{margin-left:15px}.new-case-studies-list .card-body{padding:15px}.new-case-studies-list .card-title{font-size:1.5rem}.new-case-studies-list .card-body{height:auto}.new-career-section .career-caption{padding:20px}.career-details p{padding:10px}.about-us-desc h2{font-size:2.5rem}.about-us-desc p{font-size:1.5rem}.homepage-about-details hr{width:20%;margin-top:1rem!important}.credo-info-column p{margin-left:40px}.credo-column{padding-bottom:20px}.new-service-image{width:110px;transform:translate(0px,0px);padding:20px 0}.new-service-info .service-icon-center{width:110px;transform:translate(0px,0px);padding:20px 0}.new-service-info{margin-top:0;padding:25px 0}.new-service-contact-section h3{font-size:2.5rem;font-weight:800;color:#19af8f}.new-service-info p{font-size:1.2rem}.new-service-info h2{font-size:1.8rem}.our-culture-section{padding:0}.our-culture-section .amnet-images{margin-top:10px}.job-desc-card-info .experience-info{display:block;justify-content:space-between}.experience-info span{font-size:1.2rem;font-weight:600;color:black}.experience-info h3{font-size:1.2rem}.careers-page-details-list-row .career-page-details-column{margin-bottom:-25px}.weValueInnovation .carousel-indicators{top:90%}.weValueInnovation p{font-size:1.5rem;padding:0 15px}.weValueInnovationCarousel{padding:65px 0;margin-top:30px}.employeesSay .carousel-indicators{top:3%}.employeesSay .card-title{font-size:2.5rem}.employeesSay .card-text{font-size:1.5rem;padding:50px 0}.new-contact-us-page img{display:none}}@media only screen and (min-width:320px) and (max-width:374px){.subService-AIML-intro-btn .sub-service-contact-us-btn{margin-left:0;margin-top:5px}}@media only screen and (min-width:375px) and (max-width:424px){.client-say .card-body{height:400px}}@media only screen and (min-width:425px) and (max-width:767px){.new-all-margin{margin:0 20px 0 20px}.new-solutions-services-lists .ai-icon{width:30px;height:30px}.new-about-details-lists{display:block;list-style-type:disc;margin-block-start:1em;margin-block-end:1em;margin-inline-start:0;margin-inline-end:0;padding-inline-start:0}.new-about-details-list .about-icon{width:30px;height:30px;margin-right:10px}.new-about-details-list p{margin-block-start:-0.5em;margin-inline-start:40px}.industry-section-column{padding-right:15px!important;padding-left:15px!important}.our-partner{display:none}.carousel-our-partner{display:block}.new-our-service-column{padding-right:15px!important;padding-left:15px!important}.our-services{padding:30px 0}.our-services hr{width:40%;margin-top:1rem!important}.new-our-service-card a{top:85%}.case-studies hr{width:40%;margin-top:1rem!important}.new-case-studies-card{padding-right:15px!important;padding-left:15px!important}.new-subService-AIML-intro-caption h2{font-size:3rem}.new-home-about-details h1{font-size:3rem;padding:10px 0}.new-about-details-heading .new-about-heading{font-size:3rem;padding:0}.new-subService-AIML-intro-caption p{font-size:1.8rem}.new-subService-AIML-intro-caption{top:130px}.subService-AIML-intro-btn .sub-service-contact-us-btn{margin-left:10px;margin-top:0}.new-career-section button{margin-left:15px}.new-case-studies-card{margin-top:15px}.client-say .card{margin-top:15px}.new-case-studies-list .card-body{padding:15px}.new-case-studies-list .card-title{font-size:1.5rem}.new-case-studies-list .card-body{height:auto}.new-career-section .career-caption{padding:20px}.career-details p{padding:10px}.homepage-about-details hr{width:20%;margin-top:1rem!important}.homepage-about-details h3{font-size:2rem}.about-details-header img{width:50px;height:50px}.new-aboutus-info-section p{font-size:2rem}.credo-info-column p{font-size:1.5rem;margin-left:60px}.credo-column{padding-bottom:20px}.new-service-image{width:120px;transform:translate(0px,0px);padding:20px 0}.new-service-info .service-icon-center{width:120px;transform:translate(0px,0px);padding:20px 0}.new-service-info{margin-top:0;padding:25px 0}.our-culture-section{padding:0}.our-culture-section .amnet-images{margin-top:10px}.job-desc-card-info .experience-info{display:block;justify-content:space-between}.experience-info span{font-size:1.5rem;font-weight:600;color:black}.experience-info h3{font-size:1.5rem}.careers-page-details-list-row .career-page-details-column{margin-bottom:-25px}.career-job-icon{width:15px}.weValueInnovation .carousel-indicators{top:90%}.weValueInnovation p{font-size:1.8rem;padding:0 30px}.weValueInnovationCarousel{padding:65px 0;margin-top:30px}.employeesSay .carousel-indicators{top:3%}.employeesSay .card-title{font-size:2.5rem}.employeesSay .card-text{font-size:1.8rem;padding:50px 0}.new-contact-us-page img{display:none}}@media only screen and (min-width:768px) and (max-width:1023px){.new-all-margin{margin:0 40px 0 40px}.navbar-brand{margin-left:40px}.navbar-nav{margin-right:40px}.new-case-studies-list .card-body{padding:15px}.new-case-studies-list .card-title{font-size:2.5rem}.new-case-studies-list .card-body{height:auto}.new-case-studies-list p{font-size:1.5rem}.new-home-about-details h1{font-size:3rem;padding:10px 0}.new-about-details-lists{display:block;list-style-type:disc;margin-block-start:1em;margin-block-end:1em;margin-inline-start:0;margin-inline-end:0;padding-inline-start:0}.new-about-details-heading .new-about-heading{font-size:3.5rem;padding:0}.our-services hr{width:20%;margin-top:1rem!important}.our-services{padding:30px 0}.new-our-service-column{padding-left:15px!important;padding-right:15px!important}.new-our-service-card a{top:85%}.client-say .card-body{height:410px}.client-say .client-say-card-center{margin-left:auto;margin-right:auto;margin-top:20px}.case-studies hr{width:20%;margin-top:1rem!important}.new-case-studies-card{padding-right:5px!important;padding-left:0!important;margin-top:10px}.homepage-about-details hr{width:20%;margin-top:1rem!important}.homepage-about-details h3{font-size:2.5rem;margin-top:10px}.about-details-header img{width:50px;height:50px}.new-aboutus-info-section p{font-size:2rem}.credo-info-column p{font-size:1.8rem;margin-left:60px}.credo-column{padding-bottom:20px}.location-details h2{font-size:2.5rem}.location-details p{font-size:2rem}.new-service-image{width:150px;transform:translate(0px,0px);padding:20px 0}.new-service-info .service-icon-center{width:150px;transform:translate(0px,0px);padding:20px 0}.new-service-info{margin-top:0;padding:25px 0}.our-culture-section .amnet-images{margin-top:10px}.new-contact-us-page img{display:none}}@media only screen and (min-width:1024px) and (max-width:1439px){.navbar-brand{margin-left:60px}.navbar-nav{margin-right:60px}.new-home-about-details h1{font-size:4rem;padding:15px 0}.client-say .card-body{height:460px}.our-services{padding:30px 0}.new-our-service-card a{top:85%}.our-services hr{width:15%;margin-top:1rem!important}.new-our-service-card .card-body{height:310px}.new-our-service-column{padding-left:15px!important;padding-right:15px!important}.case-studies hr{width:15%;margin-top:1rem!important}.new-case-studies-card{padding-right:5px!important;padding-left:0!important}.new-case-studies-card .card-body{height:320px}.new-all-margin{margin:0 60px 0 60px}.new-case-studies-list .card-body{padding:15px}.new-case-studies-list .card-title{font-size:2.5rem}.new-case-studies-list .card-body{height:720px}.new-case-studies-list p{font-size:1.5rem}.homepage-about-details hr{width:5%;margin-top:1rem!important}.homepage-about-details h3{font-size:2rem;margin-top:10px}.about-details-header img{width:50px;height:50px}.new-aboutus-info-section p{font-size:2rem}.credo-info-column p{font-size:1.8rem;margin-left:60px}.credo-column{padding-bottom:21px}.new-service-image{width:130px;transform:translate(10px,60px);padding:20px 0}.new-service-info .service-icon-center{width:130px;transform:translate(10px,100px);padding:20px 0}.new-service-info{margin-top:0;padding:25px 0}.new-contact-us-page img{width:100%;height:515px;box-shadow:3px 6px 16px #0000004D}}.new-our-service-card:hover img{transform:rotateX(360deg);transition:1s}.navFlex:hover img{transform:rotateX(360deg);transition:1s}.animation-card:hover img{transform:scale(1.05);transform-origin:50% 50%}.animation-card{display:inline-block;border:1px solid black;overflow:hidden}.animation-card img{display:block;transition:transform .4s}
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 66%;
+    /* -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; */
+
+}
+
+body{
+    margin:0px 140px 0px 140px;
+    left: 140px;
+    left: 140px !important;
+    overflow-x: hidden;
+}
+
+.all-margin{
+    margin:0px 140px 0px 140px;
+    background-color: transparent;
+}
+
+.section-header{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #FD5D14;
+}
+
+.section-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: #000000;
+}
+
+/* FOR INDUSTRY AND CASE-STUDIES */
+.dot-icon {
+    position: absolute;
+    transform: translate(-50%, -60%);
+    height: 132px;
+    width: 132px;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+
+
+/* HOMEPAGE INTRO */
+/* ............................................................................................................................... */
+
+.homepage-intro{
+    position: relative;
+    width: 100%;
+    height: 895px;
+    background: #5F5F5F ;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    /* background-image:url('../src/assets/images/HomePage/amnet-home-bg.jpg');
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.homepage-bg{
+    width: 100%;
+}
+
+.homepage-intro-caption{
+    top: 150px;
+    height: 640px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.homepage-intro-caption h2{
+    margin-top: 70px;
+    margin-left: 29px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10rem;
+    font-weight: 800;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.homepage-intro-caption p {
+    margin-left: 41px;
+    margin-top: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0px;
+    color: #4D4D4F;
+}
+
+.homepage-intro-btn{
+    padding: 50px 35px;
+}
+
+.homepage-intro-btn button {
+    width: 180px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font: normal normal 600 15px/25px Poppins;
+    letter-spacing: 0px;
+
+}
+
+.homepage-intro-btn .btn-default{
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal 600 20px/30px Poppins;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-left: 15px;
+    color: #000000;
+    background-color: white;
+}
+
+/* verticla line */
+.vr{
+    position: absolute;
+    top: 240px;
+    left: 140px;
+    width: 12px;
+    height: 229px;
+    background: #FD5D14 0% 0% no-repeat padding-box;
+    border-radius: 1px;
+    opacity: 1;
+    z-index: 2;
+}
+
+
+/* HOMEPAGE QUOTE */
+/* ........................................................................................................................ */
+.homepage-quote{
+    background-color: #f2f2f2;
+}
+
+.blockquote p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    color: #000000;
+}
+
+.blockquote .blockquote-author{
+    color: #FD5D14;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+
+
+
+/*AI PRODUCT, SOLUTIONS AND SERVICES */
+/* ........................................................................................................................ */
+
+.solutions-services{
+    margin-top: 100px;
+}
+
+.solutions-services-details h6{
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #FD5D14;
+}
+
+.solutions-services-details h2{
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.solutions-services-details p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: black;
+    margin-top: 10px;
+}
+
+.solutions-services-lists{
+    margin-top: 35px;
+    padding-inline-start: 0px;
+
+}
+
+.solutions-services-lists li{
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #4D4D4F;
+    list-style: none;
+}
+
+.careers-details-lists .list-icon {
+    width: 50px;
+    
+    padding-bottom: 5px;
+    margin-right: 5px;
+}
+
+
+
+/* HOMEPAGE ABOUT DETAILS */
+/* ........................................................................................................................ */
+
+.homepage-about-details{
+    position: relative;
+    margin-top: 80px;
+    background: url("../src//assets/images/HomePage/amnet-about-details.jpg");
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-details-row{
+    padding: 45px 0px;
+}
+
+.about-details-header img{
+   width: 50px;
+   height: 50px;
+   margin-right: 10px;
+}
+
+.about-details-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.homepage-about-details p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-left: 70px;
+    opacity: 0.8;
+    padding-right: 30px;
+}
+
+.homepage-quote p{
+    text-align: center;
+    font-size: 1.8rem;
+    padding-bottom: 5px;
+}
+
+
+/*INDUSTRIES SECTION */
+/* ........................................................................................................................ */
+
+.industry-section{
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.industry-section-row{
+    margin-top: 80px;
+}
+
+.industry-section .card-body{
+    background-color: white;
+    box-shadow: 3px 6px 16px #00000029;
+    border-style: none;
+    height: 150px;
+}
+
+.industry-section .dot-icon {
+    position: absolute;
+    transform: translate(-50%, -60%);
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+.industry-section h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-top: 60px;
+}
+
+
+/* OUR SERVICES SECTION */
+/* ........................................................................................................................ */
+
+.our-services{
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+    height: 600px;
+    margin-left: 0;
+    padding: 30px;
+    /* background-image:url('../images/HomePage/our-services/amnet-our-services-bg.png');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.our-service-lists{
+    margin-top: 30px;
+}
+
+
+.our-services h1{
+    color: white;
+}
+
+.carousel-indicators {
+    top: 110%;
+}
+
+.service-card .card{
+    border-style: none;
+}
+
+.service-card .card-body{
+    padding: 110px 30px;
+    height: 385px;
+    text-align: left;
+}
+.service-card h3{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.service-card p{
+    font-size: 1.8rem;
+}
+.service-card a{
+    font-size: 1.5rem;
+}
+
+.carousel .carousel-indicators li{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 3px 6px 16px #00000029;
+    margin-top: 50px;
+}
+
+ .carousel .carousel-indicators .active{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #6d6d6d;
+    margin-bottom: -20rem;
+ }
+
+.carousel-indicators{
+    top: 100%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+
+/* OUR PARTNER LOGOS */
+/* ........................................................................................................................ */
+
+.our-partner{
+    position: relative;
+    margin-top: 60px;
+    background-color: #F1f1f1;
+    padding: 15px;
+}
+
+.partner-logo img{
+    width: 150px;
+    height: auto;
+    display: block;
+}
+
+/* CASE STUDIES SECTION */
+/* ........................................................................................................................ */
+
+.case-studies{
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.case-studies h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 80px;
+}
+
+.case-studies p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 800;
+    opacity: 0.8;
+    margin-top: 25px;
+}
+
+.propensity-modelling a{
+    color: #0154F7;
+}
+
+.risk-analytics a{
+    color: #FD5D14;
+}
+
+.preventive-maintenance a{
+    color: #18AE8E;
+}
+
+.case-studies a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+.case-studies .card-body{
+    background-color: white;
+    box-shadow: 3px 6px 16px #00000029;
+    border-style: none;
+    height: 320px;
+
+}
+
+.case-studies .explore-all-link{
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #0154F7;
+    text-decoration: underline;
+}
+
+
+/* CAREER SECTION */
+/* ........................................................................................................................ */
+
+.career-section{
+    transform: translate(0%,-40%);
+}
+/* .career-section-row{
+    box-shadow: 0px 3px 6px #00000029;
+} */
+
+.career{
+    margin-top: 200px;
+    width: 100%;
+    height: 250px;
+    /* background-image:url("../src/assets/images/HomePage/amnet-career-section-bg.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.career-caption{
+    background-color: #EF5B51;
+    color: white;
+    padding: 50px;
+}
+
+.career-caption h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.career-caption h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+
+.career-section button{
+    width: 150px;
+    margin-left: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    box-shadow: 2px 2px 6px #0000004D;
+}
+
+.career-details{
+    background-color: #ffffff;
+}
+
+.career-details p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color:black;
+    padding: 35px;
+}
+
+
+/* FOOTER SECTION */
+/* ........................................................................................................................ */
+
+.footer{
+    background-color: #0C0C0C;
+    color: white;
+    margin-top: 0px;
+}
+
+.footer h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.footer h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.footer p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.amnet-email p{
+    font-size: 1.5rem;
+}
+.amnet-copyright p{
+    font-size: 1.5rem;
+}
+
+.useful-links li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+}
+
+.useful-links li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+}
+
+hr{
+    margin-top: 4rem !important;
+    width: 100%;
+    border-color: white;
+    background-color: white;
+}
+
+.amnet-email{
+    margin-right: auto;
+}
+
+.amnet-copyright{
+    margin-left: auto;
+}
+
+/* ICONS */
+.footer .fa {
+    padding: 20px;
+    font-size: 1.2rem;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 25px 10px 2px 0px;
+    border-color: white;
+    background-color: #18AE8E;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+}
+.fa:hover {
+    opacity: 0.8;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+
+
+
+
+/* RESPONSIVE SECTION */
+/* .................................................................................................................... */
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+
+    .section-header{
+        font-size: 1.5rem;
+    }
+
+    .section-title{
+        font-size: 3rem;
+    }
+
+    .textAnimation{
+        color: white !important;
+    }
+    .textAnimation::before{
+        display: none !important;
+    }
+
+    .all-margin{
+        margin: 0px 21px 0px 21px;
+    }
+    
+
+    /* HOMEPAGE-INTRO */
+    .homepage-intro{
+        height: 736px;
+    }
+    .homepage-intro-caption{
+        height: 501px;
+    }
+    .homepage-intro-caption h2{
+        margin-top: 50px;
+        font-size: 3.5rem;
+        font-weight: bolder;
+    }
+    .homepage-intro-caption p {
+        font-size: 1.2rem;
+        margin-left: 30px;
+    }
+    .homepage-intro-btn{
+        padding: 50px 25px;
+    }
+    .homepage-intro-btn .btn{
+        border-radius: 4px;
+    }
+    .homepage-intro-btn .btn-default{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .vr{
+        top:200px;
+        left: 21px;
+    }
+
+    /* BLOCKQUOTE */
+    .blockquote p{
+       font-size: 2rem;
+       font-weight: 800;
+    }
+
+    /* SOLUTION AND SERVICES */
+    .solutions-services{
+        margin-top: 50px;
+    }
+
+    .solutions-services-lists{
+        padding-inline-start: 0px;
+    }
+    .solutions-services-lists li{
+        font-size: 1.2rem;
+    }
+    .solutions-services-details h2{
+        font-size: 2.5rem;
+    }
+    .solutions-services-details p{
+        font-size: 1.2rem;
+        margin-top: 5px;
+    }
+    .AISolutionInfo{
+        margin-left: 5px;
+    }
+    .solutions-services-details-img{
+        margin-top: 35px;
+    }
+    .about-details-header img{
+        width: 30px;
+        height: 30px;
+     }
+
+
+
+    /* HOMEPAGE ABOUT DETAILS */
+
+    .homepage-about-details{
+        margin-top: 50px;
+    }
+    .homepage-about-details .about-details-bgImg{
+        width: 100%;
+        height: 550px;
+    }
+    .about-details-row{
+        margin-top: 0px;
+        padding: 10px 3px;
+    }
+    .homepage-about-details p{
+        font-size: .9rem;
+        margin-left: 43px;
+    }
+    .homepage-about-details h3{
+        font-size: 1.2rem;
+    }
+
+    /* INDUSTRIES SECTION */
+
+    .industry-section{
+        margin-top: 60PX;
+    }
+
+    .industry-section .card{
+        margin-top: 30px;
+    }
+
+    /* OUR SERVICE SECTION */
+
+    .our-services{
+        height: 550px;
+    }
+
+    .service-card .card-body{
+        padding: 20px 10px;
+        height: 230px;
+        text-align: center;
+    }
+    .service-card h3{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    .service-card p{
+        font-size: 1.2rem;
+    }
+    .service-card a{
+        font-size: 1.2rem;
+    }
+
+
+    /* CASE STUDIES */
+    .case-studies{
+        margin-top: 50px;
+    }
+
+    .case-studies-card{
+        margin-top: 15px;
+    }
+
+    /* CAREER SECTION */
+
+    .career{
+        background-image: none;
+    }
+
+    .career-section{
+        position: relative;
+        transform: translate(0%,-30%);
+    }
+
+    .career-details button{
+        width: 200px;
+        margin-left: 40px;
+    }
+
+    .career-caption h5{
+        font-size: 1.8rem;
+    }
+
+    .career-caption h2{
+        font-size: 2.5rem;
+    }
+    .career-caption p{
+        text-align: left;
+    }
+
+    /* LATEST BLOG PART */
+    .latest-blog-section{
+        margin-top: 250px;
+    }
+
+    /* FOOTER  */
+
+    .footer{
+        margin-top:0px;
+    }
+
+    .useful-links{
+        margin-top: 15px;
+        padding-inline-start: 0px !important;
+        list-style-type: none;
+        color: white;
+    }
+    .footer h3{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .footer p{
+        font-size: 1rem;
+    }
+
+    .useful-links li{
+        font-size: 1rem;
+    }
+    .useful-links li a{
+        font-size: 1rem;
+
+    }
+
+    .amnet-copyright{
+        margin-left: 0;
+    }
+}
+
+
+
+
+/* FOR SMALLER DEVICES 375PX */
+/* ...................................................................................................................... */
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+
+    .section-header{
+        font-size: 1.5rem;
+    }
+
+    .section-title{
+        font-size: 3rem;
+    }
+
+    .all-margin{
+        margin: 0px 21px 0px 21px;
+    }
+    
+
+    /* HOMEPAGE-INTRO */
+    .homepage-intro{
+        height: 736px;
+    }
+    .homepage-intro-caption{
+        height: 501px;
+    }
+    .homepage-intro-caption h2{
+        font-size: 4.5rem;
+        font-weight: bolder;
+    }
+    .homepage-intro-caption p {
+        font-size: 1.2rem;
+        margin-left: 30px;
+    }
+    .homepage-intro-btn{
+        padding: 20px 25px;
+    }
+    .homepage-intro-btn .btn{
+        border-radius: 4px;
+    }
+    .homepage-intro-btn .btn-default{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .vr{
+        top:220px;
+        left: 21px;
+    }
+
+    /* BLOCKQUOTE */
+    .blockquote p{
+       font-size: 2rem;
+       font-weight: 800;
+    }
+
+    /* SOLUTION AND SERVICES */
+    .solutions-services{
+        margin-top: 50px;
+    }
+
+    .solutions-services-lists{
+        padding-inline-start: 0px;
+    }
+    .solutions-services-lists li{
+        font-size: 1.2rem;
+    }
+    .solutions-services-details h2{
+        font-size: 2.5rem;
+    }
+    .solutions-services-details p{
+        font-size: 1.2rem;
+        margin-top: 5px;
+    }
+  
+    .solutions-services-details-img{
+        margin-top: 35px;
+    }
+    .about-details-header img{
+        width: 30px;
+        height: 30px;
+     }
+
+
+
+    /* HOMEPAGE ABOUT DETAILS */
+    .homepage-about-details{
+        margin-top: 50px;
+    }
+    .homepage-about-details .about-details-bgImg{
+        width: 100%;
+        height: 550px;
+        /* position: absolute; */
+    }
+    .about-details-row{
+        margin-top: 5px;
+        padding: 3px;
+    }
+    .homepage-about-details p{
+        font-size: 1rem;
+        margin-left: 50px;
+    }
+    .homepage-about-details h3{
+        font-size: 1.5rem;
+    }
+
+    /* INDUSTRIES SECTION */
+
+    .industry-section{
+        margin-top: 60PX;
+    }
+
+    .industry-section .card{
+        margin-top: 20px;
+    }
+
+    /* OUR SERVICE SECTION */
+    .our-services{
+        height: 580px;
+    }
+    .service-card .card-body{
+        padding: 20px 10px;
+        height: 230px;
+        text-align: center;
+    }
+    .service-card h3{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    .service-card p{
+        font-size: 1.2rem;
+    }
+    .service-card a{
+        font-size: 1.2rem;
+    }
+
+
+    /* CASE STUDIES */
+    .case-studies{
+        margin-top: 50px;
+    }
+
+    .case-studies-card{
+        margin-top: 15px;
+    }
+
+    /* CAREER SECTION */
+
+    .career{
+        background-image: none;
+    }
+
+    .career-section{
+        position: relative;
+        /* margin-top: 120px; */
+        transform: translate(0%,-30%);
+    }
+
+    .career-details button{
+        width: 200px;
+        margin-left: 55px;
+    }
+
+    .career-caption h5{
+        font-size: 1.8rem;
+    }
+
+    .career-caption h2{
+        font-size: 2.5rem;
+    }
+    .career-caption p{
+        text-align: left;
+    }
+
+    /* LATEST BLOG PART */
+    .latest-blog-section{
+        margin-top: 250px;
+    }
+
+    /* FOOTER  */
+
+    .footer{
+        margin-top: 0px;
+    }
+
+    .useful-links{
+        margin-top: 15px;
+        padding-inline-start: 0px !important;
+        list-style-type: none;
+    }
+    .footer h3{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .footer p{
+        font-size: 1rem;
+        /* display: flex;
+        flex-direction: column; */
+    }
+
+    .useful-links li{
+        font-size: 1rem;
+    }
+    .useful-links li a{
+        font-size: 1rem;
+    }
+    .amnet-copyright{
+        margin-left: 0;
+    }
+}
+
+
+/* ...................................................................................................................... */
+@media only screen and (min-width: 425px) and (max-width: 767px){
+    .industry-card .card-body{
+        transform: translate(20%, 150%);
+        width: 250px;
+        height: 177px;
+    }
+    .career-details button{
+        width: 200px;
+        margin-left: 75px;
+    }
+
+    .our-services{
+        height: 600px;
+    }
+    .service-card .card-body{
+        padding: 20px 10px;
+        height: 230px;
+        text-align: center;
+    }
+    .service-card h3{
+        font-size: 1.8rem;
+        font-weight: 800;
+    }
+    .service-card p{
+        font-size: 1.5rem;
+    }
+    .service-card a{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* *{
+        font-size: 30%;
+    } */
+
+    .section-header{
+        font-size: 1.5rem;
+    }
+
+    .section-title{
+        font-size: 3rem;
+    }
+
+    
+
+    .all-margin{
+        margin: 0px 81px 0px 81px;
+    }
+    .navigation-bar{
+        text-align: left;
+    }
+    
+
+    /* HOMEPAGE-INTRO */
+    .homepage-intro{
+        height: 895px;
+    }
+    .homepage-intro-caption{
+        height: 609px;
+    }
+    .homepage-intro-caption h2{
+        font-size: 7rem;
+        font-weight: bolder;
+    }
+    .homepage-intro-caption p {
+        font-size: 2rem;
+        margin-left: 30px;
+    }
+    .homepage-intro-btn{
+        padding: 50px 25px;
+    }
+    .homepage-intro-btn .btn{
+        border-radius: 4px;
+    }
+    .homepage-intro-btn .btn-default{
+        margin-top: 0px;
+
+    }
+    .vr{
+        top:230px;
+        left: 81px;
+    }
+
+    /* BLOCKQUOTE */
+    .blockquote p{
+       font-size: 2.8rem;
+       font-weight: 600;
+       text-align: center;
+    }
+
+    /* SOLUTION AND SERVICES */
+    .solutions-services{
+        margin-top: 50px;
+    }
+    .solutions-services-lists li{
+        font-size: 1.5rem;
+    }
+    .solutions-services-details h2{
+        font-size: 5rem;
+    }
+    .solutions-services-details p{
+        font-size: 1.7rem;
+        margin-top: 10px;
+    }
+    .solutions-services-details h6{
+        font-size: 2rem;
+    }
+    .solutions-services-details-img{
+        margin-top: 35px;
+    }
+
+    .solutions-services-lists{
+        padding-inline-start: 0px;
+    }
+
+
+    /* HOMEPAGE ABOUT DETAILS */
+    .homepage-about-details{
+        margin-top: 50px;
+    }
+    .homepage-about-details .about-details-bgImg{
+        height: 750px;
+    }
+    .about-details-row{
+        margin-top: 0px;
+        padding: 10px;
+    }
+    .about-details-header img{
+        width: 60px;
+        height: 60px;
+     }
+    .homepage-about-details p{
+        font-size: 1.5rem;
+        margin-left: 80px;
+    }
+
+    .marginRow{
+        margin-bottom:0px !important;
+    }
+
+    /* INDUSTRIES SECTION */
+
+
+    .industry-section{
+        margin-top: 60PX;
+    }
+
+    .industry-section .card{
+        margin-top: 20px;
+    }
+
+    /* OUR SERVICE SECTION */
+
+
+    .our-services{
+        height: 700px;
+    }
+    .service-card .card-body{
+        padding: 20px 10px;
+        height: 200px;
+        text-align: center;
+    }
+    .service-card h3{
+        font-size: 1.8rem;
+        font-weight: 800;
+    }
+    .service-card p{
+        font-size: 1.5rem;
+    }
+    .service-card a{
+        font-size: 1.5rem;
+    }
+
+    /* CASE STUDIES */
+    .case-studies{
+        margin-top: 70px;
+    }
+    /* .case-studies .explore-all-link{
+        margin-top: 55px;
+    } */
+    .case-studies-card{
+        margin-top: 20px;
+    }
+
+    /* CAREER SECTION */
+
+    .career{
+        background-image: none;
+    }
+
+    .career-section{
+        position: relative;
+        /* margin-top: 120px; */
+        transform: translate(0%,-30%);
+    }
+
+    /* .career-bg-img{
+        display: none;
+    } */
+    /* .career-section-row .career-caption{
+       padding-right: 0px;
+    } */
+
+    .career-details button{
+        width: 200px;
+        margin-left: 40px;
+    }
+
+    .career-caption h5{
+        font-size: 1.8rem;
+    }
+
+    .career-caption h2{
+        font-size: 5rem;
+    }
+    .career-caption p{
+        text-align: left;
+    }
+
+    /* LATEST BLOG PART */
+    .latest-blog-section{
+        margin-top: 200px;
+    }
+
+    /* FOOTER  */
+    .useful-links{
+        padding-inline-start: 0px;
+        list-style-type: none;
+    }
+    .footer h2{
+        font-size: 2rem;
+    }
+    .footer h3{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .footer p{
+        font-size: 1.5rem;
+    }
+
+    .useful-links{
+        margin-top: 20px;
+    }
+
+    .useful-links li{
+        font-size: 1.3rem;
+    }
+    .useful-links li a{
+        font-size: 1.3rem;
+    }
+    .copyright{
+        text-align: center;
+    }
+}
+
+
+/* ...................................................................................................................... */
+
+@media only screen and (min-width: 834px) and (max-width: 1024px) {
+
+    .industry-card .card-body{
+        transform: translate(25%, 140%);
+    }
+    .our-services{
+        height: 700px;
+    }
+    .our-services img{
+        height: 350px;
+    }
+    .service-card .card-body{
+        padding: 20px 10px;
+        height: 170px;
+    }
+    .service-card h3{
+        font-size: 1.8rem;
+        font-weight: 800;
+    }
+    .service-card p{
+        font-size: 1.5rem;
+    }
+    .service-card a{
+        font-size: 1.5rem;
+    }
+
+    .dot-icon{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* ...................................................................................................................... */
+
+@media only screen and (min-width: 1024px) {
+
+
+
+
+    .homepage-intro-caption h2{
+        font-size: 6.5rem;
+    }
+    .homepage-intro-caption p {
+        font-size: 1.8rem;
+    }
+    .homepage-about-details .about-details-bgImg{
+        height: 550px;
+    }
+
+    /* INDUSTRIES SECTION */
+
+    .industries-section{
+        margin-top: 200PX;
+    }
+    .industries-section .industry-card{
+        margin-top: 125px;
+    }
+    .industry-card .card-body{
+        transform: translate(50%, 180%);
+            /* padding-right: 0px; */
+
+    }
+    .industries-details h5{
+        font-size: 2rem;
+    }
+
+    .industries-details a{
+        font-size: 1.5rem;
+    }
+
+    .case-studies h5{
+        font-size: 1.5rem;
+    }
+
+    /* OUR SERVICE SECTION */
+
+}
+
+
+/* ...................................................................................................................... */
+
+@media only screen and (min-width: 1025px) and (max-width:1439px) {
+
+    /* HOMEPAGE INTRO */
+
+    .homepage-intro-caption h2{
+        font-size: 7.5rem;
+    }
+    .homepage-intro-caption p {
+        font-size: 2rem;
+    }
+    .homepage-intro-btn{
+        padding: 50px 25px;
+    }
+
+    /* CAREER SECTION */
+  .career-section{
+    position: absolute;
+    transform: translate(0%,-50%);
+    }
+
+    /* .our-services{
+        height: 700px;
+    }*/
+    .our-services img{
+        height: 330px;
+    }
+    .service-card .card-body{
+        padding: 58px 30px;
+        height: 330px;
+    }
+    .service-card h3{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .service-card p{
+        font-size: 1.8rem;
+    }
+    .service-card a{
+        font-size: 1.8rem;
+    }
+
+}
+
+
+
+/* ...................................................................................................................... */
+
+@media only screen and (min-width: 1440px) {
+    .homepage-intro-caption h2{
+        font-size: 9rem;
+    }
+    .homepage-intro-caption p {
+        font-size: 2rem;
+    }
+
+    .industries-section .industry-card{
+        margin-top: 50px;
+    }
+
+    .industry-card .card-body{
+        transform: translate(20%, 120%);
+            /* padding-right: 0px; */
+
+    }
+    .case-studies h5{
+        font-size: 2rem;
+    }
+
+     /* OUR SERVICE SECTION */
+     .our-services img{
+        height: 385px;
+    }
+}
+
+
+
+
+/* CONTACT US PAGE STYLE SECTION */
+/*............................................................................................................................*/
+
+.contact-us-page{
+    /* position: relative; */
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+
+.contact-us-intro{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    background: #ffffff ;
+    opacity: 1;
+}
+
+.contact-form-header{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    padding: 25px;
+}
+
+.contact-form-user-details{
+    box-shadow: 3px 6px 16px #0000004D;
+
+}
+
+.btn-default .fa-arrow-right{
+    font-size: 1.8rem;
+    color: #000000;
+}
+
+.form-IMG{
+    /* width: 40%; */
+    height: auto;
+}
+
+.user-name{
+    margin-top: 0px;
+    padding: 0px 15px;
+}
+
+.user-name input{
+    display: block;
+}
+
+.form-group{
+    margin-top: 0px;
+    padding: 15px;
+    margin-bottom: 0rem !important;
+}
+.form-group input{
+    /* width: 650px; */
+    display: block;
+}
+
+.form-group textarea{
+    display: block;
+}
+
+.user-text{
+    padding: 0px 15px;
+}
+
+
+
+.contact-form-header h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+
+.contact-form-header p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #4D4D4F;
+}
+
+label{
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #000000;
+    width: 100%;
+}
+
+.submit-button{
+    padding: 20px 0px;
+}
+
+.submit-button button {
+    background-color: #FD5D14;
+    width: 120px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.submit-button button:hover {
+    background-color:#CACACA;
+    color: black;
+}
+
+.contact-us-location{
+    margin-top: 50px;
+}
+
+
+/* CONTACT US PAGE LOCATION SECTION */
+/* .......................................................................................................................... */
+
+/* .about-us-page-location{
+    background-image:url('../images/About-Us-Page/amnet-about-us-our-locations.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+
+.about-us-page-location h1{
+    color: black;
+}
+
+.about-us-page-location-row .card{
+    position: relative;
+    /* width: 30rem; */
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+}
+
+.about-us-page-location-row .card-body{
+   height: 200px;
+    padding: 0px 30px;
+}
+
+.about-us-page-location-row .dot{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    transform: translate(-45%,-70%);
+}
+
+
+.location-details{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+.location-details h2{
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 2rem;
+    
+}
+
+.location-details p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 1.8rem;
+   
+}
+
+.location-details a{
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 1.5rem;
+    /* text-align: center; */
+    text-decoration: underline;
+}
+
+
+
+/* CONTACT US PAGE RESPONSIVE STYLE SECTION */
+/*............................................................................................................................*/
+
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+
+    .contact-us-page{
+        margin-top: 80px;
+        flex-direction: column;
+    }
+
+    .form-IMG{
+        display: none;
+    }
+    .contact-form-header h1{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .contact-form-header p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #4D4D4F;
+    }
+
+    .lastName{
+        margin-top: 15px;
+    }
+
+    label{
+        /* margin-top: 10px; */
+        font-size: 1.3rem;
+        font-weight: 800;
+        color: #000000;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+
+    .contact-us-page{
+        margin-top: 100px;
+        flex-direction: column;
+    }
+
+    .form-IMG{
+        display: none;
+    }
+    .contact-form-header h1{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .contact-form-header p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #4D4D4F;
+    }
+
+    .lastName{
+        margin-top: 20px;
+        /* padding: 25px 0px; */
+    }
+
+    label{
+        font-size: 1.55rem;
+        font-weight: 800;
+        color: #000000;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+
+    .contact-us-page{
+        margin-top: 100px;
+        flex-direction: column;
+    }
+
+    .form-IMG{
+        display: none;
+    }
+    .contact-form-header h1{
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    .contact-form-header p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #4D4D4F;
+    }
+
+    .lastName{
+        margin-top: 20px;
+    }
+
+    label{
+        font-size: 1.55rem;
+        font-weight: 800;
+        color: #000000;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .contact-us-page{
+        margin-top: 100px;
+        flex-direction: column;
+    }
+
+    .form-IMG{
+        display: none;
+    }
+    .contact-form-header h1{
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    .contact-form-header p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #4D4D4F;
+    }
+
+    .lastName{
+        margin-top: 25px;
+    }
+
+    label{
+        font-size: 1.55rem;
+        font-weight: 800;
+        color: #000000;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1350px) {
+
+    .contact-us-page{
+        margin-top: 100px;
+        flex-direction: row;
+    }
+
+    .form-IMG{
+        width: 90%;
+        /* height: auto; */
+    }
+    .contact-form-header h1{
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    .contact-form-header p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #4D4D4F;
+    }
+
+    .lastName{
+        margin-top: 0px;
+    }
+    .form-IMG img{
+        width: 110%;
+    }
+
+    label{
+        font-size: 1.55rem;
+        font-weight: 800;
+        color: #000000;
+    }
+}
+
+
+@media only screen and (min-width: 1351px) and (max-width: 1439px) {
+
+    .contact-us-page{
+        margin-top: 100px;
+        flex-direction: row;
+    }
+
+    .form-IMG{
+        width: 46%;
+        /* height: auto; */
+    }
+    .contact-form-header h1{
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    .contact-form-header p{
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #4D4D4F;
+    }
+
+    .lastName{
+        margin-top: 0px;
+    }
+    .form-IMG img{
+        width: 105%;
+    }
+
+    label{
+        font-size: 1.55rem;
+        font-weight: 800;
+        color: #000000;
+    }
+}
+
+
+@media only screen and (min-width: 1440px){
+
+    .contact-us-page{
+        margin-top: 100px;
+        flex-direction: row;
+    }
+
+    .contact-form-header{
+        padding: 25px 15px;
+    }
+
+    .form-IMG{
+        width: 42%;
+    }
+    .submit-button{
+        padding: 15px 0px;
+    }
+}
+
+
+
+
+
+/* ABOUT US PAGE STYLE SECTION */
+/* ..................................................................................................................... */
+
+.about-us-intro-bg{
+    /* background-image: url('../images/About-Us-Page/amnet-about-us-bg.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+}
+
+.about-us-img-left{
+    float: left;
+    margin-right: 20px;
+}
+
+.about-us-img-right{
+    float: right;
+}
+
+.about-us-page-details{
+    margin-top: 60px;
+}
+
+.about-us-page-desc p{
+    font-size: 1.8rem;
+    color: black;
+}
+
+.about-us-page-quote{
+    margin-top: 70px;
+}
+
+.about-us-desc{
+    padding: 130px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-us-desc h2{
+    font-size: 3rem;
+    font-weight: 800;
+    color: black;
+}
+.about-us-desc p{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: black;
+}
+
+.about-us-details{
+    margin-top: 50px;
+}
+
+.about-us-desc-img-right h2{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.about-us-desc-img-right p{
+    font-size: 2rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+
+
+
+
+/* ABOUT US PAGE RESPONSIVE SECTION */
+/* .............................................................................................................................. */
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+
+    /* body{
+        overflow-x: hidden;
+    } */
+
+    .about-us-img-left{
+        float: none;
+    }
+
+    .about-us-img-right{
+        float: none;
+    }
+
+    .location-details a{
+        margin-top: 15px;
+    }
+
+
+    .about-us-page-desc p{
+        font-size: 1.5rem;
+        color: #4D4D4F;
+    }
+
+    .about-us-desc{
+        padding: 15px 0;
+    }
+
+    .about-us-desc-img-right{
+        margin-top: 0px;
+    }
+
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+
+    .about-us-img-left{
+        float: none;
+    }
+
+    .about-us-img-right{
+        float: none;
+    }
+
+    .about-us-desc{
+        padding: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .about-us-img-left{
+        width: 100%;
+        float: none;
+    }
+
+    .about-us-img-right{
+        width: 100%;
+        float: none;
+    }
+
+    .about-us-desc{
+        padding: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    .about-us-img-left{
+        float: none;
+        width: 100%;
+    }
+
+    .about-us-img-right{
+        float: none;
+        width: 100%;
+    }
+
+    .about-us-desc{
+        padding: 30px 0px;
+    }
+}
+
+
+
+
+/* SERVICES PAGE STYLES */
+/* ................................................................................................ */
+
+.service-page-intro{
+    /* background-image:url('../images/Service-Page/amnet-our-services-bg.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.img-left{
+    float: left;
+    width: 430px;
+    height: 100% !important;
+    margin-right: 15px;
+}
+
+.img-right{
+    float: right;
+    width: 430px;
+    height: 100% !important;
+}
+
+.service-list{
+    margin-top: 50px;
+    box-shadow: 3px 6px 16px #0000004D;
+}
+
+/* .service-page-img:nth-child(even) {
+    float: right;
+  } */
+
+.service-desc{
+    margin-left: 10px;
+    /* padding: 60px; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.service-desc h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 30px;
+    color: black;
+}
+.service-desc p{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.service-desc-long-text{
+    margin-left: 10px;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.service-desc-long-text h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.service-desc-long-text p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.service-desc-mid-text{
+    margin-left: 10px;
+    padding: 63px 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.service-desc-mid-text h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.service-desc-mid-text p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+
+/* SERVICE PAGE RESPONSIVE SECTION */
+/* ...................................................................................................................... */
+
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+
+
+    .service{
+        margin: 0px 21px 0px 21px;
+    }
+    .img-left{
+        width: 100%;
+        height: auto !important;
+        float: none;
+    }
+    .img-right{
+        width: 100%;
+        height: auto !important;
+        float: none;
+    }
+
+    .service-desc{
+        padding: 5px 20px;
+    }
+    .service-desc h2{
+        font-size: 1.8rem;
+    }
+    .service-desc p{
+        font-size: 1.2rem;
+    }
+
+    .service-desc-long-text{
+        padding: 20px;
+    }
+    .service-desc-long-text h2{
+        font-size: 1.8rem;
+    }
+    .service-desc-long-text p{
+        font-size: 1.2rem;
+    }
+
+    .service-desc-mid-text{
+        padding: 20px;
+    }
+    .service-desc-mid-text h2{
+        font-size: 1.8rem;
+    }
+    .service-desc-mid-text p{
+        font-size: 1.2rem;
+    }
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+
+.service{
+    margin: 0px 21px 0px 21px;
+}
+.img-left{
+    width: 100%;
+    height: auto !important;
+    float: none;
+}
+.img-right{
+    width: 100%;
+    height: auto !important;
+    float: none;
+}
+
+.service-desc{
+    padding: 5px 20px;
+}
+.service-desc h2{
+    font-size: 2rem;
+}
+.service-desc p{
+    font-size: 1.5rem;
+}
+
+.service-desc-long-text{
+    padding: 20px;
+}
+.service-desc-long-text h2{
+    font-size: 2rem;
+}
+.service-desc-long-text p{
+    font-size: 1.5rem;
+}
+
+.service-desc-mid-text{
+    padding: 20px;
+}
+.service-desc-mid-text h2{
+    font-size: 1.8rem;
+}
+.service-desc-mid-text p{
+    font-size: 1.2rem;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .service{
+        margin: 0px 21px 0px 21px;
+    }
+    .img-left{
+        width: 100%;
+        height: auto !important;
+        float: none;
+    }
+    .img-right{
+        width: 100%;
+        height: auto !important;
+        float: none;
+    }
+
+    .service-desc{
+        padding: 5px 20px;
+    }
+
+    .service-desc-mid-text{
+        padding: 20px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1439px) {
+
+    .service-desc {
+        padding: 20px 5px;
+    }
+    .service-desc-long-text{
+        padding:15px 5px;
+
+    }
+    .service-desc p{
+        font-size: 1.3rem;
+    }
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .service-desc{
+        padding: 10px 5px;
+    }
+
+    .service-desc-long-text{
+        padding:15px 5px;
+
+    }
+}
+
+
+
+
+
+
+/* CASE STUDIES PAGE STYLES */
+/* .................................................................................................................... */
+
+.case-studies-intro{
+    /* background-image:url('../images/Case-Studies-Page/amnet-case-studies-bg.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+
+.case-studies-page-row{
+    margin-top: -30px;
+}
+
+.case-studies-page-row .case-studies-page-card{
+    border: none;
+}
+
+.case-studies-page-card{
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 3px 6px 16px #0000004D;
+    text-align: center;
+}
+
+.case-studies-page-card .card-img-top{
+    height: 246px;
+}
+
+.case-studies-icon{
+    position:absolute;
+    height: 132px;
+    width: 132px;
+    transform: translate(-50%, -80%);
+}
+
+.case-studies-list{
+    margin-top: 60px;
+}
+
+.case-studies-page-card .card-body{
+    padding: 35px;
+}
+
+
+.case-studies-page-card h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 50px;
+    text-align: left;
+    color: black;
+}
+
+.case-studies-page-card-info h4{
+    font-size: 1.8rem;
+    color: #FD5D14;
+    font-weight: 800;
+    margin-top: 25px;
+    text-align: left;
+}
+
+.case-studies-page-card-info p{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-align: left;
+    color: black;
+}
+
+
+
+
+/* CASE STUDIES PAGE RESPONSIVE SECTION */
+/* .............................................................................................................................. */
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+
+    .case-studies-icon{
+        position:absolute;
+        height: 80px;
+        width: 80px;
+        transform: translate(-45%, -90%);
+    }
+
+    .case-studies-page-card .card-img-top{
+        height: 150px;
+    }
+
+
+    .case-studies-page-card h2{
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+
+    .case-studies-page-card-info h4{
+        font-size: 1.4rem;
+
+    }
+
+    .case-studies-page-card-info p{
+        font-size: 1.2rem;
+
+    }
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+
+    .case-studies-icon{
+        position:absolute;
+        height: 80px;
+        width: 80px;
+        /* top: 50%; */
+        left: 38%;
+        transform: translate(0%, -90%);
+    }
+
+    .case-studies-page-card .card-img-top{
+        height: 150px;
+    }
+
+    .case-studies-page-card h2{
+        margin-top: 30px;
+        font-size: 1.8rem;
+    }
+
+    .case-studies-page-card-info h4{
+        font-size: 1.4rem;
+
+    }
+
+    .case-studies-page-card-info p{
+        font-size: 1.2rem;
+
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .case-studies-icon{
+        position:absolute;
+        height: 100px;
+        width: 100px;
+        /* top: 50%; */
+        left: 43%;
+        transform: translate(0%, -90%);
+    }
+
+    .case-studies-page-card .card-img-top{
+        height: 200px;
+    }
+
+    .case-studies-page-card h2{
+        margin-top: 20px;
+        font-size: 2rem;
+    }
+
+    .case-studies-page-card-info h4{
+        font-size: 1.4rem;
+
+    }
+
+    .case-studies-page-card-info p{
+        font-size: 1.2rem;
+
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+
+    .case-studies-icon{
+        position:absolute;
+        height: 100px;
+        width: 100px;
+        /* top: 50%; */
+        left: 43%;
+        transform: translate(0%, -90%);
+    }
+
+    .case-studies-page-card .card-img-top{
+        height: 200px;
+    }
+
+
+    .case-studies-page-card-title{
+        font-size: 1.8rem;
+
+    }
+
+    .case-studies-page-card-info h4{
+        font-size: 1.4rem;
+
+    }
+
+    .case-studies-page-card-info p{
+        font-size: 1.5rem;
+
+    }
+}
+
+
+
+
+
+/* CAREERS PAGE STYLES */
+/* ........................................................................................................................... */
+
+.careers-page-bg{
+    /* background-image:url('../images/careers-page/amnet-careers-bg.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.careers-page-details{
+    font-family: 'Poppins', sans-serif;
+    color: #4D4D4F;
+    margin-top: 20px;
+}
+
+.careers-page-details p{
+    font-size: 1.8rem;
+}
+
+.careers-details-lists{
+    margin-top: 20px;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.careers-details-lists li{
+    font-size: 1.8rem;
+    padding: 10px 0px;
+}
+
+
+.careers-our-culture-header{
+    margin-top: 60px;
+}
+
+.our-culture-section{
+    margin-top: 60px;
+    padding: 15px 0px;
+}
+
+/* .our-culture-section .culture-img-left{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+} */
+
+/* .our-culture-section .culture-img-right{
+    padding-left: 0px !important;
+} */
+
+/* .our-culture-section .amnet-images{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+} */
+
+
+.culture-img-left .team-img{
+    margin-top: 8px;
+}
+
+.amnet-images:nth-child(2) {
+    margin-top: 8px;
+  }
+
+.job-desc-header{
+    margin-top: 60px;
+}
+
+.job-desc-lists{
+    margin-top: 60px;
+}
+
+.job-desc-lists .card{
+    box-shadow: 3px 6px 16px #0000004D;
+    border-style: none;
+    margin-top: 40px;
+}
+
+.collapse-content{
+    box-shadow: 3px 6px 16px #0000004D;
+    border-style: none;
+}
+
+.job-desc-lists button{
+    color: #000000;
+    font-size: 2rem;
+    padding: 25px 10px;
+    font-weight: 800;
+    border-style: none;
+}
+
+.job-desc-card .job-icon{
+    float: right;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #19AF8F;
+}
+
+.job-desc-lists .fa-arrow-down{
+   font-size: 1.5rem;
+   text-align: center;
+   color: white;
+}
+
+.job-desc-card-info{
+    padding: 15px;
+}
+
+.job-desc-card-info h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.careers-page-details span a{
+    color: #000000;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+.job-desc-card-info .job-info-footer span a{
+    color: #FD5D14;
+    font-size: 1.8rem;
+}
+
+.job-desc-card-info .experience-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-info span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+}
+
+.experience-info h3{
+    font-size: 1.5rem;
+}
+
+.job-desc-card-info h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+.job-desc-card-info p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.job-desc-card-info h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 20px;
+    color: black;
+}
+
+.job-desc-card-info .job-info-lists{
+    padding-inline-start: 20px;
+}
+
+.job-desc-card-info li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 10px;
+}
+
+/* CAREERS PAGE RESPONSIVE STYLES */
+/* ........................................................................................................................... */
+
+@media only screen and (min-width: 320px) and (max-width: 424px) {
+    .careers-page-details p{
+        font-size: 1.5rem;
+        margin-top: 15px;
+    }
+
+    .careers-page-details li{
+        font-size: 1.5rem;
+    }
+
+    .careers-details-lists .list-icon {
+        width: 30px;
+    }
+
+    .careers-our-culture-header h1{
+        font-size: 2rem;
+    }
+
+    .culture-img-left{
+        margin-top: 8px;
+    }
+
+    .job-desc-card button{
+        font-size: 1.2rem;
+    }
+    .job-desc-lists .job-icon{
+        margin-top: 10px;
+    }
+
+    .collapse-content h4{
+        font-size: 1.5rem;
+    }
+
+    .collapse-content h5{
+        font-size: 1.8rem;
+    }
+    .collapse-content p{
+        font-size: 1.2rem;
+    }
+
+    .collapse-content h1{
+        font-size: 1.8rem;
+    }
+
+    .collapse-content li{
+        font-size: 1.2rem;
+    }
+
+    .job-desc-card-info .job-info-footer span a {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .job-desc-lists .job-icon{
+        margin-top: 15px;
+    }
+    .job-desc-card button {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .culture-img-left{
+        margin-top: 8px;
+    }
+    .careers-details-lists .list-icon {
+        width: 40px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .culture-img-left{
+        margin-top: 8px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+
+    .our-culture-section .team-img{
+        margin-top: 6px;
+    }
+}
+
+
+
+
+
+
+/* SUB-SERVICE AIML PAGE STYLES */
+/*..............................................................................................................................*/
+
+.sub-service-intro{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background: #f4f4f4;
+    opacity: 1;
+}
+
+
+.subService-AIML-intro-caption{
+    top: 150px;
+    color: white;
+}
+
+.subService-AIML-intro-caption h2{
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+
+.subService-AIML-intro-caption p{
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+
+.subService-AIML-intro-btn .sub-service-view-details-btn{
+    width: 150px;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    background-color: #19AF8F;
+    color: white;
+    /* margin-top: 2rem; */
+}
+
+.subService-AIML-intro-btn .sub-service-view-details-btn:hover{
+  background-color: white;
+  color: black;
+  transition: .5s;
+}
+
+.subService-AIML-intro{
+   margin-top: 50px;
+}
+
+.sub-service-details-bg{
+    background-color: #f2f2f2;
+    padding: 10px 10px 20px 10px;
+    margin-top: 45px;
+}
+
+.sub-service-data-section{
+    margin-top: 20px;
+}
+
+.sub-service-right-image-row{
+    padding-top: 50px;
+}
+
+.sub-service-image{
+    width: auto;
+    height: auto;
+    background-color: gray;
+}
+
+.sub-service-details-bg-color{
+    margin-top: 45px;
+    background-color: #F2F2F2;
+    padding: 15px 0px;
+}
+
+.sub-service-details-bg-color .about-us-details {
+    margin-top: 0px;
+}
+
+.sub-service-data-section p{
+    font-size: 1.8rem;
+    padding: 5px 5px 5px 0px;
+}
+
+.sub-service-data-section h2{
+    font-size: 2.4rem;
+    font-weight: 800;
+    padding: 25px 5px 5px 0px;
+    margin-bottom: 0px;
+}
+
+.sub-service-data-section .dummy{
+    width: auto;
+    height: 40px;
+}
+
+.sub-service-data-section .about-icons{
+    width: 80px;
+    height: 80px;
+}
+
+.sub-service-img-right-desc{
+    padding-top: 70px;
+}
+
+.sub-service-img-left-desc{
+    padding-top: 70px;
+}
+
+.sub-service-img-right-desc .about-icons{
+    margin-left: 15px;
+    margin-right: 20px;
+    /* margin-top: 30px; */
+}
+
+.sub-service-img-left-desc .about-icons{
+    margin-left: 35px;
+    margin-right: 20px;
+}
+
+.sub-service-img-left h2{
+    padding: 25px 5px 5px 20px;
+}
+
+.sub-service-img-left p{
+    padding: 5px 5px 5px 20px;
+}
+
+.subService-AIML-intro-btn{
+    padding: 10px 0px;
+}
+
+/* .service-all-margin .about-us-img-right{
+    width: 664px;
+    height: 380px;
+} */
+
+
+/* .sub-service-data-section img{
+    width: 610px;
+    height: 374px;
+} */
+
+/* .sub-service-data-section .sub-service-all-margin{
+    margin: 0px 100px 0px 100px;
+} */
+
+.sub-service-data-section .service-all-margin{
+    margin: 0px 100px 0px 100px;
+}
+
+
+
+/* SUB SERVICE CAREER SECTION */
+
+.career-section{
+    transform: translate(0%,-40%);
+}
+
+.career{
+    margin-top: 200px;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 50px;
+    /* background-image:url("../src/assets/images/HomePage/amnet-career-section-bg.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.sub-service-career .career-caption{
+    background-color: #18AE8E;
+    color: white;
+    padding: 60px 30px;
+}
+
+.career-caption h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.sub-service-career .career-caption h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.career-section .career-btn{
+    width: 180px;
+    height: 45px;
+    margin-left: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: white;
+    background-color: #FD5D14;
+}
+
+.career-section .service-btn{
+    width: 180px;
+    height: 45px;
+    margin-left: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: black;
+    background-color: white;
+    box-shadow: 2px 2px 6px #0000004D;
+}
+
+.sub-service-career .career-details{
+    background-color: #FBFBFB;
+}
+
+.sub-service-career .career-details p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color:black;
+    padding: 30px 35px;
+}
+
+
+/* SUB SERVICE RESPONSIVE STYLE SECTION */
+/* ............................................................................................................................... */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .sub-service-data-section .dummy{
+        height: 20px;
+    }
+
+    .sub-service-data-section .service-all-margin{
+        margin: 0px 80px 0px 80px;
+    }
+
+    .subService-AIML-intro-caption {
+        top: 150px;
+    }
+
+    .subService-AIML-intro-caption h2 {
+        font-size: 3.8rem;
+    }
+
+    .subService-AIML-intro-caption p {
+        font-size: 1.5rem;
+    }
+
+    .sub-service-img-left-desc .about-icons{
+        margin-left: 0px;
+    }
+
+    .sub-service-img-right-desc .about-icons{
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .sub-service-data-section {
+        margin-top: 40px;
+    }
+
+    .sub-service-img-right-desc {
+        padding-top: 40px;
+    }
+
+    .sub-service-right-details{
+        order: 2;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    .sub-service-data-section .service-all-margin {
+        margin: 0px 20px 0px 20px;
+    }
+    .sub-service-data-section .dummy{
+        height: 10px;
+    }
+    .sub-service-data-section{
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    /* .sub-service-intro {
+        height: 80vh;
+    } */
+    .subService-AIML-intro-caption h2 {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    /* .subService-AIML-intro-caption {
+        top: 110px;
+    } */
+
+    .subService-AIML-intro-caption p {
+    font-size: 1.2rem;
+    font-weight: 200;
+    }
+
+    .sub-service-data-section p {
+        font-size: 1.5rem;
+    }
+
+    .sub-service-img-right-desc {
+        padding-top: 0px;
+    }
+    .sub-service-data-section h2 {
+        font-size: 2rem;
+    }
+    .sub-service-career .career-details p {
+        font-size: 1.5rem;
+        padding: 15px 15px;
+    }
+
+    .sub-service-career .career-caption {
+        padding: 25px 30px;
+    }
+
+    .sub-service-career .career-caption h2 {
+        font-size: 2.5rem;
+    }
+
+    .career-section .career-btn {
+        margin-left: 15px;
+    }
+
+    .career-section .service-btn {
+        margin-left: 15px;
+    }
+
+    .sub-service-img-left-desc .about-icons{
+        margin-left: 0px;
+    }
+
+    .sub-service-img-right-desc .about-icons{
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+
+    .sub-service-right-details{
+        order: 2;
+    }
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .sub-service-data-section .service-all-margin {
+        margin: 0px 20px 0px 20px;
+    }
+
+    .sub-service-data-section .dummy{
+        height: 10px;
+    }
+    /* .sub-service-intro {
+        height: 80vh;
+    } */
+    .subService-AIML-intro-caption {
+        top: 130px;
+    }
+    .sub-service-data-section{
+        text-align: left;
+        margin-top: 20px;
+    }
+    .sub-service-img-right-desc {
+        padding-top: 0px;
+    }
+    .subService-AIML-intro-caption h2 {
+        font-size: 2.5rem;
+    }
+    .subService-AIML-intro-caption p {
+        font-size: 1.5rem;
+    }
+    .sub-service-data-section h2 {
+        font-size: 2rem;
+    }
+    .sub-service-career .career-details p {
+        font-size: 1.5rem;
+        padding: 15px 15px;
+    }
+
+    .sub-service-career .career-caption {
+        padding: 40px 30px;
+    }
+
+    .sub-service-career .career-caption h2 {
+        font-size: 2.5rem;
+    }
+
+    .career-section .career-btn {
+        margin-left: 15px;
+    }
+
+    .career-section .service-btn {
+        margin-left: 15px;
+    }
+
+    .sub-service-img-left-desc .about-icons{
+        margin-left: 0px;
+    }
+
+    .sub-service-img-right-desc .about-icons{
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+
+    .sub-service-right-details{
+        order: 2;
+    }
+}
+
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .sub-service-data-section .service-all-margin{
+        margin: 0px 20px 0px 20px;
+    }
+
+    .sub-service-data-section .dummy{
+        height: 10px;
+    }
+
+    .subService-AIML-intro-caption {
+        top: 110px;
+        color: white;
+    }
+
+    .sub-service-data-section{
+        margin-top: 40px;
+    }
+
+    .sub-service-img-left h2{
+        padding: 25px 5px 5px 0px;
+    }
+
+    .sub-service-img-left p{
+        padding: 5px 5px 5px 0px;
+    }
+
+    .subService-AIML-intro-caption h2 {
+        font-size: 3.5rem;
+    }
+    .subService-AIML-intro-caption p {
+        font-size: 1.5rem;
+    }
+
+    .sub-service-img-left-desc .about-icons{
+        margin-left: 0px;
+    }
+
+    .sub-service-img-right-desc .about-icons{
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+
+    .sub-service-details-bg{
+        padding: 10px 10px 20px 0px;
+    }
+
+    .sub-service-img-right-desc{
+        padding-top: 0px;
+    }
+
+    .sub-service-img-left-desc{
+        padding-top: 50px;
+    }
+
+    .sub-service-career{
+        margin-top: 250px;
+    }
+    .sub-service-career .career-caption {
+        padding: 40px 30px;
+    }
+
+    .sub-service-career .career-details p{
+        padding: 30px 15px;
+    }
+
+    .career-section .career-btn{
+        margin-left: 15px;
+    }
+
+    .career-section .service-btn{
+        margin-left: 15px;
+    }
+
+    .sub-service-right-details{
+        order: 2;
+    }
+}
+
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+
+
+    .sub-service-intro{
+        height: 650px;
+    }
+
+    .sub-service-data-section .dummy{
+        height: 40px;
+    }
+
+    .sub-service-img-right-desc .about-icons {
+        margin-left: 0px;
+    }
+
+    .sub-service-img-right-desc {
+        padding-top: 30px;
+    }
+
+    .subService-AIML-intro-caption h2 {
+        font-size: 3.8rem;
+    }
+
+    .subService-AIML-intro-caption p {
+        font-size: 1.6rem;
+    }
+
+    .sub-service-data-section {
+        margin-top: 30px;
+    }
+    
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    .sub-service-right-details{
+        order: 2;
+    }
+}
+
+@media only screen and (min-width: 1210px) and (max-width: 1439px) {
+
+    .sub-service-data-section .about-us-img-left {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    .sub-service-data-section .about-us-img-right {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .sub-service-img-right-desc .about-icons {
+        margin-left: 10px;
+    }
+
+    .about-us-img-left {
+        width: 45%;
+        background-color: rgb(41, 36, 31);
+    }
+
+    .about-us-img-right {
+        width: 45%;
+        background-color: rgb(41, 36, 31);
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .sub-service-data-section .service-all-margin{
+        margin: 0px 140px 0px 140px;
+    }
+
+    .sub-service-data-section p {
+        font-size: 2.3rem;
+    }
+
+    .sub-service-data-section .about-icons {
+        width: 110px;
+        height: 110px;
+    }
+
+    .sub-service-img-right-desc .about-icons {
+        margin-left: 0px;
+    }
+}
+
+
+
+
+
+
+
+/* .dropdown:hover>.dropdown-menu {
+    display: block;
+} */
+
+
+
+
+
+
+
+
+
+/*..................................................................................*/
+.video-background {
+  margin-top: 100px;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -99;
+}
+
+
+
+
+
+
+/* NEW HOMEPAGE DESIGN SECTION */
+
+.new-all-margin{
+    margin: 0px 100px 0px 100px;
+}
+
+.new-subService-AIML-intro-caption {
+    top: 180px;
+    color: white;
+}
+
+.new-subService-AIML-intro-caption h2 {
+    font-size: 4.5rem;
+    font-weight: 800;
+    color: white;
+}
+
+.new-subService-AIML-intro-caption p {
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+
+.homepage-quote{
+    background-color: #19AF8F;
+    color: white;
+    padding: 2px 0px;
+}
+
+.homepage-quote h2{
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.homepage-news-text h2{
+    font-size: 1.8rem;
+}
+
+
+/* NEW HOMEPAGE ABOUT DETAILS SECTION */
+
+.new-home-about-details{
+    margin-top: 80px;
+}
+
+.new-home-about-details h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: black;
+}
+
+.new-home-about-details p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: black;
+}
+
+.new-solutions-services-lists {
+    margin-top: 35px;
+    padding-inline-start: 0px;
+}
+
+/* .new-solutions-services-lists .list-details{
+    font-size: 1.7rem;
+    color: black;
+    padding: 10px 5px;
+} */
+
+.new-solutions-services-lists li {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: black;
+    list-style: none;
+    display: flex;
+}
+
+.new-solutions-services-lists .ai-icon{
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+}
+
+
+/* NEW HOMEPAGE ABOUT US DETAILS SECTION */
+
+.new-about-details-heading .new-about-heading{
+    font-size: 5rem;
+    color: white;
+    font-weight: 800;
+    padding: 130px 0px;
+}
+
+
+.new-about-details-lists{
+    color: white;
+    list-style: none;
+}
+
+.new-about-details-list{
+ margin-top: 25px;
+ list-style: none;
+}
+
+.new-about-details-list h2{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.new-about-details-list .about-icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.new-about-details-list p{
+    color: white;
+    font-size: 1.5rem;
+    opacity: 1;
+    display: block;
+    margin-block-start: -1em;
+    margin-block-end: 0em;
+    margin-inline-start: 70px;
+    margin-inline-end: 0px;
+}
+
+.new-about-details-heading-row{
+    padding: 50px 0px;
+}
+
+
+
+/* NEW HOMEPAGE INDUSTRY SECTION */
+
+.industry-section-column{
+    padding-right: 5px !important;
+    padding-left: 0px !important;
+}
+
+.new-industry-header h5{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+
+
+/* NEW HOMEPAGE OUR SERVICE SECTION */
+
+.new-our-service-column{
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
+.new-our-service-card{
+    background-color: white;
+    margin-top: 40px;
+}
+
+/* .new-our-service-card .card-img-top{
+    padding: 15px 0px;
+} */
+
+.new-our-service-card img{
+    margin-top: 15px;
+    width: 120px;
+    height: 120px;
+}
+
+.new-our-service-card .card-body{
+    width: auto;
+    height: 280px;
+    padding: 0px 25px;
+    text-align: left;
+    border-bottom: 5px solid  #19AF8F;
+
+}
+
+.new-our-service-card .card-title{
+    color: black;
+    padding: 25px 0px 5px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.new-our-service-card .card-text{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.new-our-service-card a{
+    position: absolute;
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 15px 0px;
+    font-weight: 800;
+    top: 80%;
+    color: #19AF8F;
+}
+
+.new-our-service-card a:hover{
+    color:#FD5D14;
+}
+
+.our-services hr{
+    text-align: center;
+    width: 10%;
+    height: 3px;
+    margin-top: 1rem !important;
+    background-color:#19AF8F;
+}
+
+
+
+
+
+/* NEW HOMEPAGE CASESTUDIES SECTION */
+
+.case-studies hr{
+    text-align: center;
+    width: 10%;
+    height: 3px;
+    margin-top: 1rem !important;
+    background-color:#19AF8F;
+}
+
+.new-case-studies-row{
+    margin-top: 40px;
+}
+
+.new-case-studies-card{
+    padding-right: 5px !important;
+    padding-left: 0px !important;
+}
+
+.new-case-studies-card .card-body{
+    text-align: left;
+    height: 260px;
+}
+
+.new-case-studies-card .card-title{
+    color: black;
+    font-size: 1.8rem;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+.new-case-studies-card p{
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    opacity: 1;
+    font-weight: 400;
+}
+
+.new-case-studies-card a {
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 15px 0px;
+    font-weight: 800;
+    color: #19AF8F;
+    position: absolute;
+    top: 80%;
+}
+
+.new-case-studies-card a:hover{
+    color:#FD5D14;
+}
+
+.new-explore-link{
+    margin-top: 25px;
+}
+
+.new-explore-link a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #19AF8F;
+    text-decoration: underline;
+}
+
+.new-explore-link a:hover{
+    color:#FD5D14;
+}
+
+
+/* NEW HOMEPAGE OUR PARTNER SECTION */
+
+.new-our-partner{
+    position: relative;
+    background-color: white;
+    padding: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.our-partner {
+    position: relative;
+    margin-top: 20px;
+    background-color: white;
+    padding: 15px;
+}
+
+.carousel-our-partner{
+    display: none;
+}
+
+/* NEW HOMEPAGE CLIENT SAY SECTION */
+
+.client-say{
+    background-color: black;
+    padding: 60px 0px;
+}
+
+.client-say .section-title{
+    color: white;
+}
+
+.client-say .card{
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid  #19AF8F;
+}
+
+.client-say .card-body{
+    height: 365px;
+}
+
+.client-say .client-role{
+    font-weight: 800 !important;
+}
+
+.client-say .client-say-row {
+    padding: 30px 0px 0px 0px;
+}
+
+.client-say-card img{
+    width: 64px;
+    height: 64px;
+}
+
+.client-say-card .card-title{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 40px;
+}
+
+.client-say-card .card-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+
+
+/* NEW HOMEPAGE CAREER SECTION */
+
+.new-career-section .career-caption {
+    background-color: transparent;
+    color: white;
+    padding: 55px 0px;
+}
+
+.new-career-section button {
+    width: 180px;
+    height: 45px;
+    margin-left: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    box-shadow: 2px 2px 6px #0000004D;
+    font-weight: 800;
+}
+
+.new-career-section button:hover {
+    background-color: #CACACA;
+}
+
+.new-career-section .contact-us-button:hover{
+    background-color:white;
+    color: black;
+}
+
+.new-career-section .contact-us-button{
+    background-color: #FD5D14;
+    color: white;
+}
+
+/* .new-career-section h2{
+    font-family: 'Jost', sans-serif !important;
+} */
+
+
+
+
+
+
+/* NEW ABOUT US PAGE DESIGN SECTION */
+
+.new-aboutus-info-section{
+    background-color: rgb(228, 228, 228);
+    padding: 25px 0px;
+    border-bottom: 5px solid #19AF8F;
+}
+
+.new-aboutus-info-section p {
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    font-weight: 800;
+}
+
+.homepage-about-details hr{
+    text-align: center;
+    width: 10%;
+    height: 3px;
+    background-color:#19AF8F;
+    margin-top: 1rem !important;
+}
+
+
+/* CREDO SECTION */
+
+.credo-column{
+    padding-right: 5px !important;
+    padding-left: 0px !important;
+}
+
+.credo-info-column{
+    padding-right: 5px !important;
+    padding-left: 0px !important;
+}
+
+.credo-info-column p{
+    display: block;
+    margin-block-start: -.5em !important;
+    margin-block-end: -0em !important;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 60px;
+}
+
+.new-location-card img{
+    width: 120px;
+    padding:  20px 0px;
+}
+
+.new-our-location-column .card{
+    border-style: none;
+}
+
+.new-our-location-column .new-location-card{
+    width: auto;
+    height: 350px;
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid #19AF8F;
+}
+
+
+
+
+
+
+
+/* NEW SERVICE PAGE DESIGN SECTION */
+
+.btn-group-toggle {
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.btn-group-toggle .service-toggle-btn{
+    background-color:  #19AF8F;
+    color: white;
+}
+
+.btn-group-toggle .service-toggle-btn:hover{
+    background-color:   #19AF8F;
+    opacity: 1;
+    border-color: transparent;
+    color: white;
+}
+
+.btn-group-toggle .btn-secondary {
+    font-size: 1.5rem;
+    padding: 10px;
+    border-style: none;
+    width: 215px;
+    opacity: 30%;
+}
+
+.btn-group-toggle .scroll-service-btn{
+    padding: 5px 15px;
+}
+
+.btn-group-toggle input{
+    appearance: none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active{
+    color: #fff;
+    background-color:  #19AF8F !important;
+    border-style: none !important;
+    border-color: transparent !important;
+    opacity: 1;
+}
+
+.new-service-info{
+    margin-top: 40px;
+    box-shadow: 3px 10px 10px #cecece;
+    padding: 40px 0px;
+}
+.new-service-info button{
+    margin-top: 10px;
+}
+
+.new-service-image {
+    width: 120px;
+    /* height: 150px; */
+    /* margin-left: 30px; */
+    /* margin-top: 30px; */
+    transform: translate(40px, 45px);
+    padding: 10px 0px;
+}
+
+.new-service-info .service-icon-center{
+    transform: translate(40px, 80px);
+}
+
+.new-service-info h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.new-service-info p{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.new-service-contact-section{
+    background-color: black;
+    color: white;
+    padding: 30px 0px;
+}
+
+.new-service-contact-section h3{
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #19AF8F;
+}
+.new-service-contact-section p{
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+
+.new-service-contact-section button{
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 10px 20px;
+    background-color: #FD5D14;
+    color: white;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+
+
+
+
+/* NEW CASE STUDIES DESIGN SECTION */
+
+.subService-AIML-intro-btn .sub-service-contact-us-btn {
+    width: 150px;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left: 15px;
+    /* margin-top: 2rem; */
+}
+
+.subService-AIML-intro-btn .sub-service-contact-us-btn:hover {
+    background-color: #FD5D14;
+}
+
+.new-case-studies-list .card-body{
+    background-color: black;
+    color: white;
+    height: 650px;
+}
+
+.new-case-studies-list h2{
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 0px;
+}
+
+.new-case-studies-list p{
+    color: white;
+}
+
+.new-case-studies-list h4{
+    color:  #19AF8F;
+
+}
+
+
+
+
+/* NEW CAREERS PAGES DESIGN */
+
+.weValueInnovation {
+    background-color: black;
+    border-radius: 4px;
+    margin-top: 60px;
+}
+
+.weValueInnovation h1 {
+    color: white;
+    /* padding: 30px; */
+}
+
+.weValueInnovation p {
+    font-size: 2rem;
+    color: white;
+    padding: 30px;
+}
+
+.weValueInnovationCarousel{
+    padding: 50px 0px;    
+}
+
+.we-innovation-img{
+    padding: 60px 0px;
+}
+
+/* .weValueInnovationCarousel .carousel-inner{
+    border-left: 5px solid #19AF8F;
+} */
+
+.weValueInnovationCarousel .carousel-indicators{
+    top: 95%;
+}
+
+.career-job-icon{
+    width: 20px;
+}
+
+/* .career-job-icon{
+    float: right;
+} */
+
+.employeesSay .card{
+    border-style: none;
+}
+
+.employeesSay img{
+    height: 100%;
+}
+
+.employeesSay .employee-details h1{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.employeesSay .card-text{
+    font-size: 1.8rem;
+    padding: 85px 0px;
+}
+.employeesSay .card-title{
+    font-size: 3rem;
+    color: black;
+    font-weight: 800;
+}
+
+.employeesSay .carousel-inner{
+    border-left: none;
+}
+
+
+.employeesSay .carousel-indicators {
+    position: absolute;
+    top: 5%;
+    left: 0% !important;
+    right: 0;
+    bottom: 10px;
+    z-index: 15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: left;
+    margin-right: 15%;
+    margin-left: 0%;
+    list-style: none;
+}
+
+.employeesSay .carousel-indicators li {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    /* background-color:#19AF8F; */
+    box-shadow: 3px 6px 16px #00000029;
+    margin-top: 50px;
+}
+
+.employeesSay .carousel-indicators .active {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #6d6d6d;
+    margin-bottom: -20rem;
+    border-color: #19AF8F;
+    border-style: solid;
+}
+
+
+
+
+/* NEW CONTACT US PAGE DESIGN SECTION */
+
+.new-contact-us-page img{
+    width: 100%;
+    height: 540px;
+    box-shadow: 3px 6px 16px #0000004D;
+}
+
+.new-contact-us-page input{
+    box-shadow: 3px 6px 16px #00000029;
+    border-style: none;
+    font-size: 1.8rem;
+}
+
+.new-contact-us-page textarea{
+    box-shadow: 3px 6px 16px #00000029;
+    border-style: none;
+    font-size: 1.8rem;
+}
+
+
+
+
+
+
+
+
+
+/* NEW HOME RESPONSIVE DESIGN */
+
+@media only screen and (min-width: 320px) and (max-width: 424px) {
+
+    .new-all-margin{
+        margin: 0px 20px 0px 20px;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    .new-solutions-services-lists .ai-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .new-home-about-details h1 {
+        font-size: 2.5rem;
+        margin-top: 40px;
+    }
+
+    .new-home-about-details p {
+        font-size: 1.5rem;
+    }
+
+    .new-solutions-services-lists li {
+        font-size: 1.2rem;
+    }
+
+    .new-about-details-heading .new-about-heading {
+        font-size: 2rem;
+        padding: 10px 0px;
+    }
+
+    .new-about-details-lists {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+    }
+
+    .new-about-details-list .about-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .AISolutionInfo{
+        margin-left: 5px;
+    }
+
+    .new-about-details-list h2 {
+        font-size: 1.5rem;
+    }
+
+    .new-about-details-list p {
+        margin-inline-start: 40px;
+    }
+
+    /* FOR NEW INDSUSTRY SECTION */
+    .industry-section-column {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    /* FOR OUR PARTNER SECTION */
+
+    .our-partner {
+        display: none;
+    }
+    
+    .carousel-our-partner{
+        display: block;
+    }
+
+    /* FOR OUR SERVICE SECTION */
+
+    .our-services {
+        padding: 30px 0px;
+    }
+
+    .new-our-service-column {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .our-services hr {
+        margin-top: 1rem !important;
+        width: 40%;
+    }
+
+    .new-our-service-card .card-body {
+        padding: 0px 10px;
+        height: 250px;
+    }
+
+    .new-our-service-card a {
+        top: 85%;
+    }
+
+    .new-our-service-card .card-title {
+        font-size: 1.8rem;
+    }
+
+    .new-our-service-card .card-text {
+        font-size: 1.2rem;
+    }
+
+
+    .case-studies hr {
+        width: 40%;
+        margin-top: 1rem !important;
+    }
+
+    .new-case-studies-card {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .new-case-studies-card{
+        margin-top: 15px;
+    }
+
+    .client-say .card {
+        margin-top: 15px;
+    }
+
+    .client-say .card-body{
+        height: 460px;
+    }
+
+    .footer .fa {
+        margin: 25px 5px 2px 0px;
+    }
+
+
+    /* FOR NEW CASE STUDIES PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .case-studies-list {
+        margin-top: 40px;
+    }
+
+    .new-subService-AIML-intro-caption h2 {
+        font-size: 2.5rem;
+    }
+
+    .new-subService-AIML-intro-caption p {
+        font-size: 1.5rem;
+    }
+
+    .new-subService-AIML-intro-caption {
+        top: 130px;
+    }
+
+    .subService-AIML-intro-btn .sub-service-contact-us-btn {
+        margin-left: 5px;
+        margin-top: 0px;
+    }
+
+    .new-career-section button {
+        margin-left: 15px;
+    }
+
+    .new-case-studies-list .card-body {
+        padding: 15px;
+    }
+
+    .new-case-studies-list .card-title{
+        font-size: 1.5rem;
+    }
+
+    .new-case-studies-list .card-body {
+        height: auto;
+    }
+
+    .new-career-section .career-caption {
+        padding: 20px;
+    }
+
+    .career-details p {
+        padding: 10px;
+    }
+
+
+
+    /* FOR NEW ABOUT US PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .about-us-desc h2 {
+        font-size: 2.5rem;
+    }
+
+    .about-us-desc p {
+        font-size: 1.5rem;
+    }
+
+    /* CREDO SECTION */
+    .homepage-about-details hr {
+        width: 20%;
+        margin-top: 1rem !important;
+    }
+
+    .credo-info-column p {
+        margin-left: 40px;
+    }
+
+    .credo-column {
+        padding-bottom: 20px;
+    }
+
+
+    /* FOR NEW SERVICE PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-service-image {
+        width: 110px;
+        transform: translate(0px, 0px);
+        padding: 20px 0px;
+    }
+
+    .new-service-info .service-icon-center {
+        width: 110px;
+        transform: translate(0px, 0px);
+        padding: 20px 0px;
+    }
+
+    .new-service-info {
+        margin-top: 0px;
+        padding: 25px 0px;
+    }
+
+    .new-service-contact-section h3 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: #19AF8F;
+    }
+    
+
+    .new-service-info p {
+        font-size: 1.2rem;
+    }
+
+    .new-service-info h2 {
+        font-size: 1.8rem;
+    }
+
+
+    /* FOR NEW CAREER PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .our-culture-section {
+        padding: 0px;
+    }
+
+    .our-culture-section .amnet-images{
+        margin-top: 10px;
+    }
+
+    .job-desc-card-info .experience-info{
+        display: block;
+        justify-content: space-between;
+    }
+    
+    .experience-info span{
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: black;
+    }
+
+    .experience-info h3{
+        font-size: 1.2rem;
+    }
+
+    .careers-page-details-list-row .career-page-details-column{
+        margin-bottom: -25px;
+    }
+
+    .weValueInnovation .carousel-indicators {
+        top: 90%;
+    }
+
+    .weValueInnovation p {
+        font-size: 1.5rem;
+        padding: 0px 15px;
+    }
+
+    .weValueInnovationCarousel {
+        padding: 65px 0px;
+        margin-top: 30px;
+    }
+
+    .employeesSay .carousel-indicators {
+        top: 3%;
+    }
+
+    .employeesSay .card-title {
+        font-size: 2.5rem;
+    }
+
+    .employeesSay .card-text {
+        font-size: 1.5rem;
+        padding: 50px 0px;
+    }
+
+
+
+    /* FOR NEW CONTACT US RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-contact-us-page img {
+        display: none;
+    }
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    .subService-AIML-intro-btn .sub-service-contact-us-btn {
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .client-say .card-body{
+        height: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* FOR LARGER MOBILE SCREEN AND SMALL TABLET */
+/* ................................................................................................................................. */
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+
+    .new-all-margin{
+        margin: 0px 20px 0px 20px;
+    }
+
+    /* FOR NEW HOMEPAGE ABOUT DETAILS RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-solutions-services-lists .ai-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .new-about-details-lists {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+    }
+
+    .new-about-details-list .about-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .new-about-details-list p {
+        margin-block-start: -0.5em;
+        margin-inline-start: 40px;
+    }
+
+    /* FOR NEW INDUSTRY SECTION RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .industry-section-column {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+
+    /* FOR OUR PARTNER SECTION RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .our-partner {
+        display: none;
+    }
+    
+    .carousel-our-partner{
+        display: block;
+    }
+
+    /* FOR NEW OUR SERVICE SECTION RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-our-service-column {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .our-services {
+        padding: 30px 0px;
+    }
+
+    .our-services hr {
+        width: 40%;
+        margin-top: 1rem !important;
+    }
+
+    .new-our-service-card a {
+        top: 85%;
+    }
+
+
+
+    /* FOR NEW CASE STUDIES PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+    
+    /* .case-studies-list {
+        margin-top: 40px;
+    } */
+
+    .case-studies hr {
+        width: 40%;
+        margin-top: 1rem !important;
+    }
+
+    .new-case-studies-card {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .new-subService-AIML-intro-caption h2 {
+        font-size: 3rem;
+    }
+
+    .new-home-about-details h1 {
+        font-size: 3rem;
+        padding: 10px 0px;
+    }
+
+    .new-about-details-heading .new-about-heading {
+        font-size: 3rem;
+        padding: 0px 0px;
+    }
+
+    .new-subService-AIML-intro-caption p {
+        font-size: 1.8rem;
+    }
+
+    .new-subService-AIML-intro-caption {
+        top: 130px;
+    }
+
+    .subService-AIML-intro-btn .sub-service-contact-us-btn {
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+
+    .new-career-section button {
+        margin-left: 15px;
+    }
+
+    .new-case-studies-card {
+        margin-top: 15px;
+    }
+
+    .client-say .card {
+        margin-top: 15px;
+    }
+
+    .new-case-studies-list .card-body {
+        padding: 15px;
+    }
+
+    .new-case-studies-list .card-title{
+        font-size: 1.5rem;
+    }
+
+    .new-case-studies-list .card-body {
+        height: auto;
+    }
+
+    .new-career-section .career-caption {
+        padding: 20px;
+    }
+
+    .career-details p {
+        padding: 10px;
+    }
+
+    /* FOR NEW ABOUT US PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+
+     /* CREDO SECTION */
+     .homepage-about-details hr {
+        width: 20%;
+        margin-top: 1rem !important;
+    }
+
+    .homepage-about-details h3 {
+        font-size: 2rem;
+    }
+
+    .about-details-header img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .new-aboutus-info-section p {
+        font-size: 2rem;
+    }
+
+    .credo-info-column p {
+        font-size: 1.5rem;
+        margin-left: 60px;
+    }
+
+    .credo-column {
+        padding-bottom: 20px;
+    }
+
+
+
+    /* FOR NEW SERVICE PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-service-image {
+        width: 120px;
+        transform: translate(0px, 0px);
+        padding: 20px 0px;
+    }
+
+    .new-service-info .service-icon-center{
+        width: 120px;
+        transform: translate(0px, 0px);
+        padding: 20px 0px;
+    }
+
+    .new-service-info {
+        margin-top: 0px;
+        padding: 25px 0px;
+    }
+
+
+    /* FOR NEW CAREER PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .our-culture-section {
+        padding: 0px;
+    }
+
+    .our-culture-section .amnet-images{
+        margin-top: 10px;
+    }
+
+    .job-desc-card-info .experience-info{
+        display: block;
+        justify-content: space-between;
+    }
+    
+    .experience-info span{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: black;
+    }
+
+    .experience-info h3{
+        font-size: 1.5rem;
+    }
+
+    .careers-page-details-list-row .career-page-details-column{
+        margin-bottom: -25px;
+    }
+
+    .career-job-icon{
+        width: 15px;
+    }
+
+    .weValueInnovation .carousel-indicators {
+        top: 90%;
+    }
+
+    .weValueInnovation p {
+        font-size: 1.8rem;
+        padding: 0px 30px;
+    }
+
+    .weValueInnovationCarousel {
+        padding: 65px 0px;
+        margin-top: 30px;
+    }
+
+    .employeesSay .carousel-indicators {
+        top: 3%;
+    }
+
+    .employeesSay .card-title {
+        font-size: 2.5rem;
+    }
+
+    .employeesSay .card-text {
+        font-size: 1.8rem;
+        padding: 50px 0px;
+    }
+    
+    
+    /* FOR NEW CONTACT US RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-contact-us-page img {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+/* FOR TABLET SCREEN AND SMALL LAPTOP SCREEN */
+/* ................................................................................................................................. */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* FOR NEW CASE STUDIES RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-all-margin{
+        margin: 0px 40px 0px 40px;
+    }
+
+    .new-case-studies-list .card-body {
+        padding: 15px;
+    }
+
+    .new-case-studies-list .card-title{
+        font-size: 2.5rem;
+    }
+
+    .new-case-studies-list .card-body {
+        height: auto;
+    }
+
+    .new-case-studies-list p{
+        font-size: 1.5rem;
+    }
+
+
+    /* FOR AI SOLUTIONS RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-home-about-details h1 {
+        font-size: 3rem;
+        padding: 10px 0px;
+    }
+
+    /* FOR ABOUT SOLUTIONS RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-about-details-lists {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+    }
+
+    .new-about-details-heading .new-about-heading {
+        font-size: 3.5rem;
+        padding: 0px 0px;
+    }
+
+    
+
+    /* FOR OUR SERVICE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+    
+    .our-services hr {
+        width: 20%;
+        margin-top: 1rem !important;
+    }
+
+    .our-services {
+        padding: 30px 0px;
+    }
+
+    .new-our-service-column {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .new-our-service-card a {
+        top: 85%;
+    }
+
+    /* FOR TESTIMONIAL SECTION */
+
+    .client-say .card-body{
+        height: 410px;
+    }
+
+    .client-say .client-say-card-center{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+
+    /* FOR CASE STUDIES RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .case-studies hr {
+        width: 20%;
+        margin-top: 1rem !important;
+    }
+
+    .new-case-studies-card {
+    padding-right: 5px !important;
+    padding-left: 0px !important;
+    margin-top: 10px;
+}
+
+
+
+    /* FOR NEW ABOUT US PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+
+     /* CREDO SECTION */
+     .homepage-about-details hr {
+        width: 20%;
+        margin-top: 1rem !important;
+    }
+
+    .homepage-about-details h3 {
+        font-size: 2.5rem;
+        margin-top: 10px;
+    }
+
+    .about-details-header img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .new-aboutus-info-section p {
+        font-size: 2rem;
+    }
+
+    .credo-info-column p {
+        font-size: 1.8rem;
+        margin-left: 60px;
+    }
+
+    .credo-column {
+        padding-bottom: 20px;
+    }
+
+    /* OUR LOCATION SECTION */
+    .location-details h2 {
+        font-size: 2.5rem;
+    }
+    .location-details p {
+        font-size: 2rem;
+    }
+
+
+    /* FOR NEW SERVICE PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-service-image {
+        width: 150px;
+        transform: translate(0px, 0px);
+        padding: 20px 0px;
+    }
+
+    .new-service-info .service-icon-center{
+        width: 150px;
+        transform: translate(0px, 0px);
+        padding: 20px 0px;
+    }
+
+    .new-service-info {
+        margin-top: 0px;
+        padding: 25px 0px;
+    }
+
+    /* FOR NEW CAREER PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .our-culture-section .amnet-images{
+        margin-top: 10px;
+    }
+
+
+    /* FOR NEW CONTACT US RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-contact-us-page img {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* FOR MEDIUM LAPTOP SCREEN */
+/* ................................................................................................................................. */
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+
+
+    /* FOR NEW HOME PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+    .new-home-about-details h1 {
+        font-size: 4rem;
+        padding: 15px 0px;
+    }
+
+
+    /* FOR NEW INDUSTRY SECTION RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .client-say .card-body{
+        height: 460px;
+    }
+
+    /* FOR OUR SERVICE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+    
+    .our-services {
+        padding: 30px 0px;
+    }
+
+    .new-our-service-card a {
+        top: 85%;
+    }
+
+    .our-services hr {
+        width: 15%;
+        margin-top: 1rem !important;
+    }
+    
+    .new-our-service-card .card-body {
+        height: 310px;
+    }
+
+    .new-our-service-column {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+
+    /* FOR NEW CASE STUDIES SECTION RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+    
+    .case-studies hr {
+        width: 15%;
+        margin-top: 1rem !important;
+    }
+
+    .new-case-studies-card{
+        padding-right: 5px !important;
+        padding-left: 0px !important;
+    }
+
+    .new-case-studies-card .card-body {
+        height: 320px;
+    }
+
+
+
+
+
+
+    /* FOR NEW CASE STUDIES PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-all-margin{
+        margin: 0px 60px 0px 60px;
+    }
+
+    .new-case-studies-list .card-body {
+        padding: 15px;
+    }
+
+    .new-case-studies-list .card-title{
+        font-size: 2.5rem;
+    }
+
+    .new-case-studies-list .card-body {
+        height: 720px;
+    }
+
+    .new-case-studies-list p{
+        font-size: 1.5rem;
+    }
+
+
+
+
+    /* FOR NEW ABOUT US PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+
+     /* CREDO SECTION */
+     .homepage-about-details hr {
+        width: 5%;
+        margin-top: 1rem !important;
+    }
+
+    .homepage-about-details h3 {
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+
+    .about-details-header img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .new-aboutus-info-section p {
+        font-size: 2rem;
+    }
+
+    .credo-info-column p {
+        font-size: 1.8rem;
+        margin-left: 60px;
+    }
+
+    .credo-column {
+        padding-bottom: 21px;
+    }
+
+
+
+    /* FOR NEW SERVICE PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+    .new-service-image {
+        width: 130px;
+        transform: translate(10px, 60px);
+        padding: 20px 0px;
+    }
+
+    .new-service-info .service-icon-center{
+        width: 130px;
+        transform: translate(10px, 100px);
+        padding: 20px 0px;
+    }
+
+    .new-service-info {
+        margin-top: 0px;
+        padding: 25px 0px;
+    }
+
+
+    /* FOR NEW CONTACT US PAGE RESPONSIVE SECTION */
+    /* ............................................................................................................................... */
+
+
+    .new-contact-us-page img {
+        width: 100%;
+        height: 515px;
+        box-shadow: 3px 6px 16px #0000004D;
+    }
+}
+
+/* .new-service-info img{
+    vertical-align: middle;
+} */
+
+
+/* ANIMATION TEST */
+
+
+
+
+
+
+
+
+.new-our-service-card:hover img{
+    animation: zoomOut .8s;
+}
+
+.animation-card:hover img {
+    transform: scale(1.05);
+    transform-origin: 50% 50%;
+}
+
+.animation-card {
+    display: inline-block;
+    overflow: hidden;            
+  }
+  .animation-card img {
+    display: block;
+    transition: transform .4s;   
+  }
+
+
+  @keyframes zoomOut {
+    50% {
+        transform: scale(0, 0);
+        opacity: .8;
+    }
+    100% {
+        transform:scale(1, 1);
+        opacity: 1;
+    }
+}
+
+
+@keyframes zoomIn {
+    0% {
+        opacity: .6
+    }
+    25%,
+    75% {
+        transform: scale(1.8);
+        opacity: 0
+    }
+    50% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes verticalFlip {
+    50% {
+        transform: rotateX(90deg);
+    }
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+
+@keyframes bounceOutBottom {
+    20%, 100% {
+        transform: translate3d(0, 0, 0);
+    }
+    40%,
+    45%,
+    80%,
+    90% {
+        opacity: 1;
+        transform: translate3d(0, -5px, 0);
+    }
+    50% {
+        opacity: 0;
+        transform: translate3d(0, 10px, 0);
+    }
+}
+
+@keyframes elastic {
+    0%, 100% {
+        transform: scale3d(1, 1, 1);
+    }
+    30%,
+    60% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
+    40%,
+    80% {
+        transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+        transform: scale3d(1.15, 0.85, 1);
+    }
+}
+
+@keyframes vibration {
+    50% {
+        transform: scale3d(.3, .3, .3) rotate3d(0, 0, 1, -20deg);
+        transform-origin: center;
+    }
+    70%,
+    90% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 20deg);
+        transform-origin: center;
+    }
+    60%,
+    80% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -20deg);
+        transform-origin: center;
+    }
+    100% {
+        transform: scale3d(1, 1, 1);
+        transform-origin: center;
+    }
+}
+
+
+/* @keyframes bottomTop {
+    0% {
+        margin-top: 30px;
+        opacity: 0;
+    }
+    50% {
+        margin-top: 10px;
+        opacity: .8;
+    }
+    100% {
+        margin-top: 15px;
+        opacity: 1;
+    }
+}
+
+.card-img-top:hover img {
+    animation: bottomTop .8s;
+} */
+
+/* .job-desc-card:hover .job-icon{
+    transform: rotateZ(-180deg);
+    transition: 1s;
+} */
+
+
+/* .textAnimation{
+    position: relative;
+}
+
+.textAnimation::before{
+   content: attr(data-text);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   color:white;
+   overflow: hidden;
+   animation: animate 6s linear infinite;
+   white-space: nowrap;
+} */
+
+@keyframes animate{
+    0%{
+        width: 0%;
+    }
+    70%{
+        width: 100%;
+    }
+}

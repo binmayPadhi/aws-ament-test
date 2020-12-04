@@ -10,7 +10,7 @@ function TestService( ) {
             <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${ServiceBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
                          <div className="row service-new-all-margin">
                         <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
-                            <h2>
+                            <h2 className="textAnimation" data-text="Automate & Modernize!">
                             Automate & Modernize!
                             </h2>
                             <p>
@@ -197,7 +197,7 @@ function TestService( ) {
                                 <div className="new-all-margin">
                                     <div className="col-12 new-service-info" key={service.id} id={service.id}>
                                     <div className="row">
-                                        <div className="col-xl-2 col-lg-2 col-md-12 col-sm-12">
+                                        <div className="col-xl-2 col-lg-2 col-md-12 col-sm-12 new-service-img">
                                             <img loading="lazy" className={`img-fluid new-service-image ${service.className}`} src={service.serviceIMG} alt="icon" />
                                         </div>
                                         <div className="col-xl-10 col-lg-10 col-md-12 col-sm-12">
