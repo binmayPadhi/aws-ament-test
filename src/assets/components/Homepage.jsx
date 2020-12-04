@@ -78,7 +78,7 @@ function Test (){
 
             {/* NEW HOMEPAGE OUR PARTNER SECTION */}
             <div className="new-our-partner">
-                <h1 data-aos="fade-up" data-aos-offset="600" className="section-title mt-3 text-center">RECOGNITIONS & PARTNERSHIPS</h1> 
+                <h1 className="section-title mt-3 text-center">RECOGNITIONS & PARTNERSHIPS</h1> 
                 <OurPartner />
             </div>
 
