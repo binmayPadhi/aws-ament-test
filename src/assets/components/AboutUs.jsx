@@ -18,7 +18,7 @@ function TestAboutUs( ) {
               <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${AboutUsBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
                          <div className="row service-new-all-margin">
                         <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
-                            <h2>
+                            <h2 className="textAnimation" data-text="Your Innovation Catalyst">
                             Your Innovation Catalyst
                             </h2>
                             <p>
@@ -88,7 +88,7 @@ function TestAboutUs( ) {
             {/* NEW ABOUT US CREDO SECTION */}
 
             <div className="homepage-about-details" style={{backgroundColor: "#0C0C0C",backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-            <h1 className="section-title text-center" style={{paddingTop:"30px", color:"white"}}>CREDO</h1>
+            <h1 data-aos="fade-up" data-aos-offset="400" className="section-title text-center" style={{paddingTop:"30px", color:"white"}}>CREDO</h1>
                 <hr></hr>
                 <div className="row new-all-margin ml-0 mr-0">
                 {/* <div className="col-10 credo-column mx-auto">
@@ -162,7 +162,7 @@ function TestAboutUs( ) {
 
           {/* NEW HOMEPAGE OUR PARTNER SECTION */}
             <div className="new-our-partner">
-                <h1 className="section-title mt-3 text-center">RECOGNITIONS & PARTNERSHIPS</h1> 
+                <h1 data-aos="fade-up" data-aos-offset="400" className="section-title mt-3 text-center">RECOGNITIONS & PARTNERSHIPS</h1> 
                 <OurPartner />
             </div>
 

@@ -18,7 +18,7 @@ function OurLocation(){
              <div className="about-us-page-location contact-us-location" style={{backgroundColor:"#F2F2F2",backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
                 <div className="new-all-margin">
                     <div className="about-us-page-header text-center mt-5 p-5">
-                        <h1 className="section-title mt-3">WE OPERATE IN</h1>
+                        <h1 data-aos="fade-up" data-aos-offset="400" className="section-title mt-3">WE OPERATE IN</h1>
                     </div>
                     <div className="row about-us-page-location-row  ml-0 mr-0">
 

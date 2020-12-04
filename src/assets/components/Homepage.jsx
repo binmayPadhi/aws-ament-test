@@ -20,7 +20,7 @@ function Test (){
             <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${HomeBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
                          <div className="row service-new-all-margin">
                         <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
-                            <h2>
+                            <h2 className="textAnimation" data-text="Reimagine & Redefine">
                             Reimagine & Redefine
                             </h2>
                             <p>
@@ -78,7 +78,7 @@ function Test (){
 
             {/* NEW HOMEPAGE OUR PARTNER SECTION */}
             <div className="new-our-partner">
-                <h1 data-aos="fade-right" className="section-title mt-3 text-center">RECOGNITIONS & PARTNERSHIPS</h1> 
+                <h1 data-aos="fade-up" data-aos-offset="600" className="section-title mt-3 text-center">RECOGNITIONS & PARTNERSHIPS</h1> 
                 <OurPartner />
             </div>
 

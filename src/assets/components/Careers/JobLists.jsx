@@ -7,7 +7,7 @@ function JobLists(){
             {/* <!-- JOB DESCRIPTIONS --> */}
 
             <div className="job-desc-header text-center">
-                <h1 className="section-title mt-3">CURRENT OPENINGS</h1>     
+                <h1 data-aos="fade-up" data-aos-offset="1200" className="section-title mt-3">CURRENT OPENINGS</h1>     
             </div>
 
             <div className="job-desc-lists new-all-margin">

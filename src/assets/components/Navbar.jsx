@@ -11,6 +11,7 @@ import CloudDropdownIcon from "../images/Service-Page/service-dropdown-icons/ser
 import QADropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-qa.png";
 import ConsultingDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-strat-consult.png";
 import DataAnnotationDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-data-annotation.png";
+import "../CSS/Navbar.css";
 
 function Navbar(){
   const navStyle = {
@@ -116,7 +117,7 @@ function hideDropdown() {
                           <div className="navFlex">
                           <img src={AimlDropdownIcon} className="img-fluid navIcon" alt="icon" />
 
-                          <div className="col-12 service-dropdown-link">
+                          <div className="col-10 service-dropdown-link">
                           <NavLink to={`/${`aiml`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>AI / ML</NavLink>
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`aiml`}#statistical-analysis`}>Statistical Analysis</a></p>
                           <p className="sub-service-links"><a  href={`/${`aiml`}#visualizations`}>Visualizations</a></p>
@@ -129,7 +130,7 @@ function hideDropdown() {
                           <div className="navFlex">
                           <img src={DataManagementDropdownIcon} className="img-fluid navIcon" alt="icon" />
 
-                          <div className="col-12 service-dropdown-link">
+                          <div className="col-10 service-dropdown-link">
                           <NavLink to={`/${`data-management`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Data management</NavLink>
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`data-management`}#data-architecture-management`}>Data Architecture</a></p>
                           <p className="sub-service-links"><a href={`/${`data-management`}#data-development`}>Data Development</a></p>
@@ -141,7 +142,7 @@ function hideDropdown() {
                           <div className="navFlex">
                           <img src={AdvancedAnalyticsDropdownIcon} className="img-fluid navIcon" alt="icon" />
 
-                          <div className="col-12 service-dropdown-link">
+                          <div className="col-10 service-dropdown-link">
                           <NavLink  to={`/${`advanced-analytics`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Advanced Analytics</NavLink>
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`advanced-analytics`}#complex-event-processing`}>Complex Event Processing</a></p>
                           <p className="sub-service-links"><a href={`/${`advanced-analytics`}#deep-learning`}>Deep Learning</a></p>
@@ -156,7 +157,7 @@ function hideDropdown() {
                           <div className="navFlex">
                           <img src={DataEngineeringDropdownIcon} className="img-fluid navIcon" alt="icon" />
 
-                          <div className="col-12 service-dropdown-link">
+                          <div className="col-10 service-dropdown-link">
                           <NavLink to={`/${`data-engineering`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Data Engineering</NavLink>
                           <p className="sub-service-links"style={{marginTop:"5px"}}><a href={`/${`data-engineering`}#data-pipelines`}>Data Pipelines</a></p>
                           <p className="sub-service-links"><a href={`/${`data-engineering`}#data-transformations`}>Data Transformations</a></p>
@@ -167,7 +168,7 @@ function hideDropdown() {
                           <div className="navFlex">
                           <img src={PlatformEngineeringDropdownIcon} className="img-fluid navIcon" alt="icon" />
 
-                          <div className="col-12 service-dropdown-link">
+                          <div className="col-10 service-dropdown-link">
                           <NavLink to={`/${`platform-engineering`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Platform Engineering</NavLink>
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`platform-engineering`}#application-engineering`}>Application Engineering</a></p>
                           <p className="sub-service-links"><a href={`/${`platform-engineering`}#infrastructure`}>Infrastructure</a></p>
@@ -178,7 +179,7 @@ function hideDropdown() {
                           <div className="navFlex">
                           <img src={UXDropdownIcon} className="img-fluid navIcon" alt="icon" />
 
-                          <div className="col-12 service-dropdown-link">
+                          <div className="col-10 service-dropdown-link">
                           <NavLink to={`/${`user-experience`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>User Experience</NavLink>
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`user-experience`}#design-thinking`}>Design Thinking</a></p>
                           <p className="sub-service-links"><a href={`/${`user-experience`}#user-research`}>User Research</a></p>
@@ -194,7 +195,7 @@ function hideDropdown() {
                           <div className="navFlex">
                           <img src={CloudDropdownIcon} className="img-fluid navIcon" alt="icon" />
 
-                          <div className="col-12 service-dropdown-link">
+                          <div className="col-10 service-dropdown-link">
                           <NavLink  to={`/${`cloud`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Cloud Services</NavLink>
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`cloud`}#cloud-advisory-services`}>Cloud Advisory Services</a></p>
                           <p className="sub-service-links"><a href={`/${`cloud`}#cloud-migration-services`}>Cloud Migration Services</a></p>
@@ -205,7 +206,7 @@ function hideDropdown() {
                           <div className="navFlex">
                           <img src={QADropdownIcon} className="img-fluid navIcon" alt="icon" />
 
-                          <div className="col-12 service-dropdown-link">
+                          <div className="col-10 service-dropdown-link">
                           <NavLink to={`/${`quality-assurance`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Quality Assurance</NavLink>
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`quality-assurance`}#functional-testing`}>Functional Testing</a></p>
                           <p className="sub-service-links"><a href={`/${`quality-assurance`}#compatibility-testing`}>Compatibility Testing</a></p>
@@ -216,7 +217,7 @@ function hideDropdown() {
                           <div className="navFlex">
                           <img src={ConsultingDropdownIcon} className="img-fluid navIcon" alt="icon" />
 
-                          <div className="col-12 service-dropdown-link">
+                          <div className="col-10 service-dropdown-link">
                           <NavLink to={`/${`consulting`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Strategy & Consulting</NavLink>
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`consulting`}#data-strategy`}>Data Strategy</a></p>
                           <p className="sub-service-links"><a href={`/${`consulting`}#ai-strategy`}>AI Strategy</a></p>
@@ -232,7 +233,7 @@ function hideDropdown() {
                           <div className="navFlex">
                           <img src={DataAnnotationDropdownIcon} className="img-fluid navIcon" alt="icon" />
 
-                          <div className="col-12 service-dropdown-link">
+                          <div className="col-10 service-dropdown-link">
                           <NavLink to={`/${`data-annotation`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Data Annotation</NavLink>
                           <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`data-annotation`}#image-annotation`}>Image Annotation</a></p>
                           <p className="sub-service-links"><a href={`/${`data-annotation`}#video-annotation`}>Video Annotation</a></p>

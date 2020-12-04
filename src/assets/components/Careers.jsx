@@ -14,7 +14,7 @@ function TestCareers( ) {
             <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${CareerBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
                          <div className="row service-new-all-margin">
                         <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
-                            <h2>
+                            <h2 className="textAnimation" data-text="Create Your Future!">
                             Create Your Future!
                             </h2>
                             <p>
