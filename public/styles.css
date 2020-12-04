@@ -46,126 +46,6 @@ body{
 
 
 
-/* NAVIGATION BAR */
-/* ............................................................................................................................ */
-.navigation-bar{
-    position: fixed;
-    background-color: #0C0C0C;
-    width: 100%;
-    height: 85px;
-    vertical-align: middle;
-    z-index: 99;
-}
-
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-.navbar {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    padding: .5rem 0rem !important;
-}
-
-.navbar-nav .active a{
-    color: #9de0d2;
-}
-
-.navbar-brand {
-    display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .8225rem !important;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
-    margin-left: 100px;
-}
-
-.navbar-nav{
-    margin-right: 100px;
-    margin-left: auto;
-}
-
-.navbar-brand .logo{
-    width: 244px;
-    height: 54px;
-}
-
-.navbar-nav .menu{
-    padding: 0px 20px;
-}
-
-.navbar__link--active {
-    color: red;
-  }
-
-.custom-toggler{
-    background-color: black;
-}
-
-.custom-toggler .navbar-toggler-icon {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    margin-top: 5px;
-}
-
-.custom-toggler.navbar-toggler {
-    border-color: none;
-}
-
-.navbar-nav .contactus-button{
- text-decoration : "none";
- color: white;
- font-size: 1.5rem;
- font-weight: 800;
- padding: 10px 10px;
- margin-top: 15px;
- background-color: #FD5D14;
- transition: .5s;
- border-radius: 4px;
- text-align: center;
- height: 45px;
- width: 120px;
- margin-left: 10px;
-}
-
-.navbar-nav .contactus-button:hover{
-    background-color: white;
-    color: black;
-    text-decoration: none;
-}
-
-/* FOR STICKY NAVBAR */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  /* to prevent sudden quick movement */
-  /* .sticky + .content {
-    padding-top: 30px;
-  } */
-
-
-
-
 /* HOMEPAGE INTRO */
 /* ............................................................................................................................... */
 
@@ -300,10 +180,11 @@ body{
 
 .solutions-services-details p{
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: 0px;
-    color: #4D4D4F;
+    color: black;
+    margin-top: 10px;
 }
 
 .solutions-services-lists{
@@ -357,7 +238,7 @@ body{
 
 .about-details-header {
     font-family: 'Poppins', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 800;
     color: #ffffff;
 }
@@ -374,7 +255,7 @@ body{
 .homepage-quote p{
     text-align: center;
     font-size: 1.8rem;
-    padding: 10px 0px;
+    padding-bottom: 5px;
 }
 
 
@@ -656,8 +537,15 @@ body{
 
 .footer p{
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 400;
+}
+
+.amnet-email p{
+    font-size: 1.5rem;
+}
+.amnet-copyright p{
+    font-size: 1.5rem;
 }
 
 .useful-links li a{
@@ -740,29 +628,6 @@ hr{
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
 
-    nav.navbar{
-        max-height: 100vh;
-        overflow: auto;
-       /* -webkit-overflow-scrolling: touch; */
-    }
-
-    .navbar-nav {
-        margin-right: 0px;
-    }
-    .navbar-brand{
-        margin-left: 21px;
-    }
-    .navbar-toggler{
-        margin-right: 21px;
-    }
-
-    .navigation-bar{
-        height: 75px;
-    }
-    .navbar-toggler {
-        padding: .25rem .75rem 1.15rem !important;
-    }
-
     .section-header{
         font-size: 1.5rem;
     }
@@ -771,20 +636,17 @@ hr{
         font-size: 3rem;
     }
 
+    .textAnimation{
+        color: white !important;
+    }
+    .textAnimation::before{
+        display: none !important;
+    }
+
     .all-margin{
         margin: 0px 21px 0px 21px;
     }
-    .navbar-brand .logo{
-        width: 170px;
-    }
-    .navigation-bar{
-        text-align: left;
-    }
-    .navbar-collapse{
-        background-color:  #0C0C0C;
-        padding: 5px;
-        z-index: 1;
-    }
+    
 
     /* HOMEPAGE-INTRO */
     .homepage-intro{
@@ -839,7 +701,10 @@ hr{
     }
     .solutions-services-details p{
         font-size: 1.2rem;
-        margin-top: 10px;
+        margin-top: 5px;
+    }
+    .AISolutionInfo{
+        margin-left: 5px;
     }
     .solutions-services-details-img{
         margin-top: 35px;
@@ -988,52 +853,18 @@ hr{
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
 
-    nav.navbar{
-        max-height: 100vh;
-        overflow: auto;
-       /* -webkit-overflow-scrolling: touch; */
-    }
-
-    .navbar-nav {
-        margin-right: 0px;
-    }
-    .navbar-brand{
-        margin-left: 21px;
-    }
-    .navbar-toggler{
-        margin-right: 21px;
-    }
-
-    .navigation-bar{
-        height: 75px;
-    }
-    .navbar-toggler {
-        padding: .25rem .75rem 1.15rem !important;
-    }
-
     .section-header{
         font-size: 1.5rem;
     }
 
     .section-title{
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .all-margin{
         margin: 0px 21px 0px 21px;
     }
-    .navbar-brand .logo{
-        width: 190px;
-        /* height: 43px; */
-    }
-    .navigation-bar{
-        text-align: left;
-    }
-    .navbar-collapse{
-        background-color:  #0C0C0C;
-        padding: 5px;
-        z-index: 1;
-    }
+    
 
     /* HOMEPAGE-INTRO */
     .homepage-intro{
@@ -1087,8 +918,9 @@ hr{
     }
     .solutions-services-details p{
         font-size: 1.2rem;
-        margin-top: 10px;
+        margin-top: 5px;
     }
+  
     .solutions-services-details-img{
         margin-top: 35px;
     }
@@ -1259,29 +1091,6 @@ hr{
     }
 }
 
-
-/* FOR MEDIUM DEVICES 834PX */
-/* ...................................................................................................................... */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-    nav.navbar{
-        max-height: 100vh;
-        overflow: auto;
-       /* -webkit-overflow-scrolling: touch; */
-       }
-       .navigation-bar{
-        height: 75px;
-    }
-    .navbar-toggler {
-        padding: .25rem .75rem 1.15rem !important;
-    }
-    .navbar-nav {
-        margin-right: 0px;
-        margin-left: 70px !important;
-    }
-
-}
-
-
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     /* *{
         font-size: 30%;
@@ -1295,28 +1104,15 @@ hr{
         font-size: 3rem;
     }
 
-    .navbar-brand{
-        margin-left: 81px;
-    }
-    .navbar-toggler{
-        margin-right: 81px;
-    }
+    
 
     .all-margin{
         margin: 0px 81px 0px 81px;
     }
-    .navbar-brand .logo{
-        width: 190px;
-        /* height: 43px; */
-    }
     .navigation-bar{
         text-align: left;
     }
-    .navbar-collapse{
-        background-color:  #0C0C0C;
-        padding: 5px;
-        z-index: 1;
-    }
+    
 
     /* HOMEPAGE-INTRO */
     .homepage-intro{
@@ -1526,23 +1322,6 @@ hr{
 
 @media only screen and (min-width: 834px) and (max-width: 1024px) {
 
-    /* DROPDOWN MENU */
-
-    .dropdown-content .nav-first-column {
-        margin-left: 81px !important;
-    }
-
-
-    .dropdown-content .extra-column{
-        margin-left: 81px;
-    }
-
-    .navbar-collapse{
-        background-color:transparent;
-        padding: 0px;
-        z-index: 1;
-    }
-
     .industry-card .card-body{
         transform: translate(25%, 140%);
     }
@@ -1622,70 +1401,6 @@ hr{
 
 /* ...................................................................................................................... */
 
-@media only screen and (min-width: 1024px) and (max-width:1359px) {
-    .dropdown-content .column {
-        float: left;
-        width: 27%;
-        padding: 5px 10px;
-        background-color: white;
-        height: auto;
-        border-radius: 20px 0px;
-        /* border-color: 3px solid #19AF8F; */
-    }
-
-    .service-dropdown-link a {
-        padding-top: 2px;
-    }
-
-    .navFlex img {
-        width: 40px !important;
-        height: 40px !important;
-    }
-
-    .service-dropdown-link a {
-        font-size: 1.5rem !important;
-    }
-
-    .sub-service-links a {
-        font-size: 1.2rem !important;
-    }
-
-    .dropdown-content .nav-first-column {
-        margin-left: 81px !important;
-    }
-
-    .extra-column .navFlex{
-        margin-top: 0px;
-    }
-
-    .dropdown-content .extra-column{
-        float: left;
-        width: 25%;
-        padding: 0px 10px;
-        background-color: white;
-        height: auto;
-        border-radius: 0px 20px;
-        margin-left: 81px;
-    }
-}
-
-@media only screen and (min-width: 1360px) and (max-width:1439px) {
-    .dropdown-content .nav-first-column {
-        margin-left: 140px !important;
-    }
-
-    .dropdown-content .extra-column{
-        float: left;
-        width: 25%;
-        padding: 21px 10px;
-        background-color: white;
-        height: auto;
-        border-radius: 0px 20px;
-        /* margin-left: 140px; */
-    }
-}
-
-
 @media only screen and (min-width: 1025px) and (max-width:1439px) {
 
     /* HOMEPAGE INTRO */
@@ -1699,9 +1414,6 @@ hr{
     .homepage-intro-btn{
         padding: 50px 25px;
     }
-
-
-
 
     /* CAREER SECTION */
   .career-section{
@@ -1895,7 +1607,7 @@ label{
 .about-us-page-location-row .card{
     position: relative;
     /* width: 30rem; */
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 50px;
 
 }
@@ -1929,7 +1641,7 @@ label{
 .location-details p{
     margin-top: 20px;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
    
 }
 
@@ -2220,7 +1932,7 @@ label{
     color: black;
 }
 .about-us-desc p{
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
     color: black;
 }
@@ -2595,6 +2307,10 @@ label{
     text-align: center;
 }
 
+.case-studies-page-card .card-img-top{
+    height: 246px;
+}
+
 .case-studies-icon{
     position:absolute;
     height: 132px;
@@ -2649,6 +2365,10 @@ label{
         transform: translate(-45%, -90%);
     }
 
+    .case-studies-page-card .card-img-top{
+        height: 150px;
+    }
+
 
     .case-studies-page-card h2{
         margin-top: 20px;
@@ -2678,6 +2398,9 @@ label{
         transform: translate(0%, -90%);
     }
 
+    .case-studies-page-card .card-img-top{
+        height: 150px;
+    }
 
     .case-studies-page-card h2{
         margin-top: 30px;
@@ -2707,6 +2430,9 @@ label{
         transform: translate(0%, -90%);
     }
 
+    .case-studies-page-card .card-img-top{
+        height: 200px;
+    }
 
     .case-studies-page-card h2{
         margin-top: 20px;
@@ -2733,6 +2459,10 @@ label{
         /* top: 50%; */
         left: 43%;
         transform: translate(0%, -90%);
+    }
+
+    .case-studies-page-card .card-img-top{
+        height: 200px;
     }
 
 
@@ -2944,6 +2674,10 @@ label{
         font-size: 1.5rem;
     }
 
+    .careers-details-lists .list-icon {
+        width: 30px;
+    }
+
     .careers-our-culture-header h1{
         font-size: 2rem;
     }
@@ -2996,6 +2730,9 @@ label{
     .culture-img-left{
         margin-top: 8px;
     }
+    .careers-details-lists .list-icon {
+        width: 40px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -3023,7 +2760,7 @@ label{
     position: relative;
     width: 100%;
     height: 550px;
-    background: #444444 ;
+    background: #f4f4f4;
     opacity: 1;
 }
 
@@ -3073,6 +2810,10 @@ label{
 
 .sub-service-data-section{
     margin-top: 20px;
+}
+
+.sub-service-right-image-row{
+    padding-top: 50px;
 }
 
 .sub-service-image{
@@ -3281,6 +3022,10 @@ label{
         padding-top: 40px;
     }
 
+    .sub-service-right-details{
+        order: 2;
+    }
+
 }
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
@@ -3352,6 +3097,10 @@ label{
         margin-right: 20px;
         margin-top: 30px;
     }
+
+    .sub-service-right-details{
+        order: 2;
+    }
 }
 
 
@@ -3414,6 +3163,10 @@ label{
         margin-left: 0px;
         margin-right: 20px;
         margin-top: 30px;
+    }
+
+    .sub-service-right-details{
+        order: 2;
     }
 }
 
@@ -3491,6 +3244,10 @@ label{
     .career-section .service-btn{
         margin-left: 15px;
     }
+
+    .sub-service-right-details{
+        order: 2;
+    }
 }
 
 
@@ -3525,7 +3282,14 @@ label{
     .sub-service-data-section {
         margin-top: 30px;
     }
+    
 
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    .sub-service-right-details{
+        order: 2;
+    }
 }
 
 @media only screen and (min-width: 1210px) and (max-width: 1439px) {
@@ -3582,299 +3346,13 @@ label{
 
 
 
-/* NAVBAR TEST SECTION */
 
-.navbar-nav .active a {
-    color: #9de0d2 !important;
-}
 
 /* .dropdown:hover>.dropdown-menu {
     display: block;
 } */
 
-.sub-service-dropdown .dropdown-menu{
-    padding: 15px;
-}
 
-
-.dropdown-item{
-    font-size: 1.5rem;
-    font-weight: 400px;
-    color: white !important;
-    padding: 10px 0px !important;
-    text-align: left !important;
-}
-
-.dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 10rem;
-    padding: .5rem 0;
-    margin: .125rem 0 0;
-    font-size: 1rem;
-    color: #212529;
-    text-align: center;
-    list-style: none;
-    background-color:  #19af8e1a !important;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: .25rem;
-}
-
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    width: 100%;
-    margin-top: 30px;
-    left: 0;
-    /* left: -140px;
-    right: -280px; */
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    /* transition: 2s; */
-    /* border-radius: 20px; */
-  }
-
-  .fa-angle-right{
-      font-size: 2.1rem !important;
-  }
-
-  .dropdown-content .nav-first-column{
-      margin-left:140px;
-  }
-
-  .dropdown-view-all-link{
-      margin-top: -5px;
-  }
-  .dropdown-view-all-link a{
-    color:#19AF8F !important;
-    font-weight: 800 !important;
-    padding-bottom: 5px;
-    text-decoration: underline !important;
-  }
-
-  .dropdownd-ai-viewall-link a{
-      color: #FD5D14 !important;
-  }
-
-  .column .sub-service-links{
-    display: block;
-    margin-block-start: 0em !important;
-    margin-block-end: 0em !important;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-  .dropdown-icon{
-      display: none;
-  }
-
-  .dropdown-content .header {
-    background: red;
-    padding: 16px;
-    color: white;
-  }
-
-  .service-dropdown-menu:hover{
-    transition: 2s;
-  }
-
-  .service-dropdown-menu:hover .dropdown-content {
-    display: block;
-    transition: 2s;
-  }
-
-  .sub-menu{
-      display: flex;
-      justify-content: center;
-  }
-
-  /* Create three equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 21%;
-    padding: 25px 10px;
-    background-color: white;
-    height: auto;
-    /* border-radius: 20px; */
-    /* border-color: 3px solid #19AF8F; */
-}
-
-.extra-column{
-    float: left;
-    width: 25%;
-    padding: 25px 10px;
-    background-color: white;
-    height: auto;
-    /* border-radius: 20px; */
-}
-
-
-/* .dropdown-content .row{
-    border-color:#19AF8F;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 18px;
-} */
-
-
-  .service-dropdown-link a {
-    float: none;
-    color: black;
-    padding-top: 7px;
-    font-size: 1.7rem;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    font-weight: 800;
-  }
-
-  .column a:hover{
-      color:  #19AF8F !important;
-      text-decoration: none;
-  }
-
-  .dropdown-content p{
-      font-size: 1.3rem;
-
-
-      padding-right: 15px;
-      text-align: left;
-      color: black;
-  }
-
-  .sub-service-links a{
-    font-size: 1.3rem;
-    font-weight: 400;
-    padding-right: 15px;
-    padding-top: 5px;
-    text-align: left;
-    color: black;
-  }
-
-  /* .column a:hover {
-    background-color: #ddd;
-    transition: .8s;
-  }
-  .column p:hover {
-    background-color: #ddd;
-    transition: .8s;
-  } */
-
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .sub-service-dropdown{
-      display: none;
-  }
-
-
-  @media screen and (max-width: 830px) {
-    .column {
-      width: 100%;
-      height: auto;
-    }
-    .sub-menu:hover .dropdown-content {
-        display: none;
-    }
-    .dropdown-icon{
-        display: block;
-    }
-    .sub-service-dropdown{
-        display: block;
-    }
-    .service-dropdown-menu{
-        display: none;
-    }
-    .navbar-nav .service-dd{
-        display: block;
-    }
-  }
-
-
-  @media only screen and (min-width: 1150px) and (max-width: 1438px){
-
-
-
-  }
-
-
-  .dropdown-item.active, .dropdown-item:active {
-    color: #19AF8F;
-    text-decoration: none;
-    background-color: transparent !important;
-}
-
-.dropdown-item:focus, .dropdown-item:hover {
-    color:  #19AF8F !important;
-    text-decoration: none;
-    background-color: transparent !important;
-}
-
-.service-dropdown-menu:hover{
-    /* background-color:#FD5D14; */
-    /* border-radius: 4px; */
-    border-bottom: 5px solid #19AF8F;
-    transition: .5s;
-}
-
-
-/* .service-dropdown-link .dropdown-item{
-    padding: 25px 5px 5px 0px;
-}
-
-.service-dropdown-link p{
-    padding: 5px 5px 5px 0px;
-} */
-
-.navFlex img{
-    width: 50px;
-    height: 50px;
-    margin-left: 10px;
-}
-.navFlex{
-    display: flex;
-    margin-top: 10px;
-}
-
-.nav-sub-menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-
-.dropdown-toggle::after {
-    display: none !important;
-    width: 0;
-    height: 0;
-    margin-left: .255em;
-    vertical-align: .255em;
-    content: "";
-    border-top: .3em solid;
-    border-right: .3em solid transparent;
-    border-bottom: 0;
-    border-left: .3em solid transparent;
-}
-
-.service-dd{
-    display: none;
-}
 
 
 
@@ -3916,6 +3394,7 @@ label{
 .new-subService-AIML-intro-caption h2 {
     font-size: 4.5rem;
     font-weight: 800;
+    color: white;
 }
 
 .new-subService-AIML-intro-caption p {
@@ -3975,8 +3454,9 @@ label{
     font-size: 1.7rem;
     font-weight: 500;
     letter-spacing: 0px;
-    color: #4D4D4F;
+    color: black;
     list-style: none;
+    display: flex;
 }
 
 .new-solutions-services-lists .ai-icon{
@@ -3986,9 +3466,6 @@ label{
         margin-bottom: 5px;
 }
 
-.new-solutions-services-lists .ai-list{
-    color: black;
-}
 
 /* NEW HOMEPAGE ABOUT US DETAILS SECTION */
 
@@ -4234,7 +3711,7 @@ label{
 }
 
 .client-say .card-body{
-    height: 350px;
+    height: 365px;
 }
 
 .client-say .client-role{
@@ -4455,7 +3932,7 @@ label{
 }
 
 .new-service-contact-section h3{
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: 800;
     color: #19AF8F;
 }
@@ -4669,16 +4146,13 @@ label{
         margin: 0px 20px 0px 20px;
     }
 
-    .navbar-brand {
-        margin-left: 20px;
-    }
-    
-    .navbar-nav{
-        margin-right: 20px;
-    }
-
     .section-title {
         font-size: 2.5rem;
+    }
+
+    .new-solutions-services-lists .ai-icon {
+        width: 30px;
+        height: 30px;
     }
 
     .new-home-about-details h1 {
@@ -4713,6 +4187,10 @@ label{
         width: 30px;
         height: 30px;
         margin-right: 10px;
+    }
+
+    .AISolutionInfo{
+        margin-left: 5px;
     }
 
     .new-about-details-list h2 {
@@ -5014,6 +4492,11 @@ label{
     /* FOR NEW HOMEPAGE ABOUT DETAILS RESPONSIVE SECTION */
     /* ............................................................................................................................... */
 
+    .new-solutions-services-lists .ai-icon {
+        width: 30px;
+        height: 30px;
+    }
+
     .new-about-details-lists {
         display: block;
         list-style-type: disc;
@@ -5296,14 +4779,6 @@ label{
         margin: 0px 40px 0px 40px;
     }
 
-    .navbar-brand {
-        margin-left: 40px;
-    }
-    
-    .navbar-nav{
-        margin-right: 40px;
-    }
-
     .new-case-studies-list .card-body {
         padding: 15px;
     }
@@ -5491,13 +4966,6 @@ label{
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
 
-    .navbar-brand {
-        margin-left: 60px;
-    }
-    
-    .navbar-nav{
-        margin-right: 60px;
-    }
 
     /* FOR NEW HOME PAGE RESPONSIVE SECTION */
     /* ............................................................................................................................... */
@@ -5660,3 +5128,168 @@ label{
 } */
 
 
+/* ANIMATION TEST */
+
+.new-our-service-card:hover img{
+    animation: verticalFlip .8s;
+}
+
+.animation-card:hover img {
+    transform: scale(1.05);
+    transform-origin: 50% 50%;
+}
+
+.animation-card {
+    display: inline-block;
+    overflow: hidden;            
+  }
+  .animation-card img {
+    display: block;
+    transition: transform .4s;   
+  }
+
+
+  @keyframes zoomOut {
+    50% {
+        transform: scale(0, 0);
+        opacity: .8;
+    }
+    100% {
+        transform:scale(1, 1);
+        opacity: 1;
+    }
+}
+
+
+@keyframes zoomIn {
+    0% {
+        opacity: .6
+    }
+    25%,
+    75% {
+        transform: scale(1.8);
+        opacity: 0
+    }
+    50% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes verticalFlip {
+    50% {
+        transform: rotateX(90deg);
+    }
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+
+@keyframes bounceOutBottom {
+    20%, 100% {
+        transform: translate3d(0, 0, 0);
+    }
+    40%,
+    45%,
+    80%,
+    90% {
+        opacity: 1;
+        transform: translate3d(0, -5px, 0);
+    }
+    50% {
+        opacity: 0;
+        transform: translate3d(0, 10px, 0);
+    }
+}
+
+@keyframes elastic {
+    0%, 100% {
+        transform: scale3d(1, 1, 1);
+    }
+    30%,
+    60% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
+    40%,
+    80% {
+        transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+        transform: scale3d(1.15, 0.85, 1);
+    }
+}
+
+@keyframes vibration {
+    50% {
+        transform: scale3d(.3, .3, .3) rotate3d(0, 0, 1, -20deg);
+        transform-origin: center;
+    }
+    70%,
+    90% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 20deg);
+        transform-origin: center;
+    }
+    60%,
+    80% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -20deg);
+        transform-origin: center;
+    }
+    100% {
+        transform: scale3d(1, 1, 1);
+        transform-origin: center;
+    }
+}
+
+
+/* @keyframes bottomTop {
+    0% {
+        margin-top: 30px;
+        opacity: 0;
+    }
+    50% {
+        margin-top: 10px;
+        opacity: .8;
+    }
+    100% {
+        margin-top: 15px;
+        opacity: 1;
+    }
+}
+
+.card-img-top:hover img {
+    animation: bottomTop .8s;
+} */
+
+/* .job-desc-card:hover .job-icon{
+    transform: rotateZ(-180deg);
+    transition: 1s;
+} */
+
+
+/* .textAnimation{
+    position: relative;
+}
+
+.textAnimation::before{
+   content: attr(data-text);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   color:white;
+   overflow: hidden;
+   animation: animate 6s linear infinite;
+   white-space: nowrap;
+} */
+
+@keyframes animate{
+    0%{
+        width: 0%;
+    }
+    70%{
+        width: 100%;
+    }
+}

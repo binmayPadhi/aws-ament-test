@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-scroll";
 import {NavLink} from "react-router-dom";
-import CareerBG from "../images/careers-page/careers-bg-1.jpg";
+import CareerBG from "../images/careers-page/careers-bg.jpg";
 import CareersDetails from "./Careers/CareersDetails";
 import OurCulture from "./Careers/OurCulture";
 import WeValueInnovation from "./Careers/WeValueInnovation";
@@ -14,7 +14,7 @@ function TestCareers( ) {
             <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${CareerBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
                          <div className="row service-new-all-margin">
                         <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
-                            <h2>
+                            <h2 className="textAnimation" data-text="Create Your Future!">
                             Create Your Future!
                             </h2>
                             <p>
@@ -68,8 +68,6 @@ function TestCareers( ) {
               <JobLists />
 
               <EmployeesSay />
-
-
 
               {/* NEW HOMEPAGE CAREER SECTION */}
 

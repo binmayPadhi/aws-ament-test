@@ -33,7 +33,7 @@ function EmployeesSay( ) {
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <img class="d-block w-100" src={careerProfileRakesh} alt="Second slide" />
+                                <img loading="lazy"  class="d-block w-100" src={careerProfileRakesh} alt="Second slide" />
                             </div>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ function EmployeesSay( ) {
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <img class="d-block w-100" src={careerProfileProma} alt="Second slide" />
+                                <img loading="lazy"  class="d-block w-100" src={careerProfileProma} alt="Second slide" />
                             </div>
                             </div>
                         </div>

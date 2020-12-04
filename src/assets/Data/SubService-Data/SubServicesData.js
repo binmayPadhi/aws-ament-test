@@ -97,3 +97,8 @@ const subServicesData = [
 ];
 
 export default subServicesData;
+
+
+// if('a nice string'.includes('nice')){
+//     return console.log("working");
+// }
