@@ -11,7 +11,7 @@ function OurServices (){
                 {/* <!-- OUR SERVICES SECTION --> */}
 
                 <div className="our-services" style={{backgroundImage:`url(${OurServiceBG})`,backgroundAttachment:"scroll",height:"auto",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-    <h1 data-aos="fade-up" data-aos-offset="500" className="section-title text-center">OUR SERVICES</h1>
+    <h1 className="section-title text-center">OUR SERVICES</h1>
     <hr></hr>
     <div className="new-all-margin">
     <div className="row">

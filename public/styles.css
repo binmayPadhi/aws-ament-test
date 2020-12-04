@@ -5130,13 +5130,6 @@ label{
 
 /* ANIMATION TEST */
 
-
-
-
-
-
-
-
 .new-our-service-card:hover img{
     animation: verticalFlip .8s;
 }
