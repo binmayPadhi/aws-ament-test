@@ -5138,7 +5138,7 @@ label{
 
 
 .new-our-service-card:hover img{
-    animation: zoomOut .8s;
+    animation: verticalFlip .8s;
 }
 
 .animation-card:hover img {
