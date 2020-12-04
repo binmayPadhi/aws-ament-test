@@ -417,6 +417,7 @@
 
     .navbar-nav {
         margin-right: 0px;
+        margin-left: 10px;
     }
     .navbar-brand{
         margin-left: 21px;
@@ -470,7 +471,8 @@
     }
     
     .navbar-nav{
-        margin-right: 40px;
+        margin-right: 70px;
+        margin-left: 30px;
     }
 
 }
@@ -496,6 +498,12 @@
 
     .dropdown-content .extra-column{
         margin-left: 81px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .navbar-collapse{
+        background-color:  transparent;
     }
 }
 
