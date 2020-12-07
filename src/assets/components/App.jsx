@@ -10,7 +10,13 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import AIML from "./SubServices/AIML";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+
+
 function App(){
+    AOS.init();
     return (
         <>
             <Router forceRefresh={true}>

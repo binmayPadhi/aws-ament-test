@@ -5,13 +5,13 @@ import DataAnnotationDropdownIcon from "../../images/HomePage/our-services/data-
 
 // import {BrowserRouter as Router, Link} from "react-router-dom";
 
-function OurServices (){
+function OurServices (props){
     return (
         <>
                 {/* <!-- OUR SERVICES SECTION --> */}
 
                 <div className="our-services" style={{backgroundImage:`url(${OurServiceBG})`,backgroundAttachment:"scroll",height:"auto",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-    <h1 className="section-title text-center">OUR SERVICES</h1>
+    <h1 data-aos="flip-left" data-aos-delay="100"  data-aos-offset= {(props.dimensions > 1530) ? "550" : "120"} className="section-title text-center">OUR SERVICES</h1>
     <hr></hr>
     <div className="new-all-margin">
     <div className="row">

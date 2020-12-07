@@ -11,6 +11,21 @@ import OurPartner from "../components/Homepage/OurPartner";
 // import IndusrtySection from "../components/Homepage/IndustrySection";
 
 function Test (){
+    const [dimensions, setDimensions] = React.useState({ 
+        height: window.innerHeight,
+        width: window.innerWidth
+      })
+
+      React.useEffect(() => {
+        function handleResize() {
+          setDimensions({
+            height: window.innerHeight,
+            width: window.innerWidth
+          })
+        }
+
+        window.addEventListener('resize', handleResize)
+      })
     const ClientSay = React.lazy(() => import('../components/Homepage/ClientSay'));
     const CaseStudiesSection = React.lazy(() => import('../components/Homepage/CaseStudiesSection'));
     const IndusrtySection = React.lazy(() => import('../components/Homepage/IndustrySection'));
@@ -68,7 +83,7 @@ function Test (){
             
 
             {/* NEW HOMEPAGE OUR SERVICE SECTION */}
-            <OurServicesSection />
+            <OurServicesSection dimensions = {dimensions.width} />
 
             {/* NEW HOMEPAGE CASESTUDIES SECTION */}
             <Suspense fallback={<div>Loading...</div>}>
