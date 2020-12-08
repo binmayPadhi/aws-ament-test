@@ -5,13 +5,13 @@ import DataAnnotationDropdownIcon from "../../images/HomePage/our-services/data-
 
 // import {BrowserRouter as Router, Link} from "react-router-dom";
 
-function OurServices (props){
+function OurServices (){
     return (
         <>
                 {/* <!-- OUR SERVICES SECTION --> */}
 
                 <div className="our-services" style={{backgroundImage:`url(${OurServiceBG})`,backgroundAttachment:"scroll",height:"auto",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-    <h1 data-aos="flip-left" data-aos-delay="100"  data-aos-offset= {(props.dimensions > 1530) ? "550" : "120"} className="section-title text-center">OUR SERVICES</h1>
+    <h1 data-aos="flip-left" data-aos-delay="100"  data-aos-offset= {(window.innerWidth > 1530) ? "550" : "120"} className="section-title text-center">OUR SERVICES</h1>
     <hr></hr>
     <div className="new-all-margin">
     <div className="row">
@@ -37,7 +37,7 @@ function OurServices (props){
     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 mx-auto new-our-service-column">
                     <div className="new-our-service-card">
                     <div className="card-img-top">
-                        <img loading="lazy" src={DataAnnotationDropdownIcon} className="img-fluid text-center" alt="icon" />
+                        <img loading="lazy" src={DataAnnotationDropdownIcon} className="img-fluid text-center Tilt-inner" alt="icon" />
                     </div>
                     <div className="card-body">
                         <h3 className="card-title">Data Annotation</h3>

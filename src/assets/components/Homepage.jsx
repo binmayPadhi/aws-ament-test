@@ -11,27 +11,31 @@ import OurPartner from "../components/Homepage/OurPartner";
 // import IndusrtySection from "../components/Homepage/IndustrySection";
 
 function Test (){
-    const [dimensions, setDimensions] = React.useState({ 
-        height: window.innerHeight,
-        width: window.innerWidth
-      })
 
-      React.useEffect(() => {
-        function handleResize() {
-          setDimensions({
-            height: window.innerHeight,
-            width: window.innerWidth
-          })
-        }
+    // const [dimensions, setDimensions] = React.useState({ 
+    //     width: window.innerWidth
+    //   })
+    //   React.useEffect(() => {
+    //     function handleResize() {
+    //       setDimensions({
+    //         width: window.innerWidth
+    //       })
+        
+    // }
+    
+    //     window.addEventListener('resize', handleResize)
+    
+    //     return _ => {
+    //       window.removeEventListener('resize', handleResize)
+        
+    // }
+    //   })
 
-        window.addEventListener('resize', handleResize)
-      })
     const ClientSay = React.lazy(() => import('../components/Homepage/ClientSay'));
     const CaseStudiesSection = React.lazy(() => import('../components/Homepage/CaseStudiesSection'));
     const IndusrtySection = React.lazy(() => import('../components/Homepage/IndustrySection'));
 
     return(<>
-    
             <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${HomeBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
                          <div className="row service-new-all-margin">
                         <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
@@ -83,7 +87,7 @@ function Test (){
             
 
             {/* NEW HOMEPAGE OUR SERVICE SECTION */}
-            <OurServicesSection dimensions = {dimensions.width} />
+            <OurServicesSection />
 
             {/* NEW HOMEPAGE CASESTUDIES SECTION */}
             <Suspense fallback={<div>Loading...</div>}>

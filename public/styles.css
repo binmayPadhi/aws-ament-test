@@ -5130,7 +5130,10 @@ label{
 /* ANIMATION TEST */
 
 .new-our-service-card:hover img{
-    animation: verticalFlip .8s;
+    transform: scale(1.1);
+    box-shadow:  3px 6px 16px  #0000004D;
+    border-radius: 50%;
+    transition: .5s;
 }
 
 .animation-card:hover img {
