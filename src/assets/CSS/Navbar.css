@@ -281,7 +281,8 @@
   }
 
   .navFlex:hover img{
-    animation: verticalFlip .8s;
+    transform: scale(1.1);
+    transition: .5s;
    } 
 
 
