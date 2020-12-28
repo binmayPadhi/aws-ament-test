@@ -11,7 +11,7 @@ function SolutionsServices(){
                 <h1>AI-Enabled Products, Solutions & Services</h1>
                 <p>Amnet Digital is your innovation catalyst. We develop products and solutions that enable you to realize the true 
                     potential of AI. We offer you a comprehensive portfolio of services – innovation lab, consulting, 
-                    research & execution, to deliver the solutions that matter to you and your customers.
+                    research & execution to deliver the solutions that matter to you and your customers.
                 </p>
             </div>
 
@@ -38,7 +38,7 @@ function SolutionsServices(){
                                     </div>
                                     <div className="AISolutionInfoText">
                                     
-                                        <p> User-centered & research backed design</p>
+                                        <p> User-centered & Research backed Design</p>
                         
                                     </div>
                                     
@@ -64,7 +64,7 @@ function SolutionsServices(){
                                 </div>
                                     <div className="AISolutionInfo">
                                     
-                                        <p>Robust & Scalable Architecture and Infrastructure design</p>
+                                        <p>Robust & Scalable Architecture and Infrastructure Design</p>
                         
                                     </div>
                                 </li>
