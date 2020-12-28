@@ -23,7 +23,7 @@ function TestAboutUs( ) {
                             </h2>
                             <p>
                             We have cultivated culture. One that focuses on helping our clients gain maximum advantage from our abilities, 
-                            towards transforming them into AI empowered businesses!
+                            towards transforming them into AI & Digital empowered businesses.
                             </p>
 
                             <div className="subService-AIML-intro-btn">
@@ -51,7 +51,7 @@ function TestAboutUs( ) {
             {/* AboutUS Page QUOTE SECTION */}
             <div className="homepage-quote homepage-news-text">
                 <h2 className="text-center">
-                    "Building an Efficient & Intelligent Tomorrow!"
+                    "Building an Efficient & Intelligent Tomorrow"
                 </h2>
             </div>
 

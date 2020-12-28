@@ -27,13 +27,13 @@ const CaseStudiesSectionData = [
     {
         id : "preventive-maintenance",
         caseStudiesTitle : "Preventive Maintenance",
-        caseStudiesDesc : "Develop an automated process solution that continuously monitors sensor data to predict upcoming downtime/faults and raise tickets ahead of time.",
+        caseStudiesDesc : "Developed an automated process solution that continuously monitors sensor data to predict upcoming downtime/faults and raise tickets ahead of time.",
         caseStudiesIMG : preventiveIMG,
     },
     {
         id : "virtual-assistant",
         caseStudiesTitle : "Virtual Assistant",
-        caseStudiesDesc : "Virtual shopping assistant to help shoppers find the best products in the easiest way across multiple domains like retail, eCommerce and healthcare.",
+        caseStudiesDesc : "Virtual shopping assistant to help shoppers find the best products in the easiest way across multiple domains like Retail, eCommerce and Healthcare.",
         caseStudiesIMG : virtualIMG,
       }
 ];

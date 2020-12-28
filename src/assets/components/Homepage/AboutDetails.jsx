@@ -14,7 +14,7 @@ function AboutDetails(){
             <div className="new-all-margin new-about-details-heading-row">
             <div className="row  ml-0 mr-0">
                     <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12  new-about-details-heading">
-                        <h1 className="new-about-heading">Building an Efficient & Intelligent Tomorrow!</h1>
+                        <h1 className="new-about-heading">Building an Efficient & Intelligent Tomorrow</h1>
                     </div>
                     <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <ul className="new-about-details-lists">
@@ -38,7 +38,7 @@ function AboutDetails(){
                                     Technology Agnostic
                                     </h2>
                                     <p>
-                                    Focus on the big picture strategy and be as tech-forward or backward compatible as needed to develop solutions based on your priorities.
+                                    Focus on the big picture strategy and be as tech-forward or backward compatible to develop solutions based on priorities.
                                     </p>
                                 </li>
                                 <li className="new-about-details-list">
