@@ -37,7 +37,7 @@ function OurServices (){
     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 mx-auto new-our-service-column">
                     <div className="new-our-service-card">
                     <div className="card-img-top">
-                        <img loading="lazy" src={DataAnnotationDropdownIcon} className="img-fluid text-center" alt="icon" />
+                        <img loading="lazy" src={DataAnnotationDropdownIcon} className="img-fluid text-center Tilt-inner" alt="icon" />
                     </div>
                     <div className="card-body">
                         <h3 className="card-title">Data Annotation</h3>

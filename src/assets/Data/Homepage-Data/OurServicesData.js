@@ -16,13 +16,13 @@ const OurServicesData = [
     {
         id : "aiml",
         serviceTitle : "AI & ML Services",
-        serviceDesc : "Take advantage of the data-driven mindset that leverages cutting-edge technology to develop world class solutions.",
+        serviceDesc : "Take advantage of the data-driven mindset that leverages cutting-edge technologies to develop world class solutions.",
         serviceIcon : AimlDropdownIcon
     },
     {
         id : "data-management",
         serviceTitle : "Data Management",
-        serviceDesc : "Ensuring available, accurate, and accessible data. Transformation needs to take place in the way businesses consume data protection, and cloud needs to be at the center of that evolution.",
+        serviceDesc : "Ensuring available, accurate, and accessible data. Transformation needs to take place in the way businesses consume data protection and cloud needs to be at the center of that evolution.",
         // serviceIMG : DataManagementIMG,
         serviceIcon : DataManagementDropdownIcon
     },
@@ -50,7 +50,7 @@ const OurServicesData = [
     {
         id : "user-experience",
         serviceTitle : "User Experience",
-        serviceDesc : "Deliver a complete digital experience like a glue binding together all the touch points creating omnichannel experiences using best practices.",
+        serviceDesc : "Deliver a complete digital experience like a glue binding together all the touch points creating omnichannel experiences using better practices.",
         // serviceIMG : UserExperienceIMG,
         serviceIcon : UXDropdownIcon
     },
@@ -64,7 +64,7 @@ const OurServicesData = [
     {
         id : "quality-assurance",
         serviceTitle : "Quality Assurance",
-        serviceDesc : "Strive for quality shift left and high grade deliverables with optimized COQ (Cost of Quality) and significant Return on Investments (ROI).",
+        serviceDesc : "Strive for quality shift left and high grade deliverables with optimized Cost of Quality (COQ) and significant Return on Investments.",
         // serviceIMG : QualityAssuranceIMG,
         serviceIcon : QADropdownIcon
     },

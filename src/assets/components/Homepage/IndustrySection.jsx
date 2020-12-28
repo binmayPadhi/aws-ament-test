@@ -3,6 +3,7 @@ import IndusrtySectionData from "../../Data/Homepage-Data/IndustrySectionData";
 
 
 function IndustrySection (){
+
     return (
         <>
             {/* <!-- INDUSTRIES WE COVER --> */}
