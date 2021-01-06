@@ -9,6 +9,7 @@ import Careers from "./Careers";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import AIML from "./SubServices/AIML";
+import Industries from "./Industries";
 
 
 function App(){
@@ -26,7 +27,9 @@ function App(){
                     <Route  path = "/services" component = {Services} />
                     <Route  path = "/casestudies" component = {CaseStudies} />
                     <Route  path = "/careers" component = {Careers} />
+                    <Route path = "/industry/:id" component = {Industries} />
                     <Route   path = "/:id" component = {AIML} />
+                    
                     {/* <Route exact  path = "/data-labeling" component = {AIML} /> */}
                     {/* <Route exact  path = "/service/data-management" component = {AIML} /> */}
                 </Switch>

@@ -22,6 +22,7 @@ function IndustrySection (){
                 <img loading="lazy" className="card-img-top img-fluid" src= {list.industryIMG} alt="Case Studies" />
                 <div className="card-img-overlay new-industry-header">
                 <h5 class="card-title text-center">{list.industryTitle}</h5>
+                <a href={`industry/${list.id}`} className="learn-more-services">{`Learn More ->`}</a>
                 </div>
                 <div className="card-body" style={{display:"none"}}>
                     {/* <h5 className="card-title">{list.industryTitle}</h5> */}

@@ -6,22 +6,22 @@ import FinancialIMG from "../../images/HomePage/homepage-industry-IMG/amnet-fina
 
 const IndustrySectionData = [
     {
-        id : 1,
+        id : "retail-ecommerce",
         industryTitle : "Retail & eCommerce",
         industryIMG : ReatilIMG,
     },
     {
-        id : 2,
+        id : "healthcare",
         industryTitle : "Healthcare",
         industryIMG : HealthcareIMG,
     },
     {
-        id : 3,
+        id : "information-management",
         industryTitle : "Information Management",
         industryIMG : EnterpriseIMG,
     },
     {
-        id : 4,
+        id : "financial-services",
         industryTitle : "Financial Services",
         industryIMG : FinancialIMG,
     }

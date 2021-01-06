@@ -295,6 +295,11 @@ body{
     margin-top: 60px;
 }
 
+.industry-section-card a{
+    font-size: 1.5rem;
+    color: white;
+}
+
 
 /* OUR SERVICES SECTION */
 /* ........................................................................................................................ */
@@ -2277,11 +2282,6 @@ label{
     }
 }
 
-
-
-
-
-
 /* CASE STUDIES PAGE STYLES */
 /* .................................................................................................................... */
 
@@ -2482,7 +2482,189 @@ label{
     }
 }
 
+/* INDUSTRY PAGE STYLES */
+/* .................................................................................................................... */
 
+.industry-page-detail-section .row{
+    margin-top: 60px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.detail-section-text-column{
+    background-color: black;
+    padding: 40px 20px;
+}
+
+.detail-section-title{
+    font-size: 4.5rem;
+    color: white;
+    font-weight: 800;
+    padding: 0px 20px;
+    
+}
+
+.detail-section-texts{
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 400;
+    padding: 0px 20px;
+}
+
+.industry-page-detail-section .industry-detail-section-contact-us-btn{
+    width: 150px;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    background-color: #19AF8F;
+    color: white;
+    margin-left: 15px;
+}
+
+.detail-section-img-column{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.detail-section-img-column img{
+    height: 338px;
+}
+
+/* INDUSTRY BUSINESS VERTICAL */
+.industry-page-business-vertical-section{
+    margin-top: 60px;
+}
+.industry-page-business-vertical{
+    background-color: #19AF8F;
+    padding: 40px 0px;
+}
+
+.business-vertical-row{
+    padding: 0px 20px;
+}
+
+.industry-page-business-vertical .section-title{
+    padding: 0px 0px 30px 0px;
+    color: white;
+    text-align: center;
+}
+
+.business-vertical-card{
+    border: none;
+}
+
+.business-vertical-card .card-img-top img{
+    height: 200px;
+}
+
+.business-vertical-card .card-title{
+    font-size: 1.8rem;
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    padding: 10px 0px;
+}
+
+/* INDUSTRY AI SOLUTIONS */
+.industry-page-ai-solution-section{
+    margin-top: 60px;
+}
+.industry-page-ai-solution-section .section-title{
+    text-align: center;
+}
+
+.industry-page-ai-solution-section hr{
+    text-align: center;
+    width: 10%;
+    height: 3px;
+    margin-top: 1rem !important;
+    background-color: #19AF8F;
+}
+
+.ai-solutions-row{
+    margin-top: 20px;
+}
+
+.ai-solutions-icon{
+    width: 20px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.industry-page-ai-solution-section .ai-solutions-card{
+    border: none;
+    box-shadow: 0px 12px 12px #0000002d;
+    border-radius: 22px;
+}
+
+.ai-solutions-card .card-body{
+    height: 185px;
+}
+
+.ai-solutions-card .card-title{
+    font-size: 1.8rem;
+    color: black;
+    text-align: left;
+    font-weight: 600;
+    padding: 15px 0px 0px;
+}
+.ai-solutions-card .card-title p{
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+
+/* INDUSTRY OUR OFFERINGS */
+.industry-page-our-offering-section{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.industry-page-our-offering-section .section-title{
+    text-align: center;
+}    
+
+.industry-page-our-offering{
+    /* background-image: linear-gradient(to right,#19AF8F , #0ebe98); */
+    background-color: #E7E7E7;
+    padding: 40px 0px;
+    border-radius: 8px;
+}
+
+.industry-page-our-offering hr{
+    text-align: center;
+    width: 10%;
+    height: 3px;
+    margin-top: 1rem !important;
+    background-color: #19AF8F;
+}
+
+.our-offering-img img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.our-offering-details{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.our-offering-title{
+    background-color: #19AF8F;
+    color: white;
+    padding: 12px 10px;
+    margin: 20px;
+    width: 380px;
+    box-shadow: 0px 5px 12px #ffffff;
+}
+
+.our-offering-title h3{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
 
 
 
@@ -3957,6 +4139,10 @@ label{
 
 /* NEW CASE STUDIES DESIGN SECTION */
 
+.subService-AIML-intro-btn button{
+    margin-right: 15px;
+}
+
 .subService-AIML-intro-btn .sub-service-contact-us-btn {
     width: 150px;
     height: 45px;
@@ -3967,7 +4153,6 @@ label{
     background-color: transparent;
     border: 1px solid white;
     color: white;
-    margin-left: 15px;
     /* margin-top: 2rem; */
 }
 
@@ -5294,4 +5479,55 @@ label{
     70%{
         width: 100%;
     }
+}
+
+
+
+/* COOKIES BANNER */
+
+.cookies-banner{
+    padding: 20px 0px;
+}
+
+.cookies-banner button{
+    margin: 5px 5px;
+}
+
+.cookies-banner .cookies-accept-btn{
+    font-size: 1.5rem;
+    color: white;
+    padding: 5px 30px;
+    background-color: #19AF8F;
+}
+
+.cookies-banner .cookies-decline-btn{
+    font-size: 1.5rem;
+    color: white;
+    padding: 5px 30px;
+    background-color: #FD5D14;
+}
+
+.cookies-banner p{
+    font-size: 1.5rem;
+}
+
+.cta {
+    flex: 1;
+    margin-top: 2rem;
+    padding: 2rem;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+#consent-popup {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 8rem;
+    background-color: #fff;
+    transition: opacity 1s ease;
+}
+#consent-popup.hidden {
+    opacity: 0;
 }
