@@ -1,20 +1,16 @@
 import React from "react";
-import ServiceBG from "../images/Service-Page/services-bg.jpg";
+import ServiceBG from "../../images/Service-Page/services-bg.jpg";
 import {NavLink} from "react-router-dom";
-import IndustriesData from "../Data/Industries-Data/industriesData";
-import AiSolutionIcon from "../images/industry-Page/ai-solutions-icon.png";
+import AiSolutionIcon from "../../images/industry-Page/ai-solutions-icon.png";
 
-function Industries ({match}){
+function Healthcare ( ){
     return (
         <>
-            {IndustriesData.filter(data => data.id === match.params.id).map(industryTitle => {
-                return(
-                    <>
                         <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${ServiceBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
                          <div className="row service-new-all-margin">
                         <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
                             <h2 className="textAnimation" data-text="Automate & Modernize!">
-                            {industryTitle.industryTitle}
+                            Healthcare
                             </h2>
                             <p>
                             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
@@ -35,12 +31,12 @@ function Industries ({match}){
                         </div>
                         </div>
                         </div>
-                    </>
-                )
-            })}
+                    
+    )
+        
             
             {/* Industry Page QUOTE SECTION */}
-            <div className="homepage-quote homepage-news-text">
+            <div className="homepage-quote homepage-news-text industry-page-quote">
                 <h2 className="text-center">
                     "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem"
                 </h2>
@@ -52,7 +48,7 @@ function Industries ({match}){
                 <div className= "row ">
                     <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12 detail-section-text-column">
                         <h1 className="detail-section-title">
-                            Retail & eCommerce
+                        Healthcare
                         </h1>
                         <p className="detail-section-texts">
                             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
@@ -277,4 +273,4 @@ function Industries ({match}){
     )
 }
 
-export default Industries;
+export default Healthcare;
