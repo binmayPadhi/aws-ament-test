@@ -78,7 +78,7 @@ function FinancialServices ( ){
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
-                                Business to Consumer
+                                Banking
                                 </div>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ function FinancialServices ( ){
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
-                                Business to Business
+                                FinTech
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@ function FinancialServices ( ){
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
-                                Direct to Consumer
+                                Stock Market
                                 </div>
                             </div>
                         </div>
@@ -114,7 +114,7 @@ function FinancialServices ( ){
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
-                                Marketplaces Solutions
+                                Capital Restructuring
                                 </div>
                             </div>
                         </div>
@@ -133,7 +133,7 @@ function FinancialServices ( ){
                         <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimizing Marketing Startegy
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Digital Banking Platform
                                     <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                     </p>
@@ -145,7 +145,7 @@ function FinancialServices ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize your content for high purchase
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Insurance Claim Management
                                     <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                     </p>
@@ -157,7 +157,7 @@ function FinancialServices ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize your digital and social media strategy
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Digital Wallet Solution
                                     <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                     </p>
@@ -169,7 +169,7 @@ function FinancialServices ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize product pages
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Field Service Platform
                                     <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                     </p>
@@ -179,48 +179,12 @@ function FinancialServices ( ){
                     </div>
                 </div>  
 
-                <div className="ai-solutions-row row ">
+                <div className="ai-solutions-row row ai-solutions-second-row">
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business to Business
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                    <div className="ai-solutions-card card">
-                            <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business to Business
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                    <div className="ai-solutions-card card">
-                            <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business to Business
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                    <div className="ai-solutions-card card">
-                            <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span> Business to Business
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Loan Management Systems
                                     <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                     </p>
@@ -234,7 +198,7 @@ function FinancialServices ( ){
 
             {/* Industry Page Our Offerings */}
 
-            <div className = "industry-page-our-offering-section">
+            <div className = "industry-page-our-offering-section financial-service-our-offering">
                 <div className="industry-page-our-offering new-all-margin">
                     <h1 className="section-title">Our Offerings</h1>
                     <hr></hr>
@@ -245,25 +209,19 @@ function FinancialServices ( ){
                         </div>
                         <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 our-offering-details">
                             <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Omnichannel Commerce Solutions</h3>
+                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Digital Transformation</h3>
                             </div>
                             <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Mobile Commerce</h3>
+                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Application Development</h3>
                             </div>
                             <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>System Integrations</h3>
+                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Managed Cloud Services</h3>
                             </div>
                             <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Ecommerce Platform Migration</h3>
+                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Product Engineering</h3>
                             </div>
                             <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Product Information Management</h3>
-                            </div>
-                            <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business Intelligence</h3>
-                            </div>
-                            <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>SaaS Enablement</h3>
+                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Solutions and Accelerators</h3>
                             </div>
                         </div>
                     </div>

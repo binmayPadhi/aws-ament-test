@@ -178,57 +178,6 @@ function RetailEcommerce ( ){
                         </div>
                     </div>
                 </div>  
-
-                <div className="ai-solutions-row row ">
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                        <div className="ai-solutions-card card">
-                            <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business to Business
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                    <div className="ai-solutions-card card">
-                            <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business to Business
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                    <div className="ai-solutions-card card">
-                            <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business to Business
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                    <div className="ai-solutions-card card">
-                            <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span> Business to Business
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
             </div>
             </div>
 

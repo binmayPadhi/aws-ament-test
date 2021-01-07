@@ -67,7 +67,7 @@ function InformationManagement ( ){
             </div>
 
             {/* Industry Page Business Vertical */}
-            <div className = "industry-page-business-vertical-section">
+            {/* <div className = "industry-page-business-vertical-section">
             <div className="industry-page-business-vertical new-all-margin">
                 <h1 className="section-title">Business Vertical</h1>
                 <div className="business-vertical-row row ">
@@ -121,7 +121,7 @@ function InformationManagement ( ){
                     </div>
                 </div>  
             </div>
-            </div>
+            </div> */}
 
             {/* Industry Page AI Solutions */}
             <div className ="industry-page-ai-solution-section">
@@ -133,7 +133,7 @@ function InformationManagement ( ){
                         <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimizing Marketing Startegy
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Insight Strategy
                                     <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                     </p>
@@ -145,7 +145,7 @@ function InformationManagement ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize your content for high purchase
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Information Delivery & Automation
                                     <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                     </p>
@@ -157,7 +157,7 @@ function InformationManagement ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize your digital and social media strategy
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Digital Finance Technology
                                     <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                     </p>
@@ -169,7 +169,7 @@ function InformationManagement ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize product pages
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Advanced Analytics
                                     <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                     </p>
@@ -184,7 +184,7 @@ function InformationManagement ( ){
                         <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business to Business
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Data & Content Management
                                     <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                     </p>
@@ -192,43 +192,7 @@ function InformationManagement ( ){
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                    <div className="ai-solutions-card card">
-                            <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business to Business
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                    <div className="ai-solutions-card card">
-                            <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business to Business
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                    <div className="ai-solutions-card card">
-                            <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span> Business to Business
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
+                </div>
             </div>
             </div>
 
@@ -245,25 +209,25 @@ function InformationManagement ( ){
                         </div>
                         <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 our-offering-details">
                             <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Omnichannel Commerce Solutions</h3>
+                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Data Integration</h3>
                             </div>
                             <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Mobile Commerce</h3>
+                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Data Quality & Data Migration</h3>
                             </div>
                             <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>System Integrations</h3>
+                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Enterprise Data Warehouse </h3>
                             </div>
                             <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Ecommerce Platform Migration</h3>
+                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Information Life Cycle Management</h3>
                             </div>
                             <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Product Information Management</h3>
+                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Master Data Management</h3>
                             </div>
                             <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business Intelligence</h3>
+                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Data Privacy & Masking</h3>
                             </div>
                             <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>SaaS Enablement</h3>
+                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Information Architecture Startegy</h3>
                             </div>
                         </div>
                     </div>

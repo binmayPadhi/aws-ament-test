@@ -2555,7 +2555,11 @@ label{
 }
 
 .business-vertical-card{
-    border: none;
+    border: none !important;
+}
+
+.business-vertical-card .card-body{
+    height: 110px;
 }
 
 .business-vertical-card .card-img-top img{
@@ -2603,7 +2607,7 @@ label{
 }
 
 .ai-solutions-card .card-body{
-    height: 185px;
+    height: 200px;
 }
 
 .ai-solutions-card .card-title{
@@ -2665,9 +2669,43 @@ label{
     box-shadow: 0px 5px 12px #ffffff;
 }
 
+.financial-service-our-offering .our-offering-title{
+    height: 70px;
+}
+
 .our-offering-title h3{
     font-size: 1.8rem;
     font-weight: 800;
+}
+
+.financial-service-our-offering .our-offering-title h3{
+    padding: 10px 0px;
+}
+
+
+/* INDUSTRY PAGE RESPONSIVE SECTION */
+/*............................................................................................................................ */
+@media only screen and (min-width: 320px) and (max-width: 426px) {
+    .detail-section-title {
+        font-size: 3rem;
+    }
+
+    .business-vertical-card {
+        margin-top: 15px;
+    }
+
+    .industry-page-ai-solution-section .ai-solutions-card {
+        margin-top: 15px;
+    }
+
+    .industry-page-ai-solution-section 
+    .ai-solutions-second-row .ai-solutions-card {
+        margin-top: -5px;
+    }
+
+    .our-offering-img img {
+        border-radius: 0%;
+    }
 }
 
 
@@ -4487,8 +4525,8 @@ label{
     }
 
     .subService-AIML-intro-btn .sub-service-contact-us-btn {
-        margin-left: 5px;
-        margin-top: 0px;
+        margin-left: 0px;
+        margin-top: 5px;
     }
 
     .new-career-section button {
@@ -5488,6 +5526,7 @@ label{
 
 
 /* COOKIES BANNER */
+/* .................................................................................................................................. */
 
 .cookies-banner{
     padding: 20px 0px;
@@ -5534,4 +5573,17 @@ label{
 }
 #consent-popup.hidden {
     opacity: 0;
+}
+
+/* COOKIES BANNER RESPONSIVE SECTION */
+/* .................................................................................................................................. */
+
+
+@media only screen and (min-width: 320px) and (max-width: 426px) {
+    #consent-popup {
+        padding: 2rem 2rem;
+    }
+    .cookies-banner p{
+        font-size: 1.2rem;
+    }
 }

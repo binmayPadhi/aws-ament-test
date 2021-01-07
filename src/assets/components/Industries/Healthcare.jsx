@@ -78,7 +78,7 @@ function Healthcare ( ){
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
-                                Business to Consumer
+                                Personalized Health Solutions
                                 </div>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ function Healthcare ( ){
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
-                                Business to Business
+                                Information on Request
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@ function Healthcare ( ){
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
-                                Direct to Consumer
+                                Patient Experience Benchmarks
                                 </div>
                             </div>
                         </div>
@@ -114,7 +114,7 @@ function Healthcare ( ){
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
-                                Marketplaces Solutions
+                                Telehealth
                                 </div>
                             </div>
                         </div>
@@ -133,7 +133,7 @@ function Healthcare ( ){
                         <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimizing Marketing Startegy
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Health system performance and optimization
                                     <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                     </p>
@@ -145,7 +145,7 @@ function Healthcare ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize your content for high purchase
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Population health insights
                                     <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                     </p>
@@ -157,7 +157,7 @@ function Healthcare ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize your digital and social media strategy
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Individual insights and engagement
                                     <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                     </p>
@@ -169,7 +169,7 @@ function Healthcare ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize product pages
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Healthcare cybersecurity
                                     <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                     </p>
@@ -184,7 +184,7 @@ function Healthcare ( ){
                         <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business to Business
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Web and Mobile Healthcare Solutions
                                     <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                     </p>
@@ -196,7 +196,7 @@ function Healthcare ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business to Business
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Diagnostic Imaging
                                     <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                     </p>
@@ -208,19 +208,7 @@ function Healthcare ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business to Business
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                    <div className="ai-solutions-card card">
-                            <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span> Business to Business
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Payer
                                     <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                     </p>
@@ -245,25 +233,25 @@ function Healthcare ( ){
                         </div>
                         <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 our-offering-details">
                             <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Omnichannel Commerce Solutions</h3>
+                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Digital Transformation</h3>
                             </div>
                             <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Mobile Commerce</h3>
+                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Application Development</h3>
                             </div>
                             <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>System Integrations</h3>
+                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Managed Cloud Services</h3>
                             </div>
                             <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Ecommerce Platform Migration</h3>
+                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Product Engineering</h3>
                             </div>
                             <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Product Information Management</h3>
+                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Solutions and Accelerators</h3>
                             </div>
                             <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business Intelligence</h3>
+                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Tool Agnostic Approach</h3>
                             </div>
                             <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>SaaS Enablement</h3>
+                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Healthcare Modernization</h3>
                             </div>
                         </div>
                     </div>
