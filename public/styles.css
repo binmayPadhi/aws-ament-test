@@ -2598,6 +2598,7 @@ label{
     width: 20px;
     margin-bottom: 5px;
     margin-right: 5px;
+    margin-top: 6px;
 }
 
 .industry-page-ai-solution-section .ai-solutions-card{
@@ -2617,9 +2618,11 @@ label{
     font-weight: 600;
     padding: 15px 0px 0px;
 }
-.ai-solutions-card .card-title p{
+.ai-solutions-card  p{
     font-weight: 400;
     margin-top: 5px;
+    font-size: 1.2rem;
+    padding: 0px 23px;
 }
 
 
@@ -2653,11 +2656,13 @@ label{
     height: 350px;
     border-radius: 50%;
     margin-top: 15px;
+    margin-left: 50px;
 }
 
 .our-offering-details{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .our-offering-title{
@@ -2678,6 +2683,11 @@ label{
     font-weight: 800;
 }
 
+.our-offering-title{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
 .financial-service-our-offering .our-offering-title h3{
     padding: 10px 0px;
 }
@@ -2685,17 +2695,40 @@ label{
 
 /* INDUSTRY PAGE RESPONSIVE SECTION */
 /*............................................................................................................................ */
-@media only screen and (min-width: 320px) and (max-width: 426px) {
+@media only screen and (min-width: 320px) and (max-width: 424px) {
     .detail-section-title {
-        font-size: 3rem;
+        font-size: 2.5rem;
+    }
+
+    .detail-section-texts {
+        font-size: 1.5rem;
     }
 
     .business-vertical-card {
         margin-top: 15px;
     }
 
+    .business-vertical-card .card-body {
+        height: 80px;
+    }
+
+    .business-vertical-card .card-title {
+        font-size: 1.5rem;
+    }
+
     .industry-page-ai-solution-section .ai-solutions-card {
         margin-top: 15px;
+    }
+
+    .ai-solutions-icon {
+        margin-top: 4px;
+    }
+    .ai-solutions-card .card-title {
+        font-size: 1.5rem;
+    }
+
+    .ai-solutions-card .card-body {
+        height: 210px;
     }
 
     .industry-page-ai-solution-section 
@@ -2705,9 +2738,155 @@ label{
 
     .our-offering-img img {
         border-radius: 0%;
+        margin-left: 0px;
+    }
+
+    .our-offering-title {
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media only screen and (min-width: 374px) and (max-width: 424px) {
+    .ai-solutions-card .card-body {
+        height: 180px;
+    }
+    .financial-service-our-offering .our-offering-title {
+        height: 50px;
     }
 }
 
+
+@media only screen and (max-width: 767px) and (min-width: 425px){
+.industries-intro-section .sub-service-contact-us-btn {
+    margin-left: 0px !important;
+    margin-top: 0px;
+}
+
+.detail-section-title {
+    font-size: 3rem;
+}
+
+.business-vertical-card {
+    margin-top: 15px;
+}
+.business-vertical-card .card-body {
+    height: 90px;
+}
+
+.industry-page-ai-solution-section .ai-solutions-card {
+    margin-top: 15px;
+}
+
+.ai-solutions-card .card-body {
+    height: 175px;
+}
+
+.our-offering-img img {
+    border-radius: 0%;
+    margin-left: 0px;
+}
+
+.our-offering-title {
+    font-size: 1.5rem;
+}
+
+.financial-service-our-offering .our-offering-title {
+    height: 50px;
+}
+
+.ai-solutions-icon {
+    margin-top: 4px;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .business-vertical-card {
+        margin-top: 15px;
+    }
+
+    .industry-page-ai-solution-section .ai-solutions-card {
+        margin-top: 15px;
+    }
+
+    .our-offering-img img {
+        border-radius: 0%;
+        width: 90%;
+        margin-left: 0px;
+    }
+    .our-offering-details{
+        justify-content: center;
+    }
+
+    .financial-service-our-offering .our-offering-title {
+        height: 60px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+    
+.ai-solutions-card .card-title {
+    font-size: 1.5rem;
+}
+
+.ai-solutions-card p {
+    font-size: 1.2rem !important;
+}
+
+.ai-solutions-card .card-body {
+    height: 230px;
+}
+
+.our-offering-img img {
+    border-radius: 0%;
+    width: 95%;
+    margin-left: 30px !important;
+}
+
+}
+
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    .detail-section-title {
+        font-size: 3.5rem;
+    }
+    .detail-section-img-column img {
+        height: 381px;
+    }
+
+    .information-management-details-image img {
+        height: 425px;
+    }
+
+    .ai-solutions-card p {
+        font-size: 1.5rem;
+    }
+
+    .industry-page-ai-solution-section .ai-solutions-card {
+        margin-top: 15px;
+    }
+    .our-offering-img img {
+        border-radius: 0%;
+        width: 95%;
+        margin-left: 0px;
+    }
+    .our-offering-details{
+        justify-content: center;
+    }
+}
+
+
+@media only screen and (min-width: 1440px) and (max-width: 1451px) {
+    .ai-solutions-card .card-body {
+        height: 225px;
+    }
+}
 
 
 /* CAREERS PAGE STYLES */

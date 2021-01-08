@@ -10,14 +10,14 @@ function RetailEcommerce ( ){
                          <div className="row service-new-all-margin">
                         <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
                             <h2 className="textAnimation" data-text="Automate & Modernize!">
-                            Retail & Ecommerce
+                            Retail & eCommerce
                             </h2>
                             <p>
                             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
                             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum
                             </p>
 
-                            <div className="subService-AIML-intro-btn">
+                            <div className="subService-AIML-intro-btn industries-intro-section">
                                 {/* <a href="/casestudies">
                                     <button type="button" className="btn btn-default">View Details</button>
                                 </a> */}
@@ -48,7 +48,7 @@ function RetailEcommerce ( ){
                 <div className= "row ">
                     <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12 detail-section-text-column">
                         <h1 className="detail-section-title">
-                        Retail & Ecommerce
+                        Retail & eCommerce
                         </h1>
                         <p className="detail-section-texts">
                             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
@@ -129,51 +129,51 @@ function RetailEcommerce ( ){
                 <hr></hr>
                 <div className="industry-page-ai-solutions new-all-margin">
                 <div className="ai-solutions-row row ">
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                         <div className="ai-solutions-card card">
                             <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimizing Marketing Startegy
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    </p>
+                                <div className="card-title d-flex">
+                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimizing Marketing Strategy
                                 </div>
+                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                     <div className="ai-solutions-card card">
                             <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize your content for high purchase
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    </p>
+                                <div className="card-title d-flex">
+                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize your content for high purchase
                                 </div>
+                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                     <div className="ai-solutions-card card">
                             <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize your digital and social media strategy
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    </p>
+                                <div className="card-title d-flex">
+                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize your digital and social media strategy
                                 </div>
+                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                     <div className="ai-solutions-card card">
                             <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize product pages
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    </p>
+                                <div className="card-title d-flex">
+                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize product pages
                                 </div>
+                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -189,30 +189,30 @@ function RetailEcommerce ( ){
                     <hr></hr>
 
                     <div className="our-offering-row row">
-                        <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 our-offering-img text-center">
+                        <div className="col-xl-3 col-lg-12 col-md-12 col-sm-12 our-offering-img text-center">
                             <img className="img-fluid" src={ServiceBG} alt="industry-image" />
                         </div>
-                        <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 our-offering-details">
-                            <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Omnichannel Commerce Solutions</h3>
+                        <div className="col-xl-9 col-lg-12 col-md-12 col-sm-12 our-offering-details">
+                            <div className="our-offering-title d-flex">
+                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Omnichannel Commerce Solutions
                             </div>
-                            <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Mobile Commerce</h3>
+                            <div className="our-offering-title d-flex">
+                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Mobile Commerce
                             </div>
-                            <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>System Integrations</h3>
+                            <div className="our-offering-title d-flex">
+                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>System Integrations
                             </div>
-                            <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Ecommerce Platform Migration</h3>
+                            <div className="our-offering-title d-flex">
+                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Ecommerce Platform Migration
                             </div>
-                            <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Product Information Management</h3>
+                            <div className="our-offering-title d-flex">
+                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Product Information Management
                             </div>
-                            <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business Intelligence</h3>
+                            <div className="our-offering-title d-flex">
+                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business Intelligence
                             </div>
-                            <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>SaaS Enablement</h3>
+                            <div className="our-offering-title d-flex">
+                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>SaaS Enablement
                             </div>
                         </div>
                     </div>

@@ -17,7 +17,7 @@ function Healthcare ( ){
                             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum
                             </p>
 
-                            <div className="subService-AIML-intro-btn">
+                            <div className="subService-AIML-intro-btn industries-intro-section">
                                 {/* <a href="/casestudies">
                                     <button type="button" className="btn btn-default">View Details</button>
                                 </a> */}
@@ -129,90 +129,90 @@ function Healthcare ( ){
                 <hr></hr>
                 <div className="industry-page-ai-solutions new-all-margin">
                 <div className="ai-solutions-row row ">
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                         <div className="ai-solutions-card card">
                             <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Health system performance and optimization
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    </p>
+                                <div className="card-title d-flex">
+                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Health system optimization
                                 </div>
+                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                     <div className="ai-solutions-card card">
                             <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Population health insights
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    </p>
+                                <div className="card-title d-flex">
+                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Population health insights
                                 </div>
+                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                     <div className="ai-solutions-card card">
                             <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Individual insights and engagement
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    </p>
+                                <div className="card-title d-flex">
+                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Individual insights and engagement
                                 </div>
+                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                     <div className="ai-solutions-card card">
                             <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Healthcare cybersecurity
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <div className="card-title d-flex">
+                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Healthcare cybersecurity
+                                </div>
+                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                     </p>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>  
 
                 <div className="ai-solutions-row row ">
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                         <div className="ai-solutions-card card">
                             <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Web and Mobile Healthcare Solutions
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    </p>
+                                <div className="card-title d-flex">
+                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Web and Mobile Healthcare Solutions
                                 </div>
+                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                     <div className="ai-solutions-card card">
                             <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Diagnostic Imaging
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <div className="card-title d-flex">
+                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Diagnostic Imaging
+                                </div>
+                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                     </p>
-                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
                     <div className="ai-solutions-card card">
                             <div className="card-body">
-                                <div className="card-title">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Payer
-                                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    </p>
+                                <div className="card-title d-flex">
+                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Payer
                                 </div>
+                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -228,30 +228,30 @@ function Healthcare ( ){
                     <hr></hr>
 
                     <div className="our-offering-row row">
-                        <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 our-offering-img text-center">
+                        <div className="col-xl-3 col-lg-12 col-md-12 col-sm-12 our-offering-img text-center">
                             <img className="img-fluid" src={ServiceBG} alt="industry-image" />
                         </div>
-                        <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 our-offering-details">
-                            <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Digital Transformation</h3>
+                        <div className="col-xl-9 col-lg-12 col-md-12 col-sm-12 our-offering-details">
+                            <div className="our-offering-title d-flex">
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Digital Transformation
                             </div>
-                            <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Application Development</h3>
+                            <div className="our-offering-title d-flex">
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Application Development
                             </div>
-                            <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Managed Cloud Services</h3>
+                            <div className="our-offering-title d-flex">
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Managed Cloud Services
                             </div>
-                            <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Product Engineering</h3>
+                            <div className="our-offering-title d-flex">
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Product Engineering
                             </div>
-                            <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Solutions and Accelerators</h3>
+                            <div className="our-offering-title d-flex">
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Solutions and Accelerators
                             </div>
-                            <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Tool Agnostic Approach</h3>
+                            <div className="our-offering-title d-flex">
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Tool Agnostic Approach
                             </div>
-                            <div className="our-offering-title">
-                                <h3><span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Healthcare Modernization</h3>
+                            <div className="our-offering-title d-flex">
+                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Healthcare Modernization
                             </div>
                         </div>
                     </div>
