@@ -1,5 +1,5 @@
 import React from "react";
-import ServiceBG from "../../images/Service-Page/services-bg.jpg";
+import ServiceBG from "..//../images/industry-Page/retail-bg.png";
 import {NavLink} from "react-router-dom";
 import AiSolutionIcon from "../../images/industry-Page/ai-solutions-icon.png";
 
@@ -67,6 +67,7 @@ function RetailEcommerce ( ){
             </div>
 
             {/* Industry Page Business Vertical */}
+            <div id="business-vertical" style={{height:"60px"}}></div>
             <div className = "industry-page-business-vertical-section">
             <div className="industry-page-business-vertical new-all-margin">
                 <h1 className="section-title">Business Vertical</h1>
@@ -124,7 +125,8 @@ function RetailEcommerce ( ){
             </div>
 
             {/* Industry Page AI Solutions */}
-            <div className ="industry-page-ai-solution-section">
+            <div id="ai-solutions" style={{height:"70px"}}></div>
+            <div className ="industry-page-ai-solution-section" >
                 <h1 className="section-title">AI Solutions</h1>
                 <hr></hr>
                 <div className="industry-page-ai-solutions new-all-margin">
@@ -182,8 +184,8 @@ function RetailEcommerce ( ){
             </div>
 
             {/* Industry Page Our Offerings */}
-
-            <div className = "industry-page-our-offering-section">
+            <div id="our-offerings" style={{height:"60px"}}></div>
+            <div className = "industry-page-our-offering-section" >
                 <div className="industry-page-our-offering new-all-margin">
                     <h1 className="section-title">Our Offerings</h1>
                     <hr></hr>

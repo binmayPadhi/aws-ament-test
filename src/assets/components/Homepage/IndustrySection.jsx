@@ -20,12 +20,13 @@ function IndustrySection (){
             <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 industry-section-column">
             <div className="card industry-section-card animation-card">
                 <img loading="lazy" className="card-img-top img-fluid" src= {list.industryIMG} alt="Case Studies" />
-                <div className="card-img-overlay new-industry-header">
+                {/* <div className="card-img-overlay new-industry-header">
                 <h5 class="card-title text-center">{list.industryTitle}</h5>
                 <a href={`/${list.id}`} className="learn-more-services">{`Learn More ->`}</a>
-                </div>
-                <div className="card-body" style={{display:"none"}}>
+                </div> */}
+                <div className="card-body">
                     {/* <h5 className="card-title">{list.industryTitle}</h5> */}
+                    <h5 class="card-title text-center">{list.industryTitle}</h5>
                 </div>
             </div>
             </div>

@@ -124,6 +124,7 @@ function InformationManagement ( ){
             </div> */}
 
             {/* Industry Page AI Solutions */}
+            <div id="ai-solutions" style={{height:"70px"}}></div>
             <div className ="industry-page-ai-solution-section">
                 <h1 className="section-title">AI Solutions</h1>
                 <hr></hr>
@@ -197,7 +198,7 @@ function InformationManagement ( ){
             </div>
 
             {/* Industry Page Our Offerings */}
-
+            <div id="our-offerings" style={{height:"70px"}}></div>
             <div className = "industry-page-our-offering-section">
                 <div className="industry-page-our-offering new-all-margin">
                     <h1 className="section-title">Our Offerings</h1>

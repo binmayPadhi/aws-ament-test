@@ -67,6 +67,7 @@ function FinancialServices ( ){
             </div>
 
             {/* Industry Page Business Vertical */}
+            <div id="business-vertical" style={{height:"60px"}}></div>
             <div className = "industry-page-business-vertical-section">
             <div className="industry-page-business-vertical new-all-margin">
                 <h1 className="section-title">Business Vertical</h1>
@@ -124,6 +125,7 @@ function FinancialServices ( ){
             </div>
 
             {/* Industry Page AI Solutions */}
+            <div id="ai-solutions" style={{height:"70px"}}></div>
             <div className ="industry-page-ai-solution-section">
                 <h1 className="section-title">AI Solutions</h1>
                 <hr></hr>
@@ -197,7 +199,7 @@ function FinancialServices ( ){
             </div>
 
             {/* Industry Page Our Offerings */}
-
+            <div id="our-offerings" style={{height:"70px"}}></div>
             <div className = "industry-page-our-offering-section financial-service-our-offering">
                 <div className="industry-page-our-offering new-all-margin">
                     <h1 className="section-title">Our Offerings</h1>

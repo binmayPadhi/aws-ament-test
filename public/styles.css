@@ -2537,7 +2537,7 @@ label{
 
 /* INDUSTRY BUSINESS VERTICAL */
 .industry-page-business-vertical-section{
-    margin-top: 60px;
+    /* margin-top: 60px; */
 }
 .industry-page-business-vertical{
     background-color: #19AF8F;
@@ -2576,7 +2576,7 @@ label{
 
 /* INDUSTRY AI SOLUTIONS */
 .industry-page-ai-solution-section{
-    margin-top: 60px;
+    /* margin-top: 60px; */
 }
 .industry-page-ai-solution-section .section-title{
     text-align: center;
@@ -2628,7 +2628,7 @@ label{
 
 /* INDUSTRY OUR OFFERINGS */
 .industry-page-our-offering-section{
-    margin-top: 60px;
+    /* margin-top: 60px; */
     margin-bottom: 60px;
 }
 
@@ -2654,7 +2654,7 @@ label{
 .our-offering-img img{
     width: 350px;
     height: 350px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     margin-top: 15px;
     margin-left: 50px;
 }
@@ -2786,6 +2786,7 @@ label{
 .our-offering-img img {
     border-radius: 0%;
     margin-left: 0px;
+    width: auto;
 }
 
 .our-offering-title {
@@ -2814,7 +2815,7 @@ label{
 
     .our-offering-img img {
         border-radius: 0%;
-        width: 90%;
+        width: auto;
         margin-left: 0px;
     }
     .our-offering-details{
@@ -2873,7 +2874,7 @@ label{
     }
     .our-offering-img img {
         border-radius: 0%;
-        width: 95%;
+        width: auto;
         margin-left: 0px;
     }
     .our-offering-details{
@@ -3932,7 +3933,6 @@ label{
     font-weight: 800;
     margin-top: 10px;
 }
-
 
 
 /* NEW HOMEPAGE OUR SERVICE SECTION */
@@ -5533,7 +5533,7 @@ label{
     vertical-align: middle;
 } */
 
-/* ANIMATION TEST */
+/* ANIMATION SECTION*/
 
 .new-our-service-card:hover img{
     transform: scale(1.1);
@@ -5547,17 +5547,46 @@ label{
     transform-origin: 50% 50%;
 }
 
+/* INDUSTRY ANIMATION CARD AND ALL IMAGES */
+
 .animation-card {
     display: inline-block;
     overflow: hidden;            
   }
-  .animation-card img {
+.animation-card img {
     display: block;
     transition: transform .4s;   
-  }
+}
+
+.animation-card .card-body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.11);
+    color: white;
+    display: none;
+    /* transform:translateY(80%); */
+    margin-top: 70%;
+}
+
+.animation-card:hover .card-body {
+    display: block;
+    animation: slideUp .8s ease-in-out ;
+}
 
 
-  @keyframes zoomOut {
+@keyframes slideUp {
+    0% {
+        margin-top: 100%;
+        opacity: .8;
+    }
+    100% {
+        margin-top: 70%;
+        opacity: 1;
+    }
+}
+
+@keyframes zoomOut {
     50% {
         transform: scale(0, 0);
         opacity: .8;
@@ -5575,7 +5604,7 @@ label{
     }
     25%,
     75% {
-        transform: scale(1.8);
+        transform: scale(1.1);
         opacity: 0
     }
     50% {
@@ -5616,14 +5645,8 @@ label{
     0%, 100% {
         transform: scale3d(1, 1, 1);
     }
-    30%,
-    60% {
-        transform: scale3d(1.25, 0.75, 1);
-    }
-    40%,
-    80% {
-        transform: scale3d(0.75, 1.25, 1);
-    }
+
+  
     50% {
         transform: scale3d(1.15, 0.85, 1);
     }
