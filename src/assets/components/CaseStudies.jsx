@@ -58,7 +58,7 @@ function TestCaseStudies ( ) {
                         {CaseStudiesData.map(caseStudy => {
                             return (
                                 <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 case-studies-list new-case-studies-list p-2" id={caseStudy.id} key ={caseStudy.id}>
-                                    <div className="card animation-card case-studies-page-card">
+                                    <div className="card animation-card-image case-studies-page-card">
                                         <img loading="lazy" className="img-fluid card-img-top" src={caseStudy.caseStudiesIMG} alt ="case-studies"/>
                                         <div className="card-body">
                                             {/* <span className="case-studies-icon"><img className="img-fluid" src={caseStudy.caseStudiesIcon} alt ="case-studies-icon"/> </span> */}

@@ -125,7 +125,7 @@ function Healthcare ( ){
             </div>
 
             {/* Industry Page AI Solutions */}
-            <div id="ai-solutions" style={{height:"70px"}}></div>
+            <div id="ai-solutions" style={{height:"80px"}}></div>
             <div className ="industry-page-ai-solution-section">
                 <h1 className="section-title">AI Solutions</h1>
                 <hr></hr>
@@ -150,7 +150,7 @@ function Healthcare ( ){
                                 <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Population health insights
                                 </div>
                                 <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                                 </p>
                             </div>
                         </div>

@@ -125,7 +125,7 @@ function FinancialServices ( ){
             </div>
 
             {/* Industry Page AI Solutions */}
-            <div id="ai-solutions" style={{height:"70px"}}></div>
+            <div id="ai-solutions" style={{height:"80px"}}></div>
             <div className ="industry-page-ai-solution-section">
                 <h1 className="section-title">AI Solutions</h1>
                 <hr></hr>

@@ -2540,7 +2540,7 @@ label{
     /* margin-top: 60px; */
 }
 .industry-page-business-vertical{
-    background-color: #19AF8F;
+    background-color: black;
     padding: 40px 0px;
 }
 
@@ -2604,7 +2604,7 @@ label{
 .industry-page-ai-solution-section .ai-solutions-card{
     border: none;
     box-shadow: 0px 12px 12px #0000002d;
-    border-radius: 22px;
+    border-radius: 8px;
 }
 
 .ai-solutions-card .card-body{
@@ -2672,6 +2672,7 @@ label{
     margin: 20px;
     width: 380px;
     box-shadow: 0px 5px 12px #ffffff;
+    border-radius: 4px;
 }
 
 .financial-service-our-offering .our-offering-title{
@@ -5533,6 +5534,9 @@ label{
     vertical-align: middle;
 } */
 
+
+
+
 /* ANIMATION SECTION*/
 
 .new-our-service-card:hover img{
@@ -5545,6 +5549,21 @@ label{
 .animation-card:hover img {
     transform: scale(1.05);
     transform-origin: 50% 50%;
+}
+
+.animation-card-image {
+    display: inline-block;
+    overflow: hidden;            
+  }
+
+.animation-card-image:hover img {
+    transform: scale(1.05);
+    transform-origin: 50% 50%;
+}
+
+.animation-card-image img {
+    display: block;
+    transition: transform .4s;
 }
 
 /* INDUSTRY ANIMATION CARD AND ALL IMAGES */

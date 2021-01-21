@@ -4,7 +4,8 @@ import talendLogo from "../../images/HomePage/partner-logos/talend.png";
 import hadoopLogo from "../../images/HomePage/partner-logos/hadoop.png";
 import nifiLogo from "../../images/HomePage/partner-logos/nifi.png";
 import siliconLogo from "../../images/HomePage/partner-logos/silicon.png";
-
+import teamleaseLogo from "../../images/HomePage/partner-logos/teamlease.png";
+import cioreviewLogo from "../../images/HomePage/partner-logos/cioreview.png";
 const ourPartnerData = [
     {
         id : 1,
@@ -30,6 +31,14 @@ const ourPartnerData = [
     {
         id : 6,
         partnerLogo : siliconLogo
+    },
+    {
+        id : 7,
+        partnerLogo : teamleaseLogo
+    },
+    {
+        id : 8,
+        partnerLogo : cioreviewLogo
     }
 ];
 

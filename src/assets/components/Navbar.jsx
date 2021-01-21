@@ -14,7 +14,7 @@ import DataAnnotationDropdownIcon from "../images/Service-Page/service-dropdown-
 import RetailEcommerceIcon from "../images/industry-Page/retail-ecommerce-icon.png";
 import HealthcareIcon from "../images/industry-Page/healthcare-icon.png";
 import InformationManagementIcon from "../images/industry-Page/info-management-icon.png";
-import FinancialServiceIcon from "../images/industry-Page/retail-ecommerce-icon.png";
+import FinancialServiceIcon from "../images/industry-Page/financial-service-icon.png";
 import "../CSS/Navbar.css";
 
 function Navbar(){
@@ -311,7 +311,7 @@ function hideIndustryDropdown() {
 
                   <div  className="service-dropdown-menu" onMouseOver={showIndustryDropdown} onMouseOut={hideIndustryDropdown} style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                   
-                  <a onClick={() => window.location.href="/aboutus"} style={serviceDropdown} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
+                  <a style={serviceDropdown} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                 
                     Industries
                   

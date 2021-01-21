@@ -124,7 +124,7 @@ function InformationManagement ( ){
             </div> */}
 
             {/* Industry Page AI Solutions */}
-            <div id="ai-solutions" style={{height:"70px"}}></div>
+            <div id="ai-solutions" style={{height:"80px"}}></div>
             <div className ="industry-page-ai-solution-section">
                 <h1 className="section-title">AI Solutions</h1>
                 <hr></hr>
@@ -228,7 +228,7 @@ function InformationManagement ( ){
                                 <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Data Privacy & Masking
                             </div>
                             <div className="our-offering-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Information Architecture Startegy
+                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Information Architecture Strategy
                             </div>
                         </div>
                     </div>
