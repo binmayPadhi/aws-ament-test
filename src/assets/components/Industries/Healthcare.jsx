@@ -1,20 +1,23 @@
 import React from "react";
-import ServiceBG from "../../images/Service-Page/services-bg.jpg";
+import HealthcareBG from "../../images/industry-Page/healthcare-bg.png";
 import {NavLink} from "react-router-dom";
 import AiSolutionIcon from "../../images/industry-Page/ai-solutions-icon.png";
+import infoRequestImg from "../../images/industry-Page/info-on-request.png";
+import healthSolutionsImg from "../../images/industry-Page/health-solutions.png";
+import telehealthImg from "../../images/industry-Page/telehealth.png";
 
 function Healthcare ( ){
     return (
         <>
-                        <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${ServiceBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
+                        <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${HealthcareBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
                          <div className="row service-new-all-margin">
                         <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
                             <h2 className="textAnimation" data-text="Automate & Modernize!">
                             Healthcare
                             </h2>
                             <p>
-                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum
+                            Our mission is to help healthcare organizations, payers, and their partners use AI technology to help improve outcomes, 
+                            streamline operations, identify financial risks, and retain their most valuable health consumers
                             </p>
 
                             <div className="subService-AIML-intro-btn industries-intro-section">
@@ -48,20 +51,19 @@ function Healthcare ( ){
                 <div className= "row ">
                     <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12 detail-section-text-column">
                         <h1 className="detail-section-title">
-                        Healthcare
+                        Why Us!
                         </h1>
                         <p className="detail-section-texts">
-                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                        Amnet Digital, a trusted healthcare technology services and solutions provider, combines its strong application development skills and comprehensive 
+                        knowledge of the healthcare domain to digitize your healthcare ecosystem. We develop scalable, secure, engaging, and fully customized healthcare solutions 
+                        that enhance the quality of patient care and reduce the cost of operation.
                         </p>
                         <NavLink to="/contactus">
                             <button type="button" className="btn btn-default industry-detail-section-contact-us-btn">Contact Us</button>
                         </NavLink>
                     </div>
                     <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 detail-section-img-column">
-                        <img className="img-fluid" src={ServiceBG} alt="industry-image" />
+                        <img className="img-fluid" src={HealthcareBG} alt="industry-image" />
                     </div>
                 </div>
             </div>
@@ -75,7 +77,7 @@ function Healthcare ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={ServiceBG} alt="industry-image" />
+                                <img className="img-fluid" src={healthSolutionsImg} alt="industry-image" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -87,7 +89,7 @@ function Healthcare ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={ServiceBG} alt="industry-image" />
+                                <img className="img-fluid" src={infoRequestImg} alt="industry-image" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -99,7 +101,7 @@ function Healthcare ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={ServiceBG} alt="industry-image" />
+                                <img className="img-fluid" src={HealthcareBG} alt="industry-image" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -111,7 +113,7 @@ function Healthcare ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={ServiceBG} alt="industry-image" />
+                                <img className="img-fluid" src={telehealthImg} alt="industry-image" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -137,8 +139,7 @@ function Healthcare ( ){
                                 <div className="card-title d-flex">
                                 <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Health system optimization
                                 </div>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <p>Create an efficient, more sustainable and secure healthcare system.
                                 </p>
                             </div>
                         </div>
@@ -149,8 +150,7 @@ function Healthcare ( ){
                                 <div className="card-title d-flex">
                                 <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Population health insights
                                 </div>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <p>Unlock the power of your data to help improve quality, safety and population health management.
                                 </p>
                             </div>
                         </div>
@@ -161,8 +161,7 @@ function Healthcare ( ){
                                 <div className="card-title d-flex">
                                 <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Individual insights and engagement
                                 </div>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <p>Engage, improve and transform the experience for your health consumers.
                                 </p>
                             </div>
                         </div>
@@ -173,8 +172,7 @@ function Healthcare ( ){
                                 <div className="card-title d-flex">
                                 <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Healthcare cybersecurity
                                 </div>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <p>Protect your systems and data with an intelligent and orchestrated approach.
                                     </p>
                             </div>
                         </div>
@@ -186,10 +184,10 @@ function Healthcare ( ){
                         <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Web and Mobile Healthcare Solutions
+                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Digital Healthcare Solutions
                                 </div>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <p>We develop custom mobile and web-based software solution for clinics and hospitals to deliver benefits like 
+                                    inventory management, patient engagement, managing health records, medical billing, and revenue cycle.
                                 </p>
                             </div>
                         </div>
@@ -200,8 +198,7 @@ function Healthcare ( ){
                                 <div className="card-title d-flex">
                                 <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Diagnostic Imaging
                                 </div>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <p>Scale delivery of care, strengthen clinical diagnoses and transform your raw data into actionable insights
                                     </p>
                             </div>
                         </div>
@@ -212,8 +209,7 @@ function Healthcare ( ){
                                 <div className="card-title d-flex">
                                 <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Payer
                                 </div>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <p>Driving adoption of emerging solutions and platforms to give you the edge.
                                 </p>
                             </div>
                         </div>
@@ -231,7 +227,7 @@ function Healthcare ( ){
 
                     <div className="our-offering-row row">
                         <div className="col-xl-3 col-lg-12 col-md-12 col-sm-12 our-offering-img text-center">
-                            <img className="img-fluid" src={ServiceBG} alt="industry-image" />
+                            <img className="img-fluid" src={HealthcareBG} alt="industry-image" />
                         </div>
                         <div className="col-xl-9 col-lg-12 col-md-12 col-sm-12 our-offering-details">
                             <div className="our-offering-title d-flex">

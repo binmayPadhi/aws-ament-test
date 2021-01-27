@@ -2,6 +2,10 @@ import React from "react";
 import ServiceBG from "..//../images/industry-Page/retail-bg.png";
 import {NavLink} from "react-router-dom";
 import AiSolutionIcon from "../../images/industry-Page/ai-solutions-icon.png";
+import B2BImg from "../../images/industry-Page/B2B.png";
+import B2CImg from "../../images/industry-Page/B2C.png";
+import D2CImg from "../../images/industry-Page/D2C.png";
+import MarketplaceSolutionsImg from "../../images/industry-Page/marketplace-solutions.png";
 
 function RetailEcommerce ( ){
     return (
@@ -13,8 +17,8 @@ function RetailEcommerce ( ){
                             Retail & eCommerce
                             </h2>
                             <p>
-                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum
+                            Innovative solutions to connect stores, market products and analyze sales. 
+                            Personalized experiences to engage browsers and convert them to buyers.
                             </p>
 
                             <div className="subService-AIML-intro-btn industries-intro-section">
@@ -48,13 +52,14 @@ function RetailEcommerce ( ){
                 <div className= "row ">
                     <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12 detail-section-text-column">
                         <h1 className="detail-section-title">
-                        Retail & eCommerce
+                        Why Us!
                         </h1>
                         <p className="detail-section-texts">
-                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                        Retail landscape is changing at an unprecedented pace and the digital experience is becoming a key 
+                        differentiator for retailers, distributors, marketplace players, and brands to drive business forward. 
+                        Amnet Digital powers the growth of digital commerce across all of these segments. We are proudly associated 
+                        with growing businesses and supporting digital operations for some of the biggest retail chains and brands 
+                        across the globe.
                         </p>
                         <NavLink to="/contactus">
                             <button type="button" className="btn btn-default industry-detail-section-contact-us-btn">Contact Us</button>
@@ -75,7 +80,7 @@ function RetailEcommerce ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={ServiceBG} alt="industry-image" />
+                                <img className="img-fluid" src={B2CImg} alt="industry-image" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -87,7 +92,7 @@ function RetailEcommerce ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={ServiceBG} alt="industry-image" />
+                                <img className="img-fluid" src={B2BImg} alt="industry-image" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -99,7 +104,7 @@ function RetailEcommerce ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={ServiceBG} alt="industry-image" />
+                                <img className="img-fluid" src={D2CImg} alt="industry-image" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -111,7 +116,7 @@ function RetailEcommerce ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={ServiceBG} alt="industry-image" />
+                                <img className="img-fluid" src={ MarketplaceSolutionsImg} alt="industry-image" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -137,8 +142,8 @@ function RetailEcommerce ( ){
                                 <div className="card-title d-flex">
                                 <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimizing Marketing Strategy
                                 </div>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <p>Marketing Optimization is the process of improving the marketing efforts of 
+                                    an organization in an effort to maximize the desired business outcomes.
                                 </p>
                             </div>
                         </div>
@@ -149,8 +154,8 @@ function RetailEcommerce ( ){
                                 <div className="card-title d-flex">
                                 <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize your content for high purchase
                                 </div>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <p>Optimizing content is less a matter of keyword presence and metadata and more an issue of 
+                                    trust, intent, quality, and authority.
                                 </p>
                             </div>
                         </div>
@@ -161,8 +166,9 @@ function RetailEcommerce ( ){
                                 <div className="card-title d-flex">
                                 <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize your digital and social media strategy
                                 </div>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <p>Collect, analyze and evaluate vast amount of semi-structured and unstructured 
+                                    social media data and turn it into insights for business with descriptive, predictive 
+                                    and prescriptive analytics.
                                 </p>
                             </div>
                         </div>
@@ -173,13 +179,27 @@ function RetailEcommerce ( ){
                                 <div className="card-title d-flex">
                                 <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize product pages
                                 </div>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <p>Identification of optimal price points influenced by multiple 
+                                    factors such as Item, brand, sub-category, category, location, product affinity, 
+                                    competitive and demographic
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>  
+                <div className="ai-solutions-row row ">
+                <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div className="ai-solutions-card card">
+                            <div className="card-body">
+                                <div className="card-title d-flex">
+                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Supply Chain Management
+                                </div>
+                                <p>Improve efficiency of supply chain activities to achieve the capability to cater to customers demands with accuracy and minimum possible investment.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             </div>
 

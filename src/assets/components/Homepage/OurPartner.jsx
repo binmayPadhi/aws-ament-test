@@ -9,7 +9,7 @@ function OurPartner (){
     var settings = {
         dots: false,
         infinite: true,
-        speed: 500,
+        speed: 1000,
         slidesToShow: 4,
         autoplay: true,
         autoplaySpeed: 1500,

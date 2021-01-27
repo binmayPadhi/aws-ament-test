@@ -1,5 +1,5 @@
 import React from "react";
-import ServiceBG from "../../images/Service-Page/services-bg.jpg";
+import ServiceBG from "../../images/industry-Page/info-management-bg.png";
 import {NavLink} from "react-router-dom";
 import AiSolutionIcon from "../../images/industry-Page/ai-solutions-icon.png";
 
@@ -13,8 +13,8 @@ function InformationManagement ( ){
                             Information Management
                             </h2>
                             <p>
-                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum
+                            Amnet Digital Hybrid Data Management is a complete set of AI-enabled solutions that allow organizations to collect data of any type, source and 
+                            structure to make it simple and accessible across multiple vendors, deployments and workloads
                             </p>
 
                             <div className="subService-AIML-intro-btn industries-intro-section">
@@ -136,8 +136,8 @@ function InformationManagement ( ){
                                 <div className="card-title d-flex">
                                 <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Insight Strategy
                                 </div>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <p>We help define a strategy to embed data analysis and data reasoning into the decision making processes, 
+                                    using analytics to tackle the most complex business challenges.
                                 </p>
                             </div>
                         </div>
@@ -148,8 +148,7 @@ function InformationManagement ( ){
                                 <div className="card-title d-flex">
                                 <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Information Delivery & Automation
                                 </div>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <p>As data volumes get bigger, computers get faster, and analysis gets more complex, we help and enable employees, partners, and suppliers to collaborate better.
                                 </p>
                             </div>
                         </div>
@@ -172,8 +171,8 @@ function InformationManagement ( ){
                                 <div className="card-title d-flex">
                                 <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Advanced Analytics
                                 </div>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <p>Our proven experience in delivering analytics solutions to enterprises can help 
+                                    your business gain a competitive advantage.
                                 </p>
                             </div>
                         </div>
@@ -187,8 +186,8 @@ function InformationManagement ( ){
                                 <div className="card-title d-flex">
                                 <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Data & Content Management
                                 </div>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <p>Collect, store and utilize data to execute business processes and workflows 
+                                    through structured features for business transformation.
                                 </p>
                             </div>
                         </div>

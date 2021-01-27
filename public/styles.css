@@ -2532,7 +2532,7 @@ label{
     padding-right: 0px !important;
 }
 .detail-section-img-column img{
-    height: 338px;
+    height: 394px;
 }
 
 /* INDUSTRY BUSINESS VERTICAL */
@@ -2608,7 +2608,7 @@ label{
 }
 
 .ai-solutions-card .card-body{
-    height: 200px;
+    height: 230px;
 }
 
 .ai-solutions-card .card-title{
@@ -2852,14 +2852,18 @@ label{
 
 }
 
-
+@media only screen and (min-width: 1024px) and (max-width: 1190px) {
+    .detail-section-img-column img {
+        height: 465px !important;
+    }
+}
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
     .detail-section-title {
         font-size: 3.5rem;
     }
     .detail-section-img-column img {
-        height: 381px;
+        height: 409px;
     }
 
     .information-management-details-image img {

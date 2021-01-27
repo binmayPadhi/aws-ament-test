@@ -1,7 +1,11 @@
 import React from "react";
-import ServiceBG from "../../images/Service-Page/services-bg.jpg";
+import ServiceBG from "../../images/industry-Page/financial-bg.png";
 import {NavLink} from "react-router-dom";
 import AiSolutionIcon from "../../images/industry-Page/ai-solutions-icon.png";
+import bankingImg from "../../images/industry-Page/banking.png";
+import stockImg from "../../images/industry-Page/stock.png";
+import fintechImg from "../../images/industry-Page/fintech.png";
+import capitalRestructuringImg from "../../images/industry-Page/capital-restructuring.png";
 
 function FinancialServices ( ){
     return (
@@ -13,8 +17,9 @@ function FinancialServices ( ){
                             Financial Services
                             </h2>
                             <p>
-                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Lorem Ipsum Lorem Ipsum
+                            We’ve been building feature-rich financial software solutions since the dawn of the fintech industry. Poised with a team of masterful software developers, 
+                            business strategists, and tech experts, we deliver robust solutions to every client. With the experience of working with more than 10 globally-leading banks 
+                            and financial institutions, we are the right tech partner for you.
                             </p>
 
                             <div className="subService-AIML-intro-btn industries-intro-section">
@@ -51,10 +56,9 @@ function FinancialServices ( ){
                         Financial Services
                         </h1>
                         <p className="detail-section-texts">
-                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                        The BFSI sector is undergoing rapid changes. FinTechs are setting the bar high for customer experience, agility, and speed at which services are delivered. 
+                        Superior customer experience and innovative delivery models have become the key differentiators to grow in this market. Ranosys delivers these differentiators 
+                        with technical expertise and partnership with powerful platforms.
                         </p>
                         <NavLink to="/contactus">
                             <button type="button" className="btn btn-default industry-detail-section-contact-us-btn">Contact Us</button>
@@ -75,7 +79,7 @@ function FinancialServices ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={ServiceBG} alt="industry-image" />
+                                <img className="img-fluid" src={bankingImg} alt="industry-image" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -87,7 +91,7 @@ function FinancialServices ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={ServiceBG} alt="industry-image" />
+                                <img className="img-fluid" src={fintechImg} alt="industry-image" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -99,7 +103,7 @@ function FinancialServices ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={ServiceBG} alt="industry-image" />
+                                <img className="img-fluid" src={stockImg} alt="industry-image" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -111,7 +115,7 @@ function FinancialServices ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={ServiceBG} alt="industry-image" />
+                                <img className="img-fluid" src={capitalRestructuringImg} alt="industry-image" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -137,8 +141,7 @@ function FinancialServices ( ){
                                 <div className="card-title d-flex">
                                 <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Digital Banking Platform
                                 </div>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                   Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <p>Accelerate your journey to cloud with banking technology solutions that modernize core systems and applications.
                                 </p>
                             </div>
                         </div>
@@ -149,8 +152,8 @@ function FinancialServices ( ){
                                 <div className="card-title d-flex">
                                 <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Insurance Claim Management
                                 </div>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                   Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <p>Insurance claims management products can help insurers reduce 
+                                    claims management costs, reduce fraudulent claims, and enhance customer experience.
                                 </p>
                             </div>
                         </div>
@@ -161,8 +164,8 @@ function FinancialServices ( ){
                                 <div className="card-title d-flex">
                                 <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Digital Wallet Solution
                                 </div>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                   Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <p>Amnet Digital helps you to best use the power of digital payment. With a diverse experience of developing digital payment solutions, 
+                                    we ensure that every specific need of the client is addressed.
                                 </p>
                             </div>
                         </div>
@@ -171,10 +174,10 @@ function FinancialServices ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Field Service Platform
+                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business Intelligence Solutions
                                 </div>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                   Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <p>We combine the power of data analytics, machine learning, and software development to build astonishingly efficient software applications. 
+                                    Our feature-rich BI solutions have helped many clients make insights-based decisions.
                                 </p>
                             </div>
                         </div>
@@ -186,10 +189,10 @@ function FinancialServices ( ){
                         <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Loan Management Systems
+                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Loan Management Solutions
                                 </div>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                                   Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                                <p>Track customers’ loan data, repayment history, missed installments, etc. with powerful loan management solutions. We help you significantly 
+                                    reduce the risks of defaulting while expanding the scope of your business.
                                 </p>
                             </div>
                         </div>
