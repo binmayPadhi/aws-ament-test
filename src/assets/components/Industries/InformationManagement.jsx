@@ -218,7 +218,7 @@ function InformationManagement ( ){
                                 <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Enterprise Data Warehouse
                             </div>
                             <div className="our-offering-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Information Life Cycle Management
+                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Information Architecture Strategy 
                             </div>
                             <div className="our-offering-title d-flex">
                                 <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Master Data Management
@@ -227,7 +227,7 @@ function InformationManagement ( ){
                                 <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Data Privacy & Masking
                             </div>
                             <div className="our-offering-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Information Architecture Strategy
+                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Information Life Cycle Management
                             </div>
                         </div>
                     </div>

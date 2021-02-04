@@ -325,9 +325,9 @@ function hideIndustryDropdown() {
 
                         <div className="col-10 service-dropdown-link">
                         <NavLink to={`/${`retail-ecommerce`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Retail & eCommerce</NavLink>
+                        <p className="sub-service-links"><a href={`/${`retail-ecommerce`}#business-vertical`}>Business Vertical</a></p>
                         <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`retail-ecommerce`}#ai-solutions`}>AI Solutions</a></p>
                         <p className="sub-service-links"><a  href={`/${`retail-ecommerce`}#our-offerings`}>Our Offerings</a></p>
-                        <p className="sub-service-links"><a href={`/${`retail-ecommerce`}#business-vertical`}>Business Vertical</a></p>
                         </div>
                         </div>    
                       </div>
@@ -338,9 +338,10 @@ function hideIndustryDropdown() {
 
                         <div className="col-10 service-dropdown-link">
                         <NavLink to={`/${`healthcare`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Healthcare</NavLink>
+                        <p className="sub-service-links"><a href={`/${`healthcare`}#business-vertical`}>Business Vertical</a></p>
                         <p className="sub-service-links"style={{marginTop:"5px"}}><a href={`/${`healthcare`}#ai-solutions`}>AI Solutions</a></p>
                         <p className="sub-service-links"><a href={`/${`healthcare`}#our-offerings`}>Our Offerings</a></p>
-                        <p className="sub-service-links"><a href={`/${`healthcare`}#business-vertical`}>Business Vertical</a></p>
+                        
                         </div>
                         </div>  
                     </div>
@@ -363,9 +364,10 @@ function hideIndustryDropdown() {
 
                         <div className="col-10 service-dropdown-link">
                         <NavLink to={`/${`financial-services`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Financial Services</NavLink>
+                        <p className="sub-service-links"><a href={`/${`financial-services`}#business-vertical`}>Business Vertical</a></p>
                         <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`financial-services`}#ai-solutions`}>AI Solutions</a></p>
                         <p className="sub-service-links"><a href={`/${`financial-services`}#our-offerings`}>Our Offerings</a></p>
-                        <p className="sub-service-links"><a href={`/${`financial-services`}#business-vertical`}>Business Vertical</a></p>
+                        
                         </div>
                         </div>
 

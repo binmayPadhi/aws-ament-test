@@ -2603,6 +2603,7 @@ label{
 
 .industry-page-ai-solution-section .ai-solutions-card{
     border: none;
+    background-color: #f2f2f2;
     box-shadow: 0px 12px 12px #0000002d;
     border-radius: 8px;
 }
@@ -2662,7 +2663,8 @@ label{
 .our-offering-details{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 50px !important;
 }
 
 .our-offering-title{
@@ -2742,6 +2744,11 @@ label{
         margin-left: 0px;
     }
 
+    .our-offering-details{
+        justify-content: center;
+        padding-left: 15px !important;
+    }
+
     .our-offering-title {
         font-size: 1.5rem;
     }
@@ -2788,6 +2795,11 @@ label{
     border-radius: 0%;
     margin-left: 0px;
     width: auto;
+}
+
+.our-offering-details{
+    justify-content: center;
+    padding-left: 15px !important;
 }
 
 .our-offering-title {
@@ -2850,6 +2862,10 @@ label{
     margin-left: 30px !important;
 }
 
+   .our-offering-details{
+        padding-left: 15px !important;
+    }
+
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1190px) {
@@ -2882,9 +2898,9 @@ label{
         width: auto;
         margin-left: 0px;
     }
-    .our-offering-details{
+    /* .our-offering-details{
         justify-content: center;
-    }
+    } */
 }
 
 
@@ -5812,3 +5828,43 @@ label{
         font-size: 1.2rem;
     }
 }
+
+
+
+
+
+
+/* 
+#navbar10 {
+    overflow: hidden;
+    background-color: white;
+    z-index: 99;
+    height: 85px;
+    padding: 15px;
+
+  }
+  
+  #navbar10 a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar10 a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .sticky {
+    position: fixed;
+    margin-top: 85px;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  } */

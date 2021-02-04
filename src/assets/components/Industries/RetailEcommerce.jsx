@@ -6,7 +6,7 @@ import B2BImg from "../../images/industry-Page/B2B.png";
 import B2CImg from "../../images/industry-Page/B2C.png";
 import D2CImg from "../../images/industry-Page/D2C.png";
 import MarketplaceSolutionsImg from "../../images/industry-Page/marketplace-solutions.png";
-
+// import "../test";
 function RetailEcommerce ( ){
     return (
         <>
@@ -45,6 +45,12 @@ function RetailEcommerce ( ){
                     "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem"
                 </h2>
             </div>
+
+            {/* <div id="navbar10">
+  <a class="active" href="javascript:void(0)">Home /</a>
+  <a href="javascript:void(0)">Industries /</a>
+  <a href="javascript:void(0)">Retail & eCommerce</a>
+</div> */}
             
 
             {/* Industry Page Detail Section */}
@@ -212,7 +218,7 @@ function RetailEcommerce ( ){
 
                     <div className="our-offering-row row">
                         <div className="col-xl-3 col-lg-12 col-md-12 col-sm-12 our-offering-img text-center">
-                            <img className="img-fluid" src={ServiceBG} alt="industry-image" />
+                            <img className="img-fluid" src={ServiceBG} alt="industry-img" />
                         </div>
                         <div className="col-xl-9 col-lg-12 col-md-12 col-sm-12 our-offering-details">
                             <div className="our-offering-title d-flex">
