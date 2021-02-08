@@ -158,12 +158,13 @@ function Test (){
         <div id="consent-popup" className="hidden cookies-banner">
             <div className="row">
                 <div className="col-xl-8 col-lg-8">
-                <p>This website uses cookies. We use cookies to optimize web functionality, collect website analytics and traffic data, and to provide a more personalized user experience. 
+                <p>This website uses cookies. We use cookies to optimize web functionality, collect website analytics and traffic data, and to provide a more personalized user experience.
+                    <a className="cookies-readmore-link" href="/cookiespolicy">Read more...</a> 
             </p>
                 </div>
                 <div className="col-xl-4 col-lg-4 text-center">
-                <button className="btn btn-default cookies-accept-btn" id="accept" >Accept</button>
                 <button className="btn btn-default cookies-decline-btn" id="decline" >Decline</button>
+                <button className="btn btn-default cookies-accept-btn" id="accept" >Accept</button>
                 </div>
             </div>
         </div>

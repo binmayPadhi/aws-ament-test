@@ -5786,13 +5786,19 @@ label{
 
 .cookies-banner .cookies-decline-btn{
     font-size: 1.5rem;
-    color: white;
+    color: black;
     padding: 5px 30px;
-    background-color: #FD5D14;
+    background-color: white;
+    box-shadow:  0px 1px 6px #0000004d;
 }
 
 .cookies-banner p{
     font-size: 1.5rem;
+}
+
+.cookies-readmore-link{
+    font-size: 1.5rem;
+    margin-left: 5px;
 }
 
 .cta {
@@ -5811,10 +5817,37 @@ label{
     padding: 2rem 8rem;
     background-color: #fff;
     transition: opacity 1s ease;
+    z-index: 97;
 }
 #consent-popup.hidden {
     opacity: 0;
 }
+
+
+
+/* COOKIES Policy Page SECTION */
+/* .................................................................................................................................. */
+.cookie-policy h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: black;
+}
+
+.cookie-policy p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: black;
+    margin-top: 10px;
+}
+
+.use-of-cookies-title{
+    margin-top: 40px;
+}
+
+.control-of-cookies{
+    margin-top: 40px;
+}
+
 
 /* COOKIES BANNER RESPONSIVE SECTION */
 /* .................................................................................................................................. */
@@ -5827,20 +5860,37 @@ label{
     .cookies-banner p{
         font-size: 1.2rem;
     }
+    .cookies-readmore-link{
+        font-size: 1.2rem;
+    }
+}
+
+/* COOKIES Policy Page Responsive SECTION */
+/* .................................................................................................................................. */
+
+@media only screen and (min-width: 320px) and (max-width: 426px) {
+    .cookie-policy h1{
+        font-size: 2.5rem;
+    }
+    
+    .cookie-policy p{
+        font-size: 1.5rem;
+    }
 }
 
 
 
 
 
-
-/* 
 #navbar10 {
     overflow: hidden;
     background-color: white;
     z-index: 99;
     height: 85px;
     padding: 15px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 83px;
 
   }
   
@@ -5859,12 +5909,3 @@ label{
     color: black;
   }
   
-  .sticky {
-    position: fixed;
-    margin-top: 85px;
-    width: 100%;
-  }
-  
-  .sticky + .content {
-    padding-top: 60px;
-  } */

@@ -6,7 +6,7 @@ import B2BImg from "../../images/industry-Page/B2B.png";
 import B2CImg from "../../images/industry-Page/B2C.png";
 import D2CImg from "../../images/industry-Page/D2C.png";
 import MarketplaceSolutionsImg from "../../images/industry-Page/marketplace-solutions.png";
-// import "../test";
+
 function RetailEcommerce ( ){
     return (
         <>
@@ -46,11 +46,11 @@ function RetailEcommerce ( ){
                 </h2>
             </div>
 
-            {/* <div id="navbar10">
+            <div id="navbar10">
   <a class="active" href="javascript:void(0)">Home /</a>
   <a href="javascript:void(0)">Industries /</a>
   <a href="javascript:void(0)">Retail & eCommerce</a>
-</div> */}
+</div>
             
 
             {/* Industry Page Detail Section */}

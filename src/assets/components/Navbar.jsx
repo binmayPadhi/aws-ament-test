@@ -11,10 +11,10 @@ import CloudDropdownIcon from "../images/Service-Page/service-dropdown-icons/ser
 import QADropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-qa.png";
 import ConsultingDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-strat-consult.png";
 import DataAnnotationDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-data-annotation.png";
-import RetailEcommerceIcon from "../images/industry-Page/retail-ecommerce-icon.png";
-import HealthcareIcon from "../images/industry-Page/healthcare-icon.png";
-import InformationManagementIcon from "../images/industry-Page/info-management-icon.png";
-import FinancialServiceIcon from "../images/industry-Page/financial-service-icon.png";
+// import RetailEcommerceIcon from "../images/industry-Page/retail-ecommerce-icon.png";
+// import HealthcareIcon from "../images/industry-Page/healthcare-icon.png";
+// import InformationManagementIcon from "../images/industry-Page/info-management-icon.png";
+// import FinancialServiceIcon from "../images/industry-Page/financial-service-icon.png";
 import "../CSS/Navbar.css";
 
 function Navbar(){
@@ -309,7 +309,7 @@ function hideIndustryDropdown() {
 
 
 
-                  <div  className="service-dropdown-menu" onMouseOver={showIndustryDropdown} onMouseOut={hideIndustryDropdown} style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
+                  {/* <div  className="service-dropdown-menu" onMouseOver={showIndustryDropdown} onMouseOut={hideIndustryDropdown} style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                   
                   <a style={serviceDropdown} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                 
@@ -375,7 +375,7 @@ function hideIndustryDropdown() {
                   </div>
                 </div>
                   
-                </div>
+                </div> */}
 
 
 
@@ -408,7 +408,7 @@ function hideIndustryDropdown() {
 
                   {/* FOR SMALLER DEVICES */}
                   
-                  <div className="dropdown sub-service-dropdown" style={{marginTop:"5.5px"}}>
+                  {/* <div className="dropdown sub-service-dropdown" style={{marginTop:"5.5px"}}>
                       <div className=" dropdown-toggle d-flex" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <a style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                   
@@ -427,7 +427,7 @@ function hideIndustryDropdown() {
                         <NavLink className="dropdown-item sub-service-dropdown-item" to={`/${`information-management`}`}>Information Management</NavLink>
                         <NavLink className="dropdown-item sub-service-dropdown-item" to={`/${`financial-services`}`}>Financial Services</NavLink>
                       </div>
-                    </div> 
+                    </div>  */}
 
                 
                 {/* <div style={{padding:"15px 0px 0px 0px"}}> */}
