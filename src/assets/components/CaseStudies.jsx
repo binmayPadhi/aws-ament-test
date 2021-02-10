@@ -11,12 +11,12 @@ function TestCaseStudies ( ) {
                          <div className="row">
                         <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
                             <h2 className="textAnimation" data-text="Making A Difference!">
-                            Making A Difference!
+                            Making A Difference
                             </h2>
                             <p>
                             We adopt a bottom-up approach starting with strategy support through discovery and analysis of existing systems 
                             and processes and their 
-                            limitations maximizing the leverage of knowledge and results in higher value generation!
+                            limitations maximizing the leverage of knowledge and results in higher value generation.
                             </p>
 
                             <div className="subService-AIML-intro-btn">
@@ -102,11 +102,11 @@ function TestCaseStudies ( ) {
     <div className="career-section-row row g-0">
         <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-caption">
             <h5>WORK WITH US</h5>
-            <h2>Let's Grow Together!</h2>
+            <h2>Let's Grow Together</h2>
         </div>
         <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-details">
             <p>We are on a mission to solve complex problems and provide solutions 
-                that make a difference! Come work with us!
+                that make a difference, Come work with us.
             </p>
             <a href="/contactus">
                 <button type="button" className="btn btn-default contact-us-button" >Contact Us</button>

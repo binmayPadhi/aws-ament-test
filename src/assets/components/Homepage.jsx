@@ -137,11 +137,11 @@ function Test (){
                 <div className="career-section-row row g-0">
                     <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-caption">
                         <h5>WORK WITH US</h5>
-                        <h2>Let's Grow Together!</h2>
+                        <h2>Let's Grow Together</h2>
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-details">
                         <p>We are on a mission to solve complex problems and provide solutions 
-                            that make a difference! Come work with us!
+                            that make a difference, Come work with us.
                         </p>
 
                         <a href="/contactus">

@@ -14,7 +14,7 @@ function ClientSay (){
                             <img loading="lazy" src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
                             {/* <h3 className="card-title">Jamie Lorenzo</h3> */}
                             <p className ="card-text client-role">Director of Data Science, Retail Marketplace</p>
-                            <p className="card-text client-desc">The assistance we got from Amnet Digital was the glue that kept together our transformation initiatives for FY 2018-20. They stayed on top of our challenging unstructured data and provided world-class data analysis. 
+                            <p className="card-text client-desc">The assistance we got from Amnet Digital was the glue that kept together our transformation initiatives for FY 2019-20. They stayed on top of our challenging unstructured data and provided world-class data analysis. 
                             We were able to unearth hidden relationships in our customers buying patterns for better forecast and bundling of products.
                             </p>
                         </div>
@@ -40,7 +40,7 @@ function ClientSay (){
                             <img loading="lazy" src={QuoteIcon} className="img-fluid quote-icon" alt="icon" />
                             {/* <h3 className="card-title">Jamie Lorenzo</h3> */}
                             <p className ="card-text client-role">VP Engineering, eCommerce Company</p>
-                            <p className="card-text client-desc">We would like to express our satisfaction regarding the development of our eCommerce web application. The application engineering team did a very professional job. We are satisfied with the solution 
+                            <p className="card-text client-desc">We would like to express our satisfaction regarding the development of our eCommerce web application. Amnet's application engineering team did a very professional job. We are satisfied with the solution 
                             given to us and with the communication flow through the project. We look forward to working with them in future projects.
                             </p>
                         </div>
