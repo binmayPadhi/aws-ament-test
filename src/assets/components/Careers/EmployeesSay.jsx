@@ -27,7 +27,7 @@ function EmployeesSay( ) {
                                         The collaboration between departments will make you feel that you’re truly an integral part of the organization's journey.
                                         </p>
                                         <div className="employee-details">
-                                            <h1>- Rakesh Reddy, Senior Application Engineer</h1>
+                                            <h1>- Rakesh Reddy, Technical Manager</h1>
                                         </div>
                                     </div>
                                 </div>
@@ -45,7 +45,7 @@ function EmployeesSay( ) {
                                         
                                         <p className="card-text">
                                         Amnet with its fast-paced startup like culture, gives me a unique opportunity to grow my core skills and 
-                                        work beyond my comfort zone taking on new responsibilities.The office environment is young in spirit but sincere to its future goals.
+                                        work beyond my comfort zone taking on new responsibilities. The office environment is young in spirit but sincere to its future goals.
                                         </p>
                                         <div className="employee-details">
                                             <h1>- Proma Pal, Data Scientist</h1>

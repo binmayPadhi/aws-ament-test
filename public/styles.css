@@ -268,6 +268,10 @@ body{
     text-align: center;
 }
 
+.industry-page-quote{
+    margin-top: -10px;
+}
+
 .industry-section-row{
     margin-top: 80px;
 }
@@ -293,6 +297,11 @@ body{
     font-size: 1.8rem;
     font-weight: 800;
     margin-top: 60px;
+}
+
+.industry-section-card a{
+    font-size: 1.5rem;
+    color: white;
 }
 
 
@@ -2277,11 +2286,6 @@ label{
     }
 }
 
-
-
-
-
-
 /* CASE STUDIES PAGE STYLES */
 /* .................................................................................................................... */
 
@@ -2482,8 +2486,429 @@ label{
     }
 }
 
+/* INDUSTRY PAGE STYLES */
+/* .................................................................................................................... */
+
+.industry-page-detail-section .row{
+    margin-top: 60px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.detail-section-text-column{
+    background-color: black;
+    padding: 40px 20px;
+}
+
+.detail-section-title{
+    font-size: 4.5rem;
+    color: white;
+    font-weight: 800;
+    padding: 0px 20px;
+    
+}
+
+.detail-section-texts{
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 400;
+    padding: 0px 20px;
+}
+
+.industry-page-detail-section .industry-detail-section-contact-us-btn{
+    width: 150px;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    background-color: #19AF8F;
+    color: white;
+    margin-left: 15px;
+}
+
+.detail-section-img-column{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.detail-section-img-column img{
+    height: 394px;
+}
+
+/* INDUSTRY BUSINESS VERTICAL */
+.industry-page-business-vertical-section{
+    /* margin-top: 60px; */
+}
+.industry-page-business-vertical{
+    background-color: black;
+    padding: 40px 0px;
+}
+
+.business-vertical-row{
+    padding: 0px 20px;
+}
+
+.industry-page-business-vertical .section-title{
+    padding: 0px 0px 30px 0px;
+    color: white;
+    text-align: center;
+}
+
+.business-vertical-card{
+    border: none !important;
+}
+
+.business-vertical-card .card-body{
+    height: 110px;
+}
+
+.business-vertical-card .card-img-top img{
+    height: 200px;
+}
+
+.business-vertical-card .card-title{
+    font-size: 1.8rem;
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    padding: 10px 0px;
+}
+
+/* INDUSTRY AI SOLUTIONS */
+.industry-page-ai-solution-section{
+    /* margin-top: 60px; */
+}
+.industry-page-ai-solution-section .section-title{
+    text-align: center;
+}
+
+.industry-page-ai-solution-section hr{
+    text-align: center;
+    width: 10%;
+    height: 3px;
+    margin-top: 1rem !important;
+    background-color: #19AF8F;
+}
+
+.ai-solutions-row{
+    margin-top: 20px;
+}
+
+.ai-solutions-icon{
+    width: 20px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-top: 6px;
+}
+
+.industry-page-ai-solution-section .ai-solutions-card{
+    border: none;
+    background-color: #f2f2f2;
+    box-shadow: 0px 12px 12px #0000002d;
+    border-radius: 8px;
+}
+
+.ai-solutions-card .card-body{
+    height: 230px;
+}
+
+.ai-solutions-card .card-title{
+    font-size: 1.8rem;
+    color: black;
+    text-align: left;
+    font-weight: 600;
+    padding: 15px 0px 0px;
+}
+.ai-solutions-card  p{
+    font-weight: 400;
+    margin-top: 5px;
+    font-size: 1.2rem;
+    padding: 0px 23px;
+}
 
 
+/* INDUSTRY OUR OFFERINGS */
+.industry-page-our-offering-section{
+    /* margin-top: 60px; */
+    margin-bottom: 60px;
+}
+
+.industry-page-our-offering-section .section-title{
+    text-align: center;
+}    
+
+.industry-page-our-offering{
+    /* background-image: linear-gradient(to right,#19AF8F , #0ebe98); */
+    background-color: #E7E7E7;
+    padding: 40px 0px;
+    border-radius: 8px;
+}
+
+.industry-page-our-offering hr{
+    text-align: center;
+    width: 10%;
+    height: 3px;
+    margin-top: 1rem !important;
+    background-color: #19AF8F;
+}
+
+.our-offering-img img{
+    width: 350px;
+    height: 350px;
+    /* border-radius: 50%; */
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.our-offering-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 50px !important;
+}
+
+.our-offering-title{
+    background-color: #19AF8F;
+    color: white;
+    padding: 12px 10px;
+    margin: 20px;
+    width: 380px;
+    box-shadow: 0px 5px 12px #ffffff;
+    border-radius: 4px;
+}
+
+.financial-service-our-offering .our-offering-title{
+    height: 70px;
+}
+
+.our-offering-title h3{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.our-offering-title{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.financial-service-our-offering .our-offering-title h3{
+    padding: 10px 0px;
+}
+
+
+/* INDUSTRY PAGE RESPONSIVE SECTION */
+/*............................................................................................................................ */
+@media only screen and (min-width: 320px) and (max-width: 424px) {
+    .detail-section-title {
+        font-size: 2.5rem;
+    }
+
+    .detail-section-texts {
+        font-size: 1.5rem;
+    }
+
+    .business-vertical-card {
+        margin-top: 15px;
+    }
+
+    .business-vertical-card .card-body {
+        height: 80px;
+    }
+
+    .business-vertical-card .card-title {
+        font-size: 1.5rem;
+    }
+
+    .industry-page-ai-solution-section .ai-solutions-card {
+        margin-top: 15px;
+    }
+
+    .ai-solutions-icon {
+        margin-top: 4px;
+    }
+    .ai-solutions-card .card-title {
+        font-size: 1.5rem;
+    }
+
+    .ai-solutions-card .card-body {
+        height: 210px;
+    }
+
+    .industry-page-ai-solution-section 
+    .ai-solutions-second-row .ai-solutions-card {
+        margin-top: -5px;
+    }
+
+    .our-offering-img img {
+        border-radius: 0%;
+        margin-left: 0px;
+    }
+
+    .our-offering-details{
+        justify-content: center;
+        padding-left: 15px !important;
+    }
+
+    .our-offering-title {
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media only screen and (min-width: 374px) and (max-width: 424px) {
+    .ai-solutions-card .card-body {
+        height: 180px;
+    }
+    .financial-service-our-offering .our-offering-title {
+        height: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) and (min-width: 425px){
+.industries-intro-section .sub-service-contact-us-btn {
+    margin-left: 0px !important;
+    margin-top: 0px;
+}
+
+.detail-section-title {
+    font-size: 3rem;
+}
+
+.business-vertical-card {
+    margin-top: 15px;
+}
+.business-vertical-card .card-body {
+    height: 90px;
+}
+
+.industry-page-ai-solution-section .ai-solutions-card {
+    margin-top: 15px;
+}
+
+.ai-solutions-card .card-body {
+    height: 175px;
+}
+
+.our-offering-img img {
+    border-radius: 0%;
+    margin-left: 0px;
+    width: auto;
+}
+
+.our-offering-details{
+    justify-content: center;
+    padding-left: 15px !important;
+}
+
+.our-offering-title {
+    font-size: 1.5rem;
+}
+
+.financial-service-our-offering .our-offering-title {
+    height: 50px;
+}
+
+.ai-solutions-icon {
+    margin-top: 4px;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .business-vertical-card {
+        margin-top: 15px;
+    }
+
+    .industry-page-ai-solution-section .ai-solutions-card {
+        margin-top: 15px;
+    }
+
+    .our-offering-img img {
+        border-radius: 0%;
+        width: auto;
+        margin-left: 0px;
+    }
+    .our-offering-details{
+        justify-content: center;
+    }
+
+    .financial-service-our-offering .our-offering-title {
+        height: 60px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+    
+.ai-solutions-card .card-title {
+    font-size: 1.5rem;
+}
+
+.ai-solutions-card p {
+    font-size: 1.2rem !important;
+}
+
+.ai-solutions-card .card-body {
+    height: 230px;
+}
+
+.our-offering-img img {
+    border-radius: 0%;
+    width: 95%;
+    margin-left: 30px !important;
+}
+
+   .our-offering-details{
+        padding-left: 15px !important;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1190px) {
+    .detail-section-img-column img {
+        height: 465px !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    .detail-section-title {
+        font-size: 3.5rem;
+    }
+    .detail-section-img-column img {
+        height: 409px;
+    }
+
+    .information-management-details-image img {
+        height: 425px;
+    }
+
+    .ai-solutions-card p {
+        font-size: 1.5rem;
+    }
+
+    .industry-page-ai-solution-section .ai-solutions-card {
+        margin-top: 15px;
+    }
+    .our-offering-img img {
+        border-radius: 0%;
+        width: auto;
+        margin-left: 0px;
+    }
+    /* .our-offering-details{
+        justify-content: center;
+    } */
+}
+
+
+@media only screen and (min-width: 1440px) and (max-width: 1451px) {
+    .ai-solutions-card .card-body {
+        height: 225px;
+    }
+}
 
 
 /* CAREERS PAGE STYLES */
@@ -3531,7 +3956,6 @@ label{
 }
 
 
-
 /* NEW HOMEPAGE OUR SERVICE SECTION */
 
 .new-our-service-column{
@@ -3957,6 +4381,10 @@ label{
 
 /* NEW CASE STUDIES DESIGN SECTION */
 
+.subService-AIML-intro-btn button{
+    margin-right: 15px;
+}
+
 .subService-AIML-intro-btn .sub-service-contact-us-btn {
     width: 150px;
     height: 45px;
@@ -3967,7 +4395,6 @@ label{
     background-color: transparent;
     border: 1px solid white;
     color: white;
-    margin-left: 15px;
     /* margin-top: 2rem; */
 }
 
@@ -4298,8 +4725,8 @@ label{
     }
 
     .subService-AIML-intro-btn .sub-service-contact-us-btn {
-        margin-left: 5px;
-        margin-top: 0px;
+        margin-left: 0px;
+        margin-top: 5px;
     }
 
     .new-career-section button {
@@ -5127,7 +5554,10 @@ label{
     vertical-align: middle;
 } */
 
-/* ANIMATION TEST */
+
+
+
+/* ANIMATION SECTION*/
 
 .new-our-service-card:hover img{
     transform: scale(1.1);
@@ -5141,17 +5571,61 @@ label{
     transform-origin: 50% 50%;
 }
 
+.animation-card-image {
+    display: inline-block;
+    overflow: hidden;            
+  }
+
+.animation-card-image:hover img {
+    transform: scale(1.05);
+    transform-origin: 50% 50%;
+}
+
+.animation-card-image img {
+    display: block;
+    transition: transform .4s;
+}
+
+/* INDUSTRY ANIMATION CARD AND ALL IMAGES */
+
 .animation-card {
     display: inline-block;
     overflow: hidden;            
   }
-  .animation-card img {
+.animation-card img {
     display: block;
     transition: transform .4s;   
-  }
+}
+
+.animation-card .card-body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.11);
+    color: white;
+    display: none;
+    /* transform:translateY(80%); */
+    margin-top: 70%;
+}
+
+.animation-card:hover .card-body {
+    display: block;
+    animation: slideUp .8s ease-in-out ;
+}
 
 
-  @keyframes zoomOut {
+@keyframes slideUp {
+    0% {
+        margin-top: 100%;
+        opacity: .8;
+    }
+    100% {
+        margin-top: 70%;
+        opacity: 1;
+    }
+}
+
+@keyframes zoomOut {
     50% {
         transform: scale(0, 0);
         opacity: .8;
@@ -5169,7 +5643,7 @@ label{
     }
     25%,
     75% {
-        transform: scale(1.8);
+        transform: scale(1.1);
         opacity: 0
     }
     50% {
@@ -5210,14 +5684,8 @@ label{
     0%, 100% {
         transform: scale3d(1, 1, 1);
     }
-    30%,
-    60% {
-        transform: scale3d(1.25, 0.75, 1);
-    }
-    40%,
-    80% {
-        transform: scale3d(0.75, 1.25, 1);
-    }
+
+  
     50% {
         transform: scale3d(1.15, 0.85, 1);
     }
@@ -5295,3 +5763,159 @@ label{
         width: 100%;
     }
 }
+
+
+
+/* COOKIES BANNER */
+/* .................................................................................................................................. */
+
+.cookies-banner{
+    padding: 20px 0px;
+    box-shadow:  0px 1px 6px #0000004d;
+}
+
+.cookies-banner button{
+    margin: 5px 5px;
+}
+
+.cookies-banner .cookies-accept-btn{
+    font-size: 1.5rem;
+    color: white;
+    padding: 5px 30px;
+    background-color: #19AF8F;
+}
+
+.cookies-banner .cookies-decline-btn{
+    font-size: 1.5rem;
+    color: black;
+    padding: 5px 30px;
+    background-color: white;
+    box-shadow:  0px 1px 6px #0000004d;
+}
+
+.cookies-banner p{
+    font-size: 1.5rem;
+}
+
+.cookies-readmore-link{
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+
+.cta {
+    flex: 1;
+    margin-top: 2rem;
+    padding: 2rem;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+#consent-popup {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 8rem;
+    background-color: #fff;
+    transition: opacity 1s ease;
+    z-index: 97;
+}
+#consent-popup.hidden {
+    opacity: 0;
+}
+
+
+
+/* COOKIES Policy Page SECTION */
+/* .................................................................................................................................. */
+
+.cookie-policy{
+    margin-top: 85px !important;
+}
+
+.cookie-policy h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: black;
+}
+
+.cookie-policy p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: black;
+    margin-top: 10px;
+}
+
+.use-of-cookies-title{
+    margin-top: 40px;
+}
+
+.control-of-cookies{
+    margin-top: 40px;
+}
+
+
+/* COOKIES BANNER RESPONSIVE SECTION */
+/* .................................................................................................................................. */
+
+
+@media only screen and (min-width: 320px) and (max-width: 426px) {
+    #consent-popup {
+        padding: 2rem 2rem;
+    }
+    .cookies-banner p{
+        font-size: 1.2rem;
+    }
+    .cookies-readmore-link{
+        font-size: 1.2rem;
+    }
+}
+
+/* COOKIES Policy Page Responsive SECTION */
+/* .................................................................................................................................. */
+
+@media only screen and (min-width: 320px) and (max-width: 426px) {
+    .cookie-policy{
+        margin-top: 60px !important;
+    }
+
+    .cookie-policy h1{
+        font-size: 2.5rem;
+    }
+    
+    .cookie-policy p{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+#navbar10 {
+    overflow: hidden;
+    background-color: white;
+    z-index: 99;
+    height: 85px;
+    padding: 15px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 83px;
+
+  }
+  
+  #navbar10 a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar10 a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  

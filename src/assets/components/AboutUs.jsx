@@ -64,7 +64,7 @@ function TestAboutUs( ) {
                 </p>
                 <br />
                 <p>Amnet Digital has highly experienced talent from world-leading institutions and technology companies. We have successfully applied AI Technologies in Enterprise Software, Retail, eCommerce and Healthcare. 
-                    Our digital product engineering teams design and deploy enterprise solutions that are robust, secure and scalable!
+                    Our digital product engineering teams design and deploy enterprise solutions that are robust, secure and scalable.
                 </p>
             </div>
 
@@ -181,11 +181,11 @@ function TestAboutUs( ) {
                 <div className="career-section-row row g-0">
                     <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-caption">
                         <h5>WORK WITH US</h5>
-                        <h2>Let's Grow Together!</h2>
+                        <h2>Let's Grow Together</h2>
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-details">
                         <p>We are on a mission to solve complex problems and provide solutions 
-                            that make a difference! Come work with us!
+                            that make a difference, Come work with us.
                         </p>
                         <a href="/contactus">
                             <button type="button" className="btn btn-default contact-us-button" >Contact Us</button>

@@ -12,24 +12,46 @@ import OurPartner from "../components/Homepage/OurPartner";
 
 function Test (){
 
-    // const [dimensions, setDimensions] = React.useState({ 
-    //     width: window.innerWidth
-    //   })
-    //   React.useEffect(() => {
-    //     function handleResize() {
-    //       setDimensions({
-    //         width: window.innerWidth
-    //       })
-        
-    // }
+    const cookieStorage = {
+        getItem: (item) => {
+            const cookies = document.cookie
+                .split(';')
+                .map(cookie => cookie.split('='))
+                .reduce((acc, [key, value]) => ({ ...acc, [key.trim()]: value }), {});
+            return cookies[item];
+        },
+        setItem: (item, value) => {
+            document.cookie = `${item}=${value};`
+        }
+    }
     
-    //     window.addEventListener('resize', handleResize)
+    const storageType = cookieStorage;
+    const consentPropertyName = 'jdc_consent';
+    const shouldShowPopup = () => !storageType.getItem(consentPropertyName);
+    const saveToStorage = () => storageType.setItem(consentPropertyName, true);
     
-    //     return _ => {
-    //       window.removeEventListener('resize', handleResize)
-        
-    // }
-    //   })
+    window.onload = () => {
+    
+        const acceptFn = event => {
+            saveToStorage(storageType);
+            consentPopup.classList.add('hidden');
+        }
+        const declineFn = event => {
+            consentPopup.classList.add('hidden');
+        }
+        const consentPopup = document.getElementById('consent-popup');
+        const acceptBtn = document.getElementById('accept');
+        const declineBtn = document.getElementById("decline");
+        acceptBtn.addEventListener('click', acceptFn);
+        declineBtn.addEventListener("click", declineFn);
+    
+        if (shouldShowPopup(storageType)) {
+            setTimeout(() => {
+                consentPopup.classList.remove('hidden');
+            }, 2000);
+        }
+    
+    };
 
     const ClientSay = React.lazy(() => import('../components/Homepage/ClientSay'));
     const CaseStudiesSection = React.lazy(() => import('../components/Homepage/CaseStudiesSection'));
@@ -105,7 +127,6 @@ function Test (){
             <Suspense fallback={<div>Loading...</div>}>
                 <ClientSay />
             </Suspense>
-         
 
         {/* NEW HOMEPAGE CAREER SECTION */}
 
@@ -116,11 +137,11 @@ function Test (){
                 <div className="career-section-row row g-0">
                     <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-caption">
                         <h5>WORK WITH US</h5>
-                        <h2>Let's Grow Together!</h2>
+                        <h2>Let's Grow Together</h2>
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-details">
                         <p>We are on a mission to solve complex problems and provide solutions 
-                            that make a difference! Come work with us!
+                            that make a difference, Come work with us.
                         </p>
 
                         <a href="/contactus">
@@ -130,6 +151,20 @@ function Test (){
                             <button type="button" className="btn btn-default careers-button">Careers</button>
                         </a>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="consent-popup" className="hidden cookies-banner">
+            <div className="row">
+                <div className="col-xl-8 col-lg-8">
+                <p>This website uses cookies. We use cookies to optimize web functionality, collect website analytics and traffic data, and to provide a more personalized user experience.
+                    <a className="cookies-readmore-link" href="/cookiespolicy">Read more...</a> 
+            </p>
+                </div>
+                <div className="col-xl-4 col-lg-4 text-center">
+                <button className="btn btn-default cookies-decline-btn" id="decline" >Decline</button>
+                <button className="btn btn-default cookies-accept-btn" id="accept" >Accept</button>
                 </div>
             </div>
         </div>
