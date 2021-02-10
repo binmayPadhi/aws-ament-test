@@ -15,11 +15,11 @@ function TestCareers( ) {
                          <div className="row service-new-all-margin">
                         <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
                             <h2 className="textAnimation" data-text="Create Your Future!">
-                            Create Your Future!
+                            Create Your Future
                             </h2>
                             <p>
                             We are on a mission to solve world’s toughest problems. 
-                            Come join the fastest growing company in the region working in the hottest technology sector!
+                            Come join the fastest growing company in the region working in the hottest technology sector.
                             </p>
 
                             <div className="subService-AIML-intro-btn">
@@ -78,11 +78,11 @@ function TestCareers( ) {
     <div className="career-section-row row g-0">
         <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-caption">
             <h5>WORK WITH US</h5>
-            <h2>Let's Grow Together!</h2>
+            <h2>Let's Grow Together</h2>
         </div>
         <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-details">
             <p>We are on a mission to solve complex problems and provide solutions 
-                that make a difference! Come work with us!
+                that make a difference, Come work with us.
             </p>
             <a href="/contactus">
                 <button type="button" className="btn btn-default contact-us-button" >Contact Us</button>

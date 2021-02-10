@@ -9,6 +9,11 @@ import Careers from "./Careers";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import AIML from "./SubServices/AIML";
+// import RetailEcommerce from "./Industries/RetailEcommerce";
+// import Healthcare from "./Industries/Healthcare";
+// import InformationManagement from "./Industries/InformationManagement";
+// import FinancialServices from "./Industries/FinancialServices";
+import CookiesPolicy from "../components/CookiesPolicy";
 
 
 function App(){
@@ -26,7 +31,13 @@ function App(){
                     <Route  path = "/services" component = {Services} />
                     <Route  path = "/casestudies" component = {CaseStudies} />
                     <Route  path = "/careers" component = {Careers} />
-                    <Route   path = "/:id" component = {AIML} />
+                    {/* <Route path = "/retail-ecommerce" component ={RetailEcommerce} />
+                    <Route path = "/healthcare" component ={Healthcare} />
+                    <Route path = "/information-management" component ={InformationManagement} />
+                    <Route path = "/financial-services" component ={FinancialServices} /> */}
+                    <Route path = "/cookiespolicy" component={CookiesPolicy} />
+                    <Route  path = "/:id" component = {AIML} />
+                    
                     {/* <Route exact  path = "/data-labeling" component = {AIML} /> */}
                     {/* <Route exact  path = "/service/data-management" component = {AIML} /> */}
                 </Switch>

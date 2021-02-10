@@ -10,7 +10,7 @@ function Footer (){
             <div className="col-lg-6 col-sm-12">
                 <h2>Who We Are</h2>
                 <p>Amnet Digital is a fast growing AI/ML based Product Development Company headquartered 
-                    in Austin, Texas with ODCs in India!
+                    in Austin, Texas with ODCs in India.
                 </p>
                 <a href=" https://www.linkedin.com/company/amnet-digital" className="fa fa-linkedin" target="_blank"></a>
                 <a href=" https://www.facebook.com/amnetdigital" className="fa fa-facebook" target="_blank"></a>
@@ -33,7 +33,7 @@ function Footer (){
                 <p className="amnet-email">info@amnetdigital.com</p>
             </div>
             <div className="amnet-copyright">
-                <p >© 2020 Amnet Digital, All Rights Reserved</p>
+                <p >© 2021 Amnet Digital, All Rights Reserved</p>
             </div>
             
         </div>
