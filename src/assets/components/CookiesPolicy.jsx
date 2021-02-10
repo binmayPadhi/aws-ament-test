@@ -6,7 +6,7 @@ function CookiesPolicy(){
         <div className="contact-us-intro container-fluid">
 
         </div>
-        <div className="cookie-policy new-all-margin" style={{marginTop:"85px"}}>
+        <div className="cookie-policy new-all-margin" >
             <h1 className="cookie-policy-title">COOKIE POLICY</h1>
             <h4>Last Updated on February 08, 2021</h4>
             <p className="cookie-policy-desc">
