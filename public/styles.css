@@ -5828,6 +5828,11 @@ label{
 
 /* COOKIES Policy Page SECTION */
 /* .................................................................................................................................. */
+
+.cookie-policy{
+    margin-top: 85px !important;
+}
+
 .cookie-policy h1{
     font-size: 3.5rem;
     font-weight: 800;
@@ -5870,6 +5875,10 @@ label{
 /* .................................................................................................................................. */
 
 @media only screen and (min-width: 320px) and (max-width: 426px) {
+    .cookie-policy{
+        margin-top: 60px !important;
+    }
+
     .cookie-policy h1{
         font-size: 2.5rem;
     }
