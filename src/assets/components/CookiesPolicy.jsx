@@ -7,7 +7,7 @@ function CookiesPolicy(){
 
         </div>
         <div className="cookie-policy new-all-margin" >
-            <h1 className="cookie-policy-title">COOKIE POLICY</h1>
+            <h1 className="cookie-policy-title">Cookie Policy</h1>
             <h4>Last Updated on February 08, 2021</h4>
             <p className="cookie-policy-desc">
             Amnet Digital use cookies to optimize web functionality, collect website analytics and traffic data, and to provide a 
@@ -27,7 +27,7 @@ function CookiesPolicy(){
             </p>
 
             <div className="use-of-cookies">
-                <h1 className="use-of-cookies-title">USE OF COOKIES</h1>
+                <h1 className="use-of-cookies-title">Use of Cookies</h1>
                 <p className="use-of-cookies-desc">
                 A “cookie” is a string of information which assigns you a unique identifier that we store on your computer. 
                 Your browser then provides that unique identifier to use each time you submit a query to the Site. We use cookies to optimize web functionality, collect website analytics and traffic data, and to provide a 
@@ -36,8 +36,8 @@ function CookiesPolicy(){
                 </p>
             </div>
 
-            <div className="control-of-cookies">
-                <h1 className="control-of-cookies-title" >CONTROL OF COOKIES</h1>
+            <div className="control-of-cookies" style={{paddingBottom:"35px"}}>
+                <h1 className="control-of-cookies-title" >Control of Cookies</h1>
                 <p className="control-of-cookies-desc">
                 Most browsers are set to accept cookies by default. However, you can remove or reject cookies in your browser’s 
                 settings. Please be aware that such action could affect the availability and functionality of the Site. 
