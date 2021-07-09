@@ -70,7 +70,7 @@ const OurServicesData = [
     },
     {
         id : "consulting",
-        serviceTitle : "Startegy & Consulting",
+        serviceTitle : "Strategy & Consulting",
         serviceDesc : "Propel innovation & accelerate transformation by ensuring that the right digital capabilities are at the heart of everything you do. Every initiative you invest in pervades across the organization.",
         // serviceIMG : ConsultingIMG,
         serviceIcon : ConsultingDropdownIcon
