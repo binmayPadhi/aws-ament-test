@@ -11,7 +11,7 @@ const ourLocationData = [
     {
         id : 2,
         cityName : "Hyderabad, India",
-        address : "Salarpuria Sattva Knowledge City, Octive 1, Unit 2A & 2B, 1st Floor, Survey No. 83/1, Raidurgam Village, Serilingampally Mandal, Hyderabad, Telangana 500081.",
+        address : "Salarpuria Sattva Knowledge City, Octive 1, 1st Floor, Madhapur, Hyderabad - 500081.",
         locationIcon : amnetLocationIcon
     },
     {

@@ -4882,15 +4882,6 @@ label{
     .new-contact-us-page img {
         display: none;
     }
-
-    .location-details p {
-        font-size: 1.6rem;
-    }
-    
-    .new-our-location-column .new-location-card {
-        height: 450px;
-    }
-
 }
 
 
@@ -5387,21 +5378,6 @@ label{
     }
 }
 
-@media only screen and (min-width: 991px) and (max-width: 1023px) {
-    .new-our-location-column .new-location-card {
-        height: 555px;
-    }  
-}
-
-
-
-
-
-
-
-
-
-
 /* FOR MEDIUM LAPTOP SCREEN */
 /* ................................................................................................................................. */
 
@@ -5562,16 +5538,7 @@ label{
         height: 515px;
         box-shadow: 3px 6px 16px #0000004D;
     }
-    .new-our-location-column .new-location-card {
-        height: 500px;
-    }
 }
-
-/* .new-service-info img{
-    vertical-align: middle;
-} */
-
-
 
 
 /* ANIMATION SECTION*/
