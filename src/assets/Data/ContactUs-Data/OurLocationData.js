@@ -10,7 +10,7 @@ const ourLocationData = [
     },
     {
         id : 2,
-        cityName : "California",
+        cityName : "Pleasanton, California",
         address : "4900 Hopyard Rd Ste 100, Pleasanton, CA 94588",
         locationIcon : amnetLocationIcon
     },
