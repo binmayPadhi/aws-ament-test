@@ -37,17 +37,6 @@ function OurLocation(){
                                 )
                             })}
                     </div>
-                    <div className="row about-us-page-location-row  ml-0 mr-0">
-                        <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 mx-auto new-our-location-column">
-                            <div className="card ">
-                                <div className="card-body location-details new-location-card">
-                                    <img loading="lazy" className="img-fluid" src={amnetLocationIcon} alt="location"/>
-                                    <h2>Hyderabad, India</h2>
-                                    <p>Salarpuria Sattva Knowledge City, Octive 1, 1st Floor, Madhapur, Hyderabad - 500081. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </>
