@@ -11,7 +11,7 @@ const ourLocationData = [
     {
         id : 2,
         cityName : "Hyderabad, India",
-        address : "Salarpuria Sattva Knowledge City, Octive 1, 1st Floor, Madhapur, Hyderabad - 500081.",
+        address : "2nd Floor, Building # 10, The Skyview, HITEC City, Hyderabad, 500081, India",
         locationIcon : amnetLocationIcon
     },
     {
