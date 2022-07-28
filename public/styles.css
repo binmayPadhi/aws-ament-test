@@ -550,6 +550,17 @@ body{
     font-weight: 400;
 }
 
+.footer p a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+}
+
+.ISOCeritfied{display: flex;}
+
 .amnet-email p{
     font-size: 1.5rem;
 }
@@ -841,6 +852,10 @@ hr{
         font-size: 1rem;
     }
 
+    .footer p a{
+        font-size: 1rem;
+    }
+
     .useful-links li{
         font-size: 1rem;
     }
@@ -1054,6 +1069,9 @@ hr{
         font-size: 1rem;
         /* display: flex;
         flex-direction: column; */
+    }
+    .footer p a{
+        font-size: 1rem;
     }
 
     .useful-links li{
@@ -1308,6 +1326,9 @@ hr{
     }
 
     .footer p{
+        font-size: 1.5rem;
+    }
+    .footer p a{
         font-size: 1.5rem;
     }
 
