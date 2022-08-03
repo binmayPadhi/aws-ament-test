@@ -557,6 +557,7 @@ body{
     list-style: none;
     margin-top: 10px;
     color: white;
+    text-decoration:underline;
 }
 
 .ISOCeritfied{display: flex;}
