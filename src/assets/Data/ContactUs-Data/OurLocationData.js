@@ -5,7 +5,7 @@ const ourLocationData = [
     {
         id : 1,
         cityName : "Austin, Texas",
-        address : "Highland Falls Dr. Ste 302, Leander, TX, 78641",
+        address : "660 South Bagdad Road #320, Leander, TX 78641",
         locationIcon : amnetLocationIcon
     },
     {
