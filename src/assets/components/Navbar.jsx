@@ -58,7 +58,6 @@ const contactUsButtonStyle = {
   borderRadius: "4px",
   textDecoration : "none",
   fontSize : "1.5rem",
-  // marginRight: "25px",
   fontFamily: `'Poppins', sans-serif`,
   marginTop: "5px",
   padding: "10px"
@@ -66,17 +65,9 @@ const contactUsButtonStyle = {
 
 function showDropdown() {
   document.getElementsByClassName("dropdown-content")[0].style.display="block";
-  // setTimeout(function(){
-  //   document.getElementsByClassName("dropdown-content")[0].style.display="none";
-  //  }, 100);
-  // window.location.reload(false);
 }
 function hideDropdown() {
   document.getElementsByClassName("dropdown-content")[0].style.display="none";
-  // setTimeout(function(){
-  //   document.getElementsByClassName("dropdown-content")[0].style.display="none";
-  //  }, 100);
-  // window.location.reload(false);
 }
 
 function showIndustryDropdown() {
@@ -86,12 +77,13 @@ function hideIndustryDropdown() {
   document.getElementsByClassName("industry-dropdown-content")[0].style.display="none";
 }
 
-// function clearTime() {
-//   document.getElementsByClassName("dropdown-content")[0].style.display="block";
-// }
+// google analytics
+//let dataLayer
+window.dataLayer = window.dataLayer || [];
+function gtag(){window.dataLayer.push(arguments);}
+gtag('js', new Date());
 
-
-
+gtag('config', 'G-WMMZT165YM');
     return (
         <>
             {/* <!-- NAVIGATION BAR --> */}
@@ -301,14 +293,6 @@ function hideIndustryDropdown() {
         
 
                   {/* INDUSTRIES DROPDOWN SECTION */}
-
-
-
-
-
-
-
-
                   {/* <div  className="service-dropdown-menu" onMouseOver={showIndustryDropdown} onMouseOut={hideIndustryDropdown} style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
                   
                   <a style={serviceDropdown} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
@@ -376,19 +360,6 @@ function hideIndustryDropdown() {
                 </div>
                   
                 </div> */}
-
-
-
-
-
-
-
-
-
-
-
-
-                  
                   {/* <div style={navStyle} className="dropdown service-dropdown-menu" onMouseOver={showIndustryDropdown} onMouseOut={hideIndustryDropdown}>
                       <div  className=" dropdown-toggle d-flex"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <a style={{fontSize:"1.5rem"}}  activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
