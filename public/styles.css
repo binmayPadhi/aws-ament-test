@@ -1957,6 +1957,24 @@ label{
     font-family: 'Poppins', sans-serif;
 }
 
+.about-us-desc-blog{
+    padding: 0px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-us-desc-blog h2{
+    font-size: 3rem;
+    font-weight: 800;
+    color: black;
+}
+
+.about-us-desc-blog p{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: black;
+}
+
+
 .about-us-desc h2{
     font-size: 3rem;
     font-weight: 800;
