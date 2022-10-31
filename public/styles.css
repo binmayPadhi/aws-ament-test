@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-size: 66%;
@@ -8,26 +8,26 @@
 
 }
 
-body{
-    margin:0px 140px 0px 140px;
+body {
+    margin: 0px 140px 0px 140px;
     left: 140px;
     left: 140px !important;
     overflow-x: hidden;
 }
 
-.all-margin{
-    margin:0px 140px 0px 140px;
+.all-margin {
+    margin: 0px 140px 0px 140px;
     background-color: transparent;
 }
 
-.section-header{
+.section-header {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     font-weight: 800;
     color: #FD5D14;
 }
 
-.section-title{
+.section-title {
     font-family: 'Poppins', sans-serif;
     font-size: 3.5rem;
     font-weight: bolder;
@@ -49,11 +49,11 @@ body{
 /* HOMEPAGE INTRO */
 /* ............................................................................................................................... */
 
-.homepage-intro{
+.homepage-intro {
     position: relative;
     width: 100%;
     height: 895px;
-    background: #5F5F5F ;
+    background: #5F5F5F;
     box-shadow: 0px 3px 6px #00000029;
     opacity: 1;
     /* background-image:url('../src/assets/images/HomePage/amnet-home-bg.jpg');
@@ -62,11 +62,11 @@ body{
     background-size: cover; */
 }
 
-.homepage-bg{
+.homepage-bg {
     width: 100%;
 }
 
-.homepage-intro-caption{
+.homepage-intro-caption {
     top: 150px;
     height: 640px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -74,7 +74,7 @@ body{
     opacity: 1;
 }
 
-.homepage-intro-caption h2{
+.homepage-intro-caption h2 {
     margin-top: 70px;
     margin-left: 29px;
     font-family: 'Poppins', sans-serif;
@@ -93,7 +93,7 @@ body{
     color: #4D4D4F;
 }
 
-.homepage-intro-btn{
+.homepage-intro-btn {
     padding: 50px 35px;
 }
 
@@ -107,7 +107,7 @@ body{
 
 }
 
-.homepage-intro-btn .btn-default{
+.homepage-intro-btn .btn-default {
     text-align: left;
     text-decoration: underline;
     font: normal normal 600 20px/30px Poppins;
@@ -119,7 +119,7 @@ body{
 }
 
 /* verticla line */
-.vr{
+.vr {
     position: absolute;
     top: 240px;
     left: 140px;
@@ -134,17 +134,17 @@ body{
 
 /* HOMEPAGE QUOTE */
 /* ........................................................................................................................ */
-.homepage-quote{
+.homepage-quote {
     background-color: #f2f2f2;
 }
 
-.blockquote p{
+.blockquote p {
     font-family: 'Poppins', sans-serif;
     font-size: 3.5rem;
     color: #000000;
 }
 
-.blockquote .blockquote-author{
+.blockquote .blockquote-author {
     color: #FD5D14;
     font-size: 1.5rem;
     font-weight: 600;
@@ -157,11 +157,11 @@ body{
 /*AI PRODUCT, SOLUTIONS AND SERVICES */
 /* ........................................................................................................................ */
 
-.solutions-services{
+.solutions-services {
     margin-top: 100px;
 }
 
-.solutions-services-details h6{
+.solutions-services-details h6 {
     margin-top: 15px;
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
@@ -169,7 +169,7 @@ body{
     color: #FD5D14;
 }
 
-.solutions-services-details h2{
+.solutions-services-details h2 {
     margin-top: 15px;
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
@@ -178,7 +178,7 @@ body{
     color: #000000;
 }
 
-.solutions-services-details p{
+.solutions-services-details p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     font-weight: 500;
@@ -187,13 +187,13 @@ body{
     margin-top: 10px;
 }
 
-.solutions-services-lists{
+.solutions-services-lists {
     margin-top: 35px;
     padding-inline-start: 0px;
 
 }
 
-.solutions-services-lists li{
+.solutions-services-lists li {
     margin-top: 15px;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
@@ -205,7 +205,7 @@ body{
 
 .careers-details-lists .list-icon {
     width: 50px;
-    
+
     padding-bottom: 5px;
     margin-right: 5px;
 }
@@ -215,7 +215,7 @@ body{
 /* HOMEPAGE ABOUT DETAILS */
 /* ........................................................................................................................ */
 
-.homepage-about-details{
+.homepage-about-details {
     position: relative;
     margin-top: 80px;
     background: url("../src//assets/images/HomePage/amnet-about-details.jpg");
@@ -226,14 +226,14 @@ body{
     background-repeat: no-repeat;
 }
 
-.about-details-row{
+.about-details-row {
     padding: 45px 0px;
 }
 
-.about-details-header img{
-   width: 50px;
-   height: 50px;
-   margin-right: 10px;
+.about-details-header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
 }
 
 .about-details-header {
@@ -243,7 +243,7 @@ body{
     color: #ffffff;
 }
 
-.homepage-about-details p{
+.homepage-about-details p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     color: #ffffff;
@@ -252,7 +252,7 @@ body{
     padding-right: 30px;
 }
 
-.homepage-quote p{
+.homepage-quote p {
     text-align: center;
     font-size: 1.8rem;
     padding-bottom: 5px;
@@ -262,21 +262,21 @@ body{
 /*INDUSTRIES SECTION */
 /* ........................................................................................................................ */
 
-.industry-section{
+.industry-section {
     position: relative;
     margin-top: 80px;
     text-align: center;
 }
 
-.industry-page-quote{
+.industry-page-quote {
     margin-top: -10px;
 }
 
-.industry-section-row{
+.industry-section-row {
     margin-top: 80px;
 }
 
-.industry-section .card-body{
+.industry-section .card-body {
     background-color: white;
     box-shadow: 3px 6px 16px #00000029;
     border-style: none;
@@ -292,14 +292,14 @@ body{
     border-radius: 50%;
 }
 
-.industry-section h5{
+.industry-section h5 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     font-weight: 800;
     margin-top: 60px;
 }
 
-.industry-section-card a{
+.industry-section-card a {
     font-size: 1.5rem;
     color: white;
 }
@@ -308,7 +308,7 @@ body{
 /* OUR SERVICES SECTION */
 /* ........................................................................................................................ */
 
-.our-services{
+.our-services {
     position: relative;
     margin-top: 80px;
     text-align: center;
@@ -321,12 +321,12 @@ body{
     background-size: cover; */
 }
 
-.our-service-lists{
+.our-service-lists {
     margin-top: 30px;
 }
 
 
-.our-services h1{
+.our-services h1 {
     color: white;
 }
 
@@ -334,27 +334,30 @@ body{
     top: 110%;
 }
 
-.service-card .card{
+.service-card .card {
     border-style: none;
 }
 
-.service-card .card-body{
+.service-card .card-body {
     padding: 110px 30px;
     height: 385px;
     text-align: left;
 }
-.service-card h3{
+
+.service-card h3 {
     font-size: 2rem;
     font-weight: 800;
 }
-.service-card p{
+
+.service-card p {
     font-size: 1.8rem;
 }
-.service-card a{
+
+.service-card a {
     font-size: 1.5rem;
 }
 
-.carousel .carousel-indicators li{
+.carousel .carousel-indicators li {
     height: 15px;
     width: 15px;
     border-radius: 50%;
@@ -363,15 +366,15 @@ body{
     margin-top: 50px;
 }
 
- .carousel .carousel-indicators .active{
+.carousel .carousel-indicators .active {
     height: 15px;
     width: 15px;
     border-radius: 50%;
     background-color: #6d6d6d;
     margin-bottom: -20rem;
- }
+}
 
-.carousel-indicators{
+.carousel-indicators {
     top: 100%;
 }
 
@@ -388,14 +391,14 @@ body{
 /* OUR PARTNER LOGOS */
 /* ........................................................................................................................ */
 
-.our-partner{
+.our-partner {
     position: relative;
     margin-top: 60px;
     background-color: #F1f1f1;
     padding: 15px;
 }
 
-.partner-logo img{
+.partner-logo img {
     width: 150px;
     height: auto;
     display: block;
@@ -404,20 +407,20 @@ body{
 /* CASE STUDIES SECTION */
 /* ........................................................................................................................ */
 
-.case-studies{
+.case-studies {
     position: relative;
     margin-top: 80px;
     text-align: center;
 }
 
-.case-studies h5{
+.case-studies h5 {
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     font-weight: 800;
     margin-top: 80px;
 }
 
-.case-studies p{
+.case-studies p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
     font-weight: 800;
@@ -425,19 +428,19 @@ body{
     margin-top: 25px;
 }
 
-.propensity-modelling a{
+.propensity-modelling a {
     color: #0154F7;
 }
 
-.risk-analytics a{
+.risk-analytics a {
     color: #FD5D14;
 }
 
-.preventive-maintenance a{
+.preventive-maintenance a {
     color: #18AE8E;
 }
 
-.case-studies a{
+.case-studies a {
     font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
     font-weight: 800;
@@ -445,7 +448,7 @@ body{
     text-decoration: underline;
 }
 
-.case-studies .card-body{
+.case-studies .card-body {
     background-color: white;
     box-shadow: 3px 6px 16px #00000029;
     border-style: none;
@@ -453,7 +456,7 @@ body{
 
 }
 
-.case-studies .explore-all-link{
+.case-studies .explore-all-link {
     margin-top: 25px;
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
@@ -466,14 +469,15 @@ body{
 /* CAREER SECTION */
 /* ........................................................................................................................ */
 
-.career-section{
-    transform: translate(0%,-40%);
+.career-section {
+    transform: translate(0%, -40%);
 }
+
 /* .career-section-row{
     box-shadow: 0px 3px 6px #00000029;
 } */
 
-.career{
+.career {
     margin-top: 200px;
     width: 100%;
     height: 250px;
@@ -483,25 +487,25 @@ body{
     background-size: cover; */
 }
 
-.career-caption{
+.career-caption {
     background-color: #EF5B51;
     color: white;
     padding: 50px;
 }
 
-.career-caption h5{
+.career-caption h5 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     font-weight: 800;
 }
 
-.career-caption h2{
+.career-caption h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 4.5rem;
     font-weight: 800;
 }
 
-.career-section button{
+.career-section button {
     width: 150px;
     margin-left: 35px;
     font-family: 'Poppins', sans-serif;
@@ -510,15 +514,15 @@ body{
     box-shadow: 2px 2px 6px #0000004D;
 }
 
-.career-details{
+.career-details {
     background-color: #ffffff;
 }
 
-.career-details p{
+.career-details p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     font-weight: 800;
-    color:black;
+    color: black;
     padding: 35px;
 }
 
@@ -526,50 +530,53 @@ body{
 /* FOOTER SECTION */
 /* ........................................................................................................................ */
 
-.footer{
+.footer {
     background-color: #0C0C0C;
     color: white;
     margin-top: 0px;
 }
 
-.footer h2{
+.footer h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 2.2rem;
     font-weight: 600;
 }
 
-.footer h3{
+.footer h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     font-weight: 600;
 }
 
-.footer p{
+.footer p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     font-weight: 400;
 }
 
-.footer p a{
+.footer p a {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     font-weight: 400;
     list-style: none;
     margin-top: 10px;
     color: white;
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
-.ISOCeritfied{display: flex;}
+.ISOCeritfied {
+    display: flex;
+}
 
-.amnet-email p{
+.amnet-email p {
     font-size: 1.5rem;
 }
-.amnet-copyright p{
+
+.amnet-copyright p {
     font-size: 1.5rem;
 }
 
-.useful-links li a{
+.useful-links li a {
     font-family: 'Poppins', sans-serif;
     font-size: 1.4rem;
     font-weight: 400;
@@ -587,18 +594,18 @@ body{
     color: white;
 }
 
-hr{
+hr {
     margin-top: 4rem !important;
     width: 100%;
     border-color: white;
     background-color: white;
 }
 
-.amnet-email{
+.amnet-email {
     margin-right: auto;
 }
 
-.amnet-copyright{
+.amnet-copyright {
     margin-left: auto;
 }
 
@@ -616,13 +623,16 @@ hr{
     border-radius: 4px;
     border-width: 1px;
 }
+
 .fa:hover {
     opacity: 0.8;
 }
+
 .fa-facebook {
     background: #3B5998;
     color: white;
 }
+
 .fa-twitter {
     background: #55ACEE;
     color: white;
@@ -631,7 +641,7 @@ hr{
 .fa-instagram {
     background: #125688;
     color: white;
-  }
+}
 
 .fa-linkedin {
     background: #007bb5;
@@ -649,223 +659,247 @@ hr{
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
 
-    .section-header{
+    .section-header {
         font-size: 1.5rem;
     }
 
-    .section-title{
+    .section-title {
         font-size: 3rem;
     }
 
-    .textAnimation{
+    .textAnimation {
         color: white !important;
     }
-    .textAnimation::before{
+
+    .textAnimation::before {
         display: none !important;
     }
 
-    .all-margin{
+    .all-margin {
         margin: 0px 21px 0px 21px;
     }
-    
+
 
     /* HOMEPAGE-INTRO */
-    .homepage-intro{
+    .homepage-intro {
         height: 736px;
     }
-    .homepage-intro-caption{
+
+    .homepage-intro-caption {
         height: 501px;
     }
-    .homepage-intro-caption h2{
+
+    .homepage-intro-caption h2 {
         margin-top: 50px;
         font-size: 3.5rem;
         font-weight: bolder;
     }
+
     .homepage-intro-caption p {
         font-size: 1.2rem;
         margin-left: 30px;
     }
-    .homepage-intro-btn{
+
+    .homepage-intro-btn {
         padding: 50px 25px;
     }
-    .homepage-intro-btn .btn{
+
+    .homepage-intro-btn .btn {
         border-radius: 4px;
     }
-    .homepage-intro-btn .btn-default{
+
+    .homepage-intro-btn .btn-default {
         margin-top: 10px;
         margin-left: 0px;
     }
-    .vr{
-        top:200px;
+
+    .vr {
+        top: 200px;
         left: 21px;
     }
 
     /* BLOCKQUOTE */
-    .blockquote p{
-       font-size: 2rem;
-       font-weight: 800;
+    .blockquote p {
+        font-size: 2rem;
+        font-weight: 800;
     }
 
     /* SOLUTION AND SERVICES */
-    .solutions-services{
+    .solutions-services {
         margin-top: 50px;
     }
 
-    .solutions-services-lists{
+    .solutions-services-lists {
         padding-inline-start: 0px;
     }
-    .solutions-services-lists li{
+
+    .solutions-services-lists li {
         font-size: 1.2rem;
     }
-    .solutions-services-details h2{
+
+    .solutions-services-details h2 {
         font-size: 2.5rem;
     }
-    .solutions-services-details p{
+
+    .solutions-services-details p {
         font-size: 1.2rem;
         margin-top: 5px;
     }
-    .AISolutionInfo{
+
+    .AISolutionInfo {
         margin-left: 5px;
     }
-    .solutions-services-details-img{
+
+    .solutions-services-details-img {
         margin-top: 35px;
     }
-    .about-details-header img{
+
+    .about-details-header img {
         width: 30px;
         height: 30px;
-     }
+    }
 
 
 
     /* HOMEPAGE ABOUT DETAILS */
 
-    .homepage-about-details{
+    .homepage-about-details {
         margin-top: 50px;
     }
-    .homepage-about-details .about-details-bgImg{
+
+    .homepage-about-details .about-details-bgImg {
         width: 100%;
         height: 550px;
     }
-    .about-details-row{
+
+    .about-details-row {
         margin-top: 0px;
         padding: 10px 3px;
     }
-    .homepage-about-details p{
+
+    .homepage-about-details p {
         font-size: .9rem;
         margin-left: 43px;
     }
-    .homepage-about-details h3{
+
+    .homepage-about-details h3 {
         font-size: 1.2rem;
     }
 
     /* INDUSTRIES SECTION */
 
-    .industry-section{
+    .industry-section {
         margin-top: 60PX;
     }
 
-    .industry-section .card{
+    .industry-section .card {
         margin-top: 30px;
     }
 
     /* OUR SERVICE SECTION */
 
-    .our-services{
+    .our-services {
         height: 550px;
     }
 
-    .service-card .card-body{
+    .service-card .card-body {
         padding: 20px 10px;
         height: 230px;
         text-align: center;
     }
-    .service-card h3{
+
+    .service-card h3 {
         font-size: 1.5rem;
         font-weight: 800;
     }
-    .service-card p{
+
+    .service-card p {
         font-size: 1.2rem;
     }
-    .service-card a{
+
+    .service-card a {
         font-size: 1.2rem;
     }
 
 
     /* CASE STUDIES */
-    .case-studies{
+    .case-studies {
         margin-top: 50px;
     }
 
-    .case-studies-card{
+    .case-studies-card {
         margin-top: 15px;
     }
 
     /* CAREER SECTION */
 
-    .career{
+    .career {
         background-image: none;
     }
 
-    .career-section{
+    .career-section {
         position: relative;
-        transform: translate(0%,-30%);
+        transform: translate(0%, -30%);
     }
 
-    .career-details button{
+    .career-details button {
         width: 200px;
         margin-left: 40px;
     }
 
-    .career-caption h5{
+    .career-caption h5 {
         font-size: 1.8rem;
     }
 
-    .career-caption h2{
+    .career-caption h2 {
         font-size: 2.5rem;
     }
-    .career-caption p{
+
+    .career-caption p {
         text-align: left;
     }
 
     /* LATEST BLOG PART */
-    .latest-blog-section{
+    .latest-blog-section {
         margin-top: 250px;
     }
 
     /* FOOTER  */
 
-    .footer{
-        margin-top:0px;
+    .footer {
+        margin-top: 0px;
     }
 
-    .useful-links{
+    .useful-links {
         margin-top: 15px;
         padding-inline-start: 0px !important;
         list-style-type: none;
         color: white;
     }
-    .footer h3{
+
+    .footer h3 {
         font-size: 1.3rem;
         font-weight: 600;
     }
 
-    .footer p{
+    .footer p {
         font-size: 1rem;
     }
 
-    .footer p a{
+    .footer p a {
         font-size: 1rem;
     }
 
-    .useful-links li{
+    .useful-links li {
         font-size: 1rem;
     }
-    .useful-links li a{
+
+    .useful-links li a {
         font-size: 1rem;
 
     }
 
-    .amnet-copyright{
+    .amnet-copyright {
         margin-left: 0;
     }
 }
@@ -878,243 +912,272 @@ hr{
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
 
-    .section-header{
+    .section-header {
         font-size: 1.5rem;
     }
 
-    .section-title{
+    .section-title {
         font-size: 3rem;
     }
 
-    .all-margin{
+    .all-margin {
         margin: 0px 21px 0px 21px;
     }
-    
+
 
     /* HOMEPAGE-INTRO */
-    .homepage-intro{
+    .homepage-intro {
         height: 736px;
     }
-    .homepage-intro-caption{
+
+    .homepage-intro-caption {
         height: 501px;
     }
-    .homepage-intro-caption h2{
+
+    .homepage-intro-caption h2 {
         font-size: 4.5rem;
         font-weight: bolder;
     }
+
     .homepage-intro-caption p {
         font-size: 1.2rem;
         margin-left: 30px;
     }
-    .homepage-intro-btn{
+
+    .homepage-intro-btn {
         padding: 20px 25px;
     }
-    .homepage-intro-btn .btn{
+
+    .homepage-intro-btn .btn {
         border-radius: 4px;
     }
-    .homepage-intro-btn .btn-default{
+
+    .homepage-intro-btn .btn-default {
         margin-top: 10px;
         margin-left: 0px;
     }
-    .vr{
-        top:220px;
+
+    .vr {
+        top: 220px;
         left: 21px;
     }
 
     /* BLOCKQUOTE */
-    .blockquote p{
-       font-size: 2rem;
-       font-weight: 800;
+    .blockquote p {
+        font-size: 2rem;
+        font-weight: 800;
     }
 
     /* SOLUTION AND SERVICES */
-    .solutions-services{
+    .solutions-services {
         margin-top: 50px;
     }
 
-    .solutions-services-lists{
+    .solutions-services-lists {
         padding-inline-start: 0px;
     }
-    .solutions-services-lists li{
+
+    .solutions-services-lists li {
         font-size: 1.2rem;
     }
-    .solutions-services-details h2{
+
+    .solutions-services-details h2 {
         font-size: 2.5rem;
     }
-    .solutions-services-details p{
+
+    .solutions-services-details p {
         font-size: 1.2rem;
         margin-top: 5px;
     }
-  
-    .solutions-services-details-img{
+
+    .solutions-services-details-img {
         margin-top: 35px;
     }
-    .about-details-header img{
+
+    .about-details-header img {
         width: 30px;
         height: 30px;
-     }
+    }
 
 
 
     /* HOMEPAGE ABOUT DETAILS */
-    .homepage-about-details{
+    .homepage-about-details {
         margin-top: 50px;
     }
-    .homepage-about-details .about-details-bgImg{
+
+    .homepage-about-details .about-details-bgImg {
         width: 100%;
         height: 550px;
         /* position: absolute; */
     }
-    .about-details-row{
+
+    .about-details-row {
         margin-top: 5px;
         padding: 3px;
     }
-    .homepage-about-details p{
+
+    .homepage-about-details p {
         font-size: 1rem;
         margin-left: 50px;
     }
-    .homepage-about-details h3{
+
+    .homepage-about-details h3 {
         font-size: 1.5rem;
     }
 
     /* INDUSTRIES SECTION */
 
-    .industry-section{
+    .industry-section {
         margin-top: 60PX;
     }
 
-    .industry-section .card{
+    .industry-section .card {
         margin-top: 20px;
     }
 
     /* OUR SERVICE SECTION */
-    .our-services{
+    .our-services {
         height: 580px;
     }
-    .service-card .card-body{
+
+    .service-card .card-body {
         padding: 20px 10px;
         height: 230px;
         text-align: center;
     }
-    .service-card h3{
+
+    .service-card h3 {
         font-size: 1.5rem;
         font-weight: 800;
     }
-    .service-card p{
+
+    .service-card p {
         font-size: 1.2rem;
     }
-    .service-card a{
+
+    .service-card a {
         font-size: 1.2rem;
     }
 
 
     /* CASE STUDIES */
-    .case-studies{
+    .case-studies {
         margin-top: 50px;
     }
 
-    .case-studies-card{
+    .case-studies-card {
         margin-top: 15px;
     }
 
     /* CAREER SECTION */
 
-    .career{
+    .career {
         background-image: none;
     }
 
-    .career-section{
+    .career-section {
         position: relative;
         /* margin-top: 120px; */
-        transform: translate(0%,-30%);
+        transform: translate(0%, -30%);
     }
 
-    .career-details button{
+    .career-details button {
         width: 200px;
         margin-left: 55px;
     }
 
-    .career-caption h5{
+    .career-caption h5 {
         font-size: 1.8rem;
     }
 
-    .career-caption h2{
+    .career-caption h2 {
         font-size: 2.5rem;
     }
-    .career-caption p{
+
+    .career-caption p {
         text-align: left;
     }
 
     /* LATEST BLOG PART */
-    .latest-blog-section{
+    .latest-blog-section {
         margin-top: 250px;
     }
 
     /* FOOTER  */
 
-    .footer{
+    .footer {
         margin-top: 0px;
     }
 
-    .useful-links{
+    .useful-links {
         margin-top: 15px;
         padding-inline-start: 0px !important;
         list-style-type: none;
     }
-    .footer h3{
+
+    .footer h3 {
         font-size: 1.3rem;
         font-weight: 600;
     }
 
-    .footer p{
+    .footer p {
         font-size: 1rem;
         /* display: flex;
         flex-direction: column; */
     }
-    .footer p a{
+
+    .footer p a {
         font-size: 1rem;
     }
 
-    .useful-links li{
+    .useful-links li {
         font-size: 1rem;
     }
-    .useful-links li a{
+
+    .useful-links li a {
         font-size: 1rem;
     }
-    .amnet-copyright{
+
+    .amnet-copyright {
         margin-left: 0;
     }
 }
 
 
 /* ...................................................................................................................... */
-@media only screen and (min-width: 425px) and (max-width: 767px){
-    .industry-card .card-body{
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .industry-card .card-body {
         transform: translate(20%, 150%);
         width: 250px;
         height: 177px;
     }
-    .career-details button{
+
+    .career-details button {
         width: 200px;
         margin-left: 75px;
     }
 
-    .our-services{
+    .our-services {
         height: 600px;
     }
-    .service-card .card-body{
+
+    .service-card .card-body {
         padding: 20px 10px;
         height: 230px;
         text-align: center;
     }
-    .service-card h3{
+
+    .service-card h3 {
         font-size: 1.8rem;
         font-weight: 800;
     }
-    .service-card p{
+
+    .service-card p {
         font-size: 1.5rem;
     }
-    .service-card a{
+
+    .service-card a {
         font-size: 1.5rem;
     }
 }
@@ -1124,165 +1187,187 @@ hr{
         font-size: 30%;
     } */
 
-    .section-header{
+    .section-header {
         font-size: 1.5rem;
     }
 
-    .section-title{
+    .section-title {
         font-size: 3rem;
     }
 
-    
 
-    .all-margin{
+
+    .all-margin {
         margin: 0px 81px 0px 81px;
     }
-    .navigation-bar{
+
+    .navigation-bar {
         text-align: left;
     }
-    
+
 
     /* HOMEPAGE-INTRO */
-    .homepage-intro{
+    .homepage-intro {
         height: 895px;
     }
-    .homepage-intro-caption{
+
+    .homepage-intro-caption {
         height: 609px;
     }
-    .homepage-intro-caption h2{
+
+    .homepage-intro-caption h2 {
         font-size: 7rem;
         font-weight: bolder;
     }
+
     .homepage-intro-caption p {
         font-size: 2rem;
         margin-left: 30px;
     }
-    .homepage-intro-btn{
+
+    .homepage-intro-btn {
         padding: 50px 25px;
     }
-    .homepage-intro-btn .btn{
+
+    .homepage-intro-btn .btn {
         border-radius: 4px;
     }
-    .homepage-intro-btn .btn-default{
+
+    .homepage-intro-btn .btn-default {
         margin-top: 0px;
 
     }
-    .vr{
-        top:230px;
+
+    .vr {
+        top: 230px;
         left: 81px;
     }
 
     /* BLOCKQUOTE */
-    .blockquote p{
-       font-size: 2.8rem;
-       font-weight: 600;
-       text-align: center;
+    .blockquote p {
+        font-size: 2.8rem;
+        font-weight: 600;
+        text-align: center;
     }
 
     /* SOLUTION AND SERVICES */
-    .solutions-services{
+    .solutions-services {
         margin-top: 50px;
     }
-    .solutions-services-lists li{
+
+    .solutions-services-lists li {
         font-size: 1.5rem;
     }
-    .solutions-services-details h2{
+
+    .solutions-services-details h2 {
         font-size: 5rem;
     }
-    .solutions-services-details p{
+
+    .solutions-services-details p {
         font-size: 1.7rem;
         margin-top: 10px;
     }
-    .solutions-services-details h6{
+
+    .solutions-services-details h6 {
         font-size: 2rem;
     }
-    .solutions-services-details-img{
+
+    .solutions-services-details-img {
         margin-top: 35px;
     }
 
-    .solutions-services-lists{
+    .solutions-services-lists {
         padding-inline-start: 0px;
     }
 
 
     /* HOMEPAGE ABOUT DETAILS */
-    .homepage-about-details{
+    .homepage-about-details {
         margin-top: 50px;
     }
-    .homepage-about-details .about-details-bgImg{
+
+    .homepage-about-details .about-details-bgImg {
         height: 750px;
     }
-    .about-details-row{
+
+    .about-details-row {
         margin-top: 0px;
         padding: 10px;
     }
-    .about-details-header img{
+
+    .about-details-header img {
         width: 60px;
         height: 60px;
-     }
-    .homepage-about-details p{
+    }
+
+    .homepage-about-details p {
         font-size: 1.5rem;
         margin-left: 80px;
     }
 
-    .marginRow{
-        margin-bottom:0px !important;
+    .marginRow {
+        margin-bottom: 0px !important;
     }
 
     /* INDUSTRIES SECTION */
 
 
-    .industry-section{
+    .industry-section {
         margin-top: 60PX;
     }
 
-    .industry-section .card{
+    .industry-section .card {
         margin-top: 20px;
     }
 
     /* OUR SERVICE SECTION */
 
 
-    .our-services{
+    .our-services {
         height: 700px;
     }
-    .service-card .card-body{
+
+    .service-card .card-body {
         padding: 20px 10px;
         height: 200px;
         text-align: center;
     }
-    .service-card h3{
+
+    .service-card h3 {
         font-size: 1.8rem;
         font-weight: 800;
     }
-    .service-card p{
+
+    .service-card p {
         font-size: 1.5rem;
     }
-    .service-card a{
+
+    .service-card a {
         font-size: 1.5rem;
     }
 
     /* CASE STUDIES */
-    .case-studies{
+    .case-studies {
         margin-top: 70px;
     }
+
     /* .case-studies .explore-all-link{
         margin-top: 55px;
     } */
-    .case-studies-card{
+    .case-studies-card {
         margin-top: 20px;
     }
 
     /* CAREER SECTION */
 
-    .career{
+    .career {
         background-image: none;
     }
 
-    .career-section{
+    .career-section {
         position: relative;
         /* margin-top: 120px; */
-        transform: translate(0%,-30%);
+        transform: translate(0%, -30%);
     }
 
     /* .career-bg-img{
@@ -1292,58 +1377,64 @@ hr{
        padding-right: 0px;
     } */
 
-    .career-details button{
+    .career-details button {
         width: 200px;
         margin-left: 40px;
     }
 
-    .career-caption h5{
+    .career-caption h5 {
         font-size: 1.8rem;
     }
 
-    .career-caption h2{
+    .career-caption h2 {
         font-size: 5rem;
     }
-    .career-caption p{
+
+    .career-caption p {
         text-align: left;
     }
 
     /* LATEST BLOG PART */
-    .latest-blog-section{
+    .latest-blog-section {
         margin-top: 200px;
     }
 
     /* FOOTER  */
-    .useful-links{
+    .useful-links {
         padding-inline-start: 0px;
         list-style-type: none;
     }
-    .footer h2{
+
+    .footer h2 {
         font-size: 2rem;
     }
-    .footer h3{
+
+    .footer h3 {
         font-size: 1.5rem;
         font-weight: 600;
     }
 
-    .footer p{
-        font-size: 1.5rem;
-    }
-    .footer p a{
+    .footer p {
         font-size: 1.5rem;
     }
 
-    .useful-links{
+    .footer p a {
+        font-size: 1.5rem;
+    }
+
+    .useful-links {
         margin-top: 20px;
     }
 
-    .useful-links li{
+    .useful-links li {
         font-size: 1.3rem;
     }
-    .useful-links li a{
+
+    .useful-links li a {
         font-size: 1.3rem;
     }
-    .copyright{
+
+    .copyright {
         text-align: center;
     }
 }
@@ -1353,31 +1444,37 @@ hr{
 
 @media only screen and (min-width: 834px) and (max-width: 1024px) {
 
-    .industry-card .card-body{
+    .industry-card .card-body {
         transform: translate(25%, 140%);
     }
-    .our-services{
+
+    .our-services {
         height: 700px;
     }
-    .our-services img{
+
+    .our-services img {
         height: 350px;
     }
-    .service-card .card-body{
+
+    .service-card .card-body {
         padding: 20px 10px;
         height: 170px;
     }
-    .service-card h3{
+
+    .service-card h3 {
         font-size: 1.8rem;
         font-weight: 800;
     }
-    .service-card p{
-        font-size: 1.5rem;
-    }
-    .service-card a{
+
+    .service-card p {
         font-size: 1.5rem;
     }
 
-    .dot-icon{
+    .service-card a {
+        font-size: 1.5rem;
+    }
+
+    .dot-icon {
         width: 100px;
         height: 100px;
     }
@@ -1390,38 +1487,43 @@ hr{
 
 
 
-    .homepage-intro-caption h2{
+    .homepage-intro-caption h2 {
         font-size: 6.5rem;
     }
+
     .homepage-intro-caption p {
         font-size: 1.8rem;
     }
-    .homepage-about-details .about-details-bgImg{
+
+    .homepage-about-details .about-details-bgImg {
         height: 550px;
     }
 
     /* INDUSTRIES SECTION */
 
-    .industries-section{
+    .industries-section {
         margin-top: 200PX;
     }
-    .industries-section .industry-card{
+
+    .industries-section .industry-card {
         margin-top: 125px;
     }
-    .industry-card .card-body{
+
+    .industry-card .card-body {
         transform: translate(50%, 180%);
-            /* padding-right: 0px; */
+        /* padding-right: 0px; */
 
     }
-    .industries-details h5{
+
+    .industries-details h5 {
         font-size: 2rem;
     }
 
-    .industries-details a{
+    .industries-details a {
         font-size: 1.5rem;
     }
 
-    .case-studies h5{
+    .case-studies h5 {
         font-size: 1.5rem;
     }
 
@@ -1436,40 +1538,46 @@ hr{
 
     /* HOMEPAGE INTRO */
 
-    .homepage-intro-caption h2{
+    .homepage-intro-caption h2 {
         font-size: 7.5rem;
     }
+
     .homepage-intro-caption p {
         font-size: 2rem;
     }
-    .homepage-intro-btn{
+
+    .homepage-intro-btn {
         padding: 50px 25px;
     }
 
     /* CAREER SECTION */
-  .career-section{
-    position: absolute;
-    transform: translate(0%,-50%);
+    .career-section {
+        position: absolute;
+        transform: translate(0%, -50%);
     }
 
     /* .our-services{
         height: 700px;
     }*/
-    .our-services img{
+    .our-services img {
         height: 330px;
     }
-    .service-card .card-body{
+
+    .service-card .card-body {
         padding: 58px 30px;
         height: 330px;
     }
-    .service-card h3{
+
+    .service-card h3 {
         font-size: 2rem;
         font-weight: 800;
     }
-    .service-card p{
+
+    .service-card p {
         font-size: 1.8rem;
     }
-    .service-card a{
+
+    .service-card a {
         font-size: 1.8rem;
     }
 
@@ -1480,28 +1588,30 @@ hr{
 /* ...................................................................................................................... */
 
 @media only screen and (min-width: 1440px) {
-    .homepage-intro-caption h2{
+    .homepage-intro-caption h2 {
         font-size: 9rem;
     }
+
     .homepage-intro-caption p {
         font-size: 2rem;
     }
 
-    .industries-section .industry-card{
+    .industries-section .industry-card {
         margin-top: 50px;
     }
 
-    .industry-card .card-body{
+    .industry-card .card-body {
         transform: translate(20%, 120%);
-            /* padding-right: 0px; */
+        /* padding-right: 0px; */
 
     }
-    .case-studies h5{
+
+    .case-studies h5 {
         font-size: 2rem;
     }
 
-     /* OUR SERVICE SECTION */
-     .our-services img{
+    /* OUR SERVICE SECTION */
+    .our-services img {
         height: 385px;
     }
 }
@@ -1512,7 +1622,7 @@ hr{
 /* CONTACT US PAGE STYLE SECTION */
 /*............................................................................................................................*/
 
-.contact-us-page{
+.contact-us-page {
     /* position: relative; */
     margin-top: 80px;
     display: flex;
@@ -1520,83 +1630,84 @@ hr{
     /* justify-content: space-around; */
 }
 
-.contact-us-intro{
+.contact-us-intro {
     position: relative;
     width: 100%;
     height: 45px;
-    background: #ffffff ;
+    background: #ffffff;
     opacity: 1;
 }
 
-.contact-form-header{
+.contact-form-header {
     font-family: 'Poppins', sans-serif;
     color: #000000;
     padding: 25px;
 }
 
-.contact-form-user-details{
+.contact-form-user-details {
     box-shadow: 3px 6px 16px #0000004D;
 
 }
 
-.btn-default .fa-arrow-right{
+.btn-default .fa-arrow-right {
     font-size: 1.8rem;
     color: #000000;
 }
 
-.form-IMG{
+.form-IMG {
     /* width: 40%; */
     height: auto;
 }
 
-.user-name{
+.user-name {
     margin-top: 0px;
     padding: 0px 15px;
 }
 
-.user-name input{
+.user-name input {
     display: block;
 }
 
-.form-group{
+.form-group {
     margin-top: 0px;
     padding: 15px;
     margin-bottom: 0rem !important;
 }
-.form-group input{
+
+.form-group input {
     /* width: 650px; */
     display: block;
 }
 
-.form-group textarea{
+.form-group textarea {
     display: block;
 }
 
-.user-text{
+.user-text {
     padding: 0px 15px;
 }
 
 
 
-.contact-form-header h1{
+.contact-form-header h1 {
     font-size: 4.5rem;
     font-weight: 800;
 }
 
-.contact-form-header p{
+.contact-form-header p {
     font-size: 1.8rem;
     font-weight: 400;
     color: #4D4D4F;
 }
 
-label{
+label {
     font-size: 1.55rem;
     font-weight: 800;
     color: #000000;
     width: 100%;
 }
 
-.submit-button{
+.submit-button {
     padding: 20px 0px;
 }
 
@@ -1611,11 +1722,11 @@ label{
 }
 
 .submit-button button:hover {
-    background-color:#CACACA;
+    background-color: #CACACA;
     color: black;
 }
 
-.contact-us-location{
+.contact-us-location {
     margin-top: 50px;
 }
 
@@ -1631,11 +1742,11 @@ label{
 
 } */
 
-.about-us-page-location h1{
+.about-us-page-location h1 {
     color: black;
 }
 
-.about-us-page-location-row .card{
+.about-us-page-location-row .card {
     position: relative;
     /* width: 30rem; */
     margin-top: 10px;
@@ -1643,40 +1754,40 @@ label{
 
 }
 
-.about-us-page-location-row .card-body{
-   height: 200px;
+.about-us-page-location-row .card-body {
+    height: 200px;
     padding: 0px 30px;
 }
 
-.about-us-page-location-row .dot{
+.about-us-page-location-row .dot {
     position: absolute;
     width: 100px;
     height: 100px;
-    transform: translate(-45%,-70%);
+    transform: translate(-45%, -70%);
 }
 
 
-.location-details{
+.location-details {
     font-family: 'Poppins', sans-serif;
     color: #000000;
     text-align: center;
 }
 
-.location-details h2{
+.location-details h2 {
     margin-top: 10px;
     font-weight: 800;
     font-size: 2rem;
-    
+
 }
 
-.location-details p{
+.location-details p {
     margin-top: 20px;
     font-weight: 400;
     font-size: 1.8rem;
-   
+
 }
 
-.location-details a{
+.location-details a {
     margin-top: 20px;
     font-weight: 800;
     font-size: 1.5rem;
@@ -1692,30 +1803,31 @@ label{
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
 
-    .contact-us-page{
+    .contact-us-page {
         margin-top: 80px;
         flex-direction: column;
     }
 
-    .form-IMG{
+    .form-IMG {
         display: none;
     }
-    .contact-form-header h1{
+
+    .contact-form-header h1 {
         font-size: 2rem;
         font-weight: 800;
     }
 
-    .contact-form-header p{
+    .contact-form-header p {
         font-size: 1.5rem;
         font-weight: 400;
         color: #4D4D4F;
     }
 
-    .lastName{
+    .lastName {
         margin-top: 15px;
     }
 
-    label{
+    label {
         /* margin-top: 10px; */
         font-size: 1.3rem;
         font-weight: 800;
@@ -1725,31 +1837,32 @@ label{
 
 @media only screen and (min-width: 375px) and (max-width: 424px) {
 
-    .contact-us-page{
+    .contact-us-page {
         margin-top: 100px;
         flex-direction: column;
     }
 
-    .form-IMG{
+    .form-IMG {
         display: none;
     }
-    .contact-form-header h1{
+
+    .contact-form-header h1 {
         font-size: 2rem;
         font-weight: 800;
     }
 
-    .contact-form-header p{
+    .contact-form-header p {
         font-size: 1.5rem;
         font-weight: 400;
         color: #4D4D4F;
     }
 
-    .lastName{
+    .lastName {
         margin-top: 20px;
         /* padding: 25px 0px; */
     }
 
-    label{
+    label {
         font-size: 1.55rem;
         font-weight: 800;
         color: #000000;
@@ -1758,30 +1871,31 @@ label{
 
 @media only screen and (min-width: 425px) and (max-width: 767px) {
 
-    .contact-us-page{
+    .contact-us-page {
         margin-top: 100px;
         flex-direction: column;
     }
 
-    .form-IMG{
+    .form-IMG {
         display: none;
     }
-    .contact-form-header h1{
+
+    .contact-form-header h1 {
         font-size: 2.5rem;
         font-weight: 800;
     }
 
-    .contact-form-header p{
+    .contact-form-header p {
         font-size: 1.5rem;
         font-weight: 400;
         color: #4D4D4F;
     }
 
-    .lastName{
+    .lastName {
         margin-top: 20px;
     }
 
-    label{
+    label {
         font-size: 1.55rem;
         font-weight: 800;
         color: #000000;
@@ -1791,30 +1905,31 @@ label{
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
-    .contact-us-page{
+    .contact-us-page {
         margin-top: 100px;
         flex-direction: column;
     }
 
-    .form-IMG{
+    .form-IMG {
         display: none;
     }
-    .contact-form-header h1{
+
+    .contact-form-header h1 {
         font-size: 2.5rem;
         font-weight: 800;
     }
 
-    .contact-form-header p{
+    .contact-form-header p {
         font-size: 1.5rem;
         font-weight: 400;
         color: #4D4D4F;
     }
 
-    .lastName{
+    .lastName {
         margin-top: 25px;
     }
 
-    label{
+    label {
         font-size: 1.55rem;
         font-weight: 800;
         color: #000000;
@@ -1824,34 +1939,36 @@ label{
 
 @media only screen and (min-width: 1024px) and (max-width: 1350px) {
 
-    .contact-us-page{
+    .contact-us-page {
         margin-top: 100px;
         flex-direction: row;
     }
 
-    .form-IMG{
+    .form-IMG {
         width: 90%;
         /* height: auto; */
     }
-    .contact-form-header h1{
+
+    .contact-form-header h1 {
         font-size: 2.5rem;
         font-weight: 800;
     }
 
-    .contact-form-header p{
+    .contact-form-header p {
         font-size: 1.5rem;
         font-weight: 400;
         color: #4D4D4F;
     }
 
-    .lastName{
+    .lastName {
         margin-top: 0px;
     }
-    .form-IMG img{
+
+    .form-IMG img {
         width: 110%;
     }
 
-    label{
+    label {
         font-size: 1.55rem;
         font-weight: 800;
         color: #000000;
@@ -1861,34 +1978,36 @@ label{
 
 @media only screen and (min-width: 1351px) and (max-width: 1439px) {
 
-    .contact-us-page{
+    .contact-us-page {
         margin-top: 100px;
         flex-direction: row;
     }
 
-    .form-IMG{
+    .form-IMG {
         width: 46%;
         /* height: auto; */
     }
-    .contact-form-header h1{
+
+    .contact-form-header h1 {
         font-size: 2.5rem;
         font-weight: 800;
     }
 
-    .contact-form-header p{
+    .contact-form-header p {
         font-size: 1.5rem;
         font-weight: 400;
         color: #4D4D4F;
     }
 
-    .lastName{
+    .lastName {
         margin-top: 0px;
     }
-    .form-IMG img{
+
+    .form-IMG img {
         width: 105%;
     }
 
-    label{
+    label {
         font-size: 1.55rem;
         font-weight: 800;
         color: #000000;
@@ -1896,21 +2015,22 @@ label{
 }
 
 
-@media only screen and (min-width: 1440px){
+@media only screen and (min-width: 1440px) {
 
-    .contact-us-page{
+    .contact-us-page {
         margin-top: 100px;
         flex-direction: row;
     }
 
-    .contact-form-header{
+    .contact-form-header {
         padding: 25px 15px;
     }
 
-    .form-IMG{
+    .form-IMG {
         width: 42%;
     }
-    .submit-button{
+
+    .submit-button {
         padding: 15px 0px;
     }
 }
@@ -1922,7 +2042,7 @@ label{
 /* ABOUT US PAGE STYLE SECTION */
 /* ..................................................................................................................... */
 
-.about-us-intro-bg{
+.about-us-intro-bg {
     /* background-image: url('../images/About-Us-Page/amnet-about-us-bg.jpg');
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -1930,72 +2050,73 @@ label{
 
 }
 
-.about-us-img-left{
+.about-us-img-left {
     float: left;
     margin-right: 20px;
 }
 
-.about-us-img-right{
+.about-us-img-right {
     float: right;
 }
 
-.about-us-page-details{
+.about-us-page-details {
     margin-top: 60px;
 }
 
-.about-us-page-desc p{
+.about-us-page-desc p {
     font-size: 1.8rem;
     color: black;
 }
 
-.about-us-page-quote{
+.about-us-page-quote {
     margin-top: 70px;
 }
 
-.about-us-desc{
+.about-us-desc {
     padding: 130px 0;
     font-family: 'Poppins', sans-serif;
 }
 
-.about-us-desc-blog{
+.about-us-desc-blog {
     padding: 0px 0;
     font-family: 'Poppins', sans-serif;
 }
 
-.about-us-desc-blog h2{
+.about-us-desc-blog h2 {
     font-size: 3rem;
     font-weight: 800;
     color: black;
 }
 
-.about-us-desc-blog p{
+.about-us-desc-blog p {
     font-size: 1.8rem;
     font-weight: 500;
     color: black;
 }
 
 
-.about-us-desc h2{
+.about-us-desc h2 {
     font-size: 3rem;
     font-weight: 800;
     color: black;
 }
-.about-us-desc p{
+
+.about-us-desc p {
     font-size: 1.8rem;
     font-weight: 500;
     color: black;
 }
 
-.about-us-details{
+.about-us-details {
     margin-top: 50px;
 }
 
-.about-us-desc-img-right h2{
+.about-us-desc-img-right h2 {
     font-size: 3rem;
     font-weight: 800;
 }
 
-.about-us-desc-img-right p{
+.about-us-desc-img-right p {
     font-size: 2rem;
     font-weight: 500;
     opacity: 0.8;
@@ -2014,29 +2135,29 @@ label{
         overflow-x: hidden;
     } */
 
-    .about-us-img-left{
+    .about-us-img-left {
         float: none;
     }
 
-    .about-us-img-right{
+    .about-us-img-right {
         float: none;
     }
 
-    .location-details a{
+    .location-details a {
         margin-top: 15px;
     }
 
 
-    .about-us-page-desc p{
+    .about-us-page-desc p {
         font-size: 1.5rem;
         color: #4D4D4F;
     }
 
-    .about-us-desc{
+    .about-us-desc {
         padding: 15px 0;
     }
 
-    .about-us-desc-img-right{
+    .about-us-desc-img-right {
         margin-top: 0px;
     }
 
@@ -2045,47 +2166,47 @@ label{
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
 
-    .about-us-img-left{
+    .about-us-img-left {
         float: none;
     }
 
-    .about-us-img-right{
+    .about-us-img-right {
         float: none;
     }
 
-    .about-us-desc{
+    .about-us-desc {
         padding: 15px 0;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .about-us-img-left{
+    .about-us-img-left {
         width: 100%;
         float: none;
     }
 
-    .about-us-img-right{
+    .about-us-img-right {
         width: 100%;
         float: none;
     }
 
-    .about-us-desc{
+    .about-us-desc {
         padding: 15px 0;
     }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
-    .about-us-img-left{
+    .about-us-img-left {
         float: none;
         width: 100%;
     }
 
-    .about-us-img-right{
+    .about-us-img-right {
         float: none;
         width: 100%;
     }
 
-    .about-us-desc{
+    .about-us-desc {
         padding: 30px 0px;
     }
 }
@@ -2096,27 +2217,27 @@ label{
 /* SERVICES PAGE STYLES */
 /* ................................................................................................ */
 
-.service-page-intro{
+.service-page-intro {
     /* background-image:url('../images/Service-Page/amnet-our-services-bg.jpg');
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover; */
 }
 
-.img-left{
+.img-left {
     float: left;
     width: 430px;
     height: 100% !important;
     margin-right: 15px;
 }
 
-.img-right{
+.img-right {
     float: right;
     width: 430px;
     height: 100% !important;
 }
 
-.service-list{
+.service-list {
     margin-top: 50px;
     box-shadow: 3px 6px 16px #0000004D;
 }
@@ -2125,48 +2246,53 @@ label{
     float: right;
   } */
 
-.service-desc{
+.service-desc {
     margin-left: 10px;
     /* padding: 60px; */
     font-family: 'Poppins', sans-serif;
 }
 
-.service-desc h2{
+.service-desc h2 {
     font-size: 2.5rem;
     font-weight: 800;
     margin-top: 30px;
     color: black;
 }
-.service-desc p{
+
+.service-desc p {
     font-size: 1.5rem;
     font-weight: 500;
 }
 
-.service-desc-long-text{
+.service-desc-long-text {
     margin-left: 10px;
     padding: 30px;
     font-family: 'Poppins', sans-serif;
 }
-.service-desc-long-text h2{
+
+.service-desc-long-text h2 {
     font-size: 2.5rem;
     font-weight: 800;
 }
-.service-desc-long-text p{
+
+.service-desc-long-text p {
     font-size: 1.5rem;
     font-weight: 500;
     opacity: 0.8;
 }
 
-.service-desc-mid-text{
+.service-desc-mid-text {
     margin-left: 10px;
     padding: 63px 15px;
     font-family: 'Poppins', sans-serif;
 }
-.service-desc-mid-text h2{
+
+.service-desc-mid-text h2 {
     font-size: 2.5rem;
     font-weight: 800;
 }
-.service-desc-mid-text p{
+
+.service-desc-mid-text p {
     font-size: 1.5rem;
     font-weight: 500;
     opacity: 0.8;
@@ -2180,47 +2306,55 @@ label{
 @media only screen and (min-width: 320px) and (max-width: 374px) {
 
 
-    .service{
+    .service {
         margin: 0px 21px 0px 21px;
     }
-    .img-left{
-        width: 100%;
-        height: auto !important;
-        float: none;
-    }
-    .img-right{
+
+    .img-left {
         width: 100%;
         height: auto !important;
         float: none;
     }
 
-    .service-desc{
+    .img-right {
+        width: 100%;
+        height: auto !important;
+        float: none;
+    }
+
+    .service-desc {
         padding: 5px 20px;
     }
-    .service-desc h2{
+
+    .service-desc h2 {
         font-size: 1.8rem;
     }
-    .service-desc p{
+
+    .service-desc p {
         font-size: 1.2rem;
     }
 
-    .service-desc-long-text{
+    .service-desc-long-text {
         padding: 20px;
     }
-    .service-desc-long-text h2{
+
+    .service-desc-long-text h2 {
         font-size: 1.8rem;
     }
-    .service-desc-long-text p{
+
+    .service-desc-long-text p {
         font-size: 1.2rem;
     }
 
-    .service-desc-mid-text{
+    .service-desc-mid-text {
         padding: 20px;
     }
-    .service-desc-mid-text h2{
+
+    .service-desc-mid-text h2 {
         font-size: 1.8rem;
     }
-    .service-desc-mid-text p{
+
+    .service-desc-mid-text p {
         font-size: 1.2rem;
     }
 
@@ -2228,72 +2362,82 @@ label{
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
 
-.service{
-    margin: 0px 21px 0px 21px;
-}
-.img-left{
-    width: 100%;
-    height: auto !important;
-    float: none;
-}
-.img-right{
-    width: 100%;
-    height: auto !important;
-    float: none;
-}
+    .service {
+        margin: 0px 21px 0px 21px;
+    }
 
-.service-desc{
-    padding: 5px 20px;
-}
-.service-desc h2{
-    font-size: 2rem;
-}
-.service-desc p{
-    font-size: 1.5rem;
-}
+    .img-left {
+        width: 100%;
+        height: auto !important;
+        float: none;
+    }
 
-.service-desc-long-text{
-    padding: 20px;
-}
-.service-desc-long-text h2{
-    font-size: 2rem;
-}
-.service-desc-long-text p{
-    font-size: 1.5rem;
-}
+    .img-right {
+        width: 100%;
+        height: auto !important;
+        float: none;
+    }
 
-.service-desc-mid-text{
-    padding: 20px;
-}
-.service-desc-mid-text h2{
-    font-size: 1.8rem;
-}
-.service-desc-mid-text p{
-    font-size: 1.2rem;
-}
+    .service-desc {
+        padding: 5px 20px;
+    }
+
+    .service-desc h2 {
+        font-size: 2rem;
+    }
+
+    .service-desc p {
+        font-size: 1.5rem;
+    }
+
+    .service-desc-long-text {
+        padding: 20px;
+    }
+
+    .service-desc-long-text h2 {
+        font-size: 2rem;
+    }
+
+    .service-desc-long-text p {
+        font-size: 1.5rem;
+    }
+
+    .service-desc-mid-text {
+        padding: 20px;
+    }
+
+    .service-desc-mid-text h2 {
+        font-size: 1.8rem;
+    }
+
+    .service-desc-mid-text p {
+        font-size: 1.2rem;
+    }
 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .service{
+    .service {
         margin: 0px 21px 0px 21px;
     }
-    .img-left{
-        width: 100%;
-        height: auto !important;
-        float: none;
-    }
-    .img-right{
+
+    .img-left {
         width: 100%;
         height: auto !important;
         float: none;
     }
 
-    .service-desc{
+    .img-right {
+        width: 100%;
+        height: auto !important;
+        float: none;
+    }
+
+    .service-desc {
         padding: 5px 20px;
     }
 
-    .service-desc-mid-text{
+    .service-desc-mid-text {
         padding: 20px;
     }
 
@@ -2305,23 +2449,25 @@ label{
     .service-desc {
         padding: 20px 5px;
     }
-    .service-desc-long-text{
-        padding:15px 5px;
+
+    .service-desc-long-text {
+        padding: 15px 5px;
 
     }
-    .service-desc p{
+
+    .service-desc p {
         font-size: 1.3rem;
     }
 }
 
 
 @media only screen and (min-width: 1440px) {
-    .service-desc{
+    .service-desc {
         padding: 10px 5px;
     }
 
-    .service-desc-long-text{
-        padding:15px 5px;
+    .service-desc-long-text {
+        padding: 15px 5px;
 
     }
 }
@@ -2329,7 +2475,7 @@ label{
 /* CASE STUDIES PAGE STYLES */
 /* .................................................................................................................... */
 
-.case-studies-intro{
+.case-studies-intro {
     /* background-image:url('../images/Case-Studies-Page/amnet-case-studies-bg.jpg');
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -2337,41 +2483,41 @@ label{
 }
 
 
-.case-studies-page-row{
+.case-studies-page-row {
     margin-top: -30px;
 }
 
-.case-studies-page-row .case-studies-page-card{
+.case-studies-page-row .case-studies-page-card {
     border: none;
 }
 
-.case-studies-page-card{
+.case-studies-page-card {
     font-family: 'Poppins', sans-serif;
     box-shadow: 3px 6px 16px #0000004D;
     text-align: center;
 }
 
-.case-studies-page-card .card-img-top{
+.case-studies-page-card .card-img-top {
     height: 246px;
 }
 
-.case-studies-icon{
-    position:absolute;
+.case-studies-icon {
+    position: absolute;
     height: 132px;
     width: 132px;
     transform: translate(-50%, -80%);
 }
 
-.case-studies-list{
+.case-studies-list {
     margin-top: 60px;
 }
 
-.case-studies-page-card .card-body{
+.case-studies-page-card .card-body {
     padding: 35px;
 }
 
 
-.case-studies-page-card h2{
+.case-studies-page-card h2 {
     font-size: 2.5rem;
     font-weight: 800;
     margin-top: 50px;
@@ -2379,7 +2525,7 @@ label{
     color: black;
 }
 
-.case-studies-page-card-info h4{
+.case-studies-page-card-info h4 {
     font-size: 1.8rem;
     color: #FD5D14;
     font-weight: 800;
@@ -2387,7 +2533,7 @@ label{
     text-align: left;
 }
 
-.case-studies-page-card-info p{
+.case-studies-page-card-info p {
     font-size: 1.5rem;
     margin-top: 10px;
     text-align: left;
@@ -2402,29 +2548,29 @@ label{
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
 
-    .case-studies-icon{
-        position:absolute;
+    .case-studies-icon {
+        position: absolute;
         height: 80px;
         width: 80px;
         transform: translate(-45%, -90%);
     }
 
-    .case-studies-page-card .card-img-top{
+    .case-studies-page-card .card-img-top {
         height: 150px;
     }
 
 
-    .case-studies-page-card h2{
+    .case-studies-page-card h2 {
         margin-top: 20px;
         font-size: 1.5rem;
     }
 
-    .case-studies-page-card-info h4{
+    .case-studies-page-card-info h4 {
         font-size: 1.4rem;
 
     }
 
-    .case-studies-page-card-info p{
+    .case-studies-page-card-info p {
         font-size: 1.2rem;
 
     }
@@ -2433,8 +2579,8 @@ label{
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
 
-    .case-studies-icon{
-        position:absolute;
+    .case-studies-icon {
+        position: absolute;
         height: 80px;
         width: 80px;
         /* top: 50%; */
@@ -2442,21 +2588,21 @@ label{
         transform: translate(0%, -90%);
     }
 
-    .case-studies-page-card .card-img-top{
+    .case-studies-page-card .card-img-top {
         height: 150px;
     }
 
-    .case-studies-page-card h2{
+    .case-studies-page-card h2 {
         margin-top: 30px;
         font-size: 1.8rem;
     }
 
-    .case-studies-page-card-info h4{
+    .case-studies-page-card-info h4 {
         font-size: 1.4rem;
 
     }
 
-    .case-studies-page-card-info p{
+    .case-studies-page-card-info p {
         font-size: 1.2rem;
 
     }
@@ -2465,8 +2611,8 @@ label{
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
-    .case-studies-icon{
-        position:absolute;
+    .case-studies-icon {
+        position: absolute;
         height: 100px;
         width: 100px;
         /* top: 50%; */
@@ -2474,21 +2620,21 @@ label{
         transform: translate(0%, -90%);
     }
 
-    .case-studies-page-card .card-img-top{
+    .case-studies-page-card .card-img-top {
         height: 200px;
     }
 
-    .case-studies-page-card h2{
+    .case-studies-page-card h2 {
         margin-top: 20px;
         font-size: 2rem;
     }
 
-    .case-studies-page-card-info h4{
+    .case-studies-page-card-info h4 {
         font-size: 1.4rem;
 
     }
 
-    .case-studies-page-card-info p{
+    .case-studies-page-card-info p {
         font-size: 1.2rem;
 
     }
@@ -2496,8 +2642,8 @@ label{
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
 
-    .case-studies-icon{
-        position:absolute;
+    .case-studies-icon {
+        position: absolute;
         height: 100px;
         width: 100px;
         /* top: 50%; */
@@ -2505,22 +2651,22 @@ label{
         transform: translate(0%, -90%);
     }
 
-    .case-studies-page-card .card-img-top{
+    .case-studies-page-card .card-img-top {
         height: 200px;
     }
 
 
-    .case-studies-page-card-title{
+    .case-studies-page-card-title {
         font-size: 1.8rem;
 
     }
 
-    .case-studies-page-card-info h4{
+    .case-studies-page-card-info h4 {
         font-size: 1.4rem;
 
     }
 
-    .case-studies-page-card-info p{
+    .case-studies-page-card-info p {
         font-size: 1.5rem;
 
     }
@@ -2529,33 +2675,33 @@ label{
 /* INDUSTRY PAGE STYLES */
 /* .................................................................................................................... */
 
-.industry-page-detail-section .row{
+.industry-page-detail-section .row {
     margin-top: 60px;
     margin-left: 0px !important;
     margin-right: 0px !important;
 }
 
-.detail-section-text-column{
+.detail-section-text-column {
     background-color: black;
     padding: 40px 20px;
 }
 
-.detail-section-title{
+.detail-section-title {
     font-size: 4.5rem;
     color: white;
     font-weight: 800;
     padding: 0px 20px;
-    
+
 }
 
-.detail-section-texts{
+.detail-section-texts {
     font-size: 1.8rem;
     color: white;
     font-weight: 400;
     padding: 0px 20px;
 }
 
-.industry-page-detail-section .industry-detail-section-contact-us-btn{
+.industry-page-detail-section .industry-detail-section-contact-us-btn {
     width: 150px;
     height: 45px;
     font-family: 'Poppins', sans-serif;
@@ -2567,46 +2713,48 @@ label{
     margin-left: 15px;
 }
 
-.detail-section-img-column{
+.detail-section-img-column {
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
-.detail-section-img-column img{
+
+.detail-section-img-column img {
     height: 394px;
 }
 
 /* INDUSTRY BUSINESS VERTICAL */
-.industry-page-business-vertical-section{
+.industry-page-business-vertical-section {
     /* margin-top: 60px; */
 }
-.industry-page-business-vertical{
+
+.industry-page-business-vertical {
     background-color: black;
     padding: 40px 0px;
 }
 
-.business-vertical-row{
+.business-vertical-row {
     padding: 0px 20px;
 }
 
-.industry-page-business-vertical .section-title{
+.industry-page-business-vertical .section-title {
     padding: 0px 0px 30px 0px;
     color: white;
     text-align: center;
 }
 
-.business-vertical-card{
+.business-vertical-card {
     border: none !important;
 }
 
-.business-vertical-card .card-body{
+.business-vertical-card .card-body {
     height: 110px;
 }
 
-.business-vertical-card .card-img-top img{
+.business-vertical-card .card-img-top img {
     height: 200px;
 }
 
-.business-vertical-card .card-title{
+.business-vertical-card .card-title {
     font-size: 1.8rem;
     color: black;
     text-align: center;
@@ -2615,14 +2763,15 @@ label{
 }
 
 /* INDUSTRY AI SOLUTIONS */
-.industry-page-ai-solution-section{
+.industry-page-ai-solution-section {
     /* margin-top: 60px; */
 }
-.industry-page-ai-solution-section .section-title{
+
+.industry-page-ai-solution-section .section-title {
     text-align: center;
 }
 
-.industry-page-ai-solution-section hr{
+.industry-page-ai-solution-section hr {
     text-align: center;
     width: 10%;
     height: 3px;
@@ -2630,36 +2779,37 @@ label{
     background-color: #19AF8F;
 }
 
-.ai-solutions-row{
+.ai-solutions-row {
     margin-top: 20px;
 }
 
-.ai-solutions-icon{
+.ai-solutions-icon {
     width: 20px;
     margin-bottom: 5px;
     margin-right: 5px;
     margin-top: 6px;
 }
 
-.industry-page-ai-solution-section .ai-solutions-card{
+.industry-page-ai-solution-section .ai-solutions-card {
     border: none;
     background-color: #f2f2f2;
     box-shadow: 0px 12px 12px #0000002d;
     border-radius: 8px;
 }
 
-.ai-solutions-card .card-body{
+.ai-solutions-card .card-body {
     height: 230px;
 }
 
-.ai-solutions-card .card-title{
+.ai-solutions-card .card-title {
     font-size: 1.8rem;
     color: black;
     text-align: left;
     font-weight: 600;
     padding: 15px 0px 0px;
 }
-.ai-solutions-card  p{
+
+.ai-solutions-card p {
     font-weight: 400;
     margin-top: 5px;
     font-size: 1.2rem;
@@ -2668,23 +2818,23 @@ label{
 
 
 /* INDUSTRY OUR OFFERINGS */
-.industry-page-our-offering-section{
+.industry-page-our-offering-section {
     /* margin-top: 60px; */
     margin-bottom: 60px;
 }
 
-.industry-page-our-offering-section .section-title{
+.industry-page-our-offering-section .section-title {
     text-align: center;
-}    
+}
 
-.industry-page-our-offering{
+.industry-page-our-offering {
     /* background-image: linear-gradient(to right,#19AF8F , #0ebe98); */
     background-color: #E7E7E7;
     padding: 40px 0px;
     border-radius: 8px;
 }
 
-.industry-page-our-offering hr{
+.industry-page-our-offering hr {
     text-align: center;
     width: 10%;
     height: 3px;
@@ -2692,7 +2842,7 @@ label{
     background-color: #19AF8F;
 }
 
-.our-offering-img img{
+.our-offering-img img {
     width: 350px;
     height: 350px;
     /* border-radius: 50%; */
@@ -2700,14 +2850,14 @@ label{
     margin-left: 50px;
 }
 
-.our-offering-details{
+.our-offering-details {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     padding-left: 50px !important;
 }
 
-.our-offering-title{
+.our-offering-title {
     background-color: #19AF8F;
     color: white;
     padding: 12px 10px;
@@ -2717,21 +2867,21 @@ label{
     border-radius: 4px;
 }
 
-.financial-service-our-offering .our-offering-title{
+.financial-service-our-offering .our-offering-title {
     height: 70px;
 }
 
-.our-offering-title h3{
+.our-offering-title h3 {
     font-size: 1.8rem;
     font-weight: 800;
 }
 
-.our-offering-title{
+.our-offering-title {
     font-size: 1.8rem;
     font-weight: 800;
 }
 
-.financial-service-our-offering .our-offering-title h3{
+.financial-service-our-offering .our-offering-title h3 {
     padding: 10px 0px;
 }
 
@@ -2766,6 +2916,7 @@ label{
     .ai-solutions-icon {
         margin-top: 4px;
     }
+
     .ai-solutions-card .card-title {
         font-size: 1.5rem;
     }
@@ -2774,8 +2925,7 @@ label{
         height: 210px;
     }
 
-    .industry-page-ai-solution-section 
-    .ai-solutions-second-row .ai-solutions-card {
+    .industry-page-ai-solution-section .ai-solutions-second-row .ai-solutions-card {
         margin-top: -5px;
     }
 
@@ -2784,7 +2934,7 @@ label{
         margin-left: 0px;
     }
 
-    .our-offering-details{
+    .our-offering-details {
         justify-content: center;
         padding-left: 15px !important;
     }
@@ -2800,59 +2950,61 @@ label{
     .ai-solutions-card .card-body {
         height: 180px;
     }
+
     .financial-service-our-offering .our-offering-title {
         height: 50px;
     }
 }
 
 
-@media only screen and (max-width: 767px) and (min-width: 425px){
-.industries-intro-section .sub-service-contact-us-btn {
-    margin-left: 0px !important;
-    margin-top: 0px;
-}
+@media only screen and (max-width: 767px) and (min-width: 425px) {
+    .industries-intro-section .sub-service-contact-us-btn {
+        margin-left: 0px !important;
+        margin-top: 0px;
+    }
 
-.detail-section-title {
-    font-size: 3rem;
-}
+    .detail-section-title {
+        font-size: 3rem;
+    }
 
-.business-vertical-card {
-    margin-top: 15px;
-}
-.business-vertical-card .card-body {
-    height: 90px;
-}
+    .business-vertical-card {
+        margin-top: 15px;
+    }
 
-.industry-page-ai-solution-section .ai-solutions-card {
-    margin-top: 15px;
-}
+    .business-vertical-card .card-body {
+        height: 90px;
+    }
 
-.ai-solutions-card .card-body {
-    height: 175px;
-}
+    .industry-page-ai-solution-section .ai-solutions-card {
+        margin-top: 15px;
+    }
 
-.our-offering-img img {
-    border-radius: 0%;
-    margin-left: 0px;
-    width: auto;
-}
+    .ai-solutions-card .card-body {
+        height: 175px;
+    }
 
-.our-offering-details{
-    justify-content: center;
-    padding-left: 15px !important;
-}
+    .our-offering-img img {
+        border-radius: 0%;
+        margin-left: 0px;
+        width: auto;
+    }
 
-.our-offering-title {
-    font-size: 1.5rem;
-}
+    .our-offering-details {
+        justify-content: center;
+        padding-left: 15px !important;
+    }
 
-.financial-service-our-offering .our-offering-title {
-    height: 50px;
-}
+    .our-offering-title {
+        font-size: 1.5rem;
+    }
 
-.ai-solutions-icon {
-    margin-top: 4px;
-}
+    .financial-service-our-offering .our-offering-title {
+        height: 50px;
+    }
+
+    .ai-solutions-icon {
+        margin-top: 4px;
+    }
 
 }
 
@@ -2871,7 +3023,8 @@ label{
         width: auto;
         margin-left: 0px;
     }
-    .our-offering-details{
+
+    .our-offering-details {
         justify-content: center;
     }
 
@@ -2883,26 +3036,26 @@ label{
 
 
 @media only screen and (min-width: 1200px) and (max-width: 1439px) {
-    
-.ai-solutions-card .card-title {
-    font-size: 1.5rem;
-}
 
-.ai-solutions-card p {
-    font-size: 1.2rem !important;
-}
+    .ai-solutions-card .card-title {
+        font-size: 1.5rem;
+    }
 
-.ai-solutions-card .card-body {
-    height: 230px;
-}
+    .ai-solutions-card p {
+        font-size: 1.2rem !important;
+    }
 
-.our-offering-img img {
-    border-radius: 0%;
-    width: 95%;
-    margin-left: 30px !important;
-}
+    .ai-solutions-card .card-body {
+        height: 230px;
+    }
 
-   .our-offering-details{
+    .our-offering-img img {
+        border-radius: 0%;
+        width: 95%;
+        margin-left: 30px !important;
+    }
+
+    .our-offering-details {
         padding-left: 15px !important;
     }
 
@@ -2918,6 +3071,7 @@ label{
     .detail-section-title {
         font-size: 3.5rem;
     }
+
     .detail-section-img-column img {
         height: 409px;
     }
@@ -2933,11 +3087,13 @@ label{
     .industry-page-ai-solution-section .ai-solutions-card {
         margin-top: 15px;
     }
+
     .our-offering-img img {
         border-radius: 0%;
         width: auto;
         margin-left: 0px;
     }
+
     /* .our-offering-details{
         justify-content: center;
     } */
@@ -2954,40 +3110,40 @@ label{
 /* CAREERS PAGE STYLES */
 /* ........................................................................................................................... */
 
-.careers-page-bg{
+.careers-page-bg {
     /* background-image:url('../images/careers-page/amnet-careers-bg.jpg');
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover; */
 }
 
-.careers-page-details{
+.careers-page-details {
     font-family: 'Poppins', sans-serif;
     color: #4D4D4F;
     margin-top: 20px;
 }
 
-.careers-page-details p{
+.careers-page-details p {
     font-size: 1.8rem;
 }
 
-.careers-details-lists{
+.careers-details-lists {
     margin-top: 20px;
     list-style: none;
     padding-inline-start: 0px;
 }
 
-.careers-details-lists li{
+.careers-details-lists li {
     font-size: 1.8rem;
     padding: 10px 0px;
 }
 
 
-.careers-our-culture-header{
+.careers-our-culture-header {
     margin-top: 60px;
 }
 
-.our-culture-section{
+.our-culture-section {
     margin-top: 60px;
     padding: 15px 0px;
 }
@@ -3007,34 +3163,34 @@ label{
 } */
 
 
-.culture-img-left .team-img{
+.culture-img-left .team-img {
     margin-top: 8px;
 }
 
 .amnet-images:nth-child(2) {
     margin-top: 8px;
-  }
+}
 
-.job-desc-header{
+.job-desc-header {
     margin-top: 60px;
 }
 
-.job-desc-lists{
+.job-desc-lists {
     margin-top: 60px;
 }
 
-.job-desc-lists .card{
+.job-desc-lists .card {
     box-shadow: 3px 6px 16px #0000004D;
     border-style: none;
     margin-top: 40px;
 }
 
-.collapse-content{
+.collapse-content {
     box-shadow: 3px 6px 16px #0000004D;
     border-style: none;
 }
 
-.job-desc-lists button{
+.job-desc-lists button {
     color: #000000;
     font-size: 2rem;
     padding: 25px 10px;
@@ -3042,7 +3198,7 @@ label{
     border-style: none;
 }
 
-.job-desc-card .job-icon{
+.job-desc-card .job-icon {
     float: right;
     margin-top: 20px;
     padding: 15px;
@@ -3050,17 +3206,17 @@ label{
     background-color: #19AF8F;
 }
 
-.job-desc-lists .fa-arrow-down{
-   font-size: 1.5rem;
-   text-align: center;
-   color: white;
+.job-desc-lists .fa-arrow-down {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
 }
 
-.job-desc-card-info{
+.job-desc-card-info {
     padding: 15px;
 }
 
-.job-desc-card-info h4{
+.job-desc-card-info h4 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     font-weight: 600;
@@ -3068,46 +3224,46 @@ label{
     margin-top: 20px;
 }
 
-.careers-page-details span a{
+.careers-page-details span a {
     color: #000000;
     font-weight: 800;
     font-size: 1.8rem;
 }
 
-.job-desc-card-info .job-info-footer span a{
+.job-desc-card-info .job-info-footer span a {
     color: #FD5D14;
     font-size: 1.8rem;
 }
 
-.job-desc-card-info .experience-info{
+.job-desc-card-info .experience-info {
     display: flex;
     justify-content: space-between;
 }
 
-.experience-info span{
+.experience-info span {
     font-size: 1.5rem;
     font-weight: 600;
     color: black;
 }
 
-.experience-info h3{
+.experience-info h3 {
     font-size: 1.5rem;
 }
 
-.job-desc-card-info h5{
+.job-desc-card-info h5 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     font-weight: 600;
     color: #000000;
 }
 
-.job-desc-card-info p{
+.job-desc-card-info p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     color: black;
 }
 
-.job-desc-card-info h1{
+.job-desc-card-info h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     font-weight: 800;
@@ -3115,11 +3271,11 @@ label{
     color: black;
 }
 
-.job-desc-card-info .job-info-lists{
+.job-desc-card-info .job-info-lists {
     padding-inline-start: 20px;
 }
 
-.job-desc-card-info li{
+.job-desc-card-info li {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     color: black;
@@ -3130,12 +3286,12 @@ label{
 /* ........................................................................................................................... */
 
 @media only screen and (min-width: 320px) and (max-width: 424px) {
-    .careers-page-details p{
+    .careers-page-details p {
         font-size: 1.5rem;
         margin-top: 15px;
     }
 
-    .careers-page-details li{
+    .careers-page-details li {
         font-size: 1.5rem;
     }
 
@@ -3143,37 +3299,39 @@ label{
         width: 30px;
     }
 
-    .careers-our-culture-header h1{
+    .careers-our-culture-header h1 {
         font-size: 2rem;
     }
 
-    .culture-img-left{
+    .culture-img-left {
         margin-top: 8px;
     }
 
-    .job-desc-card button{
+    .job-desc-card button {
         font-size: 1.2rem;
     }
-    .job-desc-lists .job-icon{
+
+    .job-desc-lists .job-icon {
         margin-top: 10px;
     }
 
-    .collapse-content h4{
+    .collapse-content h4 {
         font-size: 1.5rem;
     }
 
-    .collapse-content h5{
+    .collapse-content h5 {
         font-size: 1.8rem;
     }
-    .collapse-content p{
+
+    .collapse-content p {
         font-size: 1.2rem;
     }
 
-    .collapse-content h1{
+    .collapse-content h1 {
         font-size: 1.8rem;
     }
 
-    .collapse-content li{
+    .collapse-content li {
         font-size: 1.2rem;
     }
 
@@ -3183,32 +3341,34 @@ label{
 }
 
 @media only screen and (min-width: 375px) and (max-width: 424px) {
-    .job-desc-lists .job-icon{
+    .job-desc-lists .job-icon {
         margin-top: 15px;
     }
+
     .job-desc-card button {
         font-size: 1.5rem;
     }
 }
 
 @media only screen and (min-width: 425px) and (max-width: 767px) {
-    .culture-img-left{
+    .culture-img-left {
         margin-top: 8px;
     }
+
     .careers-details-lists .list-icon {
         width: 40px;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .culture-img-left{
+    .culture-img-left {
         margin-top: 8px;
     }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
 
-    .our-culture-section .team-img{
+    .our-culture-section .team-img {
         margin-top: 6px;
     }
 }
@@ -3221,7 +3381,7 @@ label{
 /* SUB-SERVICE AIML PAGE STYLES */
 /*..............................................................................................................................*/
 
-.sub-service-intro{
+.sub-service-intro {
     position: relative;
     width: 100%;
     height: 550px;
@@ -3230,22 +3390,22 @@ label{
 }
 
 
-.subService-AIML-intro-caption{
+.subService-AIML-intro-caption {
     top: 150px;
     color: white;
 }
 
-.subService-AIML-intro-caption h2{
+.subService-AIML-intro-caption h2 {
     font-size: 4.5rem;
     font-weight: 800;
 }
 
-.subService-AIML-intro-caption p{
+.subService-AIML-intro-caption p {
     font-size: 1.8rem;
     font-weight: 200;
 }
 
-.subService-AIML-intro-btn .sub-service-view-details-btn{
+.subService-AIML-intro-btn .sub-service-view-details-btn {
     width: 150px;
     height: 45px;
     font-family: 'Poppins', sans-serif;
@@ -3257,37 +3417,37 @@ label{
     /* margin-top: 2rem; */
 }
 
-.subService-AIML-intro-btn .sub-service-view-details-btn:hover{
-  background-color: white;
-  color: black;
-  transition: .5s;
+.subService-AIML-intro-btn .sub-service-view-details-btn:hover {
+    background-color: white;
+    color: black;
+    transition: .5s;
 }
 
-.subService-AIML-intro{
-   margin-top: 50px;
+.subService-AIML-intro {
+    margin-top: 50px;
 }
 
-.sub-service-details-bg{
+.sub-service-details-bg {
     background-color: #f2f2f2;
     padding: 10px 10px 20px 10px;
     margin-top: 45px;
 }
 
-.sub-service-data-section{
+.sub-service-data-section {
     margin-top: 20px;
 }
 
-.sub-service-right-image-row{
+.sub-service-right-image-row {
     padding-top: 50px;
 }
 
-.sub-service-image{
+.sub-service-image {
     width: auto;
     height: auto;
     background-color: gray;
 }
 
-.sub-service-details-bg-color{
+.sub-service-details-bg-color {
     margin-top: 45px;
     background-color: #F2F2F2;
     padding: 15px 0px;
@@ -3297,56 +3457,56 @@ label{
     margin-top: 0px;
 }
 
-.sub-service-data-section p{
+.sub-service-data-section p {
     font-size: 1.8rem;
     padding: 5px 5px 5px 0px;
 }
 
-.sub-service-data-section h2{
+.sub-service-data-section h2 {
     font-size: 2.4rem;
     font-weight: 800;
     padding: 25px 5px 5px 0px;
     margin-bottom: 0px;
 }
 
-.sub-service-data-section .dummy{
+.sub-service-data-section .dummy {
     width: auto;
     height: 40px;
 }
 
-.sub-service-data-section .about-icons{
+.sub-service-data-section .about-icons {
     width: 80px;
     height: 80px;
 }
 
-.sub-service-img-right-desc{
+.sub-service-img-right-desc {
     padding-top: 70px;
 }
 
-.sub-service-img-left-desc{
+.sub-service-img-left-desc {
     padding-top: 70px;
 }
 
-.sub-service-img-right-desc .about-icons{
+.sub-service-img-right-desc .about-icons {
     margin-left: 15px;
     margin-right: 20px;
     /* margin-top: 30px; */
 }
 
-.sub-service-img-left-desc .about-icons{
+.sub-service-img-left-desc .about-icons {
     margin-left: 35px;
     margin-right: 20px;
 }
 
-.sub-service-img-left h2{
+.sub-service-img-left h2 {
     padding: 25px 5px 5px 20px;
 }
 
-.sub-service-img-left p{
+.sub-service-img-left p {
     padding: 5px 5px 5px 20px;
 }
 
-.subService-AIML-intro-btn{
+.subService-AIML-intro-btn {
     padding: 10px 0px;
 }
 
@@ -3365,7 +3525,7 @@ label{
     margin: 0px 100px 0px 100px;
 } */
 
-.sub-service-data-section .service-all-margin{
+.sub-service-data-section .service-all-margin {
     margin: 0px 100px 0px 100px;
 }
 
@@ -3373,11 +3533,11 @@ label{
 
 /* SUB SERVICE CAREER SECTION */
 
-.career-section{
-    transform: translate(0%,-40%);
+.career-section {
+    transform: translate(0%, -40%);
 }
 
-.career{
+.career {
     margin-top: 200px;
     width: 100%;
     height: 250px;
@@ -3388,25 +3548,25 @@ label{
     background-size: cover; */
 }
 
-.sub-service-career .career-caption{
+.sub-service-career .career-caption {
     background-color: #18AE8E;
     color: white;
     padding: 60px 30px;
 }
 
-.career-caption h5{
+.career-caption h5 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     font-weight: 800;
 }
 
-.sub-service-career .career-caption h2{
+.sub-service-career .career-caption h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
     font-weight: 800;
 }
 
-.career-section .career-btn{
+.career-section .career-btn {
     width: 180px;
     height: 45px;
     margin-left: 35px;
@@ -3418,7 +3578,7 @@ label{
     background-color: #FD5D14;
 }
 
-.career-section .service-btn{
+.career-section .service-btn {
     width: 180px;
     height: 45px;
     margin-left: 35px;
@@ -3431,15 +3591,15 @@ label{
     box-shadow: 2px 2px 6px #0000004D;
 }
 
-.sub-service-career .career-details{
+.sub-service-career .career-details {
     background-color: #FBFBFB;
 }
 
-.sub-service-career .career-details p{
+.sub-service-career .career-details p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
     font-weight: 400;
-    color:black;
+    color: black;
     padding: 30px 35px;
 }
 
@@ -3449,11 +3609,11 @@ label{
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
-    .sub-service-data-section .dummy{
+    .sub-service-data-section .dummy {
         height: 20px;
     }
 
-    .sub-service-data-section .service-all-margin{
+    .sub-service-data-section .service-all-margin {
         margin: 0px 80px 0px 80px;
     }
 
@@ -3469,11 +3629,11 @@ label{
         font-size: 1.5rem;
     }
 
-    .sub-service-img-left-desc .about-icons{
+    .sub-service-img-left-desc .about-icons {
         margin-left: 0px;
     }
 
-    .sub-service-img-right-desc .about-icons{
+    .sub-service-img-right-desc .about-icons {
         margin-left: 0px;
         margin-right: 20px;
         margin-top: 10px;
@@ -3487,7 +3647,7 @@ label{
         padding-top: 40px;
     }
 
-    .sub-service-right-details{
+    .sub-service-right-details {
         order: 2;
     }
 
@@ -3497,10 +3657,12 @@ label{
     .sub-service-data-section .service-all-margin {
         margin: 0px 20px 0px 20px;
     }
-    .sub-service-data-section .dummy{
+
+    .sub-service-data-section .dummy {
         height: 10px;
     }
-    .sub-service-data-section{
+
+    .sub-service-data-section {
         text-align: left;
         margin-top: 20px;
     }
@@ -3518,8 +3680,8 @@ label{
     } */
 
     .subService-AIML-intro-caption p {
-    font-size: 1.2rem;
-    font-weight: 200;
+        font-size: 1.2rem;
+        font-weight: 200;
     }
 
     .sub-service-data-section p {
@@ -3529,9 +3691,11 @@ label{
     .sub-service-img-right-desc {
         padding-top: 0px;
     }
+
     .sub-service-data-section h2 {
         font-size: 2rem;
     }
+
     .sub-service-career .career-details p {
         font-size: 1.5rem;
         padding: 15px 15px;
@@ -3553,17 +3717,17 @@ label{
         margin-left: 15px;
     }
 
-    .sub-service-img-left-desc .about-icons{
+    .sub-service-img-left-desc .about-icons {
         margin-left: 0px;
     }
 
-    .sub-service-img-right-desc .about-icons{
+    .sub-service-img-right-desc .about-icons {
         margin-left: 0px;
         margin-right: 20px;
         margin-top: 30px;
     }
 
-    .sub-service-right-details{
+    .sub-service-right-details {
         order: 2;
     }
 }
@@ -3574,31 +3738,38 @@ label{
         margin: 0px 20px 0px 20px;
     }
 
-    .sub-service-data-section .dummy{
+    .sub-service-data-section .dummy {
         height: 10px;
     }
+
     /* .sub-service-intro {
         height: 80vh;
     } */
     .subService-AIML-intro-caption {
         top: 130px;
     }
-    .sub-service-data-section{
+
+    .sub-service-data-section {
         text-align: left;
         margin-top: 20px;
     }
+
     .sub-service-img-right-desc {
         padding-top: 0px;
     }
+
     .subService-AIML-intro-caption h2 {
         font-size: 2.5rem;
     }
+
     .subService-AIML-intro-caption p {
         font-size: 1.5rem;
     }
+
     .sub-service-data-section h2 {
         font-size: 2rem;
     }
+
     .sub-service-career .career-details p {
         font-size: 1.5rem;
         padding: 15px 15px;
@@ -3620,28 +3791,28 @@ label{
         margin-left: 15px;
     }
 
-    .sub-service-img-left-desc .about-icons{
+    .sub-service-img-left-desc .about-icons {
         margin-left: 0px;
     }
 
-    .sub-service-img-right-desc .about-icons{
+    .sub-service-img-right-desc .about-icons {
         margin-left: 0px;
         margin-right: 20px;
         margin-top: 30px;
     }
 
-    .sub-service-right-details{
+    .sub-service-right-details {
         order: 2;
     }
 }
 
 
 @media only screen and (min-width: 425px) and (max-width: 767px) {
-    .sub-service-data-section .service-all-margin{
+    .sub-service-data-section .service-all-margin {
         margin: 0px 20px 0px 20px;
     }
 
-    .sub-service-data-section .dummy{
+    .sub-service-data-section .dummy {
         height: 10px;
     }
 
@@ -3650,67 +3821,69 @@ label{
         color: white;
     }
 
-    .sub-service-data-section{
+    .sub-service-data-section {
         margin-top: 40px;
     }
 
-    .sub-service-img-left h2{
+    .sub-service-img-left h2 {
         padding: 25px 5px 5px 0px;
     }
 
-    .sub-service-img-left p{
+    .sub-service-img-left p {
         padding: 5px 5px 5px 0px;
     }
 
     .subService-AIML-intro-caption h2 {
         font-size: 3.5rem;
     }
+
     .subService-AIML-intro-caption p {
         font-size: 1.5rem;
     }
 
-    .sub-service-img-left-desc .about-icons{
+    .sub-service-img-left-desc .about-icons {
         margin-left: 0px;
     }
 
-    .sub-service-img-right-desc .about-icons{
+    .sub-service-img-right-desc .about-icons {
         margin-left: 0px;
         margin-right: 20px;
         margin-top: 30px;
     }
 
-    .sub-service-details-bg{
+    .sub-service-details-bg {
         padding: 10px 10px 20px 0px;
     }
 
-    .sub-service-img-right-desc{
+    .sub-service-img-right-desc {
         padding-top: 0px;
     }
 
-    .sub-service-img-left-desc{
+    .sub-service-img-left-desc {
         padding-top: 50px;
     }
 
-    .sub-service-career{
+    .sub-service-career {
         margin-top: 250px;
     }
+
     .sub-service-career .career-caption {
         padding: 40px 30px;
     }
 
-    .sub-service-career .career-details p{
+    .sub-service-career .career-details p {
         padding: 30px 15px;
     }
 
-    .career-section .career-btn{
+    .career-section .career-btn {
         margin-left: 15px;
     }
 
-    .career-section .service-btn{
+    .career-section .service-btn {
         margin-left: 15px;
     }
 
-    .sub-service-right-details{
+    .sub-service-right-details {
         order: 2;
     }
 }
@@ -3720,11 +3893,11 @@ label{
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
 
 
-    .sub-service-intro{
+    .sub-service-intro {
         height: 650px;
     }
 
-    .sub-service-data-section .dummy{
+    .sub-service-data-section .dummy {
         height: 40px;
     }
 
@@ -3747,12 +3920,12 @@ label{
     .sub-service-data-section {
         margin-top: 30px;
     }
-    
+
 
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
-    .sub-service-right-details{
+    .sub-service-right-details {
         order: 2;
     }
 }
@@ -3764,6 +3937,7 @@ label{
         width: 50%;
         height: 100%;
     }
+
     .sub-service-data-section .about-us-img-right {
         float: right;
         width: 50%;
@@ -3789,7 +3963,7 @@ label{
 }
 
 @media only screen and (min-width: 1920px) {
-    .sub-service-data-section .service-all-margin{
+    .sub-service-data-section .service-all-margin {
         margin: 0px 140px 0px 140px;
     }
 
@@ -3827,17 +4001,18 @@ label{
 
 /*..................................................................................*/
 .video-background {
-  margin-top: 100px;
+    margin-top: 100px;
 }
+
 .video-foreground,
 .video-background iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: -99;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -99;
 }
 
 
@@ -3847,7 +4022,7 @@ label{
 
 /* NEW HOMEPAGE DESIGN SECTION */
 
-.new-all-margin{
+.new-all-margin {
     margin: 0px 100px 0px 100px;
 }
 
@@ -3867,36 +4042,36 @@ label{
     font-weight: 200;
 }
 
-.homepage-quote{
+.homepage-quote {
     background-color: #19AF8F;
     color: white;
     padding: 2px 0px;
 }
 
-.homepage-quote h2{
+.homepage-quote h2 {
     font-size: 2rem;
     font-weight: 400;
     padding: 10px;
 }
 
-.homepage-news-text h2{
+.homepage-news-text h2 {
     font-size: 1.8rem;
 }
 
 
 /* NEW HOMEPAGE ABOUT DETAILS SECTION */
 
-.new-home-about-details{
+.new-home-about-details {
     margin-top: 80px;
 }
 
-.new-home-about-details h1{
+.new-home-about-details h1 {
     font-size: 3.5rem;
     font-weight: 800;
     color: black;
 }
 
-.new-home-about-details p{
+.new-home-about-details p {
     font-size: 1.8rem;
     font-weight: 400;
     color: black;
@@ -3924,17 +4099,17 @@ label{
     display: flex;
 }
 
-.new-solutions-services-lists .ai-icon{
-        width: 50px;
-        height: 50px;
-        margin-right: 10px;
-        margin-bottom: 5px;
+.new-solutions-services-lists .ai-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: 5px;
 }
 
 
 /* NEW HOMEPAGE ABOUT US DETAILS SECTION */
 
-.new-about-details-heading .new-about-heading{
+.new-about-details-heading .new-about-heading {
     font-size: 5rem;
     color: white;
     font-weight: 800;
@@ -3942,29 +4117,29 @@ label{
 }
 
 
-.new-about-details-lists{
+.new-about-details-lists {
     color: white;
     list-style: none;
 }
 
-.new-about-details-list{
- margin-top: 25px;
- list-style: none;
+.new-about-details-list {
+    margin-top: 25px;
+    list-style: none;
 }
 
-.new-about-details-list h2{
+.new-about-details-list h2 {
     font-size: 1.8rem;
     font-weight: 800;
 }
 
-.new-about-details-list .about-icon{
+.new-about-details-list .about-icon {
     width: 50px;
     height: 50px;
     margin-right: 20px;
     margin-bottom: 5px;
 }
 
-.new-about-details-list p{
+.new-about-details-list p {
     color: white;
     font-size: 1.5rem;
     opacity: 1;
@@ -3975,7 +4150,7 @@ label{
     margin-inline-end: 0px;
 }
 
-.new-about-details-heading-row{
+.new-about-details-heading-row {
     padding: 50px 0px;
 }
 
@@ -3983,12 +4158,12 @@ label{
 
 /* NEW HOMEPAGE INDUSTRY SECTION */
 
-.industry-section-column{
+.industry-section-column {
     padding-right: 5px !important;
     padding-left: 0px !important;
 }
 
-.new-industry-header h5{
+.new-industry-header h5 {
     color: white;
     font-size: 2.5rem;
     font-weight: 800;
@@ -3998,12 +4173,12 @@ label{
 
 /* NEW HOMEPAGE OUR SERVICE SECTION */
 
-.new-our-service-column{
+.new-our-service-column {
     padding-right: 15px !important;
     padding-left: 15px !important;
 }
 
-.new-our-service-card{
+.new-our-service-card {
     background-color: white;
     margin-top: 40px;
 }
@@ -4012,35 +4187,35 @@ label{
     padding: 15px 0px;
 } */
 
-.new-our-service-card img{
+.new-our-service-card img {
     margin-top: 15px;
     width: 120px;
     height: 120px;
 }
 
-.new-our-service-card .card-body{
+.new-our-service-card .card-body {
     width: auto;
     height: 280px;
     padding: 0px 25px;
     text-align: left;
-    border-bottom: 5px solid  #19AF8F;
+    border-bottom: 5px solid #19AF8F;
 
 }
 
-.new-our-service-card .card-title{
+.new-our-service-card .card-title {
     color: black;
     padding: 25px 0px 5px;
     font-size: 2rem;
     font-weight: 800;
 }
 
-.new-our-service-card .card-text{
+.new-our-service-card .card-text {
     color: black;
     font-size: 1.5rem;
     font-weight: 400;
 }
 
-.new-our-service-card a{
+.new-our-service-card a {
     position: absolute;
     text-align: left;
     font-size: 1.5rem;
@@ -4050,16 +4225,16 @@ label{
     color: #19AF8F;
 }
 
-.new-our-service-card a:hover{
-    color:#FD5D14;
+.new-our-service-card a:hover {
+    color: #FD5D14;
 }
 
-.our-services hr{
+.our-services hr {
     text-align: center;
     width: 10%;
     height: 3px;
     margin-top: 1rem !important;
-    background-color:#19AF8F;
+    background-color: #19AF8F;
 }
 
 
@@ -4068,36 +4243,36 @@ label{
 
 /* NEW HOMEPAGE CASESTUDIES SECTION */
 
-.case-studies hr{
+.case-studies hr {
     text-align: center;
     width: 10%;
     height: 3px;
     margin-top: 1rem !important;
-    background-color:#19AF8F;
+    background-color: #19AF8F;
 }
 
-.new-case-studies-row{
+.new-case-studies-row {
     margin-top: 40px;
 }
 
-.new-case-studies-card{
+.new-case-studies-card {
     padding-right: 5px !important;
     padding-left: 0px !important;
 }
 
-.new-case-studies-card .card-body{
+.new-case-studies-card .card-body {
     text-align: left;
     height: 260px;
 }
 
-.new-case-studies-card .card-title{
+.new-case-studies-card .card-title {
     color: black;
     font-size: 1.8rem;
     margin-top: 10px;
     font-weight: 800;
 }
 
-.new-case-studies-card p{
+.new-case-studies-card p {
     color: black;
     font-size: 1.5rem;
     margin-top: 10px;
@@ -4115,15 +4290,15 @@ label{
     top: 80%;
 }
 
-.new-case-studies-card a:hover{
-    color:#FD5D14;
+.new-case-studies-card a:hover {
+    color: #FD5D14;
 }
 
-.new-explore-link{
+.new-explore-link {
     margin-top: 25px;
 }
 
-.new-explore-link a{
+.new-explore-link a {
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     font-weight: 800;
@@ -4131,14 +4306,14 @@ label{
     text-decoration: underline;
 }
 
-.new-explore-link a:hover{
-    color:#FD5D14;
+.new-explore-link a:hover {
+    color: #FD5D14;
 }
 
 
 /* NEW HOMEPAGE OUR PARTNER SECTION */
 
-.new-our-partner{
+.new-our-partner {
     position: relative;
     background-color: white;
     padding: 15px;
@@ -4153,32 +4328,32 @@ label{
     padding: 15px;
 }
 
-.carousel-our-partner{
+.carousel-our-partner {
     display: none;
 }
 
 /* NEW HOMEPAGE CLIENT SAY SECTION */
 
-.client-say{
+.client-say {
     background-color: black;
     padding: 60px 0px;
 }
 
-.client-say .section-title{
+.client-say .section-title {
     color: white;
 }
 
-.client-say .card{
+.client-say .card {
     background-color: black;
     color: white;
-    border-bottom: 5px solid  #19AF8F;
+    border-bottom: 5px solid #19AF8F;
 }
 
-.client-say .card-body{
+.client-say .card-body {
     height: 365px;
 }
 
-.client-say .client-role{
+.client-say .client-role {
     font-weight: 800 !important;
 }
 
@@ -4186,18 +4361,18 @@ label{
     padding: 30px 0px 0px 0px;
 }
 
-.client-say-card img{
+.client-say-card img {
     width: 64px;
     height: 64px;
 }
 
-.client-say-card .card-title{
+.client-say-card .card-title {
     font-size: 2rem;
     font-weight: 800;
     margin-top: 40px;
 }
 
-.client-say-card .card-text{
+.client-say-card .card-text {
     font-size: 1.5rem;
     font-weight: 400;
     margin-top: 10px;
@@ -4228,12 +4403,12 @@ label{
     background-color: #CACACA;
 }
 
-.new-career-section .contact-us-button:hover{
-    background-color:white;
+.new-career-section .contact-us-button:hover {
+    background-color: white;
     color: black;
 }
 
-.new-career-section .contact-us-button{
+.new-career-section .contact-us-button {
     background-color: #FD5D14;
     color: white;
 }
@@ -4249,7 +4424,7 @@ label{
 
 /* NEW ABOUT US PAGE DESIGN SECTION */
 
-.new-aboutus-info-section{
+.new-aboutus-info-section {
     background-color: rgb(228, 228, 228);
     padding: 25px 0px;
     border-bottom: 5px solid #19AF8F;
@@ -4262,28 +4437,28 @@ label{
     font-weight: 800;
 }
 
-.homepage-about-details hr{
+.homepage-about-details hr {
     text-align: center;
     width: 10%;
     height: 3px;
-    background-color:#19AF8F;
+    background-color: #19AF8F;
     margin-top: 1rem !important;
 }
 
 
 /* CREDO SECTION */
 
-.credo-column{
+.credo-column {
     padding-right: 5px !important;
     padding-left: 0px !important;
 }
 
-.credo-info-column{
+.credo-info-column {
     padding-right: 5px !important;
     padding-left: 0px !important;
 }
 
-.credo-info-column p{
+.credo-info-column p {
     display: block;
     margin-block-start: -.5em !important;
     margin-block-end: -0em !important;
@@ -4292,16 +4467,16 @@ label{
     margin-left: 60px;
 }
 
-.new-location-card img{
+.new-location-card img {
     width: 120px;
-    padding:  20px 0px;
+    padding: 20px 0px;
 }
 
-.new-our-location-column .card{
+.new-our-location-column .card {
     border-style: none;
 }
 
-.new-our-location-column .new-location-card{
+.new-our-location-column .new-location-card {
     width: auto;
     height: 370px;
     background-color: black;
@@ -4322,13 +4497,13 @@ label{
     justify-content: center;
 }
 
-.btn-group-toggle .service-toggle-btn{
-    background-color:  #19AF8F;
+.btn-group-toggle .service-toggle-btn {
+    background-color: #19AF8F;
     color: white;
 }
 
-.btn-group-toggle .service-toggle-btn:hover{
-    background-color:   #19AF8F;
+.btn-group-toggle .service-toggle-btn:hover {
+    background-color: #19AF8F;
     opacity: 1;
     border-color: transparent;
     color: white;
@@ -4342,28 +4517,29 @@ label{
     opacity: 30%;
 }
 
-.btn-group-toggle .scroll-service-btn{
+.btn-group-toggle .scroll-service-btn {
     padding: 5px 15px;
 }
 
-.btn-group-toggle input{
+.btn-group-toggle input {
     appearance: none;
 }
 
-.btn-secondary:not(:disabled):not(.disabled).active{
+.btn-secondary:not(:disabled):not(.disabled).active {
     color: #fff;
-    background-color:  #19AF8F !important;
+    background-color: #19AF8F !important;
     border-style: none !important;
     border-color: transparent !important;
     opacity: 1;
 }
 
-.new-service-info{
+.new-service-info {
     margin-top: 40px;
     box-shadow: 3px 10px 10px #cecece;
     padding: 40px 0px;
 }
-.new-service-info button{
+
+.new-service-info button {
     margin-top: 10px;
 }
 
@@ -4376,36 +4552,38 @@ label{
     padding: 10px 0px;
 }
 
-.new-service-info .service-icon-center{
+.new-service-info .service-icon-center {
     transform: translate(40px, 80px);
 }
 
-.new-service-info h2{
+.new-service-info h2 {
     font-size: 2.5rem;
     font-weight: 800;
 }
-.new-service-info p{
+
+.new-service-info p {
     font-size: 1.8rem;
     font-weight: 400;
 }
 
-.new-service-contact-section{
+.new-service-contact-section {
     background-color: black;
     color: white;
     padding: 30px 0px;
 }
 
-.new-service-contact-section h3{
+.new-service-contact-section h3 {
     font-size: 3.5rem;
     font-weight: 800;
     color: #19AF8F;
 }
-.new-service-contact-section p{
+
+.new-service-contact-section p {
     font-size: 1.8rem;
     font-weight: 200;
 }
 
-.new-service-contact-section button{
+.new-service-contact-section button {
     font-size: 1.5rem;
     font-weight: 200;
     padding: 10px 20px;
@@ -4421,7 +4599,7 @@ label{
 
 /* NEW CASE STUDIES DESIGN SECTION */
 
-.subService-AIML-intro-btn button{
+.subService-AIML-intro-btn button {
     margin-right: 15px;
 }
 
@@ -4442,24 +4620,24 @@ label{
     background-color: #FD5D14;
 }
 
-.new-case-studies-list .card-body{
+.new-case-studies-list .card-body {
     background-color: black;
     color: white;
     height: 650px;
 }
 
-.new-case-studies-list h2{
+.new-case-studies-list h2 {
     font-size: 2.5rem;
     color: white;
     margin-top: 0px;
 }
 
-.new-case-studies-list p{
+.new-case-studies-list p {
     color: white;
 }
 
-.new-case-studies-list h4{
-    color:  #19AF8F;
+.new-case-studies-list h4 {
+    color: #19AF8F;
 
 }
 
@@ -4485,11 +4663,11 @@ label{
     padding: 30px;
 }
 
-.weValueInnovationCarousel{
-    padding: 50px 0px;    
+.weValueInnovationCarousel {
+    padding: 50px 0px;
 }
 
-.we-innovation-img{
+.we-innovation-img {
     padding: 60px 0px;
 }
 
@@ -4497,11 +4675,11 @@ label{
     border-left: 5px solid #19AF8F;
 } */
 
-.weValueInnovationCarousel .carousel-indicators{
+.weValueInnovationCarousel .carousel-indicators {
     top: 95%;
 }
 
-.career-job-icon{
+.career-job-icon {
     width: 20px;
 }
 
@@ -4509,30 +4687,31 @@ label{
     float: right;
 } */
 
-.employeesSay .card{
+.employeesSay .card {
     border-style: none;
 }
 
-.employeesSay img{
+.employeesSay img {
     height: 100%;
 }
 
-.employeesSay .employee-details h1{
+.employeesSay .employee-details h1 {
     font-size: 1.8rem;
     font-weight: 600;
 }
 
-.employeesSay .card-text{
+.employeesSay .card-text {
     font-size: 1.8rem;
     padding: 85px 0px;
 }
-.employeesSay .card-title{
+
+.employeesSay .card-title {
     font-size: 3rem;
     color: black;
     font-weight: 800;
 }
 
-.employeesSay .carousel-inner{
+.employeesSay .carousel-inner {
     border-left: none;
 }
 
@@ -4579,19 +4758,19 @@ label{
 
 /* NEW CONTACT US PAGE DESIGN SECTION */
 
-.new-contact-us-page img{
+.new-contact-us-page img {
     width: 100%;
     height: 540px;
     box-shadow: 3px 6px 16px #0000004D;
 }
 
-.new-contact-us-page input{
+.new-contact-us-page input {
     box-shadow: 3px 6px 16px #00000029;
     border-style: none;
     font-size: 1.8rem;
 }
 
-.new-contact-us-page textarea{
+.new-contact-us-page textarea {
     box-shadow: 3px 6px 16px #00000029;
     border-style: none;
     font-size: 1.8rem;
@@ -4609,7 +4788,7 @@ label{
 
 @media only screen and (min-width: 320px) and (max-width: 424px) {
 
-    .new-all-margin{
+    .new-all-margin {
         margin: 0px 20px 0px 20px;
     }
 
@@ -4656,7 +4835,7 @@ label{
         margin-right: 10px;
     }
 
-    .AISolutionInfo{
+    .AISolutionInfo {
         margin-left: 5px;
     }
 
@@ -4679,8 +4858,8 @@ label{
     .our-partner {
         display: none;
     }
-    
-    .carousel-our-partner{
+
+    .carousel-our-partner {
         display: block;
     }
 
@@ -4728,7 +4907,7 @@ label{
         padding-left: 15px !important;
     }
 
-    .new-case-studies-card{
+    .new-case-studies-card {
         margin-top: 15px;
     }
 
@@ -4736,7 +4915,7 @@ label{
         margin-top: 15px;
     }
 
-    .client-say .card-body{
+    .client-say .card-body {
         height: 460px;
     }
 
@@ -4777,7 +4956,7 @@ label{
         padding: 15px;
     }
 
-    .new-case-studies-list .card-title{
+    .new-case-studies-list .card-title {
         font-size: 1.5rem;
     }
 
@@ -4846,7 +5025,7 @@ label{
         font-weight: 800;
         color: #19AF8F;
     }
-    
+
 
     .new-service-info p {
         font-size: 1.2rem;
@@ -4864,26 +5043,26 @@ label{
         padding: 0px;
     }
 
-    .our-culture-section .amnet-images{
+    .our-culture-section .amnet-images {
         margin-top: 10px;
     }
 
-    .job-desc-card-info .experience-info{
+    .job-desc-card-info .experience-info {
         display: block;
         justify-content: space-between;
     }
-    
-    .experience-info span{
+
+    .experience-info span {
         font-size: 1.2rem;
         font-weight: 600;
         color: black;
     }
 
-    .experience-info h3{
+    .experience-info h3 {
         font-size: 1.2rem;
     }
 
-    .careers-page-details-list-row .career-page-details-column{
+    .careers-page-details-list-row .career-page-details-column {
         margin-bottom: -25px;
     }
 
@@ -4933,7 +5112,7 @@ label{
 }
 
 @media only screen and (min-width: 375px) and (max-width: 424px) {
-    .client-say .card-body{
+    .client-say .card-body {
         height: 400px;
     }
 }
@@ -4951,7 +5130,7 @@ label{
 
 @media only screen and (min-width: 425px) and (max-width: 767px) {
 
-    .new-all-margin{
+    .new-all-margin {
         margin: 0px 20px 0px 20px;
     }
 
@@ -4999,8 +5178,8 @@ label{
     .our-partner {
         display: none;
     }
-    
-    .carousel-our-partner{
+
+    .carousel-our-partner {
         display: block;
     }
 
@@ -5029,7 +5208,7 @@ label{
 
     /* FOR NEW CASE STUDIES PAGE RESPONSIVE SECTION */
     /* ............................................................................................................................... */
-    
+
     /* .case-studies-list {
         margin-top: 40px;
     } */
@@ -5087,7 +5266,7 @@ label{
         padding: 15px;
     }
 
-    .new-case-studies-list .card-title{
+    .new-case-studies-list .card-title {
         font-size: 1.5rem;
     }
 
@@ -5107,8 +5286,8 @@ label{
     /* ............................................................................................................................... */
 
 
-     /* CREDO SECTION */
-     .homepage-about-details hr {
+    /* CREDO SECTION */
+    .homepage-about-details hr {
         width: 20%;
         margin-top: 1rem !important;
     }
@@ -5146,7 +5325,7 @@ label{
         padding: 20px 0px;
     }
 
-    .new-service-info .service-icon-center{
+    .new-service-info .service-icon-center {
         width: 120px;
         transform: translate(0px, 0px);
         padding: 20px 0px;
@@ -5165,30 +5344,30 @@ label{
         padding: 0px;
     }
 
-    .our-culture-section .amnet-images{
+    .our-culture-section .amnet-images {
         margin-top: 10px;
     }
 
-    .job-desc-card-info .experience-info{
+    .job-desc-card-info .experience-info {
         display: block;
         justify-content: space-between;
     }
-    
-    .experience-info span{
+
+    .experience-info span {
         font-size: 1.5rem;
         font-weight: 600;
         color: black;
     }
 
-    .experience-info h3{
+    .experience-info h3 {
         font-size: 1.5rem;
     }
 
-    .careers-page-details-list-row .career-page-details-column{
+    .careers-page-details-list-row .career-page-details-column {
         margin-bottom: -25px;
     }
 
-    .career-job-icon{
+    .career-job-icon {
         width: 15px;
     }
 
@@ -5218,8 +5397,8 @@ label{
         font-size: 1.8rem;
         padding: 50px 0px;
     }
-    
-    
+
+
     /* FOR NEW CONTACT US RESPONSIVE SECTION */
     /* ............................................................................................................................... */
 
@@ -5241,7 +5420,7 @@ label{
     /* FOR NEW CASE STUDIES RESPONSIVE SECTION */
     /* ............................................................................................................................... */
 
-    .new-all-margin{
+    .new-all-margin {
         margin: 0px 40px 0px 40px;
     }
 
@@ -5249,7 +5428,7 @@ label{
         padding: 15px;
     }
 
-    .new-case-studies-list .card-title{
+    .new-case-studies-list .card-title {
         font-size: 2.5rem;
     }
 
@@ -5257,7 +5436,7 @@ label{
         height: auto;
     }
 
-    .new-case-studies-list p{
+    .new-case-studies-list p {
         font-size: 1.5rem;
     }
 
@@ -5288,11 +5467,11 @@ label{
         padding: 0px 0px;
     }
 
-    
+
 
     /* FOR OUR SERVICE RESPONSIVE SECTION */
     /* ............................................................................................................................... */
-    
+
     .our-services hr {
         width: 20%;
         margin-top: 1rem !important;
@@ -5313,11 +5492,11 @@ label{
 
     /* FOR TESTIMONIAL SECTION */
 
-    .client-say .card-body{
+    .client-say .card-body {
         height: 410px;
     }
 
-    .client-say .client-say-card-center{
+    .client-say .client-say-card-center {
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
@@ -5333,10 +5512,10 @@ label{
     }
 
     .new-case-studies-card {
-    padding-right: 5px !important;
-    padding-left: 0px !important;
-    margin-top: 10px;
-}
+        padding-right: 5px !important;
+        padding-left: 0px !important;
+        margin-top: 10px;
+    }
 
 
 
@@ -5344,8 +5523,8 @@ label{
     /* ............................................................................................................................... */
 
 
-     /* CREDO SECTION */
-     .homepage-about-details hr {
+    /* CREDO SECTION */
+    .homepage-about-details hr {
         width: 20%;
         margin-top: 1rem !important;
     }
@@ -5377,6 +5556,7 @@ label{
     .location-details h2 {
         font-size: 2.5rem;
     }
+
     .location-details p {
         font-size: 2rem;
     }
@@ -5391,7 +5571,7 @@ label{
         padding: 20px 0px;
     }
 
-    .new-service-info .service-icon-center{
+    .new-service-info .service-icon-center {
         width: 150px;
         transform: translate(0px, 0px);
         padding: 20px 0px;
@@ -5405,7 +5585,7 @@ label{
     /* FOR NEW CAREER PAGE RESPONSIVE SECTION */
     /* ............................................................................................................................... */
 
-    .our-culture-section .amnet-images{
+    .our-culture-section .amnet-images {
         margin-top: 10px;
     }
 
@@ -5435,13 +5615,13 @@ label{
     /* FOR NEW INDUSTRY SECTION RESPONSIVE SECTION */
     /* ............................................................................................................................... */
 
-    .client-say .card-body{
+    .client-say .card-body {
         height: 460px;
     }
 
     /* FOR OUR SERVICE RESPONSIVE SECTION */
     /* ............................................................................................................................... */
-    
+
     .our-services {
         padding: 30px 0px;
     }
@@ -5454,7 +5634,7 @@ label{
         width: 15%;
         margin-top: 1rem !important;
     }
-    
+
     .new-our-service-card .card-body {
         height: 310px;
     }
@@ -5467,13 +5647,13 @@ label{
 
     /* FOR NEW CASE STUDIES SECTION RESPONSIVE SECTION */
     /* ............................................................................................................................... */
-    
+
     .case-studies hr {
         width: 15%;
         margin-top: 1rem !important;
     }
 
-    .new-case-studies-card{
+    .new-case-studies-card {
         padding-right: 5px !important;
         padding-left: 0px !important;
     }
@@ -5490,7 +5670,7 @@ label{
     /* FOR NEW CASE STUDIES PAGE RESPONSIVE SECTION */
     /* ............................................................................................................................... */
 
-    .new-all-margin{
+    .new-all-margin {
         margin: 0px 60px 0px 60px;
     }
 
@@ -5498,7 +5678,7 @@ label{
         padding: 15px;
     }
 
-    .new-case-studies-list .card-title{
+    .new-case-studies-list .card-title {
         font-size: 2.5rem;
     }
 
@@ -5506,7 +5686,7 @@ label{
         height: 720px;
     }
 
-    .new-case-studies-list p{
+    .new-case-studies-list p {
         font-size: 1.5rem;
     }
 
@@ -5517,8 +5697,8 @@ label{
     /* ............................................................................................................................... */
 
 
-     /* CREDO SECTION */
-     .homepage-about-details hr {
+    /* CREDO SECTION */
+    .homepage-about-details hr {
         width: 5%;
         margin-top: 1rem !important;
     }
@@ -5557,7 +5737,7 @@ label{
         padding: 20px 0px;
     }
 
-    .new-service-info .service-icon-center{
+    .new-service-info .service-icon-center {
         width: 130px;
         transform: translate(10px, 100px);
         padding: 20px 0px;
@@ -5583,9 +5763,9 @@ label{
 
 /* ANIMATION SECTION*/
 
-.new-our-service-card:hover img{
+.new-our-service-card:hover img {
     transform: scale(1.1);
-    box-shadow:  3px 6px 16px  #0000004D;
+    box-shadow: 3px 6px 16px #0000004D;
     border-radius: 50%;
     transition: .5s;
 }
@@ -5597,8 +5777,8 @@ label{
 
 .animation-card-image {
     display: inline-block;
-    overflow: hidden;            
-  }
+    overflow: hidden;
+}
 
 .animation-card-image:hover img {
     transform: scale(1.05);
@@ -5614,14 +5794,15 @@ label{
 
 .animation-card {
     display: inline-block;
-    overflow: hidden;            
-  }
-.animation-card img {
-    display: block;
-    transition: transform .4s;   
+    overflow: hidden;
 }
 
-.animation-card .card-body{
+.animation-card img {
+    display: block;
+    transition: transform .4s;
+}
+
+.animation-card .card-body {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -5634,7 +5815,7 @@ label{
 
 .animation-card:hover .card-body {
     display: block;
-    animation: slideUp .8s ease-in-out ;
+    animation: slideUp .8s ease-in-out;
 }
 
 
@@ -5643,6 +5824,7 @@ label{
         margin-top: 100%;
         opacity: .8;
     }
+
     100% {
         margin-top: 70%;
         opacity: 1;
@@ -5654,8 +5836,9 @@ label{
         transform: scale(0, 0);
         opacity: .8;
     }
+
     100% {
-        transform:scale(1, 1);
+        transform: scale(1, 1);
         opacity: 1;
     }
 }
@@ -5665,14 +5848,17 @@ label{
     0% {
         opacity: .6
     }
+
     25%,
     75% {
         transform: scale(1.1);
         opacity: 0
     }
+
     50% {
         opacity: 0
     }
+
     100% {
         opacity: 1;
     }
@@ -5682,15 +5868,19 @@ label{
     50% {
         transform: rotateX(90deg);
     }
+
     100% {
         transform: rotateX(0deg);
     }
 }
 
 @keyframes bounceOutBottom {
-    20%, 100% {
+
+    20%,
+    100% {
         transform: translate3d(0, 0, 0);
     }
+
     40%,
     45%,
     80%,
@@ -5698,6 +5888,7 @@ label{
         opacity: 1;
         transform: translate3d(0, -5px, 0);
     }
+
     50% {
         opacity: 0;
         transform: translate3d(0, 10px, 0);
@@ -5705,11 +5896,13 @@ label{
 }
 
 @keyframes elastic {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: scale3d(1, 1, 1);
     }
 
-  
+
     50% {
         transform: scale3d(1.15, 0.85, 1);
     }
@@ -5720,16 +5913,19 @@ label{
         transform: scale3d(.3, .3, .3) rotate3d(0, 0, 1, -20deg);
         transform-origin: center;
     }
+
     70%,
     90% {
         transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 20deg);
         transform-origin: center;
     }
+
     60%,
     80% {
         transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -20deg);
         transform-origin: center;
     }
+
     100% {
         transform: scale3d(1, 1, 1);
         transform-origin: center;
@@ -5779,11 +5975,12 @@ label{
    white-space: nowrap;
 } */
 
-@keyframes animate{
-    0%{
+@keyframes animate {
+    0% {
         width: 0%;
     }
-    70%{
+
+    70% {
         width: 100%;
     }
 }
@@ -5793,35 +5990,35 @@ label{
 /* COOKIES BANNER */
 /* .................................................................................................................................. */
 
-.cookies-banner{
+.cookies-banner {
     padding: 20px 0px;
-    box-shadow:  0px 1px 6px #0000004d;
+    box-shadow: 0px 1px 6px #0000004d;
 }
 
-.cookies-banner button{
+.cookies-banner button {
     margin: 5px 5px;
 }
 
-.cookies-banner .cookies-accept-btn{
+.cookies-banner .cookies-accept-btn {
     font-size: 1.5rem;
     color: white;
     padding: 5px 30px;
     background-color: #19AF8F;
 }
 
-.cookies-banner .cookies-decline-btn{
+.cookies-banner .cookies-decline-btn {
     font-size: 1.5rem;
     color: black;
     padding: 5px 30px;
     background-color: white;
-    box-shadow:  0px 1px 6px #0000004d;
+    box-shadow: 0px 1px 6px #0000004d;
 }
 
-.cookies-banner p{
+.cookies-banner p {
     font-size: 1.5rem;
 }
 
-.cookies-readmore-link{
+.cookies-readmore-link {
     font-size: 1.5rem;
     margin-left: 5px;
 }
@@ -5834,6 +6031,7 @@ label{
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
 }
+
 #consent-popup {
     position: fixed;
     bottom: 0;
@@ -5844,6 +6042,7 @@ label{
     transition: opacity 1s ease;
     z-index: 97;
 }
+
 #consent-popup.hidden {
     opacity: 0;
 }
@@ -5853,28 +6052,28 @@ label{
 /* COOKIES Policy Page SECTION */
 /* .................................................................................................................................. */
 
-.cookie-policy{
+.cookie-policy {
     margin-top: 85px !important;
 }
 
-.cookie-policy h1{
+.cookie-policy h1 {
     font-size: 3.5rem;
     font-weight: 800;
     color: black;
 }
 
-.cookie-policy p{
+.cookie-policy p {
     font-size: 1.8rem;
     font-weight: 400;
     color: black;
     margin-top: 10px;
 }
 
-.use-of-cookies-title{
+.use-of-cookies-title {
     margin-top: 40px;
 }
 
-.control-of-cookies{
+.control-of-cookies {
     margin-top: 40px;
 }
 
@@ -5887,10 +6086,12 @@ label{
     #consent-popup {
         padding: 2rem 2rem;
     }
-    .cookies-banner p{
+
+    .cookies-banner p {
         font-size: 1.2rem;
     }
-    .cookies-readmore-link{
+
+    .cookies-readmore-link {
         font-size: 1.2rem;
     }
 }
@@ -5899,15 +6100,15 @@ label{
 /* .................................................................................................................................. */
 
 @media only screen and (min-width: 320px) and (max-width: 426px) {
-    .cookie-policy{
+    .cookie-policy {
         margin-top: 60px !important;
     }
 
-    .cookie-policy h1{
+    .cookie-policy h1 {
         font-size: 2.5rem;
     }
-    
-    .cookie-policy p{
+
+    .cookie-policy p {
         font-size: 1.5rem;
     }
 }
@@ -5926,9 +6127,9 @@ label{
     position: -webkit-sticky;
     top: 83px;
 
-  }
-  
-  #navbar10 a {
+}
+
+#navbar10 a {
     float: left;
     display: block;
     color: black;
@@ -5936,10 +6137,14 @@ label{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
-  
-  #navbar10 a:hover {
+}
+
+#navbar10 a:hover {
     background-color: #ddd;
     color: black;
-  }
-  
+}
+
+.center {
+    width: 95%;
+    margin: auto;
+}

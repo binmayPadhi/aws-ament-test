@@ -9,36 +9,48 @@ const Resources = () => {
             <div className="contact-us-intro container-fluid"></div>
 
             {/* Heading Name */}
-            <div className="new-home-about-details new-all-margin margin-resources-top" id="details">
+            {/* <div className="new-home-about-details new-all-margin margin-resources-top" id="details">
                 <h1>How to stay compliant with SOX requirements on Microsoft Dynamics 365</h1>
-            </div>
+            </div> */}
+            <div className="container-fluid">
+                <div className='center'>
+                    <div className='new-home-about-details row ml-0 mr-0'>
+                        <div calssName='col-12 pl-0 pr-0'>
+                            <h1>How to stay compliant with SOX requirements on Microsoft Dynamics 365</h1>
+                        </div>
+                    </div>
 
-            <div className="about-us-page-details new-all-margin">
-                <div className="row about-us-page-row ml-0 mr-0">
-                    <div className="col-12 about-us-details p-0">
-                        <img loading="lazy" className="img-fluid " src={blogImg} alt="blog" />
+
+                    <div className="row about-us-page-row ml-0 mr-0">
+                        <div className="col-12 about-us-details p-0">
+                            <img loading="lazy" className="img-fluid " src={blogImg} alt="blog" />
+                        </div>
+                    </div>
+
+
+
+                    <div className="about-us-page-details" >
+
+                        <div className="row about-us-page-row ml-0 mr-0">
+
+                            {Blog.map(list => {
+                                return (
+                                    <div className="col-12 about-us-details p-0" key={list.id}>
+                                        <div className="about-us-desc-blog">
+                                            <h2>{list.title}</h2>
+                                            <p>{list.description}</p>
+                                            <p>{list.description1}</p>
+                                        </div>
+                                    </div>
+                                )
+                            })}
+                        </div>
                     </div>
                 </div>
             </div>
 
 
-            <div className="about-us-page-details new-all-margin" >
 
-                <div className="row about-us-page-row ml-0 mr-0">
-
-                    {Blog.map(list => {
-                        return (
-                            <div className="col-12 about-us-details p-0" key={list.id}>
-                                <div className="about-us-desc-blog">
-                                    <h2>{list.title}</h2>
-                                    <p>{list.description}</p>
-                                    <p>{list.description1}</p>
-                                </div>
-                            </div>
-                        )
-                    })}
-                </div>
-            </div>
 
 
 
