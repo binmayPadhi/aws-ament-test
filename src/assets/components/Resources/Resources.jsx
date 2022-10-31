@@ -6,10 +6,10 @@ import Blog from "../../Data/Resources-Data/Blog";
 const Resources = () => {
     return (
         <>
-         <div className="contact-us-intro container-fluid"></div>
+            <div className="contact-us-intro container-fluid"></div>
 
             {/* Heading Name */}
-            <div className="new-home-about-details new-all-margin" id="details">
+            <div className="new-home-about-details new-all-margin margin-resources-top" id="details">
                 <h1>How to stay compliant with SOX requirements on Microsoft Dynamics 365</h1>
             </div>
 
