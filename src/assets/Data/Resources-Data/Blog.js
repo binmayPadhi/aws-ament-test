@@ -15,7 +15,7 @@ const blog = [
     {
         id: 3,
         title: "Customer Service Assistance through Conversational AI/Digital Assistant/Virtual Assistant",
-        description: "Customer interaction is ensured by omnichannel retail so that it doesn't begin and end at a location. By developing interactive chat programs, artificial intelligence solutions in retail may easily increase client engagement. Chatbots can be useful tools for consumer communication. AI-powered assistants that can deliver specialized shopping assistance and support to customers at scale and utilize natural language will play a significant role in this.They can respond to frequently asked questions, make product recommendations, address complaints, and gather insightful information from your consumers before transferring the call, if necessary, to a telesales executive.They offer a strong customer experience and are open round- the - clock",
+        description: "Customer interaction is ensured by omnichannel retail so that it doesn't begin and end at a location. By developing interactive chat programs, artificial intelligence solutions in retail may easily increase client engagement. Chatbots can be useful tools for consumer communication. AI-powered assistants that can deliver specialized shopping assistance and support to customers at scale and utilize natural language will play a significant role in this.They can respond to frequently asked questions, make product recommendations, address complaints, and gather insightful information from your consumers before transferring the call, if necessary, to a telesales executive.They offer a strong customer experience and are open round- the - clock.",
     },
     {
         id: 4,
