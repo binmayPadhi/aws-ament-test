@@ -95,11 +95,20 @@ const Webinars = () => {
                       </p>
                     </div>
                     <div className="row ml-0 mr-0">
-                      <p className="col-12 para-form pl-0 pr-0">
+                      <p className="col-12 para-form pl-0 pr-0 d-flex">
                         <span>
                           <input className="checkMark" type="checkbox"></input>
                         </span>
-                        <span>
+                        <span className="ml-3 lh-1">
+                          Lorem Epsom is dummy text and has to be updated with
+                          actual content Lorem Epsom is dummy text and has to be
+                          updated with actual content!
+                        </span>
+                      </p>
+                    </div>
+                    <div className="row ml-0 mr-0">
+                      <p className="col-12 para-form pl-0 pr-0 d-flex">
+                        <span className="ml-3 lh-1">
                           Lorem Epsom is dummy text and has to be updated with
                           actual content Lorem Epsom is dummy text and has to be
                           updated with actual content!
