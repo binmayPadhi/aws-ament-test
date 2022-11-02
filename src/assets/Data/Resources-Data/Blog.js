@@ -3,7 +3,7 @@
 const blog = [
     {
         id: 1,
-        title: "Seven Significant ways Artificial Intelligence (AI) is Impacting the Retail Industry",
+        title: "",
         description: "Artificial Intelligence is becoming the limelight practice for Retail businesses as online shopping replaces more and more physical establishments. In today's fast evolution of digitalization, Retailers are using artificial intelligence technologies to help them match their products and services to the expectations of their customers in the digital age when customers are continuously looking for bespoke goods and services. To master productivity and efficiency operations, Artificial Intelligence is becoming the most powerful tool.",
         description1: "Worldwide artificial intelligence (AI) software revenue is forecast to total $62.5 billion in 2022, an increase of 21.3% from 2021, according to a new forecast from Gartner, Inc."
     },
@@ -15,7 +15,7 @@ const blog = [
     {
         id: 3,
         title: "Customer Service Assistance through Conversational AI/Digital Assistant/Virtual Assistant",
-        description: "Customer interaction is ensured by omnichannel retail so that it doesn't begin and end at a location. By developing interactive chat programs, artificial intelligence solutions in retail may easily increase client engagement. Chatbots can be useful tools for consumer communication. AI-powered assistants that can deliver specialized shopping assistance and support to customers at scale and utilize natural language will play a significant role in this.They can respond to frequently asked questions, make product recommendations, address complaints, and gather insightful information from your consumers before transferring the call, if necessary, to a telesales executive.They offer a strong customer experience and are open round- the - clock.",
+        description: "Customer interaction is ensured by omnichannel retail so that it doesn't begin and end at a location. By developing interactive chat programs, artificial intelligence solutions in retail may easily increase client engagement. Chatbots can be useful tools for consumer communication. AI-powered assistants that can deliver specialized shopping assistance and support to customers at scale and utilize natural language will play a significant role in this.They can respond to frequently asked questions, make product recommendations, address complaints, and gather insightful information from your consumers before transferring the call, if necessary, to a telesales executive.They offer a strong customer experience and are open round-the-clock.",
     },
     {
         id: 4,

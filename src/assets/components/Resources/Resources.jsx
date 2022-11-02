@@ -16,8 +16,8 @@ const Resources = () => {
           <div className="new-home-about-details row ml-0 mr-0">
             <div calssName="col-12 pl-0 pr-0">
               <h1>
-                How to stay compliant with SOX requirements on Microsoft
-                Dynamics 365
+                Seven Significant ways Artificial Intelligence (AI) is Impacting
+                the Retail Industry
               </h1>
             </div>
           </div>

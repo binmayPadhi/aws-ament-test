@@ -10,22 +10,22 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import AIML from "./SubServices/AIML";
 import Resources from "./Resources/Resources";
-// import RetailEcommerce from "./Industries/RetailEcommerce";
-// import Healthcare from "./Industries/Healthcare";
-// import InformationManagement from "./Industries/InformationManagement";
-// import FinancialServices from "./Industries/FinancialServices";
 import CookiesPolicy from "../components/CookiesPolicy";
+import Webinars from "./Webinars/Webinars";
+
 
 
 function App() {
+    const url = window.location.pathname;
     return (
         <>
             <Router forceRefresh={true}>
-                <div>
+                {url != '/webinars/reshaping-the-retail-industry-through-AI' ? <div>
                     <Navbar />
-                </div>
+                </div> : null}
                 <div>
                     <Switch>
+                        <Route exact path="/webinars/reshaping-the-retail-industry-through-AI" component={Webinars} />
                         <Route exact path="/" component={Homepage} />
                         <Route path="/contactus" component={ContactUs} />
                         <Route path="/aboutus" component={AboutUs} />
@@ -33,20 +33,13 @@ function App() {
                         <Route path="/casestudies" component={CaseStudies} />
                         <Route path="/careers" component={Careers} />
                         <Route path="/resources" component={Resources} />
-                        {/* <Route path = "/retail-ecommerce" component ={RetailEcommerce} />
-                    <Route path = "/healthcare" component ={Healthcare} />
-                    <Route path = "/information-management" component ={InformationManagement} />
-                    <Route path = "/financial-services" component ={FinancialServices} /> */}
                         <Route path="/cookiespolicy" component={CookiesPolicy} />
                         <Route path="/:id" component={AIML} />
-
-                        {/* <Route exact  path = "/data-labeling" component = {AIML} /> */}
-                        {/* <Route exact  path = "/service/data-management" component = {AIML} /> */}
                     </Switch>
                 </div>
-                <div>
+                {url != '/webinars/reshaping-the-retail-industry-through-AI' ? <div>
                     <Footer />
-                </div>
+                </div> : null}
             </Router>
         </>
     )
