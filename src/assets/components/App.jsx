@@ -13,36 +13,52 @@ import Resources from "./Resources/Resources";
 import CookiesPolicy from "../components/CookiesPolicy";
 import Webinars from "./Webinars/Webinars";
 
-
-
 function App() {
-    const url = window.location.pathname;
-    return (
-        <>
-            <Router forceRefresh={true}>
-                {url != '/webinars/reshaping-the-retail-industry-through-AI' ? <div>
-                    <Navbar />
-                </div> : null}
-                <div>
-                    <Switch>
-                        <Route exact path="/webinars/reshaping-the-retail-industry-through-AI" component={Webinars} />
-                        <Route exact path="/" component={Homepage} />
-                        <Route path="/contactus" component={ContactUs} />
-                        <Route path="/aboutus" component={AboutUs} />
-                        <Route path="/services" component={Services} />
-                        <Route path="/casestudies" component={CaseStudies} />
-                        <Route path="/careers" component={Careers} />
-                        <Route path="/resources" component={Resources} />
-                        <Route path="/cookiespolicy" component={CookiesPolicy} />
-                        <Route path="/:id" component={AIML} />
-                    </Switch>
-                </div>
-                {url != '/webinars/reshaping-the-retail-industry-through-AI' ? <div>
-                    <Footer />
-                </div> : null}
-            </Router>
-        </>
-    )
+  //   const url = window.location.pathname;
+
+  return (
+    <>
+      <Router forceRefresh={true}>
+        {/* {url != "/webinars/reshaping-the-retail-industry-through-AI" ? (
+          <div>
+            <Navbar />
+          </div>
+        ) : null} */}
+        <div>
+          <Navbar />
+        </div>
+        <div>
+          <Switch>
+            {/* <Route
+              exact
+              path="/webinars/reshaping-the-retail-industry-through-AI"
+              component={Webinars}
+            /> */}
+            <Route exact path="/" component={Homepage} />
+            <Route path="/contactus" component={ContactUs} />
+            <Route path="/aboutus" component={AboutUs} />
+            <Route path="/services" component={Services} />
+            <Route path="/casestudies" component={CaseStudies} />
+            <Route path="/careers" component={Careers} />
+            <Route
+              path="/blog/seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
+              component={Resources}
+            />
+            <Route path="/cookiespolicy" component={CookiesPolicy} />
+            <Route path="/:id" component={AIML} />
+          </Switch>
+        </div>
+        {/* {url != "/webinars/reshaping-the-retail-industry-through-AI" ? (
+          <div>
+            <Footer />
+          </div>
+        ) : null} */}
+        <div>
+          <Footer />
+        </div>
+      </Router>
+    </>
+  );
 }
 
 export default App;
