@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.webinar_main_img {
+  width: 100%;
+  background-image: url("../images/Webinar-images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-40 {
+  width: 40px;
+}
+.lh-1 {
+  line-height: 1rem;
+}
+
+.main_heading {
+  font-size: 35px;
+  color: #fff;
+  line-height: 1.25;
+}
+
+.timing_webniar {
+  color: #fff;
+  line-height: 1;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.card_header_styles {
+  color: #412881;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.card-header {
+  background-color: #fff !important;
+  border-bottom: 0px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: #000;
+}
+
+input {
+  border: none !important;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  height: 60px;
+}
+
+.checkMark {
+  box-shadow: none;
+  font-size: 0px;
+  height: 25px;
+  border-color: #1dad8f !important;
+}
+
+.email_field input {
+  width: 100%;
+}
+
+.req {
+  color: #1dad8f;
+}
+
+.para-form {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.submit-button {
+  background-color: #1dad8f;
+  color: #fff !important;
+  border: 1px solid #1dad8f;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 1px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 10px;
+}
+
+.condition-para {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  color: #acacac;
+}
+
+.clear {
+  clear: both;
+}
+
+.main-content-para {
+  position: relative;
+  top: 90px;
+}
