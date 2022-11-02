@@ -14,8 +14,8 @@ import CookiesPolicy from "../components/CookiesPolicy";
 import Webinars from "./Webinars/Webinars";
 
 function App() {
-  const url = window.location.pathname;
-  console.log(url);
+  //   const url = window.location.pathname;
+
   return (
     <>
       <Router forceRefresh={true}>
@@ -29,11 +29,11 @@ function App() {
         </div>
         <div>
           <Switch>
-            <Route
+            {/* <Route
               exact
               path="/webinars/reshaping-the-retail-industry-through-AI"
               component={Webinars}
-            />
+            /> */}
             <Route exact path="/" component={Homepage} />
             <Route path="/contactus" component={ContactUs} />
             <Route path="/aboutus" component={AboutUs} />
