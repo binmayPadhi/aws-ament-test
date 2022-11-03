@@ -43,7 +43,7 @@ const Webinars = () => {
                     Reshaping the Retail Industry through AI to make
                     well-informed business decisions
                   </p>
-                  <p className="timing_webniar">
+                  <p className="timing_webniar mt-3-rem">
                     Thursday, 17 November 2022 | 11:30 AM - 12:15 PM EST
                   </p>
                 </div>
