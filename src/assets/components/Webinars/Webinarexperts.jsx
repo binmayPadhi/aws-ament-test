@@ -4,7 +4,7 @@ import director_1 from "../../images/Webinar-images/Valli_Photo.jpg";
 import director_2 from "../../images/Webinar-images/KK_Photo.jpg";
 import director_3 from "../../images/Webinar-images/Photo-Ganesh.jpg";
 
-const Webinarexperts = () => {
+const Webinarexperts = ({ scrollparentTotop }) => {
   return (
     <>
       <div className="learn-img">
@@ -68,10 +68,15 @@ const Webinarexperts = () => {
             </div>
           </div>
         </div>
-        <div class="row center-95">
+        <div className="row center-95">
           <div className="col-md-4 col-lg-4 col-sm-3 col-xs-3"></div>
           <div className="col-md-4 col-lg-4 col-sm-6 col-xs-6">
-            <p className="submit-button clr-orange my-5 cr-pointer">
+            <p
+              className="submit-button clr-orange my-5 cr-pointer"
+              onClick={() => {
+                scrollparentTotop(true);
+              }}
+            >
               Register for Webinar
             </p>
           </div>

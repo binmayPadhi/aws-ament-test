@@ -5,11 +5,16 @@ import zoomIcon from "../../images/Webinar-images/zoom.png";
 import Webinarform from "./Webinarform";
 import Webinarfooter from "./Webinarfooter";
 import Webinarexperts from "./Webinarexperts";
+import { useRef } from "react";
 
 const Webinars = () => {
+  const titleRef = useRef();
+  const handleCallback = (e) => {
+    titleRef.current.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <>
-      <div className="webinar_main_img">
+      <div className="webinar_main_img" ref={titleRef}>
         <div className="w-100 d-flex py-4">
           <img
             loading="lazy"
@@ -66,9 +71,9 @@ const Webinars = () => {
             that is leveraged to predict shifts in customer behavior, improve
             retail operations, and uncover new business opportunities. It is
             high time for both digital and traditional retailers need to engage
-            customers through utmost personalization across all touchpoints to
-            meet customer expectations, improve customer lifetime value, and
-            foster business growth.
+            customers through utmost personalization touchpoints to meet
+            customer expectations, improve customer lifetime value, and foster
+            business growth.
           </p>
         </div>
       </div>
@@ -95,13 +100,16 @@ const Webinars = () => {
             </li>
           </ol>
         </div>
-        <div className="col-sm-12 col-xs-12 col-md-2 col-lg-2">
+        <div
+          className="col-sm-12 col-xs-12 col-md-4 col-lg-4"
+          onClick={handleCallback}
+        >
           <p className="submit-button cr-pointer">Register for Webinar</p>
         </div>
       </div>
 
       {/* Learn From Industry Experts */}
-      <Webinarexperts />
+      <Webinarexperts scrollparentTotop={handleCallback} />
       {/* Footer */}
       <Webinarfooter />
     </>

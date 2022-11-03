@@ -2,6 +2,7 @@ import React from "react";
 import "../../CSS/webinar.css";
 import { useState } from "react";
 import emailjs from "emailjs-com";
+import { Link } from "react-router-dom";
 
 const Webinarform = () => {
   const [registerDetails, setregisterDetails] = useState({
@@ -72,6 +73,7 @@ const Webinarform = () => {
             <label>
               First Name<span className="req">*</span>
               <input
+                className="w-100"
                 type="text"
                 name="fName"
                 onChange={handleChange}
@@ -85,6 +87,7 @@ const Webinarform = () => {
               Second Name<span className="req">*</span>
               <input
                 type="text"
+                className="w-100"
                 name="lName"
                 onChange={handleChange}
                 value={registerDetails.lName}
@@ -141,15 +144,7 @@ const Webinarform = () => {
             </p>
           </div>
         </div>
-        <div className="row ml-0 mr-0">
-          <p className="para-form col-12 pl-0 pr-0">
-            Lorem Epsom is dummy text and has to be updated with actual content
-            Lorem Epsom is dummy text and has to be updated with actual content!
-            Lorem Epsom is dummy text and has to be updated with actual content
-            Lorem Epsom is dummy text and has to be updated with actual content!
-          </p>
-        </div>
-        <div className="row ml-0 mr-0">
+        <div className="row ml-0 mr-0 mt-1">
           <p className="col-12 para-form pl-0 pr-0 d-flex">
             <span>
               <input
@@ -172,7 +167,10 @@ const Webinarform = () => {
           <p className="col-12 para-form pl-0 pr-0 d-flex">
             <span className="ml-3 lh-1">
               By Submitting the form, you agree to us saving and processing your
-              data according to our <a href="">Privacy Policy</a>
+              data according to our{" "}
+              <Link to={`/Privacypolicy`} activeClassName="active">
+                Privacy Policy
+              </Link>
             </span>
           </p>
         </div>

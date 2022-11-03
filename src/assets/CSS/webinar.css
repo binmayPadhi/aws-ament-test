@@ -224,3 +224,9 @@ input {
   width: 95%;
   margin: auto;
 }
+
+@media (max-width: 500px) {
+  .reverse-columns-mobile {
+    flex-direction: column-reverse;
+  }
+}
