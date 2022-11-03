@@ -93,8 +93,8 @@ const Webinars = () => {
             <li className="key-takeaways fs-24 mb-1">
               Understand the real case studies with business impact
             </li>
-            <li className="key-takeaways fs-24">And More...</li>
           </ul>
+          <div className="key-takeaways fs-24 pl-4">And More...</div>
         </div>
         <div
           className="col-sm-12 col-xs-12 col-md-4 col-lg-4 mt-3-rem"
