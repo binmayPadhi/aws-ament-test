@@ -46,7 +46,7 @@ const Webinarform = ({ getSuccessResponse }) => {
           "yz7dQlM6o3Rz3cnB8"
         )
         .then(
-          console.log("Success"),
+          console.log("mail sent"),
           getSuccessResponse(true),
           setregisterDetails({
             fName: "",

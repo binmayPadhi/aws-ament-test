@@ -16,7 +16,6 @@ const Webinars = () => {
   };
 
   const getSuccessResponse = (e) => {
-    console.log("manikanta");
     setForm(false);
   };
   return (
