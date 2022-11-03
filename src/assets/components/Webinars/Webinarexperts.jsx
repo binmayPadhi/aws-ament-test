@@ -2,7 +2,7 @@ import React from "react";
 import "../../CSS/webinar.css";
 import director_1 from "../../images/Webinar-images/Valli_Photo.jpg";
 import director_2 from "../../images/Webinar-images/KK_Photo.jpg";
-import director_3 from "../../images/Webinar-images/Photo-Ganesh.jpeg";
+import director_3 from "../../images/Webinar-images/Photo-Ganesh.jpg";
 
 const Webinarexperts = () => {
   return (
