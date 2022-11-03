@@ -39,12 +39,7 @@ const Webinarform = () => {
       aplhabetPattern.test(registerDetails.jobTitle)
     ) {
       return emailjs
-        .sendForm(
-          "gmail",
-          "template_opai50d",
-          e.target,
-          "user_gk2s5L3y9LhSSq66o6aWz"
-        )
+        .sendForm("gmail", "template_3xhvl04", e.target, "service_ie4066i")
         .then(
           setregisterDetails({
             fName: "",
@@ -73,7 +68,7 @@ const Webinarform = () => {
             <label>
               First Name<span className="req">*</span>
               <input
-                className="w-100"
+                className="w-100 pl-1"
                 type="text"
                 name="fName"
                 onChange={handleChange}
@@ -87,7 +82,7 @@ const Webinarform = () => {
               Last Name<span className="req">*</span>
               <input
                 type="text"
-                className="w-100"
+                className="w-100 pl-1"
                 name="lName"
                 onChange={handleChange}
                 value={registerDetails.lName}
@@ -103,6 +98,7 @@ const Webinarform = () => {
             </label>
             <p className="email_field">
               <input
+                className="pl-1"
                 type="email"
                 name="email"
                 onChange={handleChange}
@@ -120,6 +116,7 @@ const Webinarform = () => {
             <p className="email_field">
               <input
                 type="text"
+                className="pl-1"
                 name="cName"
                 onChange={handleChange}
                 value={registerDetails.cName}
@@ -137,6 +134,7 @@ const Webinarform = () => {
               <input
                 type="text"
                 name="jobTitle"
+                className="pl-1"
                 onChange={handleChange}
                 value={registerDetails.jobTitle}
                 required
@@ -179,9 +177,6 @@ const Webinarform = () => {
           >
             Register for Webinar
           </button>
-          <p className="condition-para mt-2-rem fs-10 lh-1-25">
-            Thank you for registering, we will share an email with the details!
-          </p>
         </div>
       </form>
     </>

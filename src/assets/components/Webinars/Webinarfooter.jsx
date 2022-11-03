@@ -12,7 +12,7 @@ const Webinarfooter = () => {
         <div className="reverse-columns-mobile d-flex row pl-0 pr-0">
           <div className="col-sm-12 col-xs-12 col-md-4 col-lg-4">
             <div className="support-email">
-              <p>© 2022 Amnet Digital</p>
+              <p>© 2022 Amnet Digital, All Rights Reserved</p>
             </div>
           </div>
           <div className="col-sm-12 col-xs-12 col-md-8 col-lg-8">

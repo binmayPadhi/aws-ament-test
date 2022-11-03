@@ -193,6 +193,14 @@ input {
   font-size: 24px;
 }
 
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
 .fs-48 {
   font-size: 48px;
 }
@@ -220,7 +228,8 @@ ul {
 
 ul li:before {
   content: "✓";
-  padding-left: 1px;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .learn-img {
@@ -317,6 +326,18 @@ ul li:before {
 
 .h-180 {
   height: 180px;
+}
+
+.lh-22 {
+  line-height: 22px !important;
+}
+
+.lh-20 {
+  line-height: 20px !important;
+}
+
+.d-table {
+  display: table;
 }
 
 .box-shadow {
