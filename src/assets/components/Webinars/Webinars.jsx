@@ -24,19 +24,23 @@ const Webinars = () => {
           />
         </div>
         <div className="container mt-10-rem clear">
-          <div className="row">
-            <div className="col-12 join-styles">join us for the webinar</div>
-          </div>
-          <div className="row pb-3 mt-5-rem">
-            {/* left-side-block */}
-            <div className="col-sm-12 col-xs-12 col-md-7 col-lg-7">
-              <p className="main_heading">
-                Reshaping the Retail Industry through AI to make well-informed
-                business decisions
-              </p>
-              <p className="timing_webniar mt-3-rem">
-                Thursday, 17 November 2022 | 11:30 AM - 12:15 PM EST
-              </p>
+          <div className="row pb-3 mt-2-rem">
+            <div className="col-sm-12 col-xs-12 col-md-7 col-lg-7 mt-10-rem">
+              <div className="row mt-2">
+                <div className="col-12 join-styles mb-5">
+                  join us for the webinar
+                </div>
+                {/* left-side-block */}
+                <div className="col-12">
+                  <p className="main_heading">
+                    Reshaping the Retail Industry through AI to make
+                    well-informed business decisions
+                  </p>
+                  <p className="timing_webniar mt-3-rem">
+                    Thursday, 17 November 2022 | 11:30 AM - 12:15 PM EST
+                  </p>
+                </div>
+              </div>
             </div>
             {/* right-side-block */}
             <div className="col-sm-12 col-xs-12 col-md-5 col-lg-5 box-shadow">
@@ -81,26 +85,36 @@ const Webinars = () => {
         <div className="col-sm-12 col-xs-12 col-md-12 col-lg-12">
           <ul className="key-takeaways mt-3-rem">
             <li className="key-takeaways fs-24 mb-1">
-              How AI can help retailers move from a traditional business model
-              to AI centered business model
+              <span className="d-inline-block pl-3 fs-24">
+                How AI can help retailers move from a traditional business model
+                to AI centered business model
+              </span>
             </li>
             <li className="key-takeaways fs-24 mb-1">
-              Leverage AI to adapt customer behavioral shifts
+              <span className="d-inline-block pl-3 fs-24">
+                Leverage AI to adapt customer behavioral shifts
+              </span>
             </li>
             <li className="key-takeaways fs-24 mb-1">
-              Uncover how to deliver meaningful customer experience through AI
+              <span className="d-inline-block pl-3 fs-24">
+                Uncover how to deliver meaningful customer experience through AI
+              </span>
             </li>
             <li className="key-takeaways fs-24 mb-1">
-              Understand the real case studies with business impact
+              <span className="d-inline-block pl-3 fs-24">
+                Understand the real case studies with business impact
+              </span>
+            </li>
+            <li className="key-takeaways  mb-1">
+              <span className="d-inline-block pl-3 fs-24">And More...</span>
             </li>
           </ul>
-          <div className="key-takeaways fs-24 pl-4">And More...</div>
         </div>
         <div
           className="col-sm-12 col-xs-12 col-md-4 col-lg-4 mt-3-rem"
           onClick={handleCallback}
         >
-          <p className="submit-button cr-pointer">Register for Webinar</p>
+          <p className="submit-button cr-pointer px-4 d-table">Register Now</p>
         </div>
       </div>
 
