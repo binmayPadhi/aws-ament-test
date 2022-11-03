@@ -12,6 +12,7 @@ import AIML from "./SubServices/AIML";
 import Resources from "./Resources/Resources";
 import CookiesPolicy from "../components/CookiesPolicy";
 import Webinars from "./Webinars/Webinars";
+import Privacypolicy from "./Privacypolicy/Privacypolicy";
 
 function App() {
   const url = window.location.pathname;
@@ -23,9 +24,6 @@ function App() {
             <Navbar />
           </div>
         ) : null}
-        {/* <div>
-          <Navbar />
-        </div> */}
         <div>
           <Switch>
             <Route
@@ -44,6 +42,7 @@ function App() {
               component={Resources}
             />
             <Route path="/cookiespolicy" component={CookiesPolicy} />
+            <Route path="/privacypolicy" component={Privacypolicy} />
             <Route path="/:id" component={AIML} />
           </Switch>
         </div>
@@ -52,9 +51,6 @@ function App() {
             <Footer />
           </div>
         ) : null}
-        {/* <div>
-          <Footer />
-        </div> */}
       </Router>
     </>
   );
