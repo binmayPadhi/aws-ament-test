@@ -103,7 +103,7 @@ const Webinars = () => {
           Key takeaways from this webinar
         </div>
         <div className="col-sm-12 col-xs-12 col-md-12 col-lg-12">
-          <ul className="key-takeaways mt-3-rem w-100">
+          <ul className="key-takeaways ul-keys mt-3-rem w-100">
             <li className="key-takeaways fs-24 mb-1">
               <span className="pl-3 fs-24">
                 How AI can help retailers move from a traditional business model

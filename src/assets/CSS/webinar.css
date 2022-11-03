@@ -226,7 +226,7 @@ ul {
   list-style: none;
 }
 
-ul li:before {
+.ul-keys li:before {
   content: "✓";
   font-weight: bold;
   font-size: 25px;
