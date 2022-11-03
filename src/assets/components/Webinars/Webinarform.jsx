@@ -4,7 +4,7 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import { Link } from "react-router-dom";
 
-const Webinarform = () => {
+const Webinarform = ({ getSuccessResponse }) => {
   const [registerDetails, setregisterDetails] = useState({
     fName: "",
     lName: "",
@@ -39,7 +39,7 @@ const Webinarform = () => {
       aplhabetPattern.test(registerDetails.jobTitle)
     ) {
       return emailjs
-        .sendForm("gmail", "template_3xhvl04", e.target, "service_ie4066i")
+        .sendForm("template_3xhvl04", "service_h4akrmg", e.target)
         .then(
           setregisterDetails({
             fName: "",
@@ -49,6 +49,7 @@ const Webinarform = () => {
             jobTitle: "",
             acceptCheckbox: false,
           }),
+          getSuccessResponse(true),
           (error) => {
             console.log(error.text);
           }
@@ -165,8 +166,16 @@ const Webinarform = () => {
           <p className="col-12 para-form pl-0 pr-0 d-flex">
             <span className="ml-3 lh-1-25 fs-10">
               By Submitting the form, you agree to us saving and processing your
-              data according to our{" "}
-              <Link to={`/Privacypolicy`}>Privacy Policy</Link>
+              data according to our
+              <span className="fs-10 d-line-block">
+                <Link
+                  to={`/Privacypolicy`}
+                  className="fs-10 d-line-block"
+                  target="_blank"
+                >
+                  Privacy Policy
+                </Link>
+              </span>
             </span>
           </p>
         </div>
