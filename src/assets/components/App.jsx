@@ -24,9 +24,6 @@ function App() {
             <Navbar />
           </div>
         ) : null}
-        {/* <div>
-          <Navbar />
-        </div> */}
         <div>
           <Switch>
             <Route
@@ -54,9 +51,6 @@ function App() {
             <Footer />
           </div>
         ) : null}
-        {/* <div>
-          <Footer />
-        </div> */}
       </Router>
     </>
   );

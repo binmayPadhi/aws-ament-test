@@ -15,8 +15,9 @@ const Webinarexperts = ({ scrollparentTotop }) => {
           <div className="learn-content">
             <p>
               Join this epic webinar to learn about “Reshaping the Retail
-              Industry through Artificial Intelligence” and participate in Q&A
-              session at the end of the webinar to take out the guesswork.
+              Industry through Artificial Intelligence” <br /> and participate
+              in Q&A session at the end of the webinar to take out the
+              guesswork.
             </p>
           </div>
         </div>
@@ -26,12 +27,12 @@ const Webinarexperts = ({ scrollparentTotop }) => {
               <img
                 loading="lazy"
                 src={director_1}
-                className="w-300 mx-auto"
+                className="w-200 h-180 mx-auto"
                 alt="company_logo"
               />
             </div>
             <div>
-              <p className="director-name">Valli Suryadevara</p>
+              <p className="director-name mb-0">Valli Suryadevara</p>
               <p className="director-title">
                 Director of Engineering, Amnet Digital{" "}
               </p>
@@ -42,12 +43,12 @@ const Webinarexperts = ({ scrollparentTotop }) => {
               <img
                 loading="lazy"
                 src={director_2}
-                className="w-300 mx-auto"
+                className="w-200 h-180 mx-auto"
                 alt="company_logo"
               />
             </div>
             <div>
-              <p className="director-name">Krishnakanth Narapusetty</p>
+              <p className="director-name mb-0">Krishnakanth Narapusetty</p>
               <p className="director-title">
                 Director of Technology, Amnet Digital
               </p>
@@ -58,21 +59,21 @@ const Webinarexperts = ({ scrollparentTotop }) => {
               <img
                 loading="lazy"
                 src={director_3}
-                className="w-300 mx-auto"
+                className="w-200 h-180 mx-auto"
                 alt="company_logo"
               />
             </div>
             <div>
-              <p className="director-name">Ganesh Belde</p>
+              <p className="director-name mb-0">Ganesh Belde</p>
               <p className="director-title">Manager - Data Science</p>
             </div>
           </div>
         </div>
         <div className="row center-95">
-          <div className="col-md-4 col-lg-4 col-sm-3 col-xs-3"></div>
+          <div className="col-md-4 col-lg-4 col-sm-3 col-xs-3 mt-5-rem mb-5-rem "></div>
           <div className="col-md-4 col-lg-4 col-sm-6 col-xs-6">
             <p
-              className="submit-button clr-orange my-5 cr-pointer"
+              className="submit-button clr-orange cr-pointer mt-5-rem mb-5-rem "
               onClick={() => {
                 scrollparentTotop(true);
               }}
@@ -80,7 +81,7 @@ const Webinarexperts = ({ scrollparentTotop }) => {
               Register for Webinar
             </p>
           </div>
-          <div className="col-md-4 col-lg-4 col-sm-3 col-xs-3"></div>
+          <div className="col-md-4 col-lg-4 col-sm-3 col-xs-3 mt-5-rem mb-5-rem "></div>
         </div>
       </div>
     </>

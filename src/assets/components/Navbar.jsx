@@ -153,9 +153,9 @@ function Navbar() {
                   Services
                 </NavLink>
 
-                <div class="dropdown-content" onClick={hideDropdown}>
-                  <div class="row nav-sub-menu">
-                    <div class="column nav-first-column">
+                <div className="dropdown-content" onClick={hideDropdown}>
+                  <div className="row nav-sub-menu">
+                    <div className="column nav-first-column">
                       <div className="navFlex">
                         <img
                           src={AimlDropdownIcon}
@@ -622,7 +622,7 @@ function Navbar() {
                     Services
                   </NavLink>
                   <div style={navStyle}>
-                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    <i className="fa fa-angle-right" aria-hidden="true"></i>
                   </div>
                 </div>
                 <div
