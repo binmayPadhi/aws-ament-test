@@ -2,6 +2,12 @@ import React from "react";
 import "../../CSS/webinar.css";
 import companyIcon from "../../images/Webinar-images/AD-Logo-Full-Green.png";
 import zoomIcon from "../../images/Webinar-images/zoom.png";
+import director_1 from "../../images/Resources-page/blog-amnet.jpg";
+import director_2 from "../../images/Resources-page/blog-amnet.jpg";
+import facebook from "../../images/Webinar-images/Facebook.png";
+import linkedin from "../../images/Webinar-images/Linkedin.png";
+import twitter from "../../images/Webinar-images/Twitter.png";
+import instagram from "../../images/Webinar-images/Instagram.png";
 
 const Webinars = () => {
   return (
@@ -131,6 +137,8 @@ const Webinars = () => {
           </div>
         </div>
       </div>
+
+      {/* Main Content Body */}
       <div
         className="new-home-about-details row ml-5
         main-content-para"
@@ -150,6 +158,136 @@ const Webinars = () => {
             meet customer expectations, improve customer lifetime value, and
             foster business growth.
           </p>
+        </div>
+      </div>
+
+      {/* Key takeaways from this webinar */}
+      <div className="key-take-aways row ml-5 main-content-para">
+        <div calssName="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+          <h1>Key takeaways from this webinar</h1>
+        </div>
+        <div className="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+          <ol className="key-takeaways">
+            <li className="key-takeaways">
+              How AI can help retailers move from a traditional business model
+              to AI centered business model
+            </li>
+            <li className="key-takeaways">
+              Leverage AI to adapt customer behavioral shifts
+            </li>
+            <li className="key-takeaways">
+              Uncover how to deliver meaningful customer experience through AI
+            </li>
+            <li className="key-takeaways">
+              Understand the real case studies with business impact
+            </li>
+            <li className="key-takeaways">And more…</li>
+          </ol>
+        </div>
+        <div className="col-sm-12 col-xs-12 col-md-2 col-lg-2">
+          <p className="submit-button">Register for Webinar</p>
+        </div>
+      </div>
+
+      {/* Learn From Industry Experts */}
+      <div className="learn-img">
+        <div className="container clear">
+          <div className="learn-title">
+            <p>Learn From Industry Experts</p>
+          </div>
+          <div className="learn-content">
+            <p>
+              Join this epic webinar to learn about “Reshaping the Retail
+              Industry through Artificial Intelligence” and participate in a Q&A
+              session at the end of the webinar to take out the guesswork.
+            </p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+            <div className="w-100 d-flex py-4">
+              <img
+                loading="lazy"
+                src={director_1}
+                className="w-300 mx-auto"
+                alt="company_logo"
+              />
+            </div>
+            <div>
+              <p className="director-name">VALLI SURYADEVARA</p>
+              <p className="director-title">
+                Director of Engineering, Amnet Digital{" "}
+              </p>
+            </div>
+          </div>
+          <div className="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+            <div className="w-100 d-flex py-4">
+              <img
+                loading="lazy"
+                src={director_2}
+                className="w-300 mx-auto"
+                alt="company_logo"
+              />
+            </div>
+            <div>
+              <p className="director-name">KRISHNAKANTH NARAPUSETTY</p>
+              <p className="director-title">
+                Director of Technology, Amnet Digital
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Footer */}
+      <div className="webinar-footer">
+        <div className="row pl-0 pr-0">
+          <div className="col-sm-12 col-xs-12 col-md-4 col-lg-4">
+            <div className="support-email">
+              <p>info@amnetdigital.com</p>
+            </div>
+          </div>
+          <div className="col-sm-12 col-xs-12 col-md-4 col-lg-4">
+            <div className="support-email">
+              <p>© 2022 Amnet Digital</p>
+            </div>
+          </div>
+          <div className="col-sm-12 col-xs-12 col-md-4 col-lg-4">
+            <div className="social-media d-inline-flex">
+              <div className="w-100 ">
+                <img
+                  loading="lazy"
+                  src={facebook}
+                  className="w-15 mx-auto"
+                  alt="company_logo"
+                />
+              </div>
+              <div className="w-100 pl-5">
+                <img
+                  loading="lazy"
+                  src={linkedin}
+                  className="w-15 mx-auto"
+                  alt="company_logo"
+                />
+              </div>
+              <div className="w-100 pl-5">
+                <img
+                  loading="lazy"
+                  src={twitter}
+                  className="w-15 mx-auto"
+                  alt="company_logo"
+                />
+              </div>
+              <div className="w-100 pl-5 ">
+                <img
+                  loading="lazy"
+                  src={instagram}
+                  className="w-15 mx-auto"
+                  alt="company_logo"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
