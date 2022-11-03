@@ -16,7 +16,8 @@ const Webinars = () => {
   };
 
   const getSuccessResponse = (e) => {
-    setForm(true);
+    console.log("manikanta");
+    setForm(false);
   };
   return (
     <>
@@ -63,8 +64,10 @@ const Webinars = () => {
                 ) : (
                   <>
                     <div className="card-body card-styles">
-                      Thank you for registering the webinar, we will share an
-                      email with the joining details!
+                      <p className="successfull-msg">
+                        Thank you for registering the webinar, we will share an
+                        email with the joining details!
+                      </p>
                     </div>
                   </>
                 )}
