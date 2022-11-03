@@ -84,7 +84,7 @@ const Webinarform = () => {
           </div>
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 pl-0 pr-0">
             <label>
-              Second Name<span className="req">*</span>
+              Last Name<span className="req">*</span>
               <input
                 type="text"
                 className="w-100"
@@ -144,44 +144,42 @@ const Webinarform = () => {
             </p>
           </div>
         </div>
-        <div className="row ml-0 mr-0 mt-1">
-          <p className="col-12 para-form pl-0 pr-0 d-flex">
-            <span>
-              <input
-                className="checkMark"
-                type="checkbox"
-                name="acceptCheckbox"
-                onChange={handleChange}
-                checked={registerDetails.acceptCheckbox}
-                value={registerDetails.acceptCheckbox}
-                required
-              ></input>
-            </span>
-            <span className="ml-3 lh-1">
+        <div className="w-100 d-flex mt-2-rem">
+          <div className="w-5">
+            <input
+              className="checkMark"
+              type="checkbox"
+              name="acceptCheckbox"
+              onChange={handleChange}
+              checked={registerDetails.acceptCheckbox}
+              value={registerDetails.acceptCheckbox}
+              required
+            ></input>
+          </div>
+          <div className="w-95 pl-4">
+            <span className="lh-1-25 fs-10">
               I agree to Amnet Digital sending me relevant invitations, product
               offers, blogs, news, and other marketing information.
             </span>
-          </p>
+          </div>
         </div>
-        <div className="row ml-0 mr-0">
+        <div className="row ml-0 mr-0 mt-2-rem">
           <p className="col-12 para-form pl-0 pr-0 d-flex">
-            <span className="ml-3 lh-1">
+            <span className="ml-3 lh-1-25 fs-10">
               By Submitting the form, you agree to us saving and processing your
               data according to our{" "}
-              <Link to={`/Privacypolicy`} activeClassName="active">
-                Privacy Policy
-              </Link>
+              <Link to={`/Privacypolicy`}>Privacy Policy</Link>
             </span>
           </p>
         </div>
-        <div className="row ml-0 mr-0">
+        <div className="row ml-0 mr-0 mt-2-rem">
           <button
             className="col-12 pl-0 pr-0 submit-button cr-pointer"
             type="submit"
           >
             Register for Webinar
           </button>
-          <p className="condition-para">
+          <p className="condition-para mt-2-rem fs-10 lh-1-25">
             Thank you for registering, we will share an email with the details!
           </p>
         </div>
