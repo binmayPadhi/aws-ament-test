@@ -822,8 +822,11 @@ function Navbar() {
               </NavLink>
 
               <NavLink
-                to="/blog"
-                onClick={() => (window.location.href = "/blog")}
+                to="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
+                onClick={() =>
+                  (window.location.href =
+                    "/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry")
+                }
                 style={navStyle}
                 activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
               >
