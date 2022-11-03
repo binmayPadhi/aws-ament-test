@@ -2,12 +2,9 @@ import React from "react";
 import "../../CSS/webinar.css";
 import companyIcon from "../../images/Webinar-images/AD-Logo-Full-Green.png";
 import zoomIcon from "../../images/Webinar-images/zoom.png";
-import director_1 from "../../images/Resources-page/blog-amnet.jpg";
-import director_2 from "../../images/Resources-page/blog-amnet.jpg";
-import facebook from "../../images/Webinar-images/Facebook.png";
-import linkedin from "../../images/Webinar-images/Linkedin.png";
-import twitter from "../../images/Webinar-images/Twitter.png";
-import instagram from "../../images/Webinar-images/Instagram.png";
+import Webinarform from "./Webinarform";
+import Webinarfooter from "./Webinarfooter";
+import Webinarexperts from "./Webinarexperts";
 
 const Webinars = () => {
   return (
@@ -22,7 +19,7 @@ const Webinars = () => {
           />
         </div>
         <div className="container mt-5 clear">
-          <div className="row">
+          <div className="row pb-3">
             {/* left-side-block */}
             <div className="col-sm-12 col-xs-12 col-md-7 col-lg-7">
               <p className="main_heading">
@@ -44,93 +41,11 @@ const Webinars = () => {
             {/* right-side-block */}
             <div className="col-sm-12 col-xs-12 col-md-5 col-lg-5">
               <div className="card w-100">
-                <div class="card-header card_header_styles">Register Now!</div>
-                <div class="card-body">
-                  <form>
-                    <div className="row ml-0 mr-0">
-                      <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 pl-0 pr-0">
-                        <label>
-                          First Name<span className="req">*</span>
-                          <input type="text" name="username" />
-                        </label>
-                      </div>
-                      <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 pl-0 pr-0">
-                        <label>
-                          Second Name<span className="req">*</span>
-                          <input type="text" name="username" />
-                        </label>
-                      </div>
-                    </div>
-                    <div className="row ml-0 mr-0 mt-1">
-                      <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 pl-0 pr-0">
-                        <label>
-                          Email<span className="req">*</span>
-                        </label>
-                        <p className="email_field">
-                          <input type="text" name="username" />
-                        </p>
-                      </div>
-                    </div>
-                    <div className="row ml-0 mr-0 mt-1">
-                      <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 pl-0 pr-0">
-                        <label>
-                          Company<span className="req">*</span>
-                        </label>
-                        <p className="email_field">
-                          <input type="text" name="username" />
-                        </p>
-                      </div>
-                    </div>
-                    <div className="row ml-0 mr-0 mt-1">
-                      <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 pl-0 pr-0">
-                        <label>
-                          Job Title<span className="req">*</span>
-                        </label>
-                        <p className="email_field">
-                          <input type="text" name="username" />
-                        </p>
-                      </div>
-                    </div>
-                    <div className="row ml-0 mr-0">
-                      <p className="para-form col-12 pl-0 pr-0">
-                        Lorem Epsom is dummy text and has to be updated with
-                        actual content Lorem Epsom is dummy text and has to be
-                        updated with actual content! Lorem Epsom is dummy text
-                        and has to be updated with actual content Lorem Epsom is
-                        dummy text and has to be updated with actual content!
-                      </p>
-                    </div>
-                    <div className="row ml-0 mr-0">
-                      <p className="col-12 para-form pl-0 pr-0 d-flex">
-                        <span>
-                          <input className="checkMark" type="checkbox"></input>
-                        </span>
-                        <span className="ml-3 lh-1">
-                          Lorem Epsom is dummy text and has to be updated with
-                          actual content Lorem Epsom is dummy text and has to be
-                          updated with actual content!
-                        </span>
-                      </p>
-                    </div>
-                    <div className="row ml-0 mr-0">
-                      <p className="col-12 para-form pl-0 pr-0 d-flex">
-                        <span className="ml-3 lh-1">
-                          Lorem Epsom is dummy text and has to be updated with
-                          actual content Lorem Epsom is dummy text and has to be
-                          updated with actual content!
-                        </span>
-                      </p>
-                    </div>
-                    <div className="row ml-0 mr-0">
-                      <p className="col-12 pl-0 pr-0 submit-button">
-                        Register for Webinar
-                      </p>
-                      <p className="condition-para">
-                        Thank you for registering, we will share an email with
-                        the details!
-                      </p>
-                    </div>
-                  </form>
+                <div className="card-header card_header_styles">
+                  Register Now!
+                </div>
+                <div className="card-body">
+                  <Webinarform />
                 </div>
               </div>
             </div>
@@ -140,12 +55,9 @@ const Webinars = () => {
 
       {/* Main Content Body */}
       <div
-        className="new-home-about-details row ml-5
-        main-content-para"
+        className="new-home-about-details row center-95
+        main-content-para mt-5"
       >
-        <div calssName="col-12">
-          <h1>Main Content Body</h1>
-        </div>
         <div className="col-12">
           <p>
             The Retail industry is experiencing unprecedented change driven by
@@ -162,12 +74,12 @@ const Webinars = () => {
       </div>
 
       {/* Key takeaways from this webinar */}
-      <div className="key-take-aways row ml-5 main-content-para">
-        <div calssName="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+      <div className="mb-5 center-95 row main-content-para">
+        <div className="col-sm-12 col-xs-12 col-md-12 col-lg-12">
           <h1>Key takeaways from this webinar</h1>
         </div>
         <div className="col-sm-12 col-xs-12 col-md-12 col-lg-12">
-          <ol className="key-takeaways">
+          <ol className="key-takeaways pl-3">
             <li className="key-takeaways">
               How AI can help retailers move from a traditional business model
               to AI centered business model
@@ -181,115 +93,17 @@ const Webinars = () => {
             <li className="key-takeaways">
               Understand the real case studies with business impact
             </li>
-            <li className="key-takeaways">And more…</li>
           </ol>
         </div>
         <div className="col-sm-12 col-xs-12 col-md-2 col-lg-2">
-          <p className="submit-button">Register for Webinar</p>
+          <p className="submit-button cr-pointer">Register for Webinar</p>
         </div>
       </div>
 
       {/* Learn From Industry Experts */}
-      <div className="learn-img">
-        <div className="container clear">
-          <div className="learn-title">
-            <p>Learn From Industry Experts</p>
-          </div>
-          <div className="learn-content">
-            <p>
-              Join this epic webinar to learn about “Reshaping the Retail
-              Industry through Artificial Intelligence” and participate in a Q&A
-              session at the end of the webinar to take out the guesswork.
-            </p>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-sm-12 col-xs-12 col-md-6 col-lg-6">
-            <div className="w-100 d-flex py-4">
-              <img
-                loading="lazy"
-                src={director_1}
-                className="w-300 mx-auto"
-                alt="company_logo"
-              />
-            </div>
-            <div>
-              <p className="director-name">VALLI SURYADEVARA</p>
-              <p className="director-title">
-                Director of Engineering, Amnet Digital{" "}
-              </p>
-            </div>
-          </div>
-          <div className="col-sm-12 col-xs-12 col-md-6 col-lg-6">
-            <div className="w-100 d-flex py-4">
-              <img
-                loading="lazy"
-                src={director_2}
-                className="w-300 mx-auto"
-                alt="company_logo"
-              />
-            </div>
-            <div>
-              <p className="director-name">KRISHNAKANTH NARAPUSETTY</p>
-              <p className="director-title">
-                Director of Technology, Amnet Digital
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <Webinarexperts />
       {/* Footer */}
-      <div className="webinar-footer">
-        <div className="row pl-0 pr-0">
-          <div className="col-sm-12 col-xs-12 col-md-4 col-lg-4">
-            <div className="support-email">
-              <p>info@amnetdigital.com</p>
-            </div>
-          </div>
-          <div className="col-sm-12 col-xs-12 col-md-4 col-lg-4">
-            <div className="support-email">
-              <p>© 2022 Amnet Digital</p>
-            </div>
-          </div>
-          <div className="col-sm-12 col-xs-12 col-md-4 col-lg-4">
-            <div className="social-media d-inline-flex">
-              <div className="w-100 ">
-                <img
-                  loading="lazy"
-                  src={facebook}
-                  className="w-15 mx-auto"
-                  alt="company_logo"
-                />
-              </div>
-              <div className="w-100 pl-5">
-                <img
-                  loading="lazy"
-                  src={linkedin}
-                  className="w-15 mx-auto"
-                  alt="company_logo"
-                />
-              </div>
-              <div className="w-100 pl-5">
-                <img
-                  loading="lazy"
-                  src={twitter}
-                  className="w-15 mx-auto"
-                  alt="company_logo"
-                />
-              </div>
-              <div className="w-100 pl-5 ">
-                <img
-                  loading="lazy"
-                  src={instagram}
-                  className="w-15 mx-auto"
-                  alt="company_logo"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Webinarfooter />
     </>
   );
 };
