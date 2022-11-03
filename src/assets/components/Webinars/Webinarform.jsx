@@ -170,7 +170,7 @@ const Webinarform = ({ getSuccessResponse }) => {
               <span className="fs-10 d-line-block">
                 <Link
                   to={`/Privacypolicy`}
-                  className="fs-10 d-line-block"
+                  className="fs-10 d-line-block pl-1"
                   target="_blank"
                 >
                   Privacy Policy
