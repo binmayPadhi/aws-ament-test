@@ -226,7 +226,7 @@ ul {
   list-style: none;
 }
 
-ul li:before {
+.ul-keys li:before {
   content: "✓";
   font-weight: bold;
   font-size: 25px;
@@ -348,7 +348,15 @@ ul li:before {
   height: 500px;
   width: 100%;
   color: #f79424;
-  font-size: 24px;
+  font-size: 28px;
+  position: relative;
+}
+
+.successfull-msg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -25%);
 }
 
 @media (max-width: 500px) {

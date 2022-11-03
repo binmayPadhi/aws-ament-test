@@ -39,8 +39,14 @@ const Webinarform = ({ getSuccessResponse }) => {
       aplhabetPattern.test(registerDetails.jobTitle)
     ) {
       return emailjs
-        .sendForm("template_3xhvl04", "service_h4akrmg", e.target)
+        .sendForm(
+          "service_h4akrmg",
+          "template_3xhvl04",
+          e.target,
+          "yz7dQlM6o3Rz3cnB8"
+        )
         .then(
+          getSuccessResponse(true),
           setregisterDetails({
             fName: "",
             lName: "",
@@ -49,7 +55,6 @@ const Webinarform = ({ getSuccessResponse }) => {
             jobTitle: "",
             acceptCheckbox: false,
           }),
-          getSuccessResponse(true),
           (error) => {
             console.log(error.text);
           }
