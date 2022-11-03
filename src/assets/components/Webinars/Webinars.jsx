@@ -65,7 +65,7 @@ const Webinars = () => {
                   <>
                     <div className="card-body card-styles">
                       <p className="successfull-msg">
-                        Thank you for registering the webinar, we will share an
+                        Thank you for registering the webinar, we will send an
                         email with the joining details!
                       </p>
                     </div>
