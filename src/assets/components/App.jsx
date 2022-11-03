@@ -14,40 +14,47 @@ import CookiesPolicy from "../components/CookiesPolicy";
 import Webinars from "./Webinars/Webinars";
 
 function App() {
-  // const url = window.location.pathname;
+  const url = window.location.pathname;
   return (
     <>
       <Router forceRefresh={true}>
-        {/* {url != "/webinars" ? (
+        {url != "/webinar-reshaping-the-retail-industry-through-AI" ? (
           <div>
             <Navbar />
           </div>
-        ) : null} */}
-        <div>
+        ) : null}
+        {/* <div>
           <Navbar />
-        </div>
+        </div> */}
         <div>
           <Switch>
-            {/* <Route exact path="/webinars" component={Webinars} /> */}
+            <Route
+              exact
+              path="/webinar-reshaping-the-retail-industry-through-AI"
+              component={Webinars}
+            />
             <Route exact path="/" component={Homepage} />
             <Route path="/contactus" component={ContactUs} />
             <Route path="/aboutus" component={AboutUs} />
             <Route path="/services" component={Services} />
             <Route path="/casestudies" component={CaseStudies} />
             <Route path="/careers" component={Careers} />
-            <Route path="/blog" component={Resources} />
+            <Route
+              path="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
+              component={Resources}
+            />
             <Route path="/cookiespolicy" component={CookiesPolicy} />
             <Route path="/:id" component={AIML} />
           </Switch>
         </div>
-        {/* {url != "/webinars" ? (
+        {url != "/webinar-reshaping-the-retail-industry-through-AI" ? (
           <div>
             <Footer />
           </div>
-        ) : null} */}
-        <div>
+        ) : null}
+        {/* <div>
           <Footer />
-        </div>
+        </div> */}
       </Router>
     </>
   );

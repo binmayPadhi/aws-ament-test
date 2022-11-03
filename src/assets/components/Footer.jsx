@@ -58,7 +58,9 @@ function Footer() {
                 <a href="/careers">Careers</a>
               </li>
               <li>
-                <a href="/blog">Resources</a>
+                <a href="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry">
+                  Resources
+                </a>
               </li>
               <li>
                 <a href="/contactus">Contact Us</a>
