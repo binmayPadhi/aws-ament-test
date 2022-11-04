@@ -50,7 +50,7 @@ const Webinarexperts = ({ scrollparentTotop }) => {
             <div>
               <p className="director-name mb-0">Krishnakanth Narapusetty</p>
               <p className="director-title">
-                Sr. Technical Architect - AI & Analytics <br /> Amnet Digital
+                Director AI & Analytics <br /> Amnet Digital
               </p>
             </div>
           </div>
@@ -66,7 +66,7 @@ const Webinarexperts = ({ scrollparentTotop }) => {
             <div>
               <p className="director-name mb-0">Ganesh Belde</p>
               <p className="director-title">
-                Director - Data Science <br /> Amnet Digital
+                Principal Data Scientist <br /> Amnet Digital
               </p>
             </div>
           </div>
@@ -80,7 +80,7 @@ const Webinarexperts = ({ scrollparentTotop }) => {
                 scrollparentTotop(true);
               }}
             >
-              Register Now
+              Register now
             </p>
           </div>
           <div className="col-md-4 col-lg-4 col-sm-3 col-xs-3 mt-5-rem mb-5-rem "></div>

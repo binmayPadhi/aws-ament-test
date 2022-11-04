@@ -133,7 +133,7 @@ const Webinars = () => {
           className="col-sm-12 col-xs-12 col-md-4 col-lg-4 mt-3-rem"
           onClick={handleCallback}
         >
-          <p className="submit-button cr-pointer px-4 d-table">Register Now</p>
+          <p className="submit-button cr-pointer px-4 d-table">Register now</p>
         </div>
       </div>
 
