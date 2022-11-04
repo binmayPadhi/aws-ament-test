@@ -34,17 +34,18 @@ const Webinars = () => {
             <div className="col-sm-12 col-xs-12 col-md-7 col-lg-7 mt-10-rem">
               <div className="row mt-2 mb-5">
                 <div className="col-12 join-styles mb-5">
-                  join us for the webinar
+                  Join us for the webinar!
                 </div>
                 {/* left-side-block */}
                 <div className="col-12">
                   <p className="main_heading">
-                    Reshaping the Retail Industry through AI to make
-                    well-informed business decisions
+                    Reshaping the Retail Industry through Advanced Analytics and
+                    AI!
                   </p>
                   <p className="timing_webniar mt-3-rem">
-                    Thursday, 17 November 2022 | 11:30 AM - 12:15 PM EST
+                    11:30 AM - 12:15 PM EST, Thursday
                   </p>
+                  <p className="timing_webniar">November 17, 2022</p>
                 </div>
               </div>
             </div>
@@ -85,13 +86,12 @@ const Webinars = () => {
           <p className="mb-5-rem mt-5-rem fs-24">
             The Retail industry is experiencing unprecedented change driven by
             consumer needs and demands enabled by technology. Artificial
-            intelligence (AI) in retail has empowered businesses with key data
-            that is leveraged to predict shifts in customer behavior, improve
-            retail operations, and uncover new business opportunities. It is
-            high time for both digital and traditional retailers need to engage
-            customers through utmost personalization touchpoints to meet
-            customer expectations, improve customer lifetime value, and foster
-            business growth.
+            intelligence in Retail has empowered businesses with data that is
+            leveraged to predict shifts in customer behavior, improve Retail
+            operations, and uncover new business opportunities. It is high time
+            for both digital and traditional Retailers to engage customers
+            through personalization touchpoints to meet customer expectations,
+            improve customer lifetime value and faster business growth.
           </p>
         </div>
       </div>
@@ -99,33 +99,33 @@ const Webinars = () => {
       {/* Key takeaways from this webinar */}
       <div className="mb-5 center-95 row main-content-para">
         <div className="col-sm-12 col-xs-12 col-md-12 col-lg-12 fs-48">
-          Key takeaways from this webinar
+          Key take aways from this webinar
         </div>
         <div className="col-sm-12 col-xs-12 col-md-12 col-lg-12">
           <ul className="key-takeaways ul-keys mt-3-rem w-100">
-            <li className="key-takeaways fs-24 mb-1">
-              <span className="pl-3 fs-24">
-                How AI can help retailers move from a traditional business model
-                to AI centered business model
+            <li className="key-takeaways fs-24 mb-1 li-para">
+              <span className="pl-3 fs-24 li-para">
+                How AI & Analytics can help Retailers move from a traditional
+                business model to AI centered business model
               </span>
             </li>
-            <li className="key-takeaways fs-24 mb-1">
-              <span className="pl-3 fs-24">
-                Leverage AI to adapt customer behavioral shifts
+            <li className="key-takeaways fs-24 mb-1 li-para">
+              <span className="pl-3 fs-24 li-para">
+                Leverage AI & Analytics to adapt customer behavioral shifts
               </span>
             </li>
-            <li className="key-takeaways fs-24 mb-1">
-              <span className="pl-3 fs-24">
-                Uncover how to deliver meaningful customer experience through AI
+            <li className="key-takeaways fs-24 mb-1 li-para">
+              <span className="pl-3 fs-24 li-para">
+                Uncover how to deliver meaningful customer experience
               </span>
             </li>
-            <li className="key-takeaways fs-24 mb-1">
-              <span className="pl-3 fs-24">
+            <li className="key-takeaways fs-24 mb-1 li-para">
+              <span className="pl-3 fs-24 li-para">
                 Understand the real case studies with business impact
               </span>
             </li>
-            <li className="key-takeaways  mb-1">
-              <span className="pl-3 fs-24">And More...</span>
+            <li className="key-takeaways  mb-1 li-para">
+              <span className="pl-3 fs-24 li-para">And more...</span>
             </li>
           </ul>
         </div>
@@ -133,7 +133,7 @@ const Webinars = () => {
           className="col-sm-12 col-xs-12 col-md-4 col-lg-4 mt-3-rem"
           onClick={handleCallback}
         >
-          <p className="submit-button cr-pointer px-4 d-table">Register Now</p>
+          <p className="submit-button cr-pointer px-4 d-table">Register now</p>
         </div>
       </div>
 

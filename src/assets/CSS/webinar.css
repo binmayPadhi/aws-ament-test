@@ -12,6 +12,13 @@
   width: 95%;
 }
 
+.w-3 {
+  width: 3%;
+}
+.w-97 {
+  width: 97%;
+}
+
 .webinar_main_img {
   width: 100%;
   background-image: url("../images/Webinar-images/Bg-webinar-Img.png");
@@ -218,7 +225,7 @@ input {
 
 .key-takeaways {
   font-weight: 400;
-  line-height: 30px;
+  line-height: 32px;
   color: #000000;
 }
 
@@ -230,6 +237,10 @@ ul {
   content: "✓";
   font-weight: bold;
   font-size: 25px;
+}
+
+.li-para {
+  display: flex;
 }
 
 .learn-img {
