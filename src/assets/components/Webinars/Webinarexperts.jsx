@@ -10,7 +10,7 @@ const Webinarexperts = ({ scrollparentTotop }) => {
       <div className="learn-img">
         <div className="container clear">
           <div className="learn-title">
-            <p>Learn From Industry Experts</p>
+            <p>Learn from Industry Experts</p>
           </div>
           <div className="learn-content">
             <p className="lh-22 fs-18">
@@ -34,7 +34,7 @@ const Webinarexperts = ({ scrollparentTotop }) => {
             <div>
               <p className="director-name mb-0">Valli Suryadevara</p>
               <p className="director-title">
-                Director of Engineering, Amnet Digital{" "}
+                Director - Engineering <br /> Amnet Digital
               </p>
             </div>
           </div>
@@ -50,7 +50,7 @@ const Webinarexperts = ({ scrollparentTotop }) => {
             <div>
               <p className="director-name mb-0">Krishnakanth Narapusetty</p>
               <p className="director-title">
-                Director of Technology, Amnet Digital
+                Sr. Technical Architect - AI & Analytics <br /> Amnet Digital
               </p>
             </div>
           </div>
@@ -65,7 +65,9 @@ const Webinarexperts = ({ scrollparentTotop }) => {
             </div>
             <div>
               <p className="director-name mb-0">Ganesh Belde</p>
-              <p className="director-title">Manager - Data Science</p>
+              <p className="director-title">
+                Director - Data Science <br /> Amnet Digital
+              </p>
             </div>
           </div>
         </div>
