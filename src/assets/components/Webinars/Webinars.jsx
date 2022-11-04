@@ -91,7 +91,7 @@ const Webinars = () => {
             operations, and uncover new business opportunities. It is high time
             for both digital and traditional Retailers to engage customers
             through personalization touchpoints to meet customer expectations,
-            improve customer lifetime value and faster business growth.
+            improve customer lifetime value and foster business growth.
           </p>
         </div>
       </div>
