@@ -35,8 +35,7 @@ const Webinarform = ({ getSuccessResponse }) => {
       aplhabetPattern.test(registerDetails.fName) &&
       aplhabetPattern.test(registerDetails.lName) &&
       emailpattern.test(registerDetails.email) &&
-      aplhabetPattern.test(registerDetails.cName) &&
-      aplhabetPattern.test(registerDetails.jobTitle)
+      aplhabetPattern.test(registerDetails.cName)
     ) {
       return emailjs
         .sendForm(
@@ -134,9 +133,7 @@ const Webinarform = ({ getSuccessResponse }) => {
         </div>
         <div className="row ml-0 mr-0 mt-1">
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 pl-0 pr-0">
-            <label>
-              Job Title<span className="req">*</span>
-            </label>
+            <label>Job Title</label>
             <p className="email_field">
               <input
                 type="text"
@@ -144,7 +141,6 @@ const Webinarform = ({ getSuccessResponse }) => {
                 className="pl-1"
                 onChange={handleChange}
                 value={registerDetails.jobTitle}
-                required
               />
             </p>
           </div>
@@ -172,7 +168,7 @@ const Webinarform = ({ getSuccessResponse }) => {
           <p className="col-12 para-form pl-0 pr-0 d-flex">
             <span className="ml-3 lh-1-25 fs-10">
               By Submitting the form, you agree to us saving and processing your
-              data according to our
+              information according to our
               <span className="fs-10 d-line-block">
                 <Link
                   to={`/Privacypolicy`}
