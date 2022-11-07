@@ -27,7 +27,7 @@ const Webinarform = ({ getSuccessResponse }) => {
 
   const submitregisterDetails = (e) => {
     e.preventDefault();
-    const aplhabetPattern = /^[a-z]+$/i;
+    const aplhabetPattern = /^[^\s][a-zA-Z\s]+[^\s]$/;
     const emailpattern =
       /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 
