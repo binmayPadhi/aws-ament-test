@@ -651,3 +651,12 @@
 .margin-resources-top {
   padding-top: 100px;
 }
+.bg-color-black {
+  background-color: #000000;
+}
+.small_banner {
+  background-color: #ffffff;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
