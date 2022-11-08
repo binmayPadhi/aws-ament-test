@@ -1,4 +1,5 @@
 
+import webniarPage from "../../images/Resources-page/Blog_Image_CTA.png";
 
 const blog = [
     {
@@ -27,6 +28,7 @@ const blog = [
         id: 5,
         title: "Constructive Logistics and Supply Chain",
         description: "AI also has the caliber to streamline your in-store supply chain. For instance, this technology can analyze the purchasing patterns of your previous clients and notify you in advance when you will run out of specific products. This is important since clients may choose a different business if they don't feel certain that you'll always have the products they require. And that means you'll lose sales, which will hurt your bottom line.AI can also forecast when a particular product will be in more demand throughout the year. As a result, you can start stocking up now rather than rushing to secure and display these popular seasonal items when clients start asking about them.",
+        image1: webniarPage
     },
     {
         id: 6,
@@ -46,7 +48,7 @@ const blog = [
     {
         id: 9,
         title: "AI - The future buzz for business continuity and growth",
-        description: "AI has the power to completely change the retail industry. The retailers who can develop their retail channels will distinguish themselves as industry leaders when digital and physical purchase channels merge. It offers retailers a future-oriented perspective and takes the place of intuition with intelligence. When implementing AI, business executives must be practical in their approach.AI will help merchants comprehend customer psychology by bringing us closer to the current state of the human brain. A new AI algorithm can actually understand what someone is thinking by using deep learning networks. Last but not least, future research can concentrate on creating AI models to better comprehend consumer/shopper ideas using. For this study, researchers from several fields, including marketing, information systems, computer science, statistics, economics, and psychology, must work together and engage in cross-functional thinking.",
+        description: "AI has the power to completely change the retail industry. The retailers who can develop their retail channels will distinguish themselves as industry leaders when digital and physical purchase channels merge. It offers retailers a future-oriented perspective and takes the place of intuition with intelligence. When implementing AI, business executives must be practical in their approach.AI will help merchants comprehend customer psychology by bringing us closer to the current state of the human brain. A new AI algorithm can actually understand what someone is thinking by using deep learning networks. Last but not least, future research can concentrate on creating AI models to better comprehend consumer/shopper ideas using. For this study, researchers from several fields, including marketing, information systems, computer science, statistics, economics, and psychology, must work together and engage in cross-functional thinking.",        
     },
 ]
 
