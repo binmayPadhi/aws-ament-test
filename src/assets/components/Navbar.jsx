@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import amnetLogo from "../images/AD-Logo.png";
 import AimlDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-ai-ml.png";
 import DataManagementDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-data-mgmt.png";
@@ -95,12 +95,24 @@ function Navbar() {
   return (
     <>
       {/* <!-- NAVIGATION BAR --> */}
+
       <div className="navigation-bar" id="navbar">
+        <p className="mb-0 bg-color-black ribbon-fixed">
+          <span className="d-inline-block small_banner py-1">
+            <Link
+              to={`/webinar-reshaping-the-retail-industry-through-AI`}
+              className="fs-10 d-line-block pl-1 link-decoration"
+              target="_blank"
+            >
+              Webinar - Reshaping the Retail Industry through AI - Register now
+            </Link>
+          </span>
+        </p>
         <nav className="navbar navbar-expand-lg ">
-          {/* <!-- navigation bar logo --> */}
-          <a href="/" className="navbar-brand active">
+          <a href="/" className="navbar-brand active pb-2">
             <img className="img-fluid logo" src={amnetLogo} alt="logo" />
           </a>
+          {/* <!-- navigation bar logo --> */}
           <button
             className="navbar-toggler custom-toggler"
             type="button"

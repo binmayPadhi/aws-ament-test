@@ -48,18 +48,16 @@ const Resources = () => {
                     </div>
                     {list.hasOwnProperty("image1") === true ? (
                       <div className="row about-us-page-row ml-0 mr-0">
-                        <div className="col-12 about-us-details p-0">
+                        <div className="col-12 about-us-details sty-webinar">
                           <Link
                             to={`/webinar-reshaping-the-retail-industry-through-AI`}
-                            className="fs-10 d-line-block pl-1"
+                            className="fs-10 d-line-block pl-1 link-decoration"
                             target="_blank"
                           >
-                            <img
-                              loading="lazy"
-                              className="img-fluid cr-pointer"
-                              src={webniarPage}
-                              alt="webniar_page"
-                            />
+                            <span className="cr-pointer fs-18 clr-white font-weight-bold">
+                              Webinar - Reshaping the Retail Industry through AI
+                              - Register now
+                            </span>
                           </Link>
                         </div>
                       </div>
