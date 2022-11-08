@@ -98,10 +98,10 @@ function Navbar() {
 
       <div className="navigation-bar" id="navbar">
         <p className="mb-0 bg-color-black ribbon-fixed">
-          <span className="d-inline-block small_banner py-1">
+          <span className="d-inline-block small_banner py-2">
             <Link
               to={`/webinar-reshaping-the-retail-industry-through-AI`}
-              className="fs-10 d-line-block pl-1 link-decoration"
+              className="fs-12 d-line-block pl-1 link-decoration font-weight-bold clr-black"
               target="_blank"
             >
               Webinar - Reshaping the Retail Industry through AI - Register now
