@@ -30,7 +30,6 @@ const Webinarform = ({ getSuccessResponse }) => {
     const aplhabetPattern = /^(?! )[A-Za-z ]*(?<! )$/;
     const emailpattern =
       /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-    console.log(registerDetails);
     if (
       aplhabetPattern.test(registerDetails.fName) &&
       aplhabetPattern.test(registerDetails.lName) &&
