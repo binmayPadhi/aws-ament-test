@@ -97,7 +97,7 @@ function Navbar() {
       {/* <!-- NAVIGATION BAR --> */}
 
       <div className="navigation-bar" id="navbar">
-        <p className="mb-0 bg-color-black">
+        <p className="mb-0 bg-color-black ribbon-fixed">
           <span className="d-inline-block small_banner py-1">
             <Link
               to={`/webinar-reshaping-the-retail-industry-through-AI`}
