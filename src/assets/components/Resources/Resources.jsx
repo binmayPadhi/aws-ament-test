@@ -1,6 +1,8 @@
 import React from "react";
 import blogImg from "../../images/Resources-page/blog-amnet.jpg";
 import Blog from "../../Data/Resources-Data/Blog";
+import webniarPage from "../../images/Resources-page/Blog_Image_CTA.png";
+import { Link } from "react-router-dom";
 
 const Resources = () => {
   return (
@@ -36,6 +38,7 @@ const Resources = () => {
           <div className="about-us-page-details">
             <div className="row about-us-page-row ml-0 mr-0">
               {Blog.map((list) => {
+                console.log(list);
                 return (
                   <div className="col-12 about-us-details p-0" key={list.id}>
                     <div className="about-us-desc-blog">
@@ -43,9 +46,46 @@ const Resources = () => {
                       <p>{list.description}</p>
                       <p>{list.description1}</p>
                     </div>
+                    {list.hasOwnProperty("image1") === true ? (
+                      <div className="row about-us-page-row ml-0 mr-0">
+                        <div className="col-12 about-us-details p-0">
+                          <Link
+                            to={`/webinar-reshaping-the-retail-industry-through-AI`}
+                            className="fs-10 d-line-block pl-1"
+                            target="_blank"
+                          >
+                            <img
+                              loading="lazy"
+                              className="img-fluid cr-pointer"
+                              src={webniarPage}
+                              alt="webniar_page"
+                            />
+                          </Link>
+                        </div>
+                      </div>
+                    ) : (
+                      ""
+                    )}
                   </div>
                 );
               })}
+            </div>
+          </div>
+
+          <div className="row about-us-page-row ml-0 mr-0">
+            <div className="col-12 about-us-details p-0">
+              <Link
+                to={`/webinar-reshaping-the-retail-industry-through-AI`}
+                className="fs-10 d-line-block pl-1"
+                target="_blank"
+              >
+                <img
+                  loading="lazy"
+                  className="img-fluid cr-pointer"
+                  src={webniarPage}
+                  alt="webniar_page"
+                />
+              </Link>
             </div>
           </div>
         </div>
