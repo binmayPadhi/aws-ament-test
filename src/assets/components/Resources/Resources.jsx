@@ -38,7 +38,6 @@ const Resources = () => {
           <div className="about-us-page-details">
             <div className="row about-us-page-row ml-0 mr-0">
               {Blog.map((list) => {
-                console.log(list);
                 return (
                   <div className="col-12 about-us-details p-0" key={list.id}>
                     <div className="about-us-desc-blog">
@@ -51,7 +50,7 @@ const Resources = () => {
                         <div className="col-12 about-us-details sty-webinar">
                           <Link
                             to={`/webinar-reshaping-the-retail-industry-through-AI`}
-                            className="fs-10 d-line-block pl-1 link-decoration"
+                            className="fs-10 d-line-block pl-1 link-decoration-none"
                             target="_blank"
                           >
                             <span className="cr-pointer fs-18 clr-white font-weight-bold">
