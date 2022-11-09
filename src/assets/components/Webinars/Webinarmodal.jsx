@@ -2,11 +2,11 @@ import React from "react";
 import { Modal, Button } from "react-bootstrap";
 import "../../CSS/webinar.css";
 import { Link } from "react-router-dom";
-import webniarClose from "../../images/Webinar-images/close_img.png";
+import webniarClose from "../../images/Webinar-images/close.jpg";
 
-const Webinarmodal = ({ isShow, closeModal }) => {
+const Webinarmodal = ({ isShow, closeModal, isCount }) => {
   const storeData = () => {
-    localStorage.setItem("cookie", true);
+    localStorage.setItem("cookie", isCount);
     closeModal(false);
   };
   return (
@@ -29,7 +29,7 @@ const Webinarmodal = ({ isShow, closeModal }) => {
               Join our online webinar
             </p>
             <p className="fs-20 font-weight-bold clr-black mt-1">
-              Reshaping the Retail Industry through Advanced Analytics and AI!
+              Reshaping the Retail Industry through Advanced Analytics and AI
             </p>
             <p className="fs-16 font-weight-bold clr-black mt-1">
               11:30 AM - 12:15 PM EST, Thursday, November 17, 2022
