@@ -36,8 +36,7 @@ function App() {
   return (
     <>
       <Router forceRefresh={true}>
-        {url != "/webinar-reshaping-the-retail-industry-through-AI" &&
-        parseInt(cookievariable) <= 3 ? (
+        {url === "/" && parseInt(cookievariable) <= 3 ? (
           <div>
             <Webinarmodal
               isShow={show}
