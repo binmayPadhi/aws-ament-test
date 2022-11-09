@@ -98,13 +98,14 @@ function Navbar() {
 
       <div className="navigation-bar" id="navbar">
         <p className="mb-0 bg-color-black ribbon-fixed">
-          <span className="d-inline-block small_banner py-2">
+          <span className="d-inline-block small_banner py-3">
             <Link
               to={`/webinar-reshaping-the-retail-industry-through-AI`}
-              className="fs-12 d-line-block pl-1 link-decoration font-weight-bold clr-black"
+              className="fs-12 d-line-block pl-1 link-decoration-none font-weight-bold link_css"
               target="_blank"
             >
-              Webinar - Reshaping the Retail Industry through AI - Register now
+              Webinar - Reshaping the Retail Industry through AI -
+              <span className="color-orange fs-16"> Register Now</span>
             </Link>
           </span>
         </p>

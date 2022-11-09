@@ -13,12 +13,26 @@ import Resources from "./Resources/Resources";
 import CookiesPolicy from "../components/CookiesPolicy";
 import Webinars from "./Webinars/Webinars";
 import Privacypolicy from "./Privacypolicy/Privacypolicy";
+import Webinarmodal from "./Webinars/Webinarmodal";
+import { useState } from "react";
 
 function App() {
   const url = window.location.pathname;
+  const [show, setShow] = useState(true);
+  const cookievariable = localStorage.getItem("cookie");
+  const closeEvent = (e) => {
+    localStorage.setItem("cookie", true);
+    setShow(false);
+  };
   return (
     <>
       <Router forceRefresh={true}>
+        {url != "/webinar-reshaping-the-retail-industry-through-AI" &&
+        cookievariable != "true" ? (
+          <div>
+            <Webinarmodal isShow={show} closeModal={closeEvent} />
+          </div>
+        ) : null}
         {url != "/webinar-reshaping-the-retail-industry-through-AI" ? (
           <div>
             <Navbar />

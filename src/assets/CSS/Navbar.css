@@ -4,7 +4,7 @@
   position: fixed;
   background-color: #0c0c0c;
   width: 100%;
-  height: 105px;
+  height: 125px;
   vertical-align: middle;
   z-index: 99;
 }
@@ -431,7 +431,7 @@
   }
 
   .navigation-bar {
-    height: 115px;
+    height: 130px;
   }
 
   .navbar-toggler {
@@ -478,7 +478,7 @@
   }
 
   .navigation-bar {
-    height: 115px;
+    height: 130px;
   }
 
   .navbar-toggler {
@@ -511,7 +511,7 @@
   }
 
   .navigation-bar {
-    height: 115px;
+    height: 130px;
   }
 
   .navbar-toggler {
@@ -655,7 +655,7 @@
   background-color: #000000;
 }
 .small_banner {
-  background-color: #ffffff;
+  background-color: #00f;
   cursor: pointer;
   width: 100%;
   text-align: center;
