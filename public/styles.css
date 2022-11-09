@@ -5833,6 +5833,54 @@ label {
   cursor: pointer;
 }
 
+.sty-webinar {
+  background-color: #fd5d14;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+  padding: 15px 15px;
+  border-radius: 20px;
+}
+
+.clr-black {
+  color: #000000;
+}
+
+.clr-white {
+  color: #ffffff;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.link-decoration {
+  text-decoration: underline !important;
+}
+
+.link-decoration-none {
+  text-decoration: none !important;
+}
+
+.color-orange {
+  color: #f79424;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.link_css {
+  color: #fff;
+  font-size: 14px;
+}
+
+.link_css:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 1200px) {
   .center {
     padding-left: 300px;

@@ -4,7 +4,7 @@
   position: fixed;
   background-color: #0c0c0c;
   width: 100%;
-  height: 85px;
+  height: 125px;
   vertical-align: middle;
   z-index: 99;
 }
@@ -431,7 +431,7 @@
   }
 
   .navigation-bar {
-    height: 75px;
+    height: 130px;
   }
 
   .navbar-toggler {
@@ -478,7 +478,7 @@
   }
 
   .navigation-bar {
-    height: 75px;
+    height: 130px;
   }
 
   .navbar-toggler {
@@ -511,7 +511,7 @@
   }
 
   .navigation-bar {
-    height: 75px;
+    height: 130px;
   }
 
   .navbar-toggler {
@@ -650,4 +650,12 @@
 
 .margin-resources-top {
   padding-top: 100px;
+}
+.bg-color-black {
+  background-color: #000000;
+}
+.small_banner {
+  background-color: #3c3cdf;
+  width: 100%;
+  text-align: center;
 }

@@ -45,6 +45,7 @@ const Webinarform = ({ getSuccessResponse }) => {
         )
         .then(
           console.log("mail sent"),
+          localStorage.setItem("cookie", 4),
           getSuccessResponse(true),
           setregisterDetails({
             fName: "",
