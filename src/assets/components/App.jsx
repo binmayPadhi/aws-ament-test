@@ -19,18 +19,31 @@ import { useState } from "react";
 function App() {
   const url = window.location.pathname;
   const [show, setShow] = useState(true);
-  const cookievariable = localStorage.getItem("cookie");
+  const cookievariable =
+    localStorage.getItem("cookie") === null ||
+    localStorage.getItem("cookie") === undefined
+      ? 0
+      : localStorage.getItem("cookie");
   const closeEvent = (e) => {
-    localStorage.setItem("cookie", true);
+    const counter =
+      localStorage.getItem("cookie") === undefined ||
+      localStorage.getItem("cookie") === null
+        ? 0
+        : parseInt(localStorage.getItem("cookie")) + 1;
+    localStorage.setItem("cookie", counter);
     setShow(false);
   };
   return (
     <>
       <Router forceRefresh={true}>
         {url != "/webinar-reshaping-the-retail-industry-through-AI" &&
-        cookievariable != "true" ? (
+        parseInt(cookievariable) <= 3 ? (
           <div>
-            <Webinarmodal isShow={show} closeModal={closeEvent} />
+            <Webinarmodal
+              isShow={show}
+              closeModal={closeEvent}
+              isCount={cookievariable}
+            />
           </div>
         ) : null}
         {url != "/webinar-reshaping-the-retail-industry-through-AI" ? (
