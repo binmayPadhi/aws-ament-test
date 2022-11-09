@@ -2,7 +2,7 @@ import React from "react";
 import { Modal, Button } from "react-bootstrap";
 import "../../CSS/webinar.css";
 import { Link } from "react-router-dom";
-import webniarClose from "../../images/Webinar-images/close.jpg";
+import webniarClose from "../../images/Webinar-images/close_img.jpg";
 
 const Webinarmodal = ({ isShow, closeModal, isCount }) => {
   const storeData = () => {
