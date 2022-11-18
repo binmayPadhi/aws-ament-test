@@ -1,27 +1,14 @@
 import React from "react";
 import "../../CSS/webinar.css";
 import companyIcon from "../../images/Webinar-images/AD-Logo-Full-Green.png";
-import zoomIcon from "../../images/Webinar-images/zoom.png";
-import Webinarform from "./Webinarform";
 import Webinarfooter from "./Webinarfooter";
 import Webinarexperts from "./Webinarexperts";
-import { useRef } from "react";
-import { useState } from "react";
 
 const Webinars = () => {
-  const [showForm, setForm] = useState(true);
-  const titleRef = useRef();
-  const handleCallback = (e) => {
-    titleRef.current.scrollIntoView({ behavior: "smooth" });
-  };
-
-  const getSuccessResponse = (e) => {
-    setForm(false);
-  };
   return (
     <>
-      <div className="webinar_main_img" ref={titleRef}>
-        <div className="w-100 d-flex pt-5-rem pb-5-rem">
+      <div className="webinar_main_img">
+        <div className="w-100 d-flex pt-5-rem">
           <img
             loading="lazy"
             src={companyIcon}
@@ -29,13 +16,10 @@ const Webinars = () => {
             alt="company_logo"
           />
         </div>
-        <div className="container mt-3 pb-3">
+        <div className="container pb-3">
           <div className="row">
-            <div className="col-sm-12 col-xs-12 col-md-7 col-lg-7 mt-10-rem">
+            <div className="col-sm-12 col-xs-12 col-md-12 col-lg-12 mt-10-rem">
               <div className="row mt-2 mb-5">
-                <div className="col-12 join-styles mb-5">
-                  Join us for the webinar!
-                </div>
                 {/* left-side-block */}
                 <div className="col-12">
                   <p className="main_heading">
@@ -47,30 +31,6 @@ const Webinars = () => {
                   </p>
                   <p className="timing_webniar">November 17, 2022</p>
                 </div>
-              </div>
-            </div>
-            {/* right-side-block */}
-            <div className="col-sm-12 col-xs-12 col-md-5 col-lg-5 box-shadow">
-              <div className="card w-100">
-                {showForm === true ? (
-                  <>
-                    <div className="card-header card_header_styles">
-                      Register Now!
-                    </div>
-                    <div className="card-body">
-                      <Webinarform getSuccessResponse={getSuccessResponse} />
-                    </div>
-                  </>
-                ) : (
-                  <>
-                    <div className="card-body card-styles">
-                      <p className="successfull-msg">
-                        Thank you for registering for the webinar, we will send
-                        an email with the joining details!
-                      </p>
-                    </div>
-                  </>
-                )}
               </div>
             </div>
           </div>
@@ -129,16 +89,10 @@ const Webinars = () => {
             </li>
           </ul>
         </div>
-        <div
-          className="col-sm-12 col-xs-12 col-md-4 col-lg-4 mt-3-rem"
-          onClick={handleCallback}
-        >
-          <p className="submit-button cr-pointer px-4 d-table">Register now</p>
-        </div>
       </div>
 
       {/* Learn From Industry Experts */}
-      <Webinarexperts scrollparentTotop={handleCallback} />
+      <Webinarexperts />
       {/* Footer */}
       <Webinarfooter />
     </>

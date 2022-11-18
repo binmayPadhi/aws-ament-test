@@ -97,22 +97,6 @@ function Navbar() {
       {/* <!-- NAVIGATION BAR --> */}
 
       <div className="navigation-bar" id="navbar">
-        <p className="mb-0 bg-color-black ribbon-fixed">
-          <span className="d-inline-block small_banner py-3 fs-12 pl-1 font-weight-bold link_css">
-            Upcoming Webinar - Reshaping the Retail Industry through AI -
-            <span>
-              <Link
-                to={`/webinar-reshaping-the-retail-industry-through-AI`}
-                className="d-line-block link-decoration-none pl-1 font-weight-bold link_css cr-pointer"
-                target="_blank"
-              >
-                <span className="color-orange fs-16 cr-pointer">
-                  Register Now
-                </span>
-              </Link>
-            </span>
-          </span>
-        </p>
         <nav className="navbar navbar-expand-lg ">
           <a href="/" className="navbar-brand active pb-2">
             <img className="img-fluid logo" src={amnetLogo} alt="logo" />
