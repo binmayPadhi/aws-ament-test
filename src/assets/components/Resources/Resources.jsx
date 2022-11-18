@@ -1,18 +1,11 @@
 import React from "react";
 import blogImg from "../../images/Resources-page/blog-amnet.jpg";
 import Blog from "../../Data/Resources-Data/Blog";
-import webniarPage from "../../images/Resources-page/Blog_Image_CTA.png";
-import { Link } from "react-router-dom";
 
 const Resources = () => {
   return (
     <>
       <div className="contact-us-intro container-fluid"></div>
-
-      {/* Heading Name */}
-      {/* <div className="new-home-about-details new-all-margin margin-resources-top" id="details">
-                <h1>How to stay compliant with SOX requirements on Microsoft Dynamics 365</h1>
-            </div> */}
       <div className="container-fluid">
         <div className="center">
           <div className="new-home-about-details row ml-0 mr-0">
@@ -45,44 +38,9 @@ const Resources = () => {
                       <p>{list.description}</p>
                       <p>{list.description1}</p>
                     </div>
-                    {list.hasOwnProperty("image1") === true ? (
-                      <div className="row about-us-page-row ml-0 mr-0">
-                        <div className="col-12 about-us-details sty-webinar">
-                          <Link
-                            to={`/webinar-reshaping-the-retail-industry-through-AI`}
-                            className="fs-10 d-line-block pl-1 link-decoration-none"
-                            target="_blank"
-                          >
-                            <span className="cr-pointer fs-18 clr-white font-weight-bold">
-                              Webinar - Reshaping the Retail Industry through AI
-                              - Register now
-                            </span>
-                          </Link>
-                        </div>
-                      </div>
-                    ) : (
-                      ""
-                    )}
                   </div>
                 );
               })}
-            </div>
-          </div>
-
-          <div className="row about-us-page-row ml-0 mr-0">
-            <div className="col-12 about-us-details p-0">
-              <Link
-                to={`/webinar-reshaping-the-retail-industry-through-AI`}
-                className="fs-10 d-line-block pl-1"
-                target="_blank"
-              >
-                <img
-                  loading="lazy"
-                  className="img-fluid cr-pointer"
-                  src={webniarPage}
-                  alt="webniar_page"
-                />
-              </Link>
             </div>
           </div>
         </div>
