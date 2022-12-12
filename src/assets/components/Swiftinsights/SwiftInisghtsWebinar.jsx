@@ -1,5 +1,5 @@
 // import React from "react";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState, useMemo } from "react";
 import emailjs from "emailjs-com";
 import "../../CSS/swiftinisghts.css";
 import companyLogo from "../../images/swiftinisghts/company_logo.png";
@@ -9,6 +9,27 @@ import ic_round from "../../images/swiftinisghts/ic_round-access-time.png";
 import phCalendarCheck from "../../images/swiftinisghts/ph_calendar-check.png";
 
 const SwiftInisghtsWebinar = () => {
+  const [screenSize, getDimension] = useState({
+    dynamicWidth: window.innerWidth,
+    dynamicHeight: window.innerHeight,
+  });
+  const setDimension = () => {
+    getDimension({
+      dynamicWidth: window.innerWidth,
+      dynamicHeight: window.innerHeight,
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", setDimension);
+
+    return () => {
+      window.removeEventListener("resize", setDimension);
+    };
+  }, [screenSize]);
+
+  /*Email*/
+
   const [userDetails, setUserDetails] = useState({
     fName: "",
     email: "",
@@ -67,20 +88,26 @@ const SwiftInisghtsWebinar = () => {
 
   return (
     <>
+      {/* <div className="fs-24 swiftinsights-ai">
+        Width: <strong>{screenSize.dynamicWidth}</strong>
+        Height: <strong>{screenSize.dynamicHeight}</strong>
+      </div> */}
       <div className="webinar-page">
-        <div className="center">
+        <div className="center-webinar">
           <div className="w-100 d-flex justify-content-between">
             <img className="py-4" src={companyLogo} />
-            {/* <span className="py-4 text-white font">swiftinsights.ai</span> */}
+            <span className="py-4 text-white font-ai swiftinsights-ai-desktop">
+              swiftinsights.ai
+            </span>
           </div>
-          <div className="row">
-            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div className="row mt-8">
+            <div className="col-lg-7 col-md-6 col-sm-12 col-xs-12">
               <p className="heading-style mt-4 mb-0">Webinar</p>
               <div className="row mt-0">
                 <div className="col-lg-4 col-sm-12 col-xs-12 col-md-4 pr-0">
                   <p className="swift-text-style mb-0">Swift Insights</p>
                 </div>
-                <div className="col-lg-8 col-sm-12 col-xs-12 col-md-8 pl-0">
+                <div className="col-lg-8 col-sm-12 col-xs-12 col-md-8 pr-0">
                   <p className="text-right-size mb-0">
                     An AI based Advanced Analytics Reporting Platform for Retail
                   </p>
@@ -101,52 +128,24 @@ const SwiftInisghtsWebinar = () => {
                   <p className="date-style mb-0">21 Dec, 2022</p>
                   <p className="date-style mb-2 font-weight-400">Wednesday</p>
                 </div>
-                <div className="col-lg-1 col-md-1 col-sm-12 col-xs-12 text-center">
-                  <p className="border-2"></p>
+                <div className="col-lg-1 col-md-1 col-sm-12 col-xs-12 text-center ">
+                  <p className="border-2 swiftinsights-ai-desktop"></p>
+                  <div class="w-100 mt-3 swiftinsights-ai-mobile">
+                    <div class="w-50">
+                      <div class="border-bottom-webinar"></div>
+                    </div>
+                  </div>
                 </div>
-                <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+                <div className="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                   <p className="mb-0 mt-2">
                     <img src={ic_round} width="30" className="mr-4" />
                     <span className="text-dark p-1 date-time-style">Time</span>
                   </p>
                   <p className="date-style mb-0 ">5pm - 5:45pm(IST)</p>
                 </div>
-              </div>
-
-              <div className="mb-5">
-                <div className="row mt-5">
-                  <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-1">
-                    <p className="mb-0">
-                      <img src={phCalendarCheck} width="30" className="mr-4" />
-                      <span className="text-dark p-1 date-time-style">
-                        Date
-                      </span>
-                    </p>
-                    <p className="date-style mb-0">21 Dec, 2022</p>
-                    <p className="date-style mb-2 font-weight-400">Wednesday</p>
-                  </div>
-                </div>
-
-                <div className="w-100 mt-3">
-                  <div className="w-25">
-                    <div className="border-bottom-2"></div>
-                  </div>
-                </div>
-
-                <div className="row mt-3">
-                  <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-1">
-                    <p className="mb-0">
-                      <img src={ic_round} width="30" className="mr-4" />
-                      <span className="text-dark p-1 date-time-style">
-                        Time
-                      </span>
-                    </p>
-                    <p className="date-style mb-0">5pm - 5:45pm(IST)</p>
-                  </div>
-                </div>
-
-                <div className="w-100 mt-5">
-                  <p className="w-100">
+                <div className="col-lg-5 col-md-4 col-sm-12 col-xs-12">
+                  <p className="mt-7">
                     <img src={materialSymbol} width="30" className="mr-4" />
                     <span className="text-dark p-1 font-weight-400 date-time-style">
                       Free Live Event
@@ -156,7 +155,7 @@ const SwiftInisghtsWebinar = () => {
               </div>
             </div>
             {/* {Right Side} */}
-            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div className="col-lg-5 col-md-6 col-sm-12 col-xs-12">
               <div className="w-100 justify-content-center d-flex">
                 <div className="card card-box">
                   <div className="card-header border-0 heading py-2">
@@ -283,11 +282,17 @@ const SwiftInisghtsWebinar = () => {
             </div>
           </div>
         </div>
-        <div className="center mb-3 mt-3">
-          <div className="w-100 d-flex justify-content-between mt-3 mb-3">
-            <span className="fs-24 pr-1">Powered by</span>
+        <div className="center-webinar mb-3 mt-3">
+          <div className="w-100 d-flex mt-3 mb-3">
+            <span className="fs-24 pr-4">Powered by</span>
             <img src={Adlogo} width="150" />
           </div>
+          <div className="w-100 d-flex justify-content-center swiftinsights-ai-mobile">
+            <span className="py-4 font text-dark fs-24 swiftinsights-ai-mobile">
+              swiftinsights.ai
+            </span>
+          </div>
+
           {/* <div className="w-100 d-flex justify-content-center">
             <span className="py-4 font text-dark fs-24">swiftinsights.ai</span>
           </div> */}
