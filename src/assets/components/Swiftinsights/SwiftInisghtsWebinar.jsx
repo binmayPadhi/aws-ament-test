@@ -9,25 +9,6 @@ import ic_round from "../../images/swiftinisghts/ic_round-access-time.png";
 import phCalendarCheck from "../../images/swiftinisghts/ph_calendar-check.png";
 
 const SwiftInisghtsWebinar = () => {
-  const [screenSize, getDimension] = useState({
-    dynamicWidth: window.innerWidth,
-    dynamicHeight: window.innerHeight,
-  });
-  const setDimension = () => {
-    getDimension({
-      dynamicWidth: window.innerWidth,
-      dynamicHeight: window.innerHeight,
-    });
-  };
-
-  useEffect(() => {
-    window.addEventListener("resize", setDimension);
-
-    return () => {
-      window.removeEventListener("resize", setDimension);
-    };
-  }, [screenSize]);
-
   /*Email*/
 
   const [userDetails, setUserDetails] = useState({
@@ -95,12 +76,18 @@ const SwiftInisghtsWebinar = () => {
       <div className="webinar-page">
         <div className="center-webinar">
           <div className="w-100 d-flex justify-content-between">
-            <img className="py-4" src={companyLogo} />
-            <span className="py-4 text-white font-ai swiftinsights-ai-desktop">
-              swiftinsights.ai
-            </span>
+            <img className="py-4" src={companyLogo} width="150" />
+            <a
+              className="py-4 text-white font-ai swiftinsights-ai-desktop"
+              href="http://swiftinsights.ai/"
+              target="_blank"
+            >
+              <span className="mt-2 text-white font-ai swiftinsights-ai-desktop">
+                swiftinsights.ai
+              </span>
+            </a>
           </div>
-          <div className="row mt-8">
+          <div className="row">
             <div className="col-lg-7 col-md-6 col-sm-12 col-xs-12">
               <p className="heading-style mt-4 mb-0">Webinar</p>
               <div className="row mt-0">
@@ -114,7 +101,7 @@ const SwiftInisghtsWebinar = () => {
                 </div>
               </div>
               <div className="w-100 learn-style mt-5">
-                <div className="w-95">
+                <div className="w-95 learn-style">
                   Learn & understand on how our AI based KPIs can help you
                   achieve your business goals!
                 </div>
@@ -136,21 +123,26 @@ const SwiftInisghtsWebinar = () => {
                     </div>
                   </div>
                 </div>
-
-                <div className="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                   <p className="mb-0 mt-2">
                     <img src={ic_round} width="30" className="mr-4" />
                     <span className="text-dark p-1 date-time-style">Time</span>
                   </p>
                   <p className="date-style mb-0 ">5pm - 5:45pm(IST)</p>
                 </div>
-                <div className="col-lg-5 col-md-4 col-sm-12 col-xs-12">
-                  <p className="mt-7">
-                    <img src={materialSymbol} width="30" className="mr-4" />
-                    <span className="text-dark p-1 font-weight-400 date-time-style">
-                      Free Live Event
-                    </span>
-                  </p>
+              </div>
+              <div className="row my-3">
+                <div className="col-md-4 power-text swiftinsights-ai-desktop">
+                  <span className="power-text">Powered by</span>
+                </div>
+                <div className="col-md-4 mt-1 swiftinsights-ai-desktop">
+                  <img src={Adlogo} width="150" />
+                </div>
+                <div className="col-md-4 mobile-free">
+                  <img src={materialSymbol} width="30" className="mr-2 mt-11" />
+                  <span className="text-dark p-1 font-weight-400 date-time-style">
+                    Free Live Event
+                  </span>
                 </div>
               </div>
             </div>
@@ -281,21 +273,24 @@ const SwiftInisghtsWebinar = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="center-webinar mb-3 mt-3">
-          <div className="w-100 d-flex mt-3 mb-3">
-            <span className="fs-24 pr-4">Powered by</span>
-            <img src={Adlogo} width="150" />
-          </div>
-          <div className="w-100 d-flex justify-content-center swiftinsights-ai-mobile">
-            <span className="py-4 font text-dark fs-24 swiftinsights-ai-mobile">
-              swiftinsights.ai
-            </span>
-          </div>
 
-          {/* <div className="w-100 d-flex justify-content-center">
-            <span className="py-4 font text-dark fs-24">swiftinsights.ai</span>
-          </div> */}
+          <div className="center mb-4 mt-4 swiftinsights-ai-mobile">
+            <div className="w-100 d-flex justify-content-between mt-3 mb-3 ">
+              <span className="fs-24 pr-4">Powered by</span>
+              <img src={Adlogo} width="150" />
+            </div>
+            <div className="w-100 d-flex justify-content-center swiftinsights-ai-mobile">
+              <a
+                className="py-4 text-black font-ai swiftinsights-ai-mobile"
+                href="http://swiftinsights.ai/"
+                target="_blank"
+              >
+                <span className="mt-2 text-black fs-24 swiftinsights-ai-mobile">
+                  swiftinsights.ai
+                </span>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </>
