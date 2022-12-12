@@ -32,6 +32,11 @@ const blog = [
     },
     {
         id: 6,
+        path: "",
+        description: "",
+    },
+    {
+        id: 6,
         title: "Personalization, Customer Understanding, and Recommendation System",
         description: "Both customers and businesses are placing more and more value on tailored recommendations and purchase predictions. Retail artificial intelligence can provide customers with a personalized buying experience. Technologies like fingerprint and face recognition can recognize returning clients and keep track of their preferences. In order to understand consumers' preferences, cutting-edge AI algorithms can examine their demographic information, social media impressions, and digital imprints. According to statistics, 71% of users won't even open an impersonalised email. Additionally, companies claim that targeted campaigns raised their postal earnings by 760%. E-commerce and retail businesses leverage machine learning to recommend relevant products to clients based on their interests, searches, and past purchases.",
     },

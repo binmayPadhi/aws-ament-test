@@ -831,7 +831,7 @@ function Navbar() {
                 style={navStyle}
                 activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
               >
-                Resources
+                Insights
               </NavLink>
               {/* </div> */}
 

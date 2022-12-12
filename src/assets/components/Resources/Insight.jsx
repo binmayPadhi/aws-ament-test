@@ -2,7 +2,7 @@ import React from "react";
 import blogImg from "../../images/Resources-page/blog-amnet.jpg";
 import Blog from "../../Data/Resources-Data/Blog";
 
-const Resources = () => {
+const Insight = () => {
   return (
     <>
       <div className="contact-us-intro container-fluid"></div>
@@ -93,4 +93,4 @@ const Resources = () => {
   );
 };
 
-export default Resources;
+export default Insight;
