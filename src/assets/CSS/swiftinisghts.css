@@ -10,9 +10,17 @@
   width: 95%;
 }
 
-.center {
-  width: 90%;
+.center-webinar {
+  width: 90% !important;
   margin: auto;
+}
+
+.mt-8 {
+  margin-top: 8rem;
+}
+
+.mt-7 {
+  margin-top: 7rem;
 }
 
 .center-75 {
@@ -86,6 +94,9 @@
   width: 20%;
 }
 
+.w-50 {
+  width: 50%;
+}
 .horizontal-line {
   width: 100px;
   height: 0px;
@@ -194,4 +205,38 @@ input {
 .help-block {
   color: red;
   font-size: 12px;
+}
+
+.font-ai {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 899px) {
+  .swiftinsights-ai-desktop {
+    visibility: hidden;
+  }
+  .swiftinsights-ai-mobile {
+    visibility: show;
+  }
+  .border-2 {
+    height: 0px;
+  }
+
+  .border-bottom-webinar {
+    border-bottom: 2px solid #000000;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1920px) {
+  .swiftinsights-ai-desktop {
+    visibility: show;
+  }
+  .swiftinsights-ai-mobile {
+    visibility: hidden;
+  }
+  .border-bottom-webinar {
+    border-bottom: 0px solid #000000;
+  }
 }
