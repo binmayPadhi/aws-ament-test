@@ -31,7 +31,7 @@
 .heading-style {
   color: #ecac27;
   font-family: Poppins;
-  font-size: 4rem;
+  font-size: 7rem;
 }
 
 .font-2 {
@@ -48,7 +48,7 @@
 
 .text-right-size {
   font-family: Poppins;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 400;
   text-align: left;
   color: #000000;
@@ -215,10 +215,12 @@ input {
 
 @media only screen and (min-width: 200px) and (max-width: 899px) {
   .swiftinsights-ai-desktop {
-    visibility: hidden;
+    /* visibility: hidden; */
+    display: none;
   }
   .swiftinsights-ai-mobile {
-    visibility: show;
+    /* visibility: show; */
+    display: block;
   }
   .border-2 {
     height: 0px;
@@ -227,16 +229,33 @@ input {
   .border-bottom-webinar {
     border-bottom: 2px solid #000000;
   }
+
+  .mobile-free {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .mt-11 {
+    margin-top: -11px;
+  }
+  .text-black {
+    color: black;
+  }
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1920px) {
   .swiftinsights-ai-desktop {
-    visibility: show;
+    /* visibility: show; */
+    display: block;
   }
   .swiftinsights-ai-mobile {
-    visibility: hidden;
+    /* visibility: hidden; */
+    display: none;
   }
   .border-bottom-webinar {
     border-bottom: 0px solid #000000;
+  }
+  .font-2 {
+    font-size: 3rem;
   }
 }
