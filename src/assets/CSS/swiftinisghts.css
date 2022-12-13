@@ -173,6 +173,14 @@ input {
   background-color: #756646;
   display: table;
   border-radius: 25px;
+  cursor: pointer;
+}
+
+.successfull-msg-swift {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .heading {
@@ -211,6 +219,15 @@ input {
   font-family: "Poppins";
   font-weight: 500;
   font-size: 16px;
+}
+
+.card-styles-swift {
+  height: 500px;
+  width: 100%;
+  color: #f79424;
+  font-size: 28px;
+  position: relative;
+  background: white;
 }
 
 @media only screen and (min-width: 200px) and (max-width: 899px) {

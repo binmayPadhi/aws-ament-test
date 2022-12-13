@@ -7,24 +7,29 @@ import Adlogo from "../../images/swiftinisghts/AD-Logo.png";
 import materialSymbol from "../../images/swiftinisghts/material-symbols_play-circle-rounded.png";
 import ic_round from "../../images/swiftinisghts/ic_round-access-time.png";
 import phCalendarCheck from "../../images/swiftinisghts/ph_calendar-check.png";
+import SwiftlnisghtsWebinarform from "./SwiftlnisghtsWebinarform";
 
 const SwiftInisghtsWebinar = () => {
+  const [showForm, setForm] = useState(true);
   /*Email*/
-
+  const getSuccessResponse = (e) => {
+    setForm(false);
+  };
   const [userDetails, setUserDetails] = useState({
     fName: "",
     email: "",
     cName: "",
     jobTitle: "",
-    updates: "",
+    updates: false,
   });
 
   function handleChange(event) {
     const { value, name } = event.target;
+    const { checked, name1 } = event.target;
     setUserDetails((prevValue) => {
       return {
         ...prevValue,
-        [name]: value,
+        [name]: name != "updates" ? value : checked,
       };
     });
   }
@@ -55,7 +60,7 @@ const SwiftInisghtsWebinar = () => {
             email: "",
             cName: "",
             jobTitle: "",
-            updates: "",
+            updates: false,
           }),
           (error) => {
             console.log(error.text);
@@ -148,128 +153,29 @@ const SwiftInisghtsWebinar = () => {
             </div>
             {/* {Right Side} */}
             <div className="col-lg-5 col-md-6 col-sm-12 col-xs-12">
-              <div className="w-100 justify-content-center d-flex">
-                <div className="card card-box">
-                  <div className="card-header border-0 heading py-2">
-                    Please fill the below details to attend webinar
-                  </div>
-                  <div className="card-body my-3">
-                    <form
-                      name="contactForm"
-                      action="#"
-                      method="post"
-                      onSubmit={submitDetails}
-                    >
-                      <div className="row ml-0 mr-0">
-                        <div className="col-12 pl-0 pr-0">
-                          <p className="mb-0">
-                            <label>
-                              Full Name<span className="req">*</span>
-                            </label>
-                          </p>
-                          <p className="w-100">
-                            <input
-                              className="w-100 pl-1"
-                              type="text"
-                              name="fName"
-                              onChange={handleChange}
-                              value={userDetails.fName}
-                              required
-                            />
-                          </p>
-                          {/* <span className="help-block">
-                            <div>FullName is required</div>
-                            <div>The minimum length for this field is 1</div>
-                            <div>Please enter valid Fullname</div>
-                          </span> */}
-                        </div>
-                      </div>
-                      <div className="row ml-0 mr-0">
-                        <div className="col-12 pl-0 pr-0">
-                          <p className="mb-0">
-                            <label>
-                              Email<span className="req">*</span>
-                            </label>
-                          </p>
-                          <p className="w-100">
-                            <input
-                              className="w-100 pl-1"
-                              type="email"
-                              name="email"
-                              onChange={handleChange}
-                              value={userDetails.email}
-                              required
-                            />
-                          </p>
-                          {/* <span className="help-block">
-                            <div>Email is required</div>
-                            <div>Email must be a valid email address</div>
-                          </span> */}
-                        </div>
-                      </div>
-                      <div className="row ml-0 mr-0">
-                        <div className="col-12 pl-0 pr-0">
-                          <p className="mb-0">
-                            <label>Company</label>
-                          </p>
-                          <p className="w-100">
-                            <input
-                              className="w-100 pl-1"
-                              type="text"
-                              name="cName"
-                              onChange={handleChange}
-                              value={userDetails.cName}
-                              required
-                            />
+              <div className=" w-100">
+                {showForm === true ? (
+                  <>
+                    <div className="card-body">
+                      <SwiftlnisghtsWebinarform
+                        getSuccessResponse={getSuccessResponse}
+                      />
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    <div className="w-100 justify-content-center d-flex">
+                      <div className="card card-box">
+                        <div className="card-body card-styles-swift">
+                          <p className="successfull-msg-swift">
+                            Thank you for registering for the webinar, we will
+                            send an email with the joining details!
                           </p>
                         </div>
                       </div>
-                      <div className="row ml-0 mr-0">
-                        <div className="col-12 pl-0 pr-0">
-                          <p className="mb-0">
-                            <label>Role</label>
-                          </p>
-                          <p className="w-100">
-                            <input
-                              className="w-100 pl-1"
-                              type="text"
-                              name="jobTitle"
-                              onChange={handleChange}
-                              value={userDetails.jobTitle}
-                              required
-                            />
-                          </p>
-                        </div>
-                      </div>
-                      <div className="row ml-0 mr-0 pt-2">
-                        <div className="col-12 pl-0 pr-0">
-                          <p className="w-100 d-flex align-items-center">
-                            <input
-                              className="w-100 pl-1 checkMark"
-                              name="updates"
-                              type="checkbox"
-                            />
-                            <span className="submittext">
-                              Send me updates about Swight Insights
-                            </span>
-                          </p>
-                        </div>
-                      </div>
-                      <div className="row ml-0 mr-0 pt-1">
-                        <div className="col-12 pl-0 pr-0">
-                          <div className="w-100 d-flex justify-content-center">
-                            <button
-                              className="subBtn px-4 border-0"
-                              type="submit"
-                            >
-                              Register
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
+                    </div>
+                  </>
+                )}
               </div>
             </div>
           </div>
