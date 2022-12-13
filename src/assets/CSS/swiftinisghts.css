@@ -176,6 +176,13 @@ input {
   cursor: pointer;
 }
 
+.successfull-msg-swift {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .heading {
   font-family: "Poppins";
   font-style: normal;

@@ -167,7 +167,7 @@ const SwiftInisghtsWebinar = () => {
                     <div className="w-100 justify-content-center d-flex">
                       <div className="card card-box">
                         <div className="card-body card-styles-swift">
-                          <p className="successfull-msg">
+                          <p className="successfull-msg-swift">
                             Thank you for registering for the webinar, we will
                             send an email with the joining details!
                           </p>
