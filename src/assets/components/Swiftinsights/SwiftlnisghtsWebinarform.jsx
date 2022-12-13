@@ -166,7 +166,6 @@ const SwiftlnisghtsWebinarform = ({ getSuccessResponse }) => {
                       onChange={handleChange}
                       checked={userDetails.updates}
                       value={userDetails.updates}
-                      required
                     />
                     <span className="submittext">
                       Send me updates about Swight Insights

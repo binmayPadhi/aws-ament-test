@@ -173,6 +173,7 @@ input {
   background-color: #756646;
   display: table;
   border-radius: 25px;
+  cursor: pointer;
 }
 
 .heading {
