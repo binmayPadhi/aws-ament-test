@@ -9,17 +9,23 @@ import Careers from "./Careers";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import AIML from "./SubServices/AIML";
-import Resources from "./Resources/Resources";
+import Insight from "./Resources/Insight";
 import CookiesPolicy from "../components/CookiesPolicy";
 import Webinars from "./Webinars/Webinars";
 import Privacypolicy from "./Privacypolicy/Privacypolicy";
+import SwiftInisghtsWebinar from "./Swiftinsights/SwiftInisghtsWebinar";
 
 function App() {
   const url = window.location.pathname;
   return (
     <>
       <Router forceRefresh={true}>
-        {url != "/webinar-reshaping-the-retail-industry-through-AI" ? (
+        {/* {url != "/webinar-reshaping-the-retail-industry-through-AI" ? (
+          <div>
+            <Navbar />
+          </div>
+        ) : null} */}
+        {url != "/swiftinisghts-Webinar" ? (
           <div>
             <Navbar />
           </div>
@@ -39,14 +45,24 @@ function App() {
             <Route path="/careers" component={Careers} />
             <Route
               path="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
-              component={Resources}
+              component={Insight}
+            />
+            <Route
+              exact
+              path="/swiftinisghts-Webinar"
+              component={SwiftInisghtsWebinar}
             />
             <Route path="/cookiespolicy" component={CookiesPolicy} />
             <Route path="/privacypolicy" component={Privacypolicy} />
             <Route path="/:id" component={AIML} />
           </Switch>
         </div>
-        {url != "/webinar-reshaping-the-retail-industry-through-AI" ? (
+        {/* {url != "/webinar-reshaping-the-retail-industry-through-AI" ? (
+          <div>
+            <Footer />
+          </div>
+        ) : null } */}
+        {url != "/swiftinisghts-Webinar" ? (
           <div>
             <Footer />
           </div>
