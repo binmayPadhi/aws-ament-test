@@ -213,6 +213,15 @@ input {
   font-size: 16px;
 }
 
+.card-styles-swift {
+  height: 500px;
+  width: 100%;
+  color: #f79424;
+  font-size: 28px;
+  position: relative;
+  background: white;
+}
+
 @media only screen and (min-width: 200px) and (max-width: 899px) {
   .swiftinsights-ai-desktop {
     /* visibility: hidden; */
