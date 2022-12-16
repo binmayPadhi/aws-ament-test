@@ -19,6 +19,12 @@ const ourLocationData = [
         cityName : "Scotland, UK",
         address : "89 Queens Crescent, Livingston, West Lothian EH54 8EG, Scotland, UK",
         locationIcon : amnetLocationIcon
+    },
+    {
+        id : 4,
+        cityName : "Dubai, UAE",
+        address : "Building D1, Al Mararr, Deira",
+        locationIcon : amnetLocationIcon
     }
 ];
 
