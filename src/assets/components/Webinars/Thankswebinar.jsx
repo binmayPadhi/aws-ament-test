@@ -7,8 +7,8 @@ import "../../CSS/webinar.css";
 
 const Thankswebinar = () => {
   const componentName = "thanks-webniar";
-
   const highlightedForm = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
     document.getElementById("form-page").classList.add("highlighted");
     setTimeout(() => {
       document.getElementById("form-page").classList.remove("highlighted");
