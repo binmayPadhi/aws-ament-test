@@ -24,6 +24,7 @@ function App() {
       <Router forceRefresh={true}>
         {url != "/webinar-reshaping-the-retail-industry-through-AI" &&
         url != "/thanks-webinar" &&
+        url != "/video-webinar" &&
         url != "/swiftinisghts-Webinar" ? (
           <div>
             <Navbar />
@@ -60,6 +61,7 @@ function App() {
         </div>
         {url != "/webinar-reshaping-the-retail-industry-through-AI" &&
         url != "/thanks-webinar" &&
+        url != "/video-webinar" &&
         url != "/swiftinisghts-Webinar" ? (
           <div>
             <Footer />

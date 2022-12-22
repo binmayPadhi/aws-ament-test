@@ -2,9 +2,10 @@ import React from "react";
 import "../../CSS/webinar.css";
 import { useState } from "react";
 import emailjs from "emailjs-com";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 const Webinarform = ({ getSuccessResponse }) => {
+  let history = useHistory();
   const [registerDetails, setregisterDetails] = useState({
     fName: "",
     lName: "",
@@ -24,6 +25,10 @@ const Webinarform = ({ getSuccessResponse }) => {
       };
     });
   };
+
+  // const redirect = () => {
+  //   <Redirect to="/video-webinar" />;
+  // };
 
   const submitregisterDetails = (e) => {
     e.preventDefault();
@@ -46,7 +51,6 @@ const Webinarform = ({ getSuccessResponse }) => {
         .then(
           console.log("mail sent"),
           localStorage.setItem("cookie", 4),
-          getSuccessResponse(true),
           setregisterDetails({
             fName: "",
             lName: "",
@@ -55,6 +59,7 @@ const Webinarform = ({ getSuccessResponse }) => {
             jobTitle: "",
             acceptCheckbox: false,
           }),
+          history.push(`/video-webinar`),
           (error) => {
             console.log(error.text);
           }

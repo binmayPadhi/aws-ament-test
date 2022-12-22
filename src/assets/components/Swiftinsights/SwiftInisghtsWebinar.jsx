@@ -122,9 +122,9 @@ const SwiftInisghtsWebinar = () => {
                 </div>
                 <div className="col-lg-1 col-md-1 col-sm-12 col-xs-12 text-center ">
                   <p className="border-2 swiftinsights-ai-desktop"></p>
-                  <div class="w-100 mt-3 swiftinsights-ai-mobile">
-                    <div class="w-50">
-                      <div class="border-bottom-webinar"></div>
+                  <div className="w-100 mt-3 swiftinsights-ai-mobile">
+                    <div className="w-50">
+                      <div className="border-bottom-webinar"></div>
                     </div>
                   </div>
                 </div>

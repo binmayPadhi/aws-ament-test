@@ -3,7 +3,6 @@ import "../../CSS/webinar.css";
 import companyIcon from "../../images/Webinar-images/AD-Logo-Full-Green.png";
 
 const Headercontent = (props) => {
-  console.log(props);
   return (
     <>
       <div className="webinar_main_img">

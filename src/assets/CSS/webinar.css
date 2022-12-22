@@ -434,6 +434,12 @@ ul {
   background-color: #ecac27;
   color: #ffffff;
 }
+.highlighted {
+  border: 2px solid #000000;
+}
+.unhighlighted {
+  border: 0px solid #000000;
+}
 @media (max-width: 500px) {
   .reverse-columns-mobile {
     flex-direction: column-reverse;

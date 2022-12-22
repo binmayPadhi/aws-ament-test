@@ -37,7 +37,7 @@ const Videowebinar = () => {
               <p className="mb-0 text-white fs-14 font-weight-bold w-100">
                 Let's get started
                 <i
-                  class="fa fa-long-arrow-right text-white fs-16 pl-2"
+                  className="fa fa-long-arrow-right text-white fs-16 pl-2"
                   aria-hidden="true"
                 ></i>
               </p>
