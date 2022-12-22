@@ -12,13 +12,13 @@ const Webinarexperts = () => {
           <div className="learn-title">
             <p>Learn from Industry Experts</p>
           </div>
-          <div className="learn-content">
+          {/* <div className="learn-content">
             <p className="lh-22 fs-18">
               Epic webinar to learn about “Reshaping the Retail Industry through
               Artificial Intelligence” <br /> and participate in Q&A session at
               the end of the webinar to take out the guesswork.
             </p>
-          </div>
+          </div> */}
         </div>
         <div className="row center-95">
           <div className="col-sm-12 col-xs-12 col-md-4 col-lg-4">
