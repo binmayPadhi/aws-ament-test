@@ -4,8 +4,18 @@ import Webinarform from "./Webinarform";
 import Webinarexperts from "./Webinarexperts";
 import Webinarfooter from "./Webinarfooter";
 import "../../CSS/webinar.css";
+import { useState, useEffect } from "react";
 
 const Thankswebinar = () => {
+  const [width, setWidth] = useState(window.innerWidth);
+  const updateDimensions = () => {
+    setWidth(window.innerWidth);
+  };
+  useEffect(() => {
+    window.addEventListener("resize", updateDimensions);
+    return () => window.removeEventListener("resize", updateDimensions);
+  }, []);
+
   const componentName = "thanks-webniar";
   const highlightedForm = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -71,12 +81,14 @@ const Thankswebinar = () => {
             </p>
           </div>
           <div className="col-sm-12 col-xs-12 col-md-4 col-lg-4">
-            <div className="card center-98 mt-n6" id="form-page">
-              <div className="card-header fs-24 font-weight-bold text-center clr-blue py-5">
-                WATCH THE WEBINAR
-              </div>
-              <div className="card-body">
-                <Webinarform />
+            <div className={width > 1000 ? "mt-n6" : ""}>
+              <div className="card center-98" id="form-page">
+                <div className="card-header fs-24 font-weight-bold text-center clr-blue py-5">
+                  WATCH THE WEBINAR
+                </div>
+                <div className="card-body">
+                  <Webinarform />
+                </div>
               </div>
             </div>
           </div>

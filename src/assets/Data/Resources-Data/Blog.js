@@ -28,13 +28,8 @@ const blog = [
         id: 5,
         title: "Constructive Logistics and Supply Chain",
         description: "AI also has the caliber to streamline your in-store supply chain. For instance, this technology can analyze the purchasing patterns of your previous clients and notify you in advance when you will run out of specific products. This is important since clients may choose a different business if they don't feel certain that you'll always have the products they require. And that means you'll lose sales, which will hurt your bottom line.AI can also forecast when a particular product will be in more demand throughout the year. As a result, you can start stocking up now rather than rushing to secure and display these popular seasonal items when clients start asking about them.",
-        image1: webniarPage
-    },
-    {
-        id: 6,
-        path: "",
-        description: "",
-    },
+        description2: "VIEW THE WEBINAR"
+    },    
     {
         id: 6,
         title: "Personalization, Customer Understanding, and Recommendation System",
