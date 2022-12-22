@@ -1,42 +1,13 @@
 import React from "react";
 import "../../CSS/webinar.css";
-import companyIcon from "../../images/Webinar-images/AD-Logo-Full-Green.png";
 import Webinarfooter from "./Webinarfooter";
 import Webinarexperts from "./Webinarexperts";
+import Headercontent from "./Headercontent";
 
 const Webinars = () => {
   return (
     <>
-      <div className="webinar_main_img">
-        <div className="w-100 d-flex pt-5-rem">
-          <img
-            loading="lazy"
-            src={companyIcon}
-            className="w-350 mx-auto"
-            alt="company_logo"
-          />
-        </div>
-        <div className="container pb-3">
-          <div className="row">
-            <div className="col-sm-12 col-xs-12 col-md-12 col-lg-12 mt-10-rem">
-              <div className="row mt-2 mb-5">
-                {/* left-side-block */}
-                <div className="col-12">
-                  <p className="main_heading">
-                    Reshaping the Retail Industry through Advanced Analytics and
-                    AI!
-                  </p>
-                  <p className="timing_webniar mt-3-rem">
-                    11:30 AM - 12:15 PM EST, Thursday
-                  </p>
-                  <p className="timing_webniar">November 17, 2022</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <Headercontent />
       {/* Main Content Body */}
       <div
         className=" row center-95

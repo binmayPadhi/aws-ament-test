@@ -57,6 +57,10 @@
   margin-top: 10rem;
 }
 
+.mb-10-rem {
+  margin-bottom: 10rem;
+}
+
 .mt-5-rem {
   margin-top: 5rem !important;
 }
@@ -99,9 +103,13 @@
 }
 
 .main_heading {
-  font-size: 38px;
+  font-size: 37px;
   color: #fff;
   line-height: 1.25;
+}
+
+.fs-30 {
+  font-size: 30px;
 }
 
 .timing_webniar {
@@ -164,15 +172,24 @@ input {
   color: #000000;
 }
 
+.center-98 {
+  width: 98%;
+  margin: auto;
+}
+
+.mt-n6 {
+  margin-top: -7rem;
+}
+
 .submit-button {
   background-color: #1dad8f;
   color: #fff !important;
   border: 1px solid #1dad8f;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 1px;
+  border-radius: 10px;
   font-size: 18px;
   text-align: center;
-  line-height: 10px;
+  line-height: 3px;
   font-weight: bold;
 }
 
@@ -194,6 +211,10 @@ input {
 
 .fs-16 {
   font-size: 16px;
+}
+
+.fs-14 {
+  font-size: 14px;
 }
 
 .fs-24 {
@@ -236,7 +257,7 @@ ul {
 .ul-keys li:before {
   content: "✓";
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .li-para {
@@ -323,12 +344,25 @@ ul {
   margin: auto;
 }
 
+.center-90 {
+  width: 90%;
+  margin: auto;
+}
+
 .lh-1-25 {
   line-height: 1.25;
 }
 
 .fs-10 {
   font-size: 10px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-16 {
+  font-size: 16px;
 }
 
 .w-200 {
@@ -384,6 +418,21 @@ ul {
   width: 15px;
   position: absolute;
   right: 18px;
+}
+.btn-color {
+  color: #ffffff;
+  background-color: #ecac27;
+}
+.clr-blue {
+  color: #9124f7;
+}
+.bg-left {
+  background-color: #1dad8f;
+  color: #ffffff;
+}
+.bg-right {
+  background-color: #ecac27;
+  color: #ffffff;
 }
 @media (max-width: 500px) {
   .reverse-columns-mobile {
