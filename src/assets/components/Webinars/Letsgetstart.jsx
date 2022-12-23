@@ -245,14 +245,16 @@ const Letsgetstart = () => {
                 </p>
               </div>
               <div className="row ml-0 mr-0 mt-3-rem mb-3-rem">
-                <div className="col-12 text-center">
+                <div className="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
+                <div className="col-lg-4 col-md-4 col-sm-6 col-xs-6 text-center">
                   <button
-                    className="submit-button cr-pointer w-25"
+                    className="submit-button cr-pointer d-table font-weight-normal w-100"
                     type="submit"
                   >
                     Let's Talk
                   </button>
                 </div>
+                <div className="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
               </div>
             </form>
           </div>
