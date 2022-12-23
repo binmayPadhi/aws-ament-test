@@ -24,7 +24,7 @@ const Webinarfooter = () => {
               </div>
               <div className="col-sm-12 col-xs-12 col-md-6 col-lg-6">
                 <div className="social-media w-100 d-flex justify-content-center">
-                  <div className="px-3 w-20">
+                  <div>
                     <a
                       href=" https://www.linkedin.com/company/amnet-digital"
                       target="_blank"
@@ -32,12 +32,12 @@ const Webinarfooter = () => {
                       <img
                         loading="lazy"
                         src={linkedin}
-                        className="w-15 mx-auto"
+                        className="h-15 mx-auto"
                         alt="company_logo"
                       />
                     </a>
                   </div>
-                  <div className="px-3 w-20">
+                  <div className="pl-5">
                     <a
                       href="https://www.facebook.com/amnetdigital"
                       target="_blank"
@@ -45,22 +45,22 @@ const Webinarfooter = () => {
                       <img
                         loading="lazy"
                         src={facebook}
-                        className="w-15 mx-auto"
+                        className="h-15 mx-auto"
                         alt="company_logo"
                       />
                     </a>
                   </div>
-                  <div className="px-3 w-20">
+                  <div className="px-5">
                     <a href=" https://twitter.com/DigitalAmnet" target="_blank">
                       <img
                         loading="lazy"
                         src={twitter}
-                        className="w-15 mx-auto"
+                        className="h-15 mx-auto"
                         alt="company_logo"
                       />
                     </a>
                   </div>
-                  <div className="px-3 w-20">
+                  <div>
                     <a
                       href="https://www.instagram.com/amnetdigital"
                       target="_blank"
@@ -68,7 +68,7 @@ const Webinarfooter = () => {
                       <img
                         loading="lazy"
                         src={instagram}
-                        className="w-15 mx-auto"
+                        className="h-15 mx-auto"
                         alt="company_logo"
                       />
                     </a>

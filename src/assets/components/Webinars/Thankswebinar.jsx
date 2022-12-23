@@ -5,9 +5,11 @@ import Webinarexperts from "./Webinarexperts";
 import Webinarfooter from "./Webinarfooter";
 import "../../CSS/webinar.css";
 import { useState, useEffect } from "react";
+import Letsgetstart from "./Letsgetstart";
 
 const Thankswebinar = () => {
   const [width, setWidth] = useState(window.innerWidth);
+  const [focusInput, setFocusinput] = useState(false);
   const updateDimensions = () => {
     setWidth(window.innerWidth);
   };
@@ -19,10 +21,7 @@ const Thankswebinar = () => {
   const componentName = "thanks-webniar";
   const highlightedForm = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
-    document.getElementById("form-page").classList.add("highlighted");
-    setTimeout(() => {
-      document.getElementById("form-page").classList.remove("highlighted");
-    }, 60000);
+    setFocusinput(true);
   };
   return (
     <>
@@ -87,7 +86,7 @@ const Thankswebinar = () => {
                   WATCH THE WEBINAR
                 </div>
                 <div className="card-body">
-                  <Webinarform />
+                  <Webinarform mouseFocus={focusInput} />
                 </div>
               </div>
             </div>
@@ -98,31 +97,9 @@ const Thankswebinar = () => {
       <div className="mt-3-rem">
         <Webinarexperts />
       </div>
-      <div className="mt-3-rem mb-3-rem">
-        <div className="row">
-          <div className="col-9 bg-left py-3">
-            <div className="center-98">
-              <p className="mb-0 text-white fs-14 font-weight-bold">
-                Do you want your AI & Data Analytics investment to bring
-                meaningful results with real ROI?
-              </p>
-              <p className="mb-0 text-white fs-14 font-weight-bold">
-                Schedule your FREE consulation now!
-              </p>
-            </div>
-          </div>
-          <div className="col-3 bg-right py-3 d-flex w-100">
-            <div className="center-98">
-              <p className="mb-0 text-white fs-14 font-weight-bold w-100">
-                Let's get started
-                <i
-                  className="fa fa-long-arrow-right text-white fs-16 pl-2"
-                  aria-hidden="true"
-                ></i>
-              </p>
-            </div>
-          </div>
-        </div>
+      {/** let gets started */}
+      <div className="mt-5-rem mb-5-rem">
+        <Letsgetstart />
       </div>
       {/* Footer */}
       <Webinarfooter />

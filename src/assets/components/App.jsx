@@ -11,9 +11,7 @@ import Footer from "./Footer";
 import AIML from "./SubServices/AIML";
 import Insight from "./Resources/Insight";
 import CookiesPolicy from "../components/CookiesPolicy";
-import Webinars from "./Webinars/Webinars";
 import Privacypolicy from "./Privacypolicy/Privacypolicy";
-import SwiftInisghtsWebinar from "./Swiftinsights/SwiftInisghtsWebinar";
 import Thankswebinar from "./Webinars/Thankswebinar";
 import Videowebinar from "./Webinars/Videowebinar";
 
@@ -23,8 +21,7 @@ function App() {
     <>
       <Router forceRefresh={true}>
         {url != "/webinar-reshaping-the-retail-industry-through-AI" &&
-        url != "/thanks-webinar" &&
-        url != "/video-webinar" &&
+        url != "/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
         url != "/swiftinisghts-Webinar" ? (
           <div>
             <Navbar />
@@ -32,11 +29,11 @@ function App() {
         ) : null}
         <div>
           <Switch>
-            <Route
+            {/* <Route
               exact
               path="/webinar-reshaping-the-retail-industry-through-AI"
               component={Webinars}
-            />
+            /> */}
             <Route exact path="/" component={Homepage} />
             <Route path="/contactus" component={ContactUs} />
             <Route path="/aboutus" component={AboutUs} />
@@ -47,21 +44,26 @@ function App() {
               path="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
               component={Insight}
             />
-            <Route
+            {/* <Route
               exact
               path="/swiftinisghts-Webinar"
               component={SwiftInisghtsWebinar}
-            />
+            /> */}
             <Route path="/cookiespolicy" component={CookiesPolicy} />
             <Route path="/privacypolicy" component={Privacypolicy} />
-            <Route path="/thanks-webinar" component={Thankswebinar} />
-            <Route path="/video-webinar" component={Videowebinar} />
+            <Route
+              path="/webinar-reshaping-the-retail-industry-through-AI"
+              component={Thankswebinar}
+            />
+            <Route
+              path="/webinar-thank-you-reshaping-the-retail-industry-through-AI"
+              component={Videowebinar}
+            />
             <Route path="/:id" component={AIML} />
           </Switch>
         </div>
         {url != "/webinar-reshaping-the-retail-industry-through-AI" &&
-        url != "/thanks-webinar" &&
-        url != "/video-webinar" &&
+        url != "/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
         url != "/swiftinisghts-Webinar" ? (
           <div>
             <Footer />

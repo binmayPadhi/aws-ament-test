@@ -1,10 +1,15 @@
 import React from "react";
 import "../../CSS/webinar.css";
 import { useState } from "react";
+import { useRef } from "react";
 import emailjs from "emailjs-com";
 import { Link, useHistory } from "react-router-dom";
 
-const Webinarform = ({ getSuccessResponse }) => {
+const Webinarform = (props) => {
+  const input1 = useRef(null);
+  if (props.mouseFocus === true) {
+    input1.current.focus();
+  }
   let history = useHistory();
   const [registerDetails, setregisterDetails] = useState({
     fName: "",
@@ -27,7 +32,7 @@ const Webinarform = ({ getSuccessResponse }) => {
   };
 
   // const redirect = () => {
-  //   <Redirect to="/video-webinar" />;
+  //   <Redirect to="/webinar-thank-you-reshaping-the-retail-industry-through-AI " />;
   // };
 
   const submitregisterDetails = (e) => {
@@ -59,7 +64,9 @@ const Webinarform = ({ getSuccessResponse }) => {
             jobTitle: "",
             acceptCheckbox: false,
           }),
-          history.push(`/video-webinar`),
+          history.push(
+            `/webinar-thank-you-reshaping-the-retail-industry-through-AI`
+          ),
           (error) => {
             console.log(error.text);
           }
@@ -79,6 +86,7 @@ const Webinarform = ({ getSuccessResponse }) => {
             <label>
               First Name<span className="req">*</span>
               <input
+                ref={input1}
                 className="w-100 pl-1"
                 type="text"
                 name="fName"
