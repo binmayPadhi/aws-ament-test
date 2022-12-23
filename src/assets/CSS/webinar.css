@@ -8,6 +8,10 @@
   width: 5%;
 }
 
+.h-15 {
+  height: 15px;
+}
+
 .w-95 {
   width: 95%;
 }
@@ -422,15 +426,17 @@ ul {
 .btn-color {
   color: #ffffff;
   background-color: #ecac27;
+  box-shadow: 3px 6px 16px #00000029;
 }
 .clr-blue {
-  color: #9124f7;
+  color: #412881;
 }
 .bg-left {
   background-color: #1dad8f;
   color: #ffffff;
 }
 .bg-right {
+  cursor: pointer;
   background-color: #ecac27;
   color: #ffffff;
 }
@@ -439,6 +445,26 @@ ul {
 }
 .unhighlighted {
   border: 0px solid #000000;
+}
+.h-120 {
+  height: 120px;
+}
+.my-modal {
+  width: 90vw; /* Occupy the 90% of the screen width */
+  max-width: 90vw;
+}
+
+.w-2 {
+  width: 2%;
+}
+
+.checkMark1 {
+  font-size: 0px;
+  height: 20px;
+  width: 20px !important;
+  border-color: #1dad8f !important;
+  box-shadow: none;
+  background: none;
 }
 @media (max-width: 500px) {
   .reverse-columns-mobile {
