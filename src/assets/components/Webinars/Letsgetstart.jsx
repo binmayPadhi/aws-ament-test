@@ -106,14 +106,20 @@ const Letsgetstart = () => {
         keyboard={false}
         dialogClassName="my-modal"
       >
-        {/* <Modal.Header closeButton>
-          <Modal.Title>Modal title</Modal.Title>
-        </Modal.Header> */}
+        <Modal.Header closeButton>
+          <Modal.Title className="mx-auto">
+            <div className="px-2">
+              <p className="mt-3-rem mb-3-rem fs-20 text-dark text-center font-weight-bold">
+                Let's connect to get started
+              </p>
+            </div>
+          </Modal.Title>
+        </Modal.Header>
         <Modal.Body>
           <div className="px-2">
-            <p className="mt-3-rem mb-3-rem fs-20 text-dark text-center font-weight-bold">
+            {/* <p className="mt-3-rem mb-3-rem fs-20 text-dark text-center font-weight-bold">
               Let's connect to get started
-            </p>
+            </p> */}
             <form
               name="webinarRegisterForm"
               action="#"
