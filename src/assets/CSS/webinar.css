@@ -437,7 +437,7 @@ ul {
 }
 .bg-right {
   cursor: pointer;
-  background-color: #ecac27;
+  background-color: #f79424;
   color: #ffffff;
 }
 .highlighted {
@@ -470,4 +470,17 @@ ul {
   .reverse-columns-mobile {
     flex-direction: column-reverse;
   }
+}
+
+.btn-close {
+  box-sizing: content-box;
+  width: 10em;
+  height: 10em;
+  padding: 0.25em;
+  color: #000;
+  background-image: url("../images/Webinar-images/close_img.jpg");
+  border: 0;
+  border-radius: 0.375rem;
+  opacity: 0.5;
+  background-size: cover;
 }
