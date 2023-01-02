@@ -454,6 +454,16 @@ ul {
   max-width: 90vw;
 }
 
+.my-modal .modal-content {
+  height: 95vh;
+}
+
+.exactCenter {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+
 .w-2 {
   width: 2%;
 }
