@@ -9,6 +9,7 @@ const Letsgetstart = () => {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  const [showSuccessmsg, setSuccessmsg] = useState(false);
 
   const [registerDetails, setregisterDetails] = useState({
     fName: "",
@@ -52,6 +53,7 @@ const Letsgetstart = () => {
         .then(
           console.log("mail sent"),
           localStorage.setItem("cookie", 4),
+          setSuccessmsg(true),
           setregisterDetails({
             fName: "",
             lName: "",
@@ -106,165 +108,180 @@ const Letsgetstart = () => {
         keyboard={false}
         dialogClassName="my-modal"
       >
-        <Modal.Header closeButton>
-          <Modal.Title className="mx-auto">
-            <div className="px-2">
-              <p className="mt-3-rem mb-3-rem fs-20 text-dark text-center font-weight-bold">
-                Let's connect to get started
-              </p>
-            </div>
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <div className="px-2">
-            {/* <p className="mt-3-rem mb-3-rem fs-20 text-dark text-center font-weight-bold">
-              Let's connect to get started
-            </p> */}
-            <form
-              name="webinarRegisterForm"
-              action="#"
-              method="post"
-              onSubmit={submitregisterDetails}
-            >
-              <div className="row mb-3-rem">
-                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <label>
-                    First Name<span className="req">*</span>
-                    <input
-                      className="w-100 pl-1"
-                      type="text"
-                      name="fName"
-                      onChange={handleChange}
-                      value={registerDetails.fName}
-                      style={{ backgroundColor: "rgb(245 238 245)" }}
-                      required
-                    />
-                  </label>
+        {showSuccessmsg === false ? (
+          <>
+            <Modal.Header closeButton>
+              <Modal.Title className="mx-auto">
+                <div className="px-2">
+                  <p className="mt-3-rem mb-3-rem fs-20 text-dark text-center font-weight-bold">
+                    Let's connect to get started
+                  </p>
                 </div>
-                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <label>
-                    Last Name<span className="req">*</span>
-                    <input
-                      type="text"
-                      className="w-100 pl-1"
-                      name="lName"
-                      onChange={handleChange}
-                      value={registerDetails.lName}
-                      style={{ backgroundColor: "rgb(245 238 245)" }}
-                      required
-                    />
-                  </label>
-                </div>
-              </div>
-              <div className="row mb-3-rem">
-                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <label>
-                    Email<span className="req">*</span>
-                    <input
-                      className="w-100 pl-1"
-                      type="email"
-                      name="email"
-                      onChange={handleChange}
-                      value={registerDetails.email}
-                      style={{ backgroundColor: "rgb(245 238 245)" }}
-                      required
-                    />
-                  </label>
-                </div>
-                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <label>
-                    Company<span className="req">*</span>
-                    <input
-                      type="text"
-                      className="w-100 pl-1"
-                      name="cName"
-                      onChange={handleChange}
-                      value={registerDetails.cName}
-                      style={{ backgroundColor: "rgb(245 238 245)" }}
-                      required
-                    />
-                  </label>
-                </div>
-              </div>
-              <div className="row mb-3-rem">
-                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <label>
-                    Job Title
-                    <input
-                      className="w-100 pl-1"
-                      type="text"
-                      name="jobTitle"
-                      onChange={handleChange}
-                      value={registerDetails.jobTitle}
-                      style={{ backgroundColor: "rgb(245 238 245)" }}
-                    />
-                  </label>
-                </div>
-                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <label>
-                    Phone Number
-                    <input
-                      type="text"
-                      className="w-100 pl-1"
-                      name="pNumber"
-                      onChange={handleChange}
-                      value={registerDetails.pNumber}
-                      style={{ backgroundColor: "rgb(245 238 245)" }}
-                      required
-                    />
-                  </label>
-                </div>
-              </div>
-              <div className="w-100 d-flex mt-2-rem">
-                <div className="w-100 d-flex align-item-center pl-4">
-                  <input
-                    className="checkMark1"
-                    type="checkbox"
-                    name="acceptCheckbox"
-                    onChange={handleChange}
-                    checked={registerDetails.acceptCheckbox}
-                    value={registerDetails.acceptCheckbox}
-                    required
-                  ></input>
-                  <span className="lh-1-25 fs-10 pl-2">
-                    I agree to Amnet Digital sending me relevant invitations,
-                    product offers, blogs, news, and other marketing
-                    information.
-                  </span>
-                </div>
-              </div>
-              <div className="row mt-2-rem">
-                <p className="col-12 para-form d-flex">
-                  <span className="ml-4 lh-1-25 fs-10">
-                    By Submitting the form, you agree to us saving and
-                    processing your information according to our
-                    <span className="fs-10 d-line-block">
-                      <Link
-                        to={`/Privacypolicy`}
-                        className="fs-10 d-line-block pl-1"
-                        target="_blank"
+              </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              <div className="px-2">
+                <form
+                  name="webinarRegisterForm"
+                  action="#"
+                  method="post"
+                  onSubmit={submitregisterDetails}
+                >
+                  <div className="row mb-3-rem">
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <label>
+                        First Name<span className="req">*</span>
+                        <input
+                          className="w-100 pl-1"
+                          type="text"
+                          name="fName"
+                          onChange={handleChange}
+                          value={registerDetails.fName}
+                          style={{ backgroundColor: "rgb(245 238 245)" }}
+                          required
+                        />
+                      </label>
+                    </div>
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <label>
+                        Last Name<span className="req">*</span>
+                        <input
+                          type="text"
+                          className="w-100 pl-1"
+                          name="lName"
+                          onChange={handleChange}
+                          value={registerDetails.lName}
+                          style={{ backgroundColor: "rgb(245 238 245)" }}
+                          required
+                        />
+                      </label>
+                    </div>
+                  </div>
+                  <div className="row mb-3-rem">
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <label>
+                        Email<span className="req">*</span>
+                        <input
+                          className="w-100 pl-1"
+                          type="email"
+                          name="email"
+                          onChange={handleChange}
+                          value={registerDetails.email}
+                          style={{ backgroundColor: "rgb(245 238 245)" }}
+                          required
+                        />
+                      </label>
+                    </div>
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <label>
+                        Company<span className="req">*</span>
+                        <input
+                          type="text"
+                          className="w-100 pl-1"
+                          name="cName"
+                          onChange={handleChange}
+                          value={registerDetails.cName}
+                          style={{ backgroundColor: "rgb(245 238 245)" }}
+                          required
+                        />
+                      </label>
+                    </div>
+                  </div>
+                  <div className="row mb-3-rem">
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <label>
+                        Job Title
+                        <input
+                          className="w-100 pl-1"
+                          type="text"
+                          name="jobTitle"
+                          onChange={handleChange}
+                          value={registerDetails.jobTitle}
+                          style={{ backgroundColor: "rgb(245 238 245)" }}
+                        />
+                      </label>
+                    </div>
+                    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <label>
+                        Phone Number
+                        <input
+                          type="text"
+                          className="w-100 pl-1"
+                          name="pNumber"
+                          onChange={handleChange}
+                          value={registerDetails.pNumber}
+                          style={{ backgroundColor: "rgb(245 238 245)" }}
+                          required
+                        />
+                      </label>
+                    </div>
+                  </div>
+                  <div className="w-100 d-flex mt-2-rem">
+                    <div className="w-100 d-flex align-item-center pl-4">
+                      <input
+                        className="checkMark1"
+                        type="checkbox"
+                        name="acceptCheckbox"
+                        onChange={handleChange}
+                        checked={registerDetails.acceptCheckbox}
+                        value={registerDetails.acceptCheckbox}
+                        required
+                      ></input>
+                      <span className="lh-1-25 fs-10 pl-2">
+                        I agree to Amnet Digital sending me relevant
+                        invitations, product offers, blogs, news, and other
+                        marketing information.
+                      </span>
+                    </div>
+                  </div>
+                  <div className="row mt-2-rem">
+                    <p className="col-12 para-form d-flex">
+                      <span className="ml-4 lh-1-25 fs-10">
+                        By Submitting the form, you agree to us saving and
+                        processing your information according to our
+                        <span className="fs-10 d-line-block">
+                          <Link
+                            to={`/Privacypolicy`}
+                            className="fs-10 d-line-block pl-1"
+                            target="_blank"
+                          >
+                            Privacy Policy
+                          </Link>
+                        </span>
+                      </span>
+                    </p>
+                  </div>
+                  <div className="row ml-0 mr-0 mt-3-rem mb-3-rem">
+                    <div className="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
+                    <div className="col-lg-4 col-md-4 col-sm-6 col-xs-6 text-center">
+                      <button
+                        className="submit-button cr-pointer d-table font-weight-normal w-100"
+                        type="submit"
                       >
-                        Privacy Policy
-                      </Link>
-                    </span>
-                  </span>
+                        Let's Talk
+                      </button>
+                    </div>
+                    <div className="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
+                  </div>
+                </form>
+              </div>
+            </Modal.Body>
+          </>
+        ) : (
+          <>
+            <Modal.Header closeButton>
+              <Modal.Title className="mx-auto"></Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              <div className="exactCenter">
+                <p className="text-dark font-weight-bold fs-24">
+                  Thank you for your interest, we will get touch with you within
+                  24 hours
                 </p>
               </div>
-              <div className="row ml-0 mr-0 mt-3-rem mb-3-rem">
-                <div className="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
-                <div className="col-lg-4 col-md-4 col-sm-6 col-xs-6 text-center">
-                  <button
-                    className="submit-button cr-pointer d-table font-weight-normal w-100"
-                    type="submit"
-                  >
-                    Let's Talk
-                  </button>
-                </div>
-                <div className="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
-              </div>
-            </form>
-          </div>
-        </Modal.Body>
+            </Modal.Body>
+          </>
+        )}
       </Modal>
     </>
   );
