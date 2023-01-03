@@ -7,9 +7,12 @@ import emailjs from "emailjs-com";
 
 const Letsgetstart = () => {
   const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
   const [showSuccessmsg, setSuccessmsg] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => {
+    setSuccessmsg(false);
+    setShow(true);
+  };
 
   const [registerDetails, setregisterDetails] = useState({
     fName: "",
