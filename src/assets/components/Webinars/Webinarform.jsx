@@ -34,6 +34,7 @@ const Webinarform = (props) => {
   // const redirect = () => {
   //   <Redirect to="/webinar-thank-you-reshaping-the-retail-industry-through-AI " />;
   // };
+  // "template_3xhvl04",
 
   const submitregisterDetails = (e) => {
     e.preventDefault();
@@ -49,7 +50,7 @@ const Webinarform = (props) => {
       return emailjs
         .sendForm(
           "service_h4akrmg",
-          "template_3xhvl04",
+          "template_h0xkqot",
           e.target,
           "yz7dQlM6o3Rz3cnB8"
         )

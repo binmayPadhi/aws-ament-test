@@ -17,7 +17,7 @@ const Letsgetstart = () => {
     email: "",
     cName: "",
     jobTitle: "",
-    pNumber: "",
+    phoneNumber: "",
     acceptCheckbox: false,
   });
 
@@ -37,16 +37,19 @@ const Letsgetstart = () => {
     const aplhabetPattern = /^(?! )[A-Za-z ]*(?<! )$/;
     const emailpattern =
       /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+    const phonenumberPattern =
+      /^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$/i;
     if (
       aplhabetPattern.test(registerDetails.fName) &&
       aplhabetPattern.test(registerDetails.lName) &&
       emailpattern.test(registerDetails.email) &&
-      aplhabetPattern.test(registerDetails.cName)
+      aplhabetPattern.test(registerDetails.cName) &&
+      phonenumberPattern.test(registerDetails.phoneNumber)
     ) {
       return emailjs
         .sendForm(
           "service_h4akrmg",
-          "template_3xhvl04",
+          "template_at4mwq8",
           e.target,
           "yz7dQlM6o3Rz3cnB8"
         )
@@ -60,7 +63,7 @@ const Letsgetstart = () => {
             email: "",
             cName: "",
             jobTitle: "",
-            pNumber: "",
+            phoneNumber: "",
             acceptCheckbox: false,
           }),
           (error) => {
@@ -206,10 +209,12 @@ const Letsgetstart = () => {
                         Phone Number
                         <input
                           type="text"
+                          pattern="[6789][0-9]{9}"
+                          title="Please enter valid phone number"
                           className="w-100 pl-1"
-                          name="pNumber"
+                          name="phoneNumber"
                           onChange={handleChange}
-                          value={registerDetails.pNumber}
+                          value={registerDetails.phoneNumber}
                           style={{ backgroundColor: "rgb(245 238 245)" }}
                           required
                         />
