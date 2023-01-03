@@ -454,8 +454,17 @@ ul {
   max-width: 90vw;
 }
 
+.my-modal-form {
+  width: 90vw; /* Occupy the 90% of the screen width */
+  max-width: 90vw;
+}
+
 .my-modal .modal-content {
   height: 95vh;
+}
+
+.my-modal-form .modal-content {
+  height: auto;
 }
 
 .exactCenter {

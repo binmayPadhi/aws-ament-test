@@ -112,7 +112,7 @@ const Letsgetstart = () => {
         onHide={handleClose}
         backdrop="static"
         keyboard={false}
-        dialogClassName="my-modal"
+        dialogClassName="my-modal-form"
       >
         {showSuccessmsg === false ? (
           <>
