@@ -1,8 +1,25 @@
 import React from "react";
 import blogImg from "../../images/Resources-page/blog-amnet.jpg";
 import Blog from "../../Data/Resources-Data/Blog";
+import { useHistory } from "react-router-dom";
 
 const Insight = () => {
+  let history = useHistory();
+  const btnColor = {
+    color: "#ffffff",
+    backgroundColor: "#ecac27",
+    paddingTop: "10px",
+    paddingBottom: "10px",
+    paddingLeft: "10px",
+    paddingRight: "10px",
+    display: "table",
+    fontWeight: "bold",
+    cursor: "pointer",
+  };
+
+  const navigateTothankspage = () => {
+    history.push(`/webinar-reshaping-the-retail-industry-through-AI`);
+  };
   return (
     <>
       <div className="contact-us-intro container-fluid"></div>
@@ -37,11 +54,30 @@ const Insight = () => {
                       <h2>{list.title}</h2>
                       <p>{list.description}</p>
                       <p>{list.description1}</p>
+                      {list.hasOwnProperty("description2") === true ? (
+                        <p
+                          style={btnColor}
+                          className="mb-0 mt-2 mx-auto fs-18"
+                          onClick={navigateTothankspage}
+                        >
+                          {list.description2}
+                        </p>
+                      ) : (
+                        ""
+                      )}
                     </div>
                   </div>
                 );
               })}
             </div>
+
+            <p
+              style={btnColor}
+              className="mb-0 mt-2 mx-auto fs-18"
+              onClick={navigateTothankspage}
+            >
+              VIEW THE WEBINAR
+            </p>
           </div>
         </div>
       </div>

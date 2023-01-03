@@ -1,0 +1,33 @@
+import React from "react";
+import Headercontent from "./Headercontent";
+import Webinarfooter from "./Webinarfooter";
+import "../../CSS/webinar.css";
+import Letsgetstart from "./Letsgetstart";
+
+const Videowebinar = () => {
+  const componentName = "video-webniar";
+  const videoUrl = "https://youtube.com/embed/4tgDYmCh6lc";
+  return (
+    <>
+      <Headercontent componentfrom={componentName} />
+      <div className="row mt-3-rem mb-3-rem">
+        <div className="col-12 text-center fs-24 font-weight-bold text-dark">
+          Watch the webinar here
+        </div>
+      </div>
+      <div className="row mt-3-rem mb-3-rem">
+        <div className="col-12 text-center fs-24 font-weight-bold text-dark">
+          <iframe width="1000" height="500" src={videoUrl}></iframe>
+        </div>
+      </div>
+      {/** let gets started */}
+      <div className="mt-5-rem mb-5-rem">
+        <Letsgetstart />
+      </div>
+      {/* Footer */}
+      <Webinarfooter />
+    </>
+  );
+};
+
+export default Videowebinar;

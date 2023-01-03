@@ -8,6 +8,10 @@
   width: 5%;
 }
 
+.h-15 {
+  height: 15px;
+}
+
 .w-95 {
   width: 95%;
 }
@@ -57,6 +61,10 @@
   margin-top: 10rem;
 }
 
+.mb-10-rem {
+  margin-bottom: 10rem;
+}
+
 .mt-5-rem {
   margin-top: 5rem !important;
 }
@@ -99,9 +107,13 @@
 }
 
 .main_heading {
-  font-size: 38px;
+  font-size: 37px;
   color: #fff;
   line-height: 1.25;
+}
+
+.fs-30 {
+  font-size: 30px;
 }
 
 .timing_webniar {
@@ -164,15 +176,24 @@ input {
   color: #000000;
 }
 
+.center-98 {
+  width: 98%;
+  margin: auto;
+}
+
+.mt-n6 {
+  margin-top: -7rem;
+}
+
 .submit-button {
   background-color: #1dad8f;
   color: #fff !important;
   border: 1px solid #1dad8f;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 1px;
+  border-radius: 10px;
   font-size: 18px;
   text-align: center;
-  line-height: 10px;
+  line-height: 3px;
   font-weight: bold;
 }
 
@@ -194,6 +215,10 @@ input {
 
 .fs-16 {
   font-size: 16px;
+}
+
+.fs-14 {
+  font-size: 14px;
 }
 
 .fs-24 {
@@ -236,7 +261,7 @@ ul {
 .ul-keys li:before {
   content: "✓";
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .li-para {
@@ -323,12 +348,25 @@ ul {
   margin: auto;
 }
 
+.center-90 {
+  width: 90%;
+  margin: auto;
+}
+
 .lh-1-25 {
   line-height: 1.25;
 }
 
 .fs-10 {
   font-size: 10px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-16 {
+  font-size: 16px;
 }
 
 .w-200 {
@@ -385,8 +423,74 @@ ul {
   position: absolute;
   right: 18px;
 }
+.btn-color {
+  color: #ffffff;
+  background-color: #ecac27;
+  box-shadow: 3px 6px 16px #00000029;
+}
+.clr-blue {
+  color: #412881;
+}
+.bg-left {
+  background-color: #1dad8f;
+  color: #ffffff;
+}
+.bg-right {
+  cursor: pointer;
+  background-color: #f79424;
+  color: #ffffff;
+}
+.highlighted {
+  border: 2px solid #000000;
+}
+.unhighlighted {
+  border: 0px solid #000000;
+}
+.h-120 {
+  height: 120px;
+}
+.my-modal {
+  width: 90vw; /* Occupy the 90% of the screen width */
+  max-width: 90vw;
+}
+
+.my-modal .modal-content {
+  height: 95vh;
+}
+
+.exactCenter {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+
+.w-2 {
+  width: 2%;
+}
+
+.checkMark1 {
+  font-size: 0px;
+  height: 20px;
+  width: 20px !important;
+  border-color: #1dad8f !important;
+  box-shadow: none;
+  background: none;
+}
 @media (max-width: 500px) {
   .reverse-columns-mobile {
     flex-direction: column-reverse;
   }
+}
+
+.btn-close {
+  box-sizing: content-box;
+  width: 10em;
+  height: 10em;
+  padding: 0.25em;
+  color: #000;
+  background-image: url("../images/Webinar-images/close_img.jpg");
+  border: 0;
+  border-radius: 0.375rem;
+  opacity: 0.5;
+  background-size: cover;
 }
