@@ -63,13 +63,25 @@ function Navbar() {
     padding: "10px",
   };
 
-  function showDropdown() {
-    document.getElementsByClassName("dropdown-content")[0].style.display =
-      "block";
+  function showDropdown(val) {
+    if (val === "service") {
+      document.getElementsByClassName("dropdown-content")[0].style.display =
+        "block";
+    } else {
+      document.getElementsByClassName(
+        "dropdown-content-blog"
+      )[0].style.display = "block";
+    }
   }
-  function hideDropdown() {
-    document.getElementsByClassName("dropdown-content")[0].style.display =
-      "none";
+  function hideDropdown(val) {
+    if (val === "service") {
+      document.getElementsByClassName("dropdown-content")[0].style.display =
+        "none";
+    } else {
+      document.getElementsByClassName(
+        "dropdown-content-blog"
+      )[0].style.display = "none";
+    }
   }
 
   function showIndustryDropdown() {
@@ -140,8 +152,8 @@ function Navbar() {
 
               <div
                 className="service-dropdown-menu"
-                onMouseOver={showDropdown}
-                onMouseOut={hideDropdown}
+                onMouseOver={() => showDropdown("service")}
+                onMouseOut={() => hideDropdown("service")}
                 style={navStyle}
                 activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
               >
@@ -154,7 +166,10 @@ function Navbar() {
                   Services
                 </NavLink>
 
-                <div className="dropdown-content" onClick={hideDropdown}>
+                <div
+                  className="dropdown-content"
+                  onClick={() => hideDropdown("service")}
+                >
                   <div className="row nav-sub-menu">
                     <div className="column nav-first-column">
                       <div className="navFlex">
@@ -822,17 +837,54 @@ function Navbar() {
                 Careers
               </NavLink>
 
-              <NavLink
-                to="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
-                onClick={() =>
-                  (window.location.href =
-                    "/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry")
-                }
+              <div
+                className="service-dropdown-menu"
+                onMouseOver={() => showDropdown("insights")}
+                onMouseOut={() => hideDropdown("insights")}
                 style={navStyle}
                 activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
               >
-                Insights
-              </NavLink>
+                <NavLink
+                  to="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
+                  onClick={() =>
+                    (window.location.href =
+                      "/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry")
+                  }
+                  style={navStyle}
+                  activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
+                >
+                  Insights
+                </NavLink>
+                <div
+                  className="dropdown-content-blog"
+                  onClick={() => hideDropdown("insights")}
+                >
+                  <div className="row nav-sub-menu">
+                    <div className="column  nav-first-column">
+                      <div className="navFlex">
+                        <div className="col-10 service-dropdown-link">
+                          <p
+                            className="sub-service-links"
+                            style={{ marginTop: "5px" }}
+                          >
+                            <a
+                              href={`/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry`}
+                            >
+                              Blog
+                            </a>
+                            <a
+                              href={`/webinar-reshaping-the-retail-industry-through-AI`}
+                            >
+                              Webinar
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               {/* </div> */}
 
               {/* <NavLink  to = "/test"  onClick={() => window.location.href="/test"} style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
