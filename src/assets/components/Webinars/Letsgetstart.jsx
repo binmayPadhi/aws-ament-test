@@ -7,9 +7,12 @@ import emailjs from "emailjs-com";
 
 const Letsgetstart = () => {
   const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
   const [showSuccessmsg, setSuccessmsg] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => {
+    setSuccessmsg(false);
+    setShow(true);
+  };
 
   const [registerDetails, setregisterDetails] = useState({
     fName: "",
@@ -109,7 +112,7 @@ const Letsgetstart = () => {
         onHide={handleClose}
         backdrop="static"
         keyboard={false}
-        dialogClassName="my-modal"
+        dialogClassName="my-modal-form"
       >
         {showSuccessmsg === false ? (
           <>
