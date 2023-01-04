@@ -280,7 +280,7 @@ const Letsgetstart = () => {
             <Modal.Header closeButton>
               <Modal.Title className="mx-auto"></Modal.Title>
             </Modal.Header>
-            <Modal.Body className="h-75">
+            <Modal.Body className="h-75-px">
               <div className="exactCenter">
                 <p className="text-dark font-weight-bold fs-24">
                   Thank you for your interest, we will get touch with you within
