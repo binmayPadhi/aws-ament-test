@@ -17,7 +17,7 @@ const Videowebinar = () => {
       </div>
       <div className="row mt-3-rem mb-3-rem">
         <div className="col-12 text-center fs-24 font-weight-bold text-dark">
-          <iframe width="1000" height="500" src={videoUrl}></iframe>
+          <iframe className="w-75 mx-auto" height="500" src={videoUrl}></iframe>
         </div>
       </div>
       {/** let gets started */}

@@ -112,7 +112,7 @@ const Letsgetstart = () => {
         onHide={handleClose}
         backdrop="static"
         keyboard={false}
-        dialogClassName="my-modal-form"
+        dialogClassName="my-modal"
       >
         {showSuccessmsg === false ? (
           <>
@@ -259,7 +259,7 @@ const Letsgetstart = () => {
                       </span>
                     </p>
                   </div>
-                  <div className="row ml-0 mr-0 mt-3-rem mb-3-rem">
+                  <div className="row ml-0 mr-0 mt-3-rem mb-5-rem">
                     <div className="col-lg-4 col-md-4 col-sm-3 col-xs-3"></div>
                     <div className="col-lg-4 col-md-4 col-sm-6 col-xs-6 text-center">
                       <button
