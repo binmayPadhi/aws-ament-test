@@ -871,16 +871,17 @@ function Navbar() {
                                 textDecoration: "none",
                               }}
                             >
-                              Blog
+                              Blogs
                             </NavLink>
                             <NavLink
+                              target={"_blank"}
                               to={`/webinar-reshaping-the-retail-industry-through-AI`}
                               activeStyle={{
                                 color: "#19AF8F",
                                 textDecoration: "none",
                               }}
                             >
-                              Webinar
+                              Webinars
                             </NavLink>
                           </p>
                         </div>
