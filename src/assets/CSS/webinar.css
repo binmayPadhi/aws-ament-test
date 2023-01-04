@@ -452,6 +452,7 @@ ul {
 .my-modal {
   width: 90vw; /* Occupy the 90% of the screen width */
   max-width: 90vw;
+  margin: auto;
 }
 
 .my-modal-form {
@@ -460,7 +461,7 @@ ul {
 }
 
 .my-modal .modal-content {
-  height: 95vh;
+  height: auto;
 }
 
 .my-modal-form .modal-content {
