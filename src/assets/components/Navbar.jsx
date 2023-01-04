@@ -860,23 +860,28 @@ function Navbar() {
                   onClick={() => hideDropdown("insights")}
                 >
                   <div className="row nav-sub-menu">
-                    <div className="column  nav-first-column">
+                    <div className="column col-padding nav-first-column">
                       <div className="navFlex">
                         <div className="col-10 service-dropdown-link">
-                          <p
-                            className="sub-service-links"
-                            style={{ marginTop: "5px" }}
-                          >
-                            <a
-                              href={`/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry`}
+                          <p className="sub-service-links-insights">
+                            <NavLink
+                              to={`/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry`}
+                              activeStyle={{
+                                color: "#19AF8F",
+                                textDecoration: "none",
+                              }}
                             >
                               Blog
-                            </a>
-                            <a
-                              href={`/webinar-reshaping-the-retail-industry-through-AI`}
+                            </NavLink>
+                            <NavLink
+                              to={`/webinar-reshaping-the-retail-industry-through-AI`}
+                              activeStyle={{
+                                color: "#19AF8F",
+                                textDecoration: "none",
+                              }}
                             >
                               Webinar
-                            </a>
+                            </NavLink>
                           </p>
                         </div>
                       </div>
