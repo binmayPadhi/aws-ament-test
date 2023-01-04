@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState, useMemo } from "react";
 import emailjs from "emailjs-com";
 import "../../CSS/swiftinisghts.css";
-import companyLogo from "../../images/swiftinisghts/company_logo.png";
+import companyLogo from "../../images/AD-Logo.png";
 import Adlogo from "../../images/swiftinisghts/AD-Logo.png";
 import materialSymbol from "../../images/swiftinisghts/material-symbols_play-circle-rounded.png";
 import ic_round from "../../images/swiftinisghts/ic_round-access-time.png";
