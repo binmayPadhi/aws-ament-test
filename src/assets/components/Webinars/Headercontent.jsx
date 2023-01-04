@@ -1,18 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../CSS/webinar.css";
-import companyIcon from "../../images/Webinar-images/AD-Logo-Full-Green.png";
+import companyIcon from "../../images/AD-Logo.png";
 
 const Headercontent = (props) => {
   return (
     <>
       <div className="webinar_main_img">
-        <div className="w-100 d-flex pt-5-rem">
-          <img
-            loading="lazy"
-            src={companyIcon}
-            className="w-350 mx-auto"
-            alt="company_logo"
-          />
+        <div className="w-100 d-flex pt-5-rem cr-pointer">
+          <Link to={`/`} className="mx-auto">
+            <img
+              loading="lazy"
+              src={companyIcon}
+              className="w-350 mx-auto"
+              alt="company_logo"
+            />
+          </Link>
         </div>
         <div className="pb-3 center-90">
           <div className="row">
