@@ -236,6 +236,10 @@
   height: auto;
 }
 
+.col-padding {
+  padding: 5px 10px;
+}
+
 .extra-column {
   float: left;
   width: 25%;
@@ -270,9 +274,17 @@
 
 .sub-service-links a {
   font-size: 1.3rem;
-  font-weight: 400;
+  font-weight: 700;
   padding-right: 15px;
   padding-top: 5px;
+  text-align: left;
+  color: black;
+}
+
+.sub-service-links-insights a {
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding-right: 10px;
   text-align: left;
   color: black;
 }
