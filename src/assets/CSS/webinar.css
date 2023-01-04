@@ -23,6 +23,10 @@
   width: 97%;
 }
 
+.h-75-px {
+  height: 97vh;
+}
+
 .webinar_main_img {
   width: 100%;
   background-image: url("../images/Webinar-images/Bg-webinar-Img.png");
