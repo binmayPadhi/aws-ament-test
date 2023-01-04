@@ -37,7 +37,7 @@ const Letsgetstart = () => {
 
   const submitregisterDetails = (e) => {
     e.preventDefault();
-    const aplhabetPattern = /^(?! )[A-Za-z ]*(?<! )$/;
+    const aplhabetPattern = /^(?! )[A-Za-z]*(?<! )$/;
     const emailpattern =
       /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
     const phonenumberPattern =
@@ -280,7 +280,7 @@ const Letsgetstart = () => {
             <Modal.Header closeButton>
               <Modal.Title className="mx-auto"></Modal.Title>
             </Modal.Header>
-            <Modal.Body>
+            <Modal.Body className="h-75">
               <div className="exactCenter">
                 <p className="text-dark font-weight-bold fs-24">
                   Thank you for your interest, we will get touch with you within
