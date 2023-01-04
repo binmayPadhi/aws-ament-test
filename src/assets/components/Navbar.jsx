@@ -11,10 +11,6 @@ import CloudDropdownIcon from "../images/Service-Page/service-dropdown-icons/ser
 import QADropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-qa.png";
 import ConsultingDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-strat-consult.png";
 import DataAnnotationDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-data-annotation.png";
-// import RetailEcommerceIcon from "../images/industry-Page/retail-ecommerce-icon.png";
-// import HealthcareIcon from "../images/industry-Page/healthcare-icon.png";
-// import InformationManagementIcon from "../images/industry-Page/info-management-icon.png";
-// import FinancialServiceIcon from "../images/industry-Page/financial-service-icon.png";
 import "../CSS/Navbar.css";
 
 function Navbar() {
@@ -139,16 +135,8 @@ function Navbar() {
               >
                 About Us
               </NavLink>
-              {/* </div> */}
-
-              {/* <NavLink to = "/services" onClick={() => window.location.href="/aboutus"} style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
-                  
-                  Services
-                    
-                </NavLink> */}
 
               {/* SERVICE DROPDOWN MENU   */}
-              {/* <NavLink  to = "/services" className="sub-menu"  style={navStyle} > */}
 
               <div
                 className="service-dropdown-menu"
@@ -710,113 +698,9 @@ function Navbar() {
               </div>
 
               {/* INDUSTRIES DROPDOWN SECTION */}
-              {/* <div  className="service-dropdown-menu" onMouseOver={showIndustryDropdown} onMouseOut={hideIndustryDropdown} style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
-                  
-                  <a style={serviceDropdown} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
-                
-                    Industries
-                  
-                  </a>
-                        
-                  <div class="dropdown-content industry-dropdown-content" onClick={hideIndustryDropdown}>  
-                    <div class="row nav-sub-menu">
-                      <div class="column nav-first-column">
-                        <div className="navFlex">
-                        <img src={RetailEcommerceIcon} className="img-fluid navIcon" alt="icon" />
-
-                        <div className="col-10 service-dropdown-link">
-                        <NavLink to={`/${`retail-ecommerce`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Retail & eCommerce</NavLink>
-                        <p className="sub-service-links"><a href={`/${`retail-ecommerce`}#business-vertical`}>Business Vertical</a></p>
-                        <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`retail-ecommerce`}#ai-solutions`}>AI Solutions</a></p>
-                        <p className="sub-service-links"><a  href={`/${`retail-ecommerce`}#our-offerings`}>Our Offerings</a></p>
-                        </div>
-                        </div>    
-                      </div>
-                    <div className="column">
-
-                        <div className="navFlex">
-                        <img src={HealthcareIcon} className="img-fluid navIcon" alt="icon" />
-
-                        <div className="col-10 service-dropdown-link">
-                        <NavLink to={`/${`healthcare`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Healthcare</NavLink>
-                        <p className="sub-service-links"><a href={`/${`healthcare`}#business-vertical`}>Business Vertical</a></p>
-                        <p className="sub-service-links"style={{marginTop:"5px"}}><a href={`/${`healthcare`}#ai-solutions`}>AI Solutions</a></p>
-                        <p className="sub-service-links"><a href={`/${`healthcare`}#our-offerings`}>Our Offerings</a></p>
-                        
-                        </div>
-                        </div>  
-                    </div>
-                    <div className="column">
-
-                        <div className="navFlex">
-                        <img src={InformationManagementIcon} className="img-fluid navIcon" alt="icon" />
-
-                        <div className="col-10 service-dropdown-link">
-                        <NavLink  to={`/${`information-management`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Information Management</NavLink>
-                        <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`information-management`}#ai-solutions`}>AI Solutions</a></p>
-                        <p className="sub-service-links"><a href={`/${`information-management`}#our-offerings`}>Our Offerings</a></p>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="column extra-column">
-
-                        <div className="navFlex">
-                        <img src={FinancialServiceIcon} className="img-fluid navIcon" alt="icon" />
-
-                        <div className="col-10 service-dropdown-link">
-                        <NavLink to={`/${`financial-services`}`} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>Financial Services</NavLink>
-                        <p className="sub-service-links"><a href={`/${`financial-services`}#business-vertical`}>Business Vertical</a></p>
-                        <p className="sub-service-links" style={{marginTop:"5px"}}><a href={`/${`financial-services`}#ai-solutions`}>AI Solutions</a></p>
-                        <p className="sub-service-links"><a href={`/${`financial-services`}#our-offerings`}>Our Offerings</a></p>
-                        
-                        </div>
-                        </div>
-
-                    </div>
-                  </div>
-                </div>
-                  
-                </div> */}
-              {/* <div style={navStyle} className="dropdown service-dropdown-menu" onMouseOver={showIndustryDropdown} onMouseOut={hideIndustryDropdown}>
-                      <div  className=" dropdown-toggle d-flex"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <a style={{fontSize:"1.5rem"}}  activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
-                  
-                          Industries
-            
-                        </a>
-                      </div>
-                      <div className="dropdown-menu industry-dropdown-content" aria-labelledby="dropdownMenuButton">
-                        <NavLink activeStyle={{color: '#19AF8F', textDecoration: 'none'}} className="dropdown-item industry-dropdown-list" to={`/${`retail-ecommerce`}`} >Retail & eCommerce</NavLink>
-                        <NavLink activeStyle={{color: '#19AF8F', textDecoration: 'none'}} className="dropdown-item industry-dropdown-list" to={`/${`healthcare`}`}>Healthcare</NavLink>
-                        <NavLink activeStyle={{color: '#19AF8F', textDecoration: 'none'}} className="dropdown-item industry-dropdown-list" to={`/${`information-management`}`}>Information Management</NavLink>
-                        <NavLink activeStyle={{color: '#19AF8F', textDecoration: 'none'}} className="dropdown-item industry-dropdown-list" to={`/${`financial-services`}`}>Financial Services</NavLink>
-                      </div>
-                    </div>  */}
 
               {/* FOR SMALLER DEVICES */}
 
-              {/* <div className="dropdown sub-service-dropdown" style={{marginTop:"5.5px"}}>
-                      <div className=" dropdown-toggle d-flex" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <a style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
-                  
-                          Industries
-            
-                        </a>
-                        <div  style={navStyle}>
-                  
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>
-                    
-                        </div>
-                      </div>
-                      <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <NavLink className="dropdown-item sub-service-dropdown-item" to={`/${`retail-ecommerce`}`} >Retail & eCommerce</NavLink>
-                        <NavLink className="dropdown-item sub-service-dropdown-item" to={`/${`healthcare`}`}>Healthcare</NavLink>
-                        <NavLink className="dropdown-item sub-service-dropdown-item" to={`/${`information-management`}`}>Information Management</NavLink>
-                        <NavLink className="dropdown-item sub-service-dropdown-item" to={`/${`financial-services`}`}>Financial Services</NavLink>
-                      </div>
-                    </div>  */}
-
-              {/* <div style={{padding:"15px 0px 0px 0px"}}> */}
               <NavLink
                 to="/casestudies"
                 onClick={() => (window.location.href = "/casestudies")}
@@ -891,13 +775,47 @@ function Navbar() {
                 </div>
               </div>
 
-              {/* </div> */}
-
-              {/* <NavLink  to = "/test"  onClick={() => window.location.href="/test"} style={navStyle} activeStyle={{color: '#19AF8F', textDecoration: 'none'}}>
-                    
-                    Test
-                    
-                </NavLink> */}
+              <div
+                className="dropdown sub-service-dropdown"
+                style={{ marginTop: "5.5px" }}
+              >
+                <div
+                  className=" dropdown-toggle d-flex"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <NavLink
+                    to="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
+                    style={navStyle}
+                    activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
+                  >
+                    Insights
+                  </NavLink>
+                  <div style={navStyle}>
+                    <i className="fa fa-angle-right" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div
+                  className="dropdown-menu"
+                  aria-labelledby="dropdownMenuButton"
+                >
+                  <NavLink
+                    className="dropdown-item sub-service-dropdown-item"
+                    to={`/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry`}
+                  >
+                    Blogs
+                  </NavLink>
+                  <NavLink
+                    className="dropdown-item sub-service-dropdown-item"
+                    target={"_blank"}
+                    to={`/webinar-reshaping-the-retail-industry-through-AI`}
+                  >
+                    Webinars
+                  </NavLink>
+                </div>
+              </div>
 
               <NavLink
                 to="/contactus"
@@ -907,9 +825,6 @@ function Navbar() {
               >
                 Contact Us
               </NavLink>
-              {/* <a href = "/contactus" style={navStyle}>
-                  <button  type="button" className="btn btn-default  contact-btn">Contact Us</button>
-                </a> */}
             </ul>
           </div>
         </nav>
