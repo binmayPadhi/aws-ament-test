@@ -2,18 +2,13 @@ import React from "react";
 import blogImg from "../../images/Resources-page/blog-amnet.jpg";
 import Blog from "../../Data/Resources-Data/Blog";
 import { useHistory } from "react-router-dom";
+import Letsgetstart from "../Webinars/Letsgetstart";
 
 const Insight = () => {
   let history = useHistory();
   const btnColor = {
-    color: "#ffffff",
     backgroundColor: "#ecac27",
-    paddingTop: "10px",
-    paddingBottom: "10px",
-    paddingLeft: "10px",
-    paddingRight: "10px",
-    display: "table",
-    fontWeight: "bold",
+    borderRadius: "100px",
     cursor: "pointer",
   };
 
@@ -54,13 +49,37 @@ const Insight = () => {
                       <h2>{list.title}</h2>
                       <p>{list.description}</p>
                       <p>{list.description1}</p>
+                      {list.hasOwnProperty("watchnowImg") === true ? (
+                        <>
+                          <div style={btnColor} className="mt-5">
+                            <p
+                              className="mb-0 px-4 py-3"
+                              onClick={navigateTothankspage}
+                            >
+                              <span className="lh-1 fs-18">
+                                On-Demand Webinar - See how leading Retailers
+                                are embracing AI & Analytics to win in 2023 -
+                                <span className="font-weight-bold fs-18 pl-1">
+                                  WATCH NOW
+                                </span>
+                              </span>
+                            </p>
+                          </div>
+                        </>
+                      ) : (
+                        ""
+                      )}
                       {list.hasOwnProperty("description2") === true ? (
                         <p
-                          style={btnColor}
-                          className="mb-0 mt-2 mx-auto fs-18"
+                          className="mb-0 pt-3 mx-auto fs-18 cr-pointer"
                           onClick={navigateTothankspage}
                         >
-                          {list.description2}
+                          <img
+                            loading="lazy"
+                            className="img-fluid "
+                            src={list.description2}
+                            alt="view webinar image"
+                          />
                         </p>
                       ) : (
                         ""
@@ -70,16 +89,13 @@ const Insight = () => {
                 );
               })}
             </div>
-
-            <p
-              style={btnColor}
-              className="mb-0 mt-2 mx-auto fs-18"
-              onClick={navigateTothankspage}
-            >
-              VIEW THE WEBINAR
-            </p>
           </div>
         </div>
+      </div>
+
+      {/** let gets started */}
+      <div>
+        <Letsgetstart />
       </div>
 
       {/* NEW HOMEPAGE CAREER SECTION */}
