@@ -1,5 +1,5 @@
 
-import webniarPage from "../../images/Resources-page/Blog_Image_CTA.png";
+import viewWebinar from "../../images/Webinar-images/CTA_AmnetDigital.jpg";
 
 const blog = [
     {
@@ -27,8 +27,8 @@ const blog = [
     {
         id: 5,
         title: "Constructive Logistics and Supply Chain",
-        description: "AI also has the caliber to streamline your in-store supply chain. For instance, this technology can analyze the purchasing patterns of your previous clients and notify you in advance when you will run out of specific products. This is important since clients may choose a different business if they don't feel certain that you'll always have the products they require. And that means you'll lose sales, which will hurt your bottom line.AI can also forecast when a particular product will be in more demand throughout the year. As a result, you can start stocking up now rather than rushing to secure and display these popular seasonal items when clients start asking about them.",
-        description2: "VIEW THE WEBINAR"
+        description: "AI also has the caliber to streamline your in-store supply chain. For instance, this technology can analyze the purchasing patterns of your previous clients and notify you in advance when you will run out of specific products. This is important since clients may choose a different business if they don't feel certain that you'll always have the products they require. And that means you'll lose sales, which will hurt your bottom line.AI can also forecast when a particular product will be in more demand throughout the year. As a result, you can start stocking up now rather than rushing to secure and display these popular seasonal items when clients start asking about them.",    
+        watchnowImg: "watchnow"
     },    
     {
         id: 6,
@@ -44,6 +44,7 @@ const blog = [
         id: 8,
         title: "Automating the Warehouse",
         description: "The complexity of store operations is a result of multichannel retail. In a warehouse, store employees need to perform a variety of tasks. Their duties now extend beyond simply receiving, stocking, and controlling inventory. They need to manage marketing, track promotional offers, and provide product information. A short examination of the products delivered by AI in warehouses and retail supply chains reveals pricing irregularities and out-of-stock items. It can take a while to realize a product has run out at large warehouses. Smart shelves are used in an AI- based inventory management system to notify personnel when there are product shortages or missing items in the inventory.The time saved can be successfully put to use for other fruitful tasks, which will cut down on the amount of time spent at the warehouse.",
+        description2: viewWebinar
     },
     {
         id: 9,
