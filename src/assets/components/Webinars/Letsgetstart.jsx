@@ -4,8 +4,14 @@ import Modal from "react-bootstrap/Modal";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import emailjs from "emailjs-com";
+import { useEffect } from "react";
 
 const Letsgetstart = () => {
+  const header = new Headers();
+  useEffect(() => {
+    header.append("X-Content-Type-Options", "nosniff");
+    header.append("X-Frame-Options", "Deny");
+  });
   const [show, setShow] = useState(false);
   const [showSuccessmsg, setSuccessmsg] = useState(false);
   const handleClose = () => setShow(false);
