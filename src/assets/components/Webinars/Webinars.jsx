@@ -3,8 +3,14 @@ import "../../CSS/webinar.css";
 import Webinarfooter from "./Webinarfooter";
 import Webinarexperts from "./Webinarexperts";
 import Headercontent from "./Headercontent";
+import { useEffect } from "react";
 
 const Webinars = () => {
+  const header = new Headers();
+  useEffect(() => {
+    header.append("X-Content-Type-Options", "nosniff");
+    header.append("X-Frame-Options", "Deny");
+  });
   return (
     <>
       <Headercontent />

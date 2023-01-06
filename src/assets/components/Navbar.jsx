@@ -19,7 +19,6 @@ function Navbar() {
     const header = new Headers();
     header.append("X-Content-Type-Options", "nosniff");
     header.append("X-Frame-Options", "Deny");
-    console.log(header);
   });
   const navStyle = {
     color: "white",
