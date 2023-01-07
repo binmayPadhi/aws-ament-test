@@ -71,9 +71,9 @@ const Webinarform = (props) => {
             jobTitle: "",
             acceptCheckbox: false,
           }),
-          // history.push(
-          //   `/webinar-thank-you-reshaping-the-retail-industry-through-AI`
-          // ),
+          history.push(
+            `/webinar-thank-you-reshaping-the-retail-industry-through-AI`
+          ),
           (error) => {
             console.log(error.text);
           }
