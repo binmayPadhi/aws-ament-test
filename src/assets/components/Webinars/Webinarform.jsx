@@ -4,8 +4,14 @@ import { useState } from "react";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 import { Link, useHistory } from "react-router-dom";
+import { useEffect } from "react";
 
 const Webinarform = (props) => {
+  const header = new Headers();
+  useEffect(() => {
+    header.append("X-Content-Type-Options", "nosniff");
+    header.append("X-Frame-Options", "Deny");
+  });
   const input1 = useRef(null);
   if (props.mouseFocus === true) {
     input1.current.focus();
@@ -65,9 +71,9 @@ const Webinarform = (props) => {
             jobTitle: "",
             acceptCheckbox: false,
           }),
-          history.push(
-            `/webinar-thank-you-reshaping-the-retail-industry-through-AI`
-          ),
+          // history.push(
+          //   `/webinar-thank-you-reshaping-the-retail-industry-through-AI`
+          // ),
           (error) => {
             console.log(error.text);
           }

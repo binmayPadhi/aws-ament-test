@@ -3,8 +3,14 @@ import Headercontent from "./Headercontent";
 import Webinarfooter from "./Webinarfooter";
 import "../../CSS/webinar.css";
 import Letsgetstart from "./Letsgetstart";
+import { useEffect } from "react";
 
 const Videowebinar = () => {
+  const header = new Headers();
+  useEffect(() => {
+    header.append("X-Content-Type-Options", "nosniff");
+    header.append("X-Frame-Options", "Deny");
+  });
   const componentName = "video-webniar";
   const videoUrl = "https://youtube.com/embed/4tgDYmCh6lc";
   return (

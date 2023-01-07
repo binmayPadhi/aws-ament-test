@@ -12,8 +12,14 @@ import QADropdownIcon from "../images/Service-Page/service-dropdown-icons/servic
 import ConsultingDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-strat-consult.png";
 import DataAnnotationDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-data-annotation.png";
 import "../CSS/Navbar.css";
+import { useEffect } from "react";
 
 function Navbar() {
+  useEffect(() => {
+    const header = new Headers();
+    header.append("X-Content-Type-Options", "nosniff");
+    header.append("X-Frame-Options", "Deny");
+  });
   const navStyle = {
     color: "white",
     textDecoration: "none",
