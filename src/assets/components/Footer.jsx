@@ -72,7 +72,7 @@ function Footer() {
             <p className="amnet-email">info@amnetdigital.com</p>
           </div>
           <div className="amnet-copyright">
-            <p>© 2022 Amnet Digital, All Rights Reserved</p>
+            <p>© 2023 Amnet Digital, All Rights Reserved</p>
           </div>
         </div>
       </div>
