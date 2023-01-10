@@ -113,7 +113,7 @@ const Letsgetstart = () => {
         </div>
       </div>
 
-      <Modal
+      {/* <Modal
         show={show}
         onHide={handleClose}
         backdrop="static"
@@ -296,7 +296,7 @@ const Letsgetstart = () => {
             </Modal.Body>
           </>
         )}
-      </Modal>
+      </Modal> */}
     </>
   );
 };
