@@ -1,204 +1,118 @@
-// import React from "react";
-import React, { useEffect, useRef, useState, useMemo } from "react";
-import emailjs from "emailjs-com";
-import "../../CSS/swiftinisghts.css";
-import companyLogo from "../../images/AD-Logo.png";
-import Adlogo from "../../images/swiftinisghts/AD-Logo.png";
-import materialSymbol from "../../images/swiftinisghts/material-symbols_play-circle-rounded.png";
-import ic_round from "../../images/swiftinisghts/ic_round-access-time.png";
-import phCalendarCheck from "../../images/swiftinisghts/ph_calendar-check.png";
-import SwiftlnisghtsWebinarform from "./SwiftlnisghtsWebinarform";
+import React from "react";
+import { useState } from "react";
+import { useEffect } from "react";
+import Swiftinsightsheader from "./Swiftinsightsheader";
+import Swiftinsightsform from "./Swiftsform";
+import "../../CSS/webinar.css";
+import Swiftexperts from "./Swiftexperts";
+import Webinarfooter from "../Webinars/Webinarfooter";
 
 const SwiftInisghtsWebinar = () => {
-  const [showForm, setForm] = useState(true);
-  /*Email*/
-  const getSuccessResponse = (e) => {
-    setForm(false);
+  const [width, setWidth] = useState(window.innerWidth);
+  const [focusInput, setFocusinput] = useState(false);
+  const updateDimensions = () => {
+    setWidth(window.innerWidth);
   };
-  const [userDetails, setUserDetails] = useState({
-    fName: "",
-    email: "",
-    cName: "",
-    jobTitle: "",
-    updates: false,
-  });
-
-  function handleChange(event) {
-    const { value, name } = event.target;
-    const { checked, name1 } = event.target;
-    setUserDetails((prevValue) => {
-      return {
-        ...prevValue,
-        [name]: name != "updates" ? value : checked,
-      };
-    });
-  }
-
-  function submitDetails(e) {
-    e.preventDefault();
-    const aplhabetPattern = /^[a-z]+$/i;
-    const emailpattern =
-      /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-
-    if (
-      aplhabetPattern.test(userDetails.fullName) &&
-      aplhabetPattern.test(userDetails.company) &&
-      aplhabetPattern.test(userDetails.role) &&
-      emailpattern.test(userDetails.email)
-    ) {
-      return emailjs
-        .sendForm(
-          "service_h4akrmg",
-          "template_toof3ch",
-          e.target,
-          "yz7dQlM6o3Rz3cnB8"
-        )
-        .then(
-          console.log("SUCCESS!"),
-          setUserDetails({
-            fName: "",
-            email: "",
-            cName: "",
-            jobTitle: "",
-            updates: false,
-          }),
-          (error) => {
-            console.log(error.text);
-          }
-        );
-    } else {
-      console.log("FAILED...");
-      return false;
-    }
-  }
-
+  useEffect(() => {
+    window.addEventListener("resize", updateDimensions);
+    return () => window.removeEventListener("resize", updateDimensions);
+  }, []);
+  const componentFrom = "swiftInsights";
+  const highlightedForm = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    setFocusinput(true);
+  };
   return (
     <>
-      {/* <div className="fs-24 swiftinsights-ai">
-        Width: <strong>{screenSize.dynamicWidth}</strong>
-        Height: <strong>{screenSize.dynamicHeight}</strong>
-      </div> */}
-      <div className="webinar-page">
-        <div className="center-webinar">
-          <div className="w-100 d-flex justify-content-between">
-            <img className="py-4" src={companyLogo} width="150" />
-            <a
-              className="py-4 text-white font-ai swiftinsights-ai-desktop"
-              href="http://swiftinsights.ai/"
-              target="_blank"
-            >
-              <span className="mt-2 text-white font-ai swiftinsights-ai-desktop">
-                swiftinsights.ai
+      <Swiftinsightsheader />
+      <div className="center-90 mb-5">
+        <div
+          className=" row 
+        main-content-para"
+        >
+          <div className="col-sm-12 col-xs-12 col-md-8 col-lg-8">
+            <p className="mt-5-rem fs-18 text-justify">
+              <span className="font-weight-bold fs-18 pr-1">
+                Swift Insights
               </span>
-            </a>
-          </div>
-          <div className="row">
-            <div className="col-lg-7 col-md-6 col-sm-12 col-xs-12">
-              <p className="heading-style mt-4 mb-0">Webinar</p>
-              <div className="row mt-0">
-                <div className="col-lg-4 col-sm-12 col-xs-12 col-md-4 pr-0">
-                  <p className="swift-text-style mb-0">Swift Insights</p>
-                </div>
-                <div className="col-lg-8 col-sm-12 col-xs-12 col-md-8 pr-0">
-                  <p className="text-right-size mb-0">
-                    An AI based Advanced Analytics Reporting Platform for Retail
-                  </p>
-                </div>
-              </div>
-              <div className="w-100 learn-style mt-5">
-                <div className="w-95 learn-style">
-                  Learn & understand on how our AI based KPIs can help you
-                  achieve your business goals!
-                </div>
-              </div>
-              <div className="row mt-5 mb-3">
-                <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-1">
-                  <p className="mb-0">
-                    <img src={phCalendarCheck} width="30" className="mr-4" />
-                    <span className="text-dark p-1 date-time-style">Date</span>
-                  </p>
-                  <p className="date-style mb-0">21 Dec, 2022</p>
-                  <p className="date-style mb-2 font-weight-400">Wednesday</p>
-                </div>
-                <div className="col-lg-1 col-md-1 col-sm-12 col-xs-12 text-center ">
-                  <p className="border-2 swiftinsights-ai-desktop"></p>
-                  <div className="w-100 mt-3 swiftinsights-ai-mobile">
-                    <div className="w-50">
-                      <div className="border-bottom-webinar"></div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                  <p className="mb-0 mt-2">
-                    <img src={ic_round} width="30" className="mr-4" />
-                    <span className="text-dark p-1 date-time-style">Time</span>
-                  </p>
-                  <p className="date-style mb-0 ">5pm - 5:45pm(IST)</p>
-                </div>
-              </div>
-              <div className="row my-3">
-                <div className="col-md-4 power-text swiftinsights-ai-desktop">
-                  <span className="power-text">Powered by</span>
-                </div>
-                <div className="col-md-4 mt-1 swiftinsights-ai-desktop">
-                  <img src={Adlogo} width="150" />
-                </div>
-                <div className="col-md-4 mobile-free">
-                  <img src={materialSymbol} width="30" className="mr-2 mt-11" />
-                  <span className="text-dark p-1 font-weight-400 date-time-style">
-                    Free Live Event
-                  </span>
-                </div>
-              </div>
-            </div>
-            {/* {Right Side} */}
-            <div className="col-lg-5 col-md-6 col-sm-12 col-xs-12">
-              <div className=" w-100">
-                {showForm === true ? (
-                  <>
-                    <div className="card-body">
-                      <SwiftlnisghtsWebinarform
-                        getSuccessResponse={getSuccessResponse}
-                      />
-                    </div>
-                  </>
-                ) : (
-                  <>
-                    <div className="w-100 justify-content-center d-flex">
-                      <div className="card card-box">
-                        <div className="card-body card-styles-swift">
-                          <p className="successfull-msg-swift">
-                            Thank you for registering for the webinar, we will
-                            send an email with the joining details!
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </>
-                )}
-              </div>
-            </div>
-          </div>
-
-          <div className="center mb-4 mt-4 swiftinsights-ai-mobile">
-            <div className="w-100 d-flex justify-content-between mt-3 mb-3 ">
-              <span className="fs-24 pr-4">Powered by</span>
-              <img src={Adlogo} width="150" />
-            </div>
-            <div className="w-100 d-flex justify-content-center swiftinsights-ai-mobile">
-              <a
-                className="py-4 text-black font-ai swiftinsights-ai-mobile"
-                href="http://swiftinsights.ai/"
-                target="_blank"
-              >
-                <span className="mt-2 text-black fs-24 swiftinsights-ai-mobile">
-                  swiftinsights.ai
+              help modern retailers remove the guesswork, increase profit
+              growth, and scale to become a dominant force within the Retail
+              industry. Our Retail Analytics platform provides the data they
+              need to make informed decisions regarding crucial elements of a
+              retail business such as - Sales, Operations and Planning.
+            </p>
+            <p className="text-dark font-weight-bold fs-18 mt-3-rem">
+              In this webinar you will learn how our AI-led Advanced Analytics
+              platform will help to:
+            </p>
+            <ul className="key-takeaways ul-keys mt-3-rem w-100">
+              <li className="key-takeaways fs-18 mb-1 li-para">
+                <span className="pl-3 fs-16  li-para">
+                  Reduce Customer Acquisition Cost (CAC) & Increase Customer
+                  Retention Rate
                 </span>
-              </a>
+              </li>
+              <li className="key-takeaways fs-16 mb-1 li-para">
+                <span className="pl-3 fs-16  li-para">
+                  Inventory Optimization and better Resource Planning
+                </span>
+              </li>
+              <li className="key-takeaways fs-16 mb-1 li-para">
+                <span className="pl-3 fs-16  li-para">
+                  Customer Segmentation while identifying their buying Trends &
+                  Patterns
+                </span>
+              </li>
+              <li className="key-takeaways fs-16 mb-1 li-para">
+                <span className="pl-3 fs-16 li-para">
+                  Product Performance & Sales Insights at Category, Store, Brand
+                  level, etc.
+                </span>
+              </li>
+              <li className="key-takeaways fs-16 mb-1 li-para">
+                <span className="pl-3 fs-16 li-para">
+                  Derive Omni-presence strategy and maximise ROI on Marketing
+                </span>
+              </li>
+              <li className="key-takeaways fs-16 mb-1 li-para">
+                <span className="pl-3 fs-16 li-para">
+                  Improve Personalization techniques and uncover Product
+                  Associations
+                </span>
+              </li>
+              <li className="key-takeaways  mb-1 li-para">
+                <span className="pl-3 fs-16 li-para">And more...</span>
+              </li>
+            </ul>
+            <p
+              className="mt-2 btn-color p-3 fs-14 cr-pointer font-weight-bold d-table"
+              onClick={highlightedForm}
+            >
+              REGISTER FOR THE WEBINAR
+            </p>
+          </div>
+          <div className="col-sm-12 col-xs-12 col-md-4 col-lg-4">
+            <div className={width > 1000 ? "mt-n6" : ""}>
+              <div className="card center-98" id="form-page">
+                <div className="card-header fs-24 font-weight-bold text-center clr-blue py-5">
+                  REGISTER FOR THE WEBINAR
+                  <br />
+                  <p className="fs-12 mb-0 text-dark center-90">
+                    Please complete the form below to attend the webinar.
+                  </p>
+                </div>
+                <div className="card-body">
+                  <Swiftinsightsform mouseFocus={focusInput} />
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      {/* Learn From Industry Experts */}
+      <Swiftexperts />
+      {/* Footer */}
+      <Webinarfooter />
     </>
   );
 };

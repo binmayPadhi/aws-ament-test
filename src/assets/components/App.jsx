@@ -14,6 +14,7 @@ import CookiesPolicy from "../components/CookiesPolicy";
 import Privacypolicy from "./Privacypolicy/Privacypolicy";
 import Thankswebinar from "./Webinars/Thankswebinar";
 import Videowebinar from "./Webinars/Videowebinar";
+import SwiftInisghtsWebinar from "./Swiftinsights/SwiftInisghtsWebinar";
 
 function App() {
   const url = window.location.pathname;
@@ -44,11 +45,11 @@ function App() {
               path="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
               component={Insight}
             />
-            {/* <Route
+            <Route
               exact
               path="/swiftinisghts-Webinar"
               component={SwiftInisghtsWebinar}
-            /> */}
+            />
             <Route path="/cookiespolicy" component={CookiesPolicy} />
             <Route path="/privacypolicy" component={Privacypolicy} />
             <Route
