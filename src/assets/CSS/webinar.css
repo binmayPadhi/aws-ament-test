@@ -36,6 +36,14 @@
   position: relative;
 }
 
+.insights_main_img {
+  width: 100%;
+  background-image: url("../images/swiftinisghts/main_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .w-15 {
   width: 15px;
   height: 15px;
@@ -43,6 +51,10 @@
 
 .w-350 {
   width: 350px;
+}
+
+.w-200 {
+  width: 200px;
 }
 
 .pt-5-rem {
@@ -59,6 +71,10 @@
 
 .pb-3-rem {
   padding-bottom: 3rem;
+}
+
+.fs-40 {
+  font-size: 40px;
 }
 
 .mt-10-rem {
@@ -223,6 +239,10 @@ input {
 
 .fs-14 {
   font-size: 14px;
+}
+
+.fs-12 {
+  font-size: 12px;
 }
 
 .fs-24 {
@@ -443,6 +463,10 @@ ul {
   cursor: pointer;
   background-color: #f79424;
   color: #ffffff;
+}
+
+.bg-btn-clr {
+  background-color: #f79424;
 }
 .highlighted {
   border: 2px solid #000000;
