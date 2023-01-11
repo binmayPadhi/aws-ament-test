@@ -41,6 +41,7 @@
   background-image: url("../images/swiftinisghts/main_background.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   position: relative;
 }
 
