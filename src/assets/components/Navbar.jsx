@@ -734,7 +734,7 @@ function Navbar() {
                 style={navStyle}
                 activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
               > */}
-              <NavLink
+              {/* <NavLink
                 to="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
                 onClick={() =>
                   (window.location.href =
@@ -744,7 +744,7 @@ function Navbar() {
                 activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
               >
                 Insights
-              </NavLink>
+              </NavLink> */}
               {/* <div
                   className="dropdown-content-blog"
                   onClick={() => hideDropdown("insights")}
