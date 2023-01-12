@@ -21,16 +21,13 @@ function App() {
   return (
     <>
       <Router forceRefresh={true}>
-        {/* {url != "/webinar-reshaping-the-retail-industry-through-AI" &&
+        {url != "/webinar-reshaping-the-retail-industry-through-AI" &&
         url != "/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
         url != "/swiftinisghts-Webinar" ? (
           <div>
             <Navbar />
           </div>
-        ) : null} */}
-        <div>
-          <Navbar />
-        </div>
+        ) : null}
         <div>
           <Switch>
             {/* <Route
@@ -66,16 +63,13 @@ function App() {
             <Route path="/:id" component={AIML} />
           </Switch>
         </div>
-        {/* {url != "/webinar-reshaping-the-retail-industry-through-AI" &&
+        {url != "/webinar-reshaping-the-retail-industry-through-AI" &&
         url != "/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
         url != "/swiftinisghts-Webinar" ? (
           <div>
             <Footer />
           </div>
-        ) : null} */}
-        <div>
-          <Footer />
-        </div>
+        ) : null}
       </Router>
     </>
   );
