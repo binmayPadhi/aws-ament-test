@@ -21,13 +21,16 @@ function App() {
   return (
     <>
       <Router forceRefresh={true}>
-        {url != "/webinar-reshaping-the-retail-industry-through-AI" &&
+        {/* {url != "/webinar-reshaping-the-retail-industry-through-AI" &&
         url != "/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
         url != "/swiftinisghts-Webinar" ? (
           <div>
             <Navbar />
           </div>
-        ) : null}
+        ) : null} */}
+        <div>
+          <Navbar />
+        </div>
         <div>
           <Switch>
             {/* <Route
@@ -45,31 +48,34 @@ function App() {
               path="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
               component={Insight}
             />
-            <Route
+            {/* <Route
               exact
               path="/swiftinisghts-Webinar"
               component={SwiftInisghtsWebinar}
-            />
+            /> */}
             <Route path="/cookiespolicy" component={CookiesPolicy} />
             <Route path="/privacypolicy" component={Privacypolicy} />
-            <Route
+            {/* <Route
               path="/webinar-reshaping-the-retail-industry-through-AI"
               component={Thankswebinar}
             />
             <Route
               path="/webinar-thank-you-reshaping-the-retail-industry-through-AI"
               component={Videowebinar}
-            />
+            /> */}
             <Route path="/:id" component={AIML} />
           </Switch>
         </div>
-        {url != "/webinar-reshaping-the-retail-industry-through-AI" &&
+        {/* {url != "/webinar-reshaping-the-retail-industry-through-AI" &&
         url != "/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
         url != "/swiftinisghts-Webinar" ? (
           <div>
             <Footer />
           </div>
-        ) : null}
+        ) : null} */}
+        <div>
+          <Footer />
+        </div>
       </Router>
     </>
   );
