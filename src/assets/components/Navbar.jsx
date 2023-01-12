@@ -727,25 +727,25 @@ function Navbar() {
                 Careers
               </NavLink>
 
-              {/* <div
+              <div
                 className="service-dropdown-menu"
                 onMouseOver={() => showDropdown("insights")}
                 onMouseOut={() => hideDropdown("insights")}
                 style={navStyle}
                 activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
-              > */}
-              {/* <NavLink
-                to="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
-                onClick={() =>
-                  (window.location.href =
-                    "/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry")
-                }
-                style={navStyle}
-                activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
               >
-                Insights
-              </NavLink> */}
-              {/* <div
+                <NavLink
+                  to="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
+                  onClick={() =>
+                    (window.location.href =
+                      "/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry")
+                  }
+                  style={navStyle}
+                  activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
+                >
+                  Insights
+                </NavLink>
+                <div
                   className="dropdown-content-blog"
                   onClick={() => hideDropdown("insights")}
                 >
@@ -778,10 +778,10 @@ function Navbar() {
                       </div>
                     </div>
                   </div>
-                </div> */}
-              {/* </div> */}
+                </div>
+              </div>
 
-              {/* <div
+              <div
                 className="dropdown sub-service-dropdown"
                 style={{ marginTop: "5.5px" }}
               >
@@ -791,15 +791,15 @@ function Navbar() {
                   data-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"
-                > */}
-              <NavLink
-                to="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
-                style={navStyle}
-                activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
-              >
-                Insights
-              </NavLink>
-              {/* <div style={navStyle}>
+                >
+                  <NavLink
+                    to="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
+                    style={navStyle}
+                    activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
+                  >
+                    Insights
+                  </NavLink>
+                  <div style={navStyle}>
                     <i className="fa fa-angle-right" aria-hidden="true"></i>
                   </div>
                 </div>
@@ -821,7 +821,7 @@ function Navbar() {
                     Webinars
                   </NavLink>
                 </div>
-              </div> */}
+              </div>
 
               <NavLink
                 to="/contactus"
