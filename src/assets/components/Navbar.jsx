@@ -792,13 +792,13 @@ function Navbar() {
                   aria-haspopup="true"
                   aria-expanded="false"
                 > */}
-              {/* <NavLink
+              <NavLink
                 to="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
                 style={navStyle}
                 activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
               >
                 Insights
-              </NavLink> */}
+              </NavLink>
               {/* <div style={navStyle}>
                     <i className="fa fa-angle-right" aria-hidden="true"></i>
                   </div>
