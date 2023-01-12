@@ -52,14 +52,14 @@ function App() {
             /> */}
             <Route path="/cookiespolicy" component={CookiesPolicy} />
             <Route path="/privacypolicy" component={Privacypolicy} />
-            {/* <Route
+            <Route
               path="/webinar-reshaping-the-retail-industry-through-AI"
               component={Thankswebinar}
             />
             <Route
               path="/webinar-thank-you-reshaping-the-retail-industry-through-AI"
               component={Videowebinar}
-            /> */}
+            />
             <Route path="/:id" component={AIML} />
           </Switch>
         </div>
