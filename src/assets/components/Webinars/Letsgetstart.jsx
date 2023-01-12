@@ -1,10 +1,8 @@
-import React from "react";
-import "../../CSS/webinar.css";
-import Modal from "react-bootstrap/Modal";
-import { useState } from "react";
-import { Link } from "react-router-dom";
 import emailjs from "emailjs-com";
-import { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import "../../CSS/webinar.css";
+import { Modal } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Letsgetstart = () => {
   const header = new Headers();
@@ -43,7 +41,7 @@ const Letsgetstart = () => {
 
   const submitregisterDetails = (e) => {
     e.preventDefault();
-    const aplhabetPattern = /^(?! )[A-Za-z]*(?<! )$/;
+    const aplhabetPattern = /^[a-z]+$/i;
     const emailpattern =
       /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
     const phonenumberPattern =
@@ -113,7 +111,7 @@ const Letsgetstart = () => {
         </div>
       </div>
 
-      {/* <Modal
+      <Modal
         show={show}
         onHide={handleClose}
         backdrop="static"
@@ -296,7 +294,7 @@ const Letsgetstart = () => {
             </Modal.Body>
           </>
         )}
-      </Modal> */}
+      </Modal>
     </>
   );
 };
