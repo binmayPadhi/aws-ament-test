@@ -45,11 +45,11 @@ function App() {
               path="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
               component={Insight}
             />
-            {/* <Route
+            <Route
               exact
               path="/swiftinisghts-Webinar"
               component={SwiftInisghtsWebinar}
-            /> */}
+            />
             <Route path="/cookiespolicy" component={CookiesPolicy} />
             <Route path="/privacypolicy" component={Privacypolicy} />
             <Route

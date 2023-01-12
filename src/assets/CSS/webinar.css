@@ -45,9 +45,20 @@
   position: relative;
 }
 
+.w-10 {
+  width: 10px;
+}
+
 .w-15 {
   width: 15px;
-  height: 15px;
+}
+
+.w-22 {
+  width: 3rem;
+}
+
+.border-right {
+  border-right: 5px solid #ffffff;
 }
 
 .w-350 {
