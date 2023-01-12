@@ -1,10 +1,6 @@
-import React from "react";
-import "../../CSS/webinar.css";
-import Modal from "react-bootstrap/Modal";
-import { useState } from "react";
-import { Link } from "react-router-dom";
 import emailjs from "emailjs-com";
-import { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import "../../CSS/webinar.css";
 
 const Letsgetstart = () => {
   const header = new Headers();
