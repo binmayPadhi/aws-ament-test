@@ -44,7 +44,7 @@ const Webinarform = (props) => {
 
   const submitregisterDetails = (e) => {
     e.preventDefault();
-    const aplhabetPattern = /^(?! )[A-Za-z ]*(?<! )$/;
+    const aplhabetPattern = /^[a-z]+$/i;
     const emailpattern =
       /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
     if (
