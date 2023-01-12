@@ -1,6 +1,8 @@
 import emailjs from "emailjs-com";
 import React, { useEffect, useState } from "react";
 import "../../CSS/webinar.css";
+import { Modal } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Letsgetstart = () => {
   const header = new Headers();
@@ -109,7 +111,7 @@ const Letsgetstart = () => {
         </div>
       </div>
 
-      {/* <Modal
+      <Modal
         show={show}
         onHide={handleClose}
         backdrop="static"
@@ -292,7 +294,7 @@ const Letsgetstart = () => {
             </Modal.Body>
           </>
         )}
-      </Modal> */}
+      </Modal>
     </>
   );
 };
