@@ -14,6 +14,7 @@
 .navbar-toggler-icon:focus {
   outline: none;
   box-shadow: none;
+  -webkit-box-shadow: none;
 }
 
 .navbar {
@@ -159,6 +160,7 @@
   margin-top: 30px;
   left: 0;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -169,6 +171,7 @@
   width: 100%;
   margin-top: 30px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -315,6 +318,7 @@
   margin-top: 30px;
   left: 0;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
