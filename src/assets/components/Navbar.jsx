@@ -21,45 +21,44 @@ function Navbar() {
     header.append("X-Frame-Options", "Deny");
   });
   const navStyle = {
-    color: "white",
+    color: "black",
     textDecoration: "none",
-    fontSize: "1.5rem",
-    // marginRight: "25px",
+    fontSize: "14px",
     fontFamily: `'Poppins', sans-serif`,
     marginTop: "5px",
     padding: "20px 15px",
     height: "73px",
+    fontWeight: "700",
   };
 
   const navStyle1 = {
-    color: "white",
+    color: "black",
     textDecoration: "none",
-    fontSize: "1.5rem",
-    // marginRight: "25px",
+    fontSize: "14px",
     fontFamily: `'Poppins', sans-serif`,
     marginTop: "5px",
     padding: "20px 15px",
     height: "73px",
+    fontWeight: "700",
     backgroundColor: "transparent",
   };
 
   const serviceDropdown = {
-    color: "white",
+    color: "black",
     textDecoration: "none",
-    fontSize: "1.5rem",
-    // marginRight: "25px",
+    fontSize: "14px",
     fontFamily: `'Poppins', sans-serif`,
     marginTop: "5px",
-    // padding: "10px 15px",
+    fontWeight: "700",
   };
 
   const contactUsButtonStyle = {
     display: "inline-block",
     color: "black",
     backgroundColor: "white",
-    borderRadius: "4px",
+    borderRadius: "10px",
     textDecoration: "none",
-    fontSize: "1.5rem",
+    fontSize: "14px",
     fontFamily: `'Poppins', sans-serif`,
     marginTop: "5px",
     padding: "10px",
