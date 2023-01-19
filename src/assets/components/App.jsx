@@ -20,6 +20,7 @@ import Privacypolicy from "./Privacypolicy/Privacypolicy";
 import Thankswebinar from "./Webinars/Thankswebinar";
 import Videowebinar from "./Webinars/Videowebinar";
 import SwiftInisghtsWebinar from "./Swiftinsights/SwiftInisghtsWebinar";
+import Termsandconditions from "./Termsandconditions/Termsandconditions";
 
 function App() {
   const url = window.location.pathname;
@@ -52,6 +53,7 @@ function App() {
             />
             <Route path="/cookiespolicy" component={CookiesPolicy} />
             <Route path="/privacypolicy" component={Privacypolicy} />
+            <Route path="/termsandconditions" component={Termsandconditions} />
             <Route
               path="/webinar-reshaping-the-retail-industry-through-AI"
               component={Thankswebinar}
