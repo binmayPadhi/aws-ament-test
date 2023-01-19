@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Navigate,
+} from "react-router-dom";
 import Homepage from "./Homepage";
 import ContactUs from "./ContactUs";
 import AboutUs from "./AboutUs";
@@ -30,11 +35,6 @@ function App() {
         ) : null}
         <div>
           <Switch>
-            {/* <Route
-              exact
-              path="/webinar-reshaping-the-retail-industry-through-AI"
-              component={Webinars}
-            /> */}
             <Route exact path="/" component={Homepage} />
             <Route path="/contactus" component={ContactUs} />
             <Route path="/aboutus" component={AboutUs} />

@@ -2,15 +2,11 @@ import React, { Suspense } from "react";
 import { Link } from "react-scroll";
 import HomeBG from "../images/HomePage/home-bg.jpg";
 import SolutionsServices from "../components/Homepage/SolutionsServices";
-// import ClientSay from "../components/Homepage/ClientSay";
 import AboutDetails from "../components/Homepage/AboutDetails";
 import OurServicesSection from "../components/Homepage/OurServicesSection";
-// import CaseStudiesSection from "../components/Homepage/CaseStudiesSection";
 import OurPartner from "../components/Homepage/OurPartner";
 
-// import IndusrtySection from "../components/Homepage/IndustrySection";
-
-function Test() {
+const Test = () => {
   const cookieStorage = {
     getItem: (item) => {
       const cookies = document.cookie
@@ -83,9 +79,6 @@ function Test() {
             </p>
 
             <div className="subService-AIML-intro-btn">
-              {/* <a href="/casestudies">
-                                    <button type="button" className="btn btn-default">View Details</button>
-                                </a> */}
               <Link
                 activeClass="active"
                 to="details"
@@ -105,13 +98,6 @@ function Test() {
           </div>
         </div>
       </div>
-
-      {/* HOMEPAGE QUOTE SECTION */}
-      {/* <div className="homepage-quote homepage-news-text">
-            <h2 className="text-center">
-                "AI-Enabled tools will generate $2.9 trillion in business value by 2021"
-            </h2>
-        </div> */}
 
       {/* NEW HOMEPAGE SOLUTION SERVICE SECTION */}
       <SolutionsServices />
@@ -216,6 +202,6 @@ function Test() {
       </div>
     </>
   );
-}
+};
 
 export default Test;
