@@ -1,6 +1,6 @@
 import React from "react";
 import "../CSS/webinar.css";
-import cookiesTabledata from "../Data/CookiesPolicy-Data";
+import cookiesTabledata from "../Data/Cookies-Data/CookiesPolicy-Data";
 
 const CookiesPolicy = () => {
   return (
