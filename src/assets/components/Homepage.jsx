@@ -1,10 +1,11 @@
 import React, { Suspense } from "react";
 import { Link } from "react-scroll";
-import HomeBG from "../images/HomePage/home-bg.jpg";
+import HomeBG from "../images/HomePage/home_new_bg.png";
 import SolutionsServices from "../components/Homepage/SolutionsServices";
 import AboutDetails from "../components/Homepage/AboutDetails";
 import OurServicesSection from "../components/Homepage/OurServicesSection";
 import OurPartner from "../components/Homepage/OurPartner";
+import Uniqueapproch from "./Homepage/Uniqueapproch";
 
 const Test = () => {
   const cookieStorage = {
@@ -65,59 +66,47 @@ const Test = () => {
           backgroundAttachment: "scroll",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
+          maxWidth: "100%",
         }}
       >
-        <div className="row service-new-all-margin">
-          <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
+        <div className="center-88">
+          <div className="new-subService-AIML-intro-caption w-50">
             <h2 className="textAnimation" data-text="Reimagine & Redefine">
-              Reimagine & Redefine
+              Your trusted partner in making data-driven decisions
             </h2>
-            <p>
-              Amnet Digital is enabling enterprises reimagine and redefine their
-              engagement with employees, customers, partners and suppliers by
-              providing intelligent insights and continuous value.
-            </p>
-
-            <div className="subService-AIML-intro-btn">
-              <Link
-                activeClass="active"
-                to="details"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                duration={500}
-              >
-                <button
-                  type="button"
-                  className="btn btn-default sub-service-view-details-btn"
-                >
-                  Learn more
-                </button>
-              </Link>
+            <div className="mt-4 side-heading px-2">
+              We are a Data, Analytics & AI solutions company with a track
+              record of building 100+ AI-based Digital Solutions
             </div>
+            <div className="mt-4 connect-button py-2 px-4">Let's connet</div>
           </div>
         </div>
       </div>
-
       {/* NEW HOMEPAGE SOLUTION SERVICE SECTION */}
-      <SolutionsServices />
-
+      {/* <SolutionsServices /> */}
       {/* NEW HOMEPAGE SOLUTION SERVICE SECTION */}
-      <AboutDetails />
-
+      {/* <AboutDetails /> */}
+      {/* NEW HOMEPAGE OUR SERVICE SECTION */}
+      <div className="center-91">
+        <OurServicesSection />
+      </div>
       {/* NEW HOMEPAGE INDUSTRIES SECTION */}
       <Suspense fallback={<div>Loading...</div>}>
-        <IndusrtySection />
+        <div className="center-91">
+          <IndusrtySection />
+        </div>
       </Suspense>
 
-      {/* NEW HOMEPAGE OUR SERVICE SECTION */}
-      <OurServicesSection />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Uniqueapproch />
+      </Suspense>
 
       {/* NEW HOMEPAGE CASESTUDIES SECTION */}
       <Suspense fallback={<div>Loading...</div>}>
-        <CaseStudiesSection />
+        <div className="center-91">
+          <CaseStudiesSection />
+        </div>
       </Suspense>
-
       {/* NEW HOMEPAGE OUR PARTNER SECTION */}
       <div className="new-our-partner">
         <h1 className="section-title mt-3 text-center">
@@ -125,14 +114,11 @@ const Test = () => {
         </h1>
         <OurPartner />
       </div>
-
       {/* NEW HOMEPAGE CLIENT SAY */}
       <Suspense fallback={<div>Loading...</div>}>
         <ClientSay />
       </Suspense>
-
       {/* NEW HOMEPAGE CAREER SECTION */}
-
       <div
         className="new-career-section"
         style={{
@@ -174,7 +160,6 @@ const Test = () => {
           </div>
         </div>
       </div>
-
       <div id="consent-popup" className="hidden cookies-banner">
         <div className="row">
           <div className="col-xl-8 col-lg-8">
