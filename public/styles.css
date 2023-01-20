@@ -4180,9 +4180,13 @@ label {
 }
 
 .client-say-card .card-text {
-  font-size: 1.5rem;
-  font-weight: 400;
-  margin-top: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 15px 0px;
 }
 
 /* NEW HOMEPAGE CAREER SECTION */
@@ -5941,4 +5945,35 @@ label {
 .center {
   width: 90%;
   margin: auto;
+}
+
+.glance_styles {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.glances_position {
+  position: absolute;
+  top: 50%;
+}
+
+.margin-70 {
+  margin: 70px 0px;
+}
+
+.mt-10 {
+  margin-top: 10rem;
+}
+
+.client-desc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
 }
