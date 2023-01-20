@@ -1,11 +1,9 @@
 import React, { Suspense } from "react";
-import { Link } from "react-scroll";
 import HomeBG from "../images/HomePage/home_new_bg.png";
-import SolutionsServices from "../components/Homepage/SolutionsServices";
-import AboutDetails from "../components/Homepage/AboutDetails";
 import OurServicesSection from "../components/Homepage/OurServicesSection";
 import OurPartner from "../components/Homepage/OurPartner";
 import Uniqueapproch from "./Homepage/Uniqueapproch";
+import Amnetglance from "./Homepage/Amnetglance";
 
 const Test = () => {
   const cookieStorage = {
@@ -107,6 +105,22 @@ const Test = () => {
           <CaseStudiesSection />
         </div>
       </Suspense>
+
+      {/* NEW HOMEPAGE glance SECTION */}
+      <Suspense fallback={<div>Loading...</div>}>
+        <div className="center-91 my-4">
+          <Amnetglance />
+        </div>
+      </Suspense>
+
+      {/* NEW HOMEPAGE CLIENT SAY */}
+      <Suspense fallback={<div>Loading...</div>}>
+        <h1 className="section-title mt-3 text-center mb-3">
+          WHAT OUR CLIENTS SAY
+        </h1>
+        <ClientSay />
+      </Suspense>
+
       {/* NEW HOMEPAGE OUR PARTNER SECTION */}
       <div className="new-our-partner">
         <h1 className="section-title mt-3 text-center">
@@ -114,10 +128,7 @@ const Test = () => {
         </h1>
         <OurPartner />
       </div>
-      {/* NEW HOMEPAGE CLIENT SAY */}
-      <Suspense fallback={<div>Loading...</div>}>
-        <ClientSay />
-      </Suspense>
+
       {/* NEW HOMEPAGE CAREER SECTION */}
       <div
         className="new-career-section"
