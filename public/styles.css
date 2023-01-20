@@ -28,8 +28,8 @@ body {
 
 .section-title {
   font-family: "Poppins", sans-serif;
-  font-size: 3.5rem;
-  font-weight: bolder;
+  font-weight: 600;
+  font-size: 40px;
   color: #000000;
 }
 
@@ -301,10 +301,6 @@ body {
   height: 600px;
   margin-left: 0;
   padding: 30px;
-  /* background-image:url('../images/HomePage/our-services/amnet-our-services-bg.png');
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 .our-service-lists {
@@ -3831,13 +3827,16 @@ label {
 }
 
 .new-subService-AIML-intro-caption {
-  top: 180px;
+  position: absolute !important;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
   color: white;
 }
 
 .new-subService-AIML-intro-caption h2 {
-  font-size: 4.5rem;
-  font-weight: 800;
+  font-size: 40px;
+  font-weight: 600;
   color: white;
 }
 
@@ -3958,15 +3957,31 @@ label {
 /* NEW HOMEPAGE INDUSTRY SECTION */
 
 .industry-section-column {
+  width: 282px;
+  margin: auto;
+  height: 483px;
   padding-right: 5px !important;
   padding-left: 0px !important;
+  position: relative;
+}
+
+.case-studies-width {
+  width: 282px;
+  margin: auto;
+}
+
+.border-bottom-card {
+  border-bottom: 3px solid #19af8f !important;
 }
 
 .new-industry-header h5 {
   color: white;
-  font-size: 2.5rem;
-  font-weight: 800;
-  margin-top: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  position: absolute;
+  margin-top: -27px;
 }
 
 /* NEW HOMEPAGE OUR SERVICE SECTION */
@@ -4694,9 +4709,9 @@ label {
     font-size: 1.5rem;
   }
 
-  .new-subService-AIML-intro-caption {
+  /* .new-subService-AIML-intro-caption {
     top: 130px;
-  }
+  } */
 
   .subService-AIML-intro-btn .sub-service-contact-us-btn {
     margin-left: 0px;
@@ -4976,9 +4991,9 @@ label {
     font-size: 1.8rem;
   }
 
-  .new-subService-AIML-intro-caption {
+  /* .new-subService-AIML-intro-caption {
     top: 130px;
-  }
+  } */
 
   .subService-AIML-intro-btn .sub-service-contact-us-btn {
     margin-left: 10px;
@@ -5885,4 +5900,45 @@ label {
     padding-left: 300px;
     padding-right: 300px;
   }
+}
+
+.side-heading {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "Inter";
+}
+
+.connect-button {
+  background: #1dad8f;
+  border-radius: 34px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  display: table;
+}
+
+.center-88 {
+  width: 88%;
+  margin: auto;
+}
+
+.center-91 {
+  width: 91%;
+  margin: auto;
+}
+
+.left-1 {
+  left: 0;
+}
+
+.card-img-overlay {
+  padding: 2rem 0 !important;
+}
+
+.center {
+  width: 90%;
+  margin: auto;
 }

@@ -1,0 +1,128 @@
+.center {
+  width: 90%;
+  margin: auto;
+}
+
+.service_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.center-95 {
+  width: 95%;
+  margin: auto;
+}
+
+.rounded-img-corner {
+  border-radius: 100%;
+  border: 2px solid #19af8f;
+}
+
+.card-title-service {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.card-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.cards {
+  width: 340px;
+  height: 340px;
+  background: #ffffff;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: #ffffff;
+  border-top: 0px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+.more-explore {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 23px;
+  color: #19af8f;
+}
+
+.explore_services {
+  background: #1dad8f;
+  border-radius: 34px;
+  color: #ffffff;
+  display: table;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Poppins";
+  font-style: normal;
+  cursor: pointer;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.uniqueBackground {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(125.14deg, #1dad8f 19.34%, #000000 100%);
+}
+
+.id_styles {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 50px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.header_styles {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.desc_styles {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.h-50 {
+  height: 50vh;
+}
+
+.uniquecard .card {
+  background-color: transparent !important;
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0;
+}
+
+.uniquecard .card .card-header,
+.card-footer {
+  background-color: transparent !important;
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0;
+}
