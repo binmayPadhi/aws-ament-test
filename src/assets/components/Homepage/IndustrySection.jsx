@@ -23,17 +23,17 @@ function IndustrySection() {
                   src={list.industryIMG}
                   alt="Case Studies"
                 />
-                <div className="card-img-overlay new-industry-header">
+                <div className="card-img-overlay">
                   <img
                     loading="lazy"
-                    className="card-img-top img-fluid new-industry-ribbon"
+                    className="card-img-top img-fluid new-industry-ribbon new-industry-header"
                     src={list.tile}
                     alt="Case Studies"
                   />
-                  <h5 className="card-title text-center pl-5">
-                    {list.industryTitle}
-                  </h5>
                 </div>
+                <h5 className="card-title text-center pl-3 industrytitle">
+                  {list.industryTitle}
+                </h5>
               </div>
             </div>
           );
