@@ -3974,14 +3974,18 @@ label {
   border-bottom: 3px solid #19af8f !important;
 }
 
-.new-industry-header h5 {
+.new-industry-header {
+  position: relative;
+}
+
+.industrytitle {
   color: white;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
   position: absolute;
-  margin-top: -27px;
+  top: 7%;
 }
 
 /* NEW HOMEPAGE OUR SERVICE SECTION */
