@@ -165,7 +165,7 @@ const Test = () => {
         <Gotocontact />
       </div>
 
-      <div id="consent-popup" className="hidden cookies-banner">
+      {/* <div id="consent-popup" className="hidden cookies-banner">
         <div className="row">
           <div className="col-xl-8 col-lg-8">
             <p>
@@ -189,7 +189,7 @@ const Test = () => {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

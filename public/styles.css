@@ -507,7 +507,7 @@ body {
 /* ........................................................................................................................ */
 
 .footer {
-  background-color: #0c0c0c;
+  background-color: #c6eae3;
   color: white;
   margin-top: 0px;
 }
@@ -6078,4 +6078,63 @@ label {
   border-radius: 48px;
   display: table;
   padding: 10px;
+}
+.para_footer {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  color: #072b23;
+}
+
+.input_field input {
+  padding-left: 10px;
+  color: #939699;
+  position: relative;
+  box-shadow: none;
+}
+
+.sub-icon {
+  background-color: #ffffff;
+  padding: 13px 10px 10px 10px;
+}
+
+.list-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  color: #072b23;
+}
+
+.listName {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  padding: 0px 5px;
+  color: #555555;
+}
+
+.bg-white {
+  background-color: #ffffff;
+  height: 200px;
+}
+
+.cr-pointer {
+  cursor: pointer;
+}
+
+.footer-border {
+  border-bottom: 2px solid #d9dadb;
+}
+
+.topscroll {
+  background-color: #d9dadb;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
 }

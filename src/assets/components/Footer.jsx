@@ -1,78 +1,280 @@
 import React from "react";
+import amnetLogo from "../images/HomePage/amnetdigitalblack.png";
+import submit_icon from "../images/HomePage/Send.png";
+import linkdein from "../images/HomePage/Linkedin.png";
+import twitter from "../images/HomePage/Twitter.png";
+import facebook from "../images/HomePage/Facebook.png";
+import youtube from "../images/HomePage/Youtube.png";
+import instagram from "../images/HomePage/Instagram.png";
+import { Link } from "react-router-dom";
+import top from "../images/HomePage/Icon ionic-ios-arrow-down.png";
 
 function Footer() {
+  const footerlist = [
+    {
+      id: 1,
+      headingName: "COMPANY",
+      sublist: [
+        {
+          id: "11",
+          name: "About Us",
+          link: "",
+        },
+        {
+          id: "12",
+          name: "Careers",
+          link: "",
+        },
+        {
+          id: "13",
+          name: "Our Partners",
+          link: "",
+        },
+        {
+          id: "14",
+          name: "Leadership Team",
+          link: "",
+        },
+      ],
+    },
+    {
+      id: 2,
+      headingName: "PRODUCTS",
+      sublist: [
+        {
+          id: 21,
+          name: "Swift Insights",
+          link: "",
+        },
+        {
+          id: 22,
+          name: "Swift Data",
+          link: "",
+        },
+      ],
+    },
+    {
+      id: 3,
+      headingName: "SERVICES",
+      sublist: [
+        {
+          id: 31,
+          name: "AI/ML",
+          link: "",
+        },
+        {
+          id: 32,
+          name: "Advanced Analytics",
+          link: "",
+        },
+        {
+          id: 33,
+          name: "Data Engineering",
+          link: "",
+        },
+        {
+          id: 34,
+          name: "Data Management",
+          link: "",
+        },
+        {
+          id: 35,
+          name: "Cloud Services",
+          link: "",
+        },
+        {
+          id: 36,
+          name: "User Experience",
+          link: "",
+        },
+        {
+          id: 37,
+          name: "Strategy & Consulting",
+          link: "",
+        },
+        {
+          id: 38,
+          name: "Data Annotation",
+          link: "",
+        },
+        {
+          id: 39,
+          name: "Quality Assurance",
+          link: "",
+        },
+      ],
+    },
+    {
+      id: 4,
+      headingName: "INDUSTRIES",
+      sublist: [
+        {
+          id: 41,
+          name: " Retail & Ecommerce",
+          link: "",
+        },
+        {
+          id: 42,
+          name: "Inforamtion Management",
+          link: "",
+        },
+        {
+          id: 43,
+          name: "Healthcare",
+          link: "",
+        },
+        {
+          id: 44,
+          name: "HRMS",
+          link: "",
+        },
+        {
+          id: 45,
+          name: "Financial Services",
+          link: "",
+        },
+      ],
+    },
+    {
+      id: 5,
+      headingName: "RESOURCES",
+      sublist: [
+        {
+          id: 51,
+          name: "Blogs",
+          link: "",
+        },
+        {
+          id: 52,
+          name: "Webinars",
+          link: "",
+        },
+        {
+          id: 53,
+          name: "Case Studies",
+          link: "",
+        },
+        {
+          id: 54,
+          name: "news",
+          link: "",
+        },
+      ],
+    },
+  ];
+  const icons = [
+    {
+      id: 1,
+      image: linkdein,
+      href: " https://www.linkedin.com/company/amnet-digital",
+    },
+    {
+      id: 2,
+      image: twitter,
+      href: "https://twitter.com/DigitalAmnet",
+    },
+    {
+      id: 3,
+      image: facebook,
+      href: "https://www.facebook.com/amnetdigital",
+    },
+    {
+      id: 4,
+      image: youtube,
+      href: "https://www.youtube.com/amnetdigital",
+    },
+    {
+      id: 5,
+      image: instagram,
+      href: "https://www.instagram.com/amnetdigital",
+    },
+  ];
   return (
     <>
       {/* <!-- FOOTER SECTION --> */}
       <div className="container-fluid footer">
-        <div className="all-margin row  p-5">
-          <div className="col-lg-6 col-sm-12">
-            <h2>Who We Are</h2>
-            <p>
-              <a
-                href="https://drive.google.com/uc?export=edit&id=18Z-3VS3AH13BoDqpVAhIY1SoIbsLXmXT"
-                target="_blank"
-                rel="noopener noreferrer"
-                data-toggle="tooltip"
-                title="ISO Certificate"
-              >
-                Amnet Digital
-              </a>{" "}
-              is a fast growing AI/ML based Product Development Company
-              headquartered in Austin, Texas with ODCs in India.
-            </p>
-            <a
-              href=" https://www.linkedin.com/company/amnet-digital"
-              className="fa fa-linkedin"
-              target="_blank"
-            ></a>
-            <a
-              href=" https://www.facebook.com/amnetdigital"
-              className="fa fa-facebook"
-              target="_blank"
-            ></a>
-            <a
-              href=" https://twitter.com/DigitalAmnet"
-              className="fa fa-twitter"
-              target="_blank"
-            ></a>
-            <a
-              href="https://www.instagram.com/amnetdigital"
-              className="fa fa-instagram"
-              target="_blank"
-            ></a>
+        <div className="center-88">
+          <p className="pt-4 text-center w-100">
+            <img className="img-fluid logo w-25" src={amnetLogo} alt="logo" />
+          </p>
+          <p className="pb-4 para_footer text-center w-100">
+            Subscribe for latest AI & Analytics News & Trends!
+          </p>
+          <p className="pb-4 input_field text-center w-100">
+            <input placeholder="Enter your business email" />
+            <span className="sub-icon">
+              <img src={submit_icon} />
+            </span>
+          </p>
+          <p className="row mt-3 mb-3">
+            {footerlist.map((list) => {
+              return (
+                <p
+                  className="col-md-2 col-lg-2 col-sm-12 col-xs-12"
+                  key={list.id}
+                >
+                  <h5 className="list-heading">{list.headingName}</h5>
+                  <ul className="pt-3">
+                    {list.sublist.map((val) => {
+                      return (
+                        <li key={val.id} className="listName">
+                          {val.name}
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </p>
+              );
+            })}
+          </p>
+        </div>
+      </div>
+      <div className="container-fluid bg-white">
+        <div className="center-88">
+          <div className="row mb-5">
+            <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 text-left">
+              <p className="listName">info@amnetdigital.com</p>
+              <p className="listName">098765 12345</p>
+            </div>
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3 text-center">
+              <p className="listName">
+                660 South Bagdad Road #320, Leander, TX 78641 Austin, Texas
+              </p>
+            </div>
+            <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 text-left">
+              <p className="listName px-3">Follow Us</p>
+              {icons.map((listedicon) => {
+                return (
+                  <span key={listedicon.id} className="px-3">
+                    <a
+                      href={listedicon.href.trim()}
+                      target="_blank"
+                      className="cr-pointer"
+                    >
+                      <img src={listedicon.image} className="cr-pointer" />
+                    </a>
+                  </span>
+                );
+              })}
+            </div>
           </div>
-          <div className="col-lg-2 col-md-4 col-sm-4 ">
-            <ul className="useful-links">
-              <h3>References</h3>
-              <li>
-                <a href="/aboutUs">About Us</a>
-              </li>
-              <li>
-                <a href="/services">Services</a>
-              </li>
-              <li>
-                <a href="/caseStudies">Case Studies</a>
-              </li>
-              <li>
-                <a href="/careers">Careers</a>
-              </li>
-              <li>
-                <a href="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry">
-                  Insight
-                </a>
-              </li>
-              <li>
-                <a href="/contactus">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-          <hr></hr>
-          <div className="amnet-email">
-            <p className="amnet-email">info@amnetdigital.com</p>
-          </div>
-          <div className="amnet-copyright">
-            <p>© 2023 Amnet Digital, All Rights Reserved</p>
+          <p className="footer-border"></p>
+          <div className="row mb-5">
+            <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 text-left">
+              <p className="listName">© 2023 Amnet Digital</p>
+            </div>
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3 text-center">
+              <span className="px-3 listName">Sitemap</span>
+              <span className="px-3 listName">Legal</span>
+              <span className="px-3 listName">Privacy</span>
+              <span className="px-3 listName"> Terms of Use</span>
+            </div>
+            <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 text-right">
+              <span className="px-3 listName">Top</span>
+              <span className="topscroll cr-pointer d-inline-block">
+                <img src={top} className="w-10" />
+              </span>
+            </div>
           </div>
         </div>
       </div>
