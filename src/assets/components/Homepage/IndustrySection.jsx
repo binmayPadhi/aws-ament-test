@@ -16,7 +16,7 @@ function IndustrySection() {
               className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mb-4"
               key={list.id}
             >
-              <div className="card industry-section-column border-0">
+              <div className="card industry-section-column border-0 mar-50">
                 <img
                   loading="lazy"
                   className="card-img-top img-fluid"

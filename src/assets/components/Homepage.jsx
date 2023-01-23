@@ -4,6 +4,9 @@ import OurServicesSection from "../components/Homepage/OurServicesSection";
 import OurPartner from "../components/Homepage/OurPartner";
 import Uniqueapproch from "./Homepage/Uniqueapproch";
 import Amnetglance from "./Homepage/Amnetglance";
+import Gotocontact from "./Gotocontant";
+import global from "../images/HomePage/global.png";
+import Whyamnet from "./Homepage/Whyamnet";
 
 const Test = () => {
   const cookieStorage = {
@@ -121,57 +124,48 @@ const Test = () => {
         <ClientSay />
       </Suspense>
 
+      <Suspense fallback={<div>Loading...</div>}>
+        <div className="center-88">
+          <Whyamnet />
+        </div>
+        <div className="img_drivine mb-5 mt-5">
+          <div className="p-4 text-center">
+            <p className="drive">DRIVE REAL VALUE</p>
+            <p className="drive_para mt-4">
+              Start your digital journey today and become a forward-thinking
+              organisation
+            </p>
+            <p className="w-100 d-flex justify-content-center mt-4">
+              <p className="btn_drive">
+                Request your FREE Data Engineering consultation
+              </p>
+            </p>
+          </div>
+        </div>
+      </Suspense>
+
+      <Suspense fallback={<div>Loading...</div>}>
+        <h1 className="section-title mt-5 text-center mb-5">
+          Global Footprint
+        </h1>
+        <div className="center-88">
+          <img src={global} className="gload-title" />
+        </div>
+      </Suspense>
+
       {/* NEW HOMEPAGE OUR PARTNER SECTION */}
       <div className="new-our-partner">
-        <h1 className="section-title mt-3 text-center">
-          RECOGNITIONS & PARTNERSHIPS
-        </h1>
+        <h1 className="section-title mt-3 text-center">Technology Partners</h1>
         <OurPartner />
       </div>
 
       {/* NEW HOMEPAGE CAREER SECTION */}
-      <div
-        className="new-career-section"
-        style={{
-          width: "auto",
-          height: "auto",
-          backgroundColor: "#19AF8F",
-          padding: "30px",
-        }}
-      >
-        <div className="new-career-section new-all-margin">
-          <div className="career-section-row row g-0">
-            <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-caption">
-              <h5>WORK WITH US</h5>
-              <h2>Let's Grow Together</h2>
-            </div>
-            <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-details">
-              <p>
-                We are on a mission to solve complex problems and provide
-                solutions that make a difference, Come work with us.
-              </p>
 
-              <a href="/contactus">
-                <button
-                  type="button"
-                  className="btn btn-default contact-us-button"
-                >
-                  Contact Us
-                </button>
-              </a>
-              <a href="/careers">
-                <button
-                  type="button"
-                  className="btn btn-default careers-button"
-                >
-                  Careers
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
+      <div className="mb-5 mt-5">
+        <Gotocontact />
       </div>
-      <div id="consent-popup" className="hidden cookies-banner">
+
+      {/* <div id="consent-popup" className="hidden cookies-banner">
         <div className="row">
           <div className="col-xl-8 col-lg-8">
             <p>
@@ -195,7 +189,7 @@ const Test = () => {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

@@ -1,0 +1,48 @@
+.ribbonBackground {
+  background: linear-gradient(90deg, #1dad8f 0.66%, rgba(0, 0, 0, 0.84) 57.19%);
+  width: 100%;
+  height: auto;
+}
+
+.speaker_width {
+  width: 20px;
+  margin-top: -10px;
+}
+
+.ribbon_content {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.lh-50 {
+  line-height: 50px;
+}
+
+.btn-ribbon {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  color: #ffffff;
+  background: #fd5d14;
+  border-radius: 20px;
+}
+
+.close_icon {
+  font-size: 18px;
+  color: #37c1d7;
+  background-color: #ffffff;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  text-align: right;
+  cursor: pointer;
+}
+
+.link_styles {
+  text-decoration: none;
+  color: #ffffff;
+}
