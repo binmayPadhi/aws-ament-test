@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-import amnetLogo from "../images/AD-Logo.png";
+import amnetLogo from "../images/HomePage/amnetdigitalblack.png";
 import AimlDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-ai-ml.png";
 import DataManagementDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-data-mgmt.png";
 import AdvancedAnalyticsDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-advanced-analytics.png";
