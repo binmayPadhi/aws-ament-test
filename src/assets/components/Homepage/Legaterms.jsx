@@ -27,7 +27,7 @@ const Legalterms = () => {
     },
     {
       id: 4,
-      heading: "Terms Of Use",
+      heading: "Trademarks",
       updated: "Last updated on 26 July 2022",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
       link: "privacy",
@@ -48,7 +48,7 @@ const Legalterms = () => {
         <div className="row">
           {legalterms.map((data) => {
             return (
-              <p className="col-lg-4 col-md-4 col-sm-12 col-xs-12 px-4">
+              <p className="col-lg-4 col-md-4 col-sm-12 col-xs-12 px-4 bx-shadow">
                 <Card key={data.id}>
                   <Card.Header>
                     <div className="legal-header mb-0">{data.heading}</div>
