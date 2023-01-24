@@ -44,7 +44,7 @@ const Test = () => {
     if (shouldShowPopup(storageType)) {
       setTimeout(() => {
         consentPopup.classList.remove("hidden");
-        consentPopup.classList.add("block");
+        // consentPopup.classList.add("block");
       }, 2000);
     }
   };
