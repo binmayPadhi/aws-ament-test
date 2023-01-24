@@ -166,29 +166,37 @@ function Footer() {
     {
       id: 1,
       image: linkdein,
-      href: " https://www.linkedin.com/company/amnet-digital",
+      link: "https://www.linkedin.com/company/amnet-digital",
     },
     {
       id: 2,
       image: twitter,
-      href: "https://twitter.com/DigitalAmnet",
+      link: "https://twitter.com/DigitalAmnet",
     },
     {
       id: 3,
       image: facebook,
-      href: "https://www.facebook.com/amnetdigital",
+      link: "https://www.facebook.com/amnetdigital",
     },
     {
       id: 4,
       image: youtube,
-      href: "https://www.youtube.com/amnetdigital",
+      link: "https://www.youtube.com/amnetdigital",
     },
     {
       id: 5,
       image: instagram,
-      href: "https://www.instagram.com/amnetdigital",
+      link: "https://www.instagram.com/amnetdigital",
     },
   ];
+  const topscroll = (e) => {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <>
       {/* <!-- FOOTER SECTION --> */}
@@ -245,15 +253,15 @@ function Footer() {
               <p className="listName px-3">Follow Us</p>
               {icons.map((listedicon) => {
                 return (
-                  <span key={listedicon.id} className="px-3">
-                    <a
-                      href={listedicon.href.trim()}
-                      target="_blank"
-                      className="cr-pointer"
-                    >
-                      <img src={listedicon.image} className="cr-pointer" />
-                    </a>
-                  </span>
+                  <a
+                    key={listedicon.id}
+                    href={listedicon.link}
+                    target="_blank"
+                    className="p-3"
+                    style={{ cursor: "pointer" }}
+                  >
+                    <img src={listedicon.image} />
+                  </a>
                 );
               })}
             </div>
@@ -270,10 +278,14 @@ function Footer() {
               <span className="px-3 listName"> Terms of Use</span>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 text-right">
-              <span className="px-3 listName">Top</span>
-              <span className="topscroll cr-pointer d-inline-block">
-                <img src={top} className="w-10" />
-              </span>
+              <div className="px-3 listName" onClick={(e) => topscroll(e)}>
+                Top
+                <img
+                  src={top}
+                  className="img-top"
+                  style={{ cursor: "pointer" }}
+                />
+              </div>
             </div>
           </div>
         </div>

@@ -13,10 +13,10 @@ function IndustrySection() {
         {IndusrtySectionData.map((list) => {
           return (
             <div
-              className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mb-4"
+              className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 pb-5 pt-5"
               key={list.id}
             >
-              <div className="card industry-section-column border-0 mar-50">
+              <div className="card industry-section-column border-0">
                 <img
                   loading="lazy"
                   className="card-img-top img-fluid"

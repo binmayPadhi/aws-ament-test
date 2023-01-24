@@ -5755,6 +5755,12 @@ label {
 
 #consent-popup.hidden {
   opacity: 0;
+  display: none;
+}
+
+#consent-popup.block {
+  opacity: 0;
+  display: block;
 }
 
 /* COOKIES Policy Page SECTION */
@@ -5862,6 +5868,12 @@ label {
   color: #000000;
   padding: 15px 15px;
   border-radius: 20px;
+}
+
+.img-top {
+  background: #ced4da;
+  border-radius: 100%;
+  padding: 11px;
 }
 
 .clr-black {
@@ -6123,10 +6135,6 @@ label {
   height: 200px;
 }
 
-.cr-pointer {
-  cursor: pointer;
-}
-
 .footer-border {
   border-bottom: 2px solid #d9dadb;
 }
@@ -6137,4 +6145,8 @@ label {
   width: 15px;
   height: 15px;
   cursor: pointer;
+}
+
+.margin-75 {
+  margin-top: 75px;
 }
