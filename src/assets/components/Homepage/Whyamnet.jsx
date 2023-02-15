@@ -2,7 +2,7 @@ import React from "react";
 import image1 from "../../images/HomePage/bar.png";
 import image2 from "../../images/HomePage/plane.png";
 import image3 from "../../images/HomePage/hand.png";
-import image4 from "../../images/HomePage/smile.png";
+import image4 from "../../images/HomePage/Smile.png";
 
 const Whyamnet = () => {
   return (
@@ -65,7 +65,7 @@ const Whyamnet = () => {
             </p>
           </span>
           <span>
-            <img src={image4} className="image-border-amnet" />
+            <img src={image4} />
           </span>
         </div>
       </div>

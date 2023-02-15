@@ -1,7 +1,11 @@
 .ribbonBackground {
-  background: linear-gradient(90deg, #1dad8f 0.66%, rgba(0, 0, 0, 0.84) 57.19%);
+  background: linear-gradient(90deg, #000000 0.99%, #412881 100%);
   width: 100%;
   height: auto;
+}
+
+.lh-30 {
+  line-height: 30px;
 }
 
 .speaker_width {
@@ -26,14 +30,14 @@
   font-style: normal;
   font-weight: 700;
   font-size: 13px;
-  color: #ffffff;
-  background: #fd5d14;
+  color: #000000 !important;
+  background: #ffffff;
   border-radius: 20px;
 }
 
 .close_icon {
   font-size: 18px;
-  color: #37c1d7;
+  color: #3c2577;
   background-color: #ffffff;
   border-radius: 100%;
   width: 30px;
