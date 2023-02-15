@@ -1,10 +1,21 @@
 import React from "react";
 import "../CSS/Unsplash.css";
+import imgbg from "../images/About-Us-Page/CTA-image.png";
 
 const Gotocontact = () => {
   return (
-    <div className="unsplash-image">
-      <div className="postion py-5">
+    <div
+      className="position-relative"
+      style={{
+        backgroundImage: `url(${imgbg})`,
+        backgroundAttachment: "scroll",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "100% 100%",
+        width: "100%",
+        height: "600px",
+      }}
+    >
+      <div className="text-center-img position-relative">
         <p className="letpara text-center">Let’s work & grow together</p>
 
         <div className="w-90 mx-auto">
