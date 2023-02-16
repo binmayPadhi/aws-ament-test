@@ -4285,9 +4285,7 @@ label {
 .new-our-location-column .new-location-card {
   width: auto;
   height: 370px;
-  background-color: black;
   color: white;
-  border-bottom: 5px solid #19af8f;
 }
 
 /* NEW SERVICE PAGE DESIGN SECTION */
@@ -6015,7 +6013,6 @@ label {
 .gload-title {
   width: 100%;
   height: 778px;
-  border: 1px solid #c8c8c8;
 }
 
 .company_name {
@@ -6121,6 +6118,14 @@ label {
   color: #072b23;
 }
 
+.text-areainput {
+  width: 100%;
+  height: 100px;
+  box-shadow: 3px 6px 16px #00000029;
+  border-style: none;
+  font-size: 1.8rem;
+}
+
 .listName {
   font-family: "Poppins";
   font-style: normal;
@@ -6149,4 +6154,10 @@ label {
 
 .margin-75 {
   margin-top: 75px;
+}
+
+.select-height {
+  height: 45px;
+  font-size: 15px;
+  padding-left: 2px;
 }

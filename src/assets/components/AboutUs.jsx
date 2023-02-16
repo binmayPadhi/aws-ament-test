@@ -120,10 +120,10 @@ function TestAboutUs() {
       <div className="mt-5 w-100">
         <Achievements />
       </div>
-
+      {/*NEW AboutUS Page ceo SECTION */}
       <div className="mt-5 w-100 ceo-img-section h-auto pt-5">
         <div className="row">
-          <div className="col-8">
+          <div className="col-md-8 col-lg-8 col-sm-12 col-xs-12">
             <div className="w-90 mx-auto">
               <p className="fw-bold-500 fs-32 text-white">CEOs Message</p>
               <p className="mt-2 text-white fs-16 fw-bold-400">
@@ -147,7 +147,7 @@ function TestAboutUs() {
               </p>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12">
             <div className="d-flex w-100 justify-content-center align-items-end">
               <img src={ceo} className="w-100" />
             </div>
@@ -176,7 +176,7 @@ function TestAboutUs() {
 
       <div className="mt-5">
         <h1 className="section-title text-center mb-5">Global Footprint</h1>
-        <div className="center-88">
+        <div className="w-98 mx-auto">
           <img src={global} className="gload-title" />
         </div>
       </div>
@@ -189,7 +189,7 @@ function TestAboutUs() {
 
       <div className="mt-5 w-100 ceo-img-section h-auto py-5">
         <div className="row">
-          <div className="col-md-10 col-lg-10 col-sm-12">
+          <div className="col-md-9 col-lg-9 col-sm-12">
             <div className="w-90 mx-auto">
               <p className="fw-bold-700 fs-18 text-white">
                 Do you have any technology challenges that are slowing down your
@@ -204,12 +204,10 @@ function TestAboutUs() {
               </div>
             </div>
           </div>
-          <div className="col-md-2 col-lg-2 col-sm-12">
-            <div className="my-5">
-              <span className="text-black bg-white br-20 fs-18 fw-bold-700 py-3 px-4">
-                Let's connect
-              </span>
-            </div>
+          <div className="col-md-3 col-lg-3 col-sm-12 text-center my-5">
+            <span className="text-black bg-white br-20 fs-18 fw-bold-700 p-3">
+              Let's connect
+            </span>
           </div>
         </div>
       </div>

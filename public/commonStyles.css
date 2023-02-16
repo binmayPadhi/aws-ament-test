@@ -2,6 +2,10 @@
   clear: both;
 }
 
+.w-98 {
+  width: 98%;
+}
+
 .client-img {
   background: linear-gradient(180deg, #eaeaea 0%, #f7f7f7 100%);
 }

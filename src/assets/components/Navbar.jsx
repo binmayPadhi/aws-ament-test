@@ -148,7 +148,6 @@ function Navbar() {
                 {/* <div style={{padding:"15px 0px 0px 0px"}}> */}
                 <NavLink
                   to="/aboutus"
-                  onClick={() => (window.location.href = "/aboutus")}
                   style={navStyle}
                   activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                 >
@@ -166,7 +165,6 @@ function Navbar() {
                 >
                   <NavLink
                     to="/services"
-                    onClick={() => (window.location.href = "/aboutus")}
                     style={serviceDropdown}
                     activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                   >
@@ -850,7 +848,6 @@ function Navbar() {
 
                 <NavLink
                   to="/contactus"
-                  onClick={() => (window.location.href = "/contactus")}
                   className="contactus-button"
                   activeStyle={{ color: "black", textDecoration: "none" }}
                 >

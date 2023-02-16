@@ -1,24 +1,8 @@
 import React from "react";
-import { useEffect } from "react";
-import { useState } from "react";
 import About from "../../Data/AboutUs-Data/About";
+import MediaQuery from "react-responsive";
 
 const AboutUsMission = () => {
-  const [isMobile, setIsMobile] = useState(false);
-
-  //choose the screen size
-  const handleResize = () => {
-    if (window.innerWidth < 1440) {
-      setIsMobile(true);
-    } else {
-      setIsMobile(false);
-    }
-  };
-
-  // create an event listener
-  useEffect(() => {
-    window.addEventListener("resize", handleResize);
-  });
   return (
     <>
       <div className="row">
@@ -27,7 +11,24 @@ const AboutUsMission = () => {
           let reverse1 = list.id % 2 === 0 ? "order-first" : "order-last";
           return (
             <>
-              {isMobile === false ? (
+              {/* mobile views */}
+              <MediaQuery query="(max-width: 1024px)">
+                <>
+                  <div className="col-sm-12 mt-5">
+                    <p className="fw-bold-600 fs-35 text-black text-left">
+                      {list.heading}
+                    </p>
+                    <p>
+                      <img src={list.image} className="w-100" />
+                    </p>
+                    <p className="fw-bold-300 fs-18 text-blackrock text-left">
+                      {list.description}
+                    </p>
+                  </div>
+                </>
+              </MediaQuery>
+              {/* desktop and large screens */}
+              <MediaQuery query="(min-width: 1025px)">
                 <>
                   <div className={"col-md-6 col-lg-6 mt-5" + " " + reverse}>
                     <div className="w-100 d-flex align-items-center">
@@ -47,22 +48,7 @@ const AboutUsMission = () => {
                     </p>
                   </div>
                 </>
-              ) : (
-                <>
-                  {/* mobile view */}
-                  <div className="col-sm-12 mt-5">
-                    <p className="fw-bold-600 fs-35 text-black text-left">
-                      {list.heading}
-                    </p>
-                    <p>
-                      <img src={list.image} className="w-100" />
-                    </p>
-                    <p className="fw-bold-300 fs-18 text-blackrock text-left">
-                      {list.description}
-                    </p>
-                  </div>
-                </>
-              )}
+              </MediaQuery>
             </>
           );
         })}
