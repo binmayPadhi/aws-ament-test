@@ -12,7 +12,7 @@ const Ribbon = ({ checkRibbon }) => {
   return (
     <>
       <div className="ribbonBackground py-4">
-        <div className="w-98 mx-auto">
+        <div className="w-95 mx-auto">
           <div className="d-flex w-100 justify-content-between align-items-center">
             <p></p>
             <p className="mb-0 px-4">

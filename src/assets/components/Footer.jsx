@@ -214,7 +214,7 @@ function Footer() {
               <img src={submit_icon} />
             </span>
           </p>
-          <p className="row mt-3 mb-3">
+          <p className="row mx-0 mt-3 mb-3">
             {footerlist.map((list) => {
               return (
                 <p
