@@ -73,10 +73,10 @@ const Amnetglance = () => {
               {glancelist.map((list) => {
                 return (
                   <div className="col-3" key={list.id}>
-                    <p>
-                      <img src={list.image} className="w-25" />
+                    <p style={{ height: "50px" }}>
+                      <img src={list.image} className="w-50px" />
                     </p>
-                    <p className="font-weight-bold fs-16">{list.count}</p>
+                    <p className="font-weight-bold fs-16 mt-2">{list.count}</p>
                     <p className="fs-12">{list.text}</p>
                   </div>
                 );
