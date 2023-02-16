@@ -2,7 +2,7 @@ import React from "react";
 import image1 from "../../images/HomePage/bar.png";
 import image2 from "../../images/HomePage/plane.png";
 import image3 from "../../images/HomePage/hand.png";
-import image4 from "../../images/HomePage/Smile.png";
+import image4 from "../../images/HomePage/smile.png";
 
 const Whyamnet = () => {
   return (
