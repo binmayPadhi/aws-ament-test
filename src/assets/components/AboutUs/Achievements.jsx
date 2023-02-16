@@ -1,11 +1,11 @@
 import React from "react";
-import About from "../../Data/AboutUs-Data/About";
+import achievement from "../../images/About-Us-Page/Achievements.png";
 
 const Achievements = () => {
   return (
     <>
       <div className="w-100 bg-white h-auto">
-        <div className="w-90 mx-auto">
+        {/* <div className="w-90 mx-auto">
           <div className="row">
             {About.ourachivements.map((list) => {
               return (
@@ -50,7 +50,8 @@ const Achievements = () => {
               );
             })}
           </div>
-        </div>
+        </div> */}
+        <img src={achievement} className="w-100" />
       </div>
     </>
   );
