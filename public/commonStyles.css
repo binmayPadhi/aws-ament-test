@@ -6,6 +6,10 @@
   width: 98%;
 }
 
+.w-95 {
+  width: 95%;
+}
+
 .client-img {
   background: linear-gradient(180deg, #eaeaea 0%, #f7f7f7 100%);
 }
