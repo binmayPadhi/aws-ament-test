@@ -12,9 +12,9 @@ const Ribbon = ({ checkRibbon }) => {
   return (
     <>
       <div className="ribbonBackground py-4">
-        <div className="row lh-30">
-          <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12"></div>
-          <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 text-center">
+        <div className="w-98 mx-auto">
+          <div className="d-flex w-100 justify-content-between align-items-center">
+            <p></p>
             <p className="mb-0 px-4">
               <img src={speaker} alt="speaker" className="speaker_width" />
               <span className="ribbon_content px-2 mb-0">
@@ -31,8 +31,6 @@ const Ribbon = ({ checkRibbon }) => {
                 </Link>
               </span>
             </p>
-          </div>
-          <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12">
             <div className="pr-4">
               <p className="mb-0 d-flex justify-content-md-end justify-content-lg-end justify-content-center">
                 <div
