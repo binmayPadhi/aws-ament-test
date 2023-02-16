@@ -204,12 +204,10 @@ function TestAboutUs() {
               </div>
             </div>
           </div>
-          <div className="col-md-2 col-lg-2 col-sm-12">
-            <div className="my-5">
-              <span className="text-black bg-white br-20 fs-18 fw-bold-700 py-3 px-4">
-                Let's connect
-              </span>
-            </div>
+          <div className="col-md-2 col-lg-2 col-sm-12 text-center my-5">
+            <span className="text-black bg-white br-20 fs-18 fw-bold-700 p-3">
+              Let's connect
+            </span>
           </div>
         </div>
       </div>
