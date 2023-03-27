@@ -65,7 +65,7 @@ const Amnetglance = () => {
         <div className="row w-100">
           <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12">
             <p className="text-right glance_styles glances_position">
-              Amnet Digital at a Glance
+              Amnet Digital <br/>at a Glance
             </p>
           </div>
           <div className="col-md-8 col-lg-8 col-sm-12 col-xs-12 text-center">
@@ -74,7 +74,7 @@ const Amnetglance = () => {
                 return (
                   <div className="col-3" key={list.id}>
                     <p style={{ height: "50px" }}>
-                      <img src={list.image} className="w-50px" />
+                      <img src={list.image} className="w-50px"/>
                     </p>
                     <p className="font-weight-bold fs-16 mt-2">{list.count}</p>
                     <p className="fs-12">{list.text}</p>

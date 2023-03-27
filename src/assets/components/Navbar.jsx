@@ -122,7 +122,10 @@ function Navbar() {
       {/* <!-- NAVIGATION BAR --> */}
 
       <div className="position-fixed" id="navbar">
-        {showRibbon === true ? <Ribbon checkRibbon={checkRibbon} /> : null}
+        {sessionStorage.getItem("ribbonClose") !== false &&
+        showRibbon === true ? (
+          <Ribbon checkRibbon={checkRibbon} />
+        ) : null}
         <div className="navigation-bar">
           <nav className="navbar navbar-expand-lg ">
             <a href="/" className="navbar-brand active pb-2">

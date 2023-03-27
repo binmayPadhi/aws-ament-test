@@ -37,6 +37,14 @@
   border-radius: 34px;
 }
 
+.lets-connect {
+  cursor: pointer;
+  background: #ffffff;
+  border-radius: 34px;
+}
+
+
+
 .w-90 {
   width: 90%;
 }

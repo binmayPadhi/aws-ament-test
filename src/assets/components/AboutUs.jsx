@@ -135,7 +135,7 @@ function TestAboutUs() {
                 past three years convinces us that we are on the right path.
               </p>
               <p className="d-flex w-100 justify-content-between mt-15">
-                <span className="text-white fs-16 fw-bold-700">
+                <span className="text-white fs-16 fw-bold-700 mt-4">
                   Our purpose is to make a meaningful impact that matters.
                 </span>
                 <span className="text-white fs-16 fw-bold-700">
@@ -205,7 +205,7 @@ function TestAboutUs() {
             </div>
           </div>
           <div className="col-md-3 col-lg-3 col-sm-12 text-center my-5">
-            <span className="text-black bg-white br-20 fs-18 fw-bold-700 p-3">
+            <span className="text-black lets-connect bg-white br-20 fs-18 fw-bold-700 pl-5 pr-5 p-3">
               Let's connect
             </span>
           </div>

@@ -4,9 +4,11 @@ import OurServicesSection from "../components/Homepage/OurServicesSection";
 import OurPartner from "../components/Homepage/OurPartner";
 import Uniqueapproch from "./Homepage/Uniqueapproch";
 import Amnetglance from "./Homepage/Amnetglance";
+import DriveBg from "../images/HomePage/Drive.jpg";
 import Gotocontact from "./Gotocontant";
 import global from "../images/HomePage/global.png";
 import Whyamnet from "./Homepage/Whyamnet";
+import OrganizationServices from "./Homepage/OrganizationServices";
 
 const Test = () => {
   const cookieStorage = {
@@ -49,8 +51,8 @@ const Test = () => {
     }
   };
 
-  const ClientSay = React.lazy(() =>
-    import("../components/Homepage/ClientSay")
+  const Aboutclientsay = React.lazy(() =>
+    import("../components/AboutUs/Aboutclientsay")
   );
   const CaseStudiesSection = React.lazy(() =>
     import("../components/Homepage/CaseStudiesSection")
@@ -85,7 +87,13 @@ const Test = () => {
         </div>
       </div>
       {/* NEW HOMEPAGE SOLUTION SERVICE SECTION */}
-      {/* <SolutionsServices /> */}
+     
+      <Suspense fallback={<div>Loading...</div>}>
+        
+      <div className="mt-5 mb-5 center-91">
+      <OrganizationServices />
+      </div>
+      </Suspense>
       {/* NEW HOMEPAGE SOLUTION SERVICE SECTION */}
       {/* <AboutDetails /> */}
       {/* NEW HOMEPAGE OUR SERVICE SECTION */}
@@ -99,22 +107,20 @@ const Test = () => {
         </div>
       </Suspense>
 
-      <Suspense fallback={<div>Loading...</div>}>
-        <Uniqueapproch />
-      </Suspense>
-
-      {/* NEW HOMEPAGE CASESTUDIES SECTION */}
-      <Suspense fallback={<div>Loading...</div>}>
-        <div className="center-91">
-          <CaseStudiesSection />
-        </div>
-      </Suspense>
 
       {/* NEW HOMEPAGE glance SECTION */}
       <Suspense fallback={<div>Loading...</div>}>
+        <div className="bg-grey">
         <div className="center-91 my-4">
           <Amnetglance />
         </div>
+        </div>
+      </Suspense>
+
+      
+      {/* NEW HOMEPAGE CASE STUDIES */}
+      <Suspense fallback={<div>Loading...</div>}>
+      <CaseStudiesSection/>
       </Suspense>
 
       {/* NEW HOMEPAGE CLIENT SAY */}
@@ -122,14 +128,22 @@ const Test = () => {
         <h1 className="section-title mt-3 text-center mb-3">
           WHAT OUR CLIENTS SAY
         </h1>
-        <ClientSay />
+        <Aboutclientsay/>
       </Suspense>
 
       <Suspense fallback={<div>Loading...</div>}>
-        <div className="center-88">
-          <Whyamnet />
-        </div>
-        <div className="img_drivine mb-5 mt-5">
+      
+        <div
+        className="container-fluid space-drive "
+        style={{
+          backgroundImage: `url(${DriveBg})`,
+          backgroundAttachment: "scroll",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "100% 100%",
+          width: "100%",
+          height: "100%",
+        }}
+      >
           <div className="p-4 text-center">
             <p className="drive">DRIVE REAL VALUE</p>
             <p className="drive_para mt-4">
@@ -145,17 +159,10 @@ const Test = () => {
         </div>
       </Suspense>
 
-      <Suspense fallback={<div>Loading...</div>}>
-        <h1 className="section-title mt-5 text-center mb-5">
-          Global Footprint
-        </h1>
-        <div className="center-88">
-          <img src={global} className="gload-title" />
-        </div>
-      </Suspense>
+    
 
       {/* NEW HOMEPAGE OUR PARTNER SECTION */}
-      <div className="new-our-partner">
+      <div className="new-our-partner bg-grey pb-5">
         <h1 className="section-title mt-3 text-center">Technology Partners</h1>
         <OurPartner />
       </div>

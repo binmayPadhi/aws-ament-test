@@ -1,6 +1,7 @@
 import expertise from "../../images/About-Us-Page/Expertise.png";
-import innovation from "../../images/About-Us-Page/innovation.png";
+import innovationnew from "../../images/About-Us-Page/innovationnew.png";
 import trust from "../../images/About-Us-Page/Trust.png";
+import innovating from "../../images/About-Us-Page/innovation-white.png";
 import reliability from "../../images/About-Us-Page/Reliability.png";
 import mission from "../../images/About-Us-Page/mission.png";
 import vision from "../../images/About-Us-Page/vision.png";
@@ -19,6 +20,7 @@ import skyblue from '../../images/About-Us-Page/skyblue.png';
 import yellow from '../../images/About-Us-Page/yellow.png';
 import blue from '../../images/About-Us-Page/blue.png';
 import green from '../../images/About-Us-Page/green.png';
+import innov from "../../images/About-Us-Page/innov.png";
 
 const Aboutdata = {
     whoweare: [
@@ -30,7 +32,7 @@ const Aboutdata = {
         },
         {
             id: 2,
-            image: innovation,
+            image: innovationnew,
             heading: "Innovation",
             description: "We're innovating in technology space, leveraging cutting-edge digital frameworks, tech accelerators, and labs."
         },
@@ -64,7 +66,7 @@ const Aboutdata = {
     aboutvalues: [
         {
             id: 1,
-            image: innovation,
+            image: innovating,
             heading: 'Innovation',
             description: "We unleash creativity by making innovation part of each associate’s job responsibility"
         },
@@ -148,7 +150,59 @@ const Aboutdata = {
             heading: "VP Engineering, eCommerce Company",
             description: "We would like to express our satisfaction regarding the development of our eCommerce web application. Amnet's application engineering team did a very professional job. We are satisfied with the solution given to us and with the communication flow through the project. We look forward to working with them in future projects."
         }
-    ]
+    ],
+    dropdownlist: [
+    {
+      id: 30,
+      name: "",
+      link: "",
+    },
+    {
+      id: 31,
+      name: "AI/ML",
+      link: "aiml",
+    },
+    {
+      id: 32,
+      name: "Advanced Analytics",
+      link: "",
+    },
+    {
+      id: 33,
+      name: "Data Engineering",
+      link: "",
+    },
+    {
+      id: 34,
+      name: "Data Management",
+      link: "",
+    },
+    {
+      id: 35,
+      name: "Cloud Services",
+      link: "",
+    },
+    {
+      id: 36,
+      name: "User Experience",
+      link: "",
+    },
+    {
+      id: 37,
+      name: "Strategy & Consulting",
+      link: "",
+    },
+    {
+      id: 38,
+      name: "Data Annotation",
+      link: "",
+    },
+    {
+      id: 39,
+      name: "Quality Assurance",
+      link: "",
+    },
+  ]
 }
 
-export default Aboutdata
+export default Aboutdata;

@@ -5,10 +5,9 @@ import About from "../../Data/AboutUs-Data/About";
 const Aboutclientsay = () => {
   return (
     <>
+    
       <div className="client-img w-100 h-auto py-5">
-        <h1 className="text-center py-5 fw-bold-600 fs-35 text-dark">
-          WHAT OUR CLIENTS SAY
-        </h1>
+       
         <div className="w-90 mx-auto">
           <div className="row">
             {About.clientsay.map((list) => {

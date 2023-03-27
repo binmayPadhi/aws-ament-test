@@ -1,80 +1,32 @@
 import React from "react";
-import WeValueIMG from "../../images/careers-page/careers-body.jpg";
+import Whyamnet from "../../images/careers-page/whyament.png";
 
 function WeValueInnovation (){
     return (
         <>
-            <div className="weValueInnovation new-all-margin">
-                {/* <div className="careers-our-culture-header text-center">
-                    <h1 className="section-title mt-3">WE VALUE INNOVATION</h1>    
-                </div> */}
-                {/* <div className="description">
-                    <p>lorem ipsulm lorem ipsulm lorem ipsulmlorem ipsulmlorem ipsulm lorem ipsulm lorem ipsulm lorem ipsulm 
-                    lorem ipsulm lorem ipsulm lorem ipsulm lorem ipsulm lorem ipsulm lorem ipsulmlorem ipsulmlorem ipsulm lorem 
-                    ipsulm lorem ipsulm lorem ipsulm 
-                    lorem ipsulm lorem ipsulm lorem ipsulm
-                    </p>
-                </div> */}
-
-
-
-                <div className="weValueInnovationCarousel">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div className=" text-center">
-                                    <h1 className="section-title mt-3">WE VALUE INNOVATION</h1>    
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div className=" text-center">
-                                    <h1 className="section-title mt-3">WE VALUE INTEGRITY</h1>    
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div className=" text-center">
-                                    <h1 className="section-title mt-3">WE VALUE EMPATHY</h1>    
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div className=" text-center">
-                                    <h1 className="section-title mt-3">WE VALUE EXCELLENCE</h1>    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-
-                <img className="d-block w-100 we-innovation-img" src={WeValueIMG} alt="First slide" />
-
-
-
-                {/* <div className="weValueInnovationCarousel">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src={WeValueIMG} alt="First slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src={WeValueIMG} alt="Second slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src={WeValueIMG} alt="Third slide" />
-                        </div>
-                    </div>
+            <div className="weValueInnovation">
+                <div className="container">
+            <div className="row">
+                <div className="col-lg-6 col-md-6 col-sm-12">
+                   <h1 className="text-white amnet-styling ">Why Amnet Digital</h1>
                 </div>
-                </div> */}
+                <div className="col-lg-6 col-md-6 col-sm-12 d-flex">      
+                 <h2 className="text-white impact-space ">Impact<hr className="hr-styling"/></h2>
+                 <h2 className="text-white impact-space">Development <hr/></h2>
+                 <h2 className="text-white impact-space">Progress <hr/></h2>
+                 <h2 className="text-white impact-space">Support<hr/></h2>   
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-6 col-md-6 col-sm-12">
+            <img className="d-block w-100 wevalue-img" src={Whyamnet} alt="First slide"/>
+                </div>
+                <div className="col-lg-6 col-md-6 col-sm-12 my-auto">
+                     <h1 className="proven-styling">Proven track record</h1>
+                     <h1 className="years-styling mt-4">4+ years, built 10+ AI-based Digital Solutions, and successfully servicing Fortune 1000 companies.</h1>
+                </div>
+            </div>
+            </div>
             </div>
         </>
     )

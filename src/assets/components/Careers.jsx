@@ -1,99 +1,87 @@
 import React from "react";
-import {Link} from "react-scroll";
-import {NavLink} from "react-router-dom";
-import CareerBG from "../images/careers-page/careers-bg.jpg";
+import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
+import CareerBG from "../images/careers-page/Careerhome.png";
 import CareersDetails from "./Careers/CareersDetails";
 import OurCulture from "./Careers/OurCulture";
 import WeValueInnovation from "./Careers/WeValueInnovation";
-import JobLists from "./Careers/JobLists";
 import EmployeesSay from "./Careers/EmployeesSay";
+import CoreValues from "./Careers/CoreValues";
+import Opportunities from "./Careers/Opportunities";
+import Ourcore from "./Careers/Ourcorevalues";
+import Amnetfamily from "./Careers/Amnetfamily";
+import CurrentOpenings from "./Careers/CurrentOpenings";
 
-function TestCareers( ) {
+function TestCareers() {
     return (
-        <>
-            <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${CareerBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-                         <div className="row service-new-all-margin">
-                        <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
-                            <h2 className="textAnimation" data-text="Create Your Future!">
-                            Create Your Future
-                            </h2>
-                            <p>
-                            We are on a mission to solve world’s toughest problems. 
-                            Come join the fastest growing company in the region working in the hottest technology sector.
-                            </p>
-
-                            <div className="subService-AIML-intro-btn">
-                                {/* <a href="/casestudies">
-                                    <button type="button" className="btn btn-default">View Details</button>
-                                </a> */}
-                            <Link
-                            activeClass="active"
-                            to="details"
-                            spy={true}
-                            smooth={true}
-                            offset={-100}
-                            duration={500}>
-                            <button type="button" className="btn btn-default sub-service-view-details-btn">Learn more</button>
-                            </Link>
-                            <NavLink to="/contactus">
-                            <button type="button" className="btn btn-default sub-service-contact-us-btn">Contact Us</button>
-                            </NavLink>
-                            </div>
-                        </div>
-                        </div>
+        <>   
+            <div
+        className="sub-service-intro container-fluid position-realtive"
+        style={{
+          backgroundImage: `url(${CareerBG})`,
+          backgroundAttachment: "scroll",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "100% 100%",
+          top: "80px",
+          width: "100%",
+        }}
+      >
+        <div className="text-center-img">
+          <div className="row">
+            <div className="col-lg-1 col-md-1 col-sm-12"></div>
+            <div className="col-lg-6 col-md-6 col-sm-12">
+              <h2
+                className="fw-bold-600 text-white fs-35 text-capitalize"
+                data-text="Your Tech Innovation Catalyst"
+              >
+               Explore A World Of Opportunities
+              </h2>
+              <p className="fw-bold-400 fs-16 text-white mb-5 mt-4">
+              We believe in creating a diversified culture of the best talent for tech innovation, which reflects in everything we do with heart and mind.
+              </p>
+              <p className="fw-bold-400 fs-16 text-white mb-5 mt-4">Join us to find the purpose and help change the world!</p>
             </div>
-
-
-             {/* New Case Studies QUOTE SECTION */}
-             <div className="homepage-quote homepage-news-text">
-                <h2 className="text-center">
-                    "We are a fast growing AI/ML based Product Development Company"
-                </h2>
+            <div className="col-lg-5 col-md-5 col-sm-12"></div>
+          </div>
+        </div>
+        <div className="bottom-img w-100">
+          <div className="row">
+            <div className="col-lg-1 col-md-1 col-sm-12"></div>
+            <div className="col-lg-6 col-md-6 col-sm-12">
+              <p className="fs-24 fw-bold-600 text-white">Careers</p>
             </div>
+            <div className="col-lg-5 col-md-5 col-sm-12"></div>
+          </div>
+        </div>
+      </div>
 
-
-
-             {/* <!-- CAREER-PAGE-DETAILS-SECTION --> */}
-             <CareersDetails />
-
-
-
-              {/* <!-- CAREER-PAGE-OUR-CULTURE --> */}
-              <OurCulture />
-
-              {/* <!-- WE VALUE INNOVATION --> */}    
-              <WeValueInnovation />
+          
+           {/* <!-- WE VALUE INNOVATION --> */}
+           <WeValueInnovation />
 
               {/* <!-- JOB DESCRIPTIONS --> */}
-              <JobLists />
+              <CoreValues />
 
-              <EmployeesSay />
+           {/* <!-- WE ENCOURAGE --> */}
+              <Opportunities/>
 
-              {/* NEW HOMEPAGE CAREER SECTION */}
+               {/* <!-- CURRENT OPENINGS --> */}
+               <CurrentOpenings/>
 
-        <div className="new-career-section" style={{width:"auto", height:"auto", backgroundColor:"#19AF8F", padding:"30px",marginTop:"60px"}}>
 
-<div className="new-career-section new-all-margin">
+            {/* <!-- CAREER-PAGE-OUR-CULTURE --> */}
+            <OurCulture />
+ 
+           {/* <!-- OURCORE --> */}
+            <Ourcore/>
 
-    <div className="career-section-row row g-0">
-        <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-caption">
-            <h5>WORK WITH US</h5>
-            <h2>Let's Grow Together</h2>
-        </div>
-        <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-details">
-            <p>We are on a mission to solve complex problems and provide solutions 
-                that make a difference, Come work with us.
-            </p>
-            <a href="/contactus">
-                <button type="button" className="btn btn-default contact-us-button" >Contact Us</button>
-            </a>
-            <a href="/careers">
-                <button type="button" className="btn btn-default careers-button">Careers</button>
-            </a>
-        </div>
-    </div>
-</div>
-</div>
+           {/* <!-- AMNET-FAMILY --> */}
+           <Amnetfamily/>
+
+
+            {/* NEW HOMEPAGE CAREER SECTION */}
+
+            
         </>
     )
 }

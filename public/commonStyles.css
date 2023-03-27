@@ -10,6 +10,10 @@
   width: 95%;
 }
 
+.img-35 {
+  width: 35px;
+}
+
 .client-img {
   background: linear-gradient(180deg, #eaeaea 0%, #f7f7f7 100%);
 }
@@ -164,4 +168,20 @@
 
 .br-20 {
   border-radius: 20px;
+}
+.bottom-0 {
+  bottom: 0;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.col-container {
+  display: table;
+  width: 100%;
+}
+.column-eq-height {
+  display: table-cell;
 }

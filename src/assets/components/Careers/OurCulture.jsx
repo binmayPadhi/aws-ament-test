@@ -6,10 +6,10 @@ function OurCulture (){
     return (
         <>
             {/* <!-- CAREER-PAGE-OUR-CULTURE --> */}
-
+         <div className="bg-grey mt-5 mb-5 pt-2 pb-5">
             <div className="careers-our-culture-header text-center">
                 {/* <h3 className="section-header">IT'S EXCITING</h3> */}
-                <h1 data-aos="fade-up" data-aos-offset="200" className="section-title mt-3">OUR CULTURE/WORKSPACE</h1>     
+                <h1 data-aos="fade-up" data-aos-offset="200" className="section-title mt-3">OUR WORKSPACE</h1>     
             </div>
 
 
@@ -32,6 +32,7 @@ function OurCulture (){
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </>
     )

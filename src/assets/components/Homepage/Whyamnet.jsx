@@ -6,11 +6,11 @@ import image4 from "../../images/HomePage/smile.png";
 
 const Whyamnet = () => {
   return (
-    <div className="row pb-3 pt-3">
-      <div className="col-md-6 col-lg-6 col-xs-12 col-sm-12 border-col1 mb-5">
-        <div className="company_name text-center">Why Amnet Digital?</div>
+    <div className="row pb-3 pt-5">
+      <div className="col-md-6 col-lg-5 col-xs-12 col-sm-12 border-col1 mb-5">
+        <div className="company_name text-center">Why <br/>Amnet Digital?</div>
       </div>
-      <div className="col-md-6 col-lg-6 col-xs-12 col-sm-12 margin-75">
+      <div className="col-md-6 col-lg-7 col-xs-12 col-sm-12 margin-75">
         <div className="w-100 d-flex text-left">
           <span>
             <img src={image1} />

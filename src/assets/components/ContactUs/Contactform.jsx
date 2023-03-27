@@ -1,55 +1,9 @@
 import React, { useEffect, useState } from "react";
 import emailjs from "emailjs-com";
 import { Link } from "react-router-dom";
+import About from "../../Data/AboutUs-Data/About";
 
 const Contactform = () => {
-  const dropdownlist = [
-    {
-      id: 31,
-      name: "AI/ML",
-      link: "",
-    },
-    {
-      id: 32,
-      name: "Advanced Analytics",
-      link: "",
-    },
-    {
-      id: 33,
-      name: "Data Engineering",
-      link: "",
-    },
-    {
-      id: 34,
-      name: "Data Management",
-      link: "",
-    },
-    {
-      id: 35,
-      name: "Cloud Services",
-      link: "",
-    },
-    {
-      id: 36,
-      name: "User Experience",
-      link: "",
-    },
-    {
-      id: 37,
-      name: "Strategy & Consulting",
-      link: "",
-    },
-    {
-      id: 38,
-      name: "Data Annotation",
-      link: "",
-    },
-    {
-      id: 39,
-      name: "Quality Assurance",
-      link: "",
-    },
-  ];
   const [registerDetails, setregisterDetails] = useState({
     fName: "",
     lName: "",
@@ -289,9 +243,10 @@ const Contactform = () => {
                     className="form-select text-areainput select-height"
                     aria-label="Default select example"
                     onChange={handleChange}
+                    isSearchable="true"
                     name="selecteditem"
                   >
-                    {dropdownlist.map((list) => {
+                    {About.dropdownlist.map((list) => {
                       return (
                         <option key={list.id} value={list.name}>
                           {list.name}
