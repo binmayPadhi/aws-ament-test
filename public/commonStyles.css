@@ -185,3 +185,11 @@ input:focus {
 .column-eq-height {
   display: table-cell;
 }
+
+.border-grey {
+  border-bottom: 1px solid #747678;
+}
+
+.border-white {
+  border-bottom: 2px solid #ffffff;
+}
