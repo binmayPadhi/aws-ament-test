@@ -15,7 +15,7 @@ const Gotocontact = ({ componentFrom }) => {
         height: "600px",
       }}
     >
-      <div className="text-center-img position-relative">
+      <div className="text-center-img ">
         <p className="letpara text-center">Let’s work & grow together</p>
 
         <div className="w-90 mx-auto">
@@ -34,7 +34,7 @@ const Gotocontact = ({ componentFrom }) => {
                 <div className="col-md-3 col-lg-3 col-sm-12 col-sm-center col-md-right mt-1"></div>
                 <div className="col-md-3 col-lg-3 col-sm-12  mt-3">
                   <p className="content-button text-sm-center text-md-right">
-                    <span className="connect py-3 px-4">Connect with us</span>
+                    <span className="current-openings py-3 px-4">Connect with us</span>
                   </p>
                 </div>
                 <div className="col-md-3 col-lg-3 col-sm-12 mt-3">

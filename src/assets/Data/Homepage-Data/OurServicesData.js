@@ -1,10 +1,10 @@
 
 // NEW HOME OUR SERVICE SECTION
-import AimlDropdownIcon from "../../images/HomePage/our-services/ai-ml-icon.png";
+import AimlDropdownIcon from "../../images/HomePage/AI & ML.png";
 import DataManagementDropdownIcon from "../../images/HomePage/our-services/data-mgmt-icon.png";
 import AdvancedAnalyticsDropdownIcon from "../../images/HomePage/our-services/advanced-analytics-icon.png";
 import DataEngineeringDropdownIcon from "../../images/HomePage/our-services/data-engg-icon.png";
-import PlatformEngineeringDropdownIcon from "../../images/HomePage/our-services/platform-engg-icon.png";
+import cloud from "../../images/HomePage/cloud.png";
 import UXDropdownIcon from "../../images/HomePage/our-services/ux-icon.png";
 import CloudDropdownIcon from "../../images/HomePage/our-services/cloud-icon.png";
 import QADropdownIcon from "../../images/HomePage/our-services/qa-icon.png";
@@ -18,6 +18,14 @@ const OurServicesData = [
         serviceTitle : "AI & ML Services",
         serviceDesc : "Take advantage of the data-driven mindset that leverages cutting-edge technologies to develop world class solutions.",
         serviceIcon : AimlDropdownIcon
+        },
+    
+    {
+        id : "advanced-analytics",
+        serviceTitle : "Advanced Analytics",
+        serviceDesc : "Uncover complex patterns in your data to anticipate and prepare your business for the next business opportunity.",
+        // serviceIMG : AdvancedAnalyticsIMG,
+        serviceIcon : AdvancedAnalyticsDropdownIcon
     },
     {
         id : "data-management",
@@ -25,13 +33,6 @@ const OurServicesData = [
         serviceDesc : "Ensuring available, accurate, and accessible data. Transformation needs to take place in the way businesses consume data protection and cloud needs to be at the center of that evolution.",
         // serviceIMG : DataManagementIMG,
         serviceIcon : DataManagementDropdownIcon
-    },
-    {
-        id : "advanced-analytics",
-        serviceTitle : "Advanced Analytics",
-        serviceDesc : "Uncover complex patterns in your data to anticipate and prepare your business for the next business opportunity.",
-        // serviceIMG : AdvancedAnalyticsIMG,
-        serviceIcon : AdvancedAnalyticsDropdownIcon
     },
     {
         id : "data-engineering",
@@ -42,10 +43,10 @@ const OurServicesData = [
     },
     {
         id : "platform-engineering",
-        serviceTitle : "Platform Engineering",
-        serviceDesc : "Create strategic digital platform solutions that enable your business to go ahead of competition in the digital landscape. Client-focused, easy-to-consume technology solutions lead to tangible business results.",
+        serviceTitle : "Cloud",
+        serviceDesc : "Discover the most efficient way to deliver highly available services that can scale with your business growth and keep you ahead of competition.",
         // serviceIMG : PlatformEngineeringIMG,
-        serviceIcon : PlatformEngineeringDropdownIcon
+        serviceIcon : cloud
     },
     {
         id : "user-experience",

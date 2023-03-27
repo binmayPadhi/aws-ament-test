@@ -33,6 +33,9 @@
   color: #000000 !important;
   background: #ffffff;
   border-radius: 20px;
+  width: 10%;
+  display: table;
+  padding: 0px 10px;
 }
 
 .close_icon {

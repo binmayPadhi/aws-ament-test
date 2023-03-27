@@ -200,21 +200,23 @@ function Footer() {
   return (
     <>
       {/* <!-- FOOTER SECTION --> */}
-      <div className="container-fluid footer">
+      <div className="container-fluid footer pt-5 ">
         <div className="center-88">
           <p className="pt-4 text-center w-100">
             <img className="img-fluid logo w-25" src={amnetLogo} alt="logo" />
           </p>
-          <p className="pb-4 para_footer text-center w-100">
+          <p className="pb-4 para_footer text-center fs-13 font-weight-bold w-100">
             Subscribe for latest AI & Analytics News & Trends!
           </p>
           <p className="pb-4 input_field text-center w-100">
-            <input placeholder="Enter your business email" />
-            <span className="sub-icon">
-              <img src={submit_icon} />
-            </span>
+          <input type="text" className="icon-rtl"  placeholder="Enter your business email"/>
           </p>
-          <p className="row mx-0 mt-3 mb-3">
+          
+          
+        </div>
+        <div className="w-98 mx-auto">
+        <p className="row mx-0 mt-3 mb-3">
+          <div className="col-sm-12 col-xs-12 col-md-1 col-lg-1"></div>
             {footerlist.map((list) => {
               return (
                 <p
@@ -234,8 +236,10 @@ function Footer() {
                 </p>
               );
             })}
+             <div className="col-sm-12 col-xs-12 col-md-1 col-lg-1"></div>
           </p>
-        </div>
+          
+          </div>
       </div>
       <div className="container-fluid bg-white">
         <div className="center-88">
