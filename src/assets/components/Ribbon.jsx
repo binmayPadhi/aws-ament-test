@@ -11,23 +11,23 @@ const Ribbon = ({ checkRibbon }) => {
   };
   return (
     <>
-      <div className="ribbonBackground py-4">
+      <div className="ribbonBackground py-2">
         <div className="w-98 mx-auto">
           <div className="row mx-0">
             <div className="col-md-1 col-lg-1 col-sm-12"></div>
             <div className="col-md-10 col-lg-10 col-sm-12">
-              <p className="mb-0 text-center mt-2">
+              <p className="mb-0 text-center">
                 <div className="d-flex w-100 align-items-center justify-content-center">
                   <img src={notification} alt="speaker" className="img-35" />
                   <span className="ribbon_content px-2 mb-0">
                     On-Demand Webinar - See how leading Retailers are embracing
                     AI & Analytics to win in 2023
                   </span>
-                  <span className="btn-ribbon py-2 mt-1 mb-0">
+                  <span className="btn-ribbon mt-1 mb-0">
                     <Link
                       to="/webinar-reshaping-the-retail-industry-through-AI"
                       target="_blank"
-                      className="text-dark"
+                      className="text-dark fs-13 fw-bold-700"
                     >
                       Watch now
                     </Link>
