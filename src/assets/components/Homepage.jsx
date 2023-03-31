@@ -32,7 +32,6 @@ const Test = () => {
   const [navColor, setNavcolor] = useState("homepage");
 
   const changeNavbarColor = () => {
-    console.log(window.scrollY);
     if (window.scrollY >= 350) {
       setNavcolor("app");
     } else {
