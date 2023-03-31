@@ -38,6 +38,18 @@
   padding: 0px 10px;
 }
 
+.btn-ribbon-mob {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  color: #000000 !important;
+  background: #ffffff;
+  display: table;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+
 .close_icon {
   font-size: 18px;
   color: #3c2577;
@@ -45,6 +57,13 @@
   border-radius: 100%;
   width: 30px;
   height: 30px;
+  text-align: right;
+  cursor: pointer;
+}
+
+.close_icon_mob {
+  font-size: 24px;
+  color: #ffffff;
   text-align: right;
   cursor: pointer;
 }

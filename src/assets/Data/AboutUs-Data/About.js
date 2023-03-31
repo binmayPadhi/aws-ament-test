@@ -25,6 +25,7 @@ import impact from "../../images/careers-page/impact.png";
 import development from "../../images/careers-page/development.png";
 import progress from "../../images/careers-page/progress.png";
 import support from "../../images/careers-page/support.png";
+import Trolly from "../../images/HomePage/Trolly.png";
 
 const Aboutdata = {
   whoweare: [
@@ -257,6 +258,70 @@ const Aboutdata = {
       heading: "Happy customers",
       description:
         "Empowering our customers to achieve their business goals consistently leveraging our deep technology experience without negotiating on the quality.",
+    },
+  ],
+  industries: [
+    {
+      id: 1,
+      name: "Retail",
+      color: "rgba(217, 217, 217, 1)",
+      image: Trolly,
+      heading: "AI/ML and Data Analytics solutions for Retail",
+      description:
+        "We help retail businesses to unpack the power of artificial intelligence and accelerate digital transformation with our custom AI and Data Analytics solutions. We design and deploy advanced AI algorithms to reduce costs, streamline processes and automate workflows leveraging machine learning.",
+    },
+    {
+      id: 2,
+      name: "Finance",
+      color: "rgba(217, 217, 217, 0.8)",
+      image: Trolly,
+      heading: "AI/ML and Data Analytics solutions for Retail",
+      description:
+        "We help retail businesses to unpack the power of artificial intelligence and accelerate digital transformation with our custom AI and Data Analytics solutions. We design and deploy advanced AI algorithms to reduce costs, streamline processes and automate workflows leveraging machine learning.",
+    },
+    {
+      id: 3,
+      name: "Healthcare",
+      color: "rgba(217, 217, 217, 0.6)",
+      image: Trolly,
+      heading: "AI/ML and Data Analytics solutions for Retail",
+      description:
+        "We help retail businesses to unpack the power of artificial intelligence and accelerate digital transformation with our custom AI and Data Analytics solutions. We design and deploy advanced AI algorithms to reduce costs, streamline processes and automate workflows leveraging machine learning.",
+    },
+    {
+      id: 4,
+      name: "Information Management",
+      color: "rgba(217, 217, 217, 0.4)",
+      image: Trolly,
+      heading: "AI/ML and Data Analytics solutions for Retail",
+      description:
+        "We help retail businesses to unpack the power of artificial intelligence and accelerate digital transformation with our custom AI and Data Analytics solutions. We design and deploy advanced AI algorithms to reduce costs, streamline processes and automate workflows leveraging machine learning.",
+    },
+    {
+      id: 5,
+      name: "HRMS",
+      color: "rgba(217, 217, 217, 0.2)",
+      image: Trolly,
+      heading: "AI/ML and Data Analytics solutions for Retail",
+      description:
+        "We help retail businesses to unpack the power of artificial intelligence and accelerate digital transformation with our custom AI and Data Analytics solutions. We design and deploy advanced AI algorithms to reduce costs, streamline processes and automate workflows leveraging machine learning.",
+    },
+  ],
+  homemainimg: [
+    {
+      id: 1,
+      description: "Empowering retailers to become data-driven organizations",
+      subHeading: "AI & ML Services",
+    },
+    {
+      id: 2,
+      description: "Unpack business insights to identify new opportunities",
+      subHeading: "Advanced Analytics",
+    },
+    {
+      id: 3,
+      description: "Turn your data into a strategic and valuable asset",
+      subHeading: "Data Management",
     },
   ],
 };

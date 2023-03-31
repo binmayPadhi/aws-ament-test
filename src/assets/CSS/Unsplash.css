@@ -34,7 +34,9 @@
 .current-openings {
   cursor: pointer;
   background: #1dad8f;
-  border-radius: 34px;
+  border-radius: 4px;
+  width:227px;
+  height:45px;
 }
 
 .lets-connect {

@@ -1,11 +1,11 @@
 import React from "react";
-import servicesJson from "../../Data/Services-Data/ExploreservicesData";
+import { Link } from "react-router-dom";
 
-const Exploreservices = () => {
+const Exploreservices = ({ selectedServicesobj }) => {
   return (
     <>
       <div className="row">
-        {servicesJson.map((response) => {
+        {selectedServicesobj.services.map((response) => {
           return (
             <div
               key={response.id}
@@ -16,7 +16,7 @@ const Exploreservices = () => {
                   : "col-md-12 col-lg-12")
               }
             >
-              <div className="container-box column-eq-height ">
+              <div className="container-box column-eq-height position-relative">
                 {response["side-image"] === null ? (
                   <>
                     <div className="p-5">
@@ -24,8 +24,10 @@ const Exploreservices = () => {
                       <p className="statistics-para">{response.description}</p>
                     </div>
                     <div className="d-flex flex-row justify-content-end">
-                      <span className="small-grey-box">
-                        <img src={response["arrow-image"]} />
+                      <span className="small-grey-box position-absolute bottom-0 cr-pointer">
+                        <Link to={`/services/${selectedServicesobj.link}`}>
+                          <img src={response["arrow-image"]} />
+                        </Link>
                       </span>
                     </div>
                   </>
@@ -48,8 +50,10 @@ const Exploreservices = () => {
                           </p>
                         </div>
                         <div className="d-flex flex-row justify-content-end">
-                          <span className="small-grey-box position-absolute bottom-0">
-                            <img src={response["arrow-image"]} />
+                          <span className="small-grey-box position-absolute bottom-0 cr-pointer">
+                            <Link to={`/services/${selectedServicesobj.link}`}>
+                              <img src={response["arrow-image"]} />
+                            </Link>
                           </span>
                         </div>
                       </div>

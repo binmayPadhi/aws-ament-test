@@ -61,11 +61,11 @@
 
 .explore_services {
   background: #1dad8f;
-  border-radius: 34px;
+  border-radius: 4px;
   color: #ffffff;
   display: table;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   font-family: "Poppins";
   font-style: normal;
   cursor: pointer;

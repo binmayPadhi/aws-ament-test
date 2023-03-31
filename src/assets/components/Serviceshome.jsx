@@ -3,15 +3,23 @@ import { Link } from "react-router-dom";
 import ServiceBG from "../images/Service-Page/service-main-bg.png";
 import borderBg from "../images/Service-Page/border.png";
 import thinborder from "../images/Service-Page/thin-border.png";
-import About from "../Data/AboutUs-Data/About";
 import Exploreservices from "./SubServices/Exploreservices";
 import Driveservices from "./SubServices/Driveservices";
 import Whyamnet from "./Homepage/Whyamnet";
 import OurPartner from "./Homepage/OurPartner";
 import Resourceweb from "./SubServices/Resourceweb";
 import Case from "./SubServices/Caseservice";
+import servicejson from "../Data/Services-Data/Homeservices";
+import { useState } from "react";
 
 const Serviceshome = () => {
+  const [selectedServices, setSelectedservice] = useState(servicejson[1].name);
+  const [selectedServicesobj, setSelectedserviceobj] = useState(servicejson[1]);
+  const fetchService = (e, obj) => {
+    e.preventDefault();
+    setSelectedservice(obj.name);
+    setSelectedserviceobj(obj);
+  };
   return (
     <>
       <div
@@ -72,21 +80,22 @@ const Serviceshome = () => {
                 className="mt-5"
               ></p>
               <p className="mt-5">
-                {About.dropdownlist.map((list) => {
+                {servicejson.map((list) => {
                   return (
                     <>
                       <p
                         key={list.id}
-                        className="fw-bold-400 fs-16 text-black text-left lh-50 cr-pointer"
+                        onClick={(e) => fetchService(e, list)}
+                        className={
+                          "fs-16 text-black text-left lh-50 cr-pointer " +
+                          (list["name"] === selectedServices
+                            ? "fw-bold-800"
+                            : "fw-bold-400")
+                        }
                       >
-                        <a
-                          className="text-black text-decoration-none"
-                          href={`/services/${list.link}`}
-                        >
-                          {list.name}
-                        </a>
+                        {list.name}
                       </p>
-                      {list.id != 30 && list.id != 39 ? (
+                      {list.id != 30 && list.id != 40 ? (
                         <p
                           style={{
                             backgroundImage: `url(${thinborder})`,
@@ -114,21 +123,27 @@ const Serviceshome = () => {
           >
             <div className="w-95 mx-auto py-5">
               <h5 className="text-left fw-bold-700 fs-32 text-black">
-                AI & ML Services
+                {selectedServicesobj["heading"]}
               </h5>
               <p className="fs-16 fw-bold-400 text-blackrock mt-3">
-                Our software development company delivers corporate and consumer
-                applications based on our profound understanding of technologies
-                and the markets they operate in. With our professional mindset,
-                we look beyond technology to offer viable solutions for your
-                particular business context.
+                {selectedServicesobj["headingDescription"]}
               </p>
-              <p className="fs-16 fw-bold-400" style={{ color: "#1DAD8F" }}>
-                Explore more Services{" "}
-                <span className="my-2 d-inline-block fs-18">{"->"}</span>
+
+              <p>
+                <Link to={`/services/${selectedServicesobj.link}`}>
+                  <span
+                    className="fs-16 fw-bold-400 text-decoration-none"
+                    style={{ color: "#1DAD8F" }}
+                  >
+                    Explore more Services{" "}
+                  </span>
+                  <span className="my-2 d-inline-block fs-18 text-decoration-none">
+                    {"->"}
+                  </span>
+                </Link>
               </p>
               <p>
-                <Exploreservices />
+                <Exploreservices selectedServicesobj={selectedServicesobj} />
               </p>
             </div>
           </div>

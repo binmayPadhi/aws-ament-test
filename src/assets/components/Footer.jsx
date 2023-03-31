@@ -18,12 +18,12 @@ function Footer() {
         {
           id: "11",
           name: "About Us",
-          link: "",
+          link: "/aboutus",
         },
         {
           id: "12",
           name: "Careers",
-          link: "",
+          link: "/careers",
         },
         {
           id: "13",
@@ -60,47 +60,47 @@ function Footer() {
         {
           id: 31,
           name: "AI/ML",
-          link: "",
+          link: "/services/aiml",
         },
         {
           id: 32,
           name: "Advanced Analytics",
-          link: "",
+          link: "/services/advancedanalytics",
         },
         {
           id: 33,
           name: "Data Engineering",
-          link: "",
+          link: "/services/dataengineering",
         },
         {
           id: 34,
           name: "Data Management",
-          link: "",
+          link: "/services/datamanagement",
         },
         {
           id: 35,
           name: "Cloud Services",
-          link: "",
+          link: "/services/cloudservices",
         },
         {
           id: 36,
           name: "User Experience",
-          link: "",
+          link: "/services/userexperinces",
         },
         {
           id: 37,
           name: "Strategy & Consulting",
-          link: "",
+          link: "/services/strategyandconsulting",
         },
         {
           id: 38,
           name: "Data Annotation",
-          link: "",
+          link: "/services/dataannotation",
         },
         {
           id: 39,
           name: "Quality Assurance",
-          link: "",
+          link: "/services/qualityassurance",
         },
       ],
     },
@@ -200,7 +200,7 @@ function Footer() {
   return (
     <>
       {/* <!-- FOOTER SECTION --> */}
-      <div className="container-fluid footer pt-5 ">
+      <div className="container-fluid footer pt-5 pb-b-5">
         <div className="center-88">
           <p className="pt-4 text-center w-100">
             <img className="img-fluid logo w-25" src={amnetLogo} alt="logo" />
@@ -208,15 +208,28 @@ function Footer() {
           <p className="pb-4 para_footer text-center fs-13 font-weight-bold w-100">
             Subscribe for latest AI & Analytics News & Trends!
           </p>
-          <p className="pb-4 input_field text-center w-100">
-          <input type="text" className="icon-rtl"  placeholder="Enter your business email"/>
-          </p>
-          
-          
+          <div className="row">
+            <div className="col-md-3 col-lg-3 col-sm-12"></div>
+            <div className="col-md-6 col-lg-6 col-sm-12 w-100">
+              <p className="pb-4 input_field w-100">
+                <input
+                  type="text"
+                  className="text-width w-100 position-relative"
+                  placeholder="Enter your business email"
+                />
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/3652/3652532.png"
+                  width="25"
+                  className="position-absolute icon-footer"
+                />
+              </p>
+            </div>
+            <div className="col-md-3 col-lg-3 col-sm-12"></div>
+          </div>
         </div>
-        <div className="w-98 mx-auto">
-        <p className="row mx-0 mt-3 mb-3">
-          <div className="col-sm-12 col-xs-12 col-md-1 col-lg-1"></div>
+        <div className="w-98 mx-auto mb-5">
+          <p className="row mx-0 mt-3 mb-3">
+            <div className="col-sm-12 col-xs-12 col-md-1 col-lg-1"></div>
             {footerlist.map((list) => {
               return (
                 <p
@@ -227,8 +240,13 @@ function Footer() {
                   <ul className="pt-3">
                     {list.sublist.map((val) => {
                       return (
-                        <li key={val.id} className="listName">
-                          {val.name}
+                        <li key={val.id}>
+                          <Link
+                            to={val.link}
+                            className="listName cr-pointer text-decoration-none fs-13 text-black"
+                          >
+                            {val.name}
+                          </Link>
                         </li>
                       );
                     })}
@@ -236,10 +254,9 @@ function Footer() {
                 </p>
               );
             })}
-             <div className="col-sm-12 col-xs-12 col-md-1 col-lg-1"></div>
+            <div className="col-sm-12 col-xs-12 col-md-1 col-lg-1"></div>
           </p>
-          
-          </div>
+        </div>
       </div>
       <div className="container-fluid bg-white">
         <div className="center-88">

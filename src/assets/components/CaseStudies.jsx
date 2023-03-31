@@ -1,123 +1,118 @@
 import React from "react";
-import {NavLink} from "react-router-dom";
-import {Link} from "react-scroll";
-import CaseStudiesBG from "../images/Case-Studies-Page/cs-bg.jpg";
+import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
+
+import CaseStudiesBG from "../images/Case-Studies-Page/casestudies.png";
 import CaseStudiesData from "../Data/CaseStudies-Data/CaseStudiesData";
 
-function TestCaseStudies ( ) {
-    return(
+function TestCaseStudies() {
+    return (
         <>
-                <div className="sub-service-intro container-fluid" style={{backgroundImage:`url(${CaseStudiesBG})`,backgroundAttachment:"scroll",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-                         <div className="row">
-                        <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
-                            <h2 className="textAnimation" data-text="Making A Difference!">
-                            Making A Difference
+            <div
+                className="sub-service-intro container-fluid position-realtive"
+                style={{
+                    backgroundImage: `url(${CaseStudiesBG})`,
+                    backgroundAttachment: "scroll",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "100% 100%",
+                    top: "80px",
+                    width: "100%",
+                }}
+            >
+                <div className="text-center-img">
+                    <div className="row">
+                        <div className="col-lg-1 col-md-1 col-sm-12"></div>
+                        <div className="col-lg-6 col-md-6 col-sm-12">
+                            <h2
+                                className="fw-bold-600 text-white fs-35 text-capitalize"
+                                data-text="Your Tech Innovation Catalyst"
+                            >
+                                Explore A World Of Opportunities
                             </h2>
-                            <p>
-                            We adopt a bottom-up approach starting with strategy support through discovery and analysis of existing systems 
-                            and processes and their 
-                            limitations maximizing the leverage of knowledge and results in higher value generation.
+                            <p className="fw-bold-400 fs-16 text-white mb-5 mt-4">
+                                We believe in creating a diversified culture of the best talent for tech innovation, which reflects in everything we do with heart and mind.
                             </p>
-
-                            <div className="subService-AIML-intro-btn">
-                                {/* <a href="/casestudies">
-                                    <button type="button" className="btn btn-default">View Details</button>
-                                </a> */}
-                            <Link
-                            activeClass="active"
-                            to="details"
-                            spy={true}
-                            smooth={true}
-                            offset={-100}
-                            duration={500}>
-                            <button type="button" className="btn btn-default sub-service-view-details-btn">Learn more</button>
-                            </Link>
-
-                            <NavLink to="/contactus">
-                            <button type="button" className="btn btn-default sub-service-contact-us-btn">Contact Us</button>
-                            </NavLink>
-                            </div>
+                            <p className="fw-bold-400 fs-16 text-white mb-5 mt-4">Join us to find the purpose and help change the world!</p>
                         </div>
+                        <div className="col-lg-5 col-md-5 col-sm-12"></div>
+                    </div>
+                </div>
+                <div className="bottom-img w-100">
+                    <div className="row">
+                        <div className="col-lg-1 col-md-1 col-sm-12"></div>
+                        <div className="col-lg-6 col-md-6 col-sm-12">
+                            <p className="fs-24 fw-bold-600 text-white">Careers</p>
                         </div>
+                        <div className="col-lg-5 col-md-5 col-sm-12"></div>
+                    </div>
+                </div>
             </div>
 
 
-             {/* New Case Studies QUOTE SECTION */}
-             <div className="homepage-quote homepage-news-text">
-                <h2 className="text-center">
-                    "Products & Solutions that make a difference!"
-                </h2>
-            </div>
+            {/* New Case Studies QUOTE SECTION */}
+           
 
 
 
 
             {/* <!-- CASE STUDIES PAGE ALL CASE STUDIES --> */}
-            <div className="case-studies-page-all-case-studies new-all-margin " id="details">
-                    <div className="row case-studies-page-row ml-0 mr-0">
-                        {CaseStudiesData.map(caseStudy => {
-                            return (
-                                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 case-studies-list new-case-studies-list p-2" id={caseStudy.id} key ={caseStudy.id}>
-                                    <div className="card animation-card-image case-studies-page-card">
-                                        <img loading="lazy" className="img-fluid card-img-top" src={caseStudy.caseStudiesIMG} alt ="case-studies"/>
-                                        <div className="card-body">
-                                            {/* <span className="case-studies-icon"><img className="img-fluid" src={caseStudy.caseStudiesIcon} alt ="case-studies-icon"/> </span> */}
-                                            <h2 className="case-studies-page-card-title card-title">{caseStudy.newTitle}</h2>
-                                            <div className="case-studies-page-card-info mt-5">
-                                                <h4>{caseStudy.requirement}</h4>
-                                                <p>{caseStudy.requirementDesc}</p>
+            <div className="top-space">
+            <div className="container new-all-margin" id="details">
+                <div className="row case-studies-page-row ml-0 mr-0">
+                    {CaseStudiesData.map(caseStudy => {
+                        return (
+                            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 case-studies-list new-case-studies-list " id={caseStudy.id} key={caseStudy.id}>
+                                <div className="card">
+                                    <img loading="lazy" className="img-risk" src={caseStudy.caseStudiesIMG} alt="case-studies" />
+                                    <div className="card-body">
+                                        {/* <span className="case-studies-icon"><img className="img-fluid" src={caseStudy.caseStudiesIcon} alt ="case-studies-icon"/> </span> */}
+                                        <h2 className="fs-16 fw-bold-700">{caseStudy.newTitle}</h2>
+                                        <div className=" mt-5">
+                                            <h1 className="fs-14 fw-bold-600 text-requirement">{caseStudy.requirement}</h1>
+                                            <p className="fs-14 fw-bold-400 text-requirement">{caseStudy.requirementDesc}</p>
 
-                                                <h4>{caseStudy.solution}</h4>
-                                                <p>
-                                                    {caseStudy.solutionDesc}
-                                                </p>
+                                            <h1 className="fs-14 fw-bold-600 text-requirement">{caseStudy.solution}</h1>
+                                            <p className="fs-14 fw-bold-400 text-requirement">
+                                                {caseStudy.solutionDesc}
+                                            </p>
 
-                                                <h4>{caseStudy.highlight}</h4>
-                                                <p>
-                                                    {caseStudy.highlightDesc}
-                                                </p>
+                                            <h1 className="fs-14 fw-bold-600 text-requirement">{caseStudy.highlight}</h1>
+                                            <p  className="fs-14 fw-bold-400 text-requirement">
+                                                {caseStudy.highlightDesc}
+                                            </p>
 
-                                                <h4>{caseStudy.benefits}</h4>
-                                                <p>
-                                                    {caseStudy.benefitDesc}
-                                                </p>
-                                            </div>
+                                            <h1 className="fs-14 fw-bold-600 text-requirement">{caseStudy.benefits}</h1>
+                                            <p  className="fs-14 fw-bold-400 text-requirement">
+                                                {caseStudy.benefitDesc}
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
-                            )
-                        })}
+                            </div>
+                        )
+                    })}
+                </div>
+            </div>
+            </div>
+
+
+
+
+            {/* NEW HOMEPAGE CAREER SECTION */}
+
+            <div className="gradient-box-let">
+                <div className="container">
+                    <div className="row d-flex">
+                        <div className="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                            <h1 className="fs-20 fw-bold-700 text-white text-left">Do you have any technology challenges that are slowing down your business growth?</h1>
+                            <p className="fs-16 fw-bold-400 text-white text-left  mt-4">If so, let's connect with one of our technical experts to develop and deploy a custom solution or product and overcome your business challenge!</p>
+                        </div>
+                        <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 my-auto">
+                            <button className="fs-18 fw-bold-700 mail-button">Let’s connect</button>
+                        </div>
                     </div>
                 </div>
-
-
-
-
-                {/* NEW HOMEPAGE CAREER SECTION */}
-
-        <div  style={{width:"auto", height:"auto", backgroundColor:"#19AF8F", padding:"30px",marginTop:"60px"}}>
-
-<div className="new-career-section new-all-margin">
-
-    <div className="career-section-row row g-0">
-        <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-caption">
-            <h5>WORK WITH US</h5>
-            <h2>Let's Grow Together</h2>
-        </div>
-        <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-details">
-            <p>We are on a mission to solve complex problems and provide solutions 
-                that make a difference, Come work with us.
-            </p>
-            <a href="/contactus">
-                <button type="button" className="btn btn-default contact-us-button" >Contact Us</button>
-            </a>
-            <a href="/careers">
-                <button type="button" className="btn btn-default careers-button">Careers</button>
-            </a>
-        </div>
-    </div>
-</div>
-</div>
+            </div>
         </>
     )
 }
