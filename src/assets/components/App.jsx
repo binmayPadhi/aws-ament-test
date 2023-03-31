@@ -1,5 +1,5 @@
-import React from "react";
-import { Route, Routes } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Route, Routes, useLocation } from "react-router-dom";
 import Homepage from "./Homepage";
 import ContactUs from "./ContactUs";
 import AboutUs from "./AboutUs";
@@ -19,16 +19,24 @@ import Termsandconditions from "./Termsandconditions/Termsandconditions";
 import Legalterms from "./Homepage/Legaterms";
 import AIservices from "./SubServices/AIMLservices";
 import Serviceshome from "./Serviceshome";
+import Blog from "./Resources/Blog";
 
 function App() {
+  const [navColor, setNavcolor] = useState("");
+  const location = useLocation();
+  useEffect(() => {
+    setNavcolor("app");
+  }, [location]);
   const url = window.location.pathname;
   return (
     <>
-      {url != "/webinar-reshaping-the-retail-industry-through-AI" &&
-      url != "/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
-      url != "/swiftinisghts-Webinar" ? (
+      {url != "/blog/webinar-reshaping-the-retail-industry-through-AI" &&
+      url !=
+        "/blog/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
+      url != "/blog/swiftinisghts-Webinar" &&
+      url != "/" ? (
         <div>
-          <Navbar />
+          <Navbar navChange={navColor} />
         </div>
       ) : null}
       <div>
@@ -43,32 +51,37 @@ function App() {
           <Route path="/casestudies" element={<CaseStudies />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/legalresources" element={<Legalterms />} />
-          <Route
-            path="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
-            element={<Insight />}
-          />
-          <Route
-            exact
-            path="/swiftinisghts-Webinar"
-            element={<SwiftInisghtsWebinar />}
-          />
+          <Route path="/blog" element={<Blog />}>
+            <Route exact path="" element={<Insight />} />
+            <Route
+              exact
+              path="blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
+              element={<Insight />}
+            />
+            <Route
+              exact
+              path="swiftinisghts-Webinar"
+              element={<SwiftInisghtsWebinar />}
+            />
+            <Route
+              path="webinar-reshaping-the-retail-industry-through-AI"
+              element={<Thankswebinar />}
+            />
+            <Route
+              path="webinar-thank-you-reshaping-the-retail-industry-through-AI"
+              element={<Videowebinar />}
+            />
+          </Route>
           <Route path="/cookiespolicy" element={<CookiesPolicy />} />
           <Route path="/privacypolicy" element={<Privacypolicy />} />
           <Route path="/termsandconditions" element={<Termsandconditions />} />
-          <Route
-            path="/webinar-reshaping-the-retail-industry-through-AI"
-            element={<Thankswebinar />}
-          />
-          <Route
-            path="/webinar-thank-you-reshaping-the-retail-industry-through-AI"
-            element={<Videowebinar />}
-          />
           <Route path="/:id" element={<AIML />} />
         </Routes>
       </div>
-      {url != "/webinar-reshaping-the-retail-industry-through-AI" &&
-      url != "/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
-      url != "/swiftinisghts-Webinar" ? (
+      {url != "blog/webinar-reshaping-the-retail-industry-through-AI" &&
+      url !=
+        "blog/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
+      url != "blog/swiftinisghts-Webinar" ? (
         <div>
           <Footer />
         </div>

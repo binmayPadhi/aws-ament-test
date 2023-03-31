@@ -42,7 +42,7 @@ function OurServices() {
                 <Card.Footer>
                   <Card.Text>
                     <a
-                      href={`/${data.id}`}
+                      href={`/services/${data.link}`}
                       className="more-explore pb-2"
                     >{`Explore ->`}</a>
                   </Card.Text>

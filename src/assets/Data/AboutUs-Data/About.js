@@ -307,6 +307,23 @@ const Aboutdata = {
         "We help retail businesses to unpack the power of artificial intelligence and accelerate digital transformation with our custom AI and Data Analytics solutions. We design and deploy advanced AI algorithms to reduce costs, streamline processes and automate workflows leveraging machine learning.",
     },
   ],
+  homemainimg: [
+    {
+      id: 1,
+      description: "Empowering retailers to become data-driven organizations",
+      subHeading: "AI & ML Services",
+    },
+    {
+      id: 2,
+      description: "Unpack business insights to identify new opportunities",
+      subHeading: "Advanced Analytics",
+    },
+    {
+      id: 3,
+      description: "Turn your data into a strategic and valuable asset",
+      subHeading: "Data Management",
+    },
+  ],
 };
 
 export default Aboutdata;

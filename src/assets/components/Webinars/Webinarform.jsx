@@ -38,7 +38,7 @@ const Webinarform = (props) => {
   };
 
   // const redirect = () => {
-  //   <Redirect to="/webinar-thank-you-reshaping-the-retail-industry-through-AI " />;
+  //   <Redirect to="/blog/webinar-thank-you-reshaping-the-retail-industry-through-AI " />;
   // };
   // "template_3xhvl04",
 
@@ -72,7 +72,7 @@ const Webinarform = (props) => {
             acceptCheckbox: false,
           }),
           history(
-            `/webinar-thank-you-reshaping-the-retail-industry-through-AI`
+            `/blog/webinar-thank-you-reshaping-the-retail-industry-through-AI`
           ),
           (error) => {
             console.log(error.text);

@@ -347,16 +347,16 @@ body {
   margin-top: 50px;
 }
 
-.carousel .carousel-indicators .active {
+/* .carousel .carousel-indicators .active {
   height: 15px;
   width: 15px;
   border-radius: 50%;
   background-color: #6d6d6d;
   margin-bottom: -20rem;
-}
+} */
 
 .carousel-indicators {
-  top: 100%;
+  top: 105%;
 }
 
 .carousel-control-prev-icon {
@@ -552,7 +552,7 @@ body {
   font-weight: 400;
 }
 
-.footer p a {
+/* .footer p a {
   font-family: "Poppins", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
@@ -560,7 +560,7 @@ body {
   margin-top: 10px;
   color: white;
   text-decoration: underline;
-}
+} */
 
 .ISOCeritfied {
   display: flex;
@@ -6208,7 +6208,7 @@ label {
   font-size: 18px;
   color: #ffffff;
   background: #ff6e31;
-  border-radius: 48px;
+  border-radius: 4px;
   display: table;
   padding: 10px;
 }

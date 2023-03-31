@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import amnetLogo from "../images/HomePage/amnetdigitalblack.png";
 import AimlDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-ai-ml.png";
 import DataManagementDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-data-mgmt.png";
@@ -11,19 +11,19 @@ import CloudDropdownIcon from "../images/Service-Page/service-dropdown-icons/ser
 import QADropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-qa.png";
 import ConsultingDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-strat-consult.png";
 import DataAnnotationDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-data-annotation.png";
+import amnetLogo1 from "../images/HomePage/ad-white.png";
 import "../CSS/Navbar.css";
 import { useEffect } from "react";
 import Ribbon from "./Ribbon";
 import { useState } from "react";
 
-function Navbar() {
+function Navbar(props) {
   useEffect(() => {
     const header = new Headers();
     header.append("X-Content-Type-Options", "nosniff");
     header.append("X-Frame-Options", "Deny");
   });
   const navStyle = {
-    color: "black",
     textDecoration: "none",
     fontSize: "14px",
     fontFamily: `'Poppins', sans-serif`,
@@ -31,10 +31,10 @@ function Navbar() {
     padding: "20px 15px",
     height: "73px",
     fontWeight: "700",
+    color: "#000000",
   };
 
   const navStyle1 = {
-    color: "black",
     textDecoration: "none",
     fontSize: "14px",
     fontFamily: `'Poppins', sans-serif`,
@@ -126,10 +126,18 @@ function Navbar() {
         showRibbon === true ? (
           <Ribbon checkRibbon={checkRibbon} />
         ) : null}
-        <div className="navigation-bar">
+        <div
+          className={
+            "navigation-bar " + (props.navChange === "app" ? "bg-white" : "")
+          }
+        >
           <nav className="navbar navbar-expand-lg ">
             <a href="/" className="navbar-brand active pb-2">
-              <img className="img-fluid logo" src={amnetLogo} alt="logo" />
+              <img
+                className="img-fluid logo"
+                src={props.navChange === "app" ? amnetLogo : amnetLogo1}
+                alt="logo"
+              />
             </a>
             {/* <!-- navigation bar logo --> */}
             <button
@@ -152,6 +160,9 @@ function Navbar() {
                 <NavLink
                   to="/aboutus"
                   style={navStyle}
+                  className={
+                    props.navChange === "app" ? "text-black" : "text-white"
+                  }
                   activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                 >
                   About Us
@@ -169,11 +180,13 @@ function Navbar() {
                   <NavLink
                     to="/services"
                     style={serviceDropdown}
+                    className={
+                      props.navChange === "app" ? "text-black" : "text-white"
+                    }
                     activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                   >
                     Services
                   </NavLink>
-
                   <div
                     className="dropdown-content"
                     onClick={() => hideDropdown("service")}
@@ -737,6 +750,9 @@ function Navbar() {
                   to="/casestudies"
                   onClick={() => (window.location.href = "/casestudies")}
                   style={navStyle}
+                  className={
+                    props.navChange === "app" ? "text-black" : "text-white"
+                  }
                   activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                 >
                   Case Studies
@@ -746,6 +762,9 @@ function Navbar() {
                 {/* <div style={{padding:"15px 0px 0px 0px"}}> */}
                 <NavLink
                   to="/careers"
+                  className={
+                    props.navChange === "app" ? "text-black" : "text-white"
+                  }
                   onClick={() => (window.location.href = "/careers")}
                   style={navStyle}
                   activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
@@ -761,12 +780,12 @@ function Navbar() {
                   activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                 >
                   <NavLink
-                    to="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
-                    onClick={() =>
-                      (window.location.href =
-                        "/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry")
-                    }
+                    to="/blog"
+                    onClick={() => (window.location.href = "/blog")}
                     style={navStyle}
+                    className={
+                      props.navChange === "app" ? "text-black" : "text-white"
+                    }
                     activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                   >
                     Insights
@@ -781,7 +800,7 @@ function Navbar() {
                           <div className="col-10 service-dropdown-link">
                             <p className="sub-service-links-insights">
                               <NavLink
-                                to={`/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry`}
+                                to={`/blog/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry`}
                                 activeStyle={{
                                   color: "#19AF8F",
                                   textDecoration: "none",
@@ -791,7 +810,7 @@ function Navbar() {
                               </NavLink>
                               <NavLink
                                 target={"_blank"}
-                                to={`/webinar-reshaping-the-retail-industry-through-AI`}
+                                to={`/blog/webinar-reshaping-the-retail-industry-through-AI`}
                                 activeStyle={{
                                   color: "#19AF8F",
                                   textDecoration: "none",
@@ -819,7 +838,7 @@ function Navbar() {
                     aria-expanded="false"
                   >
                     <NavLink
-                      to="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
+                      to="/blog"
                       style={navStyle}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                     >
@@ -835,14 +854,14 @@ function Navbar() {
                   >
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry`}
+                      to={`/blog/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry`}
                     >
                       Blogs
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
                       target={"_blank"}
-                      to={`/webinar-reshaping-the-retail-industry-through-AI`}
+                      to={`/blog/webinar-reshaping-the-retail-industry-through-AI`}
                     >
                       Webinars
                     </NavLink>

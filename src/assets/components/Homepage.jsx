@@ -1,16 +1,15 @@
-import React, { Suspense } from "react";
-import HomeBG from "../images/HomePage/home_new_bg.png";
+import React, { Suspense, useState } from "react";
 import OurServicesSection from "../components/Homepage/OurServicesSection";
 import OurPartner from "../components/Homepage/OurPartner";
-import Uniqueapproch from "./Homepage/Uniqueapproch";
 import Amnetglance from "./Homepage/Amnetglance";
 import DriveBg from "../images/HomePage/Drive.jpg";
 import Gotocontact from "./Gotocontant";
-import global from "../images/HomePage/global.png";
-import Whyamnet from "./Homepage/Whyamnet";
 import OrganizationServices from "./Homepage/OrganizationServices";
 import video from "../images/FinalVersion.mp4";
 import Navbar from "./Navbar";
+import Aboutdata from "../Data/AboutUs-Data/About";
+import MediaQuery from "react-responsive";
+import vector from "../images/HomePage/horizontal-line.png";
 
 const Test = () => {
   const cookieStorage = {
@@ -30,6 +29,17 @@ const Test = () => {
   const consentPropertyName = "jdc_consent";
   const shouldShowPopup = () => !storageType.getItem(consentPropertyName);
   const saveToStorage = () => storageType.setItem(consentPropertyName, true);
+  const [navColor, setNavcolor] = useState("homepage");
+
+  const changeNavbarColor = () => {
+    console.log(window.scrollY);
+    if (window.scrollY >= 350) {
+      setNavcolor("app");
+    } else {
+      setNavcolor("homepage");
+    }
+  };
+  window.addEventListener("scroll", changeNavbarColor);
 
   window.onload = () => {
     const acceptFn = (event) => {
@@ -65,33 +75,105 @@ const Test = () => {
 
   return (
     <>
-      <div className="sub-service-intro">
-        <video
-          className="video_class position-relative"
-          id="myVideo"
-          autoPlay={true}
-          muted
-          playsInline
-        >
-          <source src={video} type="video/mp4" />
-        </video>
-        {/* <Navbar /> */}
-        <div className="center-88">
-          <div className="new-subService-AIML-intro-caption w-75">
-            <h2
-              className="fs-50 text-white fw-bold-700"
-              data-text="Reimagine & Redefine"
-            >
-              Your Trusted Partner In Making Data Driven Decisions
-            </h2>
-            <div className="mt-2 fs-16 fw-bold-600 w-60 px-2">
-              We are a Data Analytics & AI solutions company that helps
-              businesses make data-driven decisions
+      <MediaQuery query="(min-width: 1025px)">
+        <div className="h-100 position-relative">
+          <video
+            className="video_class"
+            id="myVideo"
+            autoPlay={true}
+            muted
+            playsInline
+          >
+            <source src={video} type="video/mp4" />
+          </video>
+          <div className="fs-35 text-white position-absolute top-0">
+            <Navbar navChange={navColor} />
+          </div>
+          <div className="center-88">
+            <div className="new-subService-AIML-intro-caption top-60 w-75">
+              <h2
+                className="fs-50 text-white fw-bold-700"
+                data-text="Reimagine & Redefine"
+              >
+                Your Trusted Partner In Making Data Driven Decisions
+              </h2>
+              <div className="mt-2 fs-16 fw-bold-600 w-60 px-2">
+                We are a Data Analytics & AI solutions company that helps
+                businesses make data-driven decisions
+              </div>
+              <div className="mt-4 connect-button py-2 px-4">Let's connet</div>
             </div>
-            <div className="mt-4 connect-button py-2 px-4">Let's connet</div>
+          </div>
+          <div className="fs-35 text-white position-absolute bottom-0 w-50">
+            <div
+              className=" fs-15 text-white bg-marron"
+              style={{ height: "auto" }}
+            >
+              <div className="row">
+                {Aboutdata.homemainimg.map((list) => {
+                  return (
+                    <>
+                      <div
+                        className="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-left"
+                        key={list.id}
+                      >
+                        <table className="pl-1 border-0">
+                          <tr>
+                            <td className="border-0">
+                              <p className="fw-bold-500 text-white fs-24 lh-24 ml-1 p-3 pb-0 mb-0">
+                                {list.subHeading}
+                              </p>
+                              <p className="fw-bold-300 text-white fs-14 ml-1 p-2">
+                                {list.description}
+                              </p>
+                            </td>
+                            <td className="border-0">
+                              {list.id != 3 ? (
+                                <img src={vector} width="2" height="75" />
+                              ) : null}
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </>
+                  );
+                })}
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </MediaQuery>
+      <MediaQuery query="(max-width: 1024px)">
+        <div className="wrapper_video">
+          <video
+            className="video position-relative"
+            id="myVideo"
+            autoPlay={true}
+            muted
+            playsInline
+          >
+            <source src={video} type="video/mp4" />
+          </video>
+          <div className="fs-35 text-white position-absolute top-0">
+            <Navbar navChange={"app"} />
+          </div>
+          <div className="center-88">
+            <div className="new-subService-AIML-intro-caption w-75">
+              <h2
+                className="fs-50 text-white fw-bold-700"
+                data-text="Reimagine & Redefine"
+              >
+                Your Trusted Partner In Making Data Driven Decisions
+              </h2>
+              <div className="mt-2 fs-16 fw-bold-600 w-60 px-2">
+                We are a Data Analytics & AI solutions company that helps
+                businesses make data-driven decisions
+              </div>
+              <div className="mt-4 connect-button py-2 px-4">Let's connet</div>
+            </div>
+          </div>
+        </div>
+      </MediaQuery>
       {/* NEW HOMEPAGE SOLUTION SERVICE SECTION */}
 
       <Suspense fallback={<div>Loading...</div>}>
@@ -99,8 +181,6 @@ const Test = () => {
           <OrganizationServices />
         </div>
       </Suspense>
-      {/* NEW HOMEPAGE SOLUTION SERVICE SECTION */}
-      {/* <AboutDetails /> */}
       {/* NEW HOMEPAGE OUR SERVICE SECTION */}
       <div className="center-91">
         <OurServicesSection />
@@ -128,7 +208,7 @@ const Test = () => {
 
       {/* NEW HOMEPAGE CLIENT SAY */}
       <Suspense fallback={<div>Loading...</div>}>
-        <h1 className="section-title mt-3 text-center mb-3">
+        <h1 className="section-title mt-8 text-center mb-3">
           WHAT OUR CLIENTS SAY
         </h1>
         <Aboutclientsay />
