@@ -1,7 +1,7 @@
 .ribbonBackground {
   background: linear-gradient(90deg, #000000 0.99%, #412881 100%);
   width: 100%;
-  height: 50px;
+  height: auto;
 }
 
 .lh-30 {
@@ -33,8 +33,9 @@
   color: #000000 !important;
   background: #ffffff;
   border-radius: 20px;
+  width: 10%;
   display: table;
-  padding: 5px 10px;
+  padding: 0px 10px;
 }
 
 .close_icon {

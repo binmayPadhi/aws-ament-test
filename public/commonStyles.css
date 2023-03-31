@@ -35,8 +35,16 @@
   bottom: 40px;
 }
 
+.w-60 {
+  width: 60%;
+}
+
 .w-75 {
   width: 75%;
+}
+
+.fs-50 {
+  font-size: 50px;
 }
 
 .fs-35 {
@@ -113,6 +121,22 @@
 
 .mt-15 {
   margin-top: 15rem;
+}
+
+.mb-15 {
+  margin-bottom: 15rem;
+}
+
+.mt-8 {
+  margin-top: 8rem;
+}
+
+.mb-8 {
+  margin-bottom: 8rem;
+}
+
+.pb-b-5 {
+  padding-bottom: 5rem;
 }
 
 .text-grey {
@@ -250,4 +274,10 @@ input:focus {
   padding-top: 60px;
   padding-bottom: 60px;
   margin-top: 60px;
+}
+
+.video_class {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }

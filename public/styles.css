@@ -3856,7 +3856,7 @@ label {
 
 .new-subService-AIML-intro-caption {
   position: absolute !important;
-  top: 50%;
+  top: 70%;
   transform: translateY(-50%);
   z-index: 1;
   color: white;
@@ -6018,10 +6018,10 @@ label {
 
 .connect-button {
   background: #1dad8f;
-  border-radius: 34px;
+  border-radius: 2px;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 16px;
   color: #ffffff;
   display: table;

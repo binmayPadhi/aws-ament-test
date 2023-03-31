@@ -9,6 +9,8 @@ import Gotocontact from "./Gotocontant";
 import global from "../images/HomePage/global.png";
 import Whyamnet from "./Homepage/Whyamnet";
 import OrganizationServices from "./Homepage/OrganizationServices";
+import video from "../images/FinalVersion.mp4";
+import Navbar from "./Navbar";
 
 const Test = () => {
   const cookieStorage = {
@@ -63,36 +65,39 @@ const Test = () => {
 
   return (
     <>
-      <div
-        className="sub-service-intro container-fluid"
-        style={{
-          backgroundImage: `url(${HomeBG})`,
-          backgroundAttachment: "scroll",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          maxWidth: "100%",
-        }}
-      >
+      <div className="sub-service-intro">
+        <video
+          className="video_class position-relative"
+          id="myVideo"
+          autoPlay={true}
+          muted
+          playsInline
+        >
+          <source src={video} type="video/mp4" />
+        </video>
+        {/* <Navbar /> */}
         <div className="center-88">
-          <div className="new-subService-AIML-intro-caption w-50">
-            <h2 className="textAnimation" data-text="Reimagine & Redefine">
-              Your trusted partner in making data-driven decisions
+          <div className="new-subService-AIML-intro-caption w-75">
+            <h2
+              className="fs-50 text-white fw-bold-700"
+              data-text="Reimagine & Redefine"
+            >
+              Your Trusted Partner In Making Data Driven Decisions
             </h2>
-            <div className="mt-4 side-heading px-2">
-              We are a Data, Analytics & AI solutions company with a track
-              record of building 100+ AI-based Digital Solutions
+            <div className="mt-2 fs-16 fw-bold-600 w-60 px-2">
+              We are a Data Analytics & AI solutions company that helps
+              businesses make data-driven decisions
             </div>
             <div className="mt-4 connect-button py-2 px-4">Let's connet</div>
           </div>
         </div>
       </div>
       {/* NEW HOMEPAGE SOLUTION SERVICE SECTION */}
-     
+
       <Suspense fallback={<div>Loading...</div>}>
-        
-      <div className="mt-5 mb-5 center-91">
-      <OrganizationServices />
-      </div>
+        <div className="mt-15 mb-5 center-91">
+          <OrganizationServices />
+        </div>
       </Suspense>
       {/* NEW HOMEPAGE SOLUTION SERVICE SECTION */}
       {/* <AboutDetails /> */}
@@ -107,20 +112,18 @@ const Test = () => {
         </div>
       </Suspense>
 
-
       {/* NEW HOMEPAGE glance SECTION */}
       <Suspense fallback={<div>Loading...</div>}>
         <div className="bg-grey">
-        <div className="center-91 my-4">
-          <Amnetglance />
-        </div>
+          <div className="center-91 my-4">
+            <Amnetglance />
+          </div>
         </div>
       </Suspense>
 
-      
       {/* NEW HOMEPAGE CASE STUDIES */}
       <Suspense fallback={<div>Loading...</div>}>
-      <CaseStudiesSection/>
+        <CaseStudiesSection />
       </Suspense>
 
       {/* NEW HOMEPAGE CLIENT SAY */}
@@ -128,22 +131,21 @@ const Test = () => {
         <h1 className="section-title mt-3 text-center mb-3">
           WHAT OUR CLIENTS SAY
         </h1>
-        <Aboutclientsay/>
+        <Aboutclientsay />
       </Suspense>
 
       <Suspense fallback={<div>Loading...</div>}>
-      
         <div
-        className="container-fluid space-drive "
-        style={{
-          backgroundImage: `url(${DriveBg})`,
-          backgroundAttachment: "scroll",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "100% 100%",
-          width: "100%",
-          height: "100%",
-        }}
-      >
+          className="container-fluid space-drive "
+          style={{
+            backgroundImage: `url(${DriveBg})`,
+            backgroundAttachment: "scroll",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "100% 100%",
+            width: "100%",
+            height: "100%",
+          }}
+        >
           <div className="p-4 text-center">
             <p className="drive">DRIVE REAL VALUE</p>
             <p className="drive_para mt-4">
@@ -159,8 +161,6 @@ const Test = () => {
         </div>
       </Suspense>
 
-    
-
       {/* NEW HOMEPAGE OUR PARTNER SECTION */}
       <div className="new-our-partner bg-grey pb-5">
         <h1 className="section-title mt-3 text-center">Technology Partners</h1>
@@ -169,7 +169,7 @@ const Test = () => {
 
       {/* NEW HOMEPAGE CAREER SECTION */}
 
-      <div className="mb-5 mt-5">
+      <div className="mb-8 mt-8">
         <Gotocontact />
       </div>
 
