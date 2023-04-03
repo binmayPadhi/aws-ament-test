@@ -247,7 +247,7 @@ const Aboutdata = {
       id: 102,
       selectedName: "progress",
       image: progress,
-      heading: "We are doers",
+      heading: "Awesome talent",
       description:
         "We always hire the best-in-class technology consultants and specialists with great minds to solve the most complex technology challenges.",
     },
