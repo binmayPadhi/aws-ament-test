@@ -9,8 +9,8 @@ const CurrentOpenings = () => {
         <h1 className="fs-36 fw-bold-600">CURRENT OPENINGS</h1>
       </div>
       <div className="container">
-        <h1 className="fs-23 fw-bold-600">Filter by</h1>
-        <div className="row">
+        {/* <h1 className="fs-23 fw-bold-600">Filter by</h1> */}
+        {/* <div className="row">
           <div className="col-lg-4 col-md-4 col-sm-12">
             <input
               type="text"
@@ -31,7 +31,7 @@ const CurrentOpenings = () => {
             </button>
             <button className="clear-button fs-14 fw-bold-600">Clear</button>
           </div>
-        </div>
+        </div> */}
 
         <div className="row">
           {CurrentJson.map((response) => {

@@ -11,6 +11,7 @@ import Resourceweb from "./SubServices/Resourceweb";
 import Case from "./SubServices/Caseservice";
 import servicejson from "../Data/Services-Data/Homeservices";
 import { useState } from "react";
+import Navbar from "./Navbar";
 
 const Serviceshome = () => {
   const [selectedServices, setSelectedservice] = useState(servicejson[1].name);
@@ -20,19 +21,31 @@ const Serviceshome = () => {
     setSelectedservice(obj.name);
     setSelectedserviceobj(obj);
   };
+  const [navColor, setNavcolor] = useState("homepage");
+
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 350) {
+      setNavcolor("app");
+    } else {
+      setNavcolor("homepage");
+    }
+  };
+  window.addEventListener("scroll", changeNavbarColor);
   return (
     <>
       <div
-        className="sub-service-intro container-fluid position-relative"
+        className="sub-service-intro position-relative"
         style={{
           backgroundImage: `url(${ServiceBG})`,
           backgroundAttachment: "scroll",
           backgroundRepeat: "no-repeat",
           backgroundSize: "100% 100%",
-          top: "80px",
           width: "100%",
         }}
       >
+        <div className="fs-35 text-white position-absolute top-0">
+          <Navbar navChange={navColor} />
+        </div>
         <div className="text-center-img w-100">
           <div className="w-90 mx-auto">
             <div className="row">

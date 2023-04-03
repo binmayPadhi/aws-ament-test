@@ -366,3 +366,28 @@ input:focus {
   top: 10px;
   right: 25px;
 }
+
+.height-140 {
+  min-height: 140px;
+}
+
+@media screen and (max-width: 1024px) {
+  .width_query {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .width_query {
+    width: 50%;
+  }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: none !important;
+}
+
+.homeImage .carousel-indicators {
+  display: none;
+}

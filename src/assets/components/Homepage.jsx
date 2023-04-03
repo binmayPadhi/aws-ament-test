@@ -5,13 +5,15 @@ import Amnetglance from "./Homepage/Amnetglance";
 import DriveBg from "../images/HomePage/Drive.jpg";
 import Gotocontact from "./Gotocontant";
 import OrganizationServices from "./Homepage/OrganizationServices";
-import video from "../images/FinalVersion.mp4";
 import Navbar from "./Navbar";
 import Aboutdata from "../Data/AboutUs-Data/About";
 import MediaQuery from "react-responsive";
 import vector from "../images/HomePage/horizontal-line.png";
+import { useNavigate } from "react-router-dom";
+import { Carousel } from "react-bootstrap";
 
 const Test = () => {
+  const history = useNavigate();
   const cookieStorage = {
     getItem: (item) => {
       const cookies = document.cookie
@@ -53,13 +55,17 @@ const Test = () => {
     const declineBtn = document.getElementById("decline");
     acceptBtn.addEventListener("click", acceptFn);
     declineBtn.addEventListener("click", declineFn);
-    console.log(shouldShowPopup(storageType));
     if (shouldShowPopup(storageType)) {
       setTimeout(() => {
         consentPopup.classList.remove("hidden");
         // consentPopup.classList.add("block");
       }, 2000);
     }
+  };
+
+  const redirectTo = (e) => {
+    e.preventDefault();
+    history(`/services/aiml`);
   };
 
   const Aboutclientsay = React.lazy(() =>
@@ -72,6 +78,11 @@ const Test = () => {
     import("../components/Homepage/IndustrySection")
   );
 
+  const connectPage = (e) => {
+    e.preventDefault();
+    history(`/contactus`);
+  };
+
   return (
     <>
       <MediaQuery query="(min-width: 1025px)">
@@ -83,7 +94,10 @@ const Test = () => {
             muted
             playsInline
           >
-            <source src={video} type="video/mp4" />
+            <source
+              src="https://amnet-digital-website.s3.amazonaws.com/FinalVersion.mp4"
+              type="video/mp4"
+            />
           </video>
           <div className="fs-35 text-white position-absolute top-0">
             <Navbar navChange={navColor} />
@@ -100,7 +114,12 @@ const Test = () => {
                 We are a Data Analytics & AI solutions company that helps
                 businesses make data-driven decisions
               </div>
-              <div className="mt-4 connect-button py-2 px-4">Let's connet</div>
+              <div
+                className="mt-4 connect-button py-2 px-4 cr-pointer"
+                onClick={(e) => connectPage(e)}
+              >
+                Let's connect
+              </div>
             </div>
           </div>
           <div className="fs-35 text-white position-absolute bottom-0 w-50">
@@ -108,36 +127,136 @@ const Test = () => {
               className=" fs-15 text-white bg-marron"
               style={{ height: "auto" }}
             >
-              <div className="row">
-                {Aboutdata.homemainimg.map((list) => {
-                  return (
-                    <>
-                      <div
-                        className="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-left"
-                        key={list.id}
-                      >
-                        <table className="pl-1 border-0">
-                          <tr>
-                            <td className="border-0">
-                              <p className="fw-bold-500 text-white fs-24 lh-24 ml-1 p-3 pb-0 mb-0">
-                                {list.subHeading}
-                              </p>
-                              <p className="fw-bold-300 text-white fs-14 ml-1 p-2">
-                                {list.description}
-                              </p>
-                            </td>
-                            <td className="border-0">
-                              {list.id != 3 ? (
-                                <img src={vector} width="2" height="75" />
-                              ) : null}
-                            </td>
-                          </tr>
-                        </table>
-                      </div>
-                    </>
-                  );
-                })}
-              </div>
+              <Carousel variant="dark" className="homeImage">
+                <Carousel.Item>
+                  <div className="row">
+                    {Aboutdata.homemainimg.map((list) => {
+                      return (
+                        <>
+                          <div
+                            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-left"
+                            key={list.id}
+                          >
+                            <table className="pl-1 border-0">
+                              <tr>
+                                <td className="border-0">
+                                  <p className="fw-bold-500 text-white fs-24 lh-24 ml-1 p-3 pb-0 mb-0">
+                                    {list.subHeading}
+                                  </p>
+                                  <p className="fw-bold-300 text-white fs-14 ml-1 p-2">
+                                    {list.description}
+                                  </p>
+                                </td>
+                                <td className="border-0">
+                                  {list.id != 3 ? (
+                                    <img src={vector} width="2" height="75" />
+                                  ) : null}
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </>
+                      );
+                    })}
+                  </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div className="row">
+                    {Aboutdata.homemainimg1.map((list) => {
+                      return (
+                        <>
+                          <div
+                            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-left"
+                            key={list.id}
+                          >
+                            <table className="pl-1 border-0">
+                              <tr>
+                                <td className="border-0">
+                                  <p className="fw-bold-500 text-white fs-24 lh-24 ml-1 p-3 pb-0 mb-0">
+                                    {list.subHeading}
+                                  </p>
+                                  <p className="fw-bold-300 text-white fs-14 ml-1 p-2">
+                                    {list.description}
+                                  </p>
+                                </td>
+                                <td className="border-0">
+                                  {list.id != 3 ? (
+                                    <img src={vector} width="2" height="75" />
+                                  ) : null}
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </>
+                      );
+                    })}
+                  </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div className="row">
+                    {Aboutdata.homemainimg2.map((list) => {
+                      return (
+                        <>
+                          <div
+                            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-left"
+                            key={list.id}
+                          >
+                            <table className="pl-1 border-0">
+                              <tr>
+                                <td className="border-0">
+                                  <p className="fw-bold-500 text-white fs-24 lh-24 ml-1 p-3 pb-0 mb-0">
+                                    {list.subHeading}
+                                  </p>
+                                  <p className="fw-bold-300 text-white fs-14 ml-1 p-2">
+                                    {list.description}
+                                  </p>
+                                </td>
+                                <td className="border-0">
+                                  {list.id != 3 ? (
+                                    <img src={vector} width="2" height="75" />
+                                  ) : null}
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </>
+                      );
+                    })}
+                  </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div className="row">
+                    {Aboutdata.homemainimg3.map((list) => {
+                      return (
+                        <>
+                          <div
+                            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-left"
+                            key={list.id}
+                          >
+                            <table className="pl-1 border-0">
+                              <tr>
+                                <td className="border-0">
+                                  <p className="fw-bold-500 text-white fs-24 lh-24 ml-1 p-3 pb-0 mb-0">
+                                    {list.subHeading}
+                                  </p>
+                                  <p className="fw-bold-300 text-white fs-14 ml-1 p-2">
+                                    {list.description}
+                                  </p>
+                                </td>
+                                <td className="border-0">
+                                  {list.id != 3 ? (
+                                    <img src={vector} width="2" height="75" />
+                                  ) : null}
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </>
+                      );
+                    })}
+                  </div>
+                </Carousel.Item>
+              </Carousel>
             </div>
           </div>
         </div>
@@ -151,7 +270,10 @@ const Test = () => {
             muted
             playsInline
           >
-            <source src={video} type="video/mp4" />
+            <source
+              src="https://amnet-digital-website.s3.amazonaws.com/FinalVersion.mp4"
+              type="video/mp4"
+            />
           </video>
           <div className="fs-35 text-white position-absolute top-0">
             <Navbar navChange={"app"} />
@@ -168,15 +290,22 @@ const Test = () => {
                 We are a Data Analytics & AI solutions company that helps
                 businesses make data-driven decisions
               </div>
-              <div className="mt-4 connect-button py-2 px-4">Let's connet</div>
+              <div
+                className="mt-4 connect-button py-2 px-4 cr-pointer"
+                onClick={(e) => connectPage(e)}
+              >
+                Let's connect
+              </div>
             </div>
           </div>
         </div>
       </MediaQuery>
       {/* NEW HOMEPAGE SOLUTION SERVICE SECTION */}
-
       <Suspense fallback={<div>Loading...</div>}>
-        <div className="mt-15 mb-5 center-91">
+        <h1 className="section-title mt-8 text-center mb-3">
+          Drive Organizational Change
+        </h1>
+        <div className="mt-5 mb-5 center-91">
           <OrganizationServices />
         </div>
       </Suspense>
@@ -190,7 +319,6 @@ const Test = () => {
           <IndusrtySection />
         </div>
       </Suspense>
-
       {/* NEW HOMEPAGE glance SECTION */}
       <Suspense fallback={<div>Loading...</div>}>
         <div className="bg-grey">
@@ -199,12 +327,10 @@ const Test = () => {
           </div>
         </div>
       </Suspense>
-
       {/* NEW HOMEPAGE CASE STUDIES */}
       <Suspense fallback={<div>Loading...</div>}>
         <CaseStudiesSection />
       </Suspense>
-
       {/* NEW HOMEPAGE CLIENT SAY */}
       <Suspense fallback={<div>Loading...</div>}>
         <h1 className="section-title mt-8 text-center mb-3">
@@ -212,7 +338,6 @@ const Test = () => {
         </h1>
         <Aboutclientsay />
       </Suspense>
-
       <Suspense fallback={<div>Loading...</div>}>
         <div
           className="container-fluid space-drive "
@@ -232,26 +357,25 @@ const Test = () => {
               organisation
             </p>
             <p className="w-100 d-flex justify-content-center mt-4">
-              <p className="btn_drive">
-                Request your FREE Data Engineering consultation
+              <p
+                className="btn_drive cr-pointer"
+                onClick={(e) => redirectTo(e)}
+              >
+                Request your FREE AI/ML consultation
               </p>
             </p>
           </div>
         </div>
       </Suspense>
-
       {/* NEW HOMEPAGE OUR PARTNER SECTION */}
       <div className="new-our-partner bg-grey pb-5">
         <h1 className="section-title mt-3 text-center">Technology Partners</h1>
         <OurPartner />
       </div>
-
       {/* NEW HOMEPAGE CAREER SECTION */}
-
       <div className="mb-8 mt-8">
         <Gotocontact />
       </div>
-
       <div id="consent-popup" className="hidden cookies-banner">
         <div className="row">
           <div className="col-xl-8 col-lg-8">

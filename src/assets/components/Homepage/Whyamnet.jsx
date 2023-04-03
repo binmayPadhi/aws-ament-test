@@ -20,7 +20,7 @@ const Whyamnet = () => {
           </span>
           <span>
             <p className="heading_why pl-4 mb-0">Proven track record</p>
-            <p className="paragraph_why pl-4 w-100">
+            <p className="paragraph_why pl-4 width_query text-justify">
               6+ years, built 100+ AI-based Digital Solutions, and successfully
               servicing Fortune 1000 companies.
             </p>
@@ -30,7 +30,7 @@ const Whyamnet = () => {
           <span>
             <p className="heading_why pr-4 mb-0">We are doers</p>
             <p className="w-100 justify-content-end d-flex">
-              <p className="paragraph_why pr-4 w-100">
+              <p className="paragraph_why pr-4 width_query text-justify">
                 We do whatever it takes in building your dream MVP in first 90
                 days to handling 1 billion hits a day. Our only focus is always
                 on tech execution excellence.
@@ -47,7 +47,7 @@ const Whyamnet = () => {
           </span>
           <span>
             <p className="heading_why pl-4 mb-0">Awesome talent</p>
-            <p className="paragraph_why pl-4 w-100">
+            <p className="paragraph_why pl-4 width_query text-justify">
               We always hire the best-in-class technology consultants and
               specialists with great minds to solve the most complex technology
               challenges.
@@ -58,7 +58,7 @@ const Whyamnet = () => {
           <span>
             <p className="heading_why pr-4 mb-0">Happy customers</p>
             <p className="w-100 justify-content-end d-flex">
-              <p className="paragraph_why pr-4 w-100">
+              <p className="paragraph_why pr-4 width_query text-justify">
                 Empowering our customers to achieve their business goals
                 consistently leveraging our combined 100+ years of technology
                 experience without negotiating on the quality.

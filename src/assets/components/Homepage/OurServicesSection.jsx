@@ -2,10 +2,17 @@ import React from "react";
 import "../../CSS/Services.css";
 import OurServicesData from "../../Data/Homepage-Data/OurServicesData";
 import { Card } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 // import {BrowserRouter as Router, Link} from "react-router-dom";
 
 function OurServices() {
+  const history = useNavigate();
+  const redirectTo = (e) => {
+    e.preventDefault();
+    history(`/services/aiml`);
+    window.scrollTo(0, 0);
+  };
   return (
     <>
       <div className="center text-center py-4 mt-5 mb-5 service_title">
@@ -54,7 +61,10 @@ function OurServices() {
       </div>
       <div className="center mt-5 mb-5">
         <div className="d-flex w-100 justify-content-center">
-          <div className="explore_services py-3 px-4">
+          <div
+            className="explore_services py-3 px-4 cr-pointer"
+            onClick={(e) => redirectTo(e)}
+          >
             Explore more services
           </div>
         </div>

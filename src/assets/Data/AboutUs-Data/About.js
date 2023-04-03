@@ -324,6 +324,47 @@ const Aboutdata = {
       subHeading: "Data Management",
     },
   ],
+  homemainimg1: [
+    {
+      id: 1,
+      description: "Improve the efficiency of data pipelines at scale",
+      subHeading: "Data Engineering",
+    },
+    {
+      id: 2,
+      description: "Making AI possible with precise labeling",
+      subHeading: "Data Annotation",
+    },
+    {
+      id: 3,
+      description: "Simplify IT landscape for business continuity",
+      subHeading: "Cloud Services",
+    },
+  ],
+  homemainimg2: [
+    {
+      id: 1,
+      description: "Build and launch bug-free software products",
+      subHeading: "Quality Assurance",
+    },
+    {
+      id: 2,
+      description: "Deliver impeccable digital experiences to delight",
+      subHeading: "User Experience",
+    },
+    {
+      id: 3,
+      description: "Achieve the highest value and enterprise transformation",
+      subHeading: "Platform Engineering",
+    },
+  ],
+  homemainimg3: [
+    {
+      id: 3,
+      description: "We advise clients building high-performance businesses",
+      subHeading: "Strategy & Consulting",
+    },
+  ],
 };
 
 export default Aboutdata;
