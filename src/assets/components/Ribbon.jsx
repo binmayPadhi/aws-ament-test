@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../CSS/Ribbon.css";
 import notification from "../images/HomePage/notification.png";
 import MediaQuery from "react-responsive";
+import cross from "../images/HomePage/xclose.png";
 
 const Ribbon = ({ checkRibbon }) => {
   const close = (e) => {
@@ -36,7 +37,7 @@ const Ribbon = ({ checkRibbon }) => {
                 className="close_icon_mob d-flex w-100 justify-content-end pr-4"
                 onClick={(e) => close(e)}
               >
-                x
+                <img src={cross} alt="close" className="img-35" />
               </div>
             </div>
           </div>
@@ -58,7 +59,7 @@ const Ribbon = ({ checkRibbon }) => {
           <div className="w-98 mx-auto">
             <div className="row mx-0">
               <div className="col-md-1 col-lg-1 col-sm-12"></div>
-              <div className="col-md-10 col-lg-10 col-sm-12">
+              <div className="col-md-10 col-lg-10 col-sm-12 my-auto">
                 <p className="mb-0 text-center">
                   <div className="d-flex w-100 align-items-center justify-content-center">
                     <img src={notification} alt="speaker" className="img-35" />
@@ -80,11 +81,8 @@ const Ribbon = ({ checkRibbon }) => {
               </div>
               <div className="col-md-1 col-lg-1 col-sm-12 mt-2">
                 <p className="d-flex w-100 align-items-center justify-content-md-end justify-content-center">
-                  <div
-                    className="text-center close_icon"
-                    onClick={(e) => close(e)}
-                  >
-                    x
+                  <div className="text-center" onClick={(e) => close(e)}>
+                    <img src={cross} alt="close" className="img-35" />
                   </div>
                 </p>
               </div>

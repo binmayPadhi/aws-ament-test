@@ -19,21 +19,25 @@ function Footer() {
           id: "11",
           name: "About Us",
           link: "/aboutus",
+          target: "_balnk",
         },
         {
           id: "12",
           name: "Careers",
           link: "/careers",
+          target: "_balnk",
         },
         {
           id: "13",
           name: "Our Partners",
           link: "",
+          target: "_balnk",
         },
         {
           id: "14",
           name: "Leadership Team",
           link: "",
+          target: "_balnk",
         },
       ],
     },
@@ -44,12 +48,14 @@ function Footer() {
         {
           id: 21,
           name: "Swift Insights",
-          link: "",
+          link: "https://swiftinsights.ai/",
+          target: "_balnk",
         },
         {
           id: 22,
           name: "Swift Data",
-          link: "",
+          link: "https://swiftdata.ai/",
+          target: "_balnk",
         },
       ],
     },
@@ -61,46 +67,55 @@ function Footer() {
           id: 31,
           name: "AI/ML",
           link: "/services/aiml",
+          target: "_balnk",
         },
         {
           id: 32,
           name: "Advanced Analytics",
           link: "/services/advancedanalytics",
+          target: "_balnk",
         },
         {
           id: 33,
           name: "Data Engineering",
           link: "/services/dataengineering",
+          target: "_balnk",
         },
         {
           id: 34,
           name: "Data Management",
           link: "/services/datamanagement",
+          target: "_balnk",
         },
         {
           id: 35,
           name: "Cloud Services",
           link: "/services/cloudservices",
+          target: "_balnk",
         },
         {
           id: 36,
           name: "User Experience",
           link: "/services/userexperinces",
+          target: "_balnk",
         },
         {
           id: 37,
           name: "Strategy & Consulting",
           link: "/services/strategyandconsulting",
+          target: "_balnk",
         },
         {
           id: 38,
           name: "Data Annotation",
           link: "/services/dataannotation",
+          target: "_balnk",
         },
         {
           id: 39,
           name: "Quality Assurance",
           link: "/services/qualityassurance",
+          target: "_balnk",
         },
       ],
     },
@@ -112,26 +127,31 @@ function Footer() {
           id: 41,
           name: " Retail & Ecommerce",
           link: "",
+          target: "_balnk",
         },
         {
           id: 42,
           name: "Inforamtion Management",
           link: "",
+          target: "_balnk",
         },
         {
           id: 43,
           name: "Healthcare",
           link: "",
+          target: "_balnk",
         },
         {
           id: 44,
           name: "HRMS",
           link: "",
+          target: "_balnk",
         },
         {
           id: 45,
           name: "Financial Services",
           link: "",
+          target: "_balnk",
         },
       ],
     },
@@ -142,22 +162,26 @@ function Footer() {
         {
           id: 51,
           name: "Blogs",
-          link: "",
+          link: "/blog/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry",
+          target: "_balnk",
         },
         {
           id: 52,
           name: "Webinars",
-          link: "",
+          link: "/blog/webinar-reshaping-the-retail-industry-through-AI",
+          target: "_balnk",
         },
         {
           id: 53,
           name: "Case Studies",
-          link: "",
+          link: "/casestudies",
+          target: "_balnk",
         },
         {
           id: 54,
           name: "news",
           link: "",
+          target: "_balnk",
         },
       ],
     },
@@ -241,12 +265,19 @@ function Footer() {
                     {list.sublist.map((val) => {
                       return (
                         <li key={val.id}>
-                          <Link
-                            to={val.link}
-                            className="listName cr-pointer text-decoration-none fs-13 text-black"
-                          >
-                            {val.name}
-                          </Link>
+                          {val.link != "" ? (
+                            <Link
+                              to={val.link}
+                              target="_blank"
+                              className="listName cr-pointer text-decoration-none fs-13 text-black"
+                            >
+                              {val.name}
+                            </Link>
+                          ) : (
+                            <span className="listName text-decoration-none fs-13 text-black">
+                              {val.name}
+                            </span>
+                          )}
                         </li>
                       );
                     })}

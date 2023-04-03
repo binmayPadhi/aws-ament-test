@@ -1,8 +1,18 @@
 import React from "react";
 import "../CSS/Unsplash.css";
 import imgbg from "../images/About-Us-Page/CTA-image.png";
+import { useNavigate } from "react-router-dom";
 
 const Gotocontact = ({ componentFrom }) => {
+  const history = useNavigate();
+  const redirectTo = (e, name) => {
+    e.preventDefault();
+    if (name === "contact") {
+      history(`/contactus`);
+    } else {
+      history(`/careers`);
+    }
+  };
   return (
     <div
       className="position-relative"
@@ -34,12 +44,20 @@ const Gotocontact = ({ componentFrom }) => {
                 <div className="col-md-3 col-lg-3 col-sm-12 col-sm-center col-md-right mt-1"></div>
                 <div className="col-md-3 col-lg-3 col-sm-12  mt-3">
                   <p className="content-button text-sm-center text-md-right">
-                    <span className="current-openings py-3 px-4">Connect with us</span>
+                    <span
+                      className="current-openings py-3 px-4 cr-pointer"
+                      onClick={(e) => redirectTo(e, "contact")}
+                    >
+                      Connect with us
+                    </span>
                   </p>
                 </div>
                 <div className="col-md-3 col-lg-3 col-sm-12 mt-3">
                   <p className="content-button text-sm-center text-md-left">
-                    <span className="current-openings py-3 px-4 ml-2">
+                    <span
+                      className="current-openings py-3 px-4 ml-2 cr-pointer"
+                      onClick={(e) => redirectTo(e, "carrer")}
+                    >
                       Current openings
                     </span>
                   </p>
@@ -52,7 +70,10 @@ const Gotocontact = ({ componentFrom }) => {
               <div className="row">
                 <div className="col-md-12 col-lg-12 col-sm-12 mt-3">
                   <p className="content-button text-sm-center text-md-center">
-                    <span className="current-openings py-3 px-4 ml-2">
+                    <span
+                      className="current-openings py-3 px-4 ml-2 cr-pointer"
+                      onClick={(e) => redirectTo(e, "carrer")}
+                    >
                       Current openings
                     </span>
                   </p>

@@ -20,6 +20,7 @@ import Legalterms from "./Homepage/Legaterms";
 import AIservices from "./SubServices/AIMLservices";
 import Serviceshome from "./Serviceshome";
 import Blog from "./Resources/Blog";
+import Viewsubservice from "./SubServices/Viewsubservice";
 
 function App() {
   const [navColor, setNavcolor] = useState("");
@@ -30,11 +31,12 @@ function App() {
   const url = window.location.pathname;
   return (
     <>
-      {url != "/blog/webinar-reshaping-the-retail-industry-through-AI" &&
-      url !=
-        "/blog/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
-      url != "/blog/swiftinisghts-Webinar" &&
-      url != "/" ? (
+      {url === "/legalresources" ||
+      url ===
+        "/blog/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" ||
+      url === "/cookiespolicy" ||
+      url === "/Privacypolicy" ||
+      url === "/termsandconditions" ? (
         <div>
           <Navbar navChange={navColor} />
         </div>
@@ -47,6 +49,7 @@ function App() {
           <Route path="/services" element={<Services />}>
             <Route path="" element={<Serviceshome />} />
             <Route path=":name" element={<AIservices />} />
+            <Route path=":name/:service" element={<Viewsubservice />} />
           </Route>
           <Route path="/casestudies" element={<CaseStudies />} />
           <Route path="/careers" element={<Careers />} />

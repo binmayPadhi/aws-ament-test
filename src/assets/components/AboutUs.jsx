@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { Link } from "react-scroll";
 import careerLinkIcon from "../images/About-Us-Page/amnet-external-link.png";
 import AboutUsBG from "../images/About-Us-Page/worker-reading-news-with-tablet.png";
@@ -15,21 +15,36 @@ import ceo from "../images/About-Us-Page/CEO.png";
 import Amnetglance from "./Homepage/Amnetglance";
 import Aboutclientsay from "./AboutUs/Aboutclientsay";
 import global from "../images/HomePage/global.png";
+import Navbar from "./Navbar";
+import { useState } from "react";
+import Letsconnect from "./AboutUs/Letsconnect";
 
 function TestAboutUs() {
+  const [navColor, setNavcolor] = useState("homepage");
+
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 350) {
+      setNavcolor("app");
+    } else {
+      setNavcolor("homepage");
+    }
+  };
+  window.addEventListener("scroll", changeNavbarColor);
   return (
     <>
       <div
-        className="sub-service-intro container-fluid position-realtive"
+        className="sub-service-intro position-realtive"
         style={{
           backgroundImage: `url(${AboutUsBG})`,
           backgroundAttachment: "scroll",
           backgroundRepeat: "no-repeat",
           backgroundSize: "100% 100%",
-          top: "80px",
           width: "100%",
         }}
       >
+        <div className="fs-35 text-white position-absolute top-0">
+          <Navbar navChange={navColor} />
+        </div>
         <div className="text-center-img">
           <div className="row">
             <div className="col-lg-1 col-md-1 col-sm-12"></div>
@@ -187,29 +202,8 @@ function TestAboutUs() {
         <Gotocontact />
       </div>
 
-      <div className="mt-5 w-100 ceo-img-section h-auto py-5">
-        <div className="row">
-          <div className="col-md-9 col-lg-9 col-sm-12">
-            <div className="w-90 mx-auto">
-              <p className="fw-bold-700 fs-18 text-white">
-                Do you have any technology challenges that are slowing down your
-                business growth?
-              </p>
-              <div className="w-90">
-                <p className="mt-2 text-white fs-16 fw-bold-400">
-                  If so, let's connect with one of our technical experts to
-                  develop and deploy a custom solution or product and overcome
-                  your business challenge!
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 col-lg-3 col-sm-12 text-center my-5">
-            <span className="text-black lets-connect bg-white br-20 fs-18 fw-bold-700 pl-5 pr-5 p-3">
-              Let's connect
-            </span>
-          </div>
-        </div>
+      <div className="mt-5">
+        <Letsconnect />
       </div>
     </>
   );

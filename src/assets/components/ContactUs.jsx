@@ -4,6 +4,7 @@ import Contactform from "./ContactUs/Contactform";
 import global from "../images/HomePage/global.png";
 import Gotocontact from "./Gotocontant";
 import OurLocation from "./OurLocation";
+import Navbar from "./Navbar";
 
 const TestContactUs = () => {
   const tooltipStyle = {
@@ -13,19 +14,31 @@ const TestContactUs = () => {
     fontFamily: `'Poppins', sans-serif`,
     padding: "5px",
   };
+  const [navColor, setNavcolor] = useState("homepage");
+
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 350) {
+      setNavcolor("app");
+    } else {
+      setNavcolor("homepage");
+    }
+  };
+  window.addEventListener("scroll", changeNavbarColor);
   return (
     <>
       <div
-        className="sub-service-intro container-fluid position-realtive"
+        className="sub-service-intro position-realtive"
         style={{
           backgroundImage: `url(${contactusbg})`,
           backgroundAttachment: "scroll",
           backgroundRepeat: "no-repeat",
           backgroundSize: "100% 100%",
-          top: "80px",
           width: "100%",
         }}
       >
+        <div className="fs-35 text-white position-absolute top-0">
+          <Navbar navChange={navColor} />
+        </div>
         <div className="text-center-img w-100">
           <div className="w-90 mx-auto">
             <div className="row">
