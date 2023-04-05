@@ -16,7 +16,8 @@ function IndustrySection() {
   };
   return (
     <>
-      <div className="center text-center py-4 mt-5 mb-5 service_title">
+    <div className="space-above">
+      <div className="center text-center  mb-5 service_title">
         Industries we serve
       </div>
       {/* <!-- INDUSTRIES WE COVER --> */}
@@ -50,7 +51,7 @@ function IndustrySection() {
                             }}
                           >
                             <p className="fs-14 fw-bold-500" key={list.id}>
-                              {list.industryTitle}
+                              {list.industryTitlecard}
                             </p>
                           </div>
                         </>
@@ -78,14 +79,14 @@ function IndustrySection() {
                 <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                   <img src={selectedIndustry.industryIMG} className="w-100" />
                 </div>
-                <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 my-auto">
-                  <h1 className="fs-20 fw-bold-500">
+                <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                  <h1 className="fs-18 fw-bold-600 pt-4">
                     {selectedIndustry.industryTitle}
                   </h1>
                   <p className="fs-14 fw-bold-400 height-140">
                     {selectedIndustry.description}
                   </p>
-                  <div className="d-flex pt-5">
+                  <div className="d-flex ">
                     {IndustrySectionData.map((list) => {
                       return (
                         <>
@@ -106,7 +107,7 @@ function IndustrySection() {
                             }}
                           >
                             <p className="fs-14 fw-bold-500" key={list.id}>
-                              {list.industryTitle}
+                              {list.industryTitlecard}
                             </p>
                           </div>
                         </>
@@ -119,6 +120,7 @@ function IndustrySection() {
           </div>
         </>
       </MediaQuery>
+      </div>
     </>
   );
 }

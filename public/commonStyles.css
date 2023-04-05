@@ -2,6 +2,10 @@
   clear: both;
 }
 
+.w-90 {
+  width: 90%;
+}
+
 .w-98 {
   width: 98%;
 }
@@ -371,6 +375,18 @@ input:focus {
   min-height: 140px;
 }
 
+.bottom-read {
+  position: absolute;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .bottom-read {
+    position: relative !important;
+    padding-bottom: 0px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .width_query {
     width: 100%;
@@ -390,4 +406,12 @@ input:focus {
 
 .homeImage .carousel-indicators {
   display: none;
+}
+
+.bg {
+  background-color: #c2c2c2;
+}
+
+.top-68 {
+  top: 68%;
 }

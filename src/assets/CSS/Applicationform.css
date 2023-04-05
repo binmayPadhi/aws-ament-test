@@ -1,0 +1,49 @@
+.black-container{
+    border:solid;
+    border-width:1px;
+}
+
+.import-box{
+    background: #1DAD8F;
+    width:332px;
+    border-radius:8px;
+    text-align: center;
+    color:white;
+    padding-top:12px;
+    padding-bottom:12px;
+}
+
+.star-color{
+    color:#1DAD8F;
+    font-size:16px;
+}
+
+.width-clear{
+    width:12px;
+    height:18px;
+}
+
+.bottom-line{
+    border-width:0.5px;
+    width:100%;
+    border-style: solid;
+    border-color:#C2C2C2;
+}
+
+.form input {
+    box-shadow: none!important;
+    border-style: solid !important;
+    font-size: 1.8rem;
+  }
+
+.color-optional{
+    font-size:16px;
+    font-weight:400px;
+    color:  #C2C2C2;
+}
+
+.text-height{
+    height:160px;
+    width:100%;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}

@@ -161,7 +161,7 @@ function Navbar(props) {
                 {/* SERVICE DROPDOWN MENU   */}
 
                 <div
-                  className="service-dropdown-menu"
+                  className="service-dropdown-menu only-service-dropdown"
                   onMouseOver={() => showDropdown("service")}
                   onMouseOut={() => hideDropdown("service")}
                   style={navStyle}
@@ -182,7 +182,7 @@ function Navbar(props) {
 
                   <div
                     className="dropdown-content"
-                    style={{ width: "95%", marginTop: "15px" }}
+                    style={{ width: "95%", marginTop: "18px" }}
                     onClick={() => hideDropdown("service")}
                   >
                     <div className="row">
@@ -329,9 +329,7 @@ function Navbar(props) {
                             </p>
 
                             <p className="sub-service-view mt-5">
-                              <a
-                                href={`/services/${`aiml`}`}
-                              >{`View All Services >`}</a>
+                              <a href={`/services`}>{`View All Services >`}</a>
                             </p>
                           </div>
                           <div className="col-lg-4">
@@ -411,7 +409,7 @@ function Navbar(props) {
                               </a>
                             </p>
                             <p
-                              className="sub-service-links"
+                              className="sub-service-links mb-0"
                               style={{ marginTop: "5px" }}
                             >
                               <a
@@ -447,7 +445,7 @@ function Navbar(props) {
                               </a>
                             </p>
                             <p
-                              className="sub-service-links"
+                              className="sub-service-links mb-0"
                               style={{ marginTop: "5px" }}
                             >
                               <a
@@ -480,7 +478,7 @@ function Navbar(props) {
                               <a href={`/${`cloudservices`}`}>Cloud Services</a>
                             </p>
                             <p
-                              className="sub-service-links"
+                              className="sub-service-links mb-0"
                               style={{ marginTop: "5px" }}
                             >
                               <a
@@ -515,7 +513,7 @@ function Navbar(props) {
                               </a>
                             </p>
                             <p
-                              className="sub-service-links"
+                              className="sub-service-links mb-0"
                               style={{ marginTop: "5px" }}
                             >
                               <a
@@ -671,11 +669,10 @@ function Navbar(props) {
                 </NavLink>
 
                 <div
-                  className="service-dropdown-menu"
+                  className="service-dropdown-menu only-blog-dropdown"
                   onMouseOver={() => showDropdown("insights")}
                   onMouseOut={() => hideDropdown("insights")}
                   style={navStyle}
-                  activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                 >
                   <NavLink
                     to="/blog"
@@ -684,7 +681,6 @@ function Navbar(props) {
                     className={
                       props.navChange === "app" ? "text-black" : "text-white"
                     }
-                    activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                   >
                     Insights
                   </NavLink>
