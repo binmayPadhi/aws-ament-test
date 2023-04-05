@@ -65,7 +65,7 @@ const Test = () => {
 
   const redirectTo = (e) => {
     e.preventDefault();
-    history(`/services/aiml`);
+    history(`/contactus`);
   };
 
   const Aboutclientsay = React.lazy(() =>

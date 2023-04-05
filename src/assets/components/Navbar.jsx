@@ -7,6 +7,7 @@ import "../CSS/Navbar.css";
 import { useEffect } from "react";
 import Ribbon from "./Ribbon";
 import { useState } from "react";
+import { useLayoutEffect } from "react";
 
 function Navbar(props) {
   useEffect(() => {
@@ -98,14 +99,17 @@ function Navbar(props) {
   gtag("js", new Date());
 
   gtag("config", "G-WMMZT165YM");
-  const [showRibbon, setRibbon] = useState(true);
+  const [storeRibbonval, setstoreRibbon] = useState("show");
 
-  const checkRibbon = (show) => {
-    if (sessionStorage.getItem("ribbonClose") != null) {
-      setRibbon(false);
-    } else {
-      setRibbon(true);
+  useLayoutEffect(() => {
+    if (localStorage.getItem("ribbonClose") != null) {
+      setstoreRibbon("hide");
     }
+  });
+
+  const onchange = (e) => {
+    console.log(e);
+    setstoreRibbon("hide");
   };
 
   return (
@@ -113,10 +117,7 @@ function Navbar(props) {
       {/* <!-- NAVIGATION BAR --> */}
 
       <div className="position-fixed" id="navbar">
-        {sessionStorage.getItem("ribbonClose") !== false &&
-        showRibbon === true ? (
-          <Ribbon checkRibbon={checkRibbon} />
-        ) : null}
+        {storeRibbonval != "hide" ? <Ribbon onSelectchange={onchange} /> : null}
         <div
           className={
             "navigation-bar " + (props.navChange === "app" ? "bg-white" : "")

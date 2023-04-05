@@ -5,19 +5,18 @@ import notification from "../images/HomePage/notification.png";
 import MediaQuery from "react-responsive";
 import cross from "../images/HomePage/xclose.png";
 
-const Ribbon = ({ checkRibbon }) => {
+const Ribbon = (props) => {
   const close = (e) => {
     e.preventDefault();
-    sessionStorage.setItem("ribbonClose", false);
-    checkRibbon(close);
+    localStorage.setItem("ribbonClose", "hide");
+    props.onSelectchange("hide");
   };
   return (
     <>
       <MediaQuery query="(max-width: 1024px)">
         <div className="ribbonBackground py-2">
           <div className="row">
-            <div className="col-2"></div>
-            <div className="col-8 text-center">
+            <div className="col-11 text-center">
               <table className="w-100">
                 <tr className="border-0">
                   <td className="border-0">
@@ -32,9 +31,9 @@ const Ribbon = ({ checkRibbon }) => {
                 </tr>
               </table>
             </div>
-            <div className="col-2">
+            <div className="col-1">
               <div
-                className="close_icon_mob d-flex w-100 justify-content-end pr-4"
+                className="close_icon_mob d-flex w-100 justify-content-end pr-4 cr-pointer"
                 onClick={(e) => close(e)}
               >
                 <img src={cross} alt="close" className="img-35" />
@@ -81,7 +80,10 @@ const Ribbon = ({ checkRibbon }) => {
               </div>
               <div className="col-md-1 col-lg-1 col-sm-12 mt-2">
                 <p className="d-flex w-100 align-items-center justify-content-md-end justify-content-center">
-                  <div className="text-center" onClick={(e) => close(e)}>
+                  <div
+                    className="text-center cr-pointer"
+                    onClick={(e) => close(e)}
+                  >
                     <img src={cross} alt="close" className="img-35" />
                   </div>
                 </p>

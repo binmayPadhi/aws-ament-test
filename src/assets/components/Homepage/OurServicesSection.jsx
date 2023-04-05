@@ -10,7 +10,7 @@ function OurServices() {
   const history = useNavigate();
   const redirectTo = (e) => {
     e.preventDefault();
-    history(`/services/aiml`);
+    history(`/services`);
     window.scrollTo(0, 0);
   };
   return (
