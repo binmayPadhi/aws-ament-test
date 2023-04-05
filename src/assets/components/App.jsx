@@ -21,6 +21,8 @@ import AIservices from "./SubServices/AIMLservices";
 import Serviceshome from "./Serviceshome";
 import Blog from "./Resources/Blog";
 import Viewsubservice from "./SubServices/Viewsubservice";
+import Carrershome from "./Carrershome";
+import Applyjob from "./Applyjob";
 
 function App() {
   const [navColor, setNavcolor] = useState("");
@@ -52,7 +54,10 @@ function App() {
             <Route path=":name/:service" element={<Viewsubservice />} />
           </Route>
           <Route path="/casestudies" element={<CaseStudies />} />
-          <Route path="/careers" element={<Careers />} />
+          <Route path="/careers" element={<Carrershome />}>
+            <Route path="" element={<Careers />} />
+            <Route path="fullstacknode" element={<Applyjob />} />
+          </Route>
           <Route path="/legalresources" element={<Legalterms />} />
           <Route path="/blog" element={<Blog />}>
             <Route exact path="" element={<Insight />} />

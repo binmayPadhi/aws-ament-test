@@ -1,8 +1,14 @@
 import React from "react";
 import CurrentJson from "../../Data/Careers-Data/CurrentOpeningsData";
-import location from "../../images/careers-page/location.png";
+import { useNavigate } from "react-router-dom";
 
 const CurrentOpenings = () => {
+  const history = useNavigate();
+  const redirectTo = (e, name) => {
+    e.preventDefault();
+    history(`${name}`);
+    window.scrollTo(0, 0);
+  };
   return (
     <>
       <div className="mt-5 text-center">
@@ -46,7 +52,10 @@ const CurrentOpenings = () => {
                     <p className="fw-bold-400 fs-12 text-grey">
                       {response.location}
                     </p>
-                    <button className="fw-bold-600 orange-border fs-12 ">
+                    <button
+                      className="fw-bold-600 orange-border fs-12 cr-pointer"
+                      onClick={(e) => redirectTo(e, response.link)}
+                    >
                       {response.button}
                     </button>
                   </div>

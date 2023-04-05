@@ -1,91 +1,100 @@
-
 const Openings = [
-    {
-        "id":1,
-        "heading":"MID-SENIOR LEVEL",
-        "role":"Application Engineer",
-        "location":"Hyderabad",
-        "button":"Apply Now"
-    },
-    {
-        "id":2,
-        "heading":"MID-SENIOR LEVEL",
-        "role":"Application Engineer",
-        "location":"Hyderabad",
-        "button":"Apply Now"
-    },
-    {
-        "id":3,
-        "heading":"MID-SENIOR LEVEL",
-        "role":"Data Engineer",
-        "location":"Hyderabad",
-        "button":"Apply Now"
-    },
-    {
-        "id":4,
-        "heading":"MID-SENIOR LEVEL",
-        "role":"Data Scientist",
-        "location":"Hyderabad",
-        "button":"Apply Now"
-    },
-    {
-        "id":5,
-        "heading":"MID-SENIOR LEVEL",
-        "role":"Data Visualization",
-        "location":"Hyderabad",
-        "button":"Apply Now"
-    },
-    {
-        "id":6,
-        "heading":"ENTRY LEVEL",
-        "role":"Graphic Designer",
-        "location":"Hyderabad",
-        "button":"Apply Now"
-    },
-    {
-        "id":7,
-        "heading":"SENIOR LEVEL",
-        "role":"Project Manager",
-        "location":"Hyderabad",
-        "button":"Apply Now"
-    },
-    {
-        "id":8,
-        "heading":"MID-SENIOR LEVEL",
-        "role":"QA Lead/Analyst",
-        "location":"Hyderabad",
-        "button":"Apply Now"
-    },
-    {
-        "id":9,
-        "heading":"SENIOR LEVEL",
-        "role":"Senior HADOOP Developer",
-        "location":"Hyderabad",
-        "button":"Apply Now"
-    },
-    {
-        "id":10,
-        "heading":"SENIOR LEVEL",
-        "role":"Senior SSIS & SQL Developer",
-        "location":"Hyderabad",
-        "button":"Apply Now"
-    },
-    {
-        "id":11,
-        "heading":"SENIOR LEVEL",
-        "role":"Senior UX Designer",
-        "location":"Hyderabad",
-        "button":"Apply Now"
-    },
-    {
-        "id":12,
-        "heading":"SENIOR LEVEL",
-        "role":"Business Analyst",
-        "location":"Hyderabad",
-        "button":"Apply Now"
-    },
-
-
-]
+  {
+    id: 1,
+    heading: "MID-SENIOR LEVEL",
+    role: "Full Stuck Nodejs",
+    location: "Hyderabad",
+    button: "Apply Now",
+    link: "/careers/fullstacknode",
+  },
+  {
+    id: 2,
+    heading: "MID-SENIOR LEVEL",
+    role: "Application Engineer",
+    location: "Hyderabad",
+    button: "Apply Now",
+    link: "/careers/applicationengineering",
+  },
+  {
+    id: 3,
+    heading: "MID-SENIOR LEVEL",
+    role: "Data Engineer",
+    location: "Hyderabad",
+    button: "Apply Now",
+    link: "/careers/dataengineer",
+  },
+  {
+    id: 4,
+    heading: "MID-SENIOR LEVEL",
+    role: "Data Scientist",
+    location: "Hyderabad",
+    button: "Apply Now",
+    link: "/careers/datascientist",
+  },
+  {
+    id: 5,
+    heading: "MID-SENIOR LEVEL",
+    role: "Data Visualization",
+    location: "Hyderabad",
+    button: "Apply Now",
+    link: "/careers/datavisualization",
+  },
+  {
+    id: 6,
+    heading: "ENTRY LEVEL",
+    role: "Graphic Designer",
+    location: "Hyderabad",
+    button: "Apply Now",
+    link: "/careers/graphicdesigner",
+  },
+  {
+    id: 7,
+    heading: "SENIOR LEVEL",
+    role: "Project Manager",
+    location: "Hyderabad",
+    button: "Apply Now",
+    link: "/careers/projectmanager",
+  },
+  {
+    id: 8,
+    heading: "MID-SENIOR LEVEL",
+    role: "QA Lead/Analyst",
+    location: "Hyderabad",
+    button: "Apply Now",
+    link: "/careers/qalead",
+  },
+  {
+    id: 9,
+    heading: "SENIOR LEVEL",
+    role: "Senior HADOOP Developer",
+    location: "Hyderabad",
+    button: "Apply Now",
+    link: "/careers/hadoop",
+  },
+  {
+    id: 10,
+    heading: "SENIOR LEVEL",
+    role: "Senior SSIS & SQL Developer",
+    location: "Hyderabad",
+    button: "Apply Now",
+    link: "/careers/sql",
+  },
+  {
+    id: 11,
+    heading: "SENIOR LEVEL",
+    role: "Senior UX Designer",
+    location: "Hyderabad",
+    button: "Apply Now",
+    link: "/careers/ux",
+  },
+  {
+    id: 12,
+    heading: "SENIOR LEVEL",
+    role: "Business Analyst",
+    location: "Hyderabad",
+    button: "Apply Now",
+    link: "/careers/businessanalyst",
+  },
+];
 
 export default Openings;
