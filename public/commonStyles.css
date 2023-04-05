@@ -409,7 +409,11 @@ input:focus {
 }
 
 .bg {
-  background-color: #c2c2c2;
+  background-color: #f9f9f9;
+}
+
+.career-details li {
+  list-style-type: disc;
 }
 
 .top-68 {

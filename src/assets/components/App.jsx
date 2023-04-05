@@ -23,6 +23,12 @@ import Blog from "./Resources/Blog";
 import Viewsubservice from "./SubServices/Viewsubservice";
 import Carrershome from "./Carrershome";
 import Applyjob from "./Applyjob";
+import Applyazure from "./Applyazure";
+import ApplyDarchitect from "./ApplyDarchitect";
+import ApplyNet from "./ApplyDotNet";
+import Datasc from "./ApplyDatasc";
+import Python from "./Python";
+import UXdesigner from "./UXdesigner";
 
 function App() {
   const [navColor, setNavcolor] = useState("");
@@ -38,7 +44,8 @@ function App() {
         "/blog/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" ||
       url === "/cookiespolicy" ||
       url === "/Privacypolicy" ||
-      url === "/termsandconditions" ? (
+      url === "/termsandconditions" ||
+      url === "/blog" ? (
         <div>
           <Navbar navChange={navColor} />
         </div>
@@ -57,6 +64,12 @@ function App() {
           <Route path="/careers" element={<Carrershome />}>
             <Route path="" element={<Careers />} />
             <Route path="fullstacknode" element={<Applyjob />} />
+            <Route path="azure" element={<Applyazure />} />
+            <Route path="da" element={<ApplyDarchitect />} />
+            <Route path="dotnet" element={<ApplyNet />} />
+            <Route path="datascientist" element={<Datasc />} />
+            <Route path="python" element={<Python />} />
+            <Route path="uxdesigner" element={<UXdesigner />} />
           </Route>
           <Route path="/legalresources" element={<Legalterms />} />
           <Route path="/blog" element={<Blog />}>

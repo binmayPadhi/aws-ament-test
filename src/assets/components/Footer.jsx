@@ -19,26 +19,26 @@ function Footer() {
           id: "11",
           name: "About Us",
           link: "/aboutus",
-          target: "_balnk",
+          target: "",
         },
         {
           id: "12",
           name: "Careers",
           link: "/careers",
-          target: "_balnk",
+          target: "",
         },
-        {
-          id: "13",
-          name: "Our Partners",
-          link: "",
-          target: "_balnk",
-        },
-        {
-          id: "14",
-          name: "Leadership Team",
-          link: "",
-          target: "_balnk",
-        },
+        // {
+        //   id: "13",
+        //   name: "Our Partners",
+        //   link: "",
+        //   target: "_balnk",
+        // },
+        // {
+        //   id: "14",
+        //   name: "Leadership Team",
+        //   link: "",
+        //   target: "_balnk",
+        // },
       ],
     },
     {
@@ -49,14 +49,14 @@ function Footer() {
           id: 21,
           name: "Swift Insights",
           link: "https://swiftinsights.ai/",
-          target: "_balnk",
+          target: "",
         },
-        {
-          id: 22,
-          name: "Swift Data",
-          link: "https://swiftdata.ai/",
-          target: "_balnk",
-        },
+        // {
+        //   id: 22,
+        //   name: "Swift Data",
+        //   link: "https://swiftdata.ai/",
+        //   target: "_balnk",
+        // },
       ],
     },
     {
@@ -67,94 +67,94 @@ function Footer() {
           id: 31,
           name: "AI/ML",
           link: "/services/aiml",
-          target: "_balnk",
+          target: "",
         },
         {
           id: 32,
           name: "Advanced Analytics",
           link: "/services/advancedanalytics",
-          target: "_balnk",
+          target: "",
         },
         {
           id: 33,
           name: "Data Engineering",
           link: "/services/dataengineering",
-          target: "_balnk",
+          target: "",
         },
         {
           id: 34,
           name: "Data Management",
           link: "/services/datamanagement",
-          target: "_balnk",
+          target: "",
         },
         {
           id: 35,
           name: "Cloud Services",
           link: "/services/cloudservices",
-          target: "_balnk",
+          target: "",
         },
         {
           id: 36,
           name: "User Experience",
           link: "/services/userexperinces",
-          target: "_balnk",
+          target: "",
         },
         {
           id: 37,
           name: "Strategy & Consulting",
           link: "/services/strategyandconsulting",
-          target: "_balnk",
+          target: "",
         },
         {
           id: 38,
           name: "Data Annotation",
           link: "/services/dataannotation",
-          target: "_balnk",
+          target: "",
         },
         {
           id: 39,
           name: "Quality Assurance",
           link: "/services/qualityassurance",
-          target: "_balnk",
+          target: "",
         },
       ],
     },
-    {
-      id: 4,
-      headingName: "INDUSTRIES",
-      sublist: [
-        {
-          id: 41,
-          name: " Retail & Ecommerce",
-          link: "",
-          target: "_balnk",
-        },
-        {
-          id: 42,
-          name: "Inforamtion Management",
-          link: "",
-          target: "_balnk",
-        },
-        {
-          id: 43,
-          name: "Healthcare",
-          link: "",
-          target: "_balnk",
-        },
-        {
-          id: 44,
-          name: "HRMS",
-          link: "",
-          target: "_balnk",
-        },
-        {
-          id: 45,
-          name: "Financial Services",
-          link: "",
-          target: "_balnk",
-        },
-      ],
-    },
+    // {
+    //   id: 4,
+    //   headingName: "INDUSTRIES",
+    //   sublist: [
+    //     {
+    //       id: 41,
+    //       name: " Retail & Ecommerce",
+    //       link: "",
+    //       target: "_balnk",
+    //     },
+    //     {
+    //       id: 42,
+    //       name: "Inforamtion Management",
+    //       link: "",
+    //       target: "_balnk",
+    //     },
+    //     {
+    //       id: 43,
+    //       name: "Healthcare",
+    //       link: "",
+    //       target: "_balnk",
+    //     },
+    //     {
+    //       id: 44,
+    //       name: "HRMS",
+    //       link: "",
+    //       target: "_balnk",
+    //     },
+    //     {
+    //       id: 45,
+    //       name: "Financial Services",
+    //       link: "",
+    //       target: "_balnk",
+    //     },
+    //   ],
+    // },
     {
       id: 5,
       headingName: "RESOURCES",
@@ -163,7 +163,7 @@ function Footer() {
           id: 51,
           name: "Blogs",
           link: "/blog/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry",
-          target: "_balnk",
+          target: "",
         },
         {
           id: 52,
@@ -175,14 +175,14 @@ function Footer() {
           id: 53,
           name: "Case Studies",
           link: "/casestudies",
-          target: "_balnk",
+          target: "",
         },
-        {
-          id: 54,
-          name: "news",
-          link: "",
-          target: "_balnk",
-        },
+        // {
+        //   id: 54,
+        //   name: "news",
+        //   link: "",
+        //   target: "_balnk",
+        // },
       ],
     },
   ];
@@ -221,6 +221,10 @@ function Footer() {
       behavior: "smooth",
     });
   };
+  const scrollPage = (e) => {
+    e.preventDefault();
+    window.scrollTo(0, 0);
+  };
   return (
     <>
       {/* <!-- FOOTER SECTION --> */}
@@ -251,7 +255,7 @@ function Footer() {
             <div className="col-md-3 col-lg-3 col-sm-12"></div>
           </div>
         </div>
-        <div className="w-98 mx-auto mb-5">
+        <div className="w-90 mx-auto mb-5">
           <p className="row mx-0 mt-3 mb-3">
             <div className="col-sm-12 col-xs-12 col-md-1 col-lg-1"></div>
             {footerlist.map((list) => {
@@ -268,8 +272,9 @@ function Footer() {
                           {val.link != "" ? (
                             <Link
                               to={val.link}
-                              target="_blank"
+                              target={val.target === "_blank" ? "_blank" : ""}
                               className="listName cr-pointer text-decoration-none fs-13 text-black"
+                              onClick={(e) => scrollPage(e)}
                             >
                               {val.name}
                             </Link>

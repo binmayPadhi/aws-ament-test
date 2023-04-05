@@ -21,6 +21,8 @@
   color: #ffffff;
 }
 
+
+
 .lh-50 {
   line-height: 50px;
 }
@@ -32,10 +34,12 @@
   font-size: 13px;
   color: #000000 !important;
   background: #ffffff;
-  border-radius: 20px;
-  width: 10%;
+  border-radius: 4px;
+  width: 120px;
+  height:28px;
+  padding-top:5px;
   display: table;
-  padding: 0px 10px;
+   margin-left:8px;
 }
 
 .btn-ribbon-mob {
@@ -47,7 +51,7 @@
   background: #ffffff;
   display: table;
   padding: 10px 25px;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
 .close_icon {
