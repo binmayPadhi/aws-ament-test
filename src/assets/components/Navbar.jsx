@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import amnetLogo from "../images/HomePage/amnetdigitalblack.png";
+import amnetLogo from "../images/HomePage/ADnewlogo.png";
 import group from "../images/Group.png";
 import amnetLogo1 from "../images/HomePage/ad-white.png";
 import "../CSS/Navbar.css";

@@ -103,7 +103,7 @@ function App() {
       url !=
         "blog/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
       url != "blog/swiftinisghts-Webinar" ? (
-        <div>
+        <div className="industry-section-row">
           <Footer />
         </div>
       ) : null}
