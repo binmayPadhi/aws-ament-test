@@ -229,38 +229,32 @@ function Navbar(props) {
                         <div className="row">
                           <div className="col-lg-4">
                             <p className="service-aiml mt-5 mb-0">
-                              <a href={`/services/${`aiml`}`}>AI/ML</a>
+                              <a href={`/services/aiml`}>AI/ML</a>
                             </p>
                             <p
                               className="sub-service-links mb-0"
                               style={{ marginTop: "5px" }}
                             >
-                              <a
-                                href={`/services/${`aiml`}/${`Statistical Analysis`}`}
-                              >
+                              <a href={`/services/aiml/Statistical Analysis`}>
                                 Statistical Analysis
                               </a>
                             </p>
                             <p className="sub-service-links mb-0">
-                              <a
-                                href={`/services/${`aiml`}/${`Visualizations`}`}
-                              >
+                              <a href={`/services/aiml/Visualizations`}>
                                 Visualizations
                               </a>
                             </p>
                             <p className="sub-service-links mb-0">
-                              <a
-                                href={`/services/${`aiml`}/${`Anomaly Detection`}`}
-                              >
+                              <a href={`/services/aiml/Anomaly Detection`}>
                                 Anomaly Detection
                               </a>
                             </p>
                             <p className="sub-service-links dropdown-view-all-link mb-0">
-                              <a href={`/services/${`aiml`}`}>{`See more >`}</a>
+                              <a href={`/services/aiml`}>{`See more >`}</a>
                             </p>
 
                             <p className="service-aiml mt-5">
-                              <a href={`/services/${`advancedanalytics`}`}>
+                              <a href={`/services/advancedanalytics`}>
                                 Advanced Analytics
                               </a>
                             </p>
@@ -269,33 +263,33 @@ function Navbar(props) {
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`advancedanalytics`}/${`Complex Event Processing`}`}
+                                href={`/services/advancedanalytics/Complex Event Processing`}
                               >
                                 Complex Event Processing
                               </a>
                             </p>
                             <p className="sub-service-links mb-0">
                               <a
-                                href={`/services/${`advancedanalytics`}/${`Deep Learning`}`}
+                                href={`/services/advancedanalytics/Deep Learning`}
                               >
                                 Deep Learning
                               </a>
                             </p>
                             <p className="sub-service-links mb-0">
                               <a
-                                href={`/services/${`advancedanalytics`}/${`Graph Analysis`}`}
+                                href={`/services/advancedanalytics/Graph Analysis`}
                               >
                                 Graph Analysis
                               </a>
                             </p>
                             <p className="sub-service-links dropdown-view-all-link mb-0">
                               <a
-                                href={`/services/${`advancedanalytics`}`}
+                                href={`/services/advancedanalytics`}
                               >{`See more >`}</a>
                             </p>
 
                             <p className="service-aiml mt-5">
-                              <a href={`/services/${`strategyconsulting`}`}>
+                              <a href={`/services/strategyconsulting`}>
                                 Strategy & Consulting
                               </a>
                             </p>
@@ -304,28 +298,28 @@ function Navbar(props) {
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`strategyconsulting`}/${`Data Strategy`}`}
+                                href={`/services/strategyconsulting/Data Strategy`}
                               >
                                 Data Strategy
                               </a>
                             </p>
                             <p className="sub-service-links mb-0">
                               <a
-                                href={`/services/${`strategyconsulting`}/${`AI Strategy`}`}
+                                href={`/services/strategyconsulting/AI Strategy`}
                               >
                                 AI Strategy
                               </a>
                             </p>
                             <p className="sub-service-links mb-0">
                               <a
-                                href={`/services/${`strategyconsulting`}/${`Application Development`}`}
+                                href={`/services/strategyconsulting/Application Development`}
                               >
                                 Application Development
                               </a>
                             </p>
                             <p className="sub-service-links dropdown-view-all-link mb-0">
                               <a
-                                href={`/services/${`strategyconsulting`}`}
+                                href={`/services/strategyconsulting`}
                               >{`See more >`}</a>
                             </p>
 
@@ -335,7 +329,7 @@ function Navbar(props) {
                           </div>
                           <div className="col-lg-4">
                             <p className="service-aiml mt-5">
-                              <a href={`/services/${`dataannotation`}`}>
+                              <a href={`/services/dataannotation`}>
                                 Data Annotation
                               </a>
                             </p>
@@ -344,33 +338,33 @@ function Navbar(props) {
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`dataannotation`}/${`Image Annotation`}`}
+                                href={`/services/dataannotation/Image Annotation`}
                               >
                                 Image Annotation
                               </a>
                             </p>
                             <p className="sub-service-links mb-0">
                               <a
-                                href={`/services/${`dataannotation`}/${`Video Annotation`}`}
+                                href={`/services/dataannotation/Video Annotation`}
                               >
                                 Video Annotation
                               </a>
                             </p>
                             <p className="sub-service-links mb-0">
                               <a
-                                href={`/services/${`dataannotation`}/${`Audio Annotation`}`}
+                                href={`/services/dataannotation/Audio Annotation`}
                               >
                                 Audio Annotation
                               </a>
                             </p>
                             <p className="sub-service-links dropdown-view-all-link mb-0">
                               <a
-                                href={`/services/${`dataannotation`}`}
+                                href={`/services/dataannotation`}
                               >{`See more >`}</a>
                             </p>
 
                             <p className="service-aiml mt-5">
-                              <a href={`/services/${`dataengineering`}`}>
+                              <a href={`/services/dataengineering`}>
                                 Data Engineering
                               </a>
                             </p>
@@ -379,33 +373,33 @@ function Navbar(props) {
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`dataengineering`}/${`Data Pipeline`}`}
+                                href={`/services/dataengineering/Data Pipeline`}
                               >
                                 Data Pipeline
                               </a>
                             </p>
                             <p className="sub-service-links mb-0">
                               <a
-                                href={`/services/${`dataengineering`}/${`Data Transformation`}`}
+                                href={`/services/dataengineering/Data Transformation`}
                               >
                                 Data Transformation
                               </a>
                             </p>
                             <p className="sub-service-links mb-0">
                               <a
-                                href={`/services/${`dataengineering`}/${`Data Cleansing`}`}
+                                href={`/services/dataengineering/Data Cleansing`}
                               >
                                 Data Cleansing
                               </a>
                             </p>
                             <p className="sub-service-links dropdown-view-all-link mb-0">
                               <a
-                                href={`/services/${`dataengineering`}`}
+                                href={`/services/dataengineering`}
                               >{`See more >`}</a>
                             </p>
 
                             <p className="service-aiml mt-5">
-                              <a href={`/services/${`datamanagement`}`}>
+                              <a href={`/services/datamanagement`}>
                                 Data Management
                               </a>
                             </p>
@@ -414,34 +408,34 @@ function Navbar(props) {
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`datamanagement`}/${`Data Architecture Management`}`}
+                                href={`/services/datamanagement/Data Architecture Management`}
                               >
                                 Data Architecture Management
                               </a>
                             </p>
                             <p className="sub-service-links mb-0">
                               <a
-                                href={`/services/${`datamanagement`}/${`Data Development`}`}
+                                href={`/services/datamanagement/Data Development`}
                               >
                                 Data Development
                               </a>
                             </p>
                             <p className="sub-service-links mb-0">
                               <a
-                                href={`/services/${`datamanagement`}/${`Data Governance`}`}
+                                href={`/services/datamanagement/Data Governance`}
                               >
                                 Data Governance
                               </a>
                             </p>
                             <p className="sub-service-links dropdown-view-all-link mb-0">
                               <a
-                                href={`/services/${`datamanagement`}`}
+                                href={`/services/datamanagement`}
                               >{`See more >`}</a>
                             </p>
                           </div>
                           <div className="col-lg-4">
                             <p className="service-aiml mt-5">
-                              <a href={`/services/${`userexperiences`}`}>
+                              <a href={`/services/userexperiences`}>
                                 User Experience
                               </a>
                             </p>
@@ -450,66 +444,66 @@ function Navbar(props) {
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`userexperiences`}/${`Design Thinking`}`}
+                                href={`/services/userexperiences/Design Thinking`}
                               >
                                 Design Thinking
                               </a>
                             </p>
                             <p className="sub-service-links mb-0">
                               <a
-                                href={`/services/${`userexperiences`}/${`User Research & Analysis`}`}
+                                href={`/services/userexperiences/User Research & Analysis`}
                               >
                                 User Research & Analysis
                               </a>
                             </p>
                             <p className="sub-service-links mb-0">
                               <a
-                                href={`/services/${`userexperiences`}/${`Experience & Interaction Design`}`}
+                                href={`/services/userexperiences/Experience & Interaction Design`}
                               >
                                 Experience & Interaction Design
                               </a>
                             </p>
                             <p className="sub-service-links dropdown-view-all-link ">
                               <a
-                                href={`/services/${`userexperiences`}`}
+                                href={`/services/userexperiences`}
                               >{`See more >`}</a>
                             </p>
 
                             <p className="service-aiml mt-5">
-                              <a href={`/${`cloudservices`}`}>Cloud Services</a>
+                              <a href={`/cloudservices`}>Cloud Services</a>
                             </p>
                             <p
                               className="sub-service-links mb-0"
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`cloudservices`}/${`Cloud Advisory Services`}`}
+                                href={`/services/cloudservices/Cloud Advisory Services`}
                               >
                                 Cloud Advisory Services
                               </a>
                             </p>
                             <p className="sub-service-links mb-0">
                               <a
-                                href={`/services/${`cloudservices`}/${`Cloud Migration Services`}`}
+                                href={`/services/cloudservices/Cloud Migration Services`}
                               >
                                 Cloud Migration Services
                               </a>
                             </p>
                             <p className="sub-service-links mb-0">
                               <a
-                                href={`/services/${`cloudservices`}/${`Cloud Integration`}`}
+                                href={`/services/cloudservices/Cloud Integration`}
                               >
                                 Cloud Integration
                               </a>
                             </p>
                             <p className="sub-service-links dropdown-view-all-link ">
                               <a
-                                href={`/services/${`cloudservices`}`}
+                                href={`/services/cloudservices`}
                               >{`See more >`}</a>
                             </p>
 
                             <p className="service-aiml mt-5">
-                              <a href={`/services/${`qualityassurance`}`}>
+                              <a href={`/services/qualityassurance`}>
                                 Quality Assurance
                               </a>
                             </p>
@@ -518,28 +512,28 @@ function Navbar(props) {
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`qualityassurance`}/${`Functional Testing`}`}
+                                href={`/services/qualityassurance/Functional Testing`}
                               >
                                 Functional Testing
                               </a>
                             </p>
                             <p className="sub-service-links mb-0">
                               <a
-                                href={`/services/${`qualityassurance`}/${`Compatibility Testing`}`}
+                                href={`/services/qualityassurance/Compatibility Testing`}
                               >
                                 Compatibility Testing
                               </a>
                             </p>
                             <p className="sub-service-links mb-0">
                               <a
-                                href={`/services/${`qualityassurance`}/${`Performance Testing`}`}
+                                href={`/services/qualityassurance/Performance Testing`}
                               >
                                 Performance Testing
                               </a>
                             </p>
                             <p className="sub-service-links dropdown-view-all-link ">
                               <a
-                                href={`/services/${`qualityassurance`}`}
+                                href={`/services/qualityassurance`}
                               >{`See more >`}</a>
                             </p>
                           </div>
@@ -577,62 +571,62 @@ function Navbar(props) {
                   >
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/services/${`aiml`}`}
+                      to={`/services/aiml`}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                     >
                       AI / ML
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/services/${`datamanagement`}`}
+                      to={`/services/datamanagement`}
                     >
                       Data Management
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/services/${`advancedanalytics`}`}
+                      to={`/services/advancedanalytics`}
                     >
                       Advanced Analytics
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/services/${`dataengineering`}`}
+                      to={`/services/dataengineering`}
                     >
                       Data Engineering
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/services/${`platformengineering`}`}
+                      to={`/services/platformengineering`}
                     >
                       Platform Engineering
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/services/${`userexperiences`}`}
+                      to={`/services/userexperiences`}
                     >
                       User Experience
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/services/${`cloudservices`}`}
+                      to={`/services/cloudservices`}
                     >
                       Cloud
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/services//${`qualityassurance`}`}
+                      to={`/services/qualityassurance`}
                     >
                       Quality Assurance
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/services//${`strategyconsulting`}`}
+                      to={`/services/strategyconsulting`}
                     >
                       Consulting
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/services//${`dataannotation`}`}
+                      to={`/services/dataannotation`}
                     >
                       Data Annotation
                     </NavLink>
