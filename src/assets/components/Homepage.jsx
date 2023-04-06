@@ -51,15 +51,17 @@ const Test = () => {
       consentPopup.classList.add("hidden");
     };
     const consentPopup = document.getElementById("consent-popup");
-    const acceptBtn = document.getElementById("accept");
-    const declineBtn = document.getElementById("decline");
-    acceptBtn.addEventListener("click", acceptFn);
-    declineBtn.addEventListener("click", declineFn);
-    if (shouldShowPopup(storageType)) {
-      setTimeout(() => {
-        consentPopup.classList.remove("hidden");
-        // consentPopup.classList.add("block");
-      }, 2000);
+    if (consentPopup != null) {
+      const acceptBtn = document.getElementById("accept");
+      const declineBtn = document.getElementById("decline");
+      acceptBtn.addEventListener("click", acceptFn);
+      declineBtn.addEventListener("click", declineFn);
+      if (shouldShowPopup(storageType)) {
+        setTimeout(() => {
+          consentPopup.classList.remove("hidden");
+          // consentPopup.classList.add("block");
+        }, 2000);
+      }
     }
   };
 
@@ -140,10 +142,10 @@ const Test = () => {
                             <table className="pl-1 border-0">
                               <tr>
                                 <td className="border-0">
-                                  <p className="fw-bold-500 text-white fs-24 lh-24 ml-1 p-3 pb-0 mb-0">
+                                  <p className="fw-bold-500 text-white fs-24 lh-24 ml-1 pt-5 pb-0 mb-0 pr-4">
                                     {list.subHeading}
                                   </p>
-                                  <p className="fw-bold-300 text-white fs-14 ml-1 p-2">
+                                  <p className="fw-bold-300 text-white fs-14 ml-1 pr-3 pt-3 pb-5">
                                     {list.description}
                                   </p>
                                 </td>
@@ -172,10 +174,10 @@ const Test = () => {
                             <table className="pl-1 border-0">
                               <tr>
                                 <td className="border-0">
-                                  <p className="fw-bold-500 text-white fs-24 lh-24 ml-1 p-3 pb-0 mb-0">
+                                  <p className="fw-bold-500 text-white fs-24 lh-24 ml-1 pt-5 pb-0 mb-0 pr-4 mb-0">
                                     {list.subHeading}
                                   </p>
-                                  <p className="fw-bold-300 text-white fs-14 ml-1 p-2">
+                                  <p className="fw-bold-300 text-white fs-14 ml-1 pr-3 pt-3 pb-5">
                                     {list.description}
                                   </p>
                                 </td>
@@ -204,10 +206,10 @@ const Test = () => {
                             <table className="pl-1 border-0">
                               <tr>
                                 <td className="border-0">
-                                  <p className="fw-bold-500 text-white fs-24 lh-24 ml-1 p-3 pb-0 mb-0">
+                                  <p className="fw-bold-500 text-white fs-24 lh-24 ml-1 pt-5 pb-0 mb-0 pr-4 mb-0">
                                     {list.subHeading}
                                   </p>
-                                  <p className="fw-bold-300 text-white fs-14 ml-1 p-2">
+                                  <p className="fw-bold-300 text-white fs-14 ml-1 pr-3 pt-3 pb-5">
                                     {list.description}
                                   </p>
                                 </td>
@@ -236,10 +238,10 @@ const Test = () => {
                             <table className="pl-1 border-0">
                               <tr>
                                 <td className="border-0">
-                                  <p className="fw-bold-500 text-white fs-24 lh-24 ml-1 p-3 pb-0 mb-0">
+                                  <p className="fw-bold-500 text-white fs-24 lh-24 ml-1 pt-5 pb-0 mb-0 pr-4 mb-0">
                                     {list.subHeading}
                                   </p>
-                                  <p className="fw-bold-300 text-white fs-14 ml-1 p-2">
+                                  <p className="fw-bold-300 text-white fs-14 ml-1 pr-3 pt-3 pb-5">
                                     {list.description}
                                   </p>
                                 </td>
@@ -302,26 +304,29 @@ const Test = () => {
       </MediaQuery>
       {/* NEW HOMEPAGE SOLUTION SERVICE SECTION */}
       <Suspense fallback={<div>Loading...</div>}>
-        <h1 className="section-title mt-8 text-center mb-3">
+        <h1 className="section-title industry-section-row text-center mb-3">
           Drive Organizational Change
         </h1>
-        <div className="mt-5 mb-5 center-91">
+        <div className="mt-5 mb-5">
           <OrganizationServices />
         </div>
       </Suspense>
       {/* NEW HOMEPAGE OUR SERVICE SECTION */}
-      <div className="center-91">
-        <OurServicesSection />
+      <div className="bg">
+        <div className="center-91 industry-section-row pb-5">
+          <OurServicesSection />
+        </div>
       </div>
+
       {/* NEW HOMEPAGE INDUSTRIES SECTION */}
       <Suspense fallback={<div>Loading...</div>}>
-        <div className="center-91">
+        <div className="center-91 industry-section-row ">
           <IndusrtySection />
         </div>
       </Suspense>
       {/* NEW HOMEPAGE glance SECTION */}
       <Suspense fallback={<div>Loading...</div>}>
-        <div className="bg-grey">
+        <div className="bg industry-section-row">
           <div className="center-91 my-4">
             <Amnetglance />
           </div>
@@ -329,18 +334,20 @@ const Test = () => {
       </Suspense>
       {/* NEW HOMEPAGE CASE STUDIES */}
       <Suspense fallback={<div>Loading...</div>}>
-        <CaseStudiesSection />
+        <div className="industry-section-row ">
+          <CaseStudiesSection />
+        </div>
       </Suspense>
       {/* NEW HOMEPAGE CLIENT SAY */}
       <Suspense fallback={<div>Loading...</div>}>
-        <h1 className="section-title mt-8 text-center mb-3">
+        <h1 className="section-title industry-section-row text-center mb-3">
           WHAT OUR CLIENTS SAY
         </h1>
         <Aboutclientsay />
       </Suspense>
       <Suspense fallback={<div>Loading...</div>}>
         <div
-          className="container-fluid space-drive "
+          className="container-fluid space-drive industry-section-row"
           style={{
             backgroundImage: `url(${DriveBg})`,
             backgroundAttachment: "scroll",
@@ -368,12 +375,12 @@ const Test = () => {
         </div>
       </Suspense>
       {/* NEW HOMEPAGE OUR PARTNER SECTION */}
-      <div className="new-our-partner bg-grey pb-5">
+      <div className="new-our-partner bg-grey pb-5 industry-section-row">
         <h1 className="section-title mt-3 text-center">Technology Partners</h1>
         <OurPartner />
       </div>
       {/* NEW HOMEPAGE CAREER SECTION */}
-      <div className="mb-8 mt-8">
+      <div className="industry-section-row">
         <Gotocontact />
       </div>
       <div id="consent-popup" className="hidden cookies-banner">

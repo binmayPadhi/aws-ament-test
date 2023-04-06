@@ -1,5 +1,5 @@
 import React from "react";
-import amnetLogo from "../images/HomePage/amnetdigitalblack.png";
+import amnetLogo from "../images/HomePage/ADnewlogo.png";
 import submit_icon from "../images/HomePage/Send.png";
 import linkdein from "../images/HomePage/Linkedin.png";
 import twitter from "../images/HomePage/Twitter.png";

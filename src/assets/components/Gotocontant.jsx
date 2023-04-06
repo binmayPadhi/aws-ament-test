@@ -15,14 +15,13 @@ const Gotocontact = ({ componentFrom }) => {
   };
   return (
     <div
-      className="position-relative"
+      className="position-relative img-height"
       style={{
         backgroundImage: `url(${imgbg})`,
         backgroundAttachment: "scroll",
         backgroundRepeat: "no-repeat",
         backgroundSize: "100% 100%",
         width: "100%",
-        height: "600px",
       }}
     >
       <div className="text-center-img ">
