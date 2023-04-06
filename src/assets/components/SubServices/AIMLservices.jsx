@@ -6,13 +6,15 @@ const AIservices = () => {
   const params = useParams();
   const history = useNavigate();
   useEffect(() => {
+    console.log(params);
     services.map((res) => {
       if (res.serviceName === params.name) {
+        console.log(res);
         let x = Object.values(res.sub);
         history(`/services/${params.name}/${x[0][0]["name"]}`);
       }
     });
-  }, []);
+  }, [params.name]);
 };
 
 export default AIservices;

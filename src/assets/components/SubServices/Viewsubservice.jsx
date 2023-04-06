@@ -18,8 +18,10 @@ const Viewsubservice = () => {
   const [selectedServicesobj, setSelectedserviceobj] = useState({});
   const history = useNavigate();
   useEffect(() => {
+    console.log(params);
     services.map((res) => {
       if (res.serviceName === params.name) {
+        console.log(res);
         setServiceData(res);
         let x = Object.values(res.sub);
         setList(x[0]);

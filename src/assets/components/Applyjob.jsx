@@ -144,47 +144,110 @@ const Applyjob = () => {
               </div>
               <div className="">
                 <h1 className="fs-18 fw-bold-600">About the Role</h1>
-                <p className="fs-16 fw-bold-400">We are looking to add bright, focused, resourceful and highly goal-oriented Software
-                  Developer with experience in Node Js. Candidates should enjoy working in a challenging
-                  environment; have the enthusiasm and ambition to develop & amp; complete projects to the
-                  highest standard and want to be part of an organization that puts technology at the heart of
-                  everything it does.</p>
-                <h1 className="fs-18 fw-bold-600 mt-5">Your Key Responsibilities</h1>
+                <p className="fs-16 fw-bold-400">
+                  We are looking to add bright, focused, resourceful and highly
+                  goal-oriented Software Developer with experience in Node Js.
+                  Candidates should enjoy working in a challenging environment;
+                  have the enthusiasm and ambition to develop & amp; complete
+                  projects to the highest standard and want to be part of an
+                  organization that puts technology at the heart of everything
+                  it does.
+                </p>
+                <h1 className="fs-18 fw-bold-600 mt-5">
+                  Your Key Responsibilities
+                </h1>
                 <p>
-                  <ul>
-                    <li className="fs-16 fw-bold-400">Must be able to develop state of art Angular applications using RESTful micro
-                      services, Node.js and MongoDB Stack.</li>
-                    <li className="fs-16 fw-bold-400">Implementation of security and data protection.</li>
-                    <li className="fs-16 fw-bold-400">Implementation of robust set of services / APIs to power the web application.</li>
-                    <li className="fs-16 fw-bold-400"> Building reusable code and libraries for future use.</li>
-                    <li className="fs-16 fw-bold-400">Optimisation of the application for maximum speed and scalability.</li>
-                    <li className="fs-16 fw-bold-400"> Integration of the front-end and back-end aspects of the web application.</li>
-                    <li className="fs-16 fw-bold-400">Execute testing plans/strategy, create test cases, and user acceptance criteria.</li>
-                    <li className="fs-16 fw-bold-400"> Assist with test execution during test life cycle.</li>
-                    <li className="fs-16 fw-bold-400">Maintain the defect management life cycle, using a defect tracking tool.</li>
-                    <li className="fs-16 fw-bold-400"> Work with the developer team to ensure all defects are cleared out.</li>
-                    <li className="fs-16 fw-bold-400">Document defects, reasons, find trends and minimize the defects from happening
-                      again.</li>
+                  <ul className="career-details bg">
+                    <li className="fs-16 fw-bold-400">
+                      Must be able to develop state of art Angular applications
+                      using RESTful micro services, Node.js and MongoDB Stack.
+                    </li>
+                    <li className="fs-16 fw-bold-400">
+                      Implementation of security and data protection.
+                    </li>
+                    <li className="fs-16 fw-bold-400">
+                      Implementation of robust set of services / APIs to power
+                      the web application.
+                    </li>
+                    <li className="fs-16 fw-bold-400">
+                      {" "}
+                      Building reusable code and libraries for future use.
+                    </li>
+                    <li className="fs-16 fw-bold-400">
+                      Optimisation of the application for maximum speed and
+                      scalability.
+                    </li>
+                    <li className="fs-16 fw-bold-400">
+                      {" "}
+                      Integration of the front-end and back-end aspects of the
+                      web application.
+                    </li>
+                    <li className="fs-16 fw-bold-400">
+                      Execute testing plans/strategy, create test cases, and
+                      user acceptance criteria.
+                    </li>
+                    <li className="fs-16 fw-bold-400">
+                      {" "}
+                      Assist with test execution during test life cycle.
+                    </li>
+                    <li className="fs-16 fw-bold-400">
+                      Maintain the defect management life cycle, using a defect
+                      tracking tool.
+                    </li>
+                    <li className="fs-16 fw-bold-400">
+                      {" "}
+                      Work with the developer team to ensure all defects are
+                      cleared out.
+                    </li>
+                    <li className="fs-16 fw-bold-400">
+                      Document defects, reasons, find trends and minimize the
+                      defects from happening again.
+                    </li>
                     <li className="fs-16 fw-bold-400">Provide training.</li>
-                    <li className="fs-16 fw-bold-400">Maintain system documentation and user guides.</li>
+                    <li className="fs-16 fw-bold-400">
+                      Maintain system documentation and user guides.
+                    </li>
                   </ul>
                 </p>
                 <h1 className="fs-18 fw-bold-600 mt-5">What To Bring</h1>
-                <ul>
+                <ul className="career-details bg">
                   <li>Experience: 4 to 6 years</li>
-                  <li className="fs-16 fw-bold-400">Design &amp; develop web-based applications as per the business requirements and
-                    specifications.</li>
-                  <li className="fs-16 fw-bold-400">Develop front-end and back-end components and codes as per the robust architectural
-                    approach and design patterns. Adhere to guiding principles and code standards.</li>
-                  <li className="fs-16 fw-bold-400">Write efficient, re-usable, optimal, and well-documented code.</li>
-                  <li className="fs-16 fw-bold-400">Perform unit testing &amp; system integration testing Involve in troubleshooting and debugging
-                    critical problems and resolving complex technical issues that may arise.</li>
-                  <li className="fs-16 fw-bold-400">Should have experience in the design and development of web services and API and XML.</li>
-                  <li className="fs-16 fw-bold-400">Should preferably have a working understanding of cloud infrastructure components.</li>
-                  <li className="fs-16 fw-bold-400">Experience and Knowledge of NodeJS and the concept of RESTful API is a must.</li>
-                  <li className="fs-16 fw-bold-400">Experience in Angular-based applications is needed Experience in end-to-end web
-                    development Experience with SQL (PostgreSQL preferred) &amp; NoSQL (Mongo preferred)
-                    databases.</li>
+                  <li className="fs-16 fw-bold-400">
+                    Design &amp; develop web-based applications as per the
+                    business requirements and specifications.
+                  </li>
+                  <li className="fs-16 fw-bold-400">
+                    Develop front-end and back-end components and codes as per
+                    the robust architectural approach and design patterns.
+                    Adhere to guiding principles and code standards.
+                  </li>
+                  <li className="fs-16 fw-bold-400">
+                    Write efficient, re-usable, optimal, and well-documented
+                    code.
+                  </li>
+                  <li className="fs-16 fw-bold-400">
+                    Perform unit testing &amp; system integration testing
+                    Involve in troubleshooting and debugging critical problems
+                    and resolving complex technical issues that may arise.
+                  </li>
+                  <li className="fs-16 fw-bold-400">
+                    Should have experience in the design and development of web
+                    services and API and XML.
+                  </li>
+                  <li className="fs-16 fw-bold-400">
+                    Should preferably have a working understanding of cloud
+                    infrastructure components.
+                  </li>
+                  <li className="fs-16 fw-bold-400">
+                    Experience and Knowledge of NodeJS and the concept of
+                    RESTful API is a must.
+                  </li>
+                  <li className="fs-16 fw-bold-400">
+                    Experience in Angular-based applications is needed
+                    Experience in end-to-end web development Experience with SQL
+                    (PostgreSQL preferred) &amp; NoSQL (Mongo preferred)
+                    databases.
+                  </li>
                 </ul>
               </div>
             </div>

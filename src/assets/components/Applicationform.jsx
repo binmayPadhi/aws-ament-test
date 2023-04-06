@@ -4,6 +4,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import About from "../Data/AboutUs-Data/About";
 import emailjs from "emailjs-com";
+import "../CSS/Applicationform.css";
+import clear from "../images/clear.png";
 
 const Applicationform = () => {
   const [registerDetails, setregisterDetails] = useState({
@@ -142,7 +144,7 @@ const Applicationform = () => {
           <div className="col-lg-6 col-md-6 col-sm-12"></div>
           <div className="col-lg-3 col-md-3 col-sm-12">
             <div className="d-flex flex-row justify-content-end">
-              <img src="" className="width-clear" />
+              <img src={clear} className="width-clear" />
               <p className="fs-16 fw-bold-400 text-lightgrey ml-3">clear</p>
             </div>
           </div>
@@ -226,7 +228,7 @@ const Applicationform = () => {
                 <div className="col-lg-6 col-md-6 col-sm-12"></div>
                 <div className="col-lg-3 col-md-3 col-sm-12">
                   <div className="d-flex flex-row justify-content-end">
-                    <img src={""} className="width-clear" />
+                    <img src={clear} className="width-clear" />
                     <p className="fs-16 fw-bold-400 text-lightgrey ml-3">
                       clear
                     </p>
@@ -249,7 +251,7 @@ const Applicationform = () => {
                 <div className="col-lg-6 col-md-6 col-sm-12"></div>
                 <div className="col-lg-3 col-md-3 col-sm-12">
                   <div className="d-flex flex-row justify-content-end">
-                    <img src={""} className="width-clear" />
+                    <img src={clear} className="width-clear" />
                     <p className="fs-16 fw-bold-400 text-lightgrey ml-3">
                       clear
                     </p>
