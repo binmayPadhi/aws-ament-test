@@ -60,7 +60,6 @@ function App() {
             <Route path=":name" element={<AIservices />} />
             <Route path=":name/:service" element={<Viewsubservice />} />
           </Route>
-          <Route path="/casestudies" element={<CaseStudies />} />
           <Route path="/careers" element={<Carrershome />}>
             <Route path="" element={<Careers />} />
             <Route path="fullstacknode" element={<Applyjob />} />
@@ -71,6 +70,7 @@ function App() {
             <Route path="python" element={<Python />} />
             <Route path="uxdesigner" element={<UXdesigner />} />
           </Route>
+          <Route path="/casestudies" element={<CaseStudies />} />
           <Route path="/legalresources" element={<Legalterms />} />
           <Route path="/blog" element={<Blog />}>
             <Route exact path="" element={<Insight />} />
