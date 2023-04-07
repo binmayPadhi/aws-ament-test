@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import amnetLogo from "../images/HomePage/ADnewlogo.png";
 import group from "../images/Group.png";
 import amnetLogo1 from "../images/HomePage/ad-white.png";
@@ -10,6 +10,7 @@ import { useState } from "react";
 import { useLayoutEffect } from "react";
 
 function Navbar(props) {
+  const history = useNavigate();
   useEffect(() => {
     const header = new Headers();
     header.append("X-Content-Type-Options", "nosniff");
@@ -56,6 +57,11 @@ function Navbar(props) {
     fontFamily: `'Poppins', sans-serif`,
     marginTop: "5px",
     padding: "10px",
+  };
+
+  const serviceTo = (e, linkedUrl) => {
+    e.preventDefault();
+    history(linkedUrl);
   };
 
   function showDropdown(val) {
@@ -108,7 +114,6 @@ function Navbar(props) {
   });
 
   const onchange = (e) => {
-    console.log(e);
     setstoreRibbon("hide");
   };
 
@@ -235,9 +240,19 @@ function Navbar(props) {
                               className="sub-service-links mb-0"
                               style={{ marginTop: "5px" }}
                             >
-                              <a href={`/services/aiml/Statistical Analysis`}>
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/aiml/Statistical Analysis`
+                                  )
+                                }
+                              >
                                 Statistical Analysis
-                              </a>
+                              </span>
+                              {/* <a href={}>
+                                Statistical Analysis
+                              </a> */}
                             </p>
                             <p className="sub-service-links mb-0">
                               <a href={`/services/aiml/Visualizations`}>

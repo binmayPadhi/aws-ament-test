@@ -6,14 +6,14 @@ const Ourcore = () => {
   return (
     <>
       <div className="container mt-5">
-        <img src={openquote} />
+        <img alt="" src={openquote} />
         <p className="fs-24 fw-bold-500 text-green">
           Our core values, diversity, and awesome work culture attract the best
           technology talent, who will be a part of our leading journey in
           solving our customers' complex technology challenges. Our meaningful
           investment in learning and development (L&D) programs for employees
           redefine our workplace for better digital innovation.
-          <img src={closedquotes} className="mt-6" />
+          <img alt=" " src={closedquotes} className="mt-6" />
         </p>
 
         <hr />
