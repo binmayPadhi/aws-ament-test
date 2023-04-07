@@ -78,7 +78,7 @@ const Insight = () => {
                             loading="lazy"
                             className="img-fluid "
                             src={list.description2}
-                            alt="view webinar image"
+                            alt="view webinar"
                           />
                         </p>
                       ) : (

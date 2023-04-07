@@ -51,7 +51,7 @@ const Achievements = () => {
             })}
           </div>
         </div> */}
-        <img src={achievement} className="w-100" />
+        <img alt=" " src={achievement} className="w-100" />
       </div>
     </>
   );
