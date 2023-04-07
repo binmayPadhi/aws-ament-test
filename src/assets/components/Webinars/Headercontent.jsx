@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../CSS/webinar.css";
-import companyIcon from "../../images/AD-Logo.png";
+import companyIcon from "../../images/newservices/AD-Logo.png";
 
 const Headercontent = (props) => {
   return (

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import About from "../Data/AboutUs-Data/About";
 import emailjs from "emailjs-com";
 import "../CSS/Applicationform.css";
-import clear from "../images/clear.png";
+import clear from "../../assets/images/newservices/clear.png";
 
 const Applicationform = () => {
   const [registerDetails, setregisterDetails] = useState({

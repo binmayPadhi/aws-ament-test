@@ -6,7 +6,6 @@ const AIservices = () => {
   const params = useParams();
   const history = useNavigate();
   useEffect(() => {
-    console.log(params);
     services.map((res) => {
       if (res.serviceName === params.name) {
         console.log(res);

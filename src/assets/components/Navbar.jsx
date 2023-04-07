@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import amnetLogo from "../images/HomePage/ADnewlogo.png";
-import group from "../images/Group.png";
+import group from "../../assets/images/newservices/Group.png";
 import amnetLogo1 from "../images/HomePage/ad-white.png";
 import "../CSS/Navbar.css";
 import { useEffect } from "react";
@@ -192,7 +192,7 @@ function Navbar(props) {
                     onClick={() => hideDropdown("service")}
                   >
                     <div className="row">
-                      <div className="col-lg-3 bg-nav-white mt-5">
+                      <div className="col-lg-3 bg-nav-white pt-5">
                         <h1 className="fs-13 fw-bold-400 text-new">
                           What's New
                         </h1>
@@ -250,92 +250,149 @@ function Navbar(props) {
                               >
                                 Statistical Analysis
                               </span>
-                              {/* <a href={}>
-                                Statistical Analysis
-                              </a> */}
                             </p>
                             <p className="sub-service-links mb-0">
-                              <a href={`/services/aiml/Visualizations`}>
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/aiml/Visualizations`)
+                                }
+                              >
                                 Visualizations
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links mb-0">
-                              <a href={`/services/aiml/Anomaly Detection`}>
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/aiml/Anomaly Detection`
+                                  )
+                                }
+                              >
                                 Anomaly Detection
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links dropdown-view-all-link mb-0">
-                              <a href={`/services/aiml`}>{`See more >`}</a>
+                              <span
+                                onClick={(e) => serviceTo(e, `/services/aiml`)}
+                              >
+                                {`See more >`}
+                              </span>
                             </p>
 
                             <p className="service-aiml mt-5">
-                              <a href={`/services/advancedanalytics`}>
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/advancedanalytics`)
+                                }
+                              >
                                 Advanced Analytics
-                              </a>
+                              </span>
                             </p>
                             <p
                               className="sub-service-links mb-0"
                               style={{ marginTop: "5px" }}
                             >
-                              <a
-                                href={`/services/advancedanalytics/Complex Event Processing`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/advancedanalytics/Complex Event Processing`
+                                  )
+                                }
                               >
                                 Complex Event Processing
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links mb-0">
-                              <a
-                                href={`/services/advancedanalytics/Deep Learning`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/advancedanalytics/Deep Learning`
+                                  )
+                                }
                               >
                                 Deep Learning
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links mb-0">
-                              <a
-                                href={`/services/advancedanalytics/Graph Analysis`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/advancedanalytics/Graph Analysis`
+                                  )
+                                }
                               >
                                 Graph Analysis
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links dropdown-view-all-link mb-0">
-                              <a
-                                href={`/services/advancedanalytics`}
-                              >{`See more >`}</a>
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/advancedanalytics`)
+                                }
+                              >
+                                {`See more >`}
+                              </span>
                             </p>
-
                             <p className="service-aiml mt-5">
-                              <a href={`/services/strategyconsulting`}>
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/strategyconsulting`)
+                                }
+                              >
                                 Strategy & Consulting
-                              </a>
+                              </span>
                             </p>
                             <p
                               className="sub-service-links mb-0"
                               style={{ marginTop: "5px" }}
                             >
-                              <a
-                                href={`/services/strategyconsulting/Data Strategy`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/strategyconsulting/Data Strategy`
+                                  )
+                                }
                               >
                                 Data Strategy
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links mb-0">
-                              <a
-                                href={`/services/strategyconsulting/AI Strategy`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/strategyconsulting/AI Strategy`
+                                  )
+                                }
                               >
                                 AI Strategy
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links mb-0">
-                              <a
-                                href={`/services/strategyconsulting/Application Development`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/strategyconsulting/Application Development`
+                                  )
+                                }
                               >
                                 Application Development
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links dropdown-view-all-link mb-0">
-                              <a
-                                href={`/services/strategyconsulting`}
-                              >{`See more >`}</a>
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/strategyconsulting`)
+                                }
+                              >
+                                {`See more >`}
+                              </span>
                             </p>
 
                             <p className="sub-service-view mt-5">
@@ -344,212 +401,352 @@ function Navbar(props) {
                           </div>
                           <div className="col-lg-4">
                             <p className="service-aiml mt-5">
-                              <a href={`/services/dataannotation`}>
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/dataannotation`)
+                                }
+                              >
                                 Data Annotation
-                              </a>
+                              </span>
                             </p>
                             <p
                               className="sub-service-links mb-0"
                               style={{ marginTop: "5px" }}
                             >
-                              <a
-                                href={`/services/dataannotation/Image Annotation`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/dataannotation/Image Annotation`
+                                  )
+                                }
                               >
                                 Image Annotation
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links mb-0">
-                              <a
-                                href={`/services/dataannotation/Video Annotation`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/dataannotation/Video Annotation`
+                                  )
+                                }
                               >
                                 Video Annotation
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links mb-0">
-                              <a
-                                href={`/services/dataannotation/Audio Annotation`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/dataannotation/Audio Annotation`
+                                  )
+                                }
                               >
                                 Audio Annotation
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links dropdown-view-all-link mb-0">
-                              <a
-                                href={`/services/dataannotation`}
-                              >{`See more >`}</a>
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/dataannotation`)
+                                }
+                              >
+                                {`See more >`}
+                              </span>
                             </p>
 
                             <p className="service-aiml mt-5">
-                              <a href={`/services/dataengineering`}>
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/dataengineering`)
+                                }
+                              >
                                 Data Engineering
-                              </a>
+                              </span>
                             </p>
                             <p
                               className="sub-service-links mb-0"
                               style={{ marginTop: "5px" }}
                             >
-                              <a
-                                href={`/services/dataengineering/Data Pipeline`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/dataengineering/Data Pipeline`
+                                  )
+                                }
                               >
                                 Data Pipeline
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links mb-0">
-                              <a
-                                href={`/services/dataengineering/Data Transformation`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/dataengineering/Data Transformation`
+                                  )
+                                }
                               >
                                 Data Transformation
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links mb-0">
-                              <a
-                                href={`/services/dataengineering/Data Cleansing`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/dataengineering/Data Cleansing`
+                                  )
+                                }
                               >
                                 Data Cleansing
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links dropdown-view-all-link mb-0">
-                              <a
-                                href={`/services/dataengineering`}
-                              >{`See more >`}</a>
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/dataengineering`)
+                                }
+                              >
+                                {`See more >`}
+                              </span>
                             </p>
 
                             <p className="service-aiml mt-5">
-                              <a href={`/services/datamanagement`}>
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/datamanagement`)
+                                }
+                              >
                                 Data Management
-                              </a>
+                              </span>
                             </p>
                             <p
                               className="sub-service-links mb-0"
                               style={{ marginTop: "5px" }}
                             >
-                              <a
-                                href={`/services/datamanagement/Data Architecture Management`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/datamanagement/Data Architecture Management`
+                                  )
+                                }
                               >
                                 Data Architecture Management
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links mb-0">
-                              <a
-                                href={`/services/datamanagement/Data Development`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/datamanagement/Data Development`
+                                  )
+                                }
                               >
                                 Data Development
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links mb-0">
-                              <a
-                                href={`/services/datamanagement/Data Governance`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/datamanagement/Data Governance`
+                                  )
+                                }
                               >
                                 Data Governance
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links dropdown-view-all-link mb-0">
-                              <a
-                                href={`/services/datamanagement`}
-                              >{`See more >`}</a>
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/datamanagement`)
+                                }
+                              >
+                                {`See more >`}
+                              </span>
                             </p>
                           </div>
                           <div className="col-lg-4">
                             <p className="service-aiml mt-5">
-                              <a href={`/services/userexperiences`}>
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/userexperiences`)
+                                }
+                              >
                                 User Experience
-                              </a>
+                              </span>
                             </p>
                             <p
                               className="sub-service-links mb-0"
                               style={{ marginTop: "5px" }}
                             >
-                              <a
-                                href={`/services/userexperiences/Design Thinking`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/userexperiences/Design Thinking`
+                                  )
+                                }
                               >
                                 Design Thinking
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links mb-0">
-                              <a
-                                href={`/services/userexperiences/User Research & Analysis`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/userexperiences/User Research & Analysis`
+                                  )
+                                }
                               >
                                 User Research & Analysis
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links mb-0">
-                              <a
-                                href={`/services/userexperiences/Experience & Interaction Design`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/userexperiences/Experience & Interaction Design`
+                                  )
+                                }
                               >
                                 Experience & Interaction Design
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links dropdown-view-all-link ">
-                              <a
-                                href={`/services/userexperiences`}
-                              >{`See more >`}</a>
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/userexperiences`)
+                                }
+                              >
+                                {`See more >`}
+                              </span>
                             </p>
 
                             <p className="service-aiml mt-5">
-                              <a href={`/cloudservices`}>Cloud Services</a>
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/cloudservices`)
+                                }
+                              >
+                                Cloud Services
+                              </span>
                             </p>
                             <p
                               className="sub-service-links mb-0"
                               style={{ marginTop: "5px" }}
                             >
-                              <a
-                                href={`/services/cloudservices/Cloud Advisory Services`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/cloudservices/Cloud Advisory Services`
+                                  )
+                                }
                               >
                                 Cloud Advisory Services
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links mb-0">
-                              <a
-                                href={`/services/cloudservices/Cloud Migration Services`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/cloudservices/Cloud Migration Services`
+                                  )
+                                }
                               >
                                 Cloud Migration Services
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links mb-0">
-                              <a
-                                href={`/services/cloudservices/Cloud Integration`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/cloudservices/Cloud Integration`
+                                  )
+                                }
                               >
                                 Cloud Integration
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links dropdown-view-all-link ">
-                              <a
-                                href={`/services/cloudservices`}
-                              >{`See more >`}</a>
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/cloudservices`)
+                                }
+                              >
+                                {`See more >`}
+                              </span>
                             </p>
 
                             <p className="service-aiml mt-5">
-                              <a href={`/services/qualityassurance`}>
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/qualityassurance`)
+                                }
+                              >
                                 Quality Assurance
-                              </a>
+                              </span>
                             </p>
                             <p
                               className="sub-service-links mb-0"
                               style={{ marginTop: "5px" }}
                             >
-                              <a
-                                href={`/services/qualityassurance/Functional Testing`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/qualityassurance/Functional Testing`
+                                  )
+                                }
                               >
                                 Functional Testing
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links mb-0">
-                              <a
-                                href={`/services/qualityassurance/Compatibility Testing`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/qualityassurance/Compatibility Testing`
+                                  )
+                                }
                               >
                                 Compatibility Testing
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links mb-0">
-                              <a
-                                href={`/services/qualityassurance/Performance Testing`}
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/services/qualityassurance/Performance Testing`
+                                  )
+                                }
                               >
                                 Performance Testing
-                              </a>
+                              </span>
                             </p>
                             <p className="sub-service-links dropdown-view-all-link ">
-                              <a
-                                href={`/services/qualityassurance`}
-                              >{`See more >`}</a>
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/qualityassurance`)
+                                }
+                              >
+                                {`See more >`}
+                              </span>
                             </p>
                           </div>
                         </div>
@@ -696,32 +893,70 @@ function Navbar(props) {
                   </NavLink>
                   <div
                     className="dropdown-content-blog"
+                    style={{ width: "95%", marginTop: "18px" }}
                     onClick={() => hideDropdown("insights")}
                   >
-                    <div className="row nav-sub-menu">
-                      <div className="column col-padding nav-first-column">
-                        <div className="navFlex">
-                          <div className="col-10 service-dropdown-link">
-                            <p className="sub-service-links-insights">
-                              <NavLink
-                                to={`/blog/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry`}
-                                activeStyle={{
-                                  color: "#19AF8F",
-                                  textDecoration: "none",
-                                }}
+                    <div className="row">
+                      <div className="col-lg-3 bg-nav-white pt-5">
+                        <h1 className="fs-13 fw-bold-400 text-new">
+                          What's New
+                        </h1>
+                        <h1 className="fs-13 fw-bold-500 text-underline text-black">
+                          Meaning ful Content
+                        </h1>
+                        <p className="fs-13 fw-bold-400 text-digital">
+                          Driving the real value starts here by consistently
+                          publishing our most extensive research educational and
+                          thought leadership content assets. Stay tuned to stay
+                          ahead of the game !
+                        </p>
+                      </div>
+                      <div className="col-lg-9 bg-dropdown ">
+                        <div className="row">
+                          <div className="col-lg-4">
+                            <p className="service-aiml mt-5">
+                              <span onClick={(e) => serviceTo(e, `/blog`)}>
+                                Blog
+                              </span>
+                            </p>
+                            <p className="fs-13 fw-bold-400 text-digital mt-2">
+                              Seven Significant ways Artificial Intelligence (AI
+                              ) is Impacting the Retail Industry
+                            </p>
+                            <p className="sub-service-links dropdown-view-all-link ">
+                              <span onClick={(e) => serviceTo(e, `/blog`)}>
+                                {`Read the full blog >`}
+                              </span>
+                            </p>
+                          </div>
+                          <div className="col-lg-4">
+                            <p className="service-aiml mt-5">
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/blog/webinar-reshaping-the-retail-industry-through-AI`
+                                  )
+                                }
                               >
-                                Blogs
-                              </NavLink>
-                              <NavLink
-                                target={"_blank"}
-                                to={`/blog/webinar-reshaping-the-retail-industry-through-AI`}
-                                activeStyle={{
-                                  color: "#19AF8F",
-                                  textDecoration: "none",
-                                }}
+                                Webinar
+                              </span>
+                            </p>
+                            <p className="fs-13 fw-bold-400 text-digital mt-2">
+                              Reshaping the Retail Industry through Advanced
+                              Analytics and AI !
+                            </p>
+                            <p className="sub-service-links dropdown-view-all-link ">
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `/blog/webinar-reshaping-the-retail-industry-through-AI`
+                                  )
+                                }
                               >
-                                Webinars
-                              </NavLink>
+                                {`Watch the webinar >`}
+                              </span>
                             </p>
                           </div>
                         </div>

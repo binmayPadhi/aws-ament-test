@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import { useState } from "react";
-import shareimg from "../../assets/images/share.png";
+import shareimg from "../../assets/images/newservices/share.png";
 import Applicationform from "./Applicationform";
 
 const UXdesigner = () => {
