@@ -11,7 +11,6 @@ function OurServices() {
   const redirectTo = (e) => {
     e.preventDefault();
     history(`/services`);
-    window.scrollTo(0, 0);
   };
   return (
     <>

@@ -102,7 +102,7 @@ function Footer() {
         {
           id: 37,
           name: "Strategy & Consulting",
-          link: "/services/strategyandconsulting",
+          link: "/services/strategyconsulting",
           target: "",
         },
         {
@@ -221,10 +221,6 @@ function Footer() {
       behavior: "smooth",
     });
   };
-  const scrollPage = (e) => {
-    e.preventDefault();
-    window.scrollTo(0, 0);
-  };
   return (
     <>
       {/* <!-- FOOTER SECTION --> */}
@@ -274,7 +270,6 @@ function Footer() {
                               to={val.link}
                               target={val.target === "_blank" ? "_blank" : ""}
                               className="listName cr-pointer text-decoration-none fs-13 text-black"
-                              onClick={(e) => scrollPage(e)}
                             >
                               {val.name}
                             </Link>

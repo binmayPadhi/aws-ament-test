@@ -7,7 +7,6 @@ const CurrentOpenings = () => {
   const redirectTo = (e, name) => {
     e.preventDefault();
     history(`${name}`);
-    window.scrollTo(0, 0);
   };
   return (
     <>
