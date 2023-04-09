@@ -105,7 +105,7 @@ const Test = () => {
             <Navbar navChange={navColor} />
           </div>
           <div className="center-88">
-            <div className="new-subService-AIML-intro-caption top-60 w-75">
+            <div className="new-subService-AIML-intro-caption top-45 w-75">
               <h2
                 className="fs-50 text-white fw-bold-700"
                 data-text="Reimagine & Redefine"

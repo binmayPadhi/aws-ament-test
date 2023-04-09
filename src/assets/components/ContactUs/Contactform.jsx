@@ -1,118 +1,76 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { Link } from "react-router-dom";
 import About from "../../Data/AboutUs-Data/About";
+import { useForm } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import * as yup from "yup";
+
+const schema = yup
+  .object()
+  .shape({
+    fName: yup
+      .string()
+      .matches(/^[a-zA-Z ]*$/, "First Name is not valid")
+      .required("First Name is required"),
+    lName: yup
+      .string()
+      .matches(/^[a-zA-Z ]*$/, "Last Name is not valid")
+      .required("Last Name is required"),
+    email: yup
+      .string()
+      .email()
+      .matches(
+        /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+        "email is not valid"
+      )
+      .required("email is required"),
+    phoneNumber: yup
+      .string()
+      .matches(
+        /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/,
+        "phonenumber is not valid"
+      )
+      .required("phonenumber is required"),
+    acceptCheckbox: yup.string().required("Please check the checkbox"),
+    cName: yup
+      .string()
+      .matches(/^[a-zA-Z ]*$/, "Company Name is not valid")
+      .required("Company is required"),
+    selecteditem: yup.string().required("Please select the option"),
+  })
+  .required();
 
 const Contactform = () => {
-  const [registerDetails, setregisterDetails] = useState({
-    fName: "",
-    lName: "",
-    email: "",
-    cName: "",
-    jobTitle: "",
-    phoneNumber: "",
-    message: "",
-    selecteditem: "",
-    acceptCheckbox: false,
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm({
+    resolver: yupResolver(schema),
   });
 
-  const [validation, setValidation] = useState({
-    fName: "",
-    lName: "",
-    email: "",
-    selecteditem: "",
-    cName: "",
-  });
-
-  useEffect(() => {
-    validate();
-  }, [registerDetails]);
-
-  const handleChange = (event) => {
-    const { value, name } = event.target;
-    const { checked, name1 } = event.target;
-    setregisterDetails((prevValue) => {
-      return {
-        ...prevValue,
-        [name]: name != "acceptCheckbox" ? value : checked,
-      };
-    });
+  const submit = (data) => {
+    return emailjs
+      .sendForm(
+        "service_h4akrmg",
+        "template_h0xkqot",
+        formDetails.current,
+        "yz7dQlM6o3Rz3cnB8"
+      )
+      .then(
+        console.log("mail sent"),
+        localStorage.setItem("cookie", 4),
+        reset(),
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
-  const validate = () => {
-    let error = validation;
-    if (!registerDetails.fName) {
-      error.fName = "This field is required";
-    } else {
-      error.fName = "";
-    }
-    if (!registerDetails.lName) {
-      error.lName = "This field is required";
-    } else {
-      error.lName = "";
-    }
-    if (!registerDetails.cName) {
-      error.cName = "This field is required";
-    } else {
-      error.cName = "";
-    }
-    if (!registerDetails.selecteditem) {
-      error.selecteditem = "This field is required";
-    } else {
-      error.selecteditem = "";
-    }
-    const reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-    if (!registerDetails.email || reg.test(registerDetails.email) === false) {
-      error.email = "Email Field is Invalid ";
-    } else {
-      error.email = "";
-    }
-    if (
-      error.selecteditem ||
-      error.cName ||
-      error.fName ||
-      error.lName ||
-      error.email
-    ) {
-      setValidation(error);
+  const formDetails = useRef();
 
-      return false;
-    }
-    return true;
-  };
-
-  const submitregisterDetails = (e) => {
-    e.preventDefault();
-    if (validate()) {
-      return emailjs
-        .sendForm(
-          "service_h4akrmg",
-          "template_h0xkqot",
-          e.target,
-          "yz7dQlM6o3Rz3cnB8"
-        )
-        .then(
-          console.log("mail sent"),
-          localStorage.setItem("cookie", 4),
-          setregisterDetails({
-            fName: "",
-            lName: "",
-            email: "",
-            cName: "",
-            jobTitle: "",
-            phoneNumber: "",
-            message: "",
-            selecteditem: "",
-            acceptCheckbox: false,
-          }),
-          (error) => {
-            console.log(error.text);
-          }
-        );
-    } else {
-      // console.log(validation);
-    }
-  };
   return (
     <>
       <div className="row">
@@ -135,12 +93,7 @@ const Contactform = () => {
           </p>
         </div>
         <div className="col-md-6 col-sm-12">
-          <form
-            name="webinarRegisterForm"
-            action="#"
-            method="post"
-            onSubmit={submitregisterDetails}
-          >
+          <form ref={formDetails} onSubmit={handleSubmit(submit)}>
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <label>
@@ -148,14 +101,13 @@ const Contactform = () => {
                   <input
                     className="w-100 pl-1"
                     type="text"
-                    name="fName"
-                    onChange={handleChange}
-                    value={registerDetails.fName}
+                    name="fNmae"
+                    {...register("fName")}
                   />
                 </label>
-                {validation.fName != "" ? (
-                  <p className="text-danger fs-14">{validation.fName}</p>
-                ) : null}
+                <p className="fs-13 text-danger fw-bold-400">
+                  {errors.fName?.message}
+                </p>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <label>
@@ -163,14 +115,13 @@ const Contactform = () => {
                   <input
                     type="text"
                     className="w-100 pl-1"
-                    name="lName"
-                    onChange={handleChange}
-                    value={registerDetails.lName}
+                    name="lNmae"
+                    {...register("lName")}
                   />
                 </label>
-                {validation.lName && (
-                  <p className="text-danger fs-14">{validation.lName}</p>
-                )}
+                <p className="fs-13 text-danger fw-bold-400">
+                  {errors.lName?.message}
+                </p>
               </div>
             </div>
             <div className="row mt-1">
@@ -183,24 +134,25 @@ const Contactform = () => {
                     className="pl-1"
                     type="email"
                     name="email"
-                    onChange={handleChange}
-                    value={registerDetails.email}
+                    {...register("email")}
                   />
                 </p>
-                {validation.email && (
-                  <p className="text-danger fs-14">{validation.email}</p>
-                )}
+                <p className="fs-13 text-danger fw-bold-400">
+                  {errors.email?.message}
+                </p>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <label>Phone Number</label>
                 <p className="email_field mt-1">
                   <input
                     type="text"
-                    className="pl-1"
                     name="phoneNumber"
-                    onChange={handleChange}
-                    value={registerDetails.phoneNumber}
+                    className="pl-1"
+                    {...register("phoneNumber")}
                   />
+                </p>
+                <p className="fs-13 text-danger fw-bold-400">
+                  {errors.phoneNumber?.message}
                 </p>
               </div>
             </div>
@@ -214,24 +166,25 @@ const Contactform = () => {
                     type="text"
                     className="pl-1"
                     name="cName"
-                    onChange={handleChange}
-                    value={registerDetails.cName}
+                    {...register("cName")}
                   />
                 </p>
-                {validation.cName && (
-                  <p className="text-danger fs-14">{validation.cName}</p>
-                )}
+                <p className="fs-13 text-danger fw-bold-400">
+                  {errors.cName?.message}
+                </p>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <label>Job Title</label>
                 <p className="email_field mt-1">
                   <input
                     type="text"
-                    name="jobTitle"
                     className="pl-1"
-                    onChange={handleChange}
-                    value={registerDetails.jobTitle}
+                    name="jobTitle"
+                    {...register("jobTitle")}
                   />
+                </p>
+                <p className="fs-13 text-danger fw-bold-400">
+                  {errors.jobTitle?.message}
                 </p>
               </div>
             </div>
@@ -242,9 +195,9 @@ const Contactform = () => {
                   <select
                     className="form-select text-areainput select-height"
                     aria-label="Default select example"
-                    onChange={handleChange}
                     isSearchable="true"
                     name="selecteditem"
+                    {...register("selecteditem")}
                   >
                     {About.dropdownlist.map((list) => {
                       return (
@@ -255,20 +208,19 @@ const Contactform = () => {
                     })}
                   </select>
                 </p>
-                {validation.selecteditem && (
-                  <p className="text-danger fs-14">{validation.selecteditem}</p>
-                )}
+                <p className="fs-13 text-danger fw-bold-400">
+                  {errors.selecteditem?.message}
+                </p>
               </div>
             </div>
             <div className="row ml-0 mr-0 mt-1">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 pl-0 pr-0">
                 <label>Message</label>
                 <textarea
-                  name="message"
-                  onChange={handleChange}
                   rows="10"
                   className="text-areainput"
-                  value={registerDetails.message}
+                  name="message"
+                  {...register("meassge")}
                 ></textarea>
               </div>
             </div>
@@ -278,11 +230,11 @@ const Contactform = () => {
                   className="checkMark"
                   type="checkbox"
                   name="acceptCheckbox"
-                  onChange={handleChange}
-                  checked={registerDetails.acceptCheckbox}
-                  value={registerDetails.acceptCheckbox}
-                  required
+                  {...register("acceptCheckbox")}
                 ></input>
+                <p className="fs-13 text-danger fw-bold-400 w-100">
+                  {errors.acceptCheckbox?.message}
+                </p>
               </div>
               <div className="w-95 pl-4">
                 <span className="lh-1-25 fs-10">

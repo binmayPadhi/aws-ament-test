@@ -1,163 +1,209 @@
-import { useEffect } from "react";
 import { useState } from "react";
 import React from "react";
 import { Link } from "react-router-dom";
-import About from "../Data/AboutUs-Data/About";
 import emailjs from "emailjs-com";
 import "../CSS/Applicationform.css";
 import clear from "../../assets/images/newservices/clear.png";
+import { useForm } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import * as yup from "yup";
+import { useRef } from "react";
+import Modal from "react-bootstrap/Modal";
+import correct from "../images/newservices/correct.png";
+
+const schema = yup
+  .object()
+  .shape({
+    fName: yup
+      .string()
+      .matches(/^[a-zA-Z ]*$/, "First Name is not valid")
+      .required("First Name is required"),
+    lName: yup
+      .string()
+      .matches(/^[a-zA-Z ]*$/, "Last Name is not valid")
+      .required("Last Name is required"),
+    email: yup
+      .string()
+      .email()
+      .matches(
+        /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+        "email is not valid"
+      )
+      .required("email is required"),
+    phoneNumber: yup
+      .string()
+      .matches(
+        /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/,
+        "phonenumber is not valid"
+      )
+      .required("phonenumber is required"),
+    salaryExpectation: yup
+      .string()
+      .matches(/[0-9]+/, "salary expectation is not valid")
+      .required("Salary Expectation is required"),
+    avaliblityDate: yup.string().required("Date Avaliblity is required"),
+    resume: yup.string().required("Resume is required"),
+    location: yup
+      .string()
+      .matches(/^[a-zA-Z ]*$/, "location is not valid")
+      .required("location is required"),
+    acceptCheckbox: yup.string().required("Please check the checkbox"),
+  })
+  .required();
 
 const Applicationform = () => {
-  const [registerDetails, setregisterDetails] = useState({
-    fName: "",
-    lName: "",
-    email: "",
-    cName: "",
-    jobTitle: "",
-    phoneNumber: "",
-    message: "",
-    selecteditem: "",
-    acceptCheckbox: false,
+  const applicationDetails = useRef();
+  const [show, setShow] = useState(false);
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm({
+    resolver: yupResolver(schema),
   });
 
-  const [validation, setValidation] = useState({
-    fName: "",
-    lName: "",
-    email: "",
-    selecteditem: "",
-    cName: "",
-  });
+  const [uploadedPhotos, setUploadedPhotos] = useState([]);
+  const [errorImg, setErrorImg] = useState("");
+  const onFileChange = (e) => {
+    setErrorImg("");
+    if (
+      e.target.files[0].type === "application/pdf" ||
+      e.target.files[0].type === "application/docx" ||
+      e.target.files[0].type === "application/doc"
+    ) {
+      const files = e.target.files[0];
+      setUploadedPhotos([...uploadedPhotos, files]);
+    } else {
+      setErrorImg("Please upload only pdf or doc, docx formatted files");
+    }
+  };
 
-  useEffect(() => {
-    validate();
-  }, []);
+  const onSubmit = (data) => {
+    data["resume"] = uploadedPhotos[0];
+    return emailjs
+      .sendForm(
+        "service_h4akrmg",
+        "template_h0xkqot",
+        applicationDetails.current,
+        "yz7dQlM6o3Rz3cnB8"
+      )
+      .then(
+        console.log("mail sent"),
+        reset(),
+        handleShow(),
+        setUploadedPhotos([]),
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
-  const handleChange = (event) => {
-    const { value, name } = event.target;
-    const { checked, name1 } = event.target;
-    setregisterDetails((prevValue) => {
-      return {
-        ...prevValue,
-        [name]: name != "acceptCheckbox" ? value : checked,
-      };
+  const handleShow = () => setShow(true);
+
+  const handleClose = () => setShow(false);
+
+  const clearInformation = () => {
+    reset({
+      fName: "",
+      lName: "",
+      email: "",
+      phoneNumber: "",
+      location: "",
     });
   };
 
-  const validate = () => {
-    let error = validation;
-    if (!registerDetails.fName) {
-      error.fName = "This field is required";
-    } else {
-      error.fName = "";
-    }
-    if (!registerDetails.lName) {
-      error.lName = "This field is required";
-    } else {
-      error.lName = "";
-    }
-    if (!registerDetails.cName) {
-      error.cName = "This field is required";
-    } else {
-      error.cName = "";
-    }
-    if (!registerDetails.selecteditem) {
-      error.selecteditem = "This field is required";
-    } else {
-      error.selecteditem = "";
-    }
-    const reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-    if (!registerDetails.email || reg.test(registerDetails.email) === false) {
-      error.email = "Email Field is Invalid ";
-    } else {
-      error.email = "";
-    }
-    if (
-      error.selecteditem ||
-      error.cName ||
-      error.fName ||
-      error.lName ||
-      error.email
-    ) {
-      setValidation(error);
-
-      return false;
-    }
-    return true;
+  const clearDetails = () => {
+    reset({
+      summary: "",
+      coverLetter: "",
+      salaryExpectation: "",
+      avaliblityDate: "",
+      acceptCheckbox: false,
+      location: "",
+    });
   };
 
-  const submitregisterDetails = (e) => {
-    e.preventDefault();
-    if (validate()) {
-      return emailjs
-        .sendForm(
-          "service_h4akrmg",
-          "template_h0xkqot",
-          e.target,
-          "yz7dQlM6o3Rz3cnB8"
-        )
-        .then(
-          console.log("mail sent"),
-          localStorage.setItem("cookie", 4),
-          setregisterDetails({
-            fName: "",
-            lName: "",
-            email: "",
-            cName: "",
-            jobTitle: "",
-            phoneNumber: "",
-            message: "",
-            selecteditem: "",
-            acceptCheckbox: false,
-          }),
-          (error) => {
-            console.log(error.text);
-          }
-        );
-    } else {
-      // console.log(validation);
-    }
+  const clearProfile = () => {
+    reset({
+      summary: "",
+    });
   };
+
   return (
     <>
       <div className="container">
-        <div className="black-container mt-5">
-          <div className="row">
-            <div className="col-lg-1 col-md-1 col-sm-12"></div>
-            <div className="col-lg-5 col-md-5  col-sm-12 mt-3">
-              <h1 className="fs-18 fw-bold-600 pt-4 pb-4">
-                AUTOFILL APPLICATION
-              </h1>
+        <form ref={applicationDetails} onSubmit={handleSubmit(onSubmit)}>
+          <div className="black-container mt-5">
+            <div className="row">
+              <div className="col-lg-1 col-md-1 col-sm-12"></div>
+              <div className="col-lg-5 col-md-5  col-sm-12 mt-3">
+                <h1 className="fs-18 fw-bold-600 pt-4 pb-4">
+                  AUTOFILL APPLICATION
+                </h1>
+              </div>
+              <div className="col-lg-5 col-md-5 col-sm-12 mt-4 mb-4">
+                <p>
+                  <input
+                    {...register("resume", {
+                      validate: {
+                        acceptedFormats: (files) =>
+                          ["pdf", "docx", "doc"].includes(files[0]?.type) ||
+                          "Please upload only PDF, DOCX",
+                      },
+                    })}
+                    type="file"
+                    onChange={onFileChange}
+                    name="resume"
+                    accept="pdf, docx, doc"
+                    id="files"
+                    style={{ display: "none" }}
+                  />
+                  <label
+                    className="fs-16 fw-bold-700 import-box cr-pointer"
+                    htmlFor="files"
+                  >
+                    Import resume
+                  </label>
+                </p>
+                {errors.resume && (
+                  <p className="fs-12 text-danger fw-bold-400">
+                    {errors.resume.message}
+                  </p>
+                )}
+                <p className="fs-12 text-danger fw-bold-400">{errorImg}</p>
+                <p className="fs-12 text-dark fw-bold-400">
+                  {uploadedPhotos.map((photo, i) => (
+                    <p className="fs-12 text-dark fw-bold-400" key={i}>
+                      {photo.name}
+                    </p>
+                  ))}
+                </p>
+              </div>
+              <div className="col-lg-1 col-md-1 col-sm-12"></div>
             </div>
-            <div className="col-lg-5 col-md-5 col-sm-12 mt-4 mb-4">
-              <p className="fs-16 fw-bold-700 import-box">Import resume</p>
+          </div>
+          <h1 className="fs-16 fw-bold-400 mt-5">
+            Required fields<span className="star-color">*</span>
+          </h1>
+          <div className="row mt-5">
+            <div className="col-lg-3 col-md-3 col-sm-12">
+              <div className="fs-20 fw-bold-400">Personal information</div>
             </div>
-            <div className="col-lg-1 col-md-1 col-sm-12"></div>
-          </div>
-        </div>
-        <h1 className="fs-16 fw-bold-400 mt-5">
-          Required fields<span className="star-color">*</span>
-        </h1>
-        <div className="row mt-5">
-          <div className="col-lg-3 col-md-3 col-sm-12">
-            <div className="fs-20 fw-bold-400">Personal information</div>
-          </div>
-          <div className="col-lg-6 col-md-6 col-sm-12"></div>
-          <div className="col-lg-3 col-md-3 col-sm-12">
-            <div className="d-flex flex-row justify-content-end">
-              <img src={clear} className="width-clear" />
-              <p className="fs-16 fw-bold-400 text-lightgrey ml-3">clear</p>
+            <div className="col-lg-6 col-md-6 col-sm-12"></div>
+            <div className="col-lg-3 col-md-3 col-sm-12">
+              <div
+                className="d-flex flex-row justify-content-end cr-pointer"
+                onClick={clearInformation}
+              >
+                <img src={clear} className="width-clear" />
+                <p className="fs-16 fw-bold-400 text-lightgrey ml-3">clear</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="bottom-line mt-2"></div>
-        <div className="row mt-5">
-          <div className="col-md-12 col-sm-12">
-            <form
-              name="webinarRegisterForm"
-              action="#"
-              method="post"
-              onSubmit={submitregisterDetails}
-            >
+          <div className="bottom-line mt-2"></div>
+          <div className="row mt-5">
+            <div className="col-md-12 col-sm-12">
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                   <label>
@@ -166,13 +212,12 @@ const Applicationform = () => {
                       className="w-100"
                       type="text"
                       name="fName"
-                      onChange={handleChange}
-                      value={registerDetails.fName}
+                      {...register("fName")}
                     />
                   </label>
-                  {validation.fName != "" ? (
-                    <p className="text-danger fs-14">{validation.fName}</p>
-                  ) : null}
+                  <p className="fs-13 text-danger fw-bold-400">
+                    {errors.fName?.message}
+                  </p>
                 </div>
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                   <label>
@@ -181,13 +226,12 @@ const Applicationform = () => {
                       type="text"
                       className="w-100 pl-1"
                       name="lName"
-                      onChange={handleChange}
-                      value={registerDetails.lName}
+                      {...register("lName")}
                     />
                   </label>
-                  {validation.lName && (
-                    <p className="text-danger fs-14">{validation.lName}</p>
-                  )}
+                  <p className="fs-13 text-danger fw-bold-400">
+                    {errors.lName?.message}
+                  </p>
                 </div>
               </div>
               <div className="row mt-4">
@@ -200,13 +244,12 @@ const Applicationform = () => {
                       className="pl-1"
                       type="email"
                       name="email"
-                      onChange={handleChange}
-                      value={registerDetails.email}
+                      {...register("email")}
                     />
                   </p>
-                  {validation.email && (
-                    <p className="text-danger fs-14">{validation.email}</p>
-                  )}
+                  <p className="fs-13 text-danger fw-bold-400">
+                    {errors.email?.message}
+                  </p>
                 </div>
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-4">
                   <label>Phone Number</label>
@@ -215,9 +258,11 @@ const Applicationform = () => {
                       type="text"
                       className="w-100"
                       name="phoneNumber"
-                      onChange={handleChange}
-                      value={registerDetails.phoneNumber}
+                      {...register("phoneNumber")}
                     />
+                  </p>
+                  <p className="fs-13 text-danger fw-bold-400">
+                    {errors.phoneNumber?.message}
                   </p>
                 </div>
               </div>
@@ -227,7 +272,10 @@ const Applicationform = () => {
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12"></div>
                 <div className="col-lg-3 col-md-3 col-sm-12">
-                  <div className="d-flex flex-row justify-content-end">
+                  <div
+                    className="d-flex flex-row justify-content-end cr-pointer"
+                    onClick={clearProfile}
+                  >
                     <img src={clear} className="width-clear" />
                     <p className="fs-16 fw-bold-400 text-lightgrey ml-3">
                       clear
@@ -241,7 +289,12 @@ const Applicationform = () => {
                   <label>
                     Summary<span className="color-optional">(Optional)</span>
                   </label>
-                  <textarea className="text-height" />
+                  <textarea
+                    rows="10"
+                    className="text-height"
+                    name="summary"
+                    {...register("summary")}
+                  />
                 </div>
               </div>
               <div className="row mt-5">
@@ -250,7 +303,10 @@ const Applicationform = () => {
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12"></div>
                 <div className="col-lg-3 col-md-3 col-sm-12">
-                  <div className="d-flex flex-row justify-content-end">
+                  <div
+                    className="d-flex flex-row justify-content-end cr-pointer"
+                    onClick={clearDetails}
+                  >
                     <img src={clear} className="width-clear" />
                     <p className="fs-16 fw-bold-400 text-lightgrey ml-3">
                       clear
@@ -265,7 +321,12 @@ const Applicationform = () => {
                     Cover letter
                     <span className="color-optional">(Optional)</span>
                   </label>
-                  <textarea className="text-height" />
+                  <textarea
+                    rows="10"
+                    className="text-height"
+                    name="coverLetter"
+                    {...register("coverLetter")}
+                  ></textarea>
                 </div>
               </div>
               <div className="row">
@@ -278,10 +339,12 @@ const Applicationform = () => {
                     <input
                       type="text"
                       className="w-100"
-                      name="phoneNumber"
-                      onChange={handleChange}
-                      value={registerDetails.phoneNumber}
+                      name="salaryExpectation"
+                      {...register("salaryExpectation")}
                     />
+                  </p>
+                  <p className="fs-13 text-danger fw-bold-400">
+                    {errors.salaryExpectation?.message}
                   </p>
                 </div>
               </div>
@@ -293,13 +356,16 @@ const Applicationform = () => {
                   </label>
                   <p className="email_field mt-1">
                     <input
-                      type="text"
+                      type="date"
+                      min={new Date().toISOString().split("T")[0]}
                       className="w-100"
                       placeholder="DD/MM/YYYY"
-                      name="phoneNumber"
-                      onChange={handleChange}
-                      value={registerDetails.phoneNumber}
+                      name="avaliblityDate"
+                      {...register("avaliblityDate")}
                     />
+                  </p>
+                  <p className="fs-13 text-danger fw-bold-400">
+                    {errors.avaliblityDate?.message}
                   </p>
                 </div>
               </div>
@@ -313,10 +379,12 @@ const Applicationform = () => {
                     <input
                       type="text"
                       className="w-100"
-                      name="phoneNumber"
-                      onChange={handleChange}
-                      value={registerDetails.phoneNumber}
+                      name="location"
+                      {...register("location")}
                     />
+                  </p>
+                  <p className="fs-13 text-danger fw-bold-400">
+                    {errors.location?.message}
                   </p>
                 </div>
               </div>
@@ -330,24 +398,14 @@ const Applicationform = () => {
                     <select
                       className="form-select text-areainput select-height"
                       aria-label="Default select example"
-                      onChange={handleChange}
-                      isSearchable="true"
-                      name="selecteditem"
+                      name="workModel"
+                      {...register("workModel")}
                     >
-                      {About.dropdownlist.map((list) => {
-                        return (
-                          <option key={list.id} value={list.name}>
-                            {list.name}
-                          </option>
-                        );
-                      })}
+                      <option value="wfo">Work from Office</option>
+                      <option value="Hybrid">Hybrid</option>
+                      <option value="wfh">Work from Home</option>
                     </select>
                   </p>
-                  {validation.selecteditem && (
-                    <p className="text-danger fs-14">
-                      {validation.selecteditem}
-                    </p>
-                  )}
                 </div>
               </div>
 
@@ -357,11 +415,11 @@ const Applicationform = () => {
                     className="checkMark"
                     type="checkbox"
                     name="acceptCheckbox"
-                    onChange={handleChange}
-                    checked={registerDetails.acceptCheckbox}
-                    value={registerDetails.acceptCheckbox}
-                    required
+                    {...register("acceptCheckbox")}
                   ></input>
+                  <p className="fs-13 text-danger fw-bold-400">
+                    {errors.acceptCheckbox?.message}
+                  </p>
                 </div>
                 <div className="w-95">
                   <span className=" fs-16 fw-bold-400">
@@ -398,9 +456,28 @@ const Applicationform = () => {
                   </button>
                 </div>
               </div>
-            </form>
+            </div>
           </div>
-        </div>
+        </form>
+
+        <Modal show={show} onHide={handleClose}>
+          <Modal.Body className="p-3">
+            <p className="text-black fw-bold-500 fs-18 text-center lh-26 my-3">
+              Thank you for applying this job!
+            </p>
+            <p className="text-black fw-bold-500 fs-18 text-center lh-26 my-3">
+              <img alt="checkmark" src={correct} className="img-35" />
+            </p>
+            <p className="text-black fw-bold-500 fs-18 text-center lh-26 my-3">
+              Your application has been submitted successfully.
+            </p>
+            <p className="text-black fw-bold-500 fs-14 text-center mb-0">
+              Appreciate your interest in applying for the position. One of our
+              hiring team members will get in touch with you if your profile
+              suits the open role.
+            </p>
+          </Modal.Body>
+        </Modal>
       </div>
     </>
   );

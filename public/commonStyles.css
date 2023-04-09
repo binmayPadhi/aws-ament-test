@@ -2,6 +2,10 @@
   clear: both;
 }
 
+*:focus {
+  outline: 0 !important;
+}
+
 .w-90 {
   width: 90%;
 }
@@ -88,8 +92,16 @@
   font-size: 15px;
 }
 
+.fs-14 {
+  font-size: 14px;
+}
+
 .fs-13 {
   font-size: 13px;
+}
+
+.fs-12 {
+  font-size: 12px;
 }
 
 .fw-bold-100 {
@@ -367,7 +379,7 @@ input:focus {
 }
 
 .icon-footer {
-  top: 10px;
+  top: 6px;
   right: 25px;
 }
 
@@ -424,4 +436,19 @@ input:focus {
 
 .top-68 {
   top: 68%;
+}
+
+.top-45 {
+  top: 45%;
+}
+
+[type="reset"],
+[type="submit"],
+button,
+html [type="button"] {
+  border: none !important;
+}
+
+.lh-36 {
+  line-height: 36px;
 }
