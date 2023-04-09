@@ -22,7 +22,9 @@ const OrganizationServices = () => {
                     <h1 className="text-green fs-50 fw-bold-600">
                       0{response.id}
                     </h1>
-                    <h1 className="fs-30 mt-1">{response.heading}</h1>
+                    <h1 className="fs-30 mt-1 fw-bold-600">
+                      {response.heading}
+                    </h1>
                     <p className="fs-18 fs-bold-400 text-grey mt-3">
                       {response.description}
                     </p>
@@ -57,7 +59,9 @@ const OrganizationServices = () => {
                           <h1 className="text-green fs-50 fw-bold-600">
                             0{response.id}
                           </h1>
-                          <h1 className="fs-30 mt-1">{response.heading}</h1>
+                          <h1 className="fs-30 mt-1 fw-bold-600">
+                            {response.heading}
+                          </h1>
                           <p className="fs-18 fs-bold-400 text-grey mt-3">
                             {response.description}
                           </p>

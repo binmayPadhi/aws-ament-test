@@ -94,6 +94,7 @@ const Test = () => {
             id="myVideo"
             autoPlay={true}
             muted
+            loop
             playsInline
           >
             <source
@@ -105,160 +106,60 @@ const Test = () => {
             <Navbar navChange={navColor} />
           </div>
           <div className="center-88">
-            <div className="new-subService-AIML-intro-caption top-45 w-75">
+            <div className="new-subService-AIML-intro-caption top-45 main-img-class">
               <h2
-                className="fs-50 text-white fw-bold-700"
+                className="fs-60 text-white redesign-width fw-bold-700"
                 data-text="Reimagine & Redefine"
               >
                 Your Trusted Partner In Making Data Driven Decisions
               </h2>
-              <div className="mt-2 fs-16 fw-bold-600 w-60 px-2">
+              <div className="mt-2 fs-20 fw-bold-600 data-width px-2">
                 We are a Data Analytics & AI solutions company that helps
                 businesses make data-driven decisions
               </div>
               <div
-                className="mt-4 connect-button py-2 px-4 cr-pointer"
+                className="mt-4 connect-button fw-bold-700 fs-14 py-2 px-4 cr-pointer"
                 onClick={(e) => connectPage(e)}
               >
                 Let's connect
               </div>
             </div>
           </div>
-          <div className="fs-35 text-white position-absolute bottom-0 w-50">
+          <div className="fs-35 text-white position-absolute bottom-1 w-50">
             <div
               className=" fs-15 text-white bg-marron"
               style={{ height: "auto" }}
             >
-              <Carousel variant="dark" className="homeImage">
-                <Carousel.Item>
-                  <div className="row">
-                    {Aboutdata.homemainimg.map((list) => {
-                      return (
-                        <>
-                          <div
-                            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-left"
-                            key={list.id}
-                          >
-                            <table className="pl-1 border-0">
-                              <tr>
-                                <td className="border-0">
-                                  <p className="fw-bold-500 text-white fs-24 lh-24 ml-1 pt-5 pb-0 mb-0 pr-4">
-                                    {list.subHeading}
-                                  </p>
-                                  <p className="fw-bold-300 text-white fs-14 ml-1 pr-3 pt-3 pb-5">
-                                    {list.description}
-                                  </p>
-                                </td>
-                                <td className="border-0">
-                                  {list.id != 3 ? (
-                                    <img src={vector} width="2" height="75" />
-                                  ) : null}
-                                </td>
-                              </tr>
-                            </table>
-                          </div>
-                        </>
-                      );
-                    })}
-                  </div>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <div className="row">
-                    {Aboutdata.homemainimg1.map((list) => {
-                      return (
-                        <>
-                          <div
-                            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-left"
-                            key={list.id}
-                          >
-                            <table className="pl-1 border-0">
-                              <tr>
-                                <td className="border-0">
-                                  <p className="fw-bold-500 text-white fs-24 lh-24 ml-1 pt-5 pb-0 mb-0 pr-4 mb-0">
-                                    {list.subHeading}
-                                  </p>
-                                  <p className="fw-bold-300 text-white fs-14 ml-1 pr-3 pt-3 pb-5">
-                                    {list.description}
-                                  </p>
-                                </td>
-                                <td className="border-0">
-                                  {list.id != 3 ? (
-                                    <img src={vector} width="2" height="75" />
-                                  ) : null}
-                                </td>
-                              </tr>
-                            </table>
-                          </div>
-                        </>
-                      );
-                    })}
-                  </div>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <div className="row">
-                    {Aboutdata.homemainimg2.map((list) => {
-                      return (
-                        <>
-                          <div
-                            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-left"
-                            key={list.id}
-                          >
-                            <table className="pl-1 border-0">
-                              <tr>
-                                <td className="border-0">
-                                  <p className="fw-bold-500 text-white fs-24 lh-24 ml-1 pt-5 pb-0 mb-0 pr-4 mb-0">
-                                    {list.subHeading}
-                                  </p>
-                                  <p className="fw-bold-300 text-white fs-14 ml-1 pr-3 pt-3 pb-5">
-                                    {list.description}
-                                  </p>
-                                </td>
-                                <td className="border-0">
-                                  {list.id != 3 ? (
-                                    <img src={vector} width="2" height="75" />
-                                  ) : null}
-                                </td>
-                              </tr>
-                            </table>
-                          </div>
-                        </>
-                      );
-                    })}
-                  </div>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <div className="row">
-                    {Aboutdata.homemainimg3.map((list) => {
-                      return (
-                        <>
-                          <div
-                            className="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-left"
-                            key={list.id}
-                          >
-                            <table className="pl-1 border-0">
-                              <tr>
-                                <td className="border-0">
-                                  <p className="fw-bold-500 text-white fs-24 lh-24 ml-1 pt-5 pb-0 mb-0 pr-4 mb-0">
-                                    {list.subHeading}
-                                  </p>
-                                  <p className="fw-bold-300 text-white fs-14 ml-1 pr-3 pt-3 pb-5">
-                                    {list.description}
-                                  </p>
-                                </td>
-                                <td className="border-0">
-                                  {list.id != 3 ? (
-                                    <img src={vector} width="2" height="75" />
-                                  ) : null}
-                                </td>
-                              </tr>
-                            </table>
-                          </div>
-                        </>
-                      );
-                    })}
-                  </div>
-                </Carousel.Item>
-              </Carousel>
+              <div className="row p-4">
+                {Aboutdata.homemainimg.map((list) => {
+                  return (
+                    <>
+                      <div
+                        className="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-left"
+                        key={list.id}
+                      >
+                        <table className="pl-1 border-0">
+                          <tr>
+                            <td className="border-0">
+                              <p className="fw-bold-500 text-white fs-24 lh-24 ml-1 pt-5 pb-0 mb-0 pr-4">
+                                {list.subHeading}
+                              </p>
+                              <p className="fw-bold-300 text-white fs-14 ml-1 pr-3 pt-3 pb-5">
+                                {list.description}
+                              </p>
+                            </td>
+                            <td className="border-0">
+                              {list.id != 3 ? (
+                                <img src={vector} width="2" height="75" />
+                              ) : null}
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </>
+                  );
+                })}
+              </div>
             </div>
           </div>
         </div>
@@ -281,19 +182,19 @@ const Test = () => {
             <Navbar navChange={"app"} />
           </div>
           <div className="center-88">
-            <div className="new-subService-AIML-intro-caption top-60 w-75">
+            <div className="new-subService-AIML-intro-caption top-60 w-100">
               <h2
-                className="fs-50 text-white fw-bold-700"
+                className="fs-100 text-white fw-bold-700 w-75"
                 data-text="Reimagine & Redefine"
               >
                 Your Trusted Partner In Making Data Driven Decisions
               </h2>
-              <div className="mt-2 fs-16 fw-bold-600 w-60 px-2">
+              <div className="mt-2 fs-16 fw-bold-600 w-90 px-2">
                 We are a Data Analytics & AI solutions company that helps
                 businesses make data-driven decisions
               </div>
               <div
-                className="mt-4 connect-button py-2 px-4 cr-pointer"
+                className="mt-4 connect-button py-2 px-4 cr-pointer fw-bold-700 fs-14"
                 onClick={(e) => connectPage(e)}
               >
                 Let's connect
