@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+import { useRef } from "react";
 import amnetLogo from "../images/HomePage/ADnewlogo.png";
-import submit_icon from "../images/HomePage/Send.png";
 import linkdein from "../images/HomePage/Linkedin.png";
 import twitter from "../images/HomePage/Twitter.png";
 import facebook from "../images/HomePage/Facebook.png";
@@ -8,8 +8,27 @@ import youtube from "../images/HomePage/Youtube.png";
 import instagram from "../images/HomePage/Instagram.png";
 import { Link } from "react-router-dom";
 import top from "../images/HomePage/Icon ionic-ios-arrow-down.png";
+import { useForm } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import * as yup from "yup";
+import emailjs from "emailjs-com";
+import correct from "../images/newservices/correct.png";
+
+const schema = yup
+  .object()
+  .shape({
+    email: yup
+      .string()
+      .email()
+      .matches(
+        /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+        "email is not valid"
+      ),
+  })
+  .required();
 
 function Footer() {
+  const emailDetails = useRef();
   const footerlist = [
     {
       id: 1,
@@ -102,7 +121,7 @@ function Footer() {
         {
           id: 37,
           name: "Strategy & Consulting",
-          link: "/services/strategyandconsulting",
+          link: "/services/strategyconsulting",
           target: "",
         },
         {
@@ -221,10 +240,31 @@ function Footer() {
       behavior: "smooth",
     });
   };
-  const scrollPage = (e) => {
-    e.preventDefault();
-    window.scrollTo(0, 0);
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm({
+    resolver: yupResolver(schema),
+  });
+
+  const handleShow = () => setShow(true);
+  const [show, setShow] = useState(false);
+
+  const submit = (data) => {
+    return emailjs
+      .sendForm(
+        "service_h4akrmg",
+        "template_h0xkqot",
+        emailDetails.current,
+        "yz7dQlM6o3Rz3cnB8"
+      )
+      .then(console.log("mail sent"), reset(), handleShow(), (error) => {
+        console.log(error.text);
+      });
   };
+
   return (
     <>
       {/* <!-- FOOTER SECTION --> */}
@@ -239,18 +279,45 @@ function Footer() {
           <div className="row">
             <div className="col-md-3 col-lg-3 col-sm-12"></div>
             <div className="col-md-6 col-lg-6 col-sm-12 w-100">
-              <p className="pb-4 input_field w-100">
-                <input
-                  type="text"
-                  className="text-width w-100 position-relative"
-                  placeholder="Enter your business email"
-                />
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/3652/3652532.png"
-                  width="25"
-                  className="position-absolute icon-footer"
-                />
-              </p>
+              {show === false ? (
+                <form ref={emailDetails} onSubmit={handleSubmit(submit)}>
+                  <p className="pb-4 input_field w-100">
+                    <input
+                      type="email"
+                      className="text-width w-100 position-relative"
+                      placeholder="Enter your business email"
+                      name="email"
+                      {...register("email")}
+                    />
+                    <button
+                      className="position-absolute icon-footer cr-pointer"
+                      type="submit"
+                    >
+                      <img
+                        src="https://cdn-icons-png.flaticon.com/512/3652/3652532.png"
+                        width="25"
+                      />
+                    </button>
+                  </p>
+                </form>
+              ) : (
+                <div className="bg-white mx-auto p-4 h-auto mb-2">
+                  <p className="text-black fw-bold-500 fs-16 text-center lh-26 my-3">
+                    Thank you for applying this job!
+                  </p>
+                  <p className="text-black fw-bold-500 fs-18 text-center lh-26 my-3">
+                    <img alt="checkmark" src={correct} className="img-25" />
+                  </p>
+                  <p className="text-black fw-bold-500 fs-16 text-center lh-26 my-3">
+                    Your application has been submitted successfully.
+                  </p>
+                  <p className="text-black fw-bold-500 fs-12 text-center mb-0">
+                    Appreciate your interest in applying for the position. One
+                    of our hiring team members will get in touch with you if
+                    your profile suits the open role.
+                  </p>
+                </div>
+              )}
             </div>
             <div className="col-md-3 col-lg-3 col-sm-12"></div>
           </div>
@@ -274,7 +341,6 @@ function Footer() {
                               to={val.link}
                               target={val.target === "_blank" ? "_blank" : ""}
                               className="listName cr-pointer text-decoration-none fs-13 text-black"
-                              onClick={(e) => scrollPage(e)}
                             >
                               {val.name}
                             </Link>
