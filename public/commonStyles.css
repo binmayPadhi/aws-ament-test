@@ -60,6 +60,10 @@
   width: 75%;
 }
 
+.fs-60 {
+  font-size: 60px;
+}
+
 .fs-50 {
   font-size: 50px;
 }
@@ -74,6 +78,10 @@
 
 .fs-24 {
   font-size: 24px;
+}
+
+.fs-20 {
+  font-size: 20px;
 }
 
 .fs-19 {
@@ -276,6 +284,10 @@ video {
   bottom: 0;
 }
 
+.bottom-1 {
+  bottom: 1px !important;
+}
+
 textarea:focus,
 input:focus {
   outline: none;
@@ -406,6 +418,15 @@ input:focus {
   .img-height {
     height: 600px;
   }
+  .redesign-width {
+    width: 100%;
+  }
+  .data-width {
+    width: 100%;
+  }
+  .main-img-class {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1025px) {
@@ -414,6 +435,15 @@ input:focus {
   }
   .img-height {
     height: 450px;
+  }
+  .redesign-width {
+    width: 50%;
+  }
+  .data-width {
+    width: 60%;
+  }
+  .main-img-class {
+    width: 75%;
   }
 }
 
