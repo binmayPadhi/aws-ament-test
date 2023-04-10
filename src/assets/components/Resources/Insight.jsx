@@ -1,11 +1,11 @@
 import React from "react";
 import blogImg from "../../images/Resources-page/blog-amnet.jpg";
 import Blog from "../../Data/Resources-Data/Blog";
-import { useHistory } from "react-router-dom";
 import Letsgetstart from "../Webinars/Letsgetstart";
+import { useNavigate } from "react-router-dom";
 
 const Insight = () => {
-  let history = useHistory();
+  const history = useNavigate();
   const btnColor = {
     backgroundColor: "#ecac27",
     borderRadius: "100px",
@@ -13,7 +13,7 @@ const Insight = () => {
   };
 
   const navigateTothankspage = () => {
-    history.push(`/webinar-reshaping-the-retail-industry-through-AI`);
+    history(`/blog/webinar-reshaping-the-retail-industry-through-AI`);
   };
   return (
     <>
@@ -78,7 +78,7 @@ const Insight = () => {
                             loading="lazy"
                             className="img-fluid "
                             src={list.description2}
-                            alt="view webinar image"
+                            alt="view webinar"
                           />
                         </p>
                       ) : (

@@ -27,6 +27,7 @@ import progress from "../../images/careers-page/progress.png";
 import support from "../../images/careers-page/support.png";
 // import Trolly from "../../images/HomePage/Trolly.png";
 
+
 const Aboutdata = {
   whoweare: [
     {
@@ -309,6 +310,7 @@ const Aboutdata = {
   ],
   homemainimg: [
     {
+      
       id: 1,
       description:
         "Maximize revenue by turning data into doing new ways of business",

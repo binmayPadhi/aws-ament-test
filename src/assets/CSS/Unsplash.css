@@ -1,0 +1,52 @@
+.letpara {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.content-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.content-button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.connect {
+  cursor: pointer;
+  background: #fd5d14;
+  border-radius: 34px;
+}
+
+.current-openings {
+  cursor: pointer;
+  background: #1dad8f;
+  border-radius: 4px;
+  width:227px;
+  height:45px;
+}
+
+.lets-connect {
+  cursor: pointer;
+  background: #ffffff;
+  border-radius: 34px;
+}
+
+
+
+.w-90 {
+  width: 90%;
+}

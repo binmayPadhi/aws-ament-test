@@ -4034,6 +4034,15 @@ label {
   border-bottom: 3px solid #19af8f !important;
 }
 
+.case-studies-width {
+  width: 282px;
+  margin: auto;
+}
+
+.border-bottom-card {
+  border-bottom: 3px solid #19af8f !important;
+}
+
 .new-industry-header {
   position: relative;
 }
@@ -6439,7 +6448,6 @@ label {
   font-size: 15px;
   padding-left: 2px;
 }
-
 .card-overlay {
   background: rgba(0, 0, 0, 0.5);
   opacity: 0.8;

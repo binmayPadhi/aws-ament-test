@@ -1,38 +1,128 @@
 import React from "react";
 import IndusrtySectionData from "../../Data/Homepage-Data/IndustrySectionData";
+import Trolly from "../../images/HomePage/Trolly.png";
+import "../../CSS/Services.css";
+import IndustrySectionData from "../../Data/Homepage-Data/IndustrySectionData";
+import { useState } from "react";
+import MediaQuery from "react-responsive";
 
-
-function IndustrySection (){
-
-    return (
+function IndustrySection() {
+  const [selectedIndustry, setSelectedIndustry] = useState(
+    IndustrySectionData[0]
+  );
+  const industryChange = (e, obj) => {
+    e.preventDefault();
+    setSelectedIndustry(obj);
+  };
+  return (
+    <>
+    <div className="space-above">
+      <div className="center text-center  mb-5 service_title">
+        Industries we serve
+      </div>
+      {/* <!-- INDUSTRIES WE COVER --> */}
+      <MediaQuery query="(max-width: 1024px)">
         <>
-            {/* <!-- INDUSTRIES WE COVER --> */}
-
-            <div className="industry-section new-all-margin">
-    
-    <h1 className="section-title" style={{marginTop:"60px"}}>INDUSTRIES WE COVER</h1>      
-    
-    <div className="industry-section-row row mt-5">
-
-    {IndusrtySectionData.map(list => {
-        return ( 
-
-            <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 industry-section-column">
-            <div className="card industry-section-card">
-                <img loading="lazy" className="card-img-top img-fluid" src= {list.industryIMG} alt="Case Studies" />
-                <div className="card-img-overlay new-industry-header">
-                <h5 class="card-title text-center">{list.industryTitle}</h5>
+          <div className="container-fluid">
+            <div className="box-industries">
+              <div className="row">
+                <div className=" col-sm-12 col-xs-12">
+                  <img src={selectedIndustry.industryIMG} className="w-100" />
                 </div>
+                <div className=" col-sm-12 col-xs-12 my-auto">
+                  <div className="pt-5">
+                    {IndustrySectionData.map((list) => {
+                      return (
+                        <>
+                          <div
+                            onClick={(e) => industryChange(e, list)}
+                            className="box-green-small cr-pointer pl-4 pt-5"
+                            style={{
+                              backgroundColor:
+                                list.industryTitle ===
+                                selectedIndustry.industryTitle
+                                  ? "#1DAD8F"
+                                  : list.color,
+                              color:
+                                list.industryTitle ===
+                                selectedIndustry.industryTitle
+                                  ? "#ffffff"
+                                  : "#000000",
+                            }}
+                          >
+                            <p className="fs-14 fw-bold-500" key={list.id}>
+                              {list.industryTitlecard}
+                            </p>
+                          </div>
+                        </>
+                      );
+                    })}
+                  </div>
+                  <h1 className="fs-20 fw-bold-500 mt-4">
+                    {selectedIndustry.industryTitle}
+                  </h1>
+                  <p className="fs-14 fw-bold-400">
+                    {selectedIndustry.description}
+                  </p>
+                </div>
+              </div>
             </div>
-            </div>
-
-            )
-        })}
-            
-    </div>
-    </div>
+          </div>
         </>
-    )
+      </MediaQuery>
+      {/* desktop and large screens */}
+      <MediaQuery query="(min-width: 1025px)">
+        <>
+          <div className="container-fluid">
+            <div className="box-industries">
+              <div className="row">
+                <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                  <img src={selectedIndustry.industryIMG} className="w-100" />
+                </div>
+                <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                  <h1 className="fs-18 fw-bold-600 pt-4">
+                    {selectedIndustry.industryTitle}
+                  </h1>
+                  <p className="fs-14 fw-bold-400 height-140">
+                    {selectedIndustry.description}
+                  </p>
+                  <div className="d-flex ">
+                    {IndustrySectionData.map((list) => {
+                      return (
+                        <>
+                          <div
+                            onClick={(e) => industryChange(e, list)}
+                            className="box-green cr-pointer"
+                            style={{
+                              backgroundColor:
+                                list.industryTitle ===
+                                selectedIndustry.industryTitle
+                                  ? "#1DAD8F"
+                                  : list.color,
+                              color:
+                                list.industryTitle ===
+                                selectedIndustry.industryTitle
+                                  ? "#ffffff"
+                                  : "#000000",
+                            }}
+                          >
+                            <p className="fs-14 fw-bold-500" key={list.id}>
+                              {list.industryTitlecard}
+                            </p>
+                          </div>
+                        </>
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </>
+      </MediaQuery>
+      </div>
+    </>
+  );
 }
 
 export default IndustrySection;
