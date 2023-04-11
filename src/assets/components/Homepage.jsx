@@ -2,13 +2,9 @@ import React, { Suspense } from "react";
 import { Link } from "react-scroll";
 import HomeBG from "../images/HomePage/home-bg.jpg";
 import SolutionsServices from "../components/Homepage/SolutionsServices";
-// import ClientSay from "../components/Homepage/ClientSay";
 import AboutDetails from "../components/Homepage/AboutDetails";
 import OurServicesSection from "../components/Homepage/OurServicesSection";
-// import CaseStudiesSection from "../components/Homepage/CaseStudiesSection";
 import OurPartner from "../components/Homepage/OurPartner";
-
-// import IndusrtySection from "../components/Homepage/IndustrySection";
 
 function Test() {
   const cookieStorage = {
