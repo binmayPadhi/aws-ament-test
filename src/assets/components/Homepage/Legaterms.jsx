@@ -44,14 +44,14 @@ const Legalterms = () => {
     <>
       <div className="contact-us-intro container-fluid"></div>
       <div className="cookie-policy new-all-margin pt-5 pb-5">
-        <h1 className="cookie-policy-title py-5">Legal Resources</h1>
+        <h1 className="cookie-policy-title fs-42 py-5">Legal Resources</h1>
         <div className="row">
           {legalterms.map((data) => {
             return (
               <p className="col-lg-4 col-md-4 col-sm-12 col-xs-12 px-4 bx-shadow">
-                <Card key={data.id} style={{ height: "250px" }}>
+                <Card key={data.id} style={{ height: "270px" }}>
                   <Card.Header>
-                    <div className="legal-header mb-0 fs-32 fw-bold-700">
+                    <div className="legal-header mb-0 fs-26 fw-bold-700">
                       {data.heading}
                     </div>
                     <div className="updated fs-16 fw-bold-400">
@@ -59,12 +59,12 @@ const Legalterms = () => {
                     </div>
                   </Card.Header>
                   <Card.Body>
-                    <div className="description-legal fs-16 fw-bold-400">
-                      {data.desc}
+                    <div className="description-legal fs-16 fw-bold-400 text-dark new-case-studies-card">
+                      <p>{data.desc}</p>
                     </div>
                   </Card.Body>
                   <Card.Footer>
-                    <div className="description-legal new-case-studies-card">
+                    <div className="description-legal new-case-studies-card mt-2">
                       <a href={`/${data.link}`}>{`See More ->`}</a>
                     </div>
                   </Card.Footer>

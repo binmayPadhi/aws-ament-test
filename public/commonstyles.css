@@ -67,6 +67,10 @@
   width: 95%;
 }
 
+.w-60 {
+  width: 60%;
+}
+
 .top-25 {
   top: 25%;
 }
@@ -87,8 +91,16 @@
   font-size: 60px;
 }
 
+.fs-42 {
+  font-size: 42px !important;
+}
+
 .fs-32 {
   font-size: 32px;
+}
+
+.fs-26 {
+  font-size: 26px !important;
 }
 
 .fs-20 {
