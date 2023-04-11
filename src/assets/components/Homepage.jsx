@@ -1,15 +1,12 @@
 import React, { Suspense } from "react";
+import { Link } from "react-scroll";
+import HomeBG from "../images/HomePage/home-bg.jpg";
+import SolutionsServices from "../components/Homepage/SolutionsServices";
 import AboutDetails from "../components/Homepage/AboutDetails";
 import OurServicesSection from "../components/Homepage/OurServicesSection";
 import OurPartner from "../components/Homepage/OurPartner";
-import vector from "../images/HomePage/horizontal-line.png";
-import Aboutdata from "../Data/AboutUs-Data/About";
-import MediaQuery from "react-responsive";
-import OrganizationServices from "./Homepage/OrganizationServices";
-import { useHistory } from "react-router-dom";
 
 function Test() {
-  let history = useHistory();
   const cookieStorage = {
     getItem: (item) => {
       const cookies = document.cookie
@@ -49,11 +46,6 @@ function Test() {
     }
   };
 
-  const connectPage = (e) => {
-    e.preventDefault();
-    history.push(`/contactus`);
-  };
-
   const ClientSay = React.lazy(() =>
     import("../components/Homepage/ClientSay")
   );
@@ -66,131 +58,59 @@ function Test() {
 
   return (
     <>
-      <MediaQuery query="(min-width: 1025px)">
-        <div className="h-100 position-relative">
-          <video
-            className="video_class"
-            id="myVideo"
-            autoPlay={true}
-            muted
-            loop
-            playsInline
-          >
-            <source
-              src="https://amnet-digital-website.s3.amazonaws.com/FinalVersion.mp4"
-              type="video/mp4"
-            />
-          </video>
-          <div className="card-overlay fs-14 text-white h-100"></div>
-          <div className="position-abosulte">
-            <div className="center-88">
-              <div className="new-subService-AIML-intro-caption top-45 main-img-class">
-                <h2
-                  className="fs-60 text-white redesign-width fw-bold-700 w-75"
-                  data-text="Reimagine & Redefine"
+      <div
+        className="sub-service-intro container-fluid"
+        style={{
+          backgroundImage: `url(${HomeBG})`,
+          backgroundAttachment: "scroll",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+      >
+        <div className="row service-new-all-margin">
+          <div className="col-lg-5 new-subService-AIML-intro-caption new-all-margin">
+            <h2 className="textAnimation" data-text="Reimagine & Redefine">
+              Reimagine & Redefine
+            </h2>
+            <p>
+              Amnet Digital is enabling enterprises reimagine and redefine their
+              engagement with employees, customers, partners and suppliers by
+              providing intelligent insights and continuous value.
+            </p>
+
+            <div className="subService-AIML-intro-btn">
+              {/* <a href="/casestudies">
+                                    <button type="button" className="btn btn-default">View Details</button>
+                                </a> */}
+              <Link
+                activeClass="active"
+                to="details"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                <button
+                  type="button"
+                  className="btn btn-default sub-service-view-details-btn"
                 >
-                  Your Trusted Partner In Making Data Driven Decisions
-                </h2>
-                <div className="mt-2 fs-20 fw-bold-400 data-width px-2 w-75">
-                  We are a Data Analytics & AI solutions company that helps
-                  businesses make data-driven decisions
-                </div>
-                <div
-                  className="mt-4 connect-button cr-pointer"
-                  onClick={(e) => connectPage(e)}
-                >
-                  Let's connect
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="fs-35 text-white position-absolute bottom-1 w-50">
-            <div
-              className=" fs-15 text-white bg-marron"
-              style={{ height: "auto" }}
-            >
-              <div className="row pl-2">
-                {Aboutdata.homemainimg.map((list) => {
-                  return (
-                    <>
-                      <div
-                        className="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-left"
-                        key={list.id}
-                      >
-                        <table className="pl-1 border-0">
-                          <tr>
-                            <td className="border-0">
-                              <p className="fw-bold-500 text-white fs-24 lh-24 ml-1 pt-5 pb-0 mb-0 pr-4">
-                                {list.subHeading}
-                              </p>
-                              <p className="fw-bold-300 text-white fs-14 ml-1 pr-3 pt-3 pb-5">
-                                {list.description}
-                              </p>
-                            </td>
-                            <td className="border-0">
-                              {list.id != 3 ? (
-                                <img src={vector} width="2" height="75" />
-                              ) : null}
-                            </td>
-                          </tr>
-                        </table>
-                      </div>
-                    </>
-                  );
-                })}
-              </div>
+                  Learn more
+                </button>
+              </Link>
             </div>
           </div>
         </div>
-      </MediaQuery>
-      <MediaQuery query="(max-width: 1024px)">
-        <div className="wrapper_video">
-          <video
-            className="video position-relative"
-            id="myVideo"
-            autoPlay={true}
-            muted
-            playsInline
-          >
-            <source
-              src="https://amnet-digital-website.s3.amazonaws.com/FinalVersion.mp4"
-              type="video/mp4"
-            />
-          </video>
-          <div className="card-overlay fs-14 text-white h-100"></div>
-          <div className="position-abosulte">
-            <div className="center-88">
-              <div className="new-subService-AIML-intro-caption top-60 w-75">
-                <h2
-                  className="fs-100 text-white fw-bold-700 w-100"
-                  data-text="Reimagine & Redefine"
-                >
-                  Your Trusted Partner In Making Data Driven Decisions
-                </h2>
-                <div className="mt-2 fs-16 fw-bold-400 w-100 px-2">
-                  We are a Data Analytics & AI solutions company that helps
-                  businesses make data-driven decisions
-                </div>
-                <div
-                  className="mt-4 connect-button cr-pointer"
-                  onClick={(e) => connectPage(e)}
-                >
-                  Let's connect
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </MediaQuery>
+      </div>
+
+      {/* HOMEPAGE QUOTE SECTION */}
+      {/* <div className="homepage-quote homepage-news-text">
+            <h2 className="text-center">
+                "AI-Enabled tools will generate $2.9 trillion in business value by 2021"
+            </h2>
+        </div> */}
+
       {/* NEW HOMEPAGE SOLUTION SERVICE SECTION */}
-      <Suspense fallback={<div>Loading...</div>}>
-        <h1 className="section-title industry-section-row text-center mb-3">
-          Drive Organizational Change
-        </h1>
-        <div className="mt-5 mb-5">
-          <OrganizationServices />
-        </div>
-      </Suspense>
+      <SolutionsServices />
 
       {/* NEW HOMEPAGE SOLUTION SERVICE SECTION */}
       <AboutDetails />
