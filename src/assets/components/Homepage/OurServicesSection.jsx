@@ -41,8 +41,8 @@ function OurServices() {
                       {data.serviceTitle}
                     </h3>
                   </Card.Title>
-                  <Card.Text>
-                    <p className="card-text">{data.serviceDesc}</p>
+                  <Card.Text className="new-case-studies-card">
+                    <p>{data.serviceDesc}</p>
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
