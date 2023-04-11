@@ -47,10 +47,9 @@ function OurServices() {
                 </Card.Body>
                 <Card.Footer>
                   <Card.Text>
-                    <a
-                      href={`/${data.id}`}
-                      className="more-explore pb-2"
-                    >{`Explore ->`}</a>
+                    <div className="new-explore-link pb-2">
+                      <a href={`/${data.id}`}>{`Explore ->`}</a>
+                    </div>
                   </Card.Text>
                 </Card.Footer>
               </Card>

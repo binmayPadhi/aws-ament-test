@@ -56,7 +56,10 @@ const OrganizationServices = () => {
                         }
                       >
                         <div className="w-90 mx-auto">
-                          <h1 className="text-green fs-50 fw-bold-600">
+                          <h1
+                            className="fs-50 fw-bold-600"
+                            style={{ color: "#1dad8f" }}
+                          >
                             0{response.id}
                           </h1>
                           <h1 className="fs-30 mt-1 fw-bold-600">
