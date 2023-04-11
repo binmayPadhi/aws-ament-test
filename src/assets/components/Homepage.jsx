@@ -102,7 +102,7 @@ function Test() {
               </div>
             </div>
           </div>
-          <div className="fs-35 text-white position-absolute bottom-1 w-50">
+          <div className="fs-35 text-white position-absolute bottom-1 w-60">
             <div
               className=" fs-15 text-white bg-marron"
               style={{ height: "auto" }}

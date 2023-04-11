@@ -37,7 +37,7 @@ function OurServices() {
                 </Card.Header>
                 <Card.Body>
                   <Card.Title>
-                    <h3 className="card-title-service my-3">
+                    <h3 className="card-title-service my-3 new-case-studies-card-heading">
                       {data.serviceTitle}
                     </h3>
                   </Card.Title>
