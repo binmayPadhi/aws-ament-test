@@ -6043,6 +6043,10 @@ label {
   text-decoration: none;
 }
 
+.bg-white {
+  background-color: #ffffff;
+}
+
 @media only screen and (min-width: 1200px) {
   .center {
     padding-left: 300px;
