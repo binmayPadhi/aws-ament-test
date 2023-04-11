@@ -1,7 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import "../../CSS/webinar.css";
-import { useHistory } from "react-router-dom/cjs/react-router-dom";
 
 const Legalterms = () => {
   const legalterms = [
@@ -10,14 +9,14 @@ const Legalterms = () => {
       heading: "Privacy Policy",
       updated: "Last updated on 26 July 2022",
       desc: "Amnet Digital attaches great importance to your right to privacy and the protection of your personal data...",
-      link: "/privacypolicy",
+      link: "privacypolicy",
     },
     {
       id: 2,
       heading: "Cookies Policy",
       updated: "Last updated on 26 July 2022",
       desc: "A cookie is a small text file that is stored on your computer or another internet-connected device in order to identify your browser, provide analytics...",
-      link: "/cookiespolicy",
+      link: "cookiespolicy",
     },
     // {
     //   id: 3,
@@ -41,12 +40,6 @@ const Legalterms = () => {
     //   link: "privacy",
     // },
   ];
-
-  const navigate = useHistory();
-
-  const redirectTo = (e) => {
-    navigate.push(e);
-  };
   return (
     <>
       <div className="contact-us-intro container-fluid"></div>
@@ -71,10 +64,9 @@ const Legalterms = () => {
                     </div>
                   </Card.Body>
                   <Card.Footer>
-                    <div
-                      className="description-legal fs-14 fw-bold-400"
-                      onClick={() => redirectTo(data.link)}
-                    >{`See More ->`}</div>
+                    <div className="description-legal new-case-studies-card">
+                      <a href={`/${data.link}`}>{`See More ->`}</a>
+                    </div>
                   </Card.Footer>
                 </Card>
               </p>
