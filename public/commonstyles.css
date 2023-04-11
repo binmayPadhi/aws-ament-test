@@ -1,0 +1,140 @@
+.homepage_video {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper_video {
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper_video .video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-overlay {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+}
+
+.fw-bold-100 {
+  font-weight: 100;
+}
+
+.fw-bold-200 {
+  font-weight: 200;
+}
+
+.fw-bold-300 {
+  font-weight: 300;
+}
+
+.fw-bold-400 {
+  font-weight: 400;
+}
+
+.fw-bold-600 {
+  font-weight: 600;
+}
+
+.fw-bold-500 {
+  font-weight: 500;
+}
+
+.fw-bold-700 {
+  font-weight: 700;
+}
+
+.fw-bold-800 {
+  font-weight: 800;
+}
+
+.fw-bold-900 {
+  font-weight: 900;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+.top-25 {
+  top: 25%;
+}
+
+.top-50 {
+  top: 50%;
+}
+
+.top-40 {
+  top: 40%;
+}
+
+.top-60 {
+  top: 60%;
+}
+
+.fs-60 {
+  font-size: 60px;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.bg-grey {
+  background: #1dad8f;
+}
+
+.bg-marron {
+  background-color: #333333;
+}
+
+.rounded-1 {
+  border-radius: 0.5rem;
+}
+
+.bottom-1 {
+  bottom: 1px;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.bg {
+  background-color: #f9f9f9;
+}
