@@ -89,6 +89,10 @@
   font-size: 40px;
 }
 
+.fs-50 {
+  font-size: 50px;
+}
+
 .mt-10-rem {
   margin-top: 10rem;
 }
@@ -544,4 +548,58 @@ ul {
   border-radius: 0.375rem;
   opacity: 0.5;
   background-size: cover;
+}
+
+.list-style-dot {
+  list-style-type: disc;
+}
+
+.google-links li a {
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+.cookie-table th {
+  background-color: #c6eae3;
+  border: 1px solid #e2e2e2;
+  border-collapse: collapse;
+}
+
+.cookie-table,
+th,
+td {
+  border: 1px solid #e2e2e2;
+  border-collapse: collapse;
+}
+
+.clr-updated {
+  color: #1dad8f;
+}
+
+.legal-header {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.updated {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #747474;
+}
+
+.description-legal {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #1dad8f;
+  cursor: pointer;
 }

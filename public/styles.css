@@ -4658,6 +4658,11 @@ label {
     margin-top: 1rem !important;
   }
 
+  .new-case-studies-card-heading {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+
   .new-case-studies-card {
     padding-right: 15px !important;
     padding-left: 15px !important;
