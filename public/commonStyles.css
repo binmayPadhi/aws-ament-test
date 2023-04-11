@@ -14,6 +14,10 @@
   width: 98%;
 }
 
+.w-99 {
+  width: 99%;
+}
+
 .w-95 {
   width: 95%;
 }
@@ -347,8 +351,6 @@ input:focus {
   margin-top: 60px;
 }
 
-
-
 .top-0 {
   top: 0;
 }
@@ -405,7 +407,7 @@ input:focus {
     position: relative !important;
     padding-bottom: 0px;
   }
-
+}
 
 @media screen and (max-width: 1024px) {
   .width_query {
@@ -465,9 +467,8 @@ input:focus {
 }
 
 .top-45 {
-  top: 45%!important;
+  top: 45% !important;
 }
-
 
 [type="reset"],
 [type="submit"],
