@@ -28,8 +28,8 @@ body {
 
 .section-title {
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 40px;
+  font-size: 3.5rem;
+  font-weight: bolder;
   color: #000000;
 }
 
@@ -301,6 +301,10 @@ body {
   height: 600px;
   margin-left: 0;
   padding: 30px;
+  /* background-image:url('../images/HomePage/our-services/amnet-our-services-bg.png');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 .our-service-lists {
@@ -347,16 +351,16 @@ body {
   margin-top: 50px;
 }
 
-/* .carousel .carousel-indicators .active {
+.carousel .carousel-indicators .active {
   height: 15px;
   width: 15px;
   border-radius: 50%;
   background-color: #6d6d6d;
   margin-bottom: -20rem;
-} */
+}
 
 .carousel-indicators {
-  top: 105%;
+  top: 100%;
 }
 
 .carousel-control-prev-icon {
@@ -495,17 +499,6 @@ body {
   background-color: #ffffff;
 }
 
-.impact-space {
-  margin-right: 15px;
-  font-size: 17px;
-  font-weight: 400;
-}
-
-.amnet-styling {
-  font-weight: 600;
-  font-size: 29px;
-}
-
 .career-details p {
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
@@ -514,22 +507,11 @@ body {
   padding: 35px;
 }
 
-.proven-styling {
-  font-weight: 600;
-  font-size: 35px;
-}
-
-.years-styling {
-  font-weight: 400;
-  font-size: 16px;
-  color: rgba(255, 255, 255, 0.7);
-}
-
 /* FOOTER SECTION */
 /* ........................................................................................................................ */
 
 .footer {
-  background-color: #c6eae3;
+  background-color: #0c0c0c;
   color: white;
   margin-top: 0px;
 }
@@ -552,7 +534,7 @@ body {
   font-weight: 400;
 }
 
-/* .footer p a {
+.footer p a {
   font-family: "Poppins", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
@@ -560,7 +542,7 @@ body {
   margin-top: 10px;
   color: white;
   text-decoration: underline;
-} */
+}
 
 .ISOCeritfied {
   display: flex;
@@ -1969,12 +1951,12 @@ label {
 /* ABOUT US PAGE STYLE SECTION */
 /* ..................................................................................................................... */
 
-/* .about-us-intro-bg {
-  background-image: url('../images/About-Us-Page/amnet-about-us-bg.jpg');
+.about-us-intro-bg {
+  /* background-image: url('../images/About-Us-Page/amnet-about-us-bg.jpg');
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: cover;
-} */
+    background-size: cover; */
+}
 
 .about-us-img-left {
   float: left;
@@ -2130,12 +2112,12 @@ label {
 /* SERVICES PAGE STYLES */
 /* ................................................................................................ */
 
-/* .service-page-intro {
-  background-image:url('../images/Service-Page/amnet-our-services-bg.jpg');
+.service-page-intro {
+  /* background-image:url('../images/Service-Page/amnet-our-services-bg.jpg');
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: cover;
-} */
+    background-size: cover; */
+}
 
 .img-left {
   float: left;
@@ -2375,12 +2357,12 @@ label {
 /* CASE STUDIES PAGE STYLES */
 /* .................................................................................................................... */
 
-/* .case-studies-intro {
-  background-image:url('../images/Case-Studies-Page/amnet-case-studies-bg.jpg');
+.case-studies-intro {
+  /* background-image:url('../images/Case-Studies-Page/amnet-case-studies-bg.jpg');
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: cover;
-} */
+    background-size: cover; */
+}
 
 .case-studies-page-row {
   margin-top: -30px;
@@ -2397,7 +2379,7 @@ label {
 }
 
 .case-studies-page-card .card-img-top {
-  height: 100%;
+  height: 246px;
 }
 
 .case-studies-icon {
@@ -2600,9 +2582,9 @@ label {
 }
 
 /* INDUSTRY BUSINESS VERTICAL */
-/* .industry-page-business-vertical-section {
-  margin-top: 60px;
-} */
+.industry-page-business-vertical-section {
+  /* margin-top: 60px; */
+}
 
 .industry-page-business-vertical {
   background-color: black;
@@ -2640,9 +2622,9 @@ label {
 }
 
 /* INDUSTRY AI SOLUTIONS */
-/* .industry-page-ai-solution-section {
-  margin-top: 60px;
-} */
+.industry-page-ai-solution-section {
+  /* margin-top: 60px; */
+}
 
 .industry-page-ai-solution-section .section-title {
   text-align: center;
@@ -2976,12 +2958,12 @@ label {
 /* CAREERS PAGE STYLES */
 /* ........................................................................................................................... */
 
-/* .careers-page-bg {
-  background-image:url('../images/careers-page/amnet-careers-bg.jpg');
+.careers-page-bg {
+  /* background-image:url('../images/careers-page/amnet-careers-bg.jpg');
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: cover;
-} */
+    background-size: cover; */
+}
 
 .careers-page-details {
   font-family: "Poppins", sans-serif;
@@ -3036,8 +3018,7 @@ label {
 }
 
 .job-desc-header {
-  margin-top: 40px;
-  margin-bottom: 50px;
+  margin-top: 60px;
 }
 
 .job-desc-lists {
@@ -3174,11 +3155,6 @@ label {
 
   .job-desc-card button {
     font-size: 1.2rem;
-  }
-
-  .encourage-styling {
-    font-weight: 600;
-    font-size: 36px;
   }
 
   .job-desc-lists .job-icon {
@@ -3855,53 +3831,17 @@ label {
 }
 
 .new-subService-AIML-intro-caption {
-  position: absolute !important;
-  top: 70%;
-  transform: translateY(-50%);
-  z-index: 1;
+  top: 180px;
   color: white;
 }
 
-.top-45 {
-  top: 45% !important;
-}
-
 .new-subService-AIML-intro-caption h2 {
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 4.5rem;
+  font-weight: 800;
   color: white;
 }
 
 .new-subService-AIML-intro-caption p {
-  font-size: 1.8rem;
-  font-weight: 200;
-}
-
-.video_class {
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.new-subService-AIML-intro-caption1 {
-  position: absolute !important;
-  top: 45%;
-  transform: translateY(-50%);
-  z-index: 1;
-  color: white;
-}
-
-.top-45 {
-  top: 45% !important;
-}
-
-.new-subService-AIML-intro-caption1 h2 {
-  font-size: 40px;
-  font-weight: 600;
-  color: white;
-}
-
-.new-subService-AIML-intro-caption1 p {
   font-size: 1.8rem;
   font-weight: 200;
 }
@@ -4018,43 +3958,15 @@ label {
 /* NEW HOMEPAGE INDUSTRY SECTION */
 
 .industry-section-column {
-  margin: auto;
-  height: 483px;
   padding-right: 5px !important;
   padding-left: 0px !important;
-  position: relative;
 }
 
-.case-studies-width {
-  width: 282px;
-  margin: auto;
-}
-
-.border-bottom-card {
-  border-bottom: 3px solid #19af8f !important;
-}
-
-.case-studies-width {
-  width: 282px;
-  margin: auto;
-}
-
-.border-bottom-card {
-  border-bottom: 3px solid #19af8f !important;
-}
-
-.new-industry-header {
-  position: relative;
-}
-
-.industrytitle {
+.new-industry-header h5 {
   color: white;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  position: absolute;
-  top: 7%;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-top: 10px;
 }
 
 /* NEW HOMEPAGE OUR SERVICE SECTION */
@@ -4094,7 +4006,7 @@ label {
   font-weight: 800;
 }
 
-.new-our-service-card {
+.new-our-service-card .card-text {
   color: black;
   font-size: 1.5rem;
   font-weight: 400;
@@ -4195,7 +4107,7 @@ label {
 
 .new-our-partner {
   position: relative;
-  background-color: #f9f9f9;
+  background-color: white;
   padding: 15px;
   margin-top: 40px;
   margin-bottom: 20px;
@@ -4204,7 +4116,7 @@ label {
 .our-partner {
   position: relative;
   margin-top: 20px;
-  background-color: #f9f9f9;
+  background-color: white;
   padding: 15px;
 }
 
@@ -4253,13 +4165,9 @@ label {
 }
 
 .client-say-card .card-text {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
-  color: #ffffff;
-  padding: 15px 0px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 10px;
 }
 
 /* NEW HOMEPAGE CAREER SECTION */
@@ -4355,7 +4263,9 @@ label {
 .new-our-location-column .new-location-card {
   width: auto;
   height: 370px;
+  background-color: black;
   color: white;
+  border-bottom: 5px solid #19af8f;
 }
 
 /* NEW SERVICE PAGE DESIGN SECTION */
@@ -4485,19 +4395,19 @@ label {
 }
 
 .new-case-studies-list .card-body {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   height: 650px;
 }
 
 .new-case-studies-list h2 {
   font-size: 2.5rem;
-  color: black;
+  color: white;
   margin-top: 0px;
 }
 
 .new-case-studies-list p {
-  color: black;
+  color: white;
 }
 
 .new-case-studies-list h4 {
@@ -4509,74 +4419,12 @@ label {
 .weValueInnovation {
   background-color: black;
   border-radius: 4px;
-  margin-top: 140px;
-  padding: 40px;
-  background-size: cover;
-}
-
-.hr-styling {
-  margin-top: 0;
+  margin-top: 60px;
 }
 
 .weValueInnovation h1 {
   color: white;
   /* padding: 30px; */
-}
-
-.wevalue-img {
-  padding-right: 30px;
-  padding-top: 20px;
-  height: 50vh;
-  width: 100%;
-}
-
-.encourage-img {
-  width: 100%;
-  height: 75vh;
-  padding-right: 30px;
-}
-
-.gradient-line {
-  height: 3px;
-  background-image: linear-gradient(to right, #000000, #7c1bd6);
-  width: 150px;
-  border-radius: 4px;
-}
-
-.gradient-box {
-  padding: 60px;
-  width: 100%;
-  background-size: cover;
-  background-image: linear-gradient(to right, #000000, #7c1bd6);
-  border-radius: 4px;
-  margin-top: 60px;
-}
-
-.img-center {
-  display: end;
-}
-
-.mail-button {
-  background: #ffffff;
-  border-radius: 34px;
-  border-width: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.vara-img {
-  padding-right: 15px;
-}
-
-.weencourage {
-  background-color: #f9f9f9;
-  border-radius: 4px;
-  margin-top: 140px;
-  padding: 40px;
-  width: 100%;
-  background-size: cover;
 }
 
 .weValueInnovation p {
@@ -4846,9 +4694,9 @@ label {
     font-size: 1.5rem;
   }
 
-  /* .new-subService-AIML-intro-caption {
+  .new-subService-AIML-intro-caption {
     top: 130px;
-  } */
+  }
 
   .subService-AIML-intro-btn .sub-service-contact-us-btn {
     margin-left: 0px;
@@ -5128,9 +4976,9 @@ label {
     font-size: 1.8rem;
   }
 
-  /* .new-subService-AIML-intro-caption {
+  .new-subService-AIML-intro-caption {
     top: 130px;
-  } */
+  }
 
   .subService-AIML-intro-btn .sub-service-contact-us-btn {
     margin-left: 10px;
@@ -5540,6 +5388,10 @@ label {
     font-size: 2.5rem;
   }
 
+  .new-case-studies-list .card-body {
+    height: 720px;
+  }
+
   .new-case-studies-list p {
     font-size: 1.5rem;
   }
@@ -5635,9 +5487,6 @@ label {
   transition: transform 0.4s;
 }
 
-.propensity-img {
-  height: 100%;
-}
 /* INDUSTRY ANIMATION CARD AND ALL IMAGES */
 
 .animation-card {
@@ -5884,12 +5733,6 @@ label {
 
 #consent-popup.hidden {
   opacity: 0;
-  display: none;
-}
-
-#consent-popup.block {
-  opacity: 0;
-  display: block;
 }
 
 /* COOKIES Policy Page SECTION */
@@ -5900,6 +5743,7 @@ label {
 }
 
 .cookie-policy h1 {
+  font-size: 3.5rem;
   font-weight: 800;
   color: black;
 }
@@ -5999,12 +5843,6 @@ label {
   border-radius: 20px;
 }
 
-.img-top {
-  background: #ced4da;
-  border-radius: 100%;
-  padding: 11px;
-}
-
 .clr-black {
   color: #000000;
 }
@@ -6043,416 +5881,13 @@ label {
   text-decoration: none;
 }
 
+.bg-white {
+  background-color: #ffffff;
+}
+
 @media only screen and (min-width: 1200px) {
   .center {
     padding-left: 300px;
     padding-right: 300px;
   }
-}
-
-.side-heading {
-  font-size: 16px;
-  font-weight: 600;
-  color: #ffffff;
-  font-family: "Inter";
-}
-
-.connect-button {
-  background: #1dad8f;
-  color: white;
-  font-weight: 800;
-  padding: 10px 10px;
-  margin-top: 15px;
-  transition: 0.5s;
-  border-radius: 4px;
-  text-align: center;
-  height: 45px;
-  width: 120px;
-  margin-bottom: 10px;
-  font-size: 14px;
-}
-
-.center-88 {
-  width: 88%;
-  margin: auto;
-}
-
-.center-91 {
-  width: 91%;
-  margin: auto;
-}
-
-.left-1 {
-  left: 0;
-}
-
-.card-img-overlay {
-  padding: 2rem 0 !important;
-}
-
-.center {
-  width: 90%;
-  margin: auto;
-}
-
-.glance_styles {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 50px;
-  color: #000000;
-}
-
-.glances_position {
-  position: absolute;
-  top: 50%;
-}
-
-.margin-70 {
-  margin: 70px 0px;
-}
-
-.mt-10 {
-  margin-top: 10rem;
-}
-
-.space-bottom {
-  padding-bottom: 100px;
-}
-
-.client-desc {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  color: black;
-}
-
-.icon-rtl {
-  padding-right: 125px;
-  padding-left: 10px;
-  background: url("https://cdn-icons-png.flaticon.com/512/3652/3652532.png")
-    no-repeat right;
-  background-size: 20px;
-  background-color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.icon-location {
-  padding-right: 125px;
-  padding-left: 10px;
-  background: url("../../images/careers-page/location.png") no-repeat right;
-  background-size: 20px;
-  background-color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.text-green {
-  color: #1dad8f !important;
-}
-
-.fixed-postion {
-  width: 100%;
-  position: -webkit-sticky;
-  /* Safari & IE */
-  position: sticky;
-  top: 0;
-}
-
-.w-95 {
-  width: 95%;
-}
-
-.w-5 {
-  width: 5%;
-}
-
-.w-img-10 {
-  width: 10%;
-}
-
-.gload-title {
-  width: 100%;
-  height: 100%;
-}
-
-.company_name {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 50px;
-  text-transform: uppercase;
-  color: #000000;
-  position: absolute;
-  top: 50%;
-}
-
-.heading_why {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 28px;
-  color: #000000;
-}
-
-.border-col1 {
-  border-right: 2px solid rgba(0, 0, 0, 0.4);
-}
-
-.paragraph_why {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.4);
-}
-
-.image-border-amnet {
-  border: 3px solid #ff6e31;
-  border-radius: 100%;
-}
-
-.img_drivine {
-  position: relative;
-  width: 100%;
-  height: auto;
-  background-image: url("../../Amnet-Website/src/assets/images/HomePage/Drive.jpg");
-  background-size: cover;
-}
-
-.space-drive {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.drive {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 40px;
-  text-transform: capitalize;
-  color: #ffffff;
-}
-
-.drive_para {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
-  color: #ffffff;
-}
-
-.btn_drive {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  color: #ffffff;
-  background: #ff6e31;
-  border-radius: 4px;
-  display: table;
-  padding: 10px;
-}
-
-.para_footer {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 13px;
-  line-height: 20px;
-  color: #072b23;
-}
-
-.input_field input {
-  padding-left: 10px;
-  color: #939699;
-  position: relative;
-  box-shadow: none;
-}
-
-.input-round {
-  width: 100%;
-  border-color: #c2c2c2 !important;
-  border-style: solid !important;
-  border-width: 2px !important;
-  border-radius: 36px;
-  box-shadow: none;
-  color: #c2c2c2;
-  padding: 15px;
-}
-
-.search-button {
-  border-radius: 4px;
-  background: #f79424;
-  border: 1px solid #ff6e31;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-}
-
-.clear-button {
-  border-radius: 4px;
-  border: 1px solid #ff6e31;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  background-color: white;
-  margin-left: 20px;
-}
-
-.orange-border {
-  border-radius: 4px;
-  border: 1px solid #ff6e31;
-  padding: 10px;
-  background-color: white;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  margin-left: 160px;
-}
-
-.application-box {
-  box-shadow: 3px 6px 16px #00000029;
-  padding: 15px;
-}
-
-.explore-button {
-  background: #ffffff;
-  border: 1px solid #000000;
-  border-radius: 4px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  margin-top: 30px;
-}
-
-.input-container {
-  display: -ms-flexbox;
-  /* IE10 */
-  display: flex;
-  width: 100%;
-  margin-bottom: 15px;
-}
-
-.sub-icon {
-  background-color: #ffffff;
-  padding: 13px 10px 10px 10px;
-}
-
-.list-heading {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 13px;
-  line-height: 20px;
-  color: #072b23;
-}
-
-.text-areainput {
-  width: 100%;
-  height: 100px;
-  box-shadow: 3px 6px 16px #00000029;
-  border-style: none;
-  font-size: 1.8rem;
-}
-
-.listName {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  padding: 0px 5px;
-  color: #555555;
-}
-
-.box-industries {
-  box-shadow: 3px 6px 16px #00000029;
-  padding: 15px;
-}
-
-.box-green {
-  background: #1dad8f;
-  padding-top: 130px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 20%;
-}
-
-.box-grey {
-  background: rgba(217, 217, 217, 0.8);
-  padding-top: 130px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 20%;
-}
-
-.box-healthcare {
-  background: rgba(217, 217, 217, 0.6);
-  padding-top: 130px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 20%;
-}
-
-.box-info {
-  background: rgba(217, 217, 217, 0.4);
-  padding-top: 130px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 20%;
-}
-
-.box-hrms {
-  background: rgba(217, 217, 217, 0.2);
-  padding-top: 130px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 20%;
-}
-
-.bg-white {
-  background-color: #ffffff;
-  height: 200px;
-}
-
-.footer-border {
-  border-bottom: 2px solid #d9dadb;
-}
-
-.topscroll {
-  background-color: #d9dadb;
-  border-radius: 100%;
-  width: 15px;
-  height: 15px;
-  cursor: pointer;
-}
-
-.margin-75 {
-  margin-top: 75px;
-}
-
-.select-height {
-  height: 45px;
-  font-size: 15px;
-  padding-left: 2px;
-}
-
-.card-overlay {
-  background: rgba(0, 0, 0, 0.5);
-  opacity: 0.8;
-  position: absolute;
-  content: "";
-  width: 100%;
-  top: 0;
 }
