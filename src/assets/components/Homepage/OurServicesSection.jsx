@@ -47,7 +47,7 @@ function OurServices() {
                 </Card.Body>
                 <Card.Footer>
                   <Card.Text>
-                    <div className="new-explore-link pb-2">
+                    <div className="new-case-studies-card py-4">
                       <a href={`/${data.id}`}>{`Explore ->`}</a>
                     </div>
                   </Card.Text>
