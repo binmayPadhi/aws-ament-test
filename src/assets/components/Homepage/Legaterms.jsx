@@ -7,24 +7,24 @@ const Legalterms = () => {
     {
       id: 1,
       heading: "Privacy Policy",
-      updated: "Last updated on 26 July 2022",
+      updated: "Last updated on January 2023",
       desc: "Amnet Digital attaches great importance to your right to privacy and the protection of your personal data...",
       link: "privacypolicy",
     },
     {
       id: 2,
       heading: "Cookies Policy",
-      updated: "Last updated on 26 July 2022",
+      updated: "Last updated on January 2023",
       desc: "A cookie is a small text file that is stored on your computer or another internet-connected device in order to identify your browser, provide analytics...",
       link: "cookiespolicy",
     },
-    // {
-    //   id: 3,
-    //   heading: "Terms Of Use",
-    //   updated: "Last updated on 26 July 2022",
-    //   desc: "This Site provides online access to information about our organization, products, solutions, services, and opportunities...",
-    //   link: "privacy",
-    // },
+    {
+      id: 3,
+      heading: "Terms Of Use",
+      updated: "Last updated on January 2023",
+      desc: "This Site provides online access to information about our organization, products, solutions, services, and opportunities...",
+      link: "termsandconditions",
+    },
     // {
     //   id: 4,
     //   heading: "Trademarks",
@@ -48,13 +48,13 @@ const Legalterms = () => {
         <div className="row">
           {legalterms.map((data) => {
             return (
-              <p className="col-lg-4 col-md-4 col-sm-12 col-xs-12 px-4 bx-shadow">
-                <Card key={data.id} style={{ height: "270px" }}>
+              <p className="col-lg-4 col-md-4 col-sm-12 col-xs-12 px-4 bx-shadow d-flex align-items-strech">
+                <Card key={data.id}>
                   <Card.Header>
-                    <div className="legal-header mb-0 fs-26 fw-bold-700">
+                    <div className="legal-header mb-0 fs-26 fw-bold-700 new-case-studies-card-heading">
                       {data.heading}
                     </div>
-                    <div className="updated fs-16 fw-bold-400">
+                    <div className="updated fs-16 fw-bold-400 new-case-studies-card-heading">
                       {data.updated}
                     </div>
                   </Card.Header>
@@ -64,7 +64,7 @@ const Legalterms = () => {
                     </div>
                   </Card.Body>
                   <Card.Footer>
-                    <div className="description-legal new-case-studies-card mt-2">
+                    <div className="description-legal new-case-studies-card pt-4 pb-2">
                       <a href={`/${data.link}`}>{`See More ->`}</a>
                     </div>
                   </Card.Footer>
