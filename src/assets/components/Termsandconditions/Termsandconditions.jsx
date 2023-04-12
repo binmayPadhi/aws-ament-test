@@ -10,7 +10,9 @@ const Termsandconditions = () => {
         <br />
         <h4 className="mb-5 clr-updated">Last Updated January 2023</h4>
         <p className="cookie-policy-desc">
-          <h1 className="cookie-policy-title fs-30">What is a cookie?</h1>
+          <h1 className="cookie-policy-title fs-30">
+            AMNET DIGITAL GLOBAL WEBSITE Terms of Use
+          </h1>
           <br />
           <div className="fs-16 font-weight-bolder">
             Please read these Terms of Use ("Terms", "Terms of Use", "Terms of
@@ -27,11 +29,25 @@ const Termsandconditions = () => {
           </div>
           <br />
           <div className="fs-16 font-weight-bolder">
-            This Site provides online access to information about our
-            organization, and our products, solutions, services, and
-            opportunities. Your access to and use of the Site is conditioned on
-            your acceptance of and compliance with these Terms. These Terms
-            apply to all visitors, users, and others who access or use the Site.
+            Please read these Terms of Use ("Terms", "Terms of Use", "Terms of
+            Conditions") carefully before using the
+            https://www.amnetdigital.com/ (the "Site") operated by Amnet Digital
+            ("AMNET DIGITAL", "us", "we", or "our"). This Site provides online
+            access to information about our organization, and our products,
+            solutions, services, and opportunities. Your access to and use of
+            the Site is conditioned on your acceptance of and compliance with
+            these Terms. These Terms apply to all visitors, users, and others
+            who access or use the Site. By accessing our website, you are
+            agreeing to be bound by our Site Terms and Conditions of Use, all
+            applicable laws, and regulations, and agree that you are responsible
+            for compliance with any applicable national, international, and
+            local laws. If you do not agree with any of these terms, you are
+            prohibited from using or accessing this site. The materials
+            contained in this Site are protected by applicable copyright and
+            trademark law. We reserve the right, at our sole discretion, to
+            change, modify, add, or remove portions of these Terms of Use, at
+            any time. It is your responsibility to check these Terms of Use
+            periodically for changes.
           </div>
           <br />
           <div className="fs-16 font-weight-bolder">
