@@ -5745,7 +5745,11 @@ label {
 }
 
 #consent-popup.hidden {
-  opacity: 0;
+  display: none;
+}
+
+#consent-popup.block {
+  display: block;
 }
 
 /* COOKIES Policy Page SECTION */
