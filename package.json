@@ -4,6 +4,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@hookform/devtools": "^4.3.1",
+    "@hookform/resolvers": "^3.0.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -12,14 +14,15 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
-    "react-hook-form": "^6.8.6",
+    "react-hook-form": "^7.43.9",
     "react-responsive": "^9.0.2",
     "react-router-dom": "^5.3.4",
     "react-scripts": "^3.4.3",
     "react-scroll": "^1.8.1",
     "react-slick": "^0.27.14",
     "slick-carousel": "^1.8.1",
-    "styled-components": "^5.2.0"
+    "styled-components": "^5.2.0",
+    "yup": "^0.32.11"
   },
   "scripts": {
     "start": "react-scripts start",

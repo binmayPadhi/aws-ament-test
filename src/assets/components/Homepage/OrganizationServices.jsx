@@ -18,7 +18,11 @@ const OrganizationServices = () => {
               <>
                 <div className="w-90 mx-auto">
                   <div className="col-sm-12 col-xs-12 mt-5">
-                    <img src={response["banner"]} className="w-100" />
+                    <img
+                      src={response["banner"]}
+                      className="w-100"
+                      alt="bannerImg"
+                    />
                     <h1 className="text-green fs-50 fw-bold-600">
                       0{response.id}
                     </h1>
@@ -46,7 +50,11 @@ const OrganizationServices = () => {
                           leftcontainer
                         }
                       >
-                        <img src={response["banner"]} className="w-100" />
+                        <img
+                          src={response["banner"]}
+                          className="w-100"
+                          alt="bannerImg"
+                        />
                       </div>
                       <div
                         className={

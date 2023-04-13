@@ -7,7 +7,7 @@ const Privacypolicy = () => {
       <div className="contact-us-intro container-fluid"></div>
       <div className="cookie-policy new-all-margin">
         <h1 className="cookie-policy-title">Privacy Policy</h1>
-        <h4>Last updated: 21 July 2022.</h4>
+        <h4>Last updated: January 2023</h4>
         <div className="row about-us-page-row ml-0 mr-0">
           {privacypolicydata.map((list, index) => {
             return (

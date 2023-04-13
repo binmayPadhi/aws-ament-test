@@ -7,6 +7,10 @@
     appearance: none; */
 }
 
+*:focus {
+  outline: 0 !important;
+}
+
 body {
   margin: 0px 140px 0px 140px;
   left: 140px;
@@ -1653,6 +1657,10 @@ label {
   margin-left: 15px;
 }
 
+.br-4 {
+  border-radius: 4px !important;
+}
+
 .submit-button button:hover {
   background-color: #cacaca;
   color: black;
@@ -1951,12 +1959,12 @@ label {
 /* ABOUT US PAGE STYLE SECTION */
 /* ..................................................................................................................... */
 
-.about-us-intro-bg {
-  /* background-image: url('../images/About-Us-Page/amnet-about-us-bg.jpg');
+/* .about-us-intro-bg {
+  background-image: url('../images/About-Us-Page/amnet-about-us-bg.jpg');
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: cover; */
-}
+    background-size: cover;
+} */
 
 .about-us-img-left {
   float: left;
@@ -2112,12 +2120,12 @@ label {
 /* SERVICES PAGE STYLES */
 /* ................................................................................................ */
 
-.service-page-intro {
-  /* background-image:url('../images/Service-Page/amnet-our-services-bg.jpg');
+/* .service-page-intro {
+  background-image:url('../images/Service-Page/amnet-our-services-bg.jpg');
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: cover; */
-}
+    background-size: cover;
+} */
 
 .img-left {
   float: left;
@@ -2357,12 +2365,12 @@ label {
 /* CASE STUDIES PAGE STYLES */
 /* .................................................................................................................... */
 
-.case-studies-intro {
-  /* background-image:url('../images/Case-Studies-Page/amnet-case-studies-bg.jpg');
+/* .case-studies-intro {
+  background-image:url('../images/Case-Studies-Page/amnet-case-studies-bg.jpg');
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: cover; */
-}
+    background-size: cover;
+} */
 
 .case-studies-page-row {
   margin-top: -30px;
@@ -2582,9 +2590,9 @@ label {
 }
 
 /* INDUSTRY BUSINESS VERTICAL */
-.industry-page-business-vertical-section {
-  /* margin-top: 60px; */
-}
+/* .industry-page-business-vertical-section {
+  margin-top: 60px;
+} */
 
 .industry-page-business-vertical {
   background-color: black;
@@ -2622,9 +2630,9 @@ label {
 }
 
 /* INDUSTRY AI SOLUTIONS */
-.industry-page-ai-solution-section {
-  /* margin-top: 60px; */
-}
+/* .industry-page-ai-solution-section {
+  margin-top: 60px;
+} */
 
 .industry-page-ai-solution-section .section-title {
   text-align: center;
@@ -2958,12 +2966,12 @@ label {
 /* CAREERS PAGE STYLES */
 /* ........................................................................................................................... */
 
-.careers-page-bg {
-  /* background-image:url('../images/careers-page/amnet-careers-bg.jpg');
+/* .careers-page-bg {
+  background-image:url('../images/careers-page/amnet-careers-bg.jpg');
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: cover; */
-}
+    background-size: cover;
+} */
 
 .careers-page-details {
   font-family: "Poppins", sans-serif;
@@ -5737,7 +5745,11 @@ label {
 }
 
 #consent-popup.hidden {
-  opacity: 0;
+  display: none;
+}
+
+#consent-popup.block {
+  display: block;
 }
 
 /* COOKIES Policy Page SECTION */
@@ -5894,5 +5906,29 @@ label {
   .center {
     padding-left: 300px;
     padding-right: 300px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .submit-left {
+    padding-left: 17px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (min-width: 1439px) {
+  .submit-left {
+    padding-left: 25px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .submit-left {
+    padding-left: 40px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .submit-left {
+    padding-left: 52px;
   }
 }
