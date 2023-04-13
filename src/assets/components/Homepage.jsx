@@ -1,5 +1,4 @@
 import React, { Suspense } from "react";
-import SolutionsServices from "../components/Homepage/SolutionsServices";
 import AboutDetails from "../components/Homepage/AboutDetails";
 import OurServicesSection from "../components/Homepage/OurServicesSection";
 import OurPartner from "../components/Homepage/OurPartner";
@@ -158,7 +157,7 @@ function Test() {
           </video>
           <div class="card-overlay"></div>
           <div className="w-90 mx-auto">
-            <div className="new-subService-AIML-intro-caption top-50 position-absolute w-100">
+            <div className="new-subService-AIML-intro-caption position-absolute w-100">
               <h2
                 className="fs-60 text-white fw-bold-700 w-75"
                 data-text="Reimagine & Redefine"

@@ -6,7 +6,7 @@ function OurLocation() {
     <>
       {/* <!-- CONTACT US PAGE LOCATION SECTION --> */}
 
-      <div className="about-us-page-location contact-us-location mb-5">
+      <div className="about-us-page-location  mb-5">
         <div className="new-all-margin">
           <div className="row about-us-page-location-row  ml-0 mr-0">
             {OurLocationData.map((list) => {

@@ -59,7 +59,7 @@ function Footer() {
               </li>
               <li>
                 <a href="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry">
-                  Insight
+                  Insights
                 </a>
               </li>
               <li>
