@@ -68,6 +68,9 @@ function Footer() {
               <li>
                 <a href="/legalresources">Legal Resources</a>
               </li>
+              <li>
+                <a href=""></a>
+              </li>
             </ul>
           </div>
           <hr></hr>

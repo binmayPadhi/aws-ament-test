@@ -125,9 +125,9 @@ const Contactform = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="w-90 mx-auto">
         <div className="row">
-          <div className="col-md-6 col-lg-6 col-sm-12 my-auto">
+          <div className="col-md-5 col-lg-5 col-sm-12 my-auto">
             <h1 className="fw-bold-700 fs-35">Let's get started</h1>
             <h5 className=" clr-black  fw-bold-700 fs-16 mt-4">
               Are you ready to become a digital-first <br /> organization?
@@ -143,7 +143,8 @@ const Contactform = () => {
               touch with you within 48 business hours.
             </p>
           </div>
-          <div className="col-md-6 col-sm-12 mt-3">
+          <div className="col-md-1 col-lg-1 col-sm-12 my-auto"></div>
+          <div className="col-md-6 col-sm-12 mt-3 container-table-box">
             <form ref={formDetails} onSubmit={handleSubmit(submit)}>
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -300,7 +301,7 @@ const Contactform = () => {
                 </div>
               </div>
               <div className="row ml-3 mr-0 mt-2-rem">
-                <div className="fs-10 pl-5">
+                <div className="fs-10 submit-left">
                   By Submitting the form, you agree to us saving and processing
                   your information according to our
                   <span className="fs-10 d-line-block">
@@ -317,7 +318,7 @@ const Contactform = () => {
               <div className="row ml-0 mr-0 mt-3-rem mb-3-rem">
                 <div className="col-12 text-center">
                   <button
-                    className="submit-button cr-pointer w-50"
+                    className="submit-button cr-pointer px-3"
                     type="submit"
                   >
                     Talk to an Expert

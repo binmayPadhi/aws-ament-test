@@ -148,6 +148,7 @@ function Test() {
             id="myVideo"
             autoPlay={true}
             muted
+            loop
             playsInline
           >
             <source

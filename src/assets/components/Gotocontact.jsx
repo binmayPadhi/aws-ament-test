@@ -4,12 +4,13 @@ import imgbg from "../images/Contact-Us-Page/CTA-image.png";
 const Gotocontact = () => {
   return (
     <div
-      className="position-relative mt-6 mb-6"
+      className="position-relative mt-6 mb-6 img-fluid"
       style={{
         backgroundImage: `url(${imgbg})`,
         backgroundAttachment: "scroll",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        backgroundPosition: "center",
         width: "100%",
         height: "450px",
       }}
