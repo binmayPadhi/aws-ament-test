@@ -119,6 +119,10 @@
   font-size: 14px;
 }
 
+.fs-13 {
+  font-size: 13px;
+}
+
 .bg-grey {
   background: #1dad8f;
 }
@@ -153,4 +157,15 @@
 
 .fs-15rem {
   font-size: 1.5rem;
+}
+
+.h-50px {
+  height: 50px !important;
+}
+
+[type="reset"],
+[type="submit"],
+button,
+html [type="button"] {
+  border: none !important;
 }

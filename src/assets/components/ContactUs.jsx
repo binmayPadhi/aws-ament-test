@@ -1,17 +1,13 @@
 import React, { useState } from "react";
-import ContactUsIMG from "../images/Contact-Us-Page/amnet-contact-us.jpg";
 import emailjs from "emailjs-com";
 import OurLocation from "../components/OurLocation";
+import "../CSS/ContactUs.css";
+import Contactform from "./ContactUs/Contactform";
+import Gotocontact from "./Gotocontact";
+import global from "../images/Contact-Us-Page/global.png";
+import contactusbg from "../images/Contact-Us-Page/contactusbanner.svg";
 
 function TestContactUs() {
-  const tooltipStyle = {
-    color: "black",
-    textDecoration: "none",
-    fontSize: "1rem",
-    fontFamily: `'Poppins', sans-serif`,
-    padding: "5px",
-  };
-
   const [userDetails, setUserDetails] = useState({
     fName: "",
     lName: "",
@@ -78,163 +74,58 @@ function TestContactUs() {
 
   return (
     <>
-      <div className="contact-us-intro container-fluid"></div>
-      {/* <!-- CONTACT US PAGE CONTACT FORM --> */}
-
       <div
-        className="new-contact-us-page new-all-margin"
-        style={{ marginTop: "80px", marginBottom: "100px" }}
+        className="sub-service-intro position-realtive"
+        style={{
+          backgroundImage: `url(${contactusbg})`,
+          backgroundAttachment: "scroll",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          width: "100%",
+          height: "500px",
+        }}
       >
-        <div className="row no-gutters" style={{ height: "520px" }}>
-          <div className="col-lg-6">
-            <div className="contact-form-user-details">
-              <div className="contact-form-header">
-                <h1>We're Listening!</h1>
-                <p>
-                  While we specialize in AI, there are simpler ways for us to
-                  get in touch & answer your questions!
-                </p>
-              </div>
-
-              {/* <!-- FORM --> */}
-
-              <form
-                name="contactForm"
-                action="#"
-                method="post"
-                onSubmit={submitDetails}
-              >
-                {/* <!-- USERNAME --> */}
-                <div className="row user-name">
-                  <div className="col-lg-6 col-md-12 col-sm-12">
-                    <input
-                      type="text"
-                      name="fName"
-                      className="form-control form-control-lg username"
-                      // onKeyPress={isNumericKey}
-                      onChange={handleChange}
-                      value={userDetails.fName}
-                      placeholder="First name*"
-                      id="first-name"
-                      required
-                    />
-
-                    {/* <div className="showhide" style={tooltipStyle}>{/^[ ]+$/i.test(userDetails.fName)?" " : /^[a-z]+$/i.test(userDetails.fName)?" " : " "}</div> */}
-                    <div
-                      style={
-                        /^$/.test(userDetails.fName)
-                          ? { display: "none" }
-                          : /^[a-z]+$/i.test(userDetails.fName)
-                          ? { display: "none" }
-                          : { display: "block", fontSize: "1rem", color: "red" }
-                      }
-                    >
-                      Use only alphabets
-                    </div>
-                  </div>
-                  <div className="col-lg-6 col-md-12 col-sm-12 lastName">
-                    <input
-                      type="text"
-                      name="lName"
-                      className="form-control form-control-lg username"
-                      // onKeyPress={isNumericKey}
-                      onChange={handleChange}
-                      value={userDetails.lName}
-                      placeholder="Last name*"
-                      id="last-name"
-                      required
-                    />
-
-                    <div
-                      style={
-                        /^$/.test(userDetails.lName)
-                          ? { display: "none" }
-                          : /^[a-z]+$/i.test(userDetails.lName)
-                          ? { display: "none" }
-                          : { display: "block", fontSize: "1rem", color: "red" }
-                      }
-                    >
-                      Use only alphabets
-                    </div>
-                  </div>
-                </div>
-
-                {/* <!-- EMAIL --> */}
-
-                <div className="form-group">
-                  <input
-                    type="email"
-                    name="email"
-                    className="form-control form-control-lg userEmail"
-                    id="email-input"
-                    onChange={handleChange}
-                    value={userDetails.email}
-                    aria-describedby="emailHelp"
-                    placeholder="Enter email*"
-                    required
-                  />
-
-                  <div
-                    style={
-                      /^$/.test(userDetails.email)
-                        ? { display: "none" }
-                        : /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i.test(
-                            userDetails.email
-                          )
-                        ? { display: "none" }
-                        : { display: "block", fontSize: "1rem", color: "red" }
-                    }
+        <div className="container">
+          <div className="text-center-img w-100">
+            <div className="w-90 mx-auto">
+              <div className="row">
+                <div className="col-lg-12 col-md-12 col-sm-12">
+                  <h2
+                    className="fw-bold-700 text-white  fs-54"
+                    data-text="contactus"
                   >
-                    Enter Valid Email
-                  </div>
+                    Contact Us
+                  </h2>
                 </div>
-
-                {/* <!-- MESSAGE --> */}
-
-                <div className="form-group user-text">
-                  <textarea
-                    className="form-control form-control-lg userMessage"
-                    name="message"
-                    onChange={handleChange}
-                    value={userDetails.message}
-                    id="message-input"
-                    placeholder="Your Message*"
-                    rows="6"
-                    required
-                  ></textarea>
-                </div>
-
-                {/* <!-- SUBMIT BUTTON --> */}
-
-                <div className="submit-button">
-                  <button type="submit" className="btn btn-default">
-                    Submit
-                  </button>
-                </div>
-              </form>
+              </div>
             </div>
-          </div>
-          <div className="col-lg-6">
-            {/* <div className="form-IMG"> */}
-            <img
-              loading="lazy"
-              className="img-fluid"
-              src={ContactUsIMG}
-              alt="contactus"
-            />
-
-            {/* <picture class="img-responsive">
-                                <source srcset={ContactUsIMG} type="image/webp" />
-                                <img class="image-image  image-hand" src={AmnetContactUsIMG} srcset="" />
-                            </picture> */}
-            {/* </div> */}
           </div>
         </div>
       </div>
 
+      <div className="mt-10">
+        <div className="bg-footer pt-5 pb-5">
+          <Contactform />
+        </div>
+      </div>
+
+      <div className="mt-6">
+        <h1 className="section-title text-center mb-4">Global Footprint</h1>
+        <div>
+          <img src={global} className="gload-title" />
+        </div>
+      </div>
+
+      <div className="contact-us-intro container-fluid"></div>
+      {/* <!-- CONTACT US PAGE CONTACT FORM --> */}
+
       {/* <!-- NEW ABOUT US PAGE LOCATION SECTION --> */}
 
       <OurLocation />
+
+      <div className="mb-5 mt-5">
+        <Gotocontact componentFrom="contactus" />
+      </div>
     </>
   );
 }
