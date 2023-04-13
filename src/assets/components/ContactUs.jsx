@@ -18,7 +18,7 @@ function TestContactUs() {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           width: "100%",
-          height: "500px",
+          height: "600px",
         }}
       >
         <div className="text-center-img w-100">
@@ -37,14 +37,14 @@ function TestContactUs() {
       </div>
 
       <div className="mt-6">
-        <h1 className="section-title text-center mb-4">Global Footprint</h1>
-        <div class="container">
+        <h1 className="section-title text-center">Global Footprint</h1>
+        {/* <div class="container">
           <div class="row">
             <div class="col">
               <img class="img-fluid" src={global} />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="contact-us-intro container-fluid"></div>
@@ -54,7 +54,7 @@ function TestContactUs() {
 
       <OurLocation />
 
-      <div className="mb-5 mt-5">
+      <div className="mt-5">
         <Gotocontact componentFrom="contactus" />
       </div>
     </>

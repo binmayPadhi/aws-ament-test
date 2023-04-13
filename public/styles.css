@@ -1657,6 +1657,10 @@ label {
   margin-left: 15px;
 }
 
+.br-4 {
+  border-radius: 4px !important;
+}
+
 .submit-button button:hover {
   background-color: #cacaca;
   color: black;
@@ -5741,7 +5745,11 @@ label {
 }
 
 #consent-popup.hidden {
-  opacity: 0;
+  display: none;
+}
+
+#consent-popup.block {
+  display: block;
 }
 
 /* COOKIES Policy Page SECTION */

@@ -95,6 +95,10 @@
   font-size: 42px !important;
 }
 
+.fs-35 {
+  font-size: 35px;
+}
+
 .fs-32 {
   font-size: 32px;
 }
@@ -108,7 +112,7 @@
 }
 
 .fs-18 {
-  font-size: 18px;
+  font-size: 18px !important;
 }
 
 .fs-16 {
@@ -121,6 +125,10 @@
 
 .fs-13 {
   font-size: 13px;
+}
+
+.fs-12 {
+  font-size: 12px;
 }
 
 .bg-grey {
@@ -168,4 +176,12 @@
 button,
 html [type="button"] {
   border: none !important;
+}
+
+.pt-8 {
+  padding-top: 5rem;
+}
+
+.pb-8 {
+  padding-bottom: 5rem;
 }

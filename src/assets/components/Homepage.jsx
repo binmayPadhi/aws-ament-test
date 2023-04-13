@@ -1,5 +1,4 @@
 import React, { Suspense } from "react";
-import SolutionsServices from "../components/Homepage/SolutionsServices";
 import AboutDetails from "../components/Homepage/AboutDetails";
 import OurServicesSection from "../components/Homepage/OurServicesSection";
 import OurPartner from "../components/Homepage/OurPartner";
@@ -31,9 +30,15 @@ function Test() {
   window.onload = () => {
     const acceptFn = (event) => {
       saveToStorage(storageType);
+      if (consentPopup.classList.contains("block") === true) {
+        consentPopup.classList.remove("block");
+      }
       consentPopup.classList.add("hidden");
     };
     const declineFn = (event) => {
+      if (consentPopup.classList.contains("block") === true) {
+        consentPopup.classList.remove("block");
+      }
       consentPopup.classList.add("hidden");
     };
     const consentPopup = document.getElementById("consent-popup");
@@ -45,6 +50,7 @@ function Test() {
     if (shouldShowPopup(storageType)) {
       setTimeout(() => {
         consentPopup.classList.remove("hidden");
+        consentPopup.classList.add("block");
       }, 2000);
     }
   };
@@ -158,7 +164,7 @@ function Test() {
           </video>
           <div class="card-overlay"></div>
           <div className="w-90 mx-auto">
-            <div className="new-subService-AIML-intro-caption top-50 position-absolute w-100">
+            <div className="new-subService-AIML-intro-caption position-absolute w-100">
               <h2
                 className="fs-60 text-white fw-bold-700 w-75"
                 data-text="Reimagine & Redefine"
@@ -266,7 +272,7 @@ function Test() {
         </div>
       </div>
 
-      <div id="consent-popup" className="hidden cookies-banner">
+      <div id="consent-popup" className="cookies-banner">
         <div className="row">
           <div className="col-xl-8 col-lg-8">
             <p>
