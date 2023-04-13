@@ -7,6 +7,10 @@
     appearance: none; */
 }
 
+*:focus {
+  outline: 0 !important;
+}
+
 body {
   margin: 0px 140px 0px 140px;
   left: 140px;
@@ -5894,5 +5898,29 @@ label {
   .center {
     padding-left: 300px;
     padding-right: 300px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .submit-left {
+    padding-left: 17px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (min-width: 1439px) {
+  .submit-left {
+    padding-left: 25px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .submit-left {
+    padding-left: 40px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .submit-left {
+    padding-left: 52px;
   }
 }
