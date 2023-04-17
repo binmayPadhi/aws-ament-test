@@ -3,7 +3,7 @@ import "../../CSS/webinar.css";
 import { useState } from "react";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
-import { Link, useHistory } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 
 const Webinarform = (props) => {
@@ -16,7 +16,7 @@ const Webinarform = (props) => {
   if (props.mouseFocus === true) {
     input1.current.focus();
   }
-  let history = useHistory();
+  let history = useNavigate();
   const [registerDetails, setregisterDetails] = useState({
     fName: "",
     lName: "",
@@ -71,7 +71,7 @@ const Webinarform = (props) => {
             jobTitle: "",
             acceptCheckbox: false,
           }),
-          history.push(
+          history(
             `/webinar-thank-you-reshaping-the-retail-industry-through-AI`
           ),
           (error) => {

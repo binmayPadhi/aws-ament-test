@@ -1,12 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './assets/components/App'
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
+import App from "./assets/components/App";
+import ScrollToTop from "./assets/components/ScrollTop";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+ReactDOM.createRoot(document.getElementById("root"));
+document.getElementById("root").style.overflowX = "hidden";
 
-root.render(
-  <React.StrictMode>
+ReactDOM.render(
+  <BrowserRouter>
+    <ScrollToTop />
     <App />
-  </React.StrictMode>
+  </BrowserRouter>,
+  document.getElementById("root")
 );
-

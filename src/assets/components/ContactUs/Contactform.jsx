@@ -157,7 +157,7 @@ const Contactform = () => {
                     <input
                       className="w-100 pl-1"
                       type="text"
-                      name="fNmae"
+                      name="fName"
                       {...register("fName")}
                     />
                   </label>

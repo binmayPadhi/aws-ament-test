@@ -1,11 +1,11 @@
 import React from "react";
 import blogImg from "../../images/Resources-page/blog-amnet.jpg";
 import Blog from "../../Data/Resources-Data/Blog";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Letsgetstart from "../Webinars/Letsgetstart";
 
 const Insight = () => {
-  let history = useHistory();
+  let history = useNavigate();
   const btnColor = {
     backgroundColor: "#ecac27",
     borderRadius: "100px",
@@ -13,7 +13,7 @@ const Insight = () => {
   };
 
   const navigateTothankspage = () => {
-    history.push(`/webinar-reshaping-the-retail-industry-through-AI`);
+    history(`/webinar-reshaping-the-retail-industry-through-AI`);
   };
   return (
     <>
