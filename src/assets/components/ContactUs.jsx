@@ -1,10 +1,8 @@
-import React, { useState } from "react";
-import emailjs from "emailjs-com";
+import React from "react";
 import OurLocation from "../components/OurLocation";
 import "../CSS/ContactUs.css";
 import Contactform from "./ContactUs/Contactform";
 import Gotocontact from "./Gotocontact";
-import global from "../images/Contact-Us-Page/global.png";
 import contactusbg from "../images/Contact-Us-Page/contactusbanner.svg";
 
 function TestContactUs() {

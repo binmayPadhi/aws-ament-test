@@ -2,15 +2,15 @@ import React from "react";
 import "../../CSS/Services.css";
 import OurServicesData from "../../Data/Homepage-Data/OurServicesData";
 import { Card } from "react-bootstrap";
-import { useHistory } from "react-router-dom/cjs/react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 // import {BrowserRouter as Router, Link} from "react-router-dom";
 
 function OurServices() {
-  const history = useHistory();
+  const history = useNavigate();
   const redirectTo = (e) => {
     e.preventDefault();
-    history.push(`/services`);
+    history(`/services`);
   };
   return (
     <>

@@ -153,7 +153,7 @@ function Navbar() {
               >
                 <NavLink
                   to="/services"
-                  onClick={() => (window.location.href = "/aboutus")}
+                  onClick={() => (window.location.href = "/services")}
                   style={serviceDropdown}
                   activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                 >

@@ -5,8 +5,8 @@ import OurPartner from "../components/Homepage/OurPartner";
 import MediaQuery from "react-responsive";
 import Aboutdata from "../Data/AboutUs-Data/About";
 import vector from "../images/HomePage/horizontal-line.png";
-import { useHistory } from "react-router-dom/cjs/react-router-dom";
 import OrganizationServices from "./Homepage/OrganizationServices";
+import { useNavigate } from "react-router-dom";
 
 function Test() {
   const cookieStorage = {
@@ -65,9 +65,9 @@ function Test() {
     import("../components/Homepage/IndustrySection")
   );
 
-  const navigate = useHistory();
+  const navigate = useNavigate();
   const connectTo = () => {
-    navigate.push("/contactus");
+    navigate("/contactus");
   };
 
   return (
