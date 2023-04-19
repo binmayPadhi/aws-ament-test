@@ -11,6 +11,7 @@ import Whyamnet from "./SubServices/Whyamnet";
 import "../CSS/Services.css";
 import Driveservices from "./SubServices/Driveservices";
 import TechnologyStack from "./SubServices/TechnologyStack";
+import CaseStudiesSection from "./Homepage/CaseStudiesSection";
 
 function TestService() {
   const [selectedServices, setSelectedservice] = useState(servicejson[1].name);
@@ -148,21 +149,21 @@ function TestService() {
           </div>
         </div>
       </div>
-      <div className="center-91 mt-5">
-        <Case />
+      <div className="mt-5">
+        <CaseStudiesSection />
       </div>
       <div className="mt-5">
         <div className="w-90 mx-auto">
           <Whyamnet />
         </div>
       </div>
-      <div className="mt-5">
+      {/* <div className="mt-5">
         <Driveservices />
       </div>
       <div className="new-our-partner">
         <h1 className="section-title mt-3 text-center">TECHNOLOGY STACK</h1>
         <TechnologyStack />
-      </div>
+      </div> */}
     </>
   );
 }

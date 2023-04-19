@@ -10,7 +10,7 @@ const Exploreservices = ({ selectedServicesobj }) => {
             <div
               key={response.id}
               className={
-                "col-sm-12 mt-5 col-container " +
+                "col-sm-12 mt-5 col-container d-flex align-items-sterch" +
                 (response["side-image"] === null
                   ? "col-md-6 col-lg-6"
                   : "col-md-12 col-lg-12")
@@ -37,7 +37,7 @@ const Exploreservices = ({ selectedServicesobj }) => {
                       <div className="col-lg-6">
                         <img
                           src={response["side-image"]}
-                          className="image-anaomaly"
+                          className="image-anaomaly w-100"
                         />
                       </div>
                       <div className="col-lg-6">

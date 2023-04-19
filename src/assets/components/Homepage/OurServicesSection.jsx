@@ -21,7 +21,7 @@ function OurServices() {
         {OurServicesData.map((data) => {
           return (
             <div
-              className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4"
+              className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4 d-flex align-items-strech"
               key={data.id}
             >
               <Card className="cards">
@@ -45,11 +45,9 @@ function OurServices() {
                     <p>{data.serviceDesc}</p>
                   </Card.Text>
                 </Card.Body>
-                <Card.Footer>
-                  <Card.Text>
-                    <div className="new-case-studies-card py-4">
-                      <a href={`/${data.id}`}>{`Explore ->`}</a>
-                    </div>
+                <Card.Footer className="bg-white border-0 pb-3">
+                  <Card.Text className="new-explore-link">
+                    <a href={`/${data.id}`}>{`Explore ->`}</a>
                   </Card.Text>
                 </Card.Footer>
               </Card>
