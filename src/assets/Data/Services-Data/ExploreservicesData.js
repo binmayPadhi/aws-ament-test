@@ -1,4 +1,3 @@
-import aiml from "../../images/Service-Page/aimlimage.png";
 import SA from "../../images/services-images/Al_ML/ai-ml-statistical-analysis.png";
 import SSAI from "../../images/services-images/Al_ML/ai-ml-icon-statistical-analysis.png";
 import VI from "../../images/services-images/Al_ML/ai-ml-icon-visualizations.png";
@@ -46,12 +45,14 @@ import CCAI from "../../images/services-images/Al_ML/ai-ml-icon-customer-churn-a
 import CAVA from "../../images/services-images/Al_ML/ai-ml-conversational-ai-_-virtual-assitant.png";
 import CAVAI from "../../images/services-images/Al_ML/ai-ml-icon-conversational-ai-_-virtual-assitant.png";
 
+let aiml = require("../../images/Service-Page/aimlimage.png");
+
 const subservices = [
   {
     id: 1,
     serviceName: "aiml",
     serviceImgaetitle: "AI & ML Services",
-    serviceImg: require(aiml),
+    serviceImg: aiml,
     serviceSubheaading: "AI & ML Services for Business",
     servideSubdescription:
       "We maintain a data-driven mindset all throughout the engagement, whether it is during strategy support phase or model development phase, and focus on utilization of big data and machine learning by empowered business users. We have capability to help evolve solutions that start as process automation to cognitive insight and finally cognitive engagement when systems work autonomously.",
