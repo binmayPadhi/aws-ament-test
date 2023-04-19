@@ -8,6 +8,7 @@ import Whyamnet from "./Whyamnet";
 import Driveservices from "./Driveservices";
 import "../../CSS/Services.css";
 import OurPartner from "../Homepage/OurPartner";
+import CaseStudiesSection from "../Homepage/CaseStudiesSection";
 
 const Viewsubservice = () => {
   const params = useParams();
@@ -36,7 +37,7 @@ const Viewsubservice = () => {
     e.preventDefault();
     history(`/services/${params.name}/${obj["name"]}`);
   };
- 
+
   return (
     <>
       <div
@@ -50,35 +51,34 @@ const Viewsubservice = () => {
         }}
       >
         <div className="w-95">
-       <div className="text-center-img">
-          <div className="row">
-            <div className="col-lg-1 col-md-1 col-sm-12"></div>
-            <div className="col-lg-6 col-md-6 col-sm-12">
-              <h2
-                className="fw-bold-600 text-white fs-35 text-capitalize"
-                data-text="Your Tech Innovation Catalyst"
-              >
-                 {serviceData.serviceImgaetitle}
-              </h2>
-              <p className="fw-bold-400 fs-16 text-white mb-5 mt-4">
-              {serviceData.servideSubdescription}
-              </p>
+          <div className="text-center-img">
+            <div className="row">
+              <div className="col-lg-1 col-md-1 col-sm-12"></div>
+              <div className="col-lg-6 col-md-6 col-sm-12">
+                <h2
+                  className="fw-bold-600 text-white fs-35 text-capitalize"
+                  data-text="Your Tech Innovation Catalyst"
+                >
+                  {serviceData.serviceImgaetitle}
+                </h2>
+                <p className="fw-bold-400 fs-16 text-white mb-5 mt-4">
+                  {serviceData.servideSubdescription}
+                </p>
+              </div>
+              <div className="col-lg-5 col-md-5 col-sm-12"></div>
             </div>
-            <div className="col-lg-5 col-md-5 col-sm-12"></div>
           </div>
-        </div>
-        <div className="bottom-img w-100">
-          <div className="row">
-            <div className="col-lg-1 col-md-1 col-sm-12"></div>
-            <div className="col-lg-6 col-md-6 col-sm-12">
-              <p className="fs-24 fw-bold-600 text-white">Services</p>
+          <div className="bottom-img w-100">
+            <div className="row">
+              <div className="col-lg-1 col-md-1 col-sm-12"></div>
+              <div className="col-lg-6 col-md-6 col-sm-12">
+                <p className="fs-24 fw-bold-600 text-white">Services</p>
+              </div>
+              <div className="col-lg-5 col-md-5 col-sm-12"></div>
             </div>
-            <div className="col-lg-5 col-md-5 col-sm-12"></div>
           </div>
-        </div>
         </div>
       </div>
-
 
       {/* Service Page QUOTE SECTION */}
       <div className="mt-15 fw-bold-700 fs-35 text-black w-100 text-center">
@@ -142,7 +142,7 @@ const Viewsubservice = () => {
               })}
             </p>
           </div>
-          
+
           <div
             className="col-md-8 col-lg-8 col-sm-12 col-xs-12 pl-4"
             style={{
@@ -169,14 +169,13 @@ const Viewsubservice = () => {
               </p>
             </div>
           </div>
-        
         </div>
       </div>
 
       {/* NEW HOMEPAGE CASESTUDIES SECTION */}
       <Suspense fallback={<div>Loading...</div>}>
-        <div className="center-91 mt-5">
-          <Case />
+        <div className="mt-5">
+          <CaseStudiesSection />
         </div>
       </Suspense>
 
@@ -187,17 +186,15 @@ const Viewsubservice = () => {
         </div>
       </div>
 
-      <div className="mt-5">
+      {/* <div className="mt-5">
         <Driveservices />
-      </div>
+      </div> */}
 
       {/* NEW HOMEPAGE OUR PARTNER SECTION */}
-      <div className="new-our-partner">
+      {/* <div className="new-our-partner">
         <h1 className="section-title mt-3 text-center">TECHNOLOGY STACK</h1>
         <OurPartner />
-      </div>
-
-     
+      </div> */}
     </>
   );
 };
