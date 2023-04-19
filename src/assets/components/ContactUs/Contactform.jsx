@@ -199,7 +199,7 @@ const Contactform = () => {
                 </div>
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                   <label className="font-form">Phone Number*</label>
-                  <p className="email_field mt-1">
+                  <p className="email_field">
                     <input
                       type="text"
                       className="pl-1"
@@ -233,7 +233,7 @@ const Contactform = () => {
                   <label className="font-form">
                     Job Title<span className="star-green">*</span>
                   </label>
-                  <p className="email_field mt-1">
+                  <p className="email_field">
                     <input
                       type="text"
                       name="jobTitle"

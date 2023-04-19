@@ -1,4 +1,4 @@
-import aiml from "../../images/services-images/Al_ML/aimlimage.png";
+import aiml from "../../images/Service-Page/aimlimage.png";
 import de from "../../images/services-images/DataEngineering/de.png";
 import da from "../../images/services-images/DataAnnotation/da.png";
 import dm from "../../images/services-images/DataManagement/dm.png";
