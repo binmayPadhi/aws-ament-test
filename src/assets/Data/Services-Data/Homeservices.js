@@ -19,7 +19,7 @@ const Homeservices = [
   },
   {
     id: 31,
-    name: "AI/ML",
+    name: "AI & ML Services",
     heading: "AI & ML Services",
     headingDescription:
       "Our software development company delivers corporate and consumer applications based on our profound understanding of technologies and the markets they operate in. With our professional mindset, we look beyond technology to offer viable solutions for your particular business context.",

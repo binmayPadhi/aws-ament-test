@@ -20,7 +20,6 @@ const Viewsubservice = () => {
   useEffect(() => {
     services.map((res) => {
       if (res.serviceName === params.name) {
-        console.log(res);
         setServiceData(res);
         let x = Object.values(res.sub);
         setList(x[0]);
@@ -32,6 +31,7 @@ const Viewsubservice = () => {
         });
       }
     });
+    window.scrollTo(0,750);
   }, [params.service]);
   const fetchService = (e, obj) => {
     e.preventDefault();
@@ -46,7 +46,7 @@ const Viewsubservice = () => {
           backgroundImage: `url(${serviceData.serviceImg})`,
           backgroundAttachment: "scroll",
           backgroundRepeat: "no-repeat",
-          backgroundSize: "100% 100%",
+          backgroundSize: "cover",
           width: "100%",
         }}
       >
@@ -81,15 +81,16 @@ const Viewsubservice = () => {
       </div>
 
       {/* Service Page QUOTE SECTION */}
-      <div className="mt-15 fw-bold-700 fs-35 text-black w-100 text-center">
+      {/* <div className="mt-15 fw-bold-700 fs-35 text-black w-100 text-center">
         <p>{serviceData.serviceSubheaading}</p>
         <p className="fw-bold-500 fs-18 w-75 mx-auto">
           {serviceData.servideSubdescription}
         </p>
-      </div>
+      </div> */}
 
       {/* NEW SERVICE PAGE BUTTON GROUPS */}
-      <div className="w-95 mx-auto mb-5">
+      <div className="center-95">
+      <div className="w-90 mx-auto mb-5">
         <div className="mt-10 row">
           <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-right pr-5">
             <p className="fw-bold-700 fs-50 text-lightwhite text-right lh-50 pr-2">
@@ -100,7 +101,7 @@ const Viewsubservice = () => {
                 backgroundImage: `url(${borderBg})`,
                 backgroundAttachment: "scroll",
                 backgroundRepeat: "no-repeat",
-                backgroundSize: "100% 100%",
+                backgroundSize: "cover",
                 top: "80px",
                 width: "100%",
                 height: "5px",
@@ -129,7 +130,7 @@ const Viewsubservice = () => {
                           backgroundImage: `url(${thinborder})`,
                           backgroundAttachment: "scroll",
                           backgroundRepeat: "no-repeat",
-                          backgroundSize: "100% 100%",
+                          backgroundSize: "cover",
                           top: "80px",
                           width: "100%",
                           height: "1px",
@@ -152,7 +153,7 @@ const Viewsubservice = () => {
             <div className="w-95 mx-auto py-5">
               <p className="mt-15">
                 <img
-                  className="w-50 mx-auto"
+                  className="w-100 mx-auto"
                   src={selectedServicesobj.subimg}
                 />
               </p>
@@ -163,13 +164,14 @@ const Viewsubservice = () => {
                 </span>
               </p>
               <p className="mt-3">
-                <span className="pl-2 fs-16 fw-bold-400 text-darkgrey">
+                <span className=" fs-16 fw-bold-400 text-darkgrey">
                   {selectedServicesobj.subDes}
                 </span>
               </p>
             </div>
           </div>
         </div>
+      </div>
       </div>
 
       {/* NEW HOMEPAGE CASESTUDIES SECTION */}

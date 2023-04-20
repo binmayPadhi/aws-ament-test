@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import AboutDetails from "../components/Homepage/AboutDetails";
 import OurServicesSection from "../components/Homepage/OurServicesSection";
 import OurPartner from "../components/Homepage/OurPartner";
@@ -9,51 +9,60 @@ import OrganizationServices from "./Homepage/OrganizationServices";
 import { useNavigate } from "react-router-dom";
 
 function Test() {
-  const cookieStorage = {
-    getItem: (item) => {
-      const cookies = document.cookie
-        .split(";")
-        .map((cookie) => cookie.split("="))
-        .reduce((acc, [key, value]) => ({ ...acc, [key.trim()]: value }), {});
-      return cookies[item];
-    },
-    setItem: (item, value) => {
-      document.cookie = `${item}=${value};`;
-    },
-  };
-
-  const storageType = cookieStorage;
-  const consentPropertyName = "jdc_consent";
-  const shouldShowPopup = () => !storageType.getItem(consentPropertyName);
-  const saveToStorage = () => storageType.setItem(consentPropertyName, true);
-
-  window.onload = () => {
-    const acceptFn = (event) => {
-      saveToStorage(storageType);
-      if (consentPopup.classList.contains("block") === true) {
-        consentPopup.classList.remove("block");
-      }
-      consentPopup.classList.add("hidden");
-    };
-    const declineFn = (event) => {
-      if (consentPopup.classList.contains("block") === true) {
-        consentPopup.classList.remove("block");
-      }
-      consentPopup.classList.add("hidden");
-    };
+  const [cookieName, setCookievalue] = useState("");
+  useEffect(() => {
+    let checkCookie = getCookie("username");
+    setCookievalue(checkCookie);
     const consentPopup = document.getElementById("consent-popup");
     const acceptBtn = document.getElementById("accept");
     const declineBtn = document.getElementById("decline");
-    acceptBtn.addEventListener("click", acceptFn);
-    declineBtn.addEventListener("click", declineFn);
+    if (checkCookie != "amnetdigital") {
+      const acceptFn = (event) => {
+        setCookie("username", "amnetdigital", 90);
+        if (consentPopup.classList.contains("block") === true) {
+          consentPopup.classList.remove("block");
+        }
+        consentPopup.classList.add("hidden");
+      };
+      const declineFn = (event) => {
+        if (consentPopup.classList.contains("block") === true) {
+          consentPopup.classList.remove("block");
+        }
+        consentPopup.classList.add("hidden");
+      };
+      acceptBtn.addEventListener("click", acceptFn);
+      declineBtn.addEventListener("click", declineFn);
 
-    if (shouldShowPopup(storageType)) {
-      setTimeout(() => {
-        consentPopup.classList.remove("hidden");
-        consentPopup.classList.add("block");
-      }, 2000);
+      consentPopup.classList.remove("hidden");
+      consentPopup.classList.add("block");
+    } else {
+      consentPopup.classList.remove("block");
+      consentPopup.classList.add("hidden");
     }
-  };
+  }, []);
+
+  function setCookie(cname, cvalue, exdays) {
+    const d = new Date();
+    d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+    let expires = "expires=" + d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  }
+
+  function getCookie(cname) {
+    let name = cname + "=";
+    let decodedCookie = decodeURIComponent(document.cookie);
+    let ca = decodedCookie.split(";");
+    for (let i = 0; i < ca.length; i++) {
+      let c = ca[i];
+      while (c.charAt(0) == " ") {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return " ";
+  }
 
   const ClientSay = React.lazy(() =>
     import("../components/Homepage/ClientSay")
@@ -272,31 +281,38 @@ function Test() {
         </div>
       </div>
 
-      <div id="consent-popup" className="cookies-banner">
-        <div className="row">
-          <div className="col-xl-8 col-lg-8">
-            <p>
-              This website uses cookies. We use cookies to optimize web
-              functionality, collect website analytics and traffic data, and to
-              provide a more personalized user experience.
-              <a className="cookies-readmore-link" href="/cookiespolicy">
-                Read more...
-              </a>
-            </p>
-          </div>
-          <div className="col-xl-4 col-lg-4 text-center">
-            <button
-              className="btn btn-default cookies-decline-btn"
-              id="decline"
-            >
-              Decline
-            </button>
-            <button className="btn btn-default cookies-accept-btn" id="accept">
-              Accept
-            </button>
+      {cookieName != "amnetdigital" ? (
+        <div id="consent-popup" className="cookies-banner">
+          <div className="row">
+            <div className="col-xl-8 col-lg-8">
+              <p>
+                This website uses cookies. We use cookies to optimize web
+                functionality, collect website analytics and traffic data, and
+                to provide a more personalized user experience.
+                <a className="cookies-readmore-link" href="/cookiespolicy">
+                  Read more...
+                </a>
+              </p>
+            </div>
+            <div className="col-xl-4 col-lg-4 text-center">
+              <button
+                className="btn btn-default cookies-decline-btn"
+                id="decline"
+              >
+                Decline
+              </button>
+              <button
+                className="btn btn-default cookies-accept-btn"
+                id="accept"
+              >
+                Accept
+              </button>
+            </div>
           </div>
         </div>
-      </div>
+      ) : (
+        " "
+      )}
     </>
   );
 }

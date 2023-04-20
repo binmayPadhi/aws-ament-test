@@ -25,7 +25,7 @@ const Exploreservices = ({ selectedServicesobj }) => {
                     </div>
                     <div className="d-flex flex-row justify-content-end">
                       <span className="small-grey-box position-absolute bottom-0 cr-pointer">
-                        <Link to={`/services/${selectedServicesobj.link}`}>
+                        <Link to={`/services/${selectedServicesobj.link}/${response.heading}`}>
                           <img src={response["arrow-image"]} />
                         </Link>
                       </span>
@@ -51,7 +51,7 @@ const Exploreservices = ({ selectedServicesobj }) => {
                         </div>
                         <div className="d-flex flex-row justify-content-end">
                           <span className="small-grey-box position-absolute bottom-0 cr-pointer">
-                            <Link to={`/services/${selectedServicesobj.link}`}>
+                            <Link to={`/services/${selectedServicesobj.link}/${response.heading}`}>
                               <img src={response["arrow-image"]} />
                             </Link>
                           </span>

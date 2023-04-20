@@ -136,6 +136,8 @@ import sim from "../../images/services-images/Advanced Analytics/advanced-analyt
 import simi from "../../images/services-images/Advanced Analytics/advanced-analytics-icon-semantic-analysis.png";
 import sa from "../../images/services-images/Advanced Analytics/advanced-analytics-sentiment-analysis.png";
 import sai from "../../images/services-images/Advanced Analytics/advanced-analytics-icon-sentiment-analysis.png";
+import simu from "../../images/services-images/Advanced Analytics/advanced-analytics-simulation.png";
+import simui from "../../images/services-images/Advanced Analytics/advanced-analytics-icon-simulation.png";
 import pm from "../../images/services-images/Advanced Analytics/advanced-analytics-pattern-matching.png";
 import pmi from "../../images/services-images/Advanced Analytics/advanced-analytics-icon-pattern-matching.png";
 import nl from "../../images/services-images/Advanced Analytics/advanced-analytics-nlp.png";
@@ -205,7 +207,7 @@ const subservices = [
           name: "Competitor analysis",
           subimg: CA,
           subDes:
-            "Identify, or even predict, abnormal patterns in unbounded data streams to discover positive buying behaviours, detect fraud or mitigate potential threats and more. We pre-determine anomalies with potential impacts eliminating false alerts resulting in less noise and more problem solving.",
+            "Collect, curate and get actionable competitor insights to empower sales. We combine external competitive data and internal company data to provide contextual insights which help you improve your overall competitive position in the market.",
           subImgdata: CAI,
         },
         {
@@ -805,14 +807,23 @@ const subservices = [
         },
         {
           id: 88,
-          name: "Simulation",
+          name: "Semantic Analysis",
           subimg: sim,
           subDes:
-            "Create detailed and robust use cases to train or test artificial intelligence models for high accuracy. We expose AI models to a vast array of business scenarios resulting in optimized solutions.",
+           "Understand the context of natural language, detect emotions and extract valuable information from unstructured data, achieving human-level accuracy with machine learning algorithms. We aid in developing self-service reporting by providing a cleansed, understandable, trustworthy environment which can be used by business users.",
           subImgdata: simi,
+
         },
         {
           id: 89,
+          name: "Simulation",
+          subimg: simu,
+          subDes:
+            "Create detailed and robust use cases to train or test artificial intelligence models for high accuracy. We expose AI models to a vast array of business scenarios resulting in optimized solutions.",
+          subImgdata: simui,
+        },
+        {
+          id: 90,
           name: "Text Mining",
           subimg: tm,
           subDes:
