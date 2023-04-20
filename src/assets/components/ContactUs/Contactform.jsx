@@ -44,9 +44,7 @@ const schema = yup
   })
   .required();
 
-
 const Contactform = () => {
-
   const [show, setShow] = useState(false);
   const handleShow = () => setShow(true);
   const handleClose = () => setShow(false);
@@ -342,16 +340,16 @@ const Contactform = () => {
           </div>
         </div>
       </div>
-      <Modal show={show} onHide={handleClose} centered style={{border:"1px solid #FF6E31"}}>
-          <Modal.Body className="p-5">          
-            <p className="text-black fw-bold-500 fs-18 text-center lh-26 my-3">
-              <img alt="checkmark" src={correct} className="img-35" />
-            </p>     
-            <p className="text-black fw-bold-500 fs-14 text-center mt-4">
+      <Modal show={show} onHide={handleClose} centered>
+        <Modal.Body className="p-5" style={{ border: "3px solid #FF6E31" }}>
+          <p className="text-black fw-bold-500 fs-18 text-center lh-26 my-3">
+            <img alt="checkmark" src={correct} className="img-35" />
+          </p>
+          <p className="text-black fw-bold-500 fs-14 text-center mt-4">
             Thank you for your interest, we will get in touch with you shortly!
-            </p>
-          </Modal.Body>
-        </Modal>
+          </p>
+        </Modal.Body>
+      </Modal>
     </>
   );
 };
