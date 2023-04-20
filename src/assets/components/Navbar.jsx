@@ -7,7 +7,7 @@ import AdvancedAnalyticsDropdownIcon from "../images/Service-Page/service-dropdo
 import DataEngineeringDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-data-engg.png";
 import PlatformEngineeringDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-platform-engg.png";
 import UXDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-ux.png";
-import CloudDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-cloud.png";
+import cloudservicesDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-cloud.png";
 import QADropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-qa.png";
 import ConsultingDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-strat-consult.png";
 import DataAnnotationDropdownIcon from "../images/Service-Page/service-dropdown-icons/services-dd-data-annotation.png";
@@ -175,7 +175,7 @@ function Navbar() {
 
                         <div className="col-10 service-dropdown-link">
                           <NavLink
-                            to={`/${`aiml`}`}
+                            to={`/services/${`aiml`}`}
                             activeStyle={{
                               color: "#19AF8F",
                               textDecoration: "none",
@@ -187,22 +187,26 @@ function Navbar() {
                             className="sub-service-links"
                             style={{ marginTop: "5px" }}
                           >
-                            <a href={`/${`aiml`}#statistical-analysis`}>
+                            <a
+                              href={`/services/${`aiml`}/${`Statistical Analysis`}`}
+                            >
                               Statistical Analysis
                             </a>
                           </p>
                           <p className="sub-service-links">
-                            <a href={`/${`aiml`}#visualizations`}>
+                            <a href={`/services/${`aiml`}/${`Visualizations`}`}>
                               Visualizations
                             </a>
                           </p>
                           <p className="sub-service-links">
-                            <a href={`/${`aiml`}#anomaly-detection`}>
+                            <a
+                              href={`/services/${`aiml`}/${`Anomaly Detection`}`}
+                            >
                               Anomaly Detection
                             </a>
                           </p>
-                          <p className="sub-service-links dropdown-view-all-link dropdownd-ai-viewall-link">
-                            <a href={`/${`aiml`}`}>{`View all ->`}</a>
+                          <p className="sub-service-links dropdown-view-all-link">
+                            <a href={`/services/${`aiml`}`}>{`View all ->`}</a>
                           </p>
                         </div>
                       </div>
@@ -216,7 +220,7 @@ function Navbar() {
 
                         <div className="col-10 service-dropdown-link">
                           <NavLink
-                            to={`/${`data-management`}`}
+                            to={`/services/${`datamanagement`}`}
                             activeStyle={{
                               color: "#19AF8F",
                               textDecoration: "none",
@@ -229,24 +233,28 @@ function Navbar() {
                             style={{ marginTop: "5px" }}
                           >
                             <a
-                              href={`/${`data-management`}#data-architecture-management`}
+                              href={`/services/${`datamanagement`}/${`Data Architecture Management`}`}
                             >
-                              Data Architecture
+                              Data Architecture Management
                             </a>
                           </p>
                           <p className="sub-service-links">
-                            <a href={`/${`data-management`}#data-development`}>
+                            <a
+                              href={`/services/${`datamanagement`}/${`Data Development`}`}
+                            >
                               Data Development
                             </a>
                           </p>
                           <p className="sub-service-links">
-                            <a href={`/${`data-management`}#data-governance`}>
+                            <a
+                              href={`/services/${`datamanagement`}/${`Data Governance`}`}
+                            >
                               Data Governance
                             </a>
                           </p>
                           <p className="sub-service-links dropdown-view-all-link">
                             <a
-                              href={`/${`data-management`}`}
+                              href={`/services/${`datamanagement`}`}
                             >{`View all ->`}</a>
                           </p>
                         </div>
@@ -261,7 +269,7 @@ function Navbar() {
 
                         <div className="col-10 service-dropdown-link">
                           <NavLink
-                            to={`/${`advanced-analytics`}`}
+                            to={`/services/${`advancedanalytics`}`}
                             activeStyle={{
                               color: "#19AF8F",
                               textDecoration: "none",
@@ -274,24 +282,28 @@ function Navbar() {
                             style={{ marginTop: "5px" }}
                           >
                             <a
-                              href={`/${`advanced-analytics`}#complex-event-processing`}
+                              href={`/services/${`advancedanalytics`}/${`Complex Event Processing`}`}
                             >
                               Complex Event Processing
                             </a>
                           </p>
                           <p className="sub-service-links">
-                            <a href={`/${`advanced-analytics`}#deep-learning`}>
+                            <a
+                              href={`/services/${`advancedanalytics`}/${`Deep Learning`}`}
+                            >
                               Deep Learning
                             </a>
                           </p>
                           <p className="sub-service-links">
-                            <a href={`/${`advanced-analytics`}#graph-analysis`}>
+                            <a
+                              href={`/services/${`advancedanalytics`}/${`Deep Learning`}`}
+                            >
                               Graph Analysis
                             </a>
                           </p>
                           <p className="sub-service-links dropdown-view-all-link">
                             <a
-                              href={`/${`advanced-analytics`}`}
+                              href={`/services/${`advancedanalytics`}`}
                             >{`View all ->`}</a>
                           </p>
                         </div>
@@ -307,7 +319,7 @@ function Navbar() {
 
                         <div className="col-10 service-dropdown-link">
                           <NavLink
-                            to={`/${`data-engineering`}`}
+                            to={`/services/${`dataengineering`}`}
                             activeStyle={{
                               color: "#19AF8F",
                               textDecoration: "none",
@@ -319,25 +331,29 @@ function Navbar() {
                             className="sub-service-links"
                             style={{ marginTop: "5px" }}
                           >
-                            <a href={`/${`data-engineering`}#data-pipelines`}>
+                            <a
+                              href={`/services/${`dataengineering`}/${`Data Pipelines`}`}
+                            >
                               Data Pipelines
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/${`data-engineering`}#data-transformations`}
+                              href={`/services/${`dataengineering`}/${`Data Transformations`}`}
                             >
                               Data Transformations
                             </a>
                           </p>
                           <p className="sub-service-links">
-                            <a href={`/${`data-engineering`}#data-cleansing`}>
+                            <a
+                              href={`/services/${`dataengineering`}/${`Data Cleansing`}`}
+                            >
                               Data Cleansing
                             </a>
                           </p>
                           <p className="sub-service-links dropdown-view-all-link">
                             <a
-                              href={`/${`data-engineering`}`}
+                              href={`/services/${`dataengineering`}`}
                             >{`View all ->`}</a>
                           </p>
                         </div>
@@ -351,7 +367,7 @@ function Navbar() {
 
                         <div className="col-10 service-dropdown-link">
                           <NavLink
-                            to={`/${`platform-engineering`}`}
+                            to={`/services/${`platformengineering`}`}
                             activeStyle={{
                               color: "#19AF8F",
                               textDecoration: "none",
@@ -364,28 +380,28 @@ function Navbar() {
                             style={{ marginTop: "5px" }}
                           >
                             <a
-                              href={`/${`platform-engineering`}#application-engineering`}
+                              href={`/services/${`platformengineering`}/${`Application Engineering`}`}
                             >
                               Application Engineering
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/${`platform-engineering`}#infrastructure`}
+                              href={`/services/${`platformengineering`}/${`Infrastructure`}`}
                             >
                               Infrastructure
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/${`platform-engineering`}#payment-gateways`}
+                              href={`/services/${`platformengineering`}/${`Payment Gateways`}`}
                             >
                               Payment Gateways
                             </a>
                           </p>
                           <p className="sub-service-links dropdown-view-all-link">
                             <a
-                              href={`/${`platform-engineering`}`}
+                              href={`/services/${`platformengineering`}`}
                             >{`View all ->`}</a>
                           </p>
                         </div>
@@ -399,7 +415,7 @@ function Navbar() {
 
                         <div className="col-10 service-dropdown-link">
                           <NavLink
-                            to={`/${`user-experience`}`}
+                            to={`/services/${`userexperinces`}`}
                             activeStyle={{
                               color: "#19AF8F",
                               textDecoration: "none",
@@ -411,25 +427,29 @@ function Navbar() {
                             className="sub-service-links"
                             style={{ marginTop: "5px" }}
                           >
-                            <a href={`/${`user-experience`}#design-thinking`}>
+                            <a
+                              href={`/services/${`userexperinces`}/${`Design Thinking`}`}
+                            >
                               Design Thinking
                             </a>
                           </p>
                           <p className="sub-service-links">
-                            <a href={`/${`user-experience`}#user-research`}>
+                            <a
+                              href={`/services/${`userexperinces`}/${`User Research`}`}
+                            >
                               User Research
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/${`user-experience`}#interaction-design`}
+                              href={`/services/${`userexperinces`}/${`Interaction Design`}`}
                             >
                               Interaction Design
                             </a>
                           </p>
                           <p className="sub-service-links dropdown-view-all-link">
                             <a
-                              href={`/${`user-experience`}`}
+                              href={`/services/${`userexperinces`}`}
                             >{`View all ->`}</a>
                           </p>
                         </div>
@@ -438,14 +458,13 @@ function Navbar() {
                     <div className="column">
                       <div className="navFlex">
                         <img
-                          src={CloudDropdownIcon}
+                          src={cloudservicesDropdownIcon}
                           className="img-fluid navIcon"
                           alt="icon"
                         />
-
                         <div className="col-10 service-dropdown-link">
                           <NavLink
-                            to={`/${`cloud`}`}
+                            to={`/services/${`cloudservices`}`}
                             activeStyle={{
                               color: "#19AF8F",
                               textDecoration: "none",
@@ -457,22 +476,30 @@ function Navbar() {
                             className="sub-service-links"
                             style={{ marginTop: "5px" }}
                           >
-                            <a href={`/${`cloud`}#cloud-advisory-services`}>
+                            <a
+                              href={`/services/${`cloudservices`}/${`Cloud Advisory Services`}`}
+                            >
                               Cloud Advisory Services
                             </a>
                           </p>
                           <p className="sub-service-links">
-                            <a href={`/${`cloud`}#cloud-migration-services`}>
+                            <a
+                              href={`/services/${`cloudservices`}/${`Cloud Migration Services`}`}
+                            >
                               Cloud Migration Services
                             </a>
                           </p>
                           <p className="sub-service-links">
-                            <a href={`/${`cloud`}#cloud-integration`}>
+                            <a
+                              href={`/services/${`cloudservices`}/${`Cloud Integration`}`}
+                            >
                               Cloud Integration
                             </a>
                           </p>
                           <p className="sub-service-links dropdown-view-all-link">
-                            <a href={`/${`cloud`}`}>{`View all ->`}</a>
+                            <a
+                              href={`/services/${`cloudservices`}`}
+                            >{`View all ->`}</a>
                           </p>
                         </div>
                       </div>
@@ -485,7 +512,7 @@ function Navbar() {
 
                         <div className="col-10 service-dropdown-link">
                           <NavLink
-                            to={`/${`quality-assurance`}`}
+                            to={`/services/${`qualityassurance`}`}
                             activeStyle={{
                               color: "#19AF8F",
                               textDecoration: "none",
@@ -498,28 +525,28 @@ function Navbar() {
                             style={{ marginTop: "5px" }}
                           >
                             <a
-                              href={`/${`quality-assurance`}#functional-testing`}
+                              href={`/services/${`qualityassurance`}/${`Functional Testing`}`}
                             >
                               Functional Testing
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/${`quality-assurance`}#compatibility-testing`}
+                              href={`/services/${`qualityassurance`}/${`Compatibility Testing`}`}
                             >
                               Compatibility Testing
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/${`quality-assurance`}#performance-testing`}
+                              href={`/services/${`qualityassurance`}/${`Performance Testing`}`}
                             >
                               Performance Testing
                             </a>
                           </p>
                           <p className="sub-service-links dropdown-view-all-link">
                             <a
-                              href={`/${`quality-assurance`}`}
+                              href={`/services/${`qualityassurance`}`}
                             >{`View all ->`}</a>
                           </p>
                         </div>
@@ -533,7 +560,7 @@ function Navbar() {
 
                         <div className="col-10 service-dropdown-link">
                           <NavLink
-                            to={`/${`consulting`}`}
+                            to={`/services/${`strategyconsulting`}`}
                             activeStyle={{
                               color: "#19AF8F",
                               textDecoration: "none",
@@ -545,24 +572,30 @@ function Navbar() {
                             className="sub-service-links"
                             style={{ marginTop: "5px" }}
                           >
-                            <a href={`/${`consulting`}#data-strategy`}>
+                            <a
+                              href={`/services/${`strategyconsulting`}/${`Data Strategy`}`}
+                            >
                               Data Strategy
                             </a>
                           </p>
                           <p className="sub-service-links">
-                            <a href={`/${`consulting`}#ai-strategy`}>
+                            <a
+                              href={`/services/${`strategyconsulting`}/${`AI Strategy`}`}
+                            >
                               AI Strategy
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/${`consulting`}#application-development`}
+                              href={`/services/${`strategyconsulting`}/${`Application Development`}`}
                             >
                               Application Development
                             </a>
                           </p>
                           <p className="sub-service-links dropdown-view-all-link">
-                            <a href={`/${`consulting`}`}>{`View all ->`}</a>
+                            <a
+                              href={`/services/${`strategyconsulting`}`}
+                            >{`View all ->`}</a>
                           </p>
                         </div>
                       </div>
@@ -577,7 +610,7 @@ function Navbar() {
 
                         <div className="col-10 service-dropdown-link">
                           <NavLink
-                            to={`/${`data-annotation`}`}
+                            to={`/services/${`dataannotation`}`}
                             activeStyle={{
                               color: "#19AF8F",
                               textDecoration: "none",
@@ -589,22 +622,30 @@ function Navbar() {
                             className="sub-service-links"
                             style={{ marginTop: "5px" }}
                           >
-                            <a href={`/${`data-annotation`}#image-annotation`}>
+                            <a
+                              href={`/services/${`dataannotation`}/${`Image Annotation`}`}
+                            >
                               Image Annotation
                             </a>
                           </p>
                           <p className="sub-service-links">
-                            <a href={`/${`data-annotation`}#video-annotation`}>
+                            <a
+                              href={`/services/${`dataannotation`}/${`Video Annotation`}`}
+                            >
                               Video Annotation
                             </a>
                           </p>
                           <p className="sub-service-links">
-                            <a href={`/${`data-annotation`}#audio-annotation`}>
+                            <a
+                              href={`/services/${`dataannotation`}/${`Audio Annotation`}`}
+                            >
                               Audio Annotation
                             </a>
                           </p>
                           <p className="sub-service-links dropdown-view-all-link">
-                            <a href={`/${`data-annotation`}`}>View All</a>
+                            <a href={`/services/${`dataannotation`}`}>
+                              View All
+                            </a>
                           </p>
                         </div>
                       </div>
@@ -641,62 +682,62 @@ function Navbar() {
                 >
                   <NavLink
                     className="dropdown-item sub-service-dropdown-item"
-                    to={`/${`aiml`}`}
+                    to={`/services/aiml`}
                     activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                   >
                     AI / ML
                   </NavLink>
                   <NavLink
                     className="dropdown-item sub-service-dropdown-item"
-                    to={`/${`data-management`}`}
+                    to={`/services/datamanagement`}
                   >
                     Data Management
                   </NavLink>
                   <NavLink
                     className="dropdown-item sub-service-dropdown-item"
-                    to={`/${`advanced-analytics`}`}
+                    to={`/services/advancedanalytics`}
                   >
                     Advanced Analytics
                   </NavLink>
                   <NavLink
                     className="dropdown-item sub-service-dropdown-item"
-                    to={`/${`data-engineering`}`}
+                    to={`/services/dataengineering`}
                   >
                     Data Engineering
                   </NavLink>
                   <NavLink
                     className="dropdown-item sub-service-dropdown-item"
-                    to={`/${`platform-engineering`}`}
+                    to={`/services/platformengineering`}
                   >
                     Platform Engineering
                   </NavLink>
                   <NavLink
                     className="dropdown-item sub-service-dropdown-item"
-                    to={`/${`user-experience`}`}
+                    to={`/services/userexperiences`}
                   >
                     User Experience
                   </NavLink>
                   <NavLink
                     className="dropdown-item sub-service-dropdown-item"
-                    to={`/${`cloud`}`}
+                    to={`/services/cloudservices`}
                   >
                     Cloud
                   </NavLink>
                   <NavLink
                     className="dropdown-item sub-service-dropdown-item"
-                    to={`/${`quality-assurance`}`}
+                    to={`/services/qualityassurance`}
                   >
                     Quality Assurance
                   </NavLink>
                   <NavLink
                     className="dropdown-item sub-service-dropdown-item"
-                    to={`/${`consulting`}`}
+                    to={`/services/strategyconsulting`}
                   >
                     Consulting
                   </NavLink>
                   <NavLink
                     className="dropdown-item sub-service-dropdown-item"
-                    to={`/${`data-annotation`}`}
+                    to={`/services/dataannotation`}
                   >
                     Data Annotation
                   </NavLink>

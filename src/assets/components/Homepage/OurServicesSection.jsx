@@ -47,7 +47,7 @@ function OurServices() {
                 </Card.Body>
                 <Card.Footer className="bg-white border-0 pb-3">
                   <Card.Text className="new-explore-link">
-                    <a href={`/${data.id}`}>{`Explore ->`}</a>
+                    <a href={`/services/${data.link}`}>{`Explore ->`}</a>
                   </Card.Text>
                 </Card.Footer>
               </Card>

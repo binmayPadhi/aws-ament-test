@@ -31,7 +31,7 @@ function TestService() {
           backgroundImage: `url(${ServiceBG})`,
           backgroundAttachment: "scroll",
           backgroundRepeat: "no-repeat",
-          backgroundSize: "100% 100%",
+          backgroundSize: "cover",
           width: "100%",
         }}
       >

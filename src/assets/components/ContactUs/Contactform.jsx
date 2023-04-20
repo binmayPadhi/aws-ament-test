@@ -5,6 +5,9 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { useRef } from "react";
+import Modal from "react-bootstrap/Modal";
+import correct from "../../images/Contact-Us-Page/correct.png";
+import { useState } from "react";
 
 const schema = yup
   .object()
@@ -41,7 +44,13 @@ const schema = yup
   })
   .required();
 
+
 const Contactform = () => {
+
+  const [show, setShow] = useState(false);
+  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false);
+
   const dropdownlist = [
     {
       id: 30,
@@ -115,6 +124,7 @@ const Contactform = () => {
         console.log("mail sent"),
         localStorage.setItem("cookie", 4),
         reset(),
+        handleShow(),
         (error) => {
           console.log(error.text);
         }
@@ -198,7 +208,7 @@ const Contactform = () => {
                   </p>
                 </div>
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <label className="font-form">Phone Number*</label>
+                  <label className="font-form">Phone Number</label>
                   <p className="email_field">
                     <input
                       type="text"
@@ -231,7 +241,7 @@ const Contactform = () => {
                 </div>
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                   <label className="font-form">
-                    Job Title<span className="star-green">*</span>
+                    Job Title<span className="star-green"></span>
                   </label>
                   <p className="email_field">
                     <input
@@ -332,6 +342,16 @@ const Contactform = () => {
           </div>
         </div>
       </div>
+      <Modal show={show} onHide={handleClose} centered style={{border:"1px solid #FF6E31"}}>
+          <Modal.Body className="p-5">          
+            <p className="text-black fw-bold-500 fs-18 text-center lh-26 my-3">
+              <img alt="checkmark" src={correct} className="img-35" />
+            </p>     
+            <p className="text-black fw-bold-500 fs-14 text-center mt-4">
+            Thank you for your interest, we will get in touch with you shortly!
+            </p>
+          </Modal.Body>
+        </Modal>
     </>
   );
 };
