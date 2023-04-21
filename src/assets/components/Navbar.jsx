@@ -188,19 +188,19 @@ function Navbar() {
                             style={{ marginTop: "5px" }}
                           >
                             <a
-                              href={`/services/${`aiml`}/${`Statistical Analysis`}`}
+                              href={`/services/${`aiml`}/${`statistical-analysis`}`}
                             >
                               Statistical Analysis
                             </a>
                           </p>
                           <p className="sub-service-links">
-                            <a href={`/services/${`aiml`}/${`Visualizations`}`}>
+                            <a href={`/services/${`aiml`}/${`visualizations`}`}>
                               Visualizations
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/services/${`aiml`}/${`Anomaly Detection`}`}
+                              href={`/services/${`aiml`}/${`anomaly-detection`}`}
                             >
                               Anomaly Detection
                             </a>
@@ -233,21 +233,21 @@ function Navbar() {
                             style={{ marginTop: "5px" }}
                           >
                             <a
-                              href={`/services/${`datamanagement`}/${`Data Architecture Management`}`}
+                              href={`/services/${`datamanagement`}/${`data-architecture-management`}`}
                             >
                               Data Architecture Management
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/services/${`datamanagement`}/${`Data Development`}`}
+                              href={`/services/${`datamanagement`}/${`data-development`}`}
                             >
                               Data Development
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/services/${`datamanagement`}/${`Data Governance`}`}
+                              href={`/services/${`datamanagement`}/${`data-governance`}`}
                             >
                               Data Governance
                             </a>
@@ -282,21 +282,21 @@ function Navbar() {
                             style={{ marginTop: "5px" }}
                           >
                             <a
-                              href={`/services/${`advancedanalytics`}/${`Complex Event Processing`}`}
+                              href={`/services/${`advancedanalytics`}/${`complex-event-processing`}`}
                             >
                               Complex Event Processing
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/services/${`advancedanalytics`}/${`Deep Learning`}`}
+                              href={`/services/${`advancedanalytics`}/${`deep-learning`}`}
                             >
                               Deep Learning
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/services/${`advancedanalytics`}/${`Deep Learning`}`}
+                              href={`/services/${`advancedanalytics`}/${`graph-analysis`}`}
                             >
                               Graph Analysis
                             </a>
@@ -332,21 +332,21 @@ function Navbar() {
                             style={{ marginTop: "5px" }}
                           >
                             <a
-                              href={`/services/${`dataengineering`}/${`Data Pipelines`}`}
+                              href={`/services/${`dataengineering`}/${`data-pipelines`}`}
                             >
                               Data Pipelines
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/services/${`dataengineering`}/${`Data Transformations`}`}
+                              href={`/services/${`dataengineering`}/${`data-transformations`}`}
                             >
                               Data Transformations
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/services/${`dataengineering`}/${`Data Cleansing`}`}
+                              href={`/services/${`dataengineering`}/${`data-cleansing`}`}
                             >
                               Data Cleansing
                             </a>
@@ -380,21 +380,21 @@ function Navbar() {
                             style={{ marginTop: "5px" }}
                           >
                             <a
-                              href={`/services/${`platformengineering`}/${`Application Engineering`}`}
+                              href={`/services/${`platformengineering`}/${`application-engineering`}`}
                             >
                               Application Engineering
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/services/${`platformengineering`}/${`Infrastructure`}`}
+                              href={`/services/${`platformengineering`}/${`infrastructure`}`}
                             >
                               Infrastructure
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/services/${`platformengineering`}/${`Payment Gateways`}`}
+                              href={`/services/${`platformengineering`}/${`payment-gateways`}`}
                             >
                               Payment Gateways
                             </a>
@@ -428,21 +428,21 @@ function Navbar() {
                             style={{ marginTop: "5px" }}
                           >
                             <a
-                              href={`/services/${`userexperinces`}/${`Design Thinking`}`}
+                              href={`/services/${`userexperinces`}/${`design-thinking`}`}
                             >
                               Design Thinking
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/services/${`userexperinces`}/${`User Research`}`}
+                              href={`/services/${`userexperinces`}/${`user-research-and-analysis`}`}
                             >
                               User Research
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/services/${`userexperinces`}/${`Interaction Design`}`}
+                              href={`/services/${`userexperinces`}/${`experience-and-interaction-design`}`}
                             >
                               Interaction Design
                             </a>
@@ -477,21 +477,21 @@ function Navbar() {
                             style={{ marginTop: "5px" }}
                           >
                             <a
-                              href={`/services/${`cloudservices`}/${`Cloud Advisory Services`}`}
+                              href={`/services/${`cloudservices`}/${`cloud-advisory-services`}`}
                             >
                               Cloud Advisory Services
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/services/${`cloudservices`}/${`Cloud Migration Services`}`}
+                              href={`/services/${`cloudservices`}/${`cloud-migration-services`}`}
                             >
                               Cloud Migration Services
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/services/${`cloudservices`}/${`Cloud Integration`}`}
+                              href={`/services/${`cloudservices`}/${`cloud-integration`}`}
                             >
                               Cloud Integration
                             </a>
@@ -525,21 +525,21 @@ function Navbar() {
                             style={{ marginTop: "5px" }}
                           >
                             <a
-                              href={`/services/${`qualityassurance`}/${`Functional Testing`}`}
+                              href={`/services/${`qualityassurance`}/${`functional-testing`}`}
                             >
                               Functional Testing
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/services/${`qualityassurance`}/${`Compatibility Testing`}`}
+                              href={`/services/${`qualityassurance`}/${`compatibility-testing`}`}
                             >
                               Compatibility Testing
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/services/${`qualityassurance`}/${`Performance Testing`}`}
+                              href={`/services/${`qualityassurance`}/${`performance-testing`}`}
                             >
                               Performance Testing
                             </a>
@@ -573,21 +573,21 @@ function Navbar() {
                             style={{ marginTop: "5px" }}
                           >
                             <a
-                              href={`/services/${`strategyconsulting`}/${`Data Strategy`}`}
+                              href={`/services/${`strategyconsulting`}/${`data-strategy`}`}
                             >
                               Data Strategy
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/services/${`strategyconsulting`}/${`AI Strategy`}`}
+                              href={`/services/${`strategyconsulting`}/${`ai-strategy`}`}
                             >
                               AI Strategy
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/services/${`strategyconsulting`}/${`Application Development`}`}
+                              href={`/services/${`strategyconsulting`}/${`application-development`}`}
                             >
                               Application Development
                             </a>
@@ -596,6 +596,7 @@ function Navbar() {
                             <a
                               href={`/services/${`strategyconsulting`}`}
                             >{`View all ->`}</a>
+                            .
                           </p>
                         </div>
                       </div>
@@ -623,29 +624,29 @@ function Navbar() {
                             style={{ marginTop: "5px" }}
                           >
                             <a
-                              href={`/services/${`dataannotation`}/${`Image Annotation`}`}
+                              href={`/services/${`dataannotation`}/${`image-annotation`}`}
                             >
                               Image Annotation
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/services/${`dataannotation`}/${`Video Annotation`}`}
+                              href={`/services/${`dataannotation`}/${`video-annotation`}`}
                             >
                               Video Annotation
                             </a>
                           </p>
                           <p className="sub-service-links">
                             <a
-                              href={`/services/${`dataannotation`}/${`Audio Annotation`}`}
+                              href={`/services/${`dataannotation`}/${`audio-annotation`}`}
                             >
                               Audio Annotation
                             </a>
                           </p>
                           <p className="sub-service-links dropdown-view-all-link">
-                            <a href={`/services/${`dataannotation`}`}>
-                              View All
-                            </a>
+                            <a
+                              href={`/services/${`dataannotation`}`}
+                            >{`View all ->`}</a>
                           </p>
                         </div>
                       </div>

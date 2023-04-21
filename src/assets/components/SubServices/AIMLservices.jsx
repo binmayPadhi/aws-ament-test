@@ -9,7 +9,7 @@ const AIservices = () => {
     services.map((res) => {
       if (res.serviceName === params.name) {
         let x = Object.values(res.sub);
-        history(`/services/${params.name}/${x[0][0]["name"]}`);
+        history(`/services/${params.name}/${x[0][0]["sublink"]}`);
       }
     });
   }, [params]);

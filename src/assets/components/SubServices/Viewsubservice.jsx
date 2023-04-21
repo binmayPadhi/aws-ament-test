@@ -3,11 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import services from "../../Data/Services-Data/ExploreservicesData";
 import thinborder from "../../images/Service-Page/thin-border.png";
 import borderBg from "../../images/Service-Page/border.png";
-import Case from "./Caseservice";
-import Whyamnet from "./Whyamnet";
-import Driveservices from "./Driveservices";
 import "../../CSS/Services.css";
-import OurPartner from "../Homepage/OurPartner";
 import CaseStudiesSection from "../Homepage/CaseStudiesSection";
 
 const Viewsubservice = () => {
@@ -24,18 +20,18 @@ const Viewsubservice = () => {
         let x = Object.values(res.sub);
         setList(x[0]);
         res.sub.data.map((data) => {
-          if (data["name"] === params["service"]) {
+          if (data["sublink"] === params["service"]) {
             setSelectedservice(data["name"]);
             setSelectedserviceobj(data);
           }
         });
       }
     });
-    window.scrollTo(0,750);
+    window.scrollTo(0, 750);
   }, [params.service]);
   const fetchService = (e, obj) => {
     e.preventDefault();
-    history(`/services/${params.name}/${obj["name"]}`);
+    history(`/services/${params.name}/${obj["sublink"]}`);
   };
 
   return (
@@ -90,88 +86,91 @@ const Viewsubservice = () => {
 
       {/* NEW SERVICE PAGE BUTTON GROUPS */}
       <div className="center-95">
-      <div className="w-90 mx-auto mb-5">
-        <div className="mt-10 row">
-          <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-right pr-5">
-            <p className="fw-bold-700 fs-50 text-lightwhite text-right lh-50 pr-2">
-              Our <br /> Services
-            </p>
-            <p
-              style={{
-                backgroundImage: `url(${borderBg})`,
-                backgroundAttachment: "scroll",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-                top: "80px",
-                width: "100%",
-                height: "5px",
-              }}
-              className="mt-5"
-            ></p>
-            <p className="mt-5 scroll" id="style-4">
-              {listlabel.map((list, index) => {
-                return (
-                  <>
-                    <p
-                      key={list.id}
-                      onClick={(e) => fetchService(e, list)}
-                      className={
-                        "fs-16 text-black text-left lh-50 cr-pointer " +
-                        (list["name"] === selectedServices
-                          ? "fw-bold-800"
-                          : "fw-bold-400")
-                      }
-                    >
-                      {list.name}
-                    </p>
-                    {listlabel.length != index + 1 ? (
+        <div className="w-90 mx-auto mb-5">
+          <div className="mt-10 row">
+            <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-right pr-5">
+              <p className="fw-bold-700 fs-50 text-lightwhite text-right lh-50 pr-2">
+                Our <br /> Services
+              </p>
+              <p
+                style={{
+                  backgroundImage: `url(${borderBg})`,
+                  backgroundAttachment: "scroll",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover",
+                  top: "80px",
+                  width: "100%",
+                  height: "5px",
+                }}
+                className="mt-5"
+              ></p>
+              <p className="mt-5 scroll" id="style-4">
+                {listlabel.map((list, index) => {
+                  return (
+                    <>
                       <p
-                        style={{
-                          backgroundImage: `url(${thinborder})`,
-                          backgroundAttachment: "scroll",
-                          backgroundRepeat: "no-repeat",
-                          backgroundSize: "cover",
-                          top: "80px",
-                          width: "100%",
-                          height: "1px",
-                        }}
-                        className="mt-1"
-                      ></p>
-                    ) : null}
-                  </>
-                );
-              })}
-            </p>
-          </div>
+                        key={list.id}
+                        onClick={(e) => fetchService(e, list)}
+                        className={
+                          "fs-16 text-black text-left lh-50 cr-pointer " +
+                          (list["name"] === selectedServices
+                            ? "fw-bold-800"
+                            : "fw-bold-400")
+                        }
+                      >
+                        {list.name}
+                      </p>
+                      {listlabel.length != index + 1 ? (
+                        <p
+                          style={{
+                            backgroundImage: `url(${thinborder})`,
+                            backgroundAttachment: "scroll",
+                            backgroundRepeat: "no-repeat",
+                            backgroundSize: "cover",
+                            top: "80px",
+                            width: "100%",
+                            height: "1px",
+                          }}
+                          className="mt-1"
+                        ></p>
+                      ) : null}
+                    </>
+                  );
+                })}
+              </p>
+            </div>
 
-          <div
-            className="col-md-8 col-lg-8 col-sm-12 col-xs-12 pl-4"
-            style={{
-              backgroundColor: "#F8F8F8",
-            }}
-          >
-            <div className="w-95 mx-auto py-5">
-              <p className="mt-15">
-                <img
-                  className="w-100 mx-auto"
-                  src={selectedServicesobj.subimg}
-                />
-              </p>
-              <p className="mt-4 d-flex w-100 align-items-center">
-                <img className="img-35" src={selectedServicesobj.subImgdata} />
-                <span className="pt-2 pl-2 fs-16 fw-bold-600 text-black">
-                  {selectedServicesobj.name}
-                </span>
-              </p>
-              <p className="mt-3">
-                <span className=" fs-16 fw-bold-400 text-darkgrey">
-                  {selectedServicesobj.subDes}
-                </span>
-              </p>
+            <div
+              className="col-md-8 col-lg-8 col-sm-12 col-xs-12 pl-4"
+              style={{
+                backgroundColor: "#F8F8F8",
+              }}
+            >
+              <div className="w-95 mx-auto py-5">
+                <p className="mt-15">
+                  <img
+                    className="w-100 mx-auto"
+                    src={selectedServicesobj.subimg}
+                  />
+                </p>
+                <p className="mt-4 d-flex w-100 align-items-center">
+                  <img
+                    className="img-35"
+                    src={selectedServicesobj.subImgdata}
+                  />
+                  <span className="pt-2 pl-2 fs-16 fw-bold-600 text-black">
+                    {selectedServicesobj.name}
+                  </span>
+                </p>
+                <p className="mt-3">
+                  <span className=" fs-16 fw-bold-400 text-darkgrey">
+                    {selectedServicesobj.subDes}
+                  </span>
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       </div>
 
       {/* NEW HOMEPAGE CASESTUDIES SECTION */}
@@ -182,11 +181,11 @@ const Viewsubservice = () => {
       </Suspense>
 
       {/*NEW AboutUS Page Career Link SECTION */}
-      <div className="mt-5">
+      {/* <div className="mt-5">
         <div className="w-90 mx-auto">
           <Whyamnet />
         </div>
-      </div>
+      </div> */}
 
       {/* <div className="mt-5">
         <Driveservices />
