@@ -144,7 +144,7 @@ function TestService() {
           </div>
         </div>
       </div>
-      <div className="mt-5">
+      <div className="mt-5 mb-5">
         <CaseStudiesSection />
       </div>
       {/* <div className="mt-5">
