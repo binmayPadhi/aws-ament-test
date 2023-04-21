@@ -1,16 +1,11 @@
 import React, { useEffect } from "react";
-import { Link } from "react-scroll";
 import ServiceBG from "../images/Service-Page/service-main-bg.png";
 import thinborder from "../images/Service-Page/thin-border.png";
 import Exploreservices from "./SubServices/Exploreservices";
 import { useState } from "react";
 import borderBg from "../images/Service-Page/border.png";
 import servicejson from "../Data/Services-Data/Homeservices";
-import Case from "./SubServices/Caseservice";
-import Whyamnet from "./SubServices/Whyamnet";
 import "../CSS/Services.css";
-import Driveservices from "./SubServices/Driveservices";
-import TechnologyStack from "./SubServices/TechnologyStack";
 import CaseStudiesSection from "./Homepage/CaseStudiesSection";
 
 function TestService() {
@@ -138,7 +133,7 @@ function TestService() {
                     className="fs-16 fw-bold-400"
                     style={{ color: "#1DAD8F" }}
                   >
-                    Explore more Services{" ->"}
+                    Explore more services{" ->"}
                   </span>
                 </a>
               </p>
@@ -152,11 +147,11 @@ function TestService() {
       <div className="mt-5">
         <CaseStudiesSection />
       </div>
-      <div className="mt-5">
+      {/* <div className="mt-5">
         <div className="w-90 mx-auto">
           <Whyamnet />
         </div>
-      </div>
+      </div> */}
       {/* <div className="mt-5">
         <Driveservices />
       </div>

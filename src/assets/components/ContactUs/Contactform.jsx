@@ -28,14 +28,17 @@ const schema = yup
         "email is not valid"
       )
       .required("email is required"),
-    phoneNumber: yup
-      .string()
-      .matches(
-        /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/,
-        "phonenumber is not valid"
-      )
-      .required("phonenumber is required"),
-    acceptCheckbox: yup.string().required("Please check the checkbox"),
+    phoneNumber: yup.string().when("$exist", {
+      is: (exist) => exist,
+      then: yup
+        .string()
+        .matches(
+          /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/,
+          "phonenumber is not valid"
+        ),
+      otherwise: yup.string(),
+    }),
+    acceptCheckbox: yup.bool().oneOf([true], "Checkbox selection is required"),
     cName: yup
       .string()
       .matches(/^[a-zA-Z ]*$/, "Company Name is not valid")
@@ -212,7 +215,7 @@ const Contactform = () => {
                       type="text"
                       className="pl-1"
                       name="phoneNumber"
-                      {...register("phoneNumber")}
+                      {...register("phoneNumber", { required: false })}
                     />
                   </p>
                   <p className="fs-13 text-danger fw-bold-400">
@@ -300,9 +303,6 @@ const Contactform = () => {
                     name="acceptCheckbox"
                     {...register("acceptCheckbox")}
                   ></input>
-                  <p className="fs-13 text-danger fw-bold-400">
-                    {errors.acceptCheckbox?.message}
-                  </p>
                 </div>
                 <div className="w-95 pl-4">
                   <div className="lh-1-25 fs-12">
@@ -325,6 +325,9 @@ const Contactform = () => {
                   </div>
                 </div>
               </div>
+              <p className="fs-13 text-danger fw-bold-400">
+                {errors.acceptCheckbox?.message}
+              </p>
 
               <div className="row ml-0 mr-0 mt-3-rem mb-3-rem">
                 <div className="col-12 text-center">

@@ -22,7 +22,7 @@ const Homeservices = [
     name: "AI & ML Services",
     heading: "AI & ML Services",
     headingDescription:
-      "Our software development company delivers corporate and consumer applications based on our profound understanding of technologies and the markets they operate in. With our professional mindset, we look beyond technology to offer viable solutions for your particular business context.",
+      "We maintain a data-driven mindset all throughout the engagement, whether it is during strategy support phase or model development phase, and focus on utilization of big data and machine learning by empowered business users. We have capability to help evolve solutions that start as process automation to cognitive insight and finally cognitive engagement when systems work autonomously",
     link: "aiml",
     services: [
       {
@@ -32,6 +32,7 @@ const Homeservices = [
           "Leverage data science capabilities to get the maximum value from your data...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "statistic-analysis",
       },
       {
         id: 321,
@@ -40,6 +41,7 @@ const Homeservices = [
           "Rapidly integrate data from different sources and develop key metrics for faster decisions...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "visualizations",
       },
       {
         id: 331,
@@ -48,6 +50,7 @@ const Homeservices = [
           "Anomaly Detection Identify, or even predict, abnormal patterns in unbounded data streams to discover...",
         "arrow-image": vector,
         "side-image": AIMl,
+        sublink: "anomaly-detection",
       },
       {
         id: 341,
@@ -56,6 +59,7 @@ const Homeservices = [
           "Collect, curate and get actionable competitor insights to empower sales...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "competitor-analysis",
       },
       {
         id: 351,
@@ -64,6 +68,7 @@ const Homeservices = [
           "Use intelligent chatbots to assist customers throughout their shopping experience...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "conversational-ai-and-virtual-assistant",
       },
     ],
     description:
@@ -86,6 +91,7 @@ const Homeservices = [
           "Automate the movement and transformation of data, eliminating manual intervention reducing...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "data-pipelines",
       },
       {
         id: 321,
@@ -94,6 +100,7 @@ const Homeservices = [
           "Support comprehensive and effective data warehousing & data migration solutions that enable efficient movement...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "data-transformations",
       },
       {
         id: 322,
@@ -102,6 +109,7 @@ const Homeservices = [
           "Optimize the quality and accuracy of data by reconciling duplicate records, data validation...",
         "arrow-image": vector,
         "side-image": DE,
+        sublink: "data-cleansing",
       },
       {
         id: 323,
@@ -110,6 +118,7 @@ const Homeservices = [
           "Ensure overall accuracy, completeness and consistency of data while complying...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "data-integrity",
       },
       {
         id: 324,
@@ -118,6 +127,7 @@ const Homeservices = [
           "Incorporate new information in existing records to improve accuracy, value and reduce gaps...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "data-enrichment",
       },
     ],
   },
@@ -138,6 +148,7 @@ const Homeservices = [
           "Leverage human-assisted annotation approach to deliver higher quality data...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "image-annotation",
       },
       {
         id: 332,
@@ -146,6 +157,7 @@ const Homeservices = [
           "Annotate by capturing objects in a video frame-by-frame and reconstruct after completion... ",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "video-annotation",
       },
       {
         id: 333,
@@ -154,6 +166,7 @@ const Homeservices = [
           "Determine audio content and classify it into a series of predetermined categories. We assist in sound annotation...",
         "arrow-image": vector,
         "side-image": DA,
+        sublink: "audio-annotation",
       },
       {
         id: 334,
@@ -162,6 +175,7 @@ const Homeservices = [
           "Annotate text with metadata labeling to deliver high-quality datasets for machine learning...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "text-annotation",
       },
     ],
   },
@@ -182,6 +196,7 @@ const Homeservices = [
           "Build a robust enterprise data architecture and consolidate disparate warehouses...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "data-architecture-management",
       },
       {
         id: 342,
@@ -190,6 +205,7 @@ const Homeservices = [
           "Integrate your data into analytics-ready systems or build scalable solutions...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "data-development",
       },
       {
         id: 343,
@@ -198,6 +214,7 @@ const Homeservices = [
           "Ensure proactive and efficient management of data throughout enterprise in a standardized format...",
         "arrow-image": vector,
         "side-image": DM,
+        sublink: "data-governance",
       },
       {
         id: 344,
@@ -206,6 +223,7 @@ const Homeservices = [
           "Get a consolidated view and control of data from all data sources covering business processes and applications.",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "data-operations-management",
       },
       {
         id: 335,
@@ -214,6 +232,7 @@ const Homeservices = [
           "Improve the quality of data and establish the desired business...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "data-quality-management",
       },
     ],
   },
@@ -234,6 +253,7 @@ const Homeservices = [
           "Craft a comprehensive cloud transformation roadmap and deploy a strategy...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "cloud-advisory-services",
       },
       {
         id: 351,
@@ -242,6 +262,7 @@ const Homeservices = [
           "Achieve digital transformation and uncover growth opportunities...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "cloud-migration-services",
       },
       {
         id: 352,
@@ -250,6 +271,7 @@ const Homeservices = [
           "Connect your systems and applications for seamless data sharing and better connectivity in dynamic business environments...",
         "arrow-image": vector,
         "side-image": CS,
+        sublink: "cloud-integration",
       },
       {
         id: 353,
@@ -258,6 +280,7 @@ const Homeservices = [
           "Effectively manage, package and deploy applications across public & private cloud computing platforms",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "cloud-application-management",
       },
       {
         id: 354,
@@ -266,6 +289,7 @@ const Homeservices = [
           "Connect on-premise private cloud services and third-party public cloud into a unique",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "hybrid-cloud",
       },
     ],
   },
@@ -286,6 +310,7 @@ const Homeservices = [
           "Design, develop & maintain highly complex software applications with industry-standard best practices...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "application-engineering",
       },
       {
         id: 361,
@@ -294,6 +319,7 @@ const Homeservices = [
           "Enable Data Scientists, Engineers and DevOps teams to efficiently manage and operate various resources and processes",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "infrastructure",
       },
       {
         id: 362,
@@ -302,6 +328,7 @@ const Homeservices = [
           "Develop or integrate creative and custom payment gateways with maximum security and enhanced convenience.",
         "arrow-image": vector,
         "side-image": PE,
+        sublink: "payment-gateways",
       },
       {
         id: 363,
@@ -310,6 +337,7 @@ const Homeservices = [
           "Improve agility & flexibility of your infrastructure with DevOps and automate the path from development...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "devops-and-aimlops",
       },
     ],
   },
@@ -330,6 +358,7 @@ const Homeservices = [
           "Ensure verification and validation of applications for against defined specifications to achieve absolute end user acceptance.",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "functional-testing",
       },
       {
         id: 372,
@@ -338,6 +367,7 @@ const Homeservices = [
           "Ascertain if the developed product is adequate in a variety of environments like different operating systems",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "compatibility-testing",
       },
       {
         id: 373,
@@ -346,6 +376,7 @@ const Homeservices = [
           "Measure, verify and validate the operational capabilities of the application or product, delivering superior performance...",
         "arrow-image": vector,
         "side-image": QA,
+        sublink: "performance-testing",
       },
       {
         id: 374,
@@ -354,6 +385,7 @@ const Homeservices = [
           "Uncover vulnerabilities within your application, minimize the risks and paradigm your code...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "security-testing",
       },
       {
         id: 375,
@@ -362,6 +394,7 @@ const Homeservices = [
           "Design an automation strategy inline with business goals while leveraging test automation..",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "automation-testing",
       },
     ],
   },
@@ -382,6 +415,7 @@ const Homeservices = [
           "Discover hard to find opportunities or threats from high-volume, rapidly occurring data spanning departments and different sources",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "complex-event-processing",
       },
       {
         id: 381,
@@ -390,6 +424,7 @@ const Homeservices = [
           "Control the power of unstructured data such as images, text, and speech to give transformative...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "deep-learning",
       },
       {
         id: 382,
@@ -398,6 +433,7 @@ const Homeservices = [
           "Improve efficiency of machine learning algorithms with pre-connected data in graph models",
         "arrow-image": vector,
         "side-image": AD,
+        sublink: "graph-analysis",
       },
       {
         id: 383,
@@ -406,6 +442,7 @@ const Homeservices = [
           "Understand, interpret, and process natural human language with advanced machine learning models to build products",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "nlp",
       },
       {
         id: 384,
@@ -414,6 +451,7 @@ const Homeservices = [
           "Recognize and extract specific types of entities in sequences of data of some pattern...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "pattern-matching",
       },
     ],
   },
@@ -434,14 +472,16 @@ const Homeservices = [
           "An iterative approach to recognize patterns and construct ideas that are meaningful and intuitive...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "design-thinking",
       },
       {
         id: 391,
-        heading: "Visualizations",
+        heading: "User Research & Analysis",
         description:
           "Thoroughly understand customer behaviour, attitude, needs and pain points to deliver effective...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "user-research-and-analysis",
       },
       {
         id: 392,
@@ -450,6 +490,7 @@ const Homeservices = [
           "Meld usable interfaces which are mobile friendly with equally powerful back end architectures...",
         "arrow-image": vector,
         "side-image": UE,
+        sublink: "experience-and-interaction-design",
       },
       {
         id: 393,
@@ -458,6 +499,7 @@ const Homeservices = [
           "An accelerated and iterative approach to develop system mock-ups, giving potential end-users or stakeholders...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "rapid-prototyping-and-visual-design",
       },
       {
         id: 394,
@@ -466,6 +508,7 @@ const Homeservices = [
           "Optimize the products or solutions for best in-class user experience improving customer loyalty & life...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "usability-testing",
       },
     ],
   },
@@ -486,6 +529,7 @@ const Homeservices = [
           "Enhance data visibility, sharing, and combination while incorporating data visualization/tracking methods",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "data-strategy",
       },
       {
         id: 401,
@@ -494,6 +538,7 @@ const Homeservices = [
           "Fully realize business benefits of AI by gaining valuable insights with collected data and by automating business process..",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "ai-strategy",
       },
       {
         id: 402,
@@ -502,6 +547,7 @@ const Homeservices = [
           "Develop scalable, secure and reliable applications that address complex business requirements...",
         "arrow-image": vector,
         "side-image": SC,
+        sublink: "application-development",
       },
       {
         id: 403,
@@ -510,6 +556,7 @@ const Homeservices = [
           "Implement custom artificial intelligence solutions to extract untapped value from vast amounts of data...",
         "arrow-image": vector,
         "side-image": null,
+        sublink: "ai-customization",
       },
     ],
   },

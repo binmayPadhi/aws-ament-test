@@ -28,11 +28,11 @@ const Swiftinsightsform = (props) => {
 
   const handleChange = (event) => {
     const { value, name } = event.target;
-    const { checked, name1 } = event.target;
+    const checked = event.target;
     setregisterDetails((prevValue) => {
       return {
         ...prevValue,
-        [name]: name != "acceptCheckbox" ? value : checked,
+        [name]: name !== "acceptCheckbox" ? value : checked,
       };
     });
   };
