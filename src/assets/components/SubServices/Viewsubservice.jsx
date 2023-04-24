@@ -175,7 +175,7 @@ const Viewsubservice = () => {
 
       {/* NEW HOMEPAGE CASESTUDIES SECTION */}
       <Suspense fallback={<div>Loading...</div>}>
-        <div className="mt-5">
+        <div className="mt-5 mb-5">
           <CaseStudiesSection />
         </div>
       </Suspense>
