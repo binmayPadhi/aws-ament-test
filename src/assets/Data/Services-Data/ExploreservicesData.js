@@ -185,7 +185,7 @@ const subservices = [
           subDes:
             "Leverage data science capabilities to get the maximum value from your data. Our data science teams use tools like Python, R, SAS etc for statistical analysis & modeling to analyze your data to uncover patterns and trends and to convert your data into information and knowledge.",
           subImgdata: SSAI,
-          sublink: "statistic-analysis",
+          sublink: "statistical-analysis",
         },
         {
           id: 12,

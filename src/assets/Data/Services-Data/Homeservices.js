@@ -5,10 +5,10 @@ import DA from "../../images/Service-Page/dataannotation.png";
 import DM from "../../images/Service-Page/datamanagement.png";
 import CS from "../../images/Service-Page/cloudservices.png";
 import PE from "../../images/Service-Page/platformengineering.png";
-import QA from "../../images/Service-Page/qualityassurance.png";
-import AD from "../../images/Service-Page/advancedanalytics.png";
-import UE from "../../images/Service-Page/advancedanalytics.png";
-import SC from "../../images/Service-Page/advancedanalytics.png";
+import QA from "../../images/services-images/QualityAssurance/quality-assurance-performance-testing.png";
+import AD from "../../images/services-images/Advanced Analytics/advanced-analytics-graph-analysis.png";
+import UE from "../../images/services-images/UserExperience/user-experience-experience-_-interaction-design.png";
+import SC from "../../images/services-images/Strategy_Consulting/services-strategy_consulting-application-development.png";
 
 const Homeservices = [
   {
