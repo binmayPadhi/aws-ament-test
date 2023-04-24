@@ -62,12 +62,10 @@ const Legalterms = () => {
                     <div className="description-legal fs-16 fw-bold-400 text-dark new-case-studies-card">
                       <p>{data.desc}</p>
                     </div>
-                  </Card.Body>
-                  <Card.Footer>
                     <div className="description-legal new-case-studies-card pt-4 pb-2">
                       <a href={`/${data.link}`}>{`See More ->`}</a>
                     </div>
-                  </Card.Footer>
+                  </Card.Body>
                 </Card>
               </p>
             );

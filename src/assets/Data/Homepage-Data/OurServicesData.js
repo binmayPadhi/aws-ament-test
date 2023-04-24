@@ -44,13 +44,13 @@ const OurServicesData = [
     link: "dataengineering",
   },
   {
-    id: "platform-engineering",
+    id: "cloud-services",
     serviceTitle: "Cloud",
     serviceDesc:
       "Discover the most efficient way to deliver highly available services that can scale with your business growth and keep you ahead of competition.",
     // serviceIMG : PlatformEngineeringIMG,
     serviceIcon: cloud,
-    link: "platformengineering",
+    link: "cloudservices",
   },
   {
     id: "user-experience",

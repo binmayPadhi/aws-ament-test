@@ -5,6 +5,9 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { useRef } from "react";
+import Modal from "react-bootstrap/Modal";
+import correct from "../../images/Contact-Us-Page/correct.png";
+import { useState } from "react";
 
 const schema = yup
   .object()
@@ -25,14 +28,17 @@ const schema = yup
         "email is not valid"
       )
       .required("email is required"),
-    phoneNumber: yup
-      .string()
-      .matches(
-        /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/,
-        "phonenumber is not valid"
-      )
-      .required("phonenumber is required"),
-    acceptCheckbox: yup.string().required("Please check the checkbox"),
+    phoneNumber: yup.string().when("$exist", {
+      is: (exist) => exist,
+      then: yup
+        .string()
+        .matches(
+          /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/,
+          "phonenumber is not valid"
+        ),
+      otherwise: yup.string(),
+    }),
+    acceptCheckbox: yup.bool().oneOf([true], "Checkbox selection is required"),
     cName: yup
       .string()
       .matches(/^[a-zA-Z ]*$/, "Company Name is not valid")
@@ -42,6 +48,10 @@ const schema = yup
   .required();
 
 const Contactform = () => {
+  const [show, setShow] = useState(false);
+  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false);
+
   const dropdownlist = [
     {
       id: 30,
@@ -115,6 +125,7 @@ const Contactform = () => {
         console.log("mail sent"),
         localStorage.setItem("cookie", 4),
         reset(),
+        handleShow(),
         (error) => {
           console.log(error.text);
         }
@@ -157,7 +168,7 @@ const Contactform = () => {
                     <input
                       className="w-100 pl-1"
                       type="text"
-                      name="fNmae"
+                      name="fName"
                       {...register("fName")}
                     />
                   </label>
@@ -198,13 +209,13 @@ const Contactform = () => {
                   </p>
                 </div>
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <label className="font-form">Phone Number*</label>
-                  <p className="email_field mt-1">
+                  <label className="font-form">Phone Number</label>
+                  <p className="email_field">
                     <input
                       type="text"
                       className="pl-1"
                       name="phoneNumber"
-                      {...register("phoneNumber")}
+                      {...register("phoneNumber", { required: false })}
                     />
                   </p>
                   <p className="fs-13 text-danger fw-bold-400">
@@ -231,9 +242,9 @@ const Contactform = () => {
                 </div>
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                   <label className="font-form">
-                    Job Title<span className="star-green">*</span>
+                    Job Title<span className="star-green"></span>
                   </label>
-                  <p className="email_field mt-1">
+                  <p className="email_field">
                     <input
                       type="text"
                       name="jobTitle"
@@ -292,9 +303,6 @@ const Contactform = () => {
                     name="acceptCheckbox"
                     {...register("acceptCheckbox")}
                   ></input>
-                  <p className="fs-13 text-danger fw-bold-400">
-                    {errors.acceptCheckbox?.message}
-                  </p>
                 </div>
                 <div className="w-95 pl-4">
                   <div className="lh-1-25 fs-12">
@@ -317,6 +325,9 @@ const Contactform = () => {
                   </div>
                 </div>
               </div>
+              <p className="fs-13 text-danger fw-bold-400">
+                {errors.acceptCheckbox?.message}
+              </p>
 
               <div className="row ml-0 mr-0 mt-3-rem mb-3-rem">
                 <div className="col-12 text-center">
@@ -332,6 +343,16 @@ const Contactform = () => {
           </div>
         </div>
       </div>
+      <Modal show={show} onHide={handleClose} centered>
+        <Modal.Body className="p-5" style={{ border: "3px solid #FF6E31" }}>
+          <p className="text-black fw-bold-500 fs-18 text-center lh-26 my-3">
+            <img alt="checkmark" src={correct} className="img-35" />
+          </p>
+          <p className="text-black fw-bold-500 fs-14 text-center mt-4">
+            Thank you for your interest, we will get in touch with you shortly!
+          </p>
+        </Modal.Body>
+      </Modal>
     </>
   );
 };
