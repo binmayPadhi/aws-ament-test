@@ -181,7 +181,7 @@ function Navbar() {
                               textDecoration: "none",
                             }}
                           >
-                            AI / ML
+                            AI & ML
                           </NavLink>
                           <p
                             className="sub-service-links"
@@ -686,7 +686,7 @@ function Navbar() {
                     to={`/services/aiml`}
                     activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                   >
-                    AI / ML
+                    AI & ML
                   </NavLink>
                   <NavLink
                     className="dropdown-item sub-service-dropdown-item"

@@ -32,7 +32,7 @@ const Homeservices = [
           "Leverage data science capabilities to get the maximum value from your data...",
         "arrow-image": vector,
         "side-image": null,
-        sublink: "statistic-analysis",
+        sublink: "statistical-analysis",
       },
       {
         id: 321,
@@ -54,7 +54,7 @@ const Homeservices = [
       },
       {
         id: 341,
-        heading: "Competitor analysis",
+        heading: "Competitor Analysis",
         description:
           "Collect, curate and get actionable competitor insights to empower sales...",
         "arrow-image": vector,
