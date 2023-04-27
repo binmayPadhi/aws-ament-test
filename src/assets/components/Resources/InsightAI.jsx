@@ -1,11 +1,11 @@
 import React from "react";
-import blogImg from "../../images/Resources-page/blog-amnet.jpg";
-import Blog from "../../Data/Resources-Data/Blog";
-import { useNavigate } from "react-router-dom";
+import blogImg from "../../images/Resources-page/AIblog.jpg";
+import Blog from "../../Data/Resources-Data/BlogAI";
 import Letsgetstart from "../Webinars/Letsgetstart";
+import { useNavigate } from "react-router-dom";
 
-const Insight = () => {
-  let history = useNavigate();
+const InsightAI = () => {
+  const history = useNavigate();
   const btnColor = {
     backgroundColor: "#ecac27",
     borderRadius: "100px",
@@ -13,7 +13,7 @@ const Insight = () => {
   };
 
   const navigateTothankspage = () => {
-    history(`/webinar-reshaping-the-retail-industry-through-AI`);
+    history(`/blog/webinar-reshaping-the-retail-industry-through-AI`);
   };
   return (
     <>
@@ -23,8 +23,8 @@ const Insight = () => {
           <div className="new-home-about-details row ml-0 mr-0">
             <div calssName="col-12 pl-0 pr-0">
               <h1>
-                Seven Significant ways Artificial Intelligence (AI) is Impacting
-                the Retail Industry
+              AI for Retail - Discover how AI can revolutionize the retail industry and help businesses increase sales, 
+              improve customer experience, and optimize operations
               </h1>
             </div>
           </div>
@@ -33,7 +33,7 @@ const Insight = () => {
             <div className="col-12 about-us-details p-0">
               <img
                 loading="lazy"
-                className="img-fluid "
+                className="img-fluid"
                 src={blogImg}
                 alt="blog"
               />
@@ -49,6 +49,28 @@ const Insight = () => {
                       <h2>{list.title}</h2>
                       <p>{list.description}</p>
                       <p>{list.description1}</p>
+                      <p>{list.description3}</p>
+                      <h3>{list.desitalic}</h3>
+                      <h4>{list.desbold}</h4>
+                      {list.hasOwnProperty("orderedlist") === true ? (
+                        <>
+                        {
+                          <ol className="pl-4">
+                            {
+                              list.orderedlist.map(response => {
+                                return(
+                                  <>
+                                  <li className="fs-18">{response.content}</li>
+                                  </>
+                                )
+                              })
+                            }
+                          </ol>
+                        
+                       }
+                        </>
+                      ): ''}
+                       
                       {list.hasOwnProperty("watchnowImg") === true ? (
                         <>
                           <div style={btnColor} className="mt-5">
@@ -78,7 +100,7 @@ const Insight = () => {
                             loading="lazy"
                             className="img-fluid "
                             src={list.description2}
-                            alt="view webinar image"
+                            alt="view webinar"
                           />
                         </p>
                       ) : (
@@ -95,7 +117,7 @@ const Insight = () => {
 
       {/** let gets started */}
       <div>
-        <Letsgetstart componentFrom = {'blog'} />
+        <Letsgetstart componentFrom = {'blog1'} />
       </div>
 
       {/* NEW HOMEPAGE CAREER SECTION */}
@@ -145,4 +167,4 @@ const Insight = () => {
   );
 };
 
-export default Insight;
+export default InsightAI;

@@ -540,12 +540,10 @@ body {
 
 .footer p a {
   font-family: "Poppins", sans-serif;
-  font-size: 1.8rem;
   font-weight: 400;
   list-style: none;
   margin-top: 10px;
   color: white;
-  text-decoration: underline;
 }
 
 .ISOCeritfied {
@@ -2005,6 +2003,37 @@ label {
 }
 
 .about-us-desc-blog p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: black;
+}
+
+.about-us-desc-blogAI {
+  padding: 0px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-us-desc-blogAI h3{
+  font-size:23px;
+  font-weight:800;
+  color:black;
+  font-style:italic;
+  margin-top:20px;
+}
+
+.about-us-desc-blogAI h4{
+  font-size:23px;
+  font-weight:800;
+  color:black;
+}
+
+.about-us-desc-blogAI h2 {
+  font-size: 3rem;
+  
+  color: rgb(79, 105, 176);
+}
+
+.about-us-desc-blogAI p {
   font-size: 1.8rem;
   font-weight: 500;
   color: black;
@@ -5899,6 +5928,10 @@ label {
 }
 
 .bg-white {
+  background-color: #ffffff;
+}
+
+.bgc-white{
   background-color: #ffffff;
 }
 

@@ -1,0 +1,79 @@
+.ribbonBackground {
+    background: linear-gradient(90deg, #000000 0.99%, #412881 100%);
+    width: 100%;
+    height: auto;
+  }
+  
+  .lh-30 {
+    line-height: 30px;
+  }
+  
+  .speaker_width {
+    width: 20px;
+    margin-top: -10px;
+  }
+  
+  .ribbon_content {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  
+  
+  .lh-50 {
+    line-height: 50px;
+  }
+  
+  .btn-ribbon {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    color: #000000 !important;
+    background: #ffffff;
+    border-radius: 4px;
+    width: 120px;
+    height:28px;
+    padding-top:5px;
+    display: table;
+     margin-left:8px;
+  }
+  
+  .btn-ribbon-mob {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    color: #000000 !important;
+    background: #ffffff;
+    display: table;
+    padding: 10px 25px;
+    border-radius: 4px;
+  }
+  
+  .close_icon {
+    font-size: 18px;
+    color: #3c2577;
+    background-color: #ffffff;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    text-align: right;
+    cursor: pointer;
+  }
+  
+  .close_icon_mob {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: right;
+    cursor: pointer;
+  }
+  
+  .link_styles {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
