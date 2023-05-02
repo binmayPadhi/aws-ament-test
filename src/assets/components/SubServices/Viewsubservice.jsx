@@ -49,6 +49,7 @@ const Viewsubservice = () => {
         <div className="w-95">
           <div className="text-center-img">
             <div className="row">
+              <div className="w-90 mx-auto">
               <div className="col-lg-1 col-md-1 col-sm-12"></div>
               <div className="col-lg-6 col-md-6 col-sm-12">
                 <h2
@@ -64,14 +65,17 @@ const Viewsubservice = () => {
               <div className="col-lg-5 col-md-5 col-sm-12"></div>
             </div>
           </div>
+          </div>
           <div className="bottom-img w-100">
             <div className="row">
+              <div className="w-90 mx-auto">
               <div className="col-lg-1 col-md-1 col-sm-12"></div>
               <div className="col-lg-6 col-md-6 col-sm-12">
                 <p className="fs-24 fw-bold-600 text-white">Services</p>
               </div>
               <div className="col-lg-5 col-md-5 col-sm-12"></div>
             </div>
+          </div>
           </div>
         </div>
       </div>
@@ -139,7 +143,7 @@ const Viewsubservice = () => {
                 })}
               </p>
             </div>
-
+            
             <div
               className="col-md-8 col-lg-8 col-sm-12 col-xs-12 pl-4"
               style={{

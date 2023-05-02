@@ -6,7 +6,7 @@ const blog = [
         id: 1,
         title: "",
         description: "Artificial Intelligence is becoming the limelight practice for Retail businesses as online shopping replaces more and more physical establishments. In today's fast evolution of digitalization, Retailers are using artificial intelligence technologies to help them match their products and services to the expectations of their customers in the digital age when customers are continuously looking for bespoke goods and services. To master productivity and efficiency operations, Artificial Intelligence is becoming the most powerful tool.",
-        description1: "Worldwide artificial intelligence (AI) software revenue is forecast to total $62.5 billion in 2022, an increase of 21.3% from 2021, according to a new forecast from Gartner, Inc."
+        description1: "Worldwide artificial intelligence  software revenue is forecast to total $62.5 billion in 2022, an increase of 21.3% from 2021, according to a new forecast from Gartner, Inc."
     },
     {
         id: 2,
@@ -43,13 +43,13 @@ const blog = [
     {
         id: 8,
         title: "Automating the Warehouse",
-        description: "The complexity of store operations is a result of multichannel retail. In a warehouse, store employees need to perform a variety of tasks. Their duties now extend beyond simply receiving, stocking, and controlling inventory. They need to manage marketing, track promotional offers, and provide product information. A short examination of the products delivered by AI in warehouses and retail supply chains reveals pricing irregularities and out-of-stock items. It can take a while to realize a product has run out at large warehouses. Smart shelves are used in an AI- based inventory management system to notify personnel when there are product shortages or missing items in the inventory.The time saved can be successfully put to use for other fruitful tasks, which will cut down on the amount of time spent at the warehouse.",
+        description: "The complexity of store operations is a result of multichannel retail. In a warehouse, store employees need to perform a variety of tasks. Their duties now extend beyond simply receiving, stocking, and controlling inventory. They need to manage marketing, track promotional offers, and provide product information. A short examination of the products delivered by AI in warehouses and retail supply chains reveals pricing irregularities and out-of-stock items. It can take a while to realize a product has run out at large warehouses. Smart shelves are used in an AI- based inventory management system to notify personnel when there are product shortages or missing items in the inventory. The time saved can be successfully put to use for other fruitful tasks, which will cut down on the amount of time spent at the warehouse.",
         description2: viewWebinar
     },
     {
         id: 9,
         title: "AI - The future buzz for business continuity and growth",
-        description: "AI has the power to completely change the retail industry. The retailers who can develop their retail channels will distinguish themselves as industry leaders when digital and physical purchase channels merge. It offers retailers a future-oriented perspective and takes the place of intuition with intelligence. When implementing AI, business executives must be practical in their approach.AI will help merchants comprehend customer psychology by bringing us closer to the current state of the human brain. A new AI algorithm can actually understand what someone is thinking by using deep learning networks. Last but not least, future research can concentrate on creating AI models to better comprehend consumer/shopper ideas using. For this study, researchers from several fields, including marketing, information systems, computer science, statistics, economics, and psychology, must work together and engage in cross-functional thinking.",        
+        description: "AI has the power to completely change the retail industry. The retailers who can develop their retail channels will distinguish themselves as industry leaders when digital and physical purchase channels merge. It offers retailers a future-oriented perspective and takes the place of intuition with intelligence. When implementing AI, business executives must be practical in their approach. AI will help merchants comprehend customer psychology by bringing us closer to the current state of the human brain. A new AI algorithm can actually understand what someone is thinking by using deep learning networks. Last but not least, future research can concentrate on creating AI models to better comprehend consumer/shopper ideas using. For this study, researchers from several fields, including marketing, information systems, computer science, statistics, economics, and psychology, must work together and engage in cross-functional thinking.",        
     },
 ]
 

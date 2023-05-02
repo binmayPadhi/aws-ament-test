@@ -26,8 +26,9 @@ function App() {
   const url = window.location.pathname;
   return (
     <>
-      {url != "/webinar-reshaping-the-retail-industry-through-AI" &&
-      url != "/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
+      {url != "/blog/webinar-reshaping-the-retail-industry-through-AI" &&
+      url !=
+        "/blog/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
       url != "/swiftinisghts-Webinar" ? (
         <div>
           <Navbar />

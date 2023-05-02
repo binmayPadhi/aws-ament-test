@@ -16,6 +16,13 @@
     font-size:35px;
 }
 
+.rounded-img-corner{
+  color: #1dad8f;
+  border-style:solid;
+  border-width:2px;
+  border-radius:360px;
+}
+
 .fw-bold-600{
     font-weight:600;
 }

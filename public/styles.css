@@ -2013,23 +2013,23 @@ label {
   font-family: "Poppins", sans-serif;
 }
 
-.about-us-desc-blogAI h3{
-  font-size:23px;
-  font-weight:800;
-  color:black;
-  font-style:italic;
-  margin-top:20px;
+.about-us-desc-blogAI h3 {
+  font-size: 23px;
+  font-weight: 800;
+  color: black;
+  font-style: italic;
+  margin-top: 20px;
 }
 
-.about-us-desc-blogAI h4{
-  font-size:23px;
-  font-weight:800;
-  color:black;
+.about-us-desc-blogAI h4 {
+  font-size: 23px;
+  font-weight: 800;
+  color: black;
 }
 
 .about-us-desc-blogAI h2 {
   font-size: 3rem;
-  
+
   color: rgb(79, 105, 176);
 }
 
@@ -5931,7 +5931,7 @@ label {
   background-color: #ffffff;
 }
 
-.bgc-white{
+.bgc-white {
   background-color: #ffffff;
 }
 
@@ -5964,4 +5964,8 @@ label {
   .submit-left {
     padding-left: 52px;
   }
+}
+
+.b-white {
+  background-color: #ffffff !important;
 }

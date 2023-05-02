@@ -25,7 +25,7 @@ function Navbar(props) {
     ) {
       setNavcolor("app");
     } else {
-      if (window.scrollY >= 350) {
+      if (window.scrollY >= 70) {
         setNavcolor("app");
       } else {
         setNavcolor("homepage");
@@ -177,14 +177,44 @@ function Navbar(props) {
               {/* <!-- navigation bar menus --> */}
               <ul className="navbar-nav">
                 {/* <div style={{padding:"15px 0px 0px 0px"}}> */}
-                <NavLink
+                {/* <NavLink
                   to="/aboutus"
                   style={navStyle}
                   className={color === "app" ? "text-black" : "text-white"}
                   activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                 >
                   About Us
-                </NavLink>
+                </NavLink> */}
+                <div className="service-dropdown-menu" style={navStyle}>
+                  <NavLink
+                    to="/aboutus"
+                    onClick={() => (window.location.href = "/aboutus")}
+                    style={navStyle}
+                    className={color === "app" ? "text-black" : "text-white"}
+                  >
+                    About Us
+                  </NavLink>
+                </div>
+                <div
+                  className="dropdown sub-service-dropdown"
+                  style={{ marginTop: "5.5px" }}
+                >
+                  <div
+                    className=" dropdown-toggle d-flex"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <NavLink
+                      to="/aboutus"
+                      style={navStyle}
+                      activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
+                    >
+                      About Us
+                    </NavLink>
+                  </div>
+                </div>
                 {/* SERVICE DROPDOWN MENU   */}
 
                 <div
@@ -737,19 +767,41 @@ function Navbar(props) {
 
                 {/* FOR SMALLER DEVICES */}
 
-                <NavLink
-                  to="/casestudies"
-                  onClick={() => (window.location.href = "/casestudies")}
-                  style={navStyle}
-                  className={color === "app" ? "text-black" : "text-white"}
-                  activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
+                <div className="service-dropdown-menu" style={navStyle}>
+                  <NavLink
+                    to="/casestudies"
+                    onClick={() => (window.location.href = "/casestudies")}
+                    style={navStyle}
+                    className={color === "app" ? "text-black" : "text-white"}
+                  >
+                    Case Studies
+                  </NavLink>
+                </div>
+                <div
+                  className="dropdown sub-service-dropdown"
+                  style={{ marginTop: "5.5px" }}
                 >
-                  Case Studies
-                </NavLink>
+                  <div
+                    className=" dropdown-toggle d-flex"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <NavLink
+                      to="/casestudies"
+                      style={navStyle}
+                      activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
+                    >
+                      Case Studies
+                    </NavLink>
+                  </div>
+                </div>
+
                 {/* </div> */}
 
                 {/* <div style={{padding:"15px 0px 0px 0px"}}> */}
-                <NavLink
+                {/* <NavLink
                   to="/careers"
                   className={color === "app" ? "text-black" : "text-white"}
                   onClick={() => (window.location.href = "/careers")}
@@ -757,7 +809,38 @@ function Navbar(props) {
                   activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                 >
                   Careers
-                </NavLink>
+                </NavLink> */}
+                <div className="service-dropdown-menu" style={navStyle}>
+                  <NavLink
+                    to="/Careers"
+                    onClick={() => (window.location.href = "/Careers")}
+                    style={navStyle}
+                    className={color === "app" ? "text-black" : "text-white"}
+                  >
+                    Careers
+                  </NavLink>
+                </div>
+
+                <div
+                  className="dropdown sub-service-dropdown"
+                  style={{ marginTop: "5.5px" }}
+                >
+                  <div
+                    className=" dropdown-toggle d-flex"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <NavLink
+                      to="/careers"
+                      style={navStyle}
+                      activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
+                    >
+                      Careers
+                    </NavLink>
+                  </div>
+                </div>
 
                 <div
                   className="service-dropdown-menu only-blog-dropdown"

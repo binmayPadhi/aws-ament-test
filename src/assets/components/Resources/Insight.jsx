@@ -13,7 +13,7 @@ const Insight = () => {
   };
 
   const navigateTothankspage = () => {
-    history(`/webinar-reshaping-the-retail-industry-through-AI`);
+    history(`/blog/webinar-reshaping-the-retail-industry-through-AI`);
   };
   return (
     <>

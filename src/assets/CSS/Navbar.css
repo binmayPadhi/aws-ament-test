@@ -131,7 +131,6 @@
 .sub-service-dropdown-item {
   font-size: 1.5rem;
   font-weight: 400px;
-  color: white;
   padding: 10px 0px !important;
   text-align: left !important;
 }
@@ -191,13 +190,12 @@
   height: 200px;
 }
 
-
 .text-black {
   color: black;
 }
 
-.text-white{
-  color:white;
+.text-white {
+  color: white;
 }
 
 .bg-nav-white {
@@ -468,7 +466,7 @@
 
 .dropdown-item.active,
 .dropdown-item:active {
-  color: #19af8f;
+  color: #000000;
   text-decoration: none;
   background-color: transparent !important;
 }
@@ -494,7 +492,7 @@
   content: "";
   position: absolute;
   top: 58px;
-  left: 56%;
+  left: 51%;
   margin-left: -15px;
   width: 0px;
   height: 0px;
@@ -818,7 +816,7 @@
     content: "";
     position: absolute;
     top: 58px;
-    left: 75%;
+    left: 73%;
     margin-left: -15px;
     width: 0px;
     height: 0px;
