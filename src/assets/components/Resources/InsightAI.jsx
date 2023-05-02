@@ -47,11 +47,12 @@ const InsightAI = () => {
                   <div className="col-12 about-us-details p-0" key={list.id}>
                     <div className="about-us-desc-blog">
                       <h2>{list.title}</h2>
+                      <h3 className="fs-26 fw-bold-600">{list.subheading}</h3>
                       <p>{list.description}</p>
                       <p>{list.description1}</p>
                       <p>{list.description3}</p>
-                      <h3>{list.desitalic}</h3>
-                      <h4>{list.desbold}</h4>
+                      <h3 className="fw fs-19">{list.desitalic}</h3>
+                      <h4 className="fw-bold-600 fs-19">{list.desbold}</h4>
                       {list.hasOwnProperty("orderedlist") === true ? (
                         <>
                         {

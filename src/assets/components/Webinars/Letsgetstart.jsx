@@ -83,8 +83,8 @@ const Letsgetstart = (props) => {
     <>
       <div className="mt-3-rem mb-3-rem">
         <div className="d-flex w-100 justify-content-center">
-          <div className="w-75 bg-left h-120 d-flex align-items-center">
-            <div className="center-98 pl-4">
+          <div className="w-75 bg-left  d-flex align-items-center">
+            <div className="center-88">
               <p className="mb-0 text-white fs-20 font-weight-bold py-4">
                 {props.componentFrom === "blog" ?
                   <>
@@ -103,7 +103,7 @@ const Letsgetstart = (props) => {
               </p>
             </div>
           </div>
-          <div className="w-25 bg-right h-120 d-flex align-items-center">
+          <div className="w-25 bg-right  d-flex align-items-center">
             <div className="center-98">
               <p
                 className="mb-0 text-white fs-20 font-weight-bold w-100 pl-4"

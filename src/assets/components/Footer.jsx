@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useRef } from "react";
 import amnetLogo from "../images/HomePage/amnetdigitalblack.png";
-import submit_icon from "../images/HomePage/Send.png";
 import linkdein from "../images/HomePage/Linkedin.png";
 import twitter from "../images/HomePage/Twitter.png";
 import facebook from "../images/HomePage/Facebook.png";
@@ -13,13 +12,15 @@ import instagram from "../images/HomePage/Instagram.png";
 import { Link } from "react-router-dom";
 import top from "../images/HomePage/Icon ionic-ios-arrow-down.png";
 import "../CSS/Footer.css";
-import Button from 'react-bootstrap/Button';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-import Tooltip from 'react-bootstrap/Tooltip';
+import Modal from "react-bootstrap/Modal";
+// import Button from "react-bootstrap/Button";
+// import OverlayTrigger from "react-bootstrap/OverlayTrigger";
+// import Tooltip from "react-bootstrap/Tooltip";
 import emailjs from "emailjs-com";
 import star from "../images/HomePage/star.png";
 import send from "../images/HomePage/Sendicon.png";
-
+import cross from "../images/HomePage/close-icon.png";
+import { ModalHeader } from "react-bootstrap";
 
 function Footer() {
   const emailDetails = useRef();
@@ -177,7 +178,7 @@ function Footer() {
     //   ],
     // },
     {
-      id: 5,
+      id: 4,
       headingName: "RESOURCES",
       sublist: [
         {
@@ -207,6 +208,7 @@ function Footer() {
       ],
     },
   ];
+
   const icons = [
     {
       id: 1,
@@ -234,6 +236,9 @@ function Footer() {
       link: "https://www.instagram.com/amnetdigital",
     },
   ];
+  const closeModal = () => {
+    setShow(false);
+  };
   const topscroll = (e) => {
     e.preventDefault();
     window.scrollTo({
@@ -242,18 +247,16 @@ function Footer() {
       behavior: "smooth",
     });
   };
-  const schema = yup
-    .object()
-    .shape({
-      email: yup
-        .string()
-        .email()
-        .matches(
-          /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
-          "email is not valid"
-        )
-        .required("email is required"),
-    })
+  const schema = yup.object().shape({
+    email: yup
+      .string()
+      .email()
+      .matches(
+        /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+        "email is not valid"
+      )
+      .required("email is required"),
+  });
 
   const {
     register,
@@ -284,7 +287,7 @@ function Footer() {
       <div className="container-fluid footer pt-5 pb-b-5">
         <div className="center-88">
           <p className="pt-4 text-center w-100">
-            <img className="img-fluid logo w-25" src={amnetLogo} alt="logo" />
+            <img className="img-fluid logo " src={amnetLogo} alt="logo" />
           </p>
           <p className="pb-4 para_footer text-center fs-13 font-weight-bold w-100">
             Subscribe for latest AI & Analytics News
@@ -292,72 +295,55 @@ function Footer() {
           <div className="row">
             <div className="col-md-3 col-lg-3 col-sm-12"></div>
             <div className="col-md-6 col-lg-6 col-sm-12 w-100">
-              {show === false ? (
-                <form ref={emailDetails} onSubmit={handleSubmit(submit)}>
-                  <p className="pb-4 input_field w-100">
-                    <input
-                      type="email"
-                      className="text-width w-100 position-relative"
-                      placeholder="Enter your business email"
-                      name="email"
-                      {...register("email")}
-                    />
-                    <button
-                      className="position-absolute icon-footer cr-pointer"
-                      type="submit"
-                    >
-                      <img
-                        src={send}
-                        width="25"
-                      />
-                    </button>
-                  </p>
-                </form>
-              ) : (
-                <div className="bg-white mx-auto p-5 h-auto mb-2">
-
-                  <p className="text-black fw-bold-500 fs-18 text-center lh-26 my-3">
-                    <img alt="checkmark" src={star} className="img-25" />
-                  </p>
-                  <div className="text-black thank-style text-center my-3">
-                    Thank you for subscribing!
-                  </div>
-                  <p className="text-black fw-bold-500 fs-12 text-center mb-0">
-                    You have successfully Subscribed for our latest
-                    AI & Analytics Insights
-                  </p>
-                </div>
-              )}
+              <form ref={emailDetails} onSubmit={handleSubmit(submit)}>
+                <p className="pb-4 input_field w-100">
+                  <input
+                    type="email"
+                    className="text-width w-100 position-relative"
+                    placeholder="Enter your business email"
+                    name="email"
+                    {...register("email")}
+                  />
+                  <button
+                    className="position-absolute icon-footer cr-pointer bgc-white"
+                    type="submit"
+                  >
+                    <img src={send} width="25" />
+                  </button>
+                </p>
+              </form>
             </div>
             <div className="col-md-3 col-lg-3 col-sm-12"></div>
           </div>
         </div>
-        <div className="w-98 mx-auto mb-5">
-          <p className="row mx-0 mt-3 mb-3">
-            <div className="col-sm-12 col-xs-12 col-md-1 col-lg-1"></div>
+        <div className=" mx-auto mb-5">
+          <p className="row center-70 mt-3 mb-3 ">
+          <div className="  col-sm-12 col-xs-12"></div>
             {footerlist.map((list) => {
-              return (
+              return (              
                 <p
-                  className="col-md-2 col-lg-2 col-sm-12 col-xs-12"
+                  className="col-md-3 col-lg-3 col-sm-12 col-xs-12 text-md-left text-lg-left text-sm-left"
                   key={list.id}
                 >
-                  <h5 className="list-heading">{list.headingName}</h5>
-                  <ul className="pt-3">
+                  <h5 className="list-heading heading-padding">{list.headingName}</h5>
+                  <ul className="pt-3 heading-padding">
                     {list.sublist.map((val) => {
                       return (
                         <li key={val.id}>
-                          {val.link != "" ? 
+                          {val.link != "" ? (
                             <Link
                               to={val.link}
-                              target={val.id !== 21 && val.id !== 52 ? "" :  "_blank"}
+                              target={
+                                val.id !== 21 && val.id !== 52 ? "" : "_blank"
+                              }
                               className="desName cr-pointer text-decoration-none fs-13 text-black"
                             >
                               {val.name}
                             </Link>
-                           : 
+                          ) : (
                             <>
-                            <span className="hovertip text-decoration-none fs-13 text-left">
-                              {val.hasOwnProperty("tooltip") === true ? ['top'].map((placement) => (
+                              <span className="hovertip text-decoration-none fs-13 text-left">
+                                {/* {val.hasOwnProperty("tooltip") === true ? ['top'].map((placement) => (
                                 <OverlayTrigger
                                   key={placement}
                                   placement={placement}
@@ -369,35 +355,38 @@ function Footer() {
                                 >
                                  <div className="fs-13">{val.name} </div>  
                                 </OverlayTrigger>
-                              )) : <div className="fs-13">{val.name} </div>}
-                            </span>
+                              )) : <div className="fs-13">{val.name} </div>} */}
+                                <div className="fs-13">{val.name} </div>
+                              </span>
                             </>
-                          }
+                          )}
                         </li>
                       );
                     })}
                   </ul>
                 </p>
+                
               );
             })}
-            <div className="col-sm-12 col-xs-12 col-md-1 col-lg-1"></div>
+            <div className="col-sm-12 col-xs-12"></div>
           </p>
         </div>
       </div>
-      <div className="container-fluid bg-white">
+      <div className="container-fluid bg-white mt-5">
         <div className="center-88">
           <div className="row mb-5">
             <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 text-left">
               <p className="listName">info@amnetdigital.com</p>
               <p className="listName">098765 12345</p>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3 text-center">
-              <p className="listName">
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3 text-md-center text-lg-center text-sm-left">
+              <p className="listName text-md-center">
                 660 South Bagdad Road #320, Leander, TX 78641 Austin, Texas
               </p>
             </div>
-            <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 text-left">
-              <p className="listName px-3">Follow Us</p>
+            <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 ">
+              <p className="listName text-md-left text-lg-center text-sm-left mr-4">Follow Us</p>
+              <div className="text-md-right text-lg-right text-sm-left ">
               {icons.map((listedicon) => {
                 return (
                   <a
@@ -411,14 +400,15 @@ function Footer() {
                   </a>
                 );
               })}
+              </div>
             </div>
           </div>
           <p className="footer-border"></p>
           <div className="row mb-5">
-            <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 text-left">
+            <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 text-md-left text-lg-left text-sm-left">
               <p className="listName">© 2023 Amnet Digital</p>
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3 text-center">
+            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3 text-md-center text-lg-center text-sm-left">
               <span className="px-3 listName">
                 <a href="/legalresources" className="fs-13 text-black">
                   Legal Resources
@@ -435,12 +425,12 @@ function Footer() {
                 </a>
               </span>
             </div>
-            <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 text-right">
-              <div className="px-3 listName" onClick={(e) => topscroll(e)}>
+            <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 text-md-right text-lg-right text-sm-left">
+              <div className="px-3 listName " onClick={(e) => topscroll(e)}>
                 Top
                 <img
                   src={top}
-                  className="img-top"
+                  className="img-top ml-3"
                   style={{ cursor: "pointer" }}
                 />
               </div>
@@ -448,6 +438,28 @@ function Footer() {
           </div>
         </div>
       </div>
+      <Modal show={show} onHide={closeModal} centered>
+        <Modal.Body className="box-shadow-popup">
+          <p className="text-black fw-bold-500 fs-18 text-right lh-26 my-3">
+            <img
+              alt="crossmark"
+              src={cross}
+              className="img-25 pr-3 cr-pointer"
+              onClick={closeModal}
+            />
+          </p>
+          <p className="text-black fw-bold-500 fs-18 text-center lh-26 my-3">
+            <img alt="checkmark" src={star} className="img-25" />
+          </p>
+          <div className="text-black thank-style text-center my-3">
+            Thank you for subscribing!
+          </div>
+          <p className="text-black fw-bold-500 fs-12 text-center mb-5">
+            You have successfully Subscribed for our latest AI & Analytics
+            Insights
+          </p>
+        </Modal.Body>
+      </Modal>
     </>
   );
 }
