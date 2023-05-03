@@ -287,10 +287,10 @@ function Footer() {
       <div className="container-fluid footer pt-5 pb-b-5">
         <div className="center-88">
           <p className="pt-4 text-center w-100">
-            <img className="img-fluid logo " src={amnetLogo} alt="logo" />
+            <img className="img-fluid logo" src={amnetLogo} alt="logo" />
           </p>
           <p className="pb-4 para_footer text-center fs-13 font-weight-bold w-100">
-            Subscribe for latest AI & Analytics News
+            Subscribe for latest AI & Analytics Insights
           </p>
           <div className="row">
             <div className="col-md-3 col-lg-3 col-sm-12"></div>
@@ -318,14 +318,16 @@ function Footer() {
         </div>
         <div className=" mx-auto mb-5">
           <p className="row center-70 mt-3 mb-3 ">
-          <div className="  col-sm-12 col-xs-12"></div>
+            <div className="  col-sm-12 col-xs-12"></div>
             {footerlist.map((list) => {
-              return (              
+              return (
                 <p
                   className="col-md-3 col-lg-3 col-sm-12 col-xs-12 text-md-left text-lg-left text-sm-left"
                   key={list.id}
                 >
-                  <h5 className="list-heading heading-padding">{list.headingName}</h5>
+                  <h5 className="list-heading heading-padding">
+                    {list.headingName}
+                  </h5>
                   <ul className="pt-3 heading-padding">
                     {list.sublist.map((val) => {
                       return (
@@ -365,7 +367,6 @@ function Footer() {
                     })}
                   </ul>
                 </p>
-                
               );
             })}
             <div className="col-sm-12 col-xs-12"></div>
@@ -385,21 +386,23 @@ function Footer() {
               </p>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 ">
-              <p className="listName text-md-left text-lg-center text-sm-left mr-4">Follow Us</p>
+              <p className="listName text-md-left text-lg-center text-sm-left mr-4">
+                Follow Us
+              </p>
               <div className="text-md-right text-lg-right text-sm-left ">
-              {icons.map((listedicon) => {
-                return (
-                  <a
-                    key={listedicon.id}
-                    href={listedicon.link}
-                    target="_blank"
-                    className="p-3"
-                    style={{ cursor: "pointer" }}
-                  >
-                    <img src={listedicon.image} />
-                  </a>
-                );
-              })}
+                {icons.map((listedicon) => {
+                  return (
+                    <a
+                      key={listedicon.id}
+                      href={listedicon.link}
+                      target="_blank"
+                      className="p-3"
+                      style={{ cursor: "pointer" }}
+                    >
+                      <img src={listedicon.image} />
+                    </a>
+                  );
+                })}
               </div>
             </div>
           </div>
@@ -455,8 +458,8 @@ function Footer() {
             Thank you for subscribing!
           </div>
           <p className="text-black fw-bold-500 fs-12 text-center mb-5">
-            You have successfully Subscribed for our latest AI & Analytics
-            Insights
+            You have successfully subscribed to our AI & Analytics Insights
+            newsletter
           </p>
         </Modal.Body>
       </Modal>

@@ -5,13 +5,13 @@ const blog = [
     {
         id: 1,
         title: "Unlocking the Potential of AI for Retail Businesses",
-        description: "The world of retail is constantly evolving, and businesses must keep up with the latest technology to stay competitive. One of the most promising advancements in recent years has been the rise of artificial intelligence (AI). This powerful technology has the potential to transform retail operations and improve customer experiences in ways that were previously impossible. In this article, we'll explore the role of AI in retail and how businesses can unlock its potential to stay ahead in the ever-changing retail landscape.",
+        description: "The world of retail is constantly evolving, and businesses must keep up with the latest technology to stay competitive. One of the most promising advancements in recent years has been the rise of artificial intelligence. This powerful technology has the potential to transform retail operations and improve customer experiences in ways that were previously impossible. In this article, we'll explore the role of AI in retail and how businesses can unlock its potential to stay ahead in the ever-changing retail landscape.",
     },
     {
         id: 2,
         title: "Understanding the Role of AI in Retail",
         description: "AI or Artificial Intelligence, is a rapidly growing technology that has the potential to revolutionize the retail industry. It refers to computer systems that are designed to perform tasks that typically require human intelligence, such as perception, reasoning, and learning. In the context of retail, AI can be used to process and analyze vast amounts of data to identify patterns and insights that humans would struggle to recognize. This can help retailers make better decisions, improve efficiencies, and enhance the overall customer experience.",
-        desitalic: "“Fact.MR, a market research and competitive intelligence provider, reveals that the global artificial intelligence (AI) in the retail market is set to achieve a valuation of US$ 85 billion by 2033, expanding at a noteworthy 30.3% CAGR from 2023 to 2033.”",
+        desitalic: "“Fact.MR, a market research and competitive intelligence provider, reveals that the global artificial intelligence  in the retail market is set to achieve a valuation of US$ 85 billion by 2033, expanding at a noteworthy 30.3% CAGR from 2023 to 2033.”",
     },
     {
         id: 3,
@@ -93,7 +93,7 @@ const blog = [
     {
         id: 16,
         title: "Optimizing Inventory Management and Supply Chain",
-        description: "Inventory management and supply chain optimization are critical areas for retailers to ensure that they can meet customer demand and maintain profitability. One of the most effective ways to achieve these goals is by leveraging artificial intelligence (AI) technologies.",
+        description: "Inventory management and supply chain optimization are critical areas for retailers to ensure that they can meet customer demand and maintain profitability. One of the most effective ways to achieve these goals is by leveraging artificial intelligence technologies.",
         description1:"AI can help retailers streamline their operations and ensure that they always have the right products in stock. Here are some ways AI can benefit retailers in inventory management and supply chain optimization:",
     },
     {

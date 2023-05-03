@@ -37,6 +37,10 @@
   padding: 0.5rem 0rem !important;
 }
 
+.bgc-white{
+  background-color: #ffffff!important;
+}
+
 .navbar-nav .active a {
   color: #9de0d2;
 }
@@ -190,12 +194,13 @@
   height: 200px;
 }
 
+
 .text-black {
   color: black;
 }
 
-.text-white {
-  color: white;
+.text-white{
+  color:white;
 }
 
 .bg-nav-white {
@@ -492,7 +497,7 @@
   content: "";
   position: absolute;
   top: 58px;
-  left: 51%;
+  left: 56%;
   margin-left: -15px;
   width: 0px;
   height: 0px;
@@ -816,7 +821,7 @@
     content: "";
     position: absolute;
     top: 58px;
-    left: 73%;
+    left: 75%;
     margin-left: -15px;
     width: 0px;
     height: 0px;

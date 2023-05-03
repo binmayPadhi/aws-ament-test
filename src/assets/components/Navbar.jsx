@@ -161,11 +161,12 @@ function Navbar(props) {
             </a>
             {/* <!-- navigation bar logo --> */}
             <button
-              className="navbar-toggler custom-toggler"
+              className="navbar-toggler custom-toggler bgc-white"
               type="button"
               data-toggle="collapse"
               data-target="#navbarNav"
               aria-controls="navbarNav"
+              aria-haspopup="true"
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
@@ -175,24 +176,19 @@ function Navbar(props) {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               {/* <!-- navigation bar menus --> */}
-              <ul className="navbar-nav">
-                {/* <div style={{padding:"15px 0px 0px 0px"}}> */}
-                {/* <NavLink
+              <ul className="navbar-nav"> 
+                {/*--For Mobile Navigation--*/}             
+                <div 
+                className="service-dropdown-menu"
+                style ={navStyle}
+                >
+                  <NavLink 
                   to="/aboutus"
+                  onClick={() => (window.location.href = "/aboutus")}
                   style={navStyle}
                   className={color === "app" ? "text-black" : "text-white"}
-                  activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
-                >
-                  About Us
-                </NavLink> */}
-                <div className="service-dropdown-menu" style={navStyle}>
-                  <NavLink
-                    to="/aboutus"
-                    onClick={() => (window.location.href = "/aboutus")}
-                    style={navStyle}
-                    className={color === "app" ? "text-black" : "text-white"}
                   >
-                    About Us
+                   About Us
                   </NavLink>
                 </div>
                 <div
@@ -200,7 +196,7 @@ function Navbar(props) {
                   style={{ marginTop: "5.5px" }}
                 >
                   <div
-                    className=" dropdown-toggle d-flex"
+                    className=" dropdown-toggle d-flex dropdown-item sub-service-dropdown-item"
                     id="dropdownMenuButton"
                     data-toggle="dropdown"
                     aria-haspopup="true"
@@ -211,7 +207,7 @@ function Navbar(props) {
                       style={navStyle}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                     >
-                      About Us
+                       About Us
                     </NavLink>
                   </div>
                 </div>
@@ -732,7 +728,7 @@ function Navbar(props) {
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/services/userexperiences`}
+                      to={`/services/userexperinces`}
                     >
                       User Experience
                     </NavLink>
@@ -767,15 +763,19 @@ function Navbar(props) {
 
                 {/* FOR SMALLER DEVICES */}
 
-                <div className="service-dropdown-menu" style={navStyle}>
-                  <NavLink
-                    to="/casestudies"
-                    onClick={() => (window.location.href = "/casestudies")}
-                    style={navStyle}
-                    className={color === "app" ? "text-black" : "text-white"}
-                  >
-                    Case Studies
-                  </NavLink>
+
+                <div 
+                className="service-dropdown-menu "
+                style={navStyle}
+                >
+                 <NavLink
+                 to="/casestudies"
+                 onClick={() => (window.location.href = "/casestudies")}
+                 style={navStyle}
+                 className={color === "app" ? "text-black" : "text-white"}
+                 >
+                  Case Studies
+                 </NavLink>
                 </div>
                 <div
                   className="dropdown sub-service-dropdown"
@@ -793,7 +793,7 @@ function Navbar(props) {
                       style={navStyle}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                     >
-                      Case Studies
+                       Case Studies
                     </NavLink>
                   </div>
                 </div>
@@ -810,7 +810,10 @@ function Navbar(props) {
                 >
                   Careers
                 </NavLink> */}
-                <div className="service-dropdown-menu" style={navStyle}>
+               <div
+                  className="service-dropdown-menu "                  
+                  style={navStyle}
+                >
                   <NavLink
                     to="/Careers"
                     onClick={() => (window.location.href = "/Careers")}
@@ -849,7 +852,7 @@ function Navbar(props) {
                   style={navStyle}
                 >
                   <NavLink
-                    to="/blog"
+                    to="/Insighthome"
                     onClick={() => (window.location.href = "/blog")}
                     style={navStyle}
                     className={color === "app" ? "text-black" : "text-white"}
@@ -957,14 +960,14 @@ function Navbar(props) {
                   style={{ marginTop: "5.5px" }}
                 >
                   <div
-                    className=" dropdown-toggle d-flex"
+                    className="dropdown-toggle d-flex"
                     id="dropdownMenuButton"
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
                     <NavLink
-                      to="/blog"
+                      to="/Insighthome"
                       style={navStyle}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                     >
