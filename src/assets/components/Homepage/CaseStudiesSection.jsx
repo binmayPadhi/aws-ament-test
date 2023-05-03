@@ -15,7 +15,7 @@ function CaseStudiesSection() {
           {CaseStudiesSectionData.map((list) => {
             return (
               <div
-                className="col-lg-3 col-md-6 col-sm-12 col-xs-12 new-case-studies-card"
+                className="col-lg-3 col-md-6 col-sm-12 col-xs-12 new-case-studies-card-section d-flex align-items-strech mb-4"
                 key={list.id}
               >
                 <div className="card animation-card-image">
@@ -25,12 +25,15 @@ function CaseStudiesSection() {
                     src={list.caseStudiesIMG}
                     alt="Case Studies"
                   />
-                  <div className="card-body propensity-modelling">
+                  <div className="card-body propensity-modelling height-auto pb-2">
                     <h5 className="card-title">{list.caseStudiesTitle}</h5>
                     <p>{list.caseStudiesDesc}</p>
+                  </div>
+                  <div className="card-footer border border-top-0 border-bottom-0 text-left border-left-0 border-right-0 bgc-white">
                     <a href={`./casestudies#${list.id}`}>{`Learn More ->`}</a>
                   </div>
                 </div>
+
               </div>
             );
           })}

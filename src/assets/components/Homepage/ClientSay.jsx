@@ -6,11 +6,11 @@ function ClientSay() {
     <>
       <div className="client-say">
         <h1 className="section-title mt-3 text-center">WHAT OUR CLIENTS SAY</h1>
-        <div className="client-say-row new-all-margin">
+        <div className="client-say-row w-90 mx-auto">
           <div className="row">
-            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-              <div className="card client-say-card">
-                <div className="card-body">
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 client-say-card-center">
+              <div className="card client-say-card ">
+                <div className="card-body ">
                   <img
                     loading="lazy"
                     src={QuoteIcon}
@@ -29,11 +29,13 @@ function ClientSay() {
                     hidden relationships in our customers buying patterns for
                     better forecast and bundling of products.
                   </p>
+                  <p className=""></p>
                 </div>
+                <div className="green-border-line "></div>
               </div>
             </div>
 
-            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 client-say-card-center">
               <div className="card client-say-card">
                 <div className="card-body">
                   <img
@@ -55,6 +57,7 @@ function ClientSay() {
                     data deduplication processes.
                   </p>
                 </div>
+                <div className="green-border-line "></div>
               </div>
             </div>
 
@@ -80,6 +83,7 @@ function ClientSay() {
                     working with them in future projects.
                   </p>
                 </div>
+                <div className="green-border-line "></div>
               </div>
             </div>
           </div>

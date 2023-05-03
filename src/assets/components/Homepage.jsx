@@ -248,7 +248,7 @@ function Test() {
           padding: "30px",
         }}
       >
-        <div className="new-career-section new-all-margin">
+        <div className="new-career-section w-90 mx-auto">
           <div className="career-section-row row g-0">
             <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-caption">
               <h5>WORK WITH US</h5>

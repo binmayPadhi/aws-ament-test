@@ -2013,23 +2013,23 @@ label {
   font-family: "Poppins", sans-serif;
 }
 
-.about-us-desc-blogAI h3 {
-  font-size: 23px;
-  font-weight: 800;
-  color: black;
-  font-style: italic;
-  margin-top: 20px;
+.about-us-desc-blogAI h3{
+  font-size:23px;
+  font-weight:800;
+  color:black;
+  font-style:italic;
+  margin-top:20px;
 }
 
-.about-us-desc-blogAI h4 {
-  font-size: 23px;
-  font-weight: 800;
-  color: black;
+.about-us-desc-blogAI h4{
+  font-size:23px;
+  font-weight:800;
+  color:black;
 }
 
 .about-us-desc-blogAI h2 {
   font-size: 3rem;
-
+  
   color: rgb(79, 105, 176);
 }
 
@@ -4124,6 +4124,46 @@ label {
   color: #fd5d14;
 }
 
+.new-case-studies-card-section {
+  padding-right: 5px !important;
+  padding-left: 0px !important;
+}
+
+.new-case-studies-card-section .card-body {
+  text-align: left;  
+}
+
+.new-case-studies-card-section .card-title {
+  color: black;
+  font-size: 1.8rem;
+  margin-top: 10px;
+  font-weight: 800;
+}
+
+.new-case-studies-card-section p {
+  color: black;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  opacity: 1;
+  font-weight: 400;
+  height: auto;
+  margin-bottom: 5rem;
+}
+
+.new-case-studies-card-section a {
+  text-align: left;
+  font-size: 1.5rem;
+  padding: 15px 0px;
+  font-weight: 800;
+  color: #19af8f;
+  position: absolute;
+  top: 80%;
+}
+
+.new-case-studies-card-section a:hover {
+  color: #fd5d14;
+}
+
 .new-explore-link {
   margin-top: 25px;
 }
@@ -4175,7 +4215,21 @@ label {
 .client-say .card {
   background-color: black;
   color: white;
+ 
+}
+
+@media only screen and (min-width:320px) and (max-width:720px){
+.green-border-line{
   border-bottom: 5px solid #19af8f;
+  margin-top:50px;
+}
+}
+
+@media only screen and (min-width:1024px) and (max-width:2500px){
+  .green-border-line{
+    border-bottom: 5px solid #19af8f;
+    margin-top:px;
+  }
 }
 
 .client-say .card-body {
@@ -4711,6 +4765,7 @@ label {
 
   .client-say .card {
     margin-top: 15px;
+    margin-bottom:15px;
   }
 
   .client-say .card-body {
@@ -5931,7 +5986,7 @@ label {
   background-color: #ffffff;
 }
 
-.bgc-white {
+.bgc-white{
   background-color: #ffffff;
 }
 
@@ -5966,6 +6021,6 @@ label {
   }
 }
 
-.b-white {
-  background-color: #ffffff !important;
+.height-auto {
+  height: auto!important;
 }
