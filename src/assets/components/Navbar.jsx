@@ -18,10 +18,13 @@ function Navbar(props) {
       url ===
         "/blog/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" ||
       url === "/cookiespolicy" ||
+      url === "/blog/Insighthome" ||
       url === "/Privacypolicy" ||
       url === "/termsandconditions" ||
       url === "/blog" ||
-      url === "/blog/blog-AI-retail-industry"
+      url === "/blog/blog-AI-retail-industry" ||
+      url === "/blog/blog-AIops-retail-industry" ||
+      url === "/blog/AI-for-IT-operations"
     ) {
       setNavcolor("app");
     } else {
@@ -176,19 +179,16 @@ function Navbar(props) {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               {/* <!-- navigation bar menus --> */}
-              <ul className="navbar-nav"> 
-                {/*--For Mobile Navigation--*/}             
-                <div 
-                className="service-dropdown-menu"
-                style ={navStyle}
-                >
-                  <NavLink 
-                  to="/aboutus"
-                  onClick={() => (window.location.href = "/aboutus")}
-                  style={navStyle}
-                  className={color === "app" ? "text-black" : "text-white"}
+              <ul className="navbar-nav">
+                {/*--For Mobile Navigation--*/}
+                <div className="service-dropdown-menu" style={navStyle}>
+                  <NavLink
+                    to="/aboutus"
+                    onClick={() => (window.location.href = "/aboutus")}
+                    style={navStyle}
+                    className={color === "app" ? "text-black" : "text-white"}
                   >
-                   About Us
+                    About Us
                   </NavLink>
                 </div>
                 <div
@@ -207,7 +207,7 @@ function Navbar(props) {
                       style={navStyle}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                     >
-                       About Us
+                      About Us
                     </NavLink>
                   </div>
                 </div>
@@ -319,6 +319,7 @@ function Navbar(props) {
                                 onClick={(e) =>
                                   serviceTo(e, `/services/advancedanalytics`)
                                 }
+                                className="cr-pointer"
                               >
                                 Advanced Analytics
                               </span>
@@ -361,6 +362,7 @@ function Navbar(props) {
                                 onClick={(e) =>
                                   serviceTo(e, `/services/strategyconsulting`)
                                 }
+                                className="cr-pointer"
                               >
                                 Strategy & Consulting
                               </span>
@@ -409,6 +411,7 @@ function Navbar(props) {
                                 onClick={(e) =>
                                   serviceTo(e, `/services/dataannotation`)
                                 }
+                                className="cr-pointer"
                               >
                                 Data Annotation
                               </span>
@@ -452,6 +455,7 @@ function Navbar(props) {
                                 onClick={(e) =>
                                   serviceTo(e, `/services/dataengineering`)
                                 }
+                                className="cr-pointer"
                               >
                                 Data Engineering
                               </span>
@@ -495,6 +499,7 @@ function Navbar(props) {
                                 onClick={(e) =>
                                   serviceTo(e, `/services/datamanagement`)
                                 }
+                                className="cr-pointer"
                               >
                                 Data Management
                               </span>
@@ -539,6 +544,7 @@ function Navbar(props) {
                                 onClick={(e) =>
                                   serviceTo(e, `/services/userexperiences`)
                                 }
+                                className="cr-pointer"
                               >
                                 User Experience
                               </span>
@@ -582,6 +588,7 @@ function Navbar(props) {
                                 onClick={(e) =>
                                   serviceTo(e, `/services/cloudservices`)
                                 }
+                                className="cr-pointer"
                               >
                                 Cloud Services
                               </span>
@@ -625,6 +632,7 @@ function Navbar(props) {
                                 onClick={(e) =>
                                   serviceTo(e, `/services/qualityassurance`)
                                 }
+                                className="cr-pointer"
                               >
                                 Quality Assurance
                               </span>
@@ -763,19 +771,15 @@ function Navbar(props) {
 
                 {/* FOR SMALLER DEVICES */}
 
-
-                <div 
-                className="service-dropdown-menu "
-                style={navStyle}
-                >
-                 <NavLink
-                 to="/casestudies"
-                 onClick={() => (window.location.href = "/casestudies")}
-                 style={navStyle}
-                 className={color === "app" ? "text-black" : "text-white"}
-                 >
-                  Case Studies
-                 </NavLink>
+                <div className="service-dropdown-menu " style={navStyle}>
+                  <NavLink
+                    to="/casestudies"
+                    onClick={() => (window.location.href = "/casestudies")}
+                    style={navStyle}
+                    className={color === "app" ? "text-black" : "text-white"}
+                  >
+                    Case Studies
+                  </NavLink>
                 </div>
                 <div
                   className="dropdown sub-service-dropdown"
@@ -793,7 +797,7 @@ function Navbar(props) {
                       style={navStyle}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                     >
-                       Case Studies
+                      Case Studies
                     </NavLink>
                   </div>
                 </div>
@@ -810,10 +814,7 @@ function Navbar(props) {
                 >
                   Careers
                 </NavLink> */}
-               <div
-                  className="service-dropdown-menu "                  
-                  style={navStyle}
-                >
+                <div className="service-dropdown-menu " style={navStyle}>
                   <NavLink
                     to="/Careers"
                     onClick={() => (window.location.href = "/Careers")}
@@ -852,7 +853,7 @@ function Navbar(props) {
                   style={navStyle}
                 >
                   <NavLink
-                    to="/Insighthome"
+                    to="/blog"
                     onClick={() => (window.location.href = "/blog")}
                     style={navStyle}
                     className={color === "app" ? "text-black" : "text-white"}
@@ -883,15 +884,20 @@ function Navbar(props) {
                         <div className="row">
                           <div className="col-lg-4">
                             <p className="service-aiml mt-5">
-                              <span onClick={(e) => serviceTo(e, `/blog`)}>
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/blog/Insighthome`)
+                                }
+                                className="cr-pointer"
+                              >
                                 Blog
                               </span>
                             </p>
-                            <p className="fs-13 fw-bold-400 text-digital mt-2">
+                            {/* <p className="fs-13 fw-bold-400 text-digital mt-2">
                               Seven Significant ways Artificial Intelligence (AI
                               ) is Impacting the Retail Industry
-                            </p>
-                            <p className="sub-service-links dropdown-view-all-link ">
+                            </p> */}
+                            {/* <p className="sub-service-links dropdown-view-all-link ">
                               <span
                                 onClick={(e) =>
                                   serviceTo(
@@ -902,8 +908,8 @@ function Navbar(props) {
                               >
                                 {`Read the full blog >`}
                               </span>
-                            </p>
-                            <p className="fs-13 fw-bold-400 text-digital mt-2">
+                            </p> */}
+                            {/* <p className="fs-13 fw-bold-400 text-digital mt-2">
                               AI for Retail - Discover how AI can revolutionize
                               the retail industry and help businesses increase
                               sales, improve customer experience, and optimize
@@ -917,9 +923,8 @@ function Navbar(props) {
                               >
                                 {`Read the full blog >`}
                               </span>
-                            </p>
-                          </div>
-                          <div className="col-lg-4">
+                            </p> */}
+
                             <p className="service-aiml mt-5">
                               <span
                                 onClick={(e) =>
@@ -928,6 +933,7 @@ function Navbar(props) {
                                     `/blog/webinar-reshaping-the-retail-industry-through-AI`
                                   )
                                 }
+                                className="cr-pointer"
                               >
                                 Webinar
                               </span>
@@ -967,7 +973,7 @@ function Navbar(props) {
                     aria-expanded="false"
                   >
                     <NavLink
-                      to="/Insighthome"
+                      to="/blog"
                       style={navStyle}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                     >
@@ -983,7 +989,7 @@ function Navbar(props) {
                   >
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/blog/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry`}
+                      to={`/blog/Insighthome`}
                     >
                       Blogs
                     </NavLink>

@@ -1,14 +1,14 @@
 import React from "react";
 import WeValueIMG from "../../images/careers-page/careers-body.jpg";
 
-function WeValueInnovation (){
-    return (
-        <>
-            <div className="weValueInnovation new-all-margin">
-                {/* <div className="careers-our-culture-header text-center">
+function WeValueInnovation() {
+  return (
+    <>
+      <div className="weValueInnovation w-90 mx-auto">
+        {/* <div className="careers-our-culture-header text-center">
                     <h1 className="section-title mt-3">WE VALUE INNOVATION</h1>    
                 </div> */}
-                {/* <div className="description">
+        {/* <div className="description">
                     <p>lorem ipsulm lorem ipsulm lorem ipsulmlorem ipsulmlorem ipsulm lorem ipsulm lorem ipsulm lorem ipsulm 
                     lorem ipsulm lorem ipsulm lorem ipsulm lorem ipsulm lorem ipsulm lorem ipsulmlorem ipsulmlorem ipsulm lorem 
                     ipsulm lorem ipsulm lorem ipsulm 
@@ -16,46 +16,63 @@ function WeValueInnovation (){
                     </p>
                 </div> */}
 
+        <div className="weValueInnovationCarousel">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="3"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div className=" text-center">
+                  <h1 className="section-title mt-3">WE VALUE INNOVATION</h1>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div className=" text-center">
+                  <h1 className="section-title mt-3">WE VALUE INTEGRITY</h1>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div className=" text-center">
+                  <h1 className="section-title mt-3">WE VALUE EMPATHY</h1>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div className=" text-center">
+                  <h1 className="section-title mt-3">WE VALUE EXCELLENCE</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <img
+          className="d-block w-100 we-innovation-img"
+          src={WeValueIMG}
+          alt="First slide"
+        />
 
-                <div className="weValueInnovationCarousel">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div className=" text-center">
-                                    <h1 className="section-title mt-3">WE VALUE INNOVATION</h1>    
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div className=" text-center">
-                                    <h1 className="section-title mt-3">WE VALUE INTEGRITY</h1>    
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div className=" text-center">
-                                    <h1 className="section-title mt-3">WE VALUE EMPATHY</h1>    
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div className=" text-center">
-                                    <h1 className="section-title mt-3">WE VALUE EXCELLENCE</h1>    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-
-                <img className="d-block w-100 we-innovation-img" src={WeValueIMG} alt="First slide" />
-
-
-
-                {/* <div className="weValueInnovationCarousel">
+        {/* <div className="weValueInnovationCarousel">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -75,9 +92,9 @@ function WeValueInnovation (){
                     </div>
                 </div>
                 </div> */}
-            </div>
-        </>
-    )
+      </div>
+    </>
+  );
 }
 
 export default WeValueInnovation;

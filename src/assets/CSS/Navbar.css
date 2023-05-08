@@ -37,8 +37,8 @@
   padding: 0.5rem 0rem !important;
 }
 
-.bgc-white{
-  background-color: #ffffff!important;
+.bgc-white {
+  background-color: #ffffff !important;
 }
 
 .navbar-nav .active a {
@@ -194,13 +194,12 @@
   height: 200px;
 }
 
-
 .text-black {
   color: black;
 }
 
-.text-white{
-  color:white;
+.text-white {
+  color: white;
 }
 
 .bg-nav-white {
@@ -224,6 +223,10 @@
   font-size: 13px;
   font-weight: 700px;
   color: black;
+}
+
+.service-aiml span:hover {
+  text-decoration: underline;
 }
 
 .bg-dropdown {
@@ -497,7 +500,7 @@
   content: "";
   position: absolute;
   top: 58px;
-  left: 56%;
+  left: 52%;
   margin-left: -15px;
   width: 0px;
   height: 0px;

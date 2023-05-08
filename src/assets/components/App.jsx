@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import Homepage from "./Homepage";
 import ContactUs from "./ContactUs";
 import AboutUs from "./AboutUs";
@@ -21,9 +21,13 @@ import Blog from "./Resources/Blog";
 import Careers from "./Careers";
 import Viewsubservice from "./SubServices/Viewsubservice";
 import InsightAI from "./Resources/InsightAI";
+import Insighthome from "./Resources/Insighthome";
+import InsightAIOPS from "./Resources/InsightAIOPS";
+import BlogIT from "./Resources/BlogIT";
 
 function App() {
-  const url = window.location.pathname;
+  const path = useLocation();
+  const url = path.pathname;
   return (
     <>
       {url != "/blog/webinar-reshaping-the-retail-industry-through-AI" &&
@@ -58,38 +62,19 @@ function App() {
           <Route path="/casestudies" element={<CaseStudies />} />
           <Route path="/legalresources" element={<Legalterms />} />
           <Route path="/blog" element={<Blog />}>
-            <Route exact path="" element={<Insight />} />
+            <Route exact path="" element={<Insighthome />} />
             <Route
               exact
               path="blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
               element={<Insight />}
             />
+            <Route exact path="Insighthome" element={<Insighthome />} />
             <Route
               exact
-              path="blog-AI-retail-industry"
-              element={<InsightAI />}
+              path="blog-AIops-retail-industry"
+              element={<InsightAIOPS />}
             />
-            <Route
-              exact
-              path="swiftinisghts-Webinar"
-              element={<SwiftInisghtsWebinar />}
-            />
-            <Route
-              path="webinar-reshaping-the-retail-industry-through-AI"
-              element={<Thankswebinar />}
-            />
-            <Route
-              path="webinar-thank-you-reshaping-the-retail-industry-through-AI"
-              element={<Videowebinar />}
-            />
-          </Route>
-          <Route path="/blog" element={<Blog />}>
-            <Route exact path="" element={<InsightAI />} />
-            <Route
-              exact
-              path="blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
-              element={<Insight />}
-            />
+            <Route exact path="AI-for-IT-operations" element={<BlogIT />} />
             <Route
               exact
               path="blog-AI-retail-industry"
