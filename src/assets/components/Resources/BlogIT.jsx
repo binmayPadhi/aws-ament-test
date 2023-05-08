@@ -1,10 +1,11 @@
 import React from "react";
-import blogImg from "../../images/Resources-page/blog-amnet.jpg";
-import Blog from "../../Data/Resources-Data/Blog";
+import blog4 from "../../images/Resources-page/blog4.png";
+import BlogITdata from "../../Data/Resources-Data/BlogITdata";
 import { useNavigate } from "react-router-dom";
+// import "../../CSS/Insight.css";
 import Letsgetstart from "../Webinars/Letsgetstart";
 
-const Insight = () => {
+const BlogIT = () => {
   let history = useNavigate();
   const btnColor = {
     backgroundColor: "#ecac27",
@@ -23,8 +24,8 @@ const Insight = () => {
           <div className="new-home-about-details row ml-0 mr-0">
             <div calssName="col-12 pl-0 pr-0">
               <h1>
-                Seven Significant ways Artificial Intelligence (AI) is Impacting
-                the Retail Industry
+                Why do we need AIOps and where does it fit with the modern IT
+                environment?
               </h1>
             </div>
           </div>
@@ -34,21 +35,58 @@ const Insight = () => {
               <img
                 loading="lazy"
                 className="img-fluid "
-                src={blogImg}
+                src={blog4}
                 alt="blog"
               />
             </div>
           </div>
 
           <div className="about-us-page-details">
-            <div className="row about-us-page-row ml-0 mr-0">
-              {Blog.map((list) => {
+            <div className="row  ml-0 mr-0">
+              {BlogITdata.map((list) => {
                 return (
                   <div className="col-12 about-us-details p-0" key={list.id}>
                     <div className="about-us-desc-blog">
                       <h2>{list.title}</h2>
+                      <h1>{list.subtitle}</h1>
                       <p>{list.description}</p>
                       <p>{list.description1}</p>
+                      <p>{list.description2}</p>
+                      <h4 className="fs-16 fw-bold-700 mt-4">
+                        {list.description4}
+                      </h4>
+                      <h4 className="fs-16 fw-bold-700 mt-3">
+                        {list.description5}
+                      </h4>
+                      <h4 className="fs-16 fw-bold-700 mt-3">
+                        {list.description6}{" "}
+                        <span>
+                          <a className="fs-18" href="/contactus">
+                            {list.hyperlink}
+                          </a>
+                        </span>
+                        <span className="fs-16">{list.textelement}</span>
+                      </h4>
+                      {list.hasOwnProperty("orderedlist") === true ? (
+                        <>
+                          {
+                            <ol className="pl-4">
+                              {list.orderedlist.map((response) => {
+                                return (
+                                  <>
+                                    <li className="fs-18">
+                                      {response.content}
+                                    </li>
+                                  </>
+                                );
+                              })}
+                            </ol>
+                          }
+                        </>
+                      ) : (
+                        ""
+                      )}
+
                       {list.hasOwnProperty("watchnowImg") === true ? (
                         <>
                           <div style={btnColor} className="mt-5">
@@ -73,14 +111,7 @@ const Insight = () => {
                         <p
                           className="mb-0 pt-3 mx-auto fs-18 cr-pointer"
                           onClick={navigateTothankspage}
-                        >
-                          <img
-                            loading="lazy"
-                            className="img-fluid "
-                            src={list.description2}
-                            alt="view webinar image"
-                          />
-                        </p>
+                        ></p>
                       ) : (
                         ""
                       )}
@@ -145,4 +176,4 @@ const Insight = () => {
   );
 };
 
-export default Insight;
+export default BlogIT;

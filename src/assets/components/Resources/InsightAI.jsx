@@ -23,8 +23,9 @@ const InsightAI = () => {
           <div className="new-home-about-details row ml-0 mr-0">
             <div calssName="col-12 pl-0 pr-0">
               <h1>
-              AI for Retail - Discover how AI can revolutionize the retail industry and help businesses increase sales, 
-              improve customer experience, and optimize operations
+                AI for Retail - Discover how AI can revolutionize the retail
+                industry and help businesses increase sales, improve customer
+                experience, and optimize operations
               </h1>
             </div>
           </div>
@@ -55,23 +56,24 @@ const InsightAI = () => {
                       <h4 className="fw-bold-600 fs-19">{list.desbold}</h4>
                       {list.hasOwnProperty("orderedlist") === true ? (
                         <>
-                        {
-                          <ol className="pl-4">
-                            {
-                              list.orderedlist.map(response => {
-                                return(
+                          {
+                            <ol className="pl-4">
+                              {list.orderedlist.map((response) => {
+                                return (
                                   <>
-                                  <li className="fs-18">{response.content}</li>
+                                    <li className="fs-18">
+                                      {response.content}
+                                    </li>
                                   </>
-                                )
-                              })
-                            }
-                          </ol>
-                        
-                       }
+                                );
+                              })}
+                            </ol>
+                          }
                         </>
-                      ): ''}
-                       
+                      ) : (
+                        ""
+                      )}
+
                       {list.hasOwnProperty("watchnowImg") === true ? (
                         <>
                           <div style={btnColor} className="mt-5">
@@ -118,7 +120,7 @@ const InsightAI = () => {
 
       {/** let gets started */}
       <div>
-        <Letsgetstart componentFrom = {'blog1'} />
+        <Letsgetstart componentFrom={"blog1"} />
       </div>
 
       {/* NEW HOMEPAGE CAREER SECTION */}
@@ -133,7 +135,7 @@ const InsightAI = () => {
           marginTop: "60px",
         }}
       >
-        <div className="new-career-section new-all-margin">
+        <div className="new-career-section w-90 mx-auto">
           <div className="career-section-row row g-0">
             <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-caption">
               <h5>WORK WITH US</h5>

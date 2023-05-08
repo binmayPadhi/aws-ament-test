@@ -1,8 +1,9 @@
-import React from "react";
-import blogImg from "../../images/Resources-page/AIblog.jpg";
-import Blog from "../../Data/Resources-Data/BlogAI";
+import React, { useState } from "react";
+import blogImg from "../../images/HomePage/blog_banner.png";
+// import "../../CSS/Insight.css";
 import Letsgetstart from "../Webinars/Letsgetstart";
 import { useNavigate } from "react-router-dom";
+import Insightdata from "../../Data/Resources-Data/Insightdata";
 
 const Insighthome = () => {
   const history = useNavigate();
@@ -15,115 +16,97 @@ const Insighthome = () => {
   const navigateTothankspage = () => {
     history(`/blog/webinar-reshaping-the-retail-industry-through-AI`);
   };
+
+  const navigateTowebinarspage = (id) => {
+    history(`/blog/${id}`);
+  };
+
+  const [selectedId, setId] = useState("");
+  const hightlightText = (id) => {
+    setId(id);
+  };
+
+  const UnhightlightText = () => {
+    setId("");
+  };
   return (
     <>
-      <div className="contact-us-intro container-fluid"></div>
-      <div className="container-fluid">
-        <div className="center">
-          <div className="new-home-about-details row ml-0 mr-0">
-            <div calssName="col-12 pl-0 pr-0">
-              <h1>
-              AI for Retail - Discover how AI can revolutionize the retail industry and help businesses increase sales, 
-              improve customer experience, and optimize operations
-              </h1>
-            </div>
-          </div>
-
-          <div className="row about-us-page-row ml-0 mr-0">
-            <div className="col-12 about-us-details p-0">
-              <img
-                loading="lazy"
-                className="img-fluid"
-                src={blogImg}
-                alt="blog"
-              />
-            </div>
-          </div>
-
-          <div className="about-us-page-details">
-            <div className="row about-us-page-row ml-0 mr-0">
-              {Blog.map((list) => {
-                return (
-                  <div className="col-12 about-us-details p-0" key={list.id}>
-                    <div className="about-us-desc-blog">
-                      <h2>{list.title}</h2>
-                      <h3 className="fs-26 fw-bold-600">{list.subheading}</h3>
-                      <p>{list.description}</p>
-                      <p>{list.description1}</p>
-                      <p>{list.description3}</p>
-                      <h3 className="fw fs-19">{list.desitalic}</h3>
-                      <h4 className="fw-bold-600 fs-19">{list.desbold}</h4>
-                      {list.hasOwnProperty("orderedlist") === true ? (
-                        <>
-                        {
-                          <ol className="pl-4">
-                            {
-                              list.orderedlist.map(response => {
-                                return(
-                                  <>
-                                  <li className="fs-18">{response.content}</li>
-                                  </>
-                                )
-                              })
-                            }
-                          </ol>
-                        
-                       }
-                        </>
-                      ): ''}
-                       
-                      {list.hasOwnProperty("watchnowImg") === true ? (
-                        <>
-                          <div style={btnColor} className="mt-5">
-                            <p
-                              className="mb-0 px-4 py-3"
-                              onClick={navigateTothankspage}
-                            >
-                              <span className="lh-1 fs-18">
-                                On-Demand Webinar - See how leading Retailers
-                                are embracing AI & Analytics to win in 2023 -
-                                <span className="font-weight-bold fs-18 pl-1">
-                                  WATCH NOW
-                                </span>
-                              </span>
-                            </p>
-                          </div>
-                        </>
-                      ) : (
-                        ""
-                      )}
-                      {list.hasOwnProperty("description2") === true ? (
-                        <p
-                          className="mb-0 pt-3 mx-auto fs-18 cr-pointer"
-                          onClick={navigateTothankspage}
-                        >
-                          <img
-                            loading="lazy"
-                            className="img-fluid "
-                            src={list.description2}
-                            alt="view webinar"
-                          />
-                        </p>
-                      ) : (
-                        ""
-                      )}
-                    </div>
-                  </div>
-                );
-              })}
+      <div className="bg-insights mb-0">
+        <div className="mt-5">
+          <div
+            className="sub-service-intro container-fluid"
+            style={{
+              backgroundImage: `url(${blogImg})`,
+              backgroundAttachment: "scroll",
+              backgroundRepeat: "no-repeat",
+              margintop: "60px",
+              backgroundSize: "cover",
+            }}
+          >
+            <div className="bottom-img-insight w-90">
+              <div className="w-90 mx-auto">
+                <p className="fs-24 fw-bold-600 text-white">Blogs</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
+        <>
+          {/* <!--CASE STUDIES SECTION--> */}
+          <div className="row w-90 mx-auto new-case-studies-row ">
+            {Insightdata.carddetails.map((list) => {
+              return (
+                <div
+                  className="col-lg-4 col-md-6 col-sm-12 col-xs-12 cr-pointer highlight-text d-flex align-items-strech mb-4"
+                  key={list.id}
+                  onClick={() => {
+                    navigateTowebinarspage(list.id);
+                  }}
+                  onMouseEnter={() => {
+                    hightlightText(list.id);
+                  }}
+                  onMouseLeave={() => {
+                    UnhightlightText();
+                  }}
+                >
+                  <div className="card animation-card-image mr-4 d-flex align-items-strech box_shadow">
+                    <div className="card-header border-0 bgc-white p-0">
+                      <img
+                        src={list.image}
+                        alt={list.title}
+                        className="blog_images"
+                      />
+                    </div>
+                    <div className="card-body propensity-modelling height-auto margin pb-2">
+                      <h3 className="color-date">{list.date}</h3>
+                      <h5 className="card-body-heading pb-0 pt-0">
+                        {list.title}
+                      </h5>
+                      <p className="card_body_description">
+                        {list.description}
+                      </p>
+                    </div>
+                    <div className="card-footer border-0 bgc-white">
+                      <a
+                        className="anchor_styles"
+                        href={`/blog/${list.id}`}
+                      >{`Read More ->`}</a>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </>
+
+        {/*Case Studies end*/}
+      </div>
       {/** let gets started */}
-      <div>
-        <Letsgetstart componentFrom = {'blog1'} />
-      </div>
-
+      {/* <div>
+        <Letsgetstart componentFrom={'blog1'} />
+      </div> */}
       {/* NEW HOMEPAGE CAREER SECTION */}
-
-      <div
+      {/* <div
         className="new-career-section"
         style={{
           width: "auto",
@@ -133,7 +116,7 @@ const Insighthome = () => {
           marginTop: "60px",
         }}
       >
-        <div className="new-career-section new-all-margin">
+        <div className="new-career-section w-90 mx-auto">
           <div className="career-section-row row g-0">
             <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-caption">
               <h5>WORK WITH US</h5>
@@ -163,7 +146,7 @@ const Insighthome = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

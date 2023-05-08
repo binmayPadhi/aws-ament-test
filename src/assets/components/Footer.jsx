@@ -317,8 +317,8 @@ function Footer() {
           </div>
         </div>
         <div className=" mx-auto mb-5">
-          <p className="row center-70 mt-3 mb-3 ">
-            <div className="  col-sm-12 col-xs-12"></div>
+          <p className="row center-70 mt-3 mb-3">
+            <div className="col-sm-12 col-xs-12"></div>
             {footerlist.map((list) => {
               return (
                 <p
@@ -386,17 +386,15 @@ function Footer() {
               </p>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 ">
-              <p className="listName text-md-left text-lg-center text-sm-left mr-4">
-                Follow Us
-              </p>
-              <div className="text-md-right text-lg-right text-sm-left ">
+              <div className="text-md-left text-lg-right text-sm-left ">
+                <p className="listName">Follow Us</p>
                 {icons.map((listedicon) => {
                   return (
                     <a
                       key={listedicon.id}
                       href={listedicon.link}
                       target="_blank"
-                      className="p-3"
+                      className="p-1 p-lg-2"
                       style={{ cursor: "pointer" }}
                     >
                       <img src={listedicon.image} />
@@ -412,17 +410,17 @@ function Footer() {
               <p className="listName">© 2023 Amnet Digital</p>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3 text-md-center text-lg-center text-sm-left">
-              <span className="px-3 listName">
+              <span className="px-3 listName w-sm-100">
                 <a href="/legalresources" className="fs-13 text-black">
                   Legal Resources
                 </a>
               </span>
-              <span className="px-3 listName">
+              <span className="px-3 listName w-sm-100">
                 <a href="/Privacypolicy" className="fs-13 text-black">
                   Privacy Policy
                 </a>
               </span>
-              <span className="px-3 listName">
+              <span className="px-3 listName w-sm-100">
                 <a href="/termsandconditions" className="fs-13 text-black">
                   Terms of Use
                 </a>
