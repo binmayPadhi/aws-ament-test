@@ -35,10 +35,12 @@ function CaseStudiesSection() {
                     </p>
                   </div>
                   <div className="card-footer border border-top-0 border-bottom-0 text-left border-left-0 border-right-0 bgc-white">
-                    <a
-                      className="anchor_styles"
-                      href={`./casestudies#${list.id}`}
-                    >{`Learn More ->`}</a>
+                    <p>
+                      <a
+                        className="anchor_styles"
+                        href={`./casestudies#${list.id}`}
+                      >{`Learn More ->`}</a>
+                    </p>
                   </div>
                 </div>
               </div>

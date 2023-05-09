@@ -37,17 +37,20 @@ function OurServices() {
                 </Card.Header>
                 <Card.Body>
                   <Card.Title>
-                    <h3 className="card-title-service my-3 new-case-studies-card-heading">
+                    <h3 className="card-title-service my-3 card-body-heading">
                       {data.serviceTitle}
                     </h3>
                   </Card.Title>
-                  <Card.Text className="new-case-studies-card">
-                    <p>{data.serviceDesc}</p>
+                  <Card.Text>
+                    <p className="card_body_description">{data.serviceDesc}</p>
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="bgc-white border-0 mb-4">
-                  <Card.Text className="new-explore-link">
-                    <a href={`/services/${data.link}`}>{`Explore ->`}</a>
+                  <Card.Text>
+                    <a
+                      className="anchor_styles"
+                      href={`/services/${data.link}`}
+                    >{`Explore ->`}</a>
                   </Card.Text>
                 </Card.Footer>
               </Card>

@@ -4,71 +4,78 @@ import blog3 from "../../images/Resources-page/blog3.png";
 import blog4 from "../../images/Resources-page/blog4.png";
 
 const Insightdata = {
-    carddetails: [
+  carddetails: [
     {
-        id:"blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry",
-        date:"April 18, 2023",
-        title:"Seven Significant ways Artificial Intelligence (AI) is Impacting the Retail Industry",
-        description:"Artificial Intelligence is becoming the limelight practice for Retail businesses as online shopping replaces more and more physical establishments..",
-        image: blog1,
+      id: "blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry",
+      date: "April 18, 2023",
+      title:
+        "Seven Significant ways Artificial Intelligence (AI) is Impacting...",
+      description:
+        "Artificial Intelligence is becoming the limelight practice for Retail businesses as online shopping replaces more and more physical establishments..",
+      image: blog1,
     },
     {
-        id:"blog-AI-retail-industry",
-        date:"April 18, 2023",
-        title:"AI for Retail - Discover how AI can revolutionize the retail industry and help businesses...",
-        description:"The world of retail is constantly evolving, and businesses must keep up with the latest technology to stay competitive. One of the most promising advancements...",
-        image: blog2,
+      id: "blog-AI-retail-industry",
+      date: "April 18, 2023",
+      title:
+        "AI for Retail - Discover how AI can revolutionize the retail industry...",
+      description:
+        "The world of retail is constantly evolving, and businesses must keep up with the latest technology to stay competitive. One of the most promising advancements...",
+      image: blog2,
     },
     {
-        id:"blog-AIops-retail-industry",
-        date:"April 18, 2023",
-        title:"What is AIOps and explore how it is revolutionizing the retail industry by solving complex challenges?",
-        description:"Artificial Intelligence for IT Operations (AIOps) is a discipline that combines the power of artificial intelligence (AI), natural language processing (NLP), and machine learning (ML)",
-        image: blog3,
+      id: "blog-AIops-retail-industry",
+      date: "April 18, 2023",
+      title:
+        "What is AIOps and explore how it is revolutionizing the retail industry...",
+      description:
+        "Artificial Intelligence for IT Operations (AIOps) is a discipline that combines the power of artificial intelligence (AI), natural language processing (NLP)...",
+      image: blog3,
     },
     {
-        id:"AI-for-IT-operations",
-        date:"April 18, 2023",
-        title:"Why do we need AIOps, and where does it fit with the modern IT environment?",
-        description:"We need AIOps (Artificial Intelligence for IT Operations) because modern IT environments have become increasingly complex and difficult to manage using traditional methods.",
-        image: blog4,
-    }
-],
-categories: [
+      id: "AI-for-IT-operations",
+      date: "April 18, 2023",
+      title:
+        "Why do we need AIOps, and where does it fit with the modern IT...",
+      description:
+        "We need AIOps (Artificial Intelligence for IT Operations) because modern IT environments have become increasingly complex and difficult to manage...",
+      image: blog4,
+    },
+  ],
+  categories: [
     {
-        id:"1",
-        text:"Data Engineering",
+      id: "1",
+      text: "Data Engineering",
     },
     {
-        id:"2",
-        text:"AI Software",
+      id: "2",
+      text: "AI Software",
     },
     {
-        id:"3",
-        text:"Technology",
+      id: "3",
+      text: "Technology",
     },
     {
-        id:"4",
-        text:"Machine Learning",
+      id: "4",
+      text: "Machine Learning",
     },
     {
-        id:"5",
-        text:"Big Data",
+      id: "5",
+      text: "Big Data",
     },
     {
-        id:"6",
-        text:"Artificial Intelligence",
+      id: "6",
+      text: "Artificial Intelligence",
     },
     {
-        id:"7",
-        text:"Computer Vision",
+      id: "7",
+      text: "Computer Vision",
     },
     {
-        id:"8",
-        text:"Data Science",
+      id: "8",
+      text: "Data Science",
     },
-
-]
-}
+  ],
+};
 
 export default Insightdata;

@@ -48,9 +48,8 @@ function Navbar(props) {
     fontSize: "14px",
     fontFamily: `'Poppins', sans-serif`,
     marginTop: "5px",
-    padding: "20px 15px",
+    padding: "20px 10px",
     height: "73px",
-    maxHeight: "73px",
     fontWeight: "700",
     color: "#000000",
   };
@@ -60,7 +59,7 @@ function Navbar(props) {
     fontSize: "14px",
     fontFamily: `'Poppins', sans-serif`,
     marginTop: "5px",
-    padding: "20px 15px",
+    padding: "20px 10px",
     height: "73px",
     fontWeight: "700",
     backgroundColor: "transparent",
@@ -145,6 +144,13 @@ function Navbar(props) {
     setstoreRibbon("hide");
   };
 
+  const closeNavpopup = () => {
+    let x = document.getElementById("navbarNav").classList.contains("show");
+    if (x === true) {
+      document.getElementById("navbarNav").classList.remove("show");
+    }
+  };
+
   return (
     <>
       {/* <!-- NAVIGATION BAR --> */}
@@ -205,6 +211,7 @@ function Navbar(props) {
                     <NavLink
                       to="/aboutus"
                       style={navStyle}
+                      onClick={closeNavpopup}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                     >
                       About Us
@@ -691,6 +698,7 @@ function Navbar(props) {
                     <NavLink
                       to="/services"
                       style={navStyle}
+                      onClick={closeNavpopup}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                     >
                       Services
@@ -706,6 +714,7 @@ function Navbar(props) {
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
                       to={`/services/aiml`}
+                      onClick={closeNavpopup}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                     >
                       AI / ML
@@ -713,12 +722,14 @@ function Navbar(props) {
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
                       to={`/services/datamanagement`}
+                      onClick={closeNavpopup}
                     >
                       Data Management
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
                       to={`/services/advancedanalytics`}
+                      onClick={closeNavpopup}
                     >
                       Advanced Analytics
                     </NavLink>
@@ -731,36 +742,42 @@ function Navbar(props) {
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
                       to={`/services/platformengineering`}
+                      onClick={closeNavpopup}
                     >
                       Platform Engineering
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
                       to={`/services/userexperinces`}
+                      onClick={closeNavpopup}
                     >
                       User Experience
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
                       to={`/services/cloudservices`}
+                      onClick={closeNavpopup}
                     >
                       Cloud
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
                       to={`/services/qualityassurance`}
+                      onClick={closeNavpopup}
                     >
                       Quality Assurance
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
                       to={`/services/strategyconsulting`}
+                      onClick={closeNavpopup}
                     >
                       Consulting
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
                       to={`/services/dataannotation`}
+                      onClick={closeNavpopup}
                     >
                       Data Annotation
                     </NavLink>
@@ -795,6 +812,7 @@ function Navbar(props) {
                     <NavLink
                       to="/casestudies"
                       style={navStyle}
+                      onClick={closeNavpopup}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                     >
                       Case Studies
@@ -839,6 +857,7 @@ function Navbar(props) {
                     <NavLink
                       to="/careers"
                       style={navStyle}
+                      onClick={closeNavpopup}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                     >
                       Careers
@@ -975,6 +994,7 @@ function Navbar(props) {
                     <NavLink
                       to="/blog"
                       style={navStyle}
+                      onClick={closeNavpopup}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                     >
                       Insights
@@ -990,12 +1010,14 @@ function Navbar(props) {
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
                       to={`/blog/Insighthome`}
+                      onClick={closeNavpopup}
                     >
                       Blogs
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
                       target={"_blank"}
+                      onClick={closeNavpopup}
                       to={`/blog/webinar-reshaping-the-retail-industry-through-AI`}
                     >
                       Webinars
@@ -1005,7 +1027,8 @@ function Navbar(props) {
 
                 <NavLink
                   to="/contactus"
-                  className="contactus-button"
+                  className="contactus-button mb-sm-3"
+                  onClick={closeNavpopup}
                   activeStyle={{ color: "black", textDecoration: "none" }}
                 >
                   Contact Us

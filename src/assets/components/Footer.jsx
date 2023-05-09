@@ -13,6 +13,7 @@ import { Link } from "react-router-dom";
 import top from "../images/HomePage/Icon ionic-ios-arrow-down.png";
 import "../CSS/Footer.css";
 import Modal from "react-bootstrap/Modal";
+import MediaQuery from "react-responsive";
 // import Button from "react-bootstrap/Button";
 // import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 // import Tooltip from "react-bootstrap/Tooltip";
@@ -332,36 +333,15 @@ function Footer() {
                     {list.sublist.map((val) => {
                       return (
                         <li key={val.id}>
-                          {val.link != "" ? (
-                            <Link
-                              to={val.link}
-                              target={
-                                val.id !== 21 && val.id !== 52 ? "" : "_blank"
-                              }
-                              className="desName cr-pointer text-decoration-none fs-13 text-black"
-                            >
-                              {val.name}
-                            </Link>
-                          ) : (
-                            <>
-                              <span className="hovertip text-decoration-none fs-13 text-left">
-                                {/* {val.hasOwnProperty("tooltip") === true ? ['top'].map((placement) => (
-                                <OverlayTrigger
-                                  key={placement}
-                                  placement={placement}
-                                  overlay={
-                                    <Tooltip className="fs-20" id={`tooltip-${placement}`}>
-                                      <strong>{val.tooltip}</strong>
-                                    </Tooltip>
-                                  }
-                                >
-                                 <div className="fs-13">{val.name} </div>  
-                                </OverlayTrigger>
-                              )) : <div className="fs-13">{val.name} </div>} */}
-                                <div className="fs-13">{val.name} </div>
-                              </span>
-                            </>
-                          )}
+                          <Link
+                            to={val.link}
+                            target={
+                              val.id !== 21 && val.id !== 52 ? "" : "_blank"
+                            }
+                            className="desName cr-pointer text-decoration-none fs-13 text-black"
+                          >
+                            {val.name}
+                          </Link>
                         </li>
                       );
                     })}
@@ -410,24 +390,43 @@ function Footer() {
               <p className="listName">© 2023 Amnet Digital</p>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3 text-md-center text-lg-center text-sm-left">
-              <span className="px-3 listName w-sm-100">
-                <a href="/legalresources" className="fs-13 text-black">
-                  Legal Resources
-                </a>
-              </span>
-              <span className="px-3 listName w-sm-100">
-                <a href="/Privacypolicy" className="fs-13 text-black">
-                  Privacy Policy
-                </a>
-              </span>
-              <span className="px-3 listName w-sm-100">
-                <a href="/termsandconditions" className="fs-13 text-black">
-                  Terms of Use
-                </a>
-              </span>
+              <MediaQuery minWidth={200} maxWidth={759}>
+                <p className="listName w-sm-100">
+                  <a href="/legalresources" className="fs-13 text-black">
+                    Legal Resources
+                  </a>
+                </p>
+                <p className="listName w-sm-100">
+                  <a href="/Privacypolicy" className="fs-13 text-black">
+                    Privacy Policy
+                  </a>
+                </p>
+                <p className="listName w-sm-100">
+                  <a href="/termsandconditions" className="fs-13 text-black">
+                    Terms of Use
+                  </a>
+                </p>
+              </MediaQuery>
+              <MediaQuery minWidth={760}>
+                <span className="px-2 listName w-sm-100">
+                  <a href="/legalresources" className="fs-13 text-black">
+                    Legal Resources
+                  </a>
+                </span>
+                <span className="px-2 listName w-sm-100">
+                  <a href="/Privacypolicy" className="fs-13 text-black">
+                    Privacy Policy
+                  </a>
+                </span>
+                <span className="px-2 listName w-sm-100">
+                  <a href="/termsandconditions" className="fs-13 text-black">
+                    Terms of Use
+                  </a>
+                </span>
+              </MediaQuery>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 text-md-right text-lg-right text-sm-left">
-              <div className="px-3 listName " onClick={(e) => topscroll(e)}>
+              <div className="px-2 listName " onClick={(e) => topscroll(e)}>
                 Top
                 <img
                   src={top}
