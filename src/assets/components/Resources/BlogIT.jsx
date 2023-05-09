@@ -9,7 +9,7 @@ const BlogIT = () => {
   let history = useNavigate();
   const btnColor = {
     backgroundColor: "#ecac27",
-    borderRadius: "100px",
+    borderRadius: "50px",
     cursor: "pointer",
   };
 
