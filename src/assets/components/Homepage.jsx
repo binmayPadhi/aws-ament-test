@@ -104,10 +104,11 @@ function Test() {
               <h2
                 className="fs-60 text-white fw-bold-700 w-50"
                 data-text="Reimagine & Redefine"
+                id="trusted"
               >
                 Your Trusted Partner In Making Data Driven Decisions
               </h2>
-              <div className="mt-2 fs-20 fw-bold-400 px-2 w-50">
+              <div className="mt-2 fs-20 fw-bold-400 text-white px-2 w-50">
                 We are a Data Analytics & AI solutions company that helps
                 businesses make data-driven decisions
               </div>
@@ -173,7 +174,7 @@ function Test() {
               type="video/mp4"
             />
           </video>
-          <div class="card-overlay"></div>
+          <div class="card-overlay "></div>
           <div className="w-90 mx-auto">
             <div className="new-subService-AIML-intro-caption top-25 position-absolute">
               <h2
@@ -182,7 +183,7 @@ function Test() {
               >
                 Your Trusted Partner In Making Data Driven Decisions
               </h2>
-              <div className="mt-2 fs-20 fw-bold-400 px-2 w-50">
+              <div className="mt-2 fs-20 text-white fw-bold-400 px-2 w-50">
                 We are a Data Analytics & AI solutions company that helps
                 businesses make data-driven decisions
               </div>
@@ -212,7 +213,7 @@ function Test() {
                 type="video/mp4"
               />
             </video>
-            <div class="card-overlay"></div>
+            <div class="card-overlay h-100vh"></div>
             <div className="w-90 mx-auto">
               <div className="position-absolute w-100 top-40">
                 <h2
@@ -221,7 +222,7 @@ function Test() {
                 >
                   Your Trusted Partner In Making Data Driven Decisions
                 </h2>
-                <div className="mt-2 fs-20 fw-bold-400 px-2 w-75">
+                <div className="mt-2 fs-20 text-white fw-bold-400 px-2 w-75">
                   We are a Data Analytics & AI solutions company that helps
                   businesses make data-driven decisions
                 </div>
@@ -252,16 +253,16 @@ function Test() {
                 type="video/mp4"
               />
             </video>
-            <div class="card-overlay"></div>
+            <div class="card-overlay h-100vh"></div>
             <div className="w-90 mx-auto">
-              <div className="position-absolute w-100 top-20">
+              <div className=" position-absolute w-100 top-20">
                 <h2
                   className="fs-35 text-white fw-bold-700 w-75"
                   data-text="Reimagine & Redefine"
                 >
                   Your Trusted Partner In Making Data Driven Decisions
                 </h2>
-                <div className="mt-2 fs-20 fw-bold-400 px-2 w-75">
+                <div className="mt-2 fs-20 text-white fw-bold-400 px-2 w-75">
                   We are a Data Analytics & AI solutions company that helps
                   businesses make data-driven decisions
                 </div>

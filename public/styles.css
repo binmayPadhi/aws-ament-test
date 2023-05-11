@@ -267,6 +267,13 @@ body {
   margin-top: 80px;
 }
 
+@media only screen and (min-width:300px) and (max-width:767px) {
+  .industry-section-row {
+    margin-top: 150px;
+  }
+
+}
+
 .industry-section .card-body {
   background-color: white;
   box-shadow: 3px 6px 16px #00000029;
@@ -6066,4 +6073,8 @@ label {
 .bottom-img-insight {
   position: absolute;
   bottom: 60px;
+}
+
+.h-100vh{
+  height:100vh!important;
 }

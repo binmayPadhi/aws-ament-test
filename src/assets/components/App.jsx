@@ -24,6 +24,7 @@ import InsightAI from "./Resources/InsightAI";
 import Insighthome from "./Resources/Insighthome";
 import InsightAIOPS from "./Resources/InsightAIOPS";
 import BlogIT from "./Resources/BlogIT";
+import Viewsubservicestart from "./SubServices/Viewsubservicestart";
 
 function App() {
   const path = useLocation();
@@ -47,6 +48,7 @@ function App() {
             <Route path="" element={<Services />} />
             <Route path=":name" element={<AIservices />} />
             <Route path=":name/:service" element={<Viewsubservice />} />
+            {/* <Route path=":name/:service" element={<Viewsubservicestart />} /> */}
           </Route>
           <Route path="/careers" element={<Careers />} />
           {/* <Route path="/careers" element={<Carrershome />}>

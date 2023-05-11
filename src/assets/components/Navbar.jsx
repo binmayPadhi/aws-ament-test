@@ -28,7 +28,7 @@ function Navbar(props) {
     ) {
       setNavcolor("app");
     } else {
-      if (window.scrollY >= 70) {
+      if (window.scrollY >= 35) {
         setNavcolor("app");
       } else {
         setNavcolor("homepage");
@@ -223,7 +223,6 @@ function Navbar(props) {
                 <div
                   className="service-dropdown-menu only-service-dropdown"
                   onMouseOver={() => showDropdown("service")}
-                  onMouseOut={() => hideDropdown("service")}
                   style={navStyle}
                   activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                 >
@@ -549,7 +548,7 @@ function Navbar(props) {
                             <p className="service-aiml mt-5">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/userexperiences`)
+                                  serviceTo(e, `/services/userexperinces`)
                                 }
                                 className="cr-pointer"
                               >
@@ -583,7 +582,7 @@ function Navbar(props) {
                             <p className="sub-service-links dropdown-view-all-link ">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/userexperiences`)
+                                  serviceTo(e, `/services/userexperinces`)
                                 }
                               >
                                 {`See more >`}
@@ -736,6 +735,7 @@ function Navbar(props) {
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
                       to={`/services/dataengineering`}
+                      onClick={closeNavpopup}
                     >
                       Data Engineering
                     </NavLink>

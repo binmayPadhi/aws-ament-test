@@ -6,7 +6,7 @@ import borderBg from "../../images/Service-Page/border.png";
 import "../../CSS/Services.css";
 import CaseStudiesSection from "../Homepage/CaseStudiesSection";
 
-const Viewsubservice = () => {
+const Viewsubservicestart = () => {
   const params = useParams();
   const [serviceData, setServiceData] = useState({});
   const [listlabel, setList] = useState([]);
@@ -31,13 +31,17 @@ const Viewsubservice = () => {
       window.scrollTo(0, 500);
     }
     else{
-      window.scrollTo(0, 1200);
+      window.scrollTo(0, 1500);
     }
+    
   }, [params.service]);
   const fetchService = (e, obj) => {
     e.preventDefault();
     history(`/services/${params.name}/${obj["sublink"]}`);
   };
+
+ 
+
   return (
     <>
       <div
@@ -54,32 +58,32 @@ const Viewsubservice = () => {
           <div className="text-center-img">
             <div className="row">
               <div className="w-90 mx-auto">
-                <div className="col-lg-1 col-md-1 col-sm-12"></div>
-                <div className="col-lg-6 col-md-6 col-sm-12">
-                  <h2
-                    className="fw-bold-600 text-white fs-35 text-capitalize"
-                    data-text="Your Tech Innovation Catalyst"
-                  >
-                    {serviceData.serviceImgaetitle}
-                  </h2>
-                  <p className="fw-bold-400 fs-16 text-white mb-5 mt-4">
-                    {serviceData.servideSubdescription}
-                  </p>
-                </div>
-                <div className="col-lg-5 col-md-5 col-sm-12"></div>
+              <div className="col-lg-1 col-md-1 col-sm-12"></div>
+              <div className="col-lg-6 col-md-6 col-sm-12">
+                <h2
+                  className="fw-bold-600 text-white fs-35 text-capitalize"
+                  data-text="Your Tech Innovation Catalyst"
+                >
+                  {serviceData.serviceImgaetitle}
+                </h2>
+                <p className="fw-bold-400 fs-16 text-white mb-5 mt-4">
+                  {serviceData.servideSubdescription}
+                </p>
               </div>
+              <div className="col-lg-5 col-md-5 col-sm-12"></div>
             </div>
+          </div>
           </div>
           <div className="bottom-img w-100">
             <div className="row">
               <div className="w-90 mx-auto">
-                <div className="col-lg-1 col-md-1 col-sm-12"></div>
-                <div className="col-lg-6 col-md-6 col-sm-12">
-                  <p className="fs-24 fw-bold-600 text-white">Services</p>
-                </div>
-                <div className="col-lg-5 col-md-5 col-sm-12"></div>
+              <div className="col-lg-1 col-md-1 col-sm-12"></div>
+              <div className="col-lg-6 col-md-6 col-sm-12">
+                <p className="fs-24 fw-bold-600 text-white">Services</p>
               </div>
+              <div className="col-lg-5 col-md-5 col-sm-12"></div>
             </div>
+          </div>
           </div>
         </div>
       </div>
@@ -147,7 +151,7 @@ const Viewsubservice = () => {
                 })}
               </p>
             </div>
-
+            
             <div
               className="col-md-8 col-lg-8 col-sm-12 col-xs-12 pl-4"
               style={{
@@ -208,4 +212,4 @@ const Viewsubservice = () => {
   );
 };
 
-export default Viewsubservice;
+export default Viewsubservicestart;
