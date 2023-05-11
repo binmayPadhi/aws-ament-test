@@ -185,7 +185,7 @@ function Footer() {
         {
           id: 51,
           name: "Blogs",
-          link: "/blog/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry",
+          link: "/blog/Insighthome",
           target: "_balnk",
         },
         {
@@ -240,14 +240,12 @@ function Footer() {
   const closeModal = () => {
     setShow(false);
   };
-  const topscroll = (e) => {
+
+  const handleScrolltoTop = (e) => {
     e.preventDefault();
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: "smooth",
-    });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
+
   const schema = yup.object().shape({
     email: yup
       .string()
@@ -426,7 +424,10 @@ function Footer() {
               </MediaQuery>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 text-md-right text-lg-right text-sm-left">
-              <div className="px-2 listName " onClick={(e) => topscroll(e)}>
+              <div
+                className="px-2 listName "
+                onClick={(e) => handleScrolltoTop(e)}
+              >
                 Top
                 <img
                   src={top}

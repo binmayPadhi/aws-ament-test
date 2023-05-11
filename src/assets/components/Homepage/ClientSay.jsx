@@ -5,7 +5,7 @@ function ClientSay() {
   return (
     <>
       <div className="client-say">
-        <h1 className="section-title mt-3 text-center">WHAT OUR CLIENTS SAY</h1>
+        <h1 className="section-title mt-3 w-90 mx-auto text-center">WHAT OUR CLIENTS SAY</h1>
         <div className="client-say-row w-90 mx-auto">
           <div className="row">
             <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 client-say-card-center">

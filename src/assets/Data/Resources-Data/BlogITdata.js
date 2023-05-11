@@ -46,7 +46,7 @@ const BlogITdata = [
     orderedlist: [
       {
         content:
-          "Reduce the amount of time it takes to respond to an incident to achieve a faster Mean Time to Resolution (MTTR). AIOps locates anomalies in the data pool and makes suggestions for fixes more quickly than is humanly possible.",
+          "Reduce the amount of time it takes to respond to an incident to achieve a faster Mean Time To Resolution (MTTR). AIOps locates anomalies in the data pool and makes suggestions for fixes more quickly than is humanly possible.",
       },
       {
         content:
