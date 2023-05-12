@@ -74,7 +74,7 @@ const BlogITdata = [
     id: 5,
     title: "The top 5 causes for the growing need for AIOps",
 
-    unorderedlist: [
+    orderedlist: [
       {
         content:
           "Today’s IT environments are becoming increasingly complex, with a large number of devices, applications, and services distributed across on-premises and cloud environments. This complexity makes it difficult for IT teams to manually monitor and manage the environment, leading to the need for AI-based automation.",

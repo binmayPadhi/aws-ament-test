@@ -267,11 +267,10 @@ body {
   margin-top: 80px;
 }
 
-@media only screen and (min-width:300px) and (max-width:767px) {
+@media only screen and (min-width: 300px) and (max-width: 767px) {
   .industry-section-row {
     margin-top: 150px;
   }
-
 }
 
 .industry-section .card-body {
@@ -6075,6 +6074,10 @@ label {
   bottom: 60px;
 }
 
-.h-100vh{
-  height:100vh!important;
+.h-100vh {
+  height: 100vh !important;
+}
+
+.margin-bottom-40 {
+  margin-bottom: 40%;
 }
