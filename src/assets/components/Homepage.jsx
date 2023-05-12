@@ -198,7 +198,7 @@ function Test() {
         </div>
       </MediaQuery>
       <MediaQuery minWidth={761} maxWidth={900}>
-        <div className="sub-service-intro">
+        <div className="sub-service-intro h-100">
           <div className="wrapper_video">
             <video
               className="video position-relative"
@@ -238,7 +238,7 @@ function Test() {
         </div>
       </MediaQuery>
       <MediaQuery minWidth={200} maxWidth={760}>
-        <div className="sub-service-intro">
+        <div className="sub-service-intro h-100">
           <div className="wrapper_video">
             <video
               className="video position-relative"

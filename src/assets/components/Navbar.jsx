@@ -93,9 +93,17 @@ function Navbar(props) {
 
   function showDropdown(val) {
     if (val === "service") {
+      document.getElementsByClassName("arrow-up")[0].classList.remove("hide");
+      document.getElementsByClassName("arrow-up")[0].classList.add("show");
       document.getElementsByClassName("dropdown-content")[0].style.display =
         "block";
     } else {
+      document
+        .getElementsByClassName("arrow-up-insights")[0]
+        .classList.remove("hide");
+      document
+        .getElementsByClassName("arrow-up-insights")[0]
+        .classList.add("show");
       document.getElementsByClassName(
         "dropdown-content-blog"
       )[0].style.display = "block";
@@ -103,9 +111,17 @@ function Navbar(props) {
   }
   function hideDropdown(val) {
     if (val === "service") {
+      document.getElementsByClassName("arrow-up")[0].classList.remove("show");
+      document.getElementsByClassName("arrow-up")[0].classList.add("hide");
       document.getElementsByClassName("dropdown-content")[0].style.display =
         "none";
     } else {
+      document
+        .getElementsByClassName("arrow-up-insights")[0]
+        .classList.remove("show");
+      document
+        .getElementsByClassName("arrow-up-insights")[0]
+        .classList.add("hide");
       document.getElementsByClassName(
         "dropdown-content-blog"
       )[0].style.display = "none";
@@ -221,8 +237,9 @@ function Navbar(props) {
                 {/* SERVICE DROPDOWN MENU   */}
 
                 <div
-                  className="service-dropdown-menu only-service-dropdown"
+                  className="service-dropdown-menu"
                   onMouseOver={() => showDropdown("service")}
+                  onMouseOut={() => hideDropdown("service")}
                   style={navStyle}
                   activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                 >
@@ -237,10 +254,10 @@ function Navbar(props) {
                   >
                     Services
                   </NavLink>
-
+                  <div className="arrow-up hide"></div>
                   <div
                     className="dropdown-content"
-                    style={{ width: "95%", marginTop: "18px" }}
+                    style={{ width: "95%", top: "56px" }}
                     onClick={() => hideDropdown("service")}
                   >
                     <div className="row">
@@ -819,19 +836,6 @@ function Navbar(props) {
                     </NavLink>
                   </div>
                 </div>
-
-                {/* </div> */}
-
-                {/* <div style={{padding:"15px 0px 0px 0px"}}> */}
-                {/* <NavLink
-                  to="/careers"
-                  className={color === "app" ? "text-black" : "text-white"}
-                  onClick={() => (window.location.href = "/careers")}
-                  style={navStyle}
-                  activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
-                >
-                  Careers
-                </NavLink> */}
                 <div className="service-dropdown-menu " style={navStyle}>
                   <NavLink
                     to="/Careers"
@@ -866,7 +870,7 @@ function Navbar(props) {
                 </div>
 
                 <div
-                  className="service-dropdown-menu only-blog-dropdown"
+                  className="service-dropdown-menu"
                   onMouseOver={() => showDropdown("insights")}
                   onMouseOut={() => hideDropdown("insights")}
                   style={navStyle}
@@ -879,9 +883,10 @@ function Navbar(props) {
                   >
                     Insights
                   </NavLink>
+                  <div className="arrow-up-insights hide"></div>
                   <div
                     className="dropdown-content-blog"
-                    style={{ width: "95%", marginTop: "18px" }}
+                    style={{ width: "95%", top: "40px" }}
                     onClick={() => hideDropdown("insights")}
                   >
                     <div className="row">
