@@ -295,7 +295,7 @@ const Homeservices = [
   },
   {
     id: 36,
-    name: "PLatform Engineering",
+    name: "Platform Engineering",
     link: "platformengineering",
     heading: "Platform Engineering",
     headingDescription:
@@ -332,7 +332,7 @@ const Homeservices = [
       },
       {
         id: 363,
-        heading: "Devops & AIMLOps",
+        heading: "DevOps & AIMLOps",
         description:
           "Improve agility & flexibility of your infrastructure with DevOps and automate the path from development...",
         "arrow-image": vector,

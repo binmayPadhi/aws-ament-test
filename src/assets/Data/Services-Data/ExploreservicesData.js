@@ -176,7 +176,7 @@ const subservices = [
     serviceSubheaading: "AI & ML Services for Business",
     servideSubdescription:
       "We maintain a data-driven mindset all throughout the engagement, whether it is during strategy support phase or model development phase, and focus on utilization of big data and machine learning by empowered business users. We have capability to help evolve solutions that start as process automation to cognitive insight and finally cognitive engagement when systems work autonomously.",
-      sub: {
+    sub: {
       data: [
         {
           id: 11,
@@ -731,7 +731,7 @@ const subservices = [
         },
         {
           id: 64,
-          name: "Devops & AIMLOps",
+          name: "DevOps & AIMLOps",
           subimg: daimi,
           subDes:
             "Improve agility & flexibility of your infrastructure with DevOps and automate the path from development to production with AIMLOps. Predict the effect of deployment on production and automatically respond to changes based on the performance of the production environment.",

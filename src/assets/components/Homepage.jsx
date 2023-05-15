@@ -255,7 +255,7 @@ function Test() {
             </video>
             <div class="card-overlay h-100vh"></div>
             <div className="w-90 mx-auto">
-              <div className=" position-absolute w-100 top-20">
+              <div className=" position-absolute w-100 top-40">
                 <h2
                   className="fs-35 text-white fw-bold-700 w-75"
                   data-text="Reimagine & Redefine"

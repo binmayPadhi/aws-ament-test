@@ -21,7 +21,7 @@ const Insight = () => {
       <div className="container-fluid">
         <div className="center">
           <div className="new-home-about-details row ml-0 mr-0">
-            <div calssName="col-12 pl-0 pr-0">
+            <div className="col-12 pl-0 pr-0">
               <h1>
                 Seven Significant ways Artificial Intelligence (AI) is Impacting
                 the Retail Industry
