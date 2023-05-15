@@ -13,7 +13,7 @@ function OurLocation() {
               let imgUrl = list.locationIcon;
               return (
                 <div
-                  className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3"
+                  className="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3"
                   key={list.id}
                 >
                   <div

@@ -316,3 +316,8 @@ hr {
     padding-left: 0px;
   }
 }
+
+.achorhover:hover {
+  text-decoration: none !important;
+  color: black;
+}

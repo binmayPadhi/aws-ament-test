@@ -22,7 +22,7 @@ const BlogIT = () => {
       <div className="container-fluid">
         <div className="center">
           <div className="new-home-about-details row ml-0 mr-0">
-            <div calssName="col-12 pl-0 pr-0">
+            <div className="col-12 pl-0 pr-0">
               <h1>
                 Why do we need AIOps and where does it fit with the modern IT
                 environment?

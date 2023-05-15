@@ -21,7 +21,7 @@ const InsightAI = () => {
       <div className="container-fluid">
         <div className="center">
           <div className="new-home-about-details row ml-0 mr-0">
-            <div calssName="col-12 pl-0 pr-0">
+            <div className="col-12 pl-0 pr-0">
               <h1>
                 AI for Retail - Discover how AI can revolutionize the retail
                 industry and help businesses increase sales, improve customer

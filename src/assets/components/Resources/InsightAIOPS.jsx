@@ -22,7 +22,7 @@ const InsightAIOPS = () => {
       <div className="container-fluid">
         <div className="center">
           <div className="new-home-about-details row ml-0 mr-0">
-            <div calssName="col-12 pl-0 pr-0">
+            <div className="col-12 pl-0 pr-0">
               <h1>
                 What is AIOps and explore how it is revolutionizing the retail
                 industry by solving complex challenges?

@@ -7,7 +7,7 @@ const Insightdata = {
   carddetails: [
     {
       id: "blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry",
-      date: "April 18, 2023",
+      date: "April 14, 2023",
       title:
         "Seven Significant ways Artificial Intelligence (AI) is Impacting...",
       description:
@@ -16,7 +16,7 @@ const Insightdata = {
     },
     {
       id: "blog-AI-retail-industry",
-      date: "April 18, 2023",
+      date: "April 21, 2023",
       title:
         "AI for Retail - Discover how AI can revolutionize the retail industry...",
       description:
@@ -25,16 +25,16 @@ const Insightdata = {
     },
     {
       id: "blog-AIops-retail-industry",
-      date: "April 18, 2023",
+      date: "April 28, 2023",
       title:
         "What is AIOps and explore how it is revolutionizing the retail industry...",
       description:
-        "Artificial Intelligence for IT Operations (AIOps) is a discipline that combines the power of artificial intelligence (AI), natural language processing (NLP)...",
+        "Artificial Intelligence for IT Operations (AIOps) is a discipline that combines the power of Artificial Intelligence (AI), Natural Language Processing (NLP)...",
       image: blog3,
     },
     {
       id: "AI-for-IT-operations",
-      date: "April 18, 2023",
+      date: "May 05, 2023",
       title:
         "Why do we need AIOps, and where does it fit with the modern IT...",
       description:

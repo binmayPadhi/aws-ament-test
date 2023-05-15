@@ -14,17 +14,15 @@ import top from "../images/HomePage/Icon ionic-ios-arrow-down.png";
 import "../CSS/Footer.css";
 import Modal from "react-bootstrap/Modal";
 import MediaQuery from "react-responsive";
-// import Button from "react-bootstrap/Button";
-// import OverlayTrigger from "react-bootstrap/OverlayTrigger";
-// import Tooltip from "react-bootstrap/Tooltip";
 import emailjs from "emailjs-com";
 import star from "../images/HomePage/star.png";
 import send from "../images/HomePage/Sendicon.png";
 import cross from "../images/HomePage/close-icon.png";
-import { ModalHeader } from "react-bootstrap";
+import { useLocation } from "react-router-dom";
 
 function Footer() {
   const emailDetails = useRef();
+  const { pathname } = useLocation();
   const footerlist = [
     {
       id: 1,
@@ -424,17 +422,31 @@ function Footer() {
               </MediaQuery>
             </div>
             <div className="col-lg-3 col-md-2 col-sm-12 col-xs-12 mt-3 text-md-right text-lg-right text-sm-left">
-              <div
-                className="px-2 listName "
-                onClick={(e) => handleScrolltoTop(e)}
-              >
-                Top
-                <img
-                  src={top}
-                  className="img-top ml-3"
-                  style={{ cursor: "pointer" }}
-                />
-              </div>
+              <MediaQuery minWidth={760}>
+                <div
+                  className="px-2 listName "
+                  onClick={(e) => handleScrolltoTop(e)}
+                >
+                  Top
+                  <img
+                    src={top}
+                    className="img-top ml-3"
+                    style={{ cursor: "pointer" }}
+                  />
+                </div>
+              </MediaQuery>
+              <MediaQuery minWidth={280} maxWidth={759}>
+                <a className="anchor_styles achorhover" href={pathname}>
+                  <div className="px-2 listName ">
+                    Top
+                    <img
+                      src={top}
+                      className="img-top ml-3"
+                      style={{ cursor: "pointer" }}
+                    />
+                  </div>
+                </a>
+              </MediaQuery>
             </div>
           </div>
         </div>

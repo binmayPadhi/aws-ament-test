@@ -19,6 +19,7 @@ const Insighthome = () => {
 
   const navigateTowebinarspage = (id) => {
     history(`/blog/${id}`);
+    // history.href = `/blog/${id}`
   };
 
   const [selectedId, setId] = useState("");
@@ -69,32 +70,29 @@ const Insighthome = () => {
                     UnhightlightText();
                   }}
                 >
-                  <div className="card animation-card-image mr-4 d-flex align-items-strech box_shadow">
-                    <div className="card-header border-0 bgc-white p-0">
-                      <img
-                        src={list.image}
-                        alt={list.title}
-                        className="blog_images"
-                      />
+                  <a className="anchor_styles" href={`/blog/${list.id}`}>
+                    <div className="card animation-card-image mr-4 d-flex align-items-strech box_shadow">
+                      <div className="card-header border-0 bgc-white p-0">
+                        <img
+                          src={list.image}
+                          alt={list.title}
+                          className="blog_images"
+                        />
+                      </div>
+                      <div className="card-body propensity-modelling height-auto margin pb-2">
+                        <h3 className="color-date">{list.date}</h3>
+                        <h5 className="card-body-heading pb-0 pt-0">
+                          {list.title}
+                        </h5>
+                        <p className="card_body_description">
+                          {list.description}
+                        </p>
+                      </div>
+                      <div className="card-footer border-0 bgc-white">
+                        <p className="mb-2 anchor_styles">{`Read More ->`}</p>
+                      </div>
                     </div>
-                    <div className="card-body propensity-modelling height-auto margin pb-2">
-                      <h3 className="color-date">{list.date}</h3>
-                      <h5 className="card-body-heading pb-0 pt-0">
-                        {list.title}
-                      </h5>
-                      <p className="card_body_description">
-                        {list.description}
-                      </p>
-                    </div>
-                    <div className="card-footer border-0 bgc-white">
-                      <p className="mb-2">
-                        <a
-                          className="anchor_styles"
-                          href={`/blog/${list.id}`}
-                        >{`Read More ->`}</a>
-                      </p>
-                    </div>
-                  </div>
+                  </a>
                 </div>
               );
             })}
