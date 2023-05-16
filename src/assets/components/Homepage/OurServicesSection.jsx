@@ -61,10 +61,10 @@ function OurServices() {
       <div className="center mt-5 mb-5">
         <div className="d-flex w-100 justify-content-center">
           <div
-            className="explore_services py-3 px-4 cr-pointer"
+            className="contactus-button w-100 py-3 px-4 fs-18 cr-pointer"
             onClick={(e) => redirectTo(e)}
           >
-            Explore more services
+            Explore More Services
           </div>
         </div>
       </div>

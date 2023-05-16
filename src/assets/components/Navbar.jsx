@@ -302,7 +302,7 @@ function Navbar(props) {
                       <div className="col-lg-9 bg-dropdown ">
                         <div className="row">
                           <div className="col-lg-4">
-                            <p className="service-aiml mt-5 mb-0">
+                            <p className="service-aiml mt-5 pt-1">
                               <a href={`/services/aiml`}>AI & ML</a>
                             </p>
                             <p
@@ -895,7 +895,7 @@ function Navbar(props) {
                           What's New
                         </h1>
                         <h1 className="fs-13 fw-bold-500 text-underline text-black">
-                          Meaning ful Content
+                          Meaningful Content
                         </h1>
                         <p className="fs-13 fw-bold-400 text-digital">
                           Driving the real value starts here by consistently
