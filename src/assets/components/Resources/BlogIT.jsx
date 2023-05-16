@@ -90,18 +90,20 @@ const BlogIT = () => {
                       {list.hasOwnProperty("watchnowImg") === true ? (
                         <>
                           <div style={btnColor} className="mt-5">
-                            <p
-                              className="mb-0 px-4 py-3"
-                              onClick={navigateTothankspage}
+                            <a
+                              className="anchor_styles achorhover"
+                              href={`/blog/webinar-reshaping-the-retail-industry-through-AI`}
                             >
-                              <span className="lh-1 fs-18">
-                                On-Demand Webinar - See how leading Retailers
-                                are embracing AI & Analytics to win in 2023 -
-                                <span className="font-weight-bold fs-18 pl-1">
-                                  WATCH NOW
+                              <p className="mb-0 px-4 py-3">
+                                <span className="lh-1 fs-18">
+                                  On-Demand Webinar - See how leading Retailers
+                                  are embracing AI & Analytics to win in 2023 -
+                                  <span className="font-weight-bold fs-18 pl-1">
+                                    WATCH NOW
+                                  </span>
                                 </span>
-                              </span>
-                            </p>
+                              </p>
+                            </a>
                           </div>
                         </>
                       ) : (

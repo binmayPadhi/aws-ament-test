@@ -6081,3 +6081,7 @@ label {
 .margin-bottom-40 {
   margin-bottom: 40%;
 }
+
+.achorhover:hover {
+  text-decoration: none !important;  
+}
