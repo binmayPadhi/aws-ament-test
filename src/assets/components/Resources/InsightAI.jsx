@@ -11,10 +11,6 @@ const InsightAI = () => {
     borderRadius: "50px",
     cursor: "pointer",
   };
-
-  const navigateTothankspage = () => {
-    history(`/blog/webinar-reshaping-the-retail-industry-through-AI`);
-  };
   return (
     <>
       <div className="contact-us-intro container-fluid"></div>
@@ -77,35 +73,39 @@ const InsightAI = () => {
                       {list.hasOwnProperty("watchnowImg") === true ? (
                         <>
                           <div style={btnColor} className="mt-5">
-                            <p
-                              className="mb-0 px-4 py-3"
-                              onClick={navigateTothankspage}
+                            <a
+                              className="achorhover"
+                              href={`/blog/webinar-reshaping-the-retail-industry-through-AI`}
                             >
-                              <span className="lh-1 fs-18">
-                                On-Demand Webinar - See how leading Retailers
-                                are embracing AI & Analytics to win in 2023 -
-                                <span className="font-weight-bold fs-18 pl-1">
-                                  WATCH NOW
+                              <p className="mb-0 px-4 py-3">
+                                <span className="lh-1 fs-18">
+                                  On-Demand Webinar - See how leading Retailers
+                                  are embracing AI & Analytics to win in 2023 -
+                                  <span className="font-weight-bold fs-18 pl-1">
+                                    WATCH NOW
+                                  </span>
                                 </span>
-                              </span>
-                            </p>
+                              </p>
+                            </a>
                           </div>
                         </>
                       ) : (
                         ""
                       )}
                       {list.hasOwnProperty("description2") === true ? (
-                        <p
-                          className="mb-0 pt-3 mx-auto fs-18 cr-pointer"
-                          onClick={navigateTothankspage}
+                        <a
+                          className="achorhover"
+                          href={`/blog/webinar-reshaping-the-retail-industry-through-AI`}
                         >
-                          <img
-                            loading="lazy"
-                            className="img-fluid "
-                            src={list.description2}
-                            alt="view webinar"
-                          />
-                        </p>
+                          <p className="mb-0 pt-3 mx-auto fs-18 cr-pointer">
+                            <img
+                              loading="lazy"
+                              className="img-fluid "
+                              src={list.description2}
+                              alt="view webinar"
+                            />
+                          </p>
+                        </a>
                       ) : (
                         ""
                       )}

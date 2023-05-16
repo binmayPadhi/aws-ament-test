@@ -13,13 +13,8 @@ const Insighthome = () => {
     cursor: "pointer",
   };
 
-  const navigateTothankspage = () => {
-    history(`/blog/webinar-reshaping-the-retail-industry-through-AI`);
-  };
-
   const navigateTowebinarspage = (id) => {
     history(`/blog/${id}`);
-    // history.href = `/blog/${id}`
   };
 
   const [selectedId, setId] = useState("");
@@ -70,8 +65,11 @@ const Insighthome = () => {
                     UnhightlightText();
                   }}
                 >
-                  <a className="anchor_styles" href={`/blog/${list.id}`}>
-                    <div className="card animation-card-image mr-4 d-flex align-items-strech box_shadow">
+                  <div className="card animation-card-image mr-4 box_shadow">
+                    <a
+                      className="anchor_styles achorhover"
+                      href={`/blog/${list.id}`}
+                    >
                       <div className="card-header border-0 bgc-white p-0">
                         <img
                           src={list.image}
@@ -91,8 +89,8 @@ const Insighthome = () => {
                       <div className="card-footer border-0 bgc-white">
                         <p className="mb-2 anchor_styles">{`Read More ->`}</p>
                       </div>
-                    </div>
-                  </a>
+                    </a>
+                  </div>
                 </div>
               );
             })}
