@@ -2,16 +2,10 @@ import React from "react";
 import "../../CSS/Services.css";
 import OurServicesData from "../../Data/Homepage-Data/OurServicesData";
 import { Card } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
 
 // import {BrowserRouter as Router, Link} from "react-router-dom";
 
 function OurServices() {
-  const history = useNavigate();
-  const redirectTo = (e) => {
-    e.preventDefault();
-    history(`/services`);
-  };
   return (
     <>
       <div className="center text-center py-4 mt-5 mb-5 service_title">
@@ -60,11 +54,8 @@ function OurServices() {
       </div>
       <div className="center mt-5 mb-5">
         <div className="d-flex w-100 justify-content-center">
-          <div
-            className="contactus-button w-100 py-3 px-4 fs-18 cr-pointer"
-            onClick={(e) => redirectTo(e)}
-          >
-            Explore More Services
+          <div className="new-explore-link text-center">
+            <a href="/services">Explore All Services</a>
           </div>
         </div>
       </div>

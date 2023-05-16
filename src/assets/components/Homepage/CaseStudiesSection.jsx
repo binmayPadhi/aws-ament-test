@@ -49,7 +49,7 @@ function CaseStudiesSection() {
         </div>
       </div>
       <div className="new-explore-link text-center">
-        <a href="/casestudies">Explore All</a>
+        <a href="/casestudies">Explore All Case Studies</a>
       </div>
     </>
   );

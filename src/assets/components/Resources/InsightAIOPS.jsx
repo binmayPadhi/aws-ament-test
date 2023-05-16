@@ -6,7 +6,6 @@ import { useNavigate } from "react-router-dom";
 import Letsgetstart from "../Webinars/Letsgetstart";
 
 const InsightAIOPS = () => {
-  let history = useNavigate();
   const btnColor = {
     backgroundColor: "#ecac27",
     borderRadius: "50px",

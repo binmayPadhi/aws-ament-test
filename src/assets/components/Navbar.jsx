@@ -10,6 +10,11 @@ import { useState } from "react";
 import { useLayoutEffect } from "react";
 
 function Navbar(props) {
+  window.onload = () => {
+    if (window.innerWidth < 760) {
+      document.getElementById("navbar").onclick();
+    }
+  };
   const url = window.location.pathname;
   const [color, setNavcolor] = useState("homepage");
   const changebackgroundcolor = () => {
@@ -895,13 +900,13 @@ function Navbar(props) {
                           What's New
                         </h1>
                         <h1 className="fs-13 fw-bold-500 text-underline text-black">
-                          Meaningful Content
+                          AI in Retail Industry
                         </h1>
                         <p className="fs-13 fw-bold-400 text-digital">
-                          Driving the real value starts here by consistently
-                          publishing our most extensive research educational and
-                          thought leadership content assets. Stay tuned to stay
-                          ahead of the game !
+                          AI can be used to process and analyze vast amounts of
+                          data to identify patterns and insights that humans
+                          would struggle to recognize. Learn more in our blogs
+                          section!
                         </p>
                       </div>
                       <div className="col-lg-9 bg-dropdown ">
