@@ -5,7 +5,6 @@ import Letsgetstart from "../Webinars/Letsgetstart";
 import { useNavigate } from "react-router-dom";
 
 const InsightAI = () => {
-  const history = useNavigate();
   const btnColor = {
     backgroundColor: "#ecac27",
     borderRadius: "50px",
