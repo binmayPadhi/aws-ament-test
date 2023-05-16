@@ -267,6 +267,12 @@ body {
   margin-top: 80px;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+  .industry-section-row {
+    margin-top: 150px;
+  }
+}
+
 .industry-section .card-body {
   background-color: white;
   box-shadow: 3px 6px 16px #00000029;
@@ -400,6 +406,12 @@ body {
   text-align: center;
 }
 
+.case-studies-new {
+  position: relative;
+  margin-top: 80px;
+  text-align: center;
+}
+
 .case-studies h5 {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
@@ -439,7 +451,6 @@ body {
   background-color: white;
   box-shadow: 3px 6px 16px #00000029;
   border-style: none;
-  height: 320px;
 }
 
 .case-studies .explore-all-link {
@@ -540,12 +551,10 @@ body {
 
 .footer p a {
   font-family: "Poppins", sans-serif;
-  font-size: 1.8rem;
   font-weight: 400;
   list-style: none;
   margin-top: 10px;
   color: white;
-  text-decoration: underline;
 }
 
 .ISOCeritfied {
@@ -1999,12 +2008,43 @@ label {
 }
 
 .about-us-desc-blog h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 800;
   color: black;
 }
 
 .about-us-desc-blog p {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: black;
+}
+
+.about-us-desc-blogAI {
+  padding: 0px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-us-desc-blogAI h3 {
+  font-size: 23px;
+  font-weight: 800;
+  color: black;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.about-us-desc-blogAI h4 {
+  font-size: 23px;
+  font-weight: 800;
+  color: black;
+}
+
+.about-us-desc-blogAI h2 {
+  font-size: 3rem;
+
+  color: rgb(79, 105, 176);
+}
+
+.about-us-desc-blogAI p {
   font-size: 1.8rem;
   font-weight: 500;
   color: black;
@@ -4095,6 +4135,46 @@ label {
   color: #fd5d14;
 }
 
+.new-case-studies-card-section {
+  padding-right: 5px !important;
+  padding-left: 0px !important;
+}
+
+.new-case-studies-card-section .card-body {
+  text-align: left;
+}
+
+.new-case-studies-card-section .card-title {
+  color: black;
+  font-size: 1.8rem;
+  margin-top: 10px;
+  font-weight: 800;
+}
+
+.new-case-studies-card-section p {
+  color: black;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  opacity: 1;
+  font-weight: 400;
+  height: auto;
+  margin-bottom: 5rem;
+}
+
+.new-case-studies-card-section a {
+  text-align: left;
+  font-size: 1.5rem;
+  padding: 15px 0px;
+  font-weight: 800;
+  color: #19af8f;
+  position: absolute;
+  top: 80%;
+}
+
+.new-case-studies-card-section a:hover {
+  color: #fd5d14;
+}
+
 .new-explore-link {
   margin-top: 25px;
 }
@@ -4146,7 +4226,20 @@ label {
 .client-say .card {
   background-color: black;
   color: white;
-  border-bottom: 5px solid #19af8f;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 720px) {
+  .green-border-line {
+    border-bottom: 5px solid #19af8f;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 2500px) {
+  .green-border-line {
+    border-bottom: 5px solid #19af8f;
+    margin-top: px;
+  }
 }
 
 .client-say .card-body {
@@ -4682,6 +4775,7 @@ label {
 
   .client-say .card {
     margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   .client-say .card-body {
@@ -5902,6 +5996,10 @@ label {
   background-color: #ffffff;
 }
 
+.bgc-white {
+  background-color: #ffffff;
+}
+
 @media only screen and (min-width: 1200px) {
   .center {
     padding-left: 300px;
@@ -5931,4 +6029,76 @@ label {
   .submit-left {
     padding-left: 52px;
   }
+}
+
+.height-auto {
+  height: auto !important;
+}
+
+.blog_images {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+.anchor_styles {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #19af8f;
+}
+
+.card_body_description {
+  color: black;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  opacity: 1;
+  font-weight: 400;
+  height: auto;
+}
+
+.card-body-heading {
+  color: black;
+  font-size: 1.8rem;
+  margin-top: 10px;
+  font-weight: 800;
+}
+
+.box_shadow {
+  box-shadow: 3px 6px 16px #00000029;
+}
+
+.bottom-img-insight {
+  position: absolute;
+  bottom: 60px;
+}
+
+.h-100vh {
+  height: 100vh !important;
+}
+
+.margin-bottom-40 {
+  margin-bottom: 40%;
+}
+
+.achorhover:hover {
+  text-decoration: none !important;
+}
+
+.contactus-button {
+  text-decoration: "none";
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 11px 10px;
+  margin-top: 15px;
+  border: 0px;
+  border-radius: 4px;
+  text-align: center;
+  height: 45px;
+  width: 150px;
+  margin-left: 10px;
+  background-color: #1dad8f;
+  margin-bottom: 10px;
 }

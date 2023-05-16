@@ -15,7 +15,6 @@ function TestService() {
     e.preventDefault();
     setSelectedservice(obj.name);
     setSelectedserviceobj(obj);
-    console.log(selectedServicesobj);
   };
 
   return (

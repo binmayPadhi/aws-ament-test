@@ -603,3 +603,9 @@ td {
   color: #1dad8f;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 750px) {
+  .w-350 {
+    width: 300px;
+  }
+}

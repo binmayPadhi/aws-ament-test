@@ -11,7 +11,7 @@ function AboutDetails(){
             <div className="homepage-about-details" style={{backgroundImage:`url(${AboutDetailsBG})`,backgroundAttachment:"fixed",backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
             
 
-            <div className="new-all-margin new-about-details-heading-row">
+            <div className="new-about-details-heading-row w-90 mx-auto">
             <div className="row  ml-0 mr-0">
                     <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12  new-about-details-heading">
                         <h1 className="new-about-heading">Building an Efficient & Intelligent Tomorrow</h1>

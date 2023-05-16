@@ -7,13 +7,13 @@ function OurLocation() {
       {/* <!-- CONTACT US PAGE LOCATION SECTION --> */}
 
       <div className="about-us-page-location  mb-5">
-        <div className="new-all-margin">
-          <div className="row about-us-page-location-row  ml-0 mr-0">
+        <div className="w-90 mx-auto">
+          <div className="row about-us-page-location-row">
             {OurLocationData.map((list) => {
               let imgUrl = list.locationIcon;
               return (
                 <div
-                  className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3"
+                  className="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3"
                   key={list.id}
                 >
                   <div

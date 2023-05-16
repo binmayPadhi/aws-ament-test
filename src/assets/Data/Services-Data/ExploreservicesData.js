@@ -731,7 +731,7 @@ const subservices = [
         },
         {
           id: 64,
-          name: "Devops & AIMLOps",
+          name: "DevOps & AIMLOps",
           subimg: daimi,
           subDes:
             "Improve agility & flexibility of your infrastructure with DevOps and automate the path from development to production with AIMLOps. Predict the effect of deployment on production and automatically respond to changes based on the performance of the production environment.",

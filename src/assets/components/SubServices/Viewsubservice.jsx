@@ -27,13 +27,17 @@ const Viewsubservice = () => {
         });
       }
     });
-    window.scrollTo(0, 750);
+    if (window.innerWidth > 1024){
+      window.scrollTo(0, 500);
+    }
+    else{
+      window.scrollTo(0, 1200);
+    }
   }, [params.service]);
   const fetchService = (e, obj) => {
     e.preventDefault();
     history(`/services/${params.name}/${obj["sublink"]}`);
   };
-
   return (
     <>
       <div
@@ -49,28 +53,32 @@ const Viewsubservice = () => {
         <div className="w-95">
           <div className="text-center-img">
             <div className="row">
-              <div className="col-lg-1 col-md-1 col-sm-12"></div>
-              <div className="col-lg-6 col-md-6 col-sm-12">
-                <h2
-                  className="fw-bold-600 text-white fs-35 text-capitalize"
-                  data-text="Your Tech Innovation Catalyst"
-                >
-                  {serviceData.serviceImgaetitle}
-                </h2>
-                <p className="fw-bold-400 fs-16 text-white mb-5 mt-4">
-                  {serviceData.servideSubdescription}
-                </p>
+              <div className="w-90 mx-auto">
+                <div className="col-lg-1 col-md-1 col-sm-12"></div>
+                <div className="col-lg-6 col-md-6 col-sm-12">
+                  <h2
+                    className="fw-bold-600 text-white fs-35 text-capitalize"
+                    data-text="Your Tech Innovation Catalyst"
+                  >
+                    {serviceData.serviceImgaetitle}
+                  </h2>
+                  <p className="fw-bold-400 fs-16 text-white mb-5 mt-4">
+                    {serviceData.servideSubdescription}
+                  </p>
+                </div>
+                <div className="col-lg-5 col-md-5 col-sm-12"></div>
               </div>
-              <div className="col-lg-5 col-md-5 col-sm-12"></div>
             </div>
           </div>
           <div className="bottom-img w-100">
             <div className="row">
-              <div className="col-lg-1 col-md-1 col-sm-12"></div>
-              <div className="col-lg-6 col-md-6 col-sm-12">
-                <p className="fs-24 fw-bold-600 text-white">Services</p>
+              <div className="w-90 mx-auto">
+                <div className="col-lg-1 col-md-1 col-sm-12"></div>
+                <div className="col-lg-6 col-md-6 col-sm-12">
+                  <p className="fs-24 fw-bold-600 text-white">Services</p>
+                </div>
+                <div className="col-lg-5 col-md-5 col-sm-12"></div>
               </div>
-              <div className="col-lg-5 col-md-5 col-sm-12"></div>
             </div>
           </div>
         </div>

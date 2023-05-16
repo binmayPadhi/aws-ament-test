@@ -4,7 +4,7 @@ import "../../CSS/webinar.css";
 import { Modal } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-const Letsgetstart = () => {
+const Letsgetstart = (props) => {
   const header = new Headers();
   useEffect(() => {
     header.append("X-Content-Type-Options", "nosniff");
@@ -83,21 +83,32 @@ const Letsgetstart = () => {
     <>
       <div className="mt-3-rem mb-3-rem">
         <div className="d-flex w-100 justify-content-center">
-          <div className="w-75 bg-left h-120 d-flex align-items-center">
-            <div className="center-98 pl-4">
-              <p className="mb-0 text-white fs-20 font-weight-bold">
-                Do you want your AI & Data Analytics investment to bring
-                meaningful results with real ROI?
+          <div className="w-75 bg-left  d-flex align-items-center">
+            <div className="center-88">
+              <p className="mb-0 text-white fs-20 font-weight-bold py-4">
+                {props.componentFrom === "blog" ? (
+                  <>
+                    Do you want your AI & Data Analytics investment to bring
+                    meaningful results with real ROI?
+                  </>
+                ) : (
+                  <>
+                    Leading retailers are experiencing the biggest challenge in
+                    choosing the right AI/ML advisor toward digital
+                    transformation, we can help you to overcome the problem by
+                    offering you a personalized and no-obligation consultation.
+                  </>
+                )}
               </p>
               <p className="mb-0 text-white fs-20 font-weight-bold">
                 Schedule your FREE consulation now!
               </p>
             </div>
           </div>
-          <div className="w-25 bg-right h-120 d-flex align-items-center">
+          <div className="w-25 bg-right  d-flex align-items-center">
             <div className="center-98">
               <p
-                className="mb-0 text-white fs-20 font-weight-bold w-100 pl-4"
+                className="mb-0 text-white fs-20 font-weight-bold w-100 pl-md-4 pl-sm-2"
                 onClick={handleShow}
               >
                 Let's get started

@@ -8,20 +8,17 @@ const Insight = () => {
   let history = useNavigate();
   const btnColor = {
     backgroundColor: "#ecac27",
-    borderRadius: "100px",
+    borderRadius: "50px",
     cursor: "pointer",
   };
 
-  const navigateTothankspage = () => {
-    history(`/webinar-reshaping-the-retail-industry-through-AI`);
-  };
   return (
     <>
       <div className="contact-us-intro container-fluid"></div>
       <div className="container-fluid">
         <div className="center">
           <div className="new-home-about-details row ml-0 mr-0">
-            <div calssName="col-12 pl-0 pr-0">
+            <div className="col-12 pl-0 pr-0">
               <h1>
                 Seven Significant ways Artificial Intelligence (AI) is Impacting
                 the Retail Industry
@@ -52,35 +49,39 @@ const Insight = () => {
                       {list.hasOwnProperty("watchnowImg") === true ? (
                         <>
                           <div style={btnColor} className="mt-5">
-                            <p
-                              className="mb-0 px-4 py-3"
-                              onClick={navigateTothankspage}
+                            <a
+                              className="achorhover"
+                              href={`/blog/webinar-reshaping-the-retail-industry-through-AI`}
                             >
-                              <span className="lh-1 fs-18">
-                                On-Demand Webinar - See how leading Retailers
-                                are embracing AI & Analytics to win in 2023 -
-                                <span className="font-weight-bold fs-18 pl-1">
-                                  WATCH NOW
+                              <p className="mb-0 px-4 py-3">
+                                <span className="lh-1 fs-18">
+                                  On-Demand Webinar - See how leading Retailers
+                                  are embracing AI & Analytics to win in 2023 -
+                                  <span className="font-weight-bold fs-18 pl-1">
+                                    WATCH NOW
+                                  </span>
                                 </span>
-                              </span>
-                            </p>
+                              </p>
+                            </a>
                           </div>
                         </>
                       ) : (
                         ""
                       )}
                       {list.hasOwnProperty("description2") === true ? (
-                        <p
-                          className="mb-0 pt-3 mx-auto fs-18 cr-pointer"
-                          onClick={navigateTothankspage}
+                        <a
+                          className="achorhover"
+                          href={`/blog/webinar-reshaping-the-retail-industry-through-AI`}
                         >
-                          <img
-                            loading="lazy"
-                            className="img-fluid "
-                            src={list.description2}
-                            alt="view webinar image"
-                          />
-                        </p>
+                          <p className="mb-0 pt-3 mx-auto fs-18 cr-pointer">
+                            <img
+                              loading="lazy"
+                              className="img-fluid "
+                              src={list.description2}
+                              alt="view webinar image"
+                            />
+                          </p>
+                        </a>
                       ) : (
                         ""
                       )}
@@ -95,7 +96,7 @@ const Insight = () => {
 
       {/** let gets started */}
       <div>
-        <Letsgetstart />
+        <Letsgetstart componentFrom={"blog"} />
       </div>
 
       {/* NEW HOMEPAGE CAREER SECTION */}
@@ -110,7 +111,7 @@ const Insight = () => {
           marginTop: "60px",
         }}
       >
-        <div className="new-career-section new-all-margin">
+        <div className="new-career-section w-90 mx-auto">
           <div className="career-section-row row g-0">
             <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-caption">
               <h5>WORK WITH US</h5>

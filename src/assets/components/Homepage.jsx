@@ -7,6 +7,7 @@ import Aboutdata from "../Data/AboutUs-Data/About";
 import vector from "../images/HomePage/horizontal-line.png";
 import OrganizationServices from "./Homepage/OrganizationServices";
 import { useNavigate } from "react-router-dom";
+import AboutUsBG from "../images/About-Us-Page/amnet-about-us-bg.jpg";
 
 function Test() {
   const [cookieName, setCookievalue] = useState("");
@@ -25,6 +26,7 @@ function Test() {
         consentPopup.classList.add("hidden");
       };
       const declineFn = (event) => {
+        setCookie("username", "amnetdigital", 1);
         if (consentPopup.classList.contains("block") === true) {
           consentPopup.classList.remove("block");
         }
@@ -81,7 +83,7 @@ function Test() {
 
   return (
     <>
-      <MediaQuery query="(min-width: 1025px)">
+      <MediaQuery minWidth={1025}>
         <div className="h-100 position-relative">
           <video
             className="homepage_video"
@@ -102,10 +104,11 @@ function Test() {
               <h2
                 className="fs-60 text-white fw-bold-700 w-50"
                 data-text="Reimagine & Redefine"
+                id="trusted"
               >
                 Your Trusted Partner In Making Data Driven Decisions
               </h2>
-              <div className="mt-2 fs-20 fw-bold-400 px-2 w-50">
+              <div className="mt-2 fs-20 fw-bold-400 text-white px-2 w-50">
                 We are a Data Analytics & AI solutions company that helps
                 businesses make data-driven decisions
               </div>
@@ -156,10 +159,10 @@ function Test() {
           </div>
         </div>
       </MediaQuery>
-      <MediaQuery query="(max-width: 1024px)">
-        <div className="wrapper_video">
+      <MediaQuery minWidth={901} maxWidth={1024}>
+        <div className="h-100 position-relative">
           <video
-            className="video position-relative"
+            className="homepage_video"
             id="myVideo"
             autoPlay={true}
             muted
@@ -171,16 +174,16 @@ function Test() {
               type="video/mp4"
             />
           </video>
-          <div class="card-overlay"></div>
+          <div class="card-overlay "></div>
           <div className="w-90 mx-auto">
-            <div className="new-subService-AIML-intro-caption position-absolute w-100">
+            <div className="new-subService-AIML-intro-caption top-25 position-absolute">
               <h2
-                className="fs-60 text-white fw-bold-700 w-75"
+                className="fs-60 text-white fw-bold-700 w-50"
                 data-text="Reimagine & Redefine"
               >
                 Your Trusted Partner In Making Data Driven Decisions
               </h2>
-              <div className="mt-2 fs-20 fw-bold-400 px-2 w-75">
+              <div className="mt-2 fs-20 text-white fw-bold-400 px-2 w-50">
                 We are a Data Analytics & AI solutions company that helps
                 businesses make data-driven decisions
               </div>
@@ -189,6 +192,86 @@ function Test() {
                 className="mt-4 fw-bold-700 fs-14 px-4 py-3 text-white bg-grey d-table rounded-1 cr-pointer"
               >
                 Let's connect
+              </div>
+            </div>
+          </div>
+        </div>
+      </MediaQuery>
+      <MediaQuery minWidth={761} maxWidth={900}>
+        <div className="sub-service-intro h-100">
+          <div className="wrapper_video">
+            <video
+              className="video position-relative"
+              id="myVideo"
+              autoPlay={true}
+              muted
+              loop
+              playsInline
+            >
+              <source
+                src="https://amnet-digital-website.s3.amazonaws.com/FinalVersion.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <div class="card-overlay h-100vh"></div>
+            <div className="w-90 mx-auto">
+              <div className="position-absolute w-100 top-40">
+                <h2
+                  className="fs-35 text-white fw-bold-700 w-75"
+                  data-text="Reimagine & Redefine"
+                >
+                  Your Trusted Partner In Making Data Driven Decisions
+                </h2>
+                <div className="mt-2 fs-20 text-white fw-bold-400 px-2 w-75">
+                  We are a Data Analytics & AI solutions company that helps
+                  businesses make data-driven decisions
+                </div>
+                <div
+                  onClick={connectTo}
+                  className="mt-4 fw-bold-700 fs-14 px-4 py-3 text-white bg-grey d-table rounded-1 cr-pointer"
+                >
+                  Let's connect
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </MediaQuery>
+      <MediaQuery minWidth={200} maxWidth={760}>
+        <div className="sub-service-intro h-100">
+          <div className="wrapper_video">
+            <video
+              className="video position-relative"
+              id="myVideo"
+              autoPlay={true}
+              muted
+              loop
+              playsInline
+            >
+              <source
+                src="https://amnet-digital-website.s3.amazonaws.com/FinalVersion.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <div class="card-overlay h-100vh"></div>
+            <div className="w-90 mx-auto">
+              <div className=" position-absolute w-100 top-20">
+                <h2
+                  className="fs-35 text-white fw-bold-700 w-75"
+                  data-text="Reimagine & Redefine"
+                >
+                  Your Trusted Partner In Making Data Driven Decisions
+                </h2>
+                <div className="mt-2 fs-20 text-white fw-bold-400 px-2 w-75">
+                  We are a Data Analytics & AI solutions company that helps
+                  businesses make data-driven decisions
+                </div>
+                <div
+                  onClick={connectTo}
+                  className="mt-4 fw-bold-700 fs-14 px-4 py-3 text-white bg-grey d-table rounded-1 cr-pointer"
+                >
+                  Let's connect
+                </div>
               </div>
             </div>
           </div>
@@ -248,7 +331,7 @@ function Test() {
           padding: "30px",
         }}
       >
-        <div className="new-career-section new-all-margin">
+        <div className="new-career-section w-90 mx-auto">
           <div className="career-section-row row g-0">
             <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-caption">
               <h5>WORK WITH US</h5>

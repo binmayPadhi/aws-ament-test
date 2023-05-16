@@ -40,7 +40,7 @@ const OrganizationServices = () => {
             {/* desktop and large screens */}
             <MediaQuery query="(min-width: 1025px)">
               <>
-                <div className={response["id"] === 2 ? "bg" : " "}>
+                <div className={response["id"] === 2 ? "bg pb-5" : " "}>
                   <div className="center-90 mx-auto mt-4">
                     <div className="row" key={response.id}>
                       <div

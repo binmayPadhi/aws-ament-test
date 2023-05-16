@@ -16,6 +16,17 @@
     font-size:35px;
 }
 
+.mb-4{
+  margin-bottom: 1.5rem!important;
+}
+
+.rounded-img-corner{
+  color: #1dad8f;
+  border-style:solid;
+  border-width:2px;
+  border-radius:360px;
+}
+
 .fw-bold-600{
     font-weight:600;
 }
@@ -226,7 +237,7 @@
   }
 
   .mt-15 {
-    margin-top: 15rem;
+    margin-top: 3rem;
 }
 
 .w-95{
