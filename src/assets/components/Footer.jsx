@@ -227,7 +227,7 @@ function Footer() {
     {
       id: 4,
       image: youtube,
-      link: "https://www.youtube.com/amnetdigital",
+      link: "https://www.youtube.com/@amnetdigital",
     },
     {
       id: 5,
