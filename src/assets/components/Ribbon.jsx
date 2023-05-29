@@ -43,7 +43,7 @@ const Ribbon = (props) => {
           <div className="w-100 mt-1 mb-1 d-flex justify-content-center">
             <span className="btn-ribbon-mob">
               <Link
-                to="/blog/webinar-reshaping-the-retail-industry-through-AI"
+                to="/blogs/webinar-reshaping-the-retail-industry-through-AI"
                 target="_blank"
                 className="text-dark fs-13 fw-bold-700"
               >
@@ -68,7 +68,7 @@ const Ribbon = (props) => {
                     </span>
                     <span className="btn-ribbon mt-1 mb-0">
                       <Link
-                        to="/blog/webinar-reshaping-the-retail-industry-through-AI"
+                        to="/blogs/webinar-reshaping-the-retail-industry-through-AI"
                         target="_blank"
                         className="text-dark fs-13 fw-bold-700"
                       >

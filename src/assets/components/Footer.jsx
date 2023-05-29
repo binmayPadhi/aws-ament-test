@@ -183,13 +183,13 @@ function Footer() {
         {
           id: 51,
           name: "Blogs",
-          link: "/blog/Insighthome",
+          link: "/blogs",
           target: "_balnk",
         },
         {
           id: 52,
           name: "Webinars",
-          link: "/blog/webinar-reshaping-the-retail-industry-through-AI",
+          link: "/blogs/webinar-reshaping-the-retail-industry-through-AI",
           target: "_balnk",
         },
         {

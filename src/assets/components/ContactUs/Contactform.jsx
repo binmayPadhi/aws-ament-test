@@ -25,7 +25,7 @@ const schema = yup
       .email()
       .matches(
         /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
-        "email is not valid"
+        "email is required"
       )
       .required("email is required"),
     phoneNumber: yup.string().when("$exist", {
@@ -166,7 +166,7 @@ const Contactform = () => {
                   <label className="font-form">
                     First Name<span className="star-green">*</span>
                     <input
-                      className="w-100 pl-1"
+                      className="w-100 pl-1 border-0"
                       type="text"
                       name="fName"
                       {...register("fName")}
@@ -181,7 +181,7 @@ const Contactform = () => {
                     Last Name<span className="star-green">*</span>
                     <input
                       type="text"
-                      className="w-100 pl-1"
+                      className="w-100 pl-1 border-0"
                       name="lName"
                       {...register("lName")}
                     />
@@ -198,7 +198,7 @@ const Contactform = () => {
                   </label>
                   <p className="email_field">
                     <input
-                      className="pl-1"
+                      className="pl-1 border-0"
                       type="email"
                       name="email"
                       {...register("email")}
@@ -213,7 +213,7 @@ const Contactform = () => {
                   <p className="email_field">
                     <input
                       type="text"
-                      className="pl-1"
+                      className="pl-1 border-0"
                       name="phoneNumber"
                       {...register("phoneNumber", { required: false })}
                     />
@@ -231,7 +231,7 @@ const Contactform = () => {
                   <p className="email_field">
                     <input
                       type="text"
-                      className="pl-1 form-control form-control-lg"
+                      className="pl-1 form-control form-control-lg border-0"
                       name="cName"
                       {...register("cName")}
                     />
@@ -248,7 +248,7 @@ const Contactform = () => {
                     <input
                       type="text"
                       name="jobTitle"
-                      className="pl-1 form-control form-control-lg "
+                      className="pl-1 form-control form-control-lg border-0"
                       {...register("jobTitle")}
                     />
                   </p>
@@ -264,7 +264,7 @@ const Contactform = () => {
                   </label>
                   <p>
                     <select
-                      className="form-select text-areainput select-height h-50px"
+                      className="form-select text-areainput h-50px"
                       aria-label="Default select example"
                       isSearchable="true"
                       name="selecteditem"
@@ -290,7 +290,7 @@ const Contactform = () => {
                   <textarea
                     name="message"
                     rows="10"
-                    className="text-areainput"
+                    className="text-areainput border-0"
                     {...register("message")}
                   ></textarea>
                 </div>

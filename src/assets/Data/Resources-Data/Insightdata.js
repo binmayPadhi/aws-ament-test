@@ -6,7 +6,7 @@ import blog4 from "../../images/Resources-page/blog4.png";
 const Insightdata = {
   carddetails: [
     {
-      id: "blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry",
+      id: "seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry",
       date: "April 14, 2023",
       title:
         "Seven Significant ways Artificial Intelligence (AI) is Impacting...",
@@ -15,7 +15,7 @@ const Insightdata = {
       image: blog1,
     },
     {
-      id: "blog-AI-retail-industry",
+      id: "AI-retail-industry",
       date: "April 21, 2023",
       title:
         "AI for Retail - Discover how AI can revolutionize the retail industry...",
@@ -24,7 +24,7 @@ const Insightdata = {
       image: blog2,
     },
     {
-      id: "blog-AIops-retail-industry",
+      id: "AIops-retail-industry",
       date: "April 28, 2023",
       title:
         "What is AIOps and explore how it is revolutionizing the retail industry...",

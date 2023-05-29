@@ -72,7 +72,7 @@ const Webinarform = (props) => {
             acceptCheckbox: false,
           }),
           history(
-            `/blog/webinar-thank-you-reshaping-the-retail-industry-through-AI`
+            `/blogs/webinar-thank-you-reshaping-the-retail-industry-through-AI`
           ),
           (error) => {
             console.log(error.text);
@@ -94,7 +94,7 @@ const Webinarform = (props) => {
               First Name<span className="req">*</span>
               <input
                 ref={input1}
-                className="w-100 pl-1"
+                className="w-100 pl-1 border-0"
                 type="text"
                 name="fName"
                 onChange={handleChange}
@@ -108,7 +108,7 @@ const Webinarform = (props) => {
               Last Name<span className="req">*</span>
               <input
                 type="text"
-                className="w-100 pl-1"
+                className="w-100 pl-1 border-0"
                 name="lName"
                 onChange={handleChange}
                 value={registerDetails.lName}
@@ -124,7 +124,7 @@ const Webinarform = (props) => {
             </label>
             <p className="email_field">
               <input
-                className="pl-1"
+                className="pl-1 border-0"
                 type="email"
                 name="email"
                 onChange={handleChange}
@@ -142,7 +142,7 @@ const Webinarform = (props) => {
             <p className="email_field">
               <input
                 type="text"
-                className="pl-1"
+                className="pl-1 border-0"
                 name="cName"
                 onChange={handleChange}
                 value={registerDetails.cName}
@@ -158,7 +158,7 @@ const Webinarform = (props) => {
               <input
                 type="text"
                 name="jobTitle"
-                className="pl-1"
+                className="pl-1 border-0"
                 onChange={handleChange}
                 value={registerDetails.jobTitle}
               />
@@ -169,7 +169,7 @@ const Webinarform = (props) => {
           <div className="w-5">
             <input
               className="checkMark"
-              type="checkbox"
+              type="checkbox border-0"
               name="acceptCheckbox"
               onChange={handleChange}
               checked={registerDetails.acceptCheckbox}

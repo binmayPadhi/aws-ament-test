@@ -14,7 +14,7 @@ const Insighthome = () => {
   };
 
   const navigateTowebinarspage = (id) => {
-    history(`/blog/${id}`);
+    history(`/blogs/${id}`);
   };
 
   const [selectedId, setId] = useState("");
@@ -68,7 +68,7 @@ const Insighthome = () => {
                   <div className="card animation-card-image mr-4 box_shadow">
                     <a
                       className="anchor_styles achorhover"
-                      href={`/blog/${list.id}`}
+                      href={`/blogs/${list.id}`}
                     >
                       <div className="card-header border-0 bgc-white p-0">
                         <img
