@@ -105,4 +105,18 @@
     padding: 10px 20px;
     font-weight: bold;
   }
+
+  .dropzone{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    border: 2px dashed rgba(0, 0, 0, 0.4);
+    height: 200px;
+    padding: 20px;
+    margin-top:15px;
+  }
+
+  .text-grey{
+    color:#c2c2c2;
+  }
   

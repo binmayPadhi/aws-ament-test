@@ -10,6 +10,8 @@ import * as yup from "yup";
 import { useRef } from "react";
 import Modal from "react-bootstrap/Modal";
 import correct from "../images/careers-page/correct.png";
+import { useDropzone } from 'react-dropzone';
+import styled from 'styled-components';
 
 const schema = yup
   .object()
@@ -22,7 +24,7 @@ const schema = yup
       .string()
       .matches(/^[a-zA-Z ]*$/, "Last Name is not valid")
       .required("Last Name is required"),
-      email: yup
+    email: yup
       .string()
       .email()
       .matches(
@@ -42,7 +44,7 @@ const schema = yup
       .matches(/[0-9]+/, "salary expectation is not valid")
       .required("Salary Expectation is required"),
     avaliblityDate: yup.string().required("Date Avaliblity is required"),
-    resume: yup.string().required("Resume is required"),
+    // resume: yup.string().required("Resume is required"),
     location: yup
       .string()
       .matches(/^[a-zA-Z ]*$/, "location is not valid")
@@ -129,11 +131,22 @@ const ApplicationForm = () => {
     });
   };
 
+
+  const [files,setFiles] = useState(null);
+  const handleDragOver = (event) => {
+    event.preventDefault()
+  }
+  const handleDrop = (event) => {
+    event.preventDefault()
+    setFiles(event.datatransfer.files);
+    onFileChange(event)
+  }
+  
+  const inputRef = useRef();
   return (
     <>
       <div className="container">
-        <form ref={applicationDetails} onSubmit={handleSubmit(onSubmit)}>  
-                
+        <form ref={applicationDetails} onSubmit={handleSubmit(onSubmit)}>
           <h1 className="fs-16 fw-bold-400 mt-5">
             Required fields<span className="star-color">*</span>
           </h1>
@@ -235,11 +248,49 @@ const ApplicationForm = () => {
                 </div>
               </div>
               <div className="bottom-line mt-2"></div>
-              <div className="row mt-5">
-                <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                   
+              <div className="mt-2">
+              <label>
+                    Resume<span className="star-color">*</span>
+                  </label>
+             
+              <div className="dropzone"
+                  onDragOver={handleDragOver}
+                  onDrop={handleDrop}
+                  onClick={() => inputRef.current.click()}
+                  >
+                    <input
+                    {...register("resume", {
+                      validate: {
+                        acceptedFormats: (files) =>
+                          ["pdf", "docx", "doc"].includes(files[0]?.type) ||
+                          "Please upload only PDF, DOCX",
+                      },
+                    })}
+                      type="file"
+                      multiple={false}
+                      onChange={onFileChange}
+                      hidden
+                      ref={inputRef}>
+                    </input>
+                    
+                <h1 className="text-center">Upload a file <span className="text-grey">or drag and drop the file</span></h1>   
+                {errors.resume && (
+                  <p className="fs-12 text-danger fw-bold-400">
+                    {errors.resume.message}
+                  </p>
+                )}
+                <p className="fs-12 text-danger fw-bold-400">{errorImg}</p>
+                <p className="fs-12 text-dark fw-bold-400">
+                  {uploadedPhotos.map((photo, i) => (
+                    <p className="fs-12 text-dark fw-bold-400" key={i}>
+                      {photo.name}
+                    </p>
+                  ))}
+                </p>             
                 </div>
-              </div>
+                
+            
+            </div>
               <div className="row mt-5">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <label>
