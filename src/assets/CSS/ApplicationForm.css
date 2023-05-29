@@ -1,0 +1,108 @@
+.black-container {
+    border: solid;
+    border-width: 1px;
+  }
+  
+  .import-box {
+    background: #1dad8f;
+    width: 332px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  
+  .star-color {
+    color: #1dad8f;
+    font-size: 16px;
+  }
+  
+  .width-clear {
+    width: 12px;
+    height: 18px;
+  }
+  
+  .bottom-line {
+    border-width: 0.5px;
+    width: 100%;
+    border-style: solid;
+    border-color: #c2c2c2;
+  }
+  
+  input {
+    border: 1px solid rgba(0, 0, 0, 0.4) !important;
+    padding-left: 5px;
+  }
+  
+  .form input {
+    box-shadow: none !important;
+    border-style: solid !important;
+    font-size: 1.8rem;
+  }
+  
+  .color-optional {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #c2c2c2;
+  }
+  
+  .text-height {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    line-height: 1.2em;
+    color: black;
+    font-size: 14px;
+  }
+
+  .select-height {
+    padding:10px 15px;
+  background:#ffffff;
+  border-color: #c2c2c2 !important;
+  border-style: solid !important;
+  border-width: 2px !important;
+  border-radius: 36px;
+  font-weight:bold;
+  color:#333;
+  }
+
+  .select-height-form{
+    padding:10px 15px;
+    background:#ffffff;
+    border-color: #c2c2c2 !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+    font-weight:bold;
+    color:#333;
+  }
+
+  .text-area-style{
+    width: 100%!important;
+    font-weight:500;
+    font-size:16px;
+    color:#372d2d;
+  }
+
+  .dropdown-style{
+    padding:15px 20px !important;
+    background-color: #fff !important;
+    box-shadow: 3px 3px 10px 16px rgb(0,0,0,0.06);
+    font-weight:bold!important;
+    color:#333!important;
+    width:95%!important;
+    font-size:16px!important;
+
+  }
+
+  .submit-button-green {
+    background-color: #1dad8f;
+    color: #fff !important;
+    border: 1px solid #1dad8f;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+  

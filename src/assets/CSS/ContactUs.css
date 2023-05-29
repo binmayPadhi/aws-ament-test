@@ -98,3 +98,7 @@
 .container-table-box {
   box-shadow: 0px 3px 6px #00000029;
 }
+
+input {
+  border: 0px solid #000000!important;
+}

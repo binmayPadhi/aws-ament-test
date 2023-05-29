@@ -24,16 +24,17 @@ import InsightAI from "./Resources/InsightAI";
 import Insighthome from "./Resources/Insighthome";
 import InsightAIOPS from "./Resources/InsightAIOPS";
 import BlogIT from "./Resources/BlogIT";
-import Viewsubservicestart from "./SubServices/Viewsubservicestart";
+import CareerHome from "./CareerHome";
+import Apply from "./Apply";
 
 function App() {
   const path = useLocation();
   const url = path.pathname;
   return (
     <>
-      {url != "/blog/webinar-reshaping-the-retail-industry-through-AI" &&
+      {url != "/blogs/webinar-reshaping-the-retail-industry-through-AI" &&
       url !=
-        "/blog/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
+        "/blogs/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
       url != "/swiftinisghts-Webinar" ? (
         <div>
           <Navbar />
@@ -50,36 +51,28 @@ function App() {
             <Route path=":name/:service" element={<Viewsubservice />} />
             {/* <Route path=":name/:service" element={<Viewsubservicestart />} /> */}
           </Route>
-          <Route path="/careers" element={<Careers />} />
-          {/* <Route path="/careers" element={<Carrershome />}>
+          <Route path="/careers" element={<CareerHome />}>
             <Route path="" element={<Careers />} />
-            <Route path="fullstacknode" element={<Applyjob />} />
-            <Route path="azure" element={<Applyazure />} />
-            <Route path="da" element={<ApplyDarchitect />} />
-            <Route path="dotnet" element={<ApplyNet />} />
-            <Route path="datascientist" element={<Datasc />} />
-            <Route path="python" element={<Python />} />
-            <Route path="uxdesigner" element={<UXdesigner />} />
-          </Route> */}
+           <Route path="applyjob" element={<Apply />} />
+          </Route>
           <Route path="/casestudies" element={<CaseStudies />} />
           <Route path="/legalresources" element={<Legalterms />} />
-          <Route path="/blog" element={<Blog />}>
+          <Route path="/blogs" element={<Blog />}>
             <Route exact path="" element={<Insighthome />} />
             <Route
               exact
-              path="blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
+              path="seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
               element={<Insight />}
             />
-            <Route exact path="Insighthome" element={<Insighthome />} />
-            <Route
+                        <Route
               exact
-              path="blog-AIops-retail-industry"
+              path="AIops-retail-industry"
               element={<InsightAIOPS />}
             />
             <Route exact path="AI-for-IT-operations" element={<BlogIT />} />
             <Route
               exact
-              path="blog-AI-retail-industry"
+              path="AI-retail-industry"
               element={<InsightAI />}
             />
             <Route
@@ -101,10 +94,10 @@ function App() {
           <Route path="/termsandconditions" element={<Termsandconditions />} />
         </Routes>
       </div>
-      {url != "blog/webinar-reshaping-the-retail-industry-through-AI" &&
+      {url != "blogs/webinar-reshaping-the-retail-industry-through-AI" &&
       url !=
-        "blog/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
-      url != "blog/swiftinisghts-Webinar" ? (
+        "blogs/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
+      url != "blogs/swiftinisghts-Webinar" ? (
         <div className="industry-section-row">
           <Footer />
         </div>

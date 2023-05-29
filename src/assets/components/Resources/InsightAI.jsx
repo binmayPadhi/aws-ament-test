@@ -74,7 +74,7 @@ const InsightAI = () => {
                           <div style={btnColor} className="mt-5">
                             <a
                               className="achorhover"
-                              href={`/blog/webinar-reshaping-the-retail-industry-through-AI`}
+                              href={`/blogs/webinar-reshaping-the-retail-industry-through-AI`}
                             >
                               <p className="mb-0 px-4 py-3">
                                 <span className="lh-1 fs-18">
@@ -94,7 +94,7 @@ const InsightAI = () => {
                       {list.hasOwnProperty("description2") === true ? (
                         <a
                           className="achorhover"
-                          href={`/blog/webinar-reshaping-the-retail-industry-through-AI`}
+                          href={`/blogs/webinar-reshaping-the-retail-industry-through-AI`}
                         >
                           <p className="mb-0 pt-3 mx-auto fs-18 cr-pointer">
                             <img

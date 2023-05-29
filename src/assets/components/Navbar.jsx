@@ -21,15 +21,14 @@ function Navbar(props) {
     if (
       url === "/legalresources" ||
       url ===
-        "/blog/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" ||
+        "/blogs/seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" ||
       url === "/cookiespolicy" ||
-      url === "/blog/Insighthome" ||
-      url === "/Privacypolicy" ||
+           url === "/Privacypolicy" ||
       url === "/termsandconditions" ||
-      url === "/blog" ||
-      url === "/blog/blog-AI-retail-industry" ||
-      url === "/blog/blog-AIops-retail-industry" ||
-      url === "/blog/AI-for-IT-operations"
+      url === "/blogs" ||
+      url === "/blogs/AI-retail-industry" ||
+      url === "/blogs/AIops-retail-industry" ||
+      url === "/blogs/AI-for-IT-operations"
     ) {
       setNavcolor("app");
     } else {
@@ -881,8 +880,8 @@ function Navbar(props) {
                   style={navStyle}
                 >
                   <NavLink
-                    to="/blog"
-                    onClick={() => (window.location.href = "/blog")}
+                    to="/blogs"
+                    onClick={() => (window.location.href = "/blogs")}
                     style={navStyle}
                     className={color === "app" ? "text-black" : "text-white"}
                   >
@@ -915,30 +914,30 @@ function Navbar(props) {
                             <p className="service-aiml mt-5">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/blog/Insighthome`)
+                                  serviceTo(e, `/blogs`)
                                 }
                                 className="cr-pointer"
                               >
-                                Blog
+                                Blogs
                               </span>
                             </p>
-                            {/* <p className="fs-13 fw-bold-400 text-digital mt-2">
+                            <p className="fs-13 fw-bold-400 text-digital mt-2">
                               Seven Significant ways Artificial Intelligence (AI
                               ) is Impacting the Retail Industry
-                            </p> */}
-                            {/* <p className="sub-service-links dropdown-view-all-link ">
+                            </p>
+                            <p className="sub-service-links dropdown-view-all-link ">
                               <span
                                 onClick={(e) =>
                                   serviceTo(
                                     e,
-                                    `/blog/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry`
+                                    `/blogs/seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry`
                                   )
                                 }
                               >
                                 {`Read the full blog >`}
                               </span>
-                            </p> */}
-                            {/* <p className="fs-13 fw-bold-400 text-digital mt-2">
+                            </p>
+                            <p className="fs-13 fw-bold-400 text-digital mt-2">
                               AI for Retail - Discover how AI can revolutionize
                               the retail industry and help businesses increase
                               sales, improve customer experience, and optimize
@@ -947,24 +946,34 @@ function Navbar(props) {
                             <p className="sub-service-links dropdown-view-all-link ">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/blog/blog-AI-retail-industry`)
+                                  serviceTo(e, `/blogs/AI-retail-industry`)
                                 }
                               >
                                 {`Read the full blog >`}
                               </span>
-                            </p> */}
-
+                            </p>
+                            <p className="sub-service-links dropdown-view-all-link ">
+                            <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/blogs`)
+                                }
+                              >
+                                {`see more >`}
+                              </span>
+                            </p>
+                        </div>
+                        <div className="col-lg-4">
                             <p className="service-aiml mt-5">
                               <span
                                 onClick={(e) =>
                                   serviceTo(
                                     e,
-                                    `/blog/webinar-reshaping-the-retail-industry-through-AI`
+                                    `/blogs/webinar-reshaping-the-retail-industry-through-AI`
                                   )
                                 }
                                 className="cr-pointer"
                               >
-                                Webinar
+                                Webinars
                               </span>
                             </p>
                             <p className="fs-13 fw-bold-400 text-digital mt-2">
@@ -976,7 +985,7 @@ function Navbar(props) {
                                 onClick={(e) =>
                                   serviceTo(
                                     e,
-                                    `/blog/webinar-reshaping-the-retail-industry-through-AI`
+                                    `/blogs/webinar-reshaping-the-retail-industry-through-AI`
                                   )
                                 }
                               >
@@ -1002,7 +1011,7 @@ function Navbar(props) {
                     aria-expanded="false"
                   >
                     <NavLink
-                      to="/blog"
+                      to="/blogs"
                       style={navStyle}
                       onClick={closeNavpopup}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
@@ -1019,7 +1028,7 @@ function Navbar(props) {
                   >
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/blog/Insighthome`}
+                      to={`/blogs`}
                       onClick={closeNavpopup}
                     >
                       Blogs
@@ -1028,7 +1037,7 @@ function Navbar(props) {
                       className="dropdown-item sub-service-dropdown-item"
                       target={"_blank"}
                       onClick={closeNavpopup}
-                      to={`/blog/webinar-reshaping-the-retail-industry-through-AI`}
+                      to={`/blogs/webinar-reshaping-the-retail-industry-through-AI`}
                     >
                       Webinars
                     </NavLink>
