@@ -273,7 +273,7 @@ const ApplicationForm = () => {
                       ref={inputRef}>
                     </input>
                     
-                <h1 className="text-center">Upload a file <span className="text-grey">or drag and drop the file</span></h1>   
+                <h1 className="text-center">Upload a file <span className="text-grey-text">or drag and drop the file</span></h1>   
                 {errors.resume && (
                   <p className="fs-12 text-danger fw-bold-400">
                     {errors.resume.message}
