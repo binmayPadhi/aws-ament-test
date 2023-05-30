@@ -160,9 +160,9 @@ function Navbar(props) {
     }
   });
 
-  const onchange = (e) => {
-    setstoreRibbon("hide");
-  };
+  // const onchange = (e) => {
+  //   setstoreRibbon("hide");
+  // };
 
   const closeNavpopup = () => {
     let x = document.getElementById("navbarNav").classList.contains("show");
