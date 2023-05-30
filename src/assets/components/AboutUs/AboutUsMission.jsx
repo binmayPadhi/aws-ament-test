@@ -1,36 +1,60 @@
 import React from "react";
-import aboutUsMissionData from "../../Data/AboutUs-Data/AboutUsMissionData";
+import About from "../../Data/AboutUs-Data/About";
+import MediaQuery from "react-responsive";
 
-function AboutUsMission (){
-    return (
-        <>
-            <div className="about-us-page-details new-all-margin" >
-
-                <div className="row about-us-page-row ml-0 mr-0">
-
-                    {aboutUsMissionData.map((list,index)=> {
-                        return (
-                            !(index % 2) ?
-                            <div className="col-12 about-us-details p-0" key = {list.id}>
-                                <img loading="lazy"  className="img-fluid about-us-img-left " src={list.imgSrc} alt="mission" />
-                                <div className="about-us-desc">
-                                    <h2>{list.title}</h2>
-                                    <p>{list.description}</p>
-                                </div>
-                            </div> :
-                            <div className="col-12 about-us-details p-0" key = {list.id}>
-                            <img loading="lazy"  className="img-fluid about-us-img-right " src={list.imgSrc} alt="mission" />
-                            <div className="about-us-desc">
-                                <h2>{list.title}</h2>
-                                <p>{list.description}</p>
-                            </div>
-                            </div>  
-                        )
-                    })}
-                </div>
-            </div>
-        </>
-    )
-}
+const AboutUsMission = () => {
+  return (
+    <>
+      <div className="row">
+        {About.missionblock.map((list) => {
+          let reverse = list.id % 2 === 0 ? "order-last" : "order-first";
+          let reverse1 = list.id % 2 === 0 ? "order-first" : "order-last";
+          return (
+            <>
+              {/* mobile views */}
+              <MediaQuery query="(max-width: 1024px)">
+                <>
+                  <div className="col-sm-12 mt-5">
+                    <p className="fw-bold-600 fs-35 text-black text-left">
+                      {list.heading}
+                    </p>
+                    <p>
+                      <img src={list.image} className="w-100" />
+                    </p>
+                    <p className="fw-bold-300 fs-18 text-blackrock text-left">
+                      {list.description}
+                    </p>
+                  </div>
+                </>
+              </MediaQuery>
+              {/* desktop and large screens */}
+              <MediaQuery query="(min-width: 1025px)">
+                <>
+                  <div className={"col-md-6 col-lg-6 mt-5" + " " + reverse}>
+                    <div className="w-100 d-flex align-items-center">
+                      <div className="w-100 mt-5">
+                        <p className="fw-bold-600 fs-35 text-black text-left">
+                          {list.heading}
+                        </p>
+                        <p className="fw-bold-300 fs-18 text-blackrock text-left">
+                          {list.description}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className={"col-md-6 col-lg-6 mt-5" + " " + reverse1}>
+                    <p className="mb-0">
+                      <img src={list.image} />
+                    </p>
+                  </div>
+                </>
+              </MediaQuery>
+            </>
+          );
+        })}
+      </div>
+    </>
+  );
+};
 
 export default AboutUsMission;

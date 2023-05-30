@@ -2,288 +2,232 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 import careerLinkIcon from "../images/About-Us-Page/amnet-external-link.png";
-import AboutUsBG from "../images/About-Us-Page/amnet-about-us-bg.jpg";
+import AboutUsBG from "../images/About-Us-Page/worker-reading-news-with-tablet.png";
 import AboutUsMission from "../components/AboutUs/AboutUsMission";
-import AboutDetailsFirstRowData from "../Data/Homepage-Data/AboutDetailsFirstRowData";
-import AboutDetailsSecondRowData from "../Data/Homepage-Data/AboutDetailsSecondRowData";
-import AIIcon from "../images/HomePage/ai-icon.png";
-import ClientSay from "../components/Homepage/ClientSay";
 import OurPartner from "../components/Homepage/OurPartner";
-import OurLocation from "../components/OurLocation";
+import About from "../Data/AboutUs-Data/About";
+import Aboutvalues from "./AboutUs/Aboutvalues";
+import ceo from "../images/About-Us-Page/CEO.png";
+import achievement from "../images/About-Us-Page/Achievements.png";
+import Amnetglance from "./AboutUs/Amnetglance";
+import Aboutclientsay from "./AboutUs/Aboutclientsay";
+import global from "../images/HomePage/global.png";
+import Letsconnect from "./AboutUs/Letsconnect";
+import MediaQuery from "react-responsive";
+import { useNavigate } from "react-router-dom";
+import Gotocontact from "./Gotocontact";
+import Whyamnet from "./SubServices/Whyamnet";
+
+
 
 function TestAboutUs() {
+  const history = useNavigate();
+  const redirectTo = (e) => {
+    e.preventDefault();
+    history(`/services`);
+  };
   return (
     <>
       <div
-        className="sub-service-intro container-fluid"
+        className="sub-service-intro position-realtive"
         style={{
           backgroundImage: `url(${AboutUsBG})`,
           backgroundAttachment: "scroll",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
+          width: "100%",
         }}
       >
+        {/* <div className="fs-35 text-white position-absolute top-0">
+          <Navbar navChange={navColor} />
+        </div> */}
+        <div className="w-85 mx-auto">
+          <div className="text-center-img">
+            <div className="row">
+              <div className="col-lg-6 col-md-6 col-sm-12">
+                <h2
+                  className="fw-bold-600 text-white fs-35 text-capitalize"
+                  data-text="Your Tech Innovation Catalyst"
+                >
+                  Powering Businesses To Achieve More
+                </h2>
+                <p className="fw-bold-400 fs-16 text-white mb-5 mt-4">
+                  At Amnet Digital, our focus is to infuse Data, Analytics & AI that enables clients to realize the higher value of their digital transformation initiatives and drive positive business impact.
+                </p>
+                <button
+                  type="button"
+                  className="fw-bold-700 fs-14 px-4 py-3 text-white bg-grey d-table rounded-1 cr-pointer"
+                  onClick={(e) => redirectTo(e)}
+                >
+                  Explore Services
+                </button>
+              </div>
+              <div className="col-lg-5 col-md-5 col-sm-12"></div>
+            </div>
+          </div>
+          <div className="bottom-img-about w-100">
+            <div className="row">
+              <div className="col-lg-6 col-md-6 col-sm-12">
+                <p className="fs-24 fw-bold-600 text-white">About Us</p>
+              </div>
+              <div className="col-lg-5 col-md-5 col-sm-12"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* AboutUS Page QUOTE SECTION */}
+
+      <div className="mt-10">
+        <h1 className="text-center text-black fs-35 fw-bold-600">WHO WE ARE</h1>
+        <p className="text-grey fs-16 fw-bold-400 text-center mb-0">
+          Amnet Digital is a Data, Analytics & AI solutions company that helps businesses to make data-driven decisions, uncover key insights,
+        </p>
+        <p className="text-grey fs-16 fw-bold-400 text-center mb-0">
+          and automate operations. Unpack new business opportunities and possibilities using our Analytics & AI digital accelerators.
+        </p>
+
+      </div>
+      <div className="mt-5">
         <div className="w-90 mx-auto">
           <div className="row">
-            <div className="col-lg-5 col-md-8 col-sm-12 new-subService-AIML-intro-caption">
-              <h2
-                className="textAnimation"
-                data-text="Your Innovation Catalyst"
-              >
-                Your Innovation Catalyst
-              </h2>
-              <p>
-                We have cultivated culture. One that focuses on helping our
-                clients gain maximum advantage from our abilities, towards
-                transforming them into AI & Digital empowered businesses.
-              </p>
-
-              <div className="subService-AIML-intro-btn">
-                {/* <a href="/casestudies">
-                                    <button type="button" className="btn btn-default">View Details</button>
-                                </a> */}
-                <Link
-                  activeClass="active"
-                  to="details"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={500}
+            {About.whoweare.map((list) => {
+              return (
+                <div
+                  key={list.id}
+                  className="col-md-3 col-lg-3 col-sm-12 text-center"
                 >
-                  <button
-                    type="button"
-                    className="btn btn-default sub-service-view-details-btn"
-                  >
-                    Learn more
-                  </button>
-                </Link>
-                <NavLink to="/casestudies">
-                  <button
-                    type="button"
-                    className="btn btn-default sub-service-contact-us-btn"
-                  >
-                    Case Studies
-                  </button>
-                </NavLink>
+                  <p className="mb-0">
+                    <img src={list.image} className="w-25" />
+                  </p>
+                  <p className="fw-bold-600 fs-19 text-nero">{list.heading}</p>
+                  <p className="fw-bold-400 fs-16 text-grey">
+                    {list.description}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+
+      <div className="mt-5">
+        <div className="w-90 mx-auto">
+          <AboutUsMission />
+        </div>
+      </div>
+
+      <div className="w-100">
+        <Aboutvalues />
+      </div>
+
+      <div className="mt-5">
+        <div className="w-90 mx-auto">
+          <Whyamnet />
+        </div>
+      </div>
+
+      <div className="mt-5 w-100">
+        <img alt=" " src={achievement} className="w-100" />
+      </div>
+
+      <MediaQuery query="(max-width: 767px)">
+        <div className="mt-5 w-100 ceo-img-section h-auto pt-5">
+          <div className="row">
+            <div className="col-md-8 col-lg-8 col-sm-12 col-xs-12">
+              <div className="w-90 mx-auto">
+                <p className="fw-bold-500 fs-32 text-white">CEO Message</p>
+                <p className="text-white fs-16 fw-bold-700 mt-4">
+                Our purpose is to make a  positive business impact that matters.
+                </p>
+                <p className="mt-2 text-white fs-16 fw-bold-400 mt-5">
+                  Our only goal is to deliver real business value to all our stakeholders—customers, associates, and partners. We empower organizations with our deep tech (Data, Analytics & AI) and industry experience in solving their biggest technology challenges and contributing toward business growth consistently.
+                  Our organisation growth in the past four years convinces us that we are on the right path.
+                </p>
+                <p className="w-100 align-items-center">
+                  <div className="d-flex justify-content-center">
+                    <img src={ceo} className="ceo-image-style" />
+                  </div>
+                  <div className="d-flex justify-content-center">
+                    <p className="text-white fs-24 fw-bold-700 mb-0">
+                      Krishna Reddy
+                    </p>
+                  </div>
+                  <div className="d-flex justify-content-center ">
+                    <p className="text-white fs-16 fw-bold-400">Founder & CEO</p>
+                  </div>
+                </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-      {/* AboutUS Page QUOTE SECTION */}
-      <div className="homepage-quote homepage-news-text">
-        <h2 className="text-center">
-          "Building an Efficient & Intelligent Tomorrow"
-        </h2>
-      </div>
-
-      {/* NEW ABOUT US SOLUTION SERVICE SECTION */}
-      <div className="new-home-about-details new-all-margin" id="details">
-        <h1 className="text-center">WHO WE ARE</h1>
-        <p>
-          We are an Artificial Intelligence Services and Solutions company that
-          focuses on applying Machine Learning, Deep Learning and Advanced
-          Analytics to solve the problems of businesses.
-        </p>
-        <br />
-        <p>
-          Amnet Digital has highly experienced talent from world-leading
-          institutions and technology companies. We have successfully applied AI
-          Technologies in Enterprise Software, Retail, eCommerce and Healthcare.
-          Our digital product engineering teams design and deploy enterprise
-          solutions that are robust, secure and scalable.
-        </p>
-      </div>
-
-      {/* NEW ABOUT US SOLUTION SERVICE SECTION */}
-      <div className="new-home-about-details new-aboutus-info-section">
-        <div className="  new-all-margin">
-          <p>
-            We put your data at work using our tried-and-trusted approaches that
-            yield maximum ROI in the shortest time possible!
-          </p>
-        </div>
-      </div>
-
-      {/* ABOUT US MISSION AND VISION SECTION */}
-      <AboutUsMission />
-
-      {/* NEW ABOUT US CREDO SECTION */}
-
-      <div
-        className="homepage-about-details"
-        style={{
-          backgroundColor: "#0C0C0C",
-          backgroundAttachment: "scroll",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
-      >
-        <h1
-          className="section-title text-center"
-          style={{ paddingTop: "30px", color: "white" }}
-        >
-          CREDO
-        </h1>
-        <hr></hr>
-        <div className="row new-all-margin ml-0 mr-0">
-          {/* <div className="col-10 credo-column mx-auto">
-                        <div className="row about-details-row mx-auto">
-                
-                            {AboutDetailsFirstRowData.map(list => {
-                                return (
-                                        <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 credo-info-column" key={list.id}>
-                                            <h3 className="about-details-header">
-                                                <span>
-                                                    <img src= {AIIcon} className="img-fluid about-icons" alt = "end to end" />
-                                                </span>
-                                                {list.newTitle}
-                                            </h3>
-                                        </div>
-                                    )
-                                })}
-
-                        </div>
-    
-                        </div>               */}
-          <div className="col-10 credo-column mx-auto">
-            <div className="row about-details-row mx-auto">
-              {AboutDetailsFirstRowData.map((list) => {
-                return (
-                  <div
-                    className="col-lg-6 col-md-12 col-sm-12 credo-info-column"
-                    key={list.id}
-                  >
-                    <h3 className="about-details-header">
-                      <span>
-                        <img
-                          loading="lazy"
-                          src={AIIcon}
-                          className="img-fluid about-icons"
-                          alt="end to end"
-                        />
-                      </span>
-                      {list.newTitle}
-                    </h3>
-                    <p>{list.description}</p>
-                  </div>
-                );
-              })}
+      </MediaQuery>
+      <MediaQuery query="(min-width: 767px)">
+        <div className="mt-5 w-100 ceo-img-section h-auto pt-5">
+          <div className="row">
+            <div className="col-md-8 col-lg-8 col-sm-12 col-xs-12">
+              <div className="w-80 mx-auto">
+                <p className="fw-bold-500 fs-32 text-white">CEO Message</p>
+                <p className="mt-2 text-white fs-16 fw-bold-400">
+                  Our only goal is to deliver real business value to all our stakeholders—customers, associates, and partners. We empower organizations with our deep tech (Data, Analytics & AI) and industry experience in solving their biggest technology challenges and contributing toward business growth consistently.
+                  Our organisation growth in the past four years convinces us that we are on the right path.
+                </p>
+                <p className="d-flex w-100 justify-content-between mt-15px">
+                  <span className="text-white fs-16 fw-bold-700 mt-4">
+                  Our purpose is to make a  positive business impact that matters.
+                  </span>
+                  <span className="text-white fs-16 fw-bold-700">
+                    <p className="text-white fs-24 fw-bold-700 mb-0">
+                      Krishna Reddy
+                    </p>
+                    <p className="text-white fs-16 fw-bold-400">Founder & CEO</p>
+                  </span>
+                </p>
+              </div>
             </div>
-
-            <div className="row about-details-row marginRow mx-auto">
-              {AboutDetailsSecondRowData.map((list) => {
-                return (
-                  <div
-                    className="col-lg-6 col-md-12 col-sm-12 credo-info-column"
-                    key={list.id}
-                  >
-                    <h3 className="about-details-header">
-                      <span>
-                        <img
-                          loading="lazy"
-                          src={AIIcon}
-                          className="img-fluid about-icons"
-                          alt="end to end"
-                        />
-                      </span>
-                      {list.newTitle}
-                    </h3>
-                    <p>{list.description}</p>
-                  </div>
-                );
-              })}
+            <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+              <div className="d-flex w-100 justify-content-center align-items-end">
+                <img src={ceo} className="w-100" />
+              </div>
             </div>
           </div>
         </div>
+      </MediaQuery>
+
+      <div className="mt-5">
+        <hr className="hr-grey-line" />
+        <div className="w-88 mx-auto">
+          <Amnetglance />
+        </div>
+        <hr className="hr-grey-line" />
       </div>
 
-      {/*NEW AboutUS Page Career Link SECTION */}
-      <div className="homepage-quote">
-        <a href="/careers" style={{ color: "white" }}>
-          <h2
-            className="text-center career-link-heading"
-            style={{ fontWeight: "800" }}
-          >
-            Careers
-            <span style={{ padding: "5px" }}>
-              <img
-                className="img-fluid career-link-icon"
-                style={{
-                  width: "25px",
-                  marginBottom: "10px",
-                  marginLeft: "5px",
-                }}
-                src={careerLinkIcon}
-                alt="career-icon"
-              />
-            </span>
-          </h2>
-        </a>
-        <p>Let us transform the world, together!</p>
+      <div className="mt-5">
+        <Aboutclientsay />
       </div>
 
-      {/* NEW HOMEPAGE OUR PARTNER SECTION */}
       <div className="new-our-partner">
-        <h1
-          data-aos="fade-up"
-          data-aos-offset="400"
-          className="section-title mt-3 text-center"
-        >
-          RECOGNITIONS & PARTNERSHIPS
-        </h1>
+        <h1 className="section-title mt-3 text-center">Technology Partners</h1>
         <OurPartner />
       </div>
 
-      {/* <!-- NEW ABOUT US PAGE LOCATION SECTION --> */}
-      <OurLocation />
-
-      {/* NEW HOMEPAGE CLIENT SAY */}
-      <ClientSay />
-
-      {/* NEW HOMEPAGE CAREER SECTION */}
-
-      <div
-        className="new-career-section"
-        style={{
-          width: "auto",
-          height: "auto",
-          backgroundColor: "#19AF8F",
-          padding: "30px",
-        }}
-      >
-        <div className="w-90 mx-auto">
-          <div className="career-section-row row g-0">
-            <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-caption">
-              <h5>WORK WITH US</h5>
-              <h2>Let's Grow Together</h2>
-            </div>
-            <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-details">
-              <p>
-                We are on a mission to solve complex problems and provide
-                solutions that make a difference, Come work with us.
-              </p>
-              <a href="/contactus">
-                <button
-                  type="button"
-                  className="btn btn-default contact-us-button"
-                >
-                  Contact Us
-                </button>
-              </a>
-              <a href="/careers">
-                <button
-                  type="button"
-                  className="btn btn-default careers-button"
-                >
-                  Careers
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
+      <div className="mt-5 w-90 mx-auto">
+        <h1 className="section-title text-center mb-5">Global Footprint</h1>
       </div>
+      <div className="w-98 mx-auto">
+        <img src={global} className="gload-title" />
+      </div>
+
+
+      <div className="mb-5 mt-5">
+        <Gotocontact />
+      </div>
+
+      <div className="mt-5">
+        <Letsconnect />
+      </div>
+
+
+
     </>
   );
 }
