@@ -1,74 +1,54 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
-import CaseStudiesBG from "../images/Case-Studies-Page/cs-bg.jpg";
+import CaseStudiesBG from "../images/Case-Studies-Page/casestudies.png";
 import CaseStudiesData from "../Data/CaseStudies-Data/CaseStudiesData";
+import Letsconnect from "./Casestudiesconnect";
 
 function TestCaseStudies() {
   return (
     <>
-      <div
-        className="sub-service-intro container-fluid"
+       <div
+        className="sub-service-intro position-realtive"
         style={{
           backgroundImage: `url(${CaseStudiesBG})`,
           backgroundAttachment: "scroll",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
+          width: "100%",
         }}
       >
-        <div className="w-90 mx-auto">
-          <div className="row">
-            <div className="col-lg-5 col-md-10 col-sm-12 new-subService-AIML-intro-caption">
-              <h2 className="textAnimation" data-text="Making A Difference!">
-                Making A Difference
-              </h2>
-              <p>
-                We adopt a bottom-up approach starting with strategy support
-                through discovery and analysis of existing systems and processes
-                and their limitations maximizing the leverage of knowledge and
-                results in higher value generation.
-              </p>
-
-              <div className="subService-AIML-intro-btn">
-                {/* <a href="/casestudies">
-                                    <button type="button" className="btn btn-default">View Details</button>
-                                </a> */}
-                <Link
-                  activeClass="active"
-                  to="details"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={500}
+        <div className="w-85 mx-auto">
+          <div className="text-center-img">
+            <div className="row">
+              <div className="col-lg-5 col-md-6 col-sm-12">
+                <h2
+                  className="fw-bold-600 text-white fs-35 text-capitalize"
+                  data-text="Your Tech Innovation Catalyst"
                 >
-                  <button
-                    type="button"
-                    className="btn btn-default sub-service-view-details-btn"
-                  >
-                    Learn more
-                  </button>
-                </Link>
-
-                <NavLink to="/contactus">
-                  <button
-                    type="button"
-                    className="btn btn-default sub-service-contact-us-btn"
-                  >
-                    Contact Us
-                  </button>
-                </NavLink>
+                 Making A Difference
+                </h2>
+                <p className="fw-bold-400 fs-16 text-white mb-5 mr-5 mt-4">
+                We adopt a bottom-up approach starting with strategy support through discovery and analysis of existing systems and processes and their limitations maximizing the leverage of knowledge and results in higher value generation.
+                </p>
+              
               </div>
+              <div className="col-lg-5 col-md-5 col-sm-12"></div>
+            </div>
+          </div>
+          <div className="bottom-img w-100">
+            <div className="row">
+              <div className="col-lg-6 col-md-6 col-sm-12">
+                <p className="fs-24 fw-bold-600 text-white">Case Studies</p>
+              </div>
+              <div className="col-lg-5 col-md-5 col-sm-12"></div>
             </div>
           </div>
         </div>
       </div>
 
       {/* New Case Studies QUOTE SECTION */}
-      <div className="homepage-quote homepage-news-text">
-        <h2 className="text-center">
-          "Products & Solutions that make a difference!"
-        </h2>
-      </div>
+      
 
       {/* <!-- CASE STUDIES PAGE ALL CASE STUDIES --> */}
       <div
@@ -86,7 +66,7 @@ function TestCaseStudies() {
                 <div className="card animation-card-image case-studies-page-card">
                   <img
                     loading="lazy"
-                    className="img-fluid card-img-top"
+                    className="img-casestudies"
                     src={caseStudy.caseStudiesIMG}
                     alt="case-studies"
                   />
@@ -118,45 +98,8 @@ function TestCaseStudies() {
 
       {/* NEW HOMEPAGE CAREER SECTION */}
 
-      <div
-        style={{
-          width: "auto",
-          height: "auto",
-          backgroundColor: "#19AF8F",
-          padding: "30px",
-          marginTop: "60px",
-        }}
-      >
-        <div className="new-career-section w-90 mx-auto">
-          <div className="career-section-row row g-0">
-            <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-caption">
-              <h5>WORK WITH US</h5>
-              <h2>Let's Grow Together</h2>
-            </div>
-            <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 career-details">
-              <p>
-                We are on a mission to solve complex problems and provide
-                solutions that make a difference, Come work with us.
-              </p>
-              <a href="/contactus">
-                <button
-                  type="button"
-                  className="btn btn-default contact-us-button"
-                >
-                  Contact Us
-                </button>
-              </a>
-              <a href="/careers">
-                <button
-                  type="button"
-                  className="btn btn-default careers-button"
-                >
-                  Careers
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
+      <div className="mt-5">
+        <Letsconnect />
       </div>
     </>
   );
