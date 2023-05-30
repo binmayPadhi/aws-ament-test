@@ -604,6 +604,10 @@ td {
   cursor: pointer;
 }
 
+input {
+  border: 0px solid #000000!important;
+}
+
 @media only screen and (max-width: 750px) {
   .w-350 {
     width: 300px;

@@ -153,7 +153,7 @@ const Letsgetstart = (props) => {
                       <label>
                         First Name<span className="req">*</span>
                         <input
-                          className="w-100 pl-1"
+                          className="w-100 pl-1 border-0"
                           type="text"
                           name="fName"
                           onChange={handleChange}
@@ -168,7 +168,7 @@ const Letsgetstart = (props) => {
                         Last Name<span className="req">*</span>
                         <input
                           type="text"
-                          className="w-100 pl-1"
+                          className="w-100 pl-1 border-0"
                           name="lName"
                           onChange={handleChange}
                           value={registerDetails.lName}
@@ -183,7 +183,7 @@ const Letsgetstart = (props) => {
                       <label>
                         Email<span className="req">*</span>
                         <input
-                          className="w-100 pl-1"
+                          className="w-100 pl-1 border-0"
                           type="email"
                           name="email"
                           onChange={handleChange}
@@ -198,7 +198,7 @@ const Letsgetstart = (props) => {
                         Company<span className="req">*</span>
                         <input
                           type="text"
-                          className="w-100 pl-1"
+                          className="w-100 pl-1 border-0"
                           name="cName"
                           onChange={handleChange}
                           value={registerDetails.cName}
@@ -213,7 +213,7 @@ const Letsgetstart = (props) => {
                       <label>
                         Job Title
                         <input
-                          className="w-100 pl-1"
+                          className="w-100 pl-1 border-0"
                           type="text"
                           name="jobTitle"
                           onChange={handleChange}
@@ -229,7 +229,7 @@ const Letsgetstart = (props) => {
                           type="text"
                           pattern="[6789][0-9]{9}"
                           title="Please enter valid phone number"
-                          className="w-100 pl-1"
+                          className="w-100 pl-1 border-0"
                           name="phoneNumber"
                           onChange={handleChange}
                           value={registerDetails.phoneNumber}
@@ -242,7 +242,7 @@ const Letsgetstart = (props) => {
                   <div className="w-100 d-flex mt-2-rem">
                     <div className="w-100 d-flex align-item-center pl-4">
                       <input
-                        className="checkMark1"
+                        className="checkMark1 border-0"
                         type="checkbox"
                         name="acceptCheckbox"
                         onChange={handleChange}
