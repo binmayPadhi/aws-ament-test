@@ -79,8 +79,8 @@ body {
   margin-top: 70px;
   margin-left: 29px;
   font-family: "Poppins", sans-serif;
-  font-size: 10rem;
-  font-weight: 800;
+  font-size: 16px;
+  font-weight: 700;
   letter-spacing: 0px;
   color: #000000;
 }
@@ -672,6 +672,10 @@ hr {
 
   .all-margin {
     margin: 0px 21px 0px 21px;
+  }
+
+  .fs-40{
+    font-size:40px;
   }
 
   /* HOMEPAGE-INTRO */
@@ -2464,10 +2468,10 @@ label {
 
 .case-studies-page-card-info h4 {
   font-size: 1.8rem;
-  color: #fd5d14;
   font-weight: 800;
   margin-top: 25px;
   text-align: left;
+  color: #463F3F;
 }
 
 .case-studies-page-card-info p {
@@ -4505,24 +4509,24 @@ label {
 }
 
 .new-case-studies-list .card-body {
-  background-color: black;
-  color: white;
-  height: 650px;
+  background-color: white;
+  color: black;
+  height:650px;
 }
 
 .new-case-studies-list h2 {
   font-size: 2.5rem;
-  color: white;
+  color: black;
   margin-top: 0px;
 }
 
 .new-case-studies-list p {
-  color: white;
+  color: black;
 }
 
-.new-case-studies-list h4 {
+/* .new-case-studies-list h4 {
   color: #19af8f;
-}
+} */
 
 /* NEW CAREERS PAGES DESIGN */
 
@@ -5624,6 +5628,10 @@ label {
   display: none;
   /* transform:translateY(80%); */
   margin-top: 70%;
+}
+
+.img-casestudies{
+  height:430px;
 }
 
 .animation-card:hover .card-body {
