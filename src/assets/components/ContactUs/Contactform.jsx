@@ -163,7 +163,7 @@ const Contactform = () => {
             >
               <div className="row">
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                  <label className="font-form">
+                  <label className="font-form ">
                     First Name<span className="star-green">*</span>
                     <input
                       className="w-100 pl-1 border-0"
@@ -264,7 +264,7 @@ const Contactform = () => {
                   </label>
                   <p>
                     <select
-                      className="form-select text-areainput h-50px"
+                      className="form-select text-areainput border-0 h-50px"
                       aria-label="Default select example"
                       isSearchable="true"
                       name="selecteditem"
@@ -290,7 +290,7 @@ const Contactform = () => {
                   <textarea
                     name="message"
                     rows="10"
-                    className="text-areainput border-0"
+                    className="text-areainput"
                     {...register("message")}
                   ></textarea>
                 </div>

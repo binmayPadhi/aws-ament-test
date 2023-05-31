@@ -34,6 +34,10 @@ import universe from "../../images/HomePage/amnet-glance/universe.png";
 import profile from "../../images/HomePage/amnet-glance/profile.png";
 import todolist from "../../images/HomePage/amnet-glance/todolist.png";
 import handshake from "../../images/HomePage/amnet-glance/hand-shake.png";
+import image1 from "../../images/HomePage/bar.svg";
+import image2 from "../../images/HomePage/plane.svg";
+import image3 from "../../images/HomePage/hand.svg";
+import image4 from "../../images/HomePage/smile.svg";
 
 const Aboutdata = {  
   whoweare: [
@@ -88,7 +92,7 @@ const Aboutdata = {
       image: innovating,
       heading: "Innovation",
       description:
-        "We unleash creativity by making innovation part of each associate’s job responsibility",
+        "We unleash creativity by making innovation part of each associate’s job responsibility.",
     },
     {
       id: 2,
@@ -457,6 +461,32 @@ const Aboutdata = {
     count: "60",
     text: "Digital Frameworks & Accelerators",
   },
+],
+whyamnet: [
+  {
+    heading: 'Proven track record',
+    description: ' 4+ years, built 10+ AI-based digital solutions, and successfully servicing fortune 1000 companies.',
+    image: image1,
+    placement: 'left'
+  },
+  {
+    heading: 'We are doers',
+    description: 'We do whatever it takes in building your dream MVP in first 90 days. Our only focus is always on tech execution excellence.',
+    image: image2,
+    placement: 'right'
+  },
+  {
+    heading: 'Awesome talent',
+    description: '  We always hire the world-class technology consultants with great minds to solve the most complex technology challenges.',
+    image: image3,
+    placement: 'left'
+  },
+  {
+    heading: 'Happy customers',
+    description: 'Empowering our customers to achieve their business goals consistently leveraging our deep technology experience without negotiating on the quality.',
+    image: image4,
+    placement: 'right'
+  }
 ],
 };
 

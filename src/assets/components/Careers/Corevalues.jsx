@@ -8,7 +8,7 @@ function CoreValues() {
         <h1 className="section-title mt-3">Our Core Values</h1>
       </div>
 
-      <div className="mt-5 mb-5">
+      <div className="mt-5">
         <div className="w-90 mx-auto">
          
             <div className="row">

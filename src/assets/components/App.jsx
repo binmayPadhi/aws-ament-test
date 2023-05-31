@@ -64,7 +64,8 @@ function App() {
               path="seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
               element={<Insight />}
             />
-                        <Route
+            <Route exact path="Insighthome" element={<Insighthome />} />
+            <Route
               exact
               path="AIops-retail-industry"
               element={<InsightAIOPS />}

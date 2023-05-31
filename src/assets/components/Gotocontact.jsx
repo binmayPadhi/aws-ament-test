@@ -1,85 +1,37 @@
 import React from "react";
-import "../CSS/Unsplash.css";
-import imgbg from "../images/About-Us-Page/CTA-image.png";
-import { useNavigate } from "react-router-dom";
+import imgbg from "../images/Contact-Us-Page/CTA-image.png";
 
-const Gotocontact = ({ componentFrom }) => {
-  const history = useNavigate();
-  const redirectTo = (e, name) => {
-    e.preventDefault();
-    if (name === "contact") {
-      history(`/contactus`);
-    } else {
-      history(`/careers`);
-    }
-  };
+const Gotocontact = () => {
   return (
     <div
-      className="position-relative img-height"
+      className="position-relative mt-6 mb-6 img-fluid"
       style={{
         backgroundImage: `url(${imgbg})`,
         backgroundAttachment: "scroll",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        backgroundPosition: "center",
         width: "100%",
+        height: "550px",
       }}
     >
-      <div className="text-center-img ">
-        <p className="letpara text-center">Let’s work & grow together</p>
+      <div class="card-overlay"></div>
+      <div className="text-center-img">
+        <div className="w-90 mx-auto pb-8">
+          <p className="letpara text-left pt-8">Let’s work & grow together</p>
 
-        <div className="w-90 mx-auto">
-          <p className="content-text w-90 mx-auto">
-            We are on a mission to solve complex tech problems and provide apt
-            solutions that make a real difference. Together, we can build some
-            great tech products and digital solutions. It’s time to be part of
-            it!
+          <p className="content-text fs-20 text-left w-75">
+            We are on a mission to solve complex techonolgy problems and provide
+            solutions that make a difference. Let us transform the world
+            together!
           </p>
-        </div>
-
-        <div className="w-90 mx-auto my-3">
-          {componentFrom === undefined ? (
-            <>
-              <div className="row">
-                <div className="col-md-3 col-lg-3 col-sm-12 col-sm-center col-md-right mt-1"></div>
-                <div className="col-md-3 col-lg-3 col-sm-12  mt-3">
-                  <p className="content-button text-sm-center text-md-right">
-                    <span
-                      className="current-openings py-3 px-5 cr-pointer"
-                      onClick={(e) => redirectTo(e, "contact")}
-                    >
-                      Connect with us
-                    </span>
-                  </p>
-                </div>
-                <div className="col-md-3 col-lg-3 col-sm-12 mt-3">
-                  <p className="content-button text-sm-center text-md-left">
-                    <span
-                      className="current-openings py-3 px-5 ml-2 cr-pointer"
-                      onClick={(e) => redirectTo(e, "carrer")}
-                    >
-                      Current openings
-                    </span>
-                  </p>
-                </div>
-                <div className="col-md-3 col-lg-3 col-sm-12 col-sm-center col-md-right mt-1"></div>
-              </div>
-            </>
-          ) : (
-            <>
-              <div className="row">
-                <div className="col-md-12 col-lg-12 col-sm-12 mt-3">
-                  <p className="content-button text-sm-center text-md-center">
-                    <span
-                      className="current-openings py-3 px-4 ml-2 cr-pointer"
-                      onClick={(e) => redirectTo(e, "carrer")}
-                    >
-                      Current openings
-                    </span>
-                  </p>
-                </div>
-              </div>
-            </>
-          )}
+          <p className="d-flex flex-row justify-content-start pt-4">
+            <a href="/careers">
+              <button className="current-openings fs-16 fw-bold-600">
+                Current Openings
+              </button>
+            </a>
+          </p>
         </div>
       </div>
     </div>

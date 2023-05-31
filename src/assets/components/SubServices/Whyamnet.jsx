@@ -1,29 +1,28 @@
 import React from "react";
-import image1 from "../../images/HomePage/bar.png";
-import image2 from "../../images/HomePage/plane.png";
-import image3 from "../../images/HomePage/hand.png";
-import image4 from "../../images/HomePage/smile.png";
+import image1 from "../../images/Service-Page/bar.svg";
+import image2 from "../../images/Service-Page/plane.svg";
+import image3 from "../../images/Service-Page/hand.svg";
+import image4 from "../../images/Service-Page/smile.svg";
 
 const Whyamnet = () => {
   return (
     <div className="row pb-3 pt-5">
       <div className="col-md-6 col-lg-5 col-xs-12 col-sm-12 border-col1 mb-5">
-        <p className="text-left glance_styles glances_position">
-          Why
-          <p className="text-right glance_styles">
-            Amnet Digital?
-          </p>
-        </p>
+        <div className="company_name text-center">
+          Why <br />
+          Amnet Digital?
+        </div>
       </div>
-      <div className="col-md-6 col-lg-6 col-xs-12 col-sm-12 mt-5 mb-5">
+      <div className="col-md-6 col-lg-7 col-xs-12 col-sm-12  mt-15">
         <div className="w-100 d-flex text-left">
           <span>
-            <img src={image1} />
+            <img src={image1} className="w-100" />
           </span>
           <span>
             <p className="heading_why pl-4 mb-0">Proven track record</p>
             <p className="paragraph_why pl-4 width_query text-justify">
-              4+ years, built 10+ AI-based digital solutions, and successfully servicing fortune 1000 companies.
+              6+ years, built 100+ AI-based Digital Solutions, and successfully
+              servicing Fortune 1000 companies.
             </p>
           </span>
         </div>
@@ -32,22 +31,26 @@ const Whyamnet = () => {
             <p className="heading_why pr-4 mb-0">We are doers</p>
             <p className="w-100 justify-content-end d-flex">
               <p className="paragraph_why pr-4 width_query text-justify">
-              We do whatever it takes in building your dream MVP in first 90 days. Our only focus is always on tech execution excellence.
+                We do whatever it takes in building your dream MVP in first 90
+                days to handling 1 billion hits a day. Our only focus is always
+                on tech execution excellence.
               </p>
             </p>
           </span>
           <span>
-            <img src={image2} />
+            <img src={image2} className="w-100"/>
           </span>
         </div>
         <div className="w-100 d-flex text-left">
           <span>
-            <img src={image3} />
+            <img src={image3} className="w-100"/>
           </span>
           <span>
             <p className="heading_why pl-4 mb-0">Awesome talent</p>
             <p className="paragraph_why pl-4 width_query text-justify">
-            We always hire the world-class technology consultants with great minds to solve the most complex technology challenges.
+              We always hire the best-in-class technology consultants and
+              specialists with great minds to solve the most complex technology
+              challenges.
             </p>
           </span>
         </div>
@@ -56,12 +59,14 @@ const Whyamnet = () => {
             <p className="heading_why pr-4 mb-0">Happy customers</p>
             <p className="w-100 justify-content-end d-flex">
               <p className="paragraph_why pr-4 width_query text-justify">
-              Empowering our customers to achieve their business goals consistently leveraging our deep technology experience without negotiating on the quality.
+                Empowering our customers to achieve their business goals
+                consistently leveraging our combined 100+ years of technology
+                experience without negotiating on the quality.
               </p>
             </p>
           </span>
           <span>
-            <img src={image4} />
+            <img src={image4} className="w-100"/>
           </span>
         </div>
       </div>

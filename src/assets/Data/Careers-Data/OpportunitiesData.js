@@ -3,19 +3,19 @@ const OpportunitiesData = [
     {
         "id":1,
         "heading":"Team Work",
-        "description":"Working at Amnet Digital means having an interesting and challenging job and being a part of an exciting digital journey",
+        "description":"Working at Amnet Digital means having an interesting and challenging job and being a part of an exciting digital journey.",
         
     },
     {
         "id":2,
         "heading":"Growth",
-        "description":"Our unique approach, digital frameworks and custom tech accelerators help businesses and teams to grow consistently",
+        "description":"Our unique approach, digital frameworks and custom tech accelerators help businesses and teams to grow consistently.",
         
     },
     {
         "id":3,
         "heading":"Impact",
-        "description":"We solve our clients' technology challenges by leveraging our deep tech expertise to deliver great customer experiences and acheive higher ROI",
+        "description":"We solve our clients' technology challenges by leveraging our deep tech expertise to deliver great customer experiences and acheive higher ROI.",
         
     },
     {

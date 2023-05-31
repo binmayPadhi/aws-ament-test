@@ -281,3 +281,25 @@ html [type="button"] {
   padding:10px 15px;
 
 }
+
+.text-requirement {
+  color: #463f3f;
+}
+
+.top-space {
+  margin-top: 150px;
+}
+
+.margin-amnet{
+  margin-top: 9rem;
+}
+
+.w-100{
+  width:100%;
+}
+
+@media only  screen and (min-width:280px) and (max-width:424px){
+  .margin-amnet{
+    margin-top: 14rem;
+  }
+}

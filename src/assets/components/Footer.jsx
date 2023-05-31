@@ -296,7 +296,7 @@ function Footer() {
                 <p className="pb-4 input_field w-100">
                   <input
                     type="email"
-                    className="text-width w-100 position-relative"
+                    className="text-width w-100 position-relative border-0"
                     placeholder="Enter your business email"
                     name="email"
                     {...register("email")}

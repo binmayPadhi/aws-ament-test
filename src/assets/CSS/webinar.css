@@ -322,7 +322,7 @@ ul {
   font-weight: 600;
   font-size: 48px;
   line-height: 60px;
-  text-align: center;
+  text-align: center!important;
   color: #ffffff;
   margin: auto;
   padding-top: 50px;
@@ -602,10 +602,6 @@ td {
   line-height: 20px;
   color: #1dad8f;
   cursor: pointer;
-}
-
-input {
-  border: 0px solid #000000!important;
 }
 
 @media only screen and (max-width: 750px) {
