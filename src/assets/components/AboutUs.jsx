@@ -7,16 +7,16 @@ import AboutUsMission from "../components/AboutUs/AboutUsMission";
 import OurPartner from "../components/Homepage/OurPartner";
 import About from "../Data/AboutUs-Data/About";
 import Aboutvalues from "./AboutUs/Aboutvalues";
+import Whyamnet from "./Whyamnet";
 import ceo from "../images/About-Us-Page/CEO.png";
 import achievement from "../images/About-Us-Page/Achievements.png";
 import Amnetglance from "./AboutUs/Amnetglance";
 import Aboutclientsay from "./AboutUs/Aboutclientsay";
 import global from "../images/HomePage/global.png";
+import Gotocontact from "./Gotocontant";
 import Letsconnect from "./AboutUs/Letsconnect";
 import MediaQuery from "react-responsive";
 import { useNavigate } from "react-router-dom";
-import Gotocontact from "./Gotocontact";
-import Whyamnet from "./SubServices/Whyamnet";
 
 
 
@@ -51,7 +51,7 @@ function TestAboutUs() {
                 >
                   Powering Businesses To Achieve More
                 </h2>
-                <p className="fw-bold-400 fs-16 text-white mb-5 mt-4">
+                <p className="fw-bold-400 fs-16 text-white mb-5 mr-5 mt-4">
                   At Amnet Digital, our focus is to infuse Data, Analytics & AI that enables clients to realize the higher value of their digital transformation initiatives and drive positive business impact.
                 </p>
                 <button

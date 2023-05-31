@@ -11,6 +11,11 @@
     bottom: 40px;
   }
 
+  .bottom-img-about{
+    position:absolute;
+    bottom: 10px !important;
+  }
+
 
 .fs-35 {
     font-size:35px;
@@ -128,6 +133,7 @@
 
 .border-col1 {
     border-right: 2px solid rgba(0, 0, 0, 0.4);
+    margin-right: 15px;
   }
 
   .company_name {
@@ -238,6 +244,10 @@
 
   .mt-15 {
     margin-top: 3rem;
+}
+
+.mt-15{
+  margin-top: 15rem;
 }
 
 .w-95{

@@ -7,13 +7,13 @@ const Ourcorevalues = () => {
     return(
         <>
          <div className="w-90 mx-auto spacing-quotes">
-          <div className="mt-5">
+          <div className="mt-3">
         <img alt="" src={openquotes} />
         <p className="fs-24 fw-bold-500 text-green">
           Our core values, diversity, and awesome work culture attract the best
           technology talent, who will be a part of our leading journey in
           solving our customers' complex technology challenges. Our meaningful
-          investment in learning and development (L&D) programs for employees
+          investment in Learning and Development (L&D) programs for employees
           redefine our workplace for better digital innovation.
          <sub><img alt=" " src={closedquotes} className="margin-closedquotes pt-4" /></sub> 
         </p>

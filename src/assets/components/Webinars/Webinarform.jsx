@@ -103,7 +103,7 @@ const Webinarform = (props) => {
               />
             </label>
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 pl-0 pr-0">
+          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 pl-2 pr-0">
             <label>
               Last Name<span className="req">*</span>
               <input
@@ -169,7 +169,7 @@ const Webinarform = (props) => {
           <div className="w-5">
             <input
               className="checkMark"
-              type="checkbox border-0"
+              type="checkbox"
               name="acceptCheckbox"
               onChange={handleChange}
               checked={registerDetails.acceptCheckbox}

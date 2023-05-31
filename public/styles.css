@@ -277,11 +277,6 @@ body {
   }
 }
 
-.bottom-img-about{
-  position:absolute;
-  bottom: 12px;
-}
-
 .industry-section .card-body {
   background-color: white;
   box-shadow: 3px 6px 16px #00000029;
@@ -6239,7 +6234,7 @@ label {
   }
 
   .space-grey{
-    padding-bottom: 120px;
+    padding-bottom: 40px;
   }
 
   .spacing-quotes{

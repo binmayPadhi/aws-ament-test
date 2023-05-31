@@ -23,7 +23,7 @@ function Navbar(props) {
       url ===
         "/blogs/seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" ||
       url === "/cookiespolicy" ||
-           url === "/Privacypolicy" ||
+      url === "/Privacypolicy" ||
       url === "/termsandconditions" ||
       url === "/blogs" ||
       url === "/blogs/AI-retail-industry" ||
@@ -160,9 +160,9 @@ function Navbar(props) {
     }
   });
 
-  // const onchange = (e) => {
-  //   setstoreRibbon("hide");
-  // };
+  const onchange = (e) => {
+    setstoreRibbon("hide");
+  };
 
   const closeNavpopup = () => {
     let x = document.getElementById("navbarNav").classList.contains("show");
@@ -918,7 +918,7 @@ function Navbar(props) {
                                 }
                                 className="cr-pointer"
                               >
-                                Blogs
+                                Blog
                               </span>
                             </p>
                             <p className="fs-13 fw-bold-400 text-digital mt-2">
@@ -973,7 +973,7 @@ function Navbar(props) {
                                 }
                                 className="cr-pointer"
                               >
-                                Webinars
+                                Webinar
                               </span>
                             </p>
                             <p className="fs-13 fw-bold-400 text-digital mt-2">
