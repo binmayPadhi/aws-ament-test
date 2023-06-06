@@ -2,7 +2,7 @@ const Openings = [
     {
       id: 1,
       heading: "MID-SENIOR LEVEL",
-      role: "Full Stack Nodejs",
+      role: "Full Stack Node",
       location: "Hyderabad",
       button: "Apply Now",
       link: "/careers/fullstacknode",
@@ -66,7 +66,7 @@ const Openings = [
     {
       id: 9,
       heading: "SENIOR LEVEL",
-      role: "Senior Azure Developer",
+      role: "Azure Architect",
       location: "Hyderabad",
       button: "Apply Now",
       link: "/careers/azure",
@@ -82,7 +82,7 @@ const Openings = [
     {
       id: 11,
       heading: "SENIOR LEVEL",
-      role: "Senior Python Developer",
+      role: "Python Developer",
       location: "Hyderabad",
       button: "Apply Now",
       link: "/careers/python",

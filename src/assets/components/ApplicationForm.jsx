@@ -86,7 +86,7 @@ const ApplicationForm = () => {
     return emailjs
       .sendForm(
         "service_h4akrmg",
-        "template_h0xkqot",
+        "template_wft5tq9",
         applicationDetails.current,
         "yz7dQlM6o3Rz3cnB8"
       )
@@ -273,7 +273,9 @@ const ApplicationForm = () => {
                       ref={inputRef}>
                     </input>
                     
-                <h1 className="text-center">Upload a file <span className="text-grey-text">or drag and drop the file</span></h1>   
+                <h1 className="text-center cr-pointer">Upload a file <span className="text-grey-text">or drag and drop here</span></h1>   
+                           
+                </div>
                 {errors.resume && (
                   <p className="fs-12 text-danger fw-bold-400">
                     {errors.resume.message}
@@ -286,9 +288,7 @@ const ApplicationForm = () => {
                       {photo.name}
                     </p>
                   ))}
-                </p>             
-                </div>
-                
+                </p>  
             
             </div>
               <div className="row mt-5">

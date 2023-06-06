@@ -10,7 +10,14 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 import * as yup from "yup";
-
+import Modal from "react-bootstrap/Modal";
+import linkdein from "../images/HomePage/Linkedin.png";
+import twitter from "../images/HomePage/Twitter.png";
+import facebook from "../images/HomePage/Facebook.png";
+import youtube from "../images/HomePage/Youtube.png";
+import instagram from "../images/HomePage/Instagram.png";
+import cross from "../images/careers-page/cross.png";
+import mail from "../images/careers-page/mail.png";
 
 const Apply = () => {
     const activeList = {
@@ -47,10 +54,11 @@ const Apply = () => {
         setselectedTab(name);
     };
 
+
+
     const [res, setObject] = useState({});
     useEffect(() => {
         let selectedJob = sessionStorage.getItem('job');
-
         ApplyjobJson.map((data) => {
             if (data.applyfor === selectedJob) {
                 setObject(data)
@@ -77,6 +85,38 @@ const Apply = () => {
     } = useForm({
         resolver: yupResolver(schema),
     });
+    
+
+    const [show, setShow] = useState(false);
+    const showModal= () => setShow(true);
+    const closeModal = () => setShow(false);
+    const icons = [
+        {
+          id: 1,
+          image: linkdein,
+          link: "https://in.linkedin.com",
+        },
+        {
+          id: 2,
+          image: twitter,
+          link: "https://twitter.com",
+        },
+        {
+          id: 3,
+          image: facebook,
+          link: "https://www.facebook.com",
+        },
+        {
+          id: 4,
+          image: mail,
+          link: "https://mail.google.com/mail/u/0/#inbox/FMfcgzGsmrGfqFrGrvQrzGkFPFvrzChS?compose=new",
+        },
+        {
+          id: 5,
+          image: instagram,
+          link: "https://www.instagram.com",
+        },
+      ];
     return (
         <>
             <div
@@ -85,14 +125,13 @@ const Apply = () => {
                     backgroundColor: "#000000",
                     backgroundAttachment: "scroll",
                     backgroundRepeat: "no-repeat",
-                    backgroundSize: "100% 100%",
                     width: "100%",
                     height: "500px",
                 }}
             >
-                <div className="fs-35 text-white position-absolute top-0">
+                {/* <div className="fs-35 text-white position-absolute top-0">
                     <Navbar navChange={navColor} />
-                </div>
+                </div> */}
                 <div className="bottom-img w-100 bottom-0" style={{ top: "50%" }}>
                     <div className="row">
                         <div className="col-lg-1 col-md-1 col-sm-12"></div>
@@ -128,23 +167,43 @@ const Apply = () => {
                     Application
                 </span>
             </div>
-
             <>
                 {selectedTabview === "overview" ? (
                     <div className="bg" style={{ minHeight: "500px" }}>
                         <h5 className="text-black fw-bold-600 fs-24 py-5 text-center">
                             {res.title}
                         </h5>
-                        <div className="w-80 mx-auto py-2">
-                            <div className="w-90 d-flex justify-content-between">
-                                <span className="text-black fs-18 fw-bold-600">
+                        <div className="row w-80 mx-auto py-2">
+                            <div className="w-90-lg d-flex justify-content-between">
+                            <div className=" text-black fs-18 fw-bold-600">
                                     Description
-                                </span>
-                                <span className="text-black fs-18 fw-bold-600">
+                                </div>
+                                <div className="text-lg-right text-lg-left text-black fs-18 fw-bold-600">
                                     Share this job
-                                    <img src={shareimg} className="img-25 pl-3 cr-pointer" />
-                                </span>
+                                    <img src={shareimg} className="img-25 pl-3 cr-pointer" onClick={showModal} />
+                                </div>
                             </div>
+                            <Modal show={show} centered >
+                                <Modal.Body className="margin-styling">
+                                    <div className="d-flex justify-content-between mb-5">
+                                    <h1 className="p-2 mb-5">Share with</h1>
+                                    <img src={cross}  className="cross-img cr-pointer" onClick={closeModal}/>
+                                    </div>
+                                    {icons.map((listedicon) => {
+                                        return (
+                                            <a
+                                                key={listedicon.id}
+                                                href={listedicon.link}
+                                                target="_blank"
+                                                className="border-circle-grey m-lg-3 m-sm-1 mt-5 mb-5"
+                                                style={{ cursor: "pointer" }}
+                                            >
+                                                <img src={listedicon.image}  className="img-size" />
+                                            </a>
+                                        );
+                                    })}
+                                </Modal.Body>
+                            </Modal>
                             <div className="w-100 d-flex justify-content-between my-5">
                                 <span className="text-black fs-18 fw-bold-600">
                                     Who are we?
@@ -156,7 +215,6 @@ const Apply = () => {
                                     style={{ color: "#333E49" }}
                                 >
                                     We are an Artificial Intelligence Services and Solutions company that focuses on applying Machine Learning, Deep Learning and Advanced Analytics to solve the problems of businesses.
-
                                     Amnet Digital has highly experienced talent from world-leading institutions and technology companies. We have successfully applied AI Technologies in Enterprise Software, Retail, eCommerce and Healthcare. Our digital product engineering teams design and deploy enterprise solutions that are robust, secure and scalable.
                                 </span>
                             </div>
@@ -164,25 +222,25 @@ const Apply = () => {
                                 <div className="col-lg-4  col-md-4 col-sm-12 text-black fs-18 fw-bold-600">
                                     Job Level: {" "}
                                     <span className="text-black fs-16 fw-bold-400">
-                                    {res.level}
+                                        {res.level}
                                     </span>
                                 </div>
                                 <div className="col-lg-4 col-md-4 col-sm-12 text-black fs-18 fw-bold-600">
                                     Experience: {" "}
                                     <span className="text-black fs-16 fw-bold-400">{res.experience}</span>
                                 </div>
-                                <div className="col-lg-4 col-md-4 col-sm-12 text-black text-right fs-18 fw-bold-600">
+                                <div className="col-lg-4 col-md-4 col-sm-12 text-black text-lg-right text-sm-left fs-18 fw-bold-600">
                                     Location: {" "}
                                     <span className="text-black fs-16 fw-bold-400">
                                         Hyderabad, India
                                     </span>
                                 </div>
                             </div>
-                            <div className="">
+                            <div className="w-90">
                                 <h1 className="fs-18 fw-bold-600">About the Role</h1>
                                 <p className="fs-16 fw-bold-400">
                                     {res.aboutdescription}
-                                </p>
+                                </p>                               
                                 <h1 className="fs-18 fw-bold-600 mt-5">
                                     Your Key Responsibilities
                                 </h1>
@@ -205,8 +263,6 @@ const Apply = () => {
                                 ) : (
                                     ""
                                 )}
-
-
                                 <h1 className="fs-18 fw-bold-600 mt-5">What To Bring</h1>
                                 {res.hasOwnProperty("unorderedlist1") === true ? (
                                     <>
@@ -226,7 +282,7 @@ const Apply = () => {
                                     </>
                                 ) : (
                                     ""
-                                )}
+                                )}                           
                             </div>
                         </div>
                     </div>
@@ -235,9 +291,6 @@ const Apply = () => {
                 )}
             </>
         </>
-
-
-
 
     );
 

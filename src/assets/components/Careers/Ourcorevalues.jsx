@@ -6,8 +6,8 @@ import vara from "../../images/careers-page/vara.png";
 const Ourcorevalues = () => {
     return(
         <>
-         <div className="w-90 mx-auto spacing-quotes">
-          <div className="mt-3">
+         <div className="w-90 mx-auto ">
+          <div className="mt-5">
         <img alt="" src={openquotes} />
         <p className="fs-24 fw-bold-500 text-green">
           Our core values, diversity, and awesome work culture attract the best

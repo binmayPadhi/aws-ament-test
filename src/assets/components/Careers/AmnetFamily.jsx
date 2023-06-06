@@ -10,7 +10,7 @@ const Amnetfamily = () => {
                             <p className="fs-16 fw-bold-400 text-white text-left">Are you excited to work with industry leading technology leaders to elevate your career to the next level?</p>
                         </div>
                         <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 my-auto">
-                            <button className="fs-18 fw-bold-700 mail-button" onClick={() => window.location = 'mailto:careers@amnetdigital.com'}>
+                            <button className="fs-18 fw-bold-700 mail-button cr-pointer" onClick={() => window.location = 'mailto:careers@amnetdigital.com'}>
                                 Email My Resume
                             </button>
                         </div>

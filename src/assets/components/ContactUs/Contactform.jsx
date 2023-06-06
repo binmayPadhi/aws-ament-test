@@ -85,21 +85,26 @@ const Contactform = () => {
     },
     {
       id: 36,
-      name: "User Experience",
+      name: "IDP Solution",
       link: "",
     },
     {
       id: 37,
-      name: "Strategy & Consulting",
+      name: "User Experience",
       link: "",
     },
     {
       id: 38,
-      name: "Data Annotation",
+      name: "Strategy & Consulting",
       link: "",
     },
     {
       id: 39,
+      name: "Data Annotation",
+      link: "",
+    },
+    {
+      id: 40,
       name: "Quality Assurance",
       link: "",
     },

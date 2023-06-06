@@ -10,12 +10,7 @@ import { useState } from "react";
 import { useLayoutEffect } from "react";
 
 function Navbar(props) {
-  window.onload = () => {
-    if (window.innerWidth < 760) {
-      document.getElementById("navbar").onclick();
-    }
-  };
-  const url = window.location.pathname;
+    const url = window.location.pathname;
   const [color, setNavcolor] = useState("homepage");
   const changebackgroundcolor = () => {
     if (
