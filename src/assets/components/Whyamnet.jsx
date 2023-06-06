@@ -69,7 +69,4 @@ const Whyamnet = () => {
 };
 
 
-
-
-
 export default Whyamnet;

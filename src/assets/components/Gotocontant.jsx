@@ -40,8 +40,8 @@ const Gotocontact = ({ componentFrom }) => {
           {componentFrom === undefined ? (
             <>
               <div className="row">
-                <div className="col-md-1 col-lg-3 col-sm-12 col-sm-center col-md-right mt-1"></div>
-                <div className="col-md-5 col-lg-3 col-sm-12  mt-3">
+                <div className="col-lg-3 col-sm-12 col-sm-center col-md-right mt-1"></div>
+                <div className="col-md-6 col-lg-3 col-sm-12  mt-3">
                   <p className="content-button text-sm-center text-md-right">
                     <span
                       className="current-openings py-3 px-5 cr-pointer"
@@ -51,7 +51,7 @@ const Gotocontact = ({ componentFrom }) => {
                     </span>
                   </p>
                 </div>
-                <div className="col-md-5 col-lg-3 col-sm-12 mt-3">
+                <div className="col-md-6 col-lg-3 col-sm-12 mt-3">
                   <p className="content-button text-sm-center text-md-left">
                     <span
                       className="current-openings py-3 px-5 ml-2 cr-pointer"
@@ -61,7 +61,7 @@ const Gotocontact = ({ componentFrom }) => {
                     </span>
                   </p>
                 </div>
-                <div className="col-md-1 col-lg-3 col-sm-12 col-sm-center col-md-right mt-1"></div>
+                <div className="col-md-3 col-lg-3 col-sm-12 col-sm-center col-md-right mt-1"></div>
               </div>
             </>
           ) : (

@@ -1,6 +1,6 @@
 import propensityIMG from "../../images/Case-Studies-Page/PropensityM.png";
 import preventiveIMG from "../../images/Case-Studies-Page/RiskM.png";
-import virtualShoppingIMG from "../../images/Case-Studies-Page/PreventiveM.png";
+import virtualShoppingIMG from "../../images/Case-Studies-Page/PreventiveM.jpg";
 import riskAnalyticsIMG from "../../images/Case-Studies-Page/VirtualM.png";
 
 const caseStudiesData = [

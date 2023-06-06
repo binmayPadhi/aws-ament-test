@@ -298,8 +298,57 @@ html [type="button"] {
   width:100%;
 }
 
+.border-circle-grey{
+    background-color: #d9d9d9;
+    border-radius:360%!important;
+    padding: 25px;
+    margin-bottom:60px;
+}
+
+.margin-styling{
+   margin-bottom:50px;
+   height:200px;
+}
+
+.cross-img{
+  width:30px;
+  height:30px;
+}
+
+.w-90-lg{
+  width: 90%;
+}
+
+.img-size{
+  height:16px;
+  width:17px;
+}
+
 @media only  screen and (min-width:280px) and (max-width:424px){
   .margin-amnet{
     margin-top: 14rem;
   }
+
+  .w-90-lg{
+    width: 100%;
+  }
+
+  .border-circle-grey{
+    background-color: #d9d9d9;
+    border-radius:360%!important;
+    padding: 15px;
+    margin-right:4px;
+    margin-bottom:60px;
+}
+
+}
+
+@media only screen and (min-width:424px) and (max-width:767px){
+  .border-circle-grey{
+    background-color: #d9d9d9;
+    border-radius:360%!important;
+    padding: 15px;
+    margin-right:6px;
+    margin-bottom:60px;
+}
 }

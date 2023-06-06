@@ -16,6 +16,11 @@
     bottom: 10px !important;
   }
 
+  .bottom-img-career{
+    position:absolute;
+    bottom: 15px;
+  }
+
 
 .fs-35 {
     font-size:35px;

@@ -1,18 +1,16 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import "../../CSS/Opportunities.css";
 import OpeningsJson from "../../Data/Careers-Data/OpeningsData";
 import { useNavigate } from "react-router-dom";
-import { useForm } from "react-hook-form";
-import { yupResolver } from "@hookform/resolvers/yup";
-import { Link } from "react-router-dom";
 
 
 const CurrentOpenings = () => {
     const history = useNavigate();
     const redirectTo = (e, path) => {
-        e.preventDefault();
-        sessionStorage.setItem("job", path)
+            sessionStorage.setItem("job", path)
         history("/careers/applyjob");
+        window.location.reload();
+    
     };
 const [Openings, SetOpenings] = useState(OpeningsJson);
 const [inputvalue, Setinputvalue] = useState("");

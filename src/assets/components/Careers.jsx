@@ -43,7 +43,7 @@ function TestCareers() {
         </div>
         <div className="w-90 mx-auto">
           <div className="row">
-            <div className="col-lg-6 col-md-10 col-sm-12 bottom-img">
+            <div className="col-lg-6 col-md-10 col-sm-12 bottom-img-career">
               <p className="fs-24 fw-bold-600 text-white pt-4 pt-md-5">Careers</p>
             </div>
           </div>

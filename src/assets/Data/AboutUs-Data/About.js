@@ -181,7 +181,7 @@ const Aboutdata = {
     },
     {
       id: 3,
-      heading: "VP Engineering, eCommerce Company",
+      heading: "VP Engineering, E-Commerce Company",
       description:
         "We would like to express our satisfaction regarding the development of our eCommerce web application. Amnet's application engineering team did a very professional job. We are satisfied with the solution given to us and with the communication flow through the project. We look forward to working with them in future projects.",
     },

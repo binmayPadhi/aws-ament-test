@@ -3,6 +3,18 @@ import MediaQuery from "react-responsive";
 import Aboutdata from "../../Data/AboutUs-Data/About";
 
 
+let counter = 0;
+
+function greeting(){
+setInterval(function () {
+   document.getElementById("calling").innerHTML = counter;
+   if(counter <= 249){
+     counter = counter + 1;
+   }           
+}, 0);
+}
+
+
   // const [count, setCount] = useState(0);
 
   // useEffect(

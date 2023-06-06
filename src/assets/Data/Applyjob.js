@@ -1,6 +1,6 @@
 const Jobdescription = [
     {
-        applyfor: "Full Stack Nodejs",
+        applyfor: "Full Stack Node",
         title: "Full Stack Node",
         level:"mid-senior",
         experience:"4 to 6 years",
@@ -127,7 +127,7 @@ const Jobdescription = [
                 content: "Experience: 3 to 7 years",
             },
             {
-                content: "In-depth understanding and modelling experience in supervised, unsupervised, and deep learning models (CNN/RNN/LSTM/BERT/Transformers etc.)",
+                content: "In-depth understanding and modelling experience in supervised, unsupervised, and deep learning models (CNN/RNN/LSTM/BERT/  Transformers etc.)",
             },
             {
                 content: "Knowledge of vector algebra, statistical and probabilistic modelling is highly desirable.",
@@ -139,10 +139,10 @@ const Jobdescription = [
                 content: "Experience in major machine learning frameworks such as Pytorch, Scikit-Learn, TensorFlow, SparkML etc.",
             },
             {
-                content: "Hands-on knowledge of data wrangling, data cleaning/preparation, dimensionality reduction techniques is required.",
+                content: "Hands-on knowledge of data wrangling, data cleaning/preparation, dimensionality reduction techniques is required.",
             },
             {
-                content: "Knowledge of creating data architectures/pipeline.",
+                content: "Knowledge of creating data architectures/pipeline.",
             },
             {
                 content: "Fluency in Python programming.",
@@ -151,7 +151,7 @@ const Jobdescription = [
                 content: "Familiarity with SQL and NoSQL (anyone) databases is desirable.",
             },
             {
-                content: "Experience working with Machine Learning deployment frameworks like Azure ML studio, AWS sage maker etc is an added advantage.",
+                content: "Experience working with Machine Learning deployment frameworks like Azure ML studio, AWS sage maker etc is an added advantage.",
             },
             {
                 content: "Strong analytical and critical thinking skills.",
@@ -246,7 +246,7 @@ const Jobdescription = [
 
     },
     {
-        applyfor: "Senior Azure Developer",
+        applyfor: "Azure Architect",
         title: "Azure Architect",
         level:"senior",
         experience:"14+ years",
@@ -268,31 +268,31 @@ const Jobdescription = [
                 content: "Work toward adherence to the relevant data engineering and data modelling processes, procedures and standards.",
             },
             {
-                content: "Design and maintain the overall architecture for the product(s)/platform(s) in alignment with enterprise architecture and platform strategy (including architectural roadmaps)",
+                content: "Design and maintain the overall architecture for the product(s)/platform(s) in alignment with enterprise architecture and platform strategy (including architectural roadmaps)",
             },
 
         ],
         unorderedlist1: [
             {
-                content: "Minimum of 14 years experience, with at least 5 year as a architect in Azure Space across Architecture, Design, Development, testing &amp; Deployment, full understanding in SDLC.",
+                content: "Minimum of 14 years experience, with at least 5 year as a architect in Azure Space across Architecture, Design, Development, testing &amp; Deployment, full understanding in SDLC.",
             },
             {
-                content: "5+ years hands-on experience with architectures in a Microsoft Azure based platform",
+                content: "5+ years hands-on experience with architectures in a Microsoft Azure based platform",
             },
             {
                 content: "Solid experience leading data teams in developing data engineering platforms.",
             },
             {
-                content: "Good working Experience of Azure Data Bricks, Data Bricks Delta Lake, Azure Data Factory (ADF), ADF metadata driven pipelines, Azure DevOps, MS SQL Server, SSMS, Python and PySpark.",
+                content: "Good working Experience of Azure Data Bricks, Data Bricks Delta Lake, Azure Data Factory (ADF), ADF metadata driven pipelines, Azure DevOps, MS SQL Server, SSMS, Python and PySpark.",
             },
             {
-                content: "Knowledge of Azure connectivity in general, Azure Key Vault, Azure Functions, Azure integration with Active Directory.",
+                content: "Knowledge of Azure connectivity in general, Azure Key Vault, Azure Functions, Azure integration with Active Directory.",
             },
             {
                 content: "SQL coding to write queries, stored procedures, views, functions etc. SQL management studio DB configuration experience.",
             },
             {
-                content: " Experience in SQL Server and SSIS packages ETL implementation experience knowledge of Azure SQL, Azure Functions, Azure Data Factory (ADF), ADF metadata driven pipelines, Azure DevOps.",
+                content: " Experience in SQL Server and SSIS packages ETL implementation experience knowledge of Azure SQL, Azure Functions, Azure Data Factory (ADF), ADF metadata driven pipelines, Azure DevOps.",
             },
 
         ]
@@ -415,7 +415,7 @@ const Jobdescription = [
         ]
     },
     {
-        applyfor: "Senior Python Developer",
+        applyfor: "Python Developer",
         title: "Python Developer",
         level:"mid-senior",
         experience:"4 to 8 years",
