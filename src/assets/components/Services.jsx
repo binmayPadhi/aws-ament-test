@@ -49,7 +49,7 @@ function TestService() {
             </div>
           </div>
         </div>
-        <div className="bottom-img w-100">
+        <div className="bottom-img-services w-100">
           <div className="w-90 mx-auto">
             <p className="fs-24 fw-bold-600 text-white">Services</p>
           </div>

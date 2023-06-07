@@ -68,7 +68,7 @@ setInterval(function () {
                     </tr>
                     <tr>
                       <td className="border-0">
-                        <p className="fs-12 mt-1-text">{list.text}</p>
+                        <p className="fs-12 pl-3 mt-1-text">{list.text}</p>
                       </td>
                     </tr>
                   </table>

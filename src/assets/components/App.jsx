@@ -30,7 +30,6 @@ import Apply from "./Apply";
 function App() {
   const path = useLocation();
   const url = path.pathname;
-
   return (
     <>
       {url != "/blogs/webinar-reshaping-the-retail-industry-through-AI" &&
@@ -91,6 +90,11 @@ function App() {
               element={<Videowebinar />}
             />
           </Route>
+          <Route
+              exact
+              path="blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
+              element={<Insight />}
+            />
           <Route path="/cookiespolicy" element={<CookiesPolicy />} />
           <Route path="/privacypolicy" element={<Privacypolicy />} />
           <Route path="/termsandconditions" element={<Termsandconditions />} />

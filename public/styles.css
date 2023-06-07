@@ -2525,7 +2525,7 @@ label {
   }
 
   .case-studies-page-card-info h4 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 
   .case-studies-page-card-info p {
@@ -2553,7 +2553,7 @@ label {
   }
 
   .case-studies-page-card-info h4 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 
   .case-studies-page-card-info p {
@@ -2580,11 +2580,11 @@ label {
   }
 
   .case-studies-page-card-info h4 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 
   .case-studies-page-card-info p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -5275,9 +5275,9 @@ label {
     height: auto;
   }
 
-  .new-case-studies-list p {
+  /* .new-case-studies-list p {
     font-size: 1.5rem;
-  }
+  } */
 
   /* FOR AI SOLUTIONS RESPONSIVE SECTION */
   /* ............................................................................................................................... */
@@ -5507,9 +5507,9 @@ label {
     height: 720px;
   }
 
-  .new-case-studies-list p {
+  /* .new-case-studies-list p {
     font-size: 1.5rem;
-  }
+  } */
 
   /* FOR NEW ABOUT US PAGE RESPONSIVE SECTION */
   /* ............................................................................................................................... */

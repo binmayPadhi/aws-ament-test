@@ -26,7 +26,7 @@ function Test() {
         consentPopup.classList.add("hidden");
       };
       const declineFn = (event) => {
-        setCookie("username", "amnetdigital", 1);
+        setCookie("username", "amnetdigital", 90);
         if (consentPopup.classList.contains("block") === true) {
           consentPopup.classList.remove("block");
         }

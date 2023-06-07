@@ -99,21 +99,21 @@ const Aboutdata = {
       image: integrity,
       heading: "Integrity",
       description:
-        "We strive towards doing the right thing, at the right time for our customers, partners and teams",
+        "We strive towards doing the right thing, at the right time for our customers, partners and teams.",
     },
     {
       id: 3,
       image: Excellence,
       heading: "Excellence",
       description:
-        "We challenge the status quo and opinions to build premier products and deliver the best services",
+        "We challenge the status quo and opinions to build premier products and deliver the best services.",
     },
     {
       id: 4,
       image: Empathy,
       heading: "Empathy",
       description:
-        "We are curious and take leaps to understand and respect other’s perspectives for success",
+        "We are curious and take leaps to understand and respect other’s perspectives for success.",
     },
   ],
   ourachivements: [
@@ -453,13 +453,13 @@ const Aboutdata = {
     id: 7,
     image: universe,
     count: "4",
-    text: "Countries",
+    text: "Countries on our global presence",
   },
   {
     id: 8,
     image: device,
     count: "60",
-    text: "Digital Frameworks & Accelerators",
+    text: "Digital Frameworks & Tech Accelerators",
   },
 ],
 whyamnet: [
