@@ -18,7 +18,7 @@ function Navbar(props) {
       url ===
         "/blogs/seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" ||
         url === 
-        "blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" ||
+        "/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" ||
       url === "/cookiespolicy" ||
       url === "/Privacypolicy" ||
       url === "/termsandconditions" ||
