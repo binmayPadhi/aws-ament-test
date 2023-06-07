@@ -31,11 +31,30 @@
   border-radius: 34px;
 }
 
-.current-openings {
+.current-openings-contant {
   cursor: pointer;
   background: #1dad8f;
   border-radius: 4px;
-  width:227px;
+  padding-left:30px;
+  padding-right:30px;
+  padding-top:12px;
+  padding-bottom:12px;
+  
+}
+
+.current-openings-connect {
+  cursor: pointer;
+  background: #1dad8f;
+  border-radius: 4px;
+  padding-left:31px;
+  padding-right:35px;
+  padding-top:12px;
+  padding-bottom:12px; 
+}
+
+
+.button-width{
+  width:260px;
   height:45px;
 }
 

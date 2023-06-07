@@ -44,7 +44,7 @@ const Gotocontact = ({ componentFrom }) => {
                 <div className="col-md-6 col-lg-3 col-sm-12  mt-3">
                   <p className="content-button text-sm-center text-md-right">
                     <span
-                      className="current-openings py-3 px-5 cr-pointer"
+                      className="current-openings-connect cr-pointer"
                       onClick={(e) => redirectTo(e, "contact")}
                     >
                       Connect with us
@@ -54,7 +54,7 @@ const Gotocontact = ({ componentFrom }) => {
                 <div className="col-md-6 col-lg-3 col-sm-12 mt-3">
                   <p className="content-button text-sm-center text-md-left">
                     <span
-                      className="current-openings py-3 px-5 ml-2 cr-pointer"
+                      className="current-openings-contant  ml-2 cr-pointer"
                       onClick={(e) => redirectTo(e, "carrer")}
                     >
                       Current openings
@@ -70,7 +70,7 @@ const Gotocontact = ({ componentFrom }) => {
                 <div className="col-md-12 col-lg-12 col-sm-12 mt-3">
                   <p className="content-button text-sm-center text-md-center">
                     <span
-                      className="current-openings py-3 px-4 ml-2 cr-pointer"
+                      className="current-openings-contant py-3 px-4 ml-2 cr-pointer"
                       onClick={(e) => redirectTo(e, "carrer")}
                     >
                       Current openings

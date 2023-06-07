@@ -70,7 +70,7 @@ const Viewsubservice = () => {
               </div>
             </div>
           </div>
-          <div className="bottom-img w-100">
+          <div className="bottom-img-services w-100">
             <div className="row">
               <div className="w-90 mx-auto">
                 <div className="col-lg-1 col-md-1 col-sm-12"></div>

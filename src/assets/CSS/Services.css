@@ -11,6 +11,11 @@
     bottom: 40px;
   }
 
+  .bottom-img-services{
+    position:absolute;
+    bottom: 30px;
+  }
+
   .bottom-img-about{
     position:absolute;
     bottom: 10px !important;
@@ -178,7 +183,16 @@
     height: calc(600px - 20px);
     overflow: auto;
 }
- 
+
+
+@media only  screen and (min-width:280px) and (max-width:424px){
+  .scroll {
+    height: 400px;
+    overflow: auto;
+}
+
+}
+
   .paragraph_why {
     font-family: "Poppins";
     font-style: normal;

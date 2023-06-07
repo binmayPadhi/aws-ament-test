@@ -1,16 +1,12 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import "../../CSS/Opportunities.css";
 import OpeningsJson from "../../Data/Careers-Data/OpeningsData";
-import { useNavigate } from "react-router-dom";
+
 
 
 const CurrentOpenings = () => {
-    const history = useNavigate();
     const redirectTo = (e, path) => {
-            sessionStorage.setItem("job", path)
-        history("/careers/applyjob");
-        window.location.reload();
-    
+        sessionStorage.setItem("job", path)
     };
 const [Openings, SetOpenings] = useState(OpeningsJson);
 const [inputvalue, Setinputvalue] = useState("");
@@ -79,9 +75,9 @@ const sortJson = (e) => {
                                             {res.location}
                                         </p>
                                         <p className="d-flex justify-content-end">
-                                            <button className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer"
-                                                onClick={(e) => redirectTo(e, res.role)}>{res.button}
-                                          </button>
+                                            <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
+                                                onClick={(e) => redirectTo(e, res.role)} href='/careers/applyjob'>{res.button} 
+                                          </a>
                                         </p>
                                     </div>
                                 </div>
