@@ -6,22 +6,13 @@ import blog4 from "../../images/Resources-page/blog4.png";
 const Insightdata = {
   carddetails: [
     {
-      id: "seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry",
-      date: "April 14, 2023",
+      id: "AI-for-IT-operations",
+      date: "May 05, 2023",
       title:
-        "Seven Significant ways Artificial Intelligence (AI) is Impacting...",
+        "Why do we need AIOps, and where does it fit with the modern IT...",
       description:
-        "Artificial Intelligence is becoming the limelight practice for Retail businesses as online shopping replaces more and more physical establishments..",
-      image: blog1,
-    },
-    {
-      id: "AI-retail-industry",
-      date: "April 21, 2023",
-      title:
-        "AI for Retail - Discover how AI can revolutionize the retail industry...",
-      description:
-        "The world of retail is constantly evolving, and businesses must keep up with the latest technology to stay competitive. One of the most promising advancements...",
-      image: blog2,
+        "We need AIOps (Artificial Intelligence for IT Operations) because modern IT environments have become increasingly complex and difficult to manage...",
+      image: blog4,
     },
     {
       id: "AIops-retail-industry",
@@ -32,15 +23,25 @@ const Insightdata = {
         "Artificial Intelligence for IT Operations (AIOps) is a discipline that combines the power of Artificial Intelligence (AI), Natural Language Processing (NLP)...",
       image: blog3,
     },
-    {
-      id: "AI-for-IT-operations",
-      date: "May 05, 2023",
+      {
+      id: "AI-retail-industry",
+      date: "April 21, 2023",
       title:
-        "Why do we need AIOps, and where does it fit with the modern IT...",
+        "AI for Retail - Discover how AI can revolutionize the retail industry...",
       description:
-        "We need AIOps (Artificial Intelligence for IT Operations) because modern IT environments have become increasingly complex and difficult to manage...",
-      image: blog4,
+        "The world of retail is constantly evolving, and businesses must keep up with the latest technology to stay competitive. One of the most promising advancements...",
+      image: blog2,
     },
+    {
+      id: "seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry",
+      date: "April 14, 2023",
+      title:
+        "Seven Significant ways Artificial Intelligence (AI) is Impacting...",
+      description:
+        "Artificial Intelligence is becoming the limelight practice for Retail businesses as online shopping replaces more and more physical establishments..",
+      image: blog1,
+    },
+    
   ],
   categories: [
     {
