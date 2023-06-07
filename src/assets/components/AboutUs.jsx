@@ -110,17 +110,17 @@ function TestAboutUs() {
         </div>
       </div>
 
-      <div className="mt-5">
+      <div className="mt-5 space-read">
         <div className="w-90 mx-auto">
           <AboutUsMission />
         </div>
       </div>
 
-      <div className="w-100">
+      <div className="w-100 space-read">
         <Aboutvalues />
       </div>
 
-      <div className="mt-5">
+      <div className="space-read">
         <div className="w-90 mx-auto">
           <Whyamnet />
         </div>
@@ -131,7 +131,7 @@ function TestAboutUs() {
       </div>
 
       <MediaQuery query="(max-width: 767px)">
-        <div className="mt-5 w-100 ceo-img-section h-auto pt-5">
+        <div className="space-read w-100 ceo-img-section h-auto pt-5 ">
           <div className="row">
             <div className="col-md-8 col-lg-8 col-sm-12 col-xs-12">
               <div className="w-90 mx-auto">
@@ -162,7 +162,7 @@ function TestAboutUs() {
         </div>
       </MediaQuery>
       <MediaQuery query="(min-width: 767px)">
-        <div className="mt-5 w-100 ceo-img-section h-auto pt-5">
+        <div className=" w-100 ceo-img-section h-auto pt-5 space-read">
           <div className="row">
             <div className="col-md-8 col-lg-8 col-sm-12 col-xs-12">
               <div className="w-80 mx-auto">
@@ -193,7 +193,7 @@ function TestAboutUs() {
         </div>
       </MediaQuery>
 
-      <div className="mt-5">
+      <div className="space-read">
         <hr className="hr-grey-line" />
         <div className="w-88 mx-auto">
           <Amnetglance />
@@ -201,7 +201,7 @@ function TestAboutUs() {
         <hr className="hr-grey-line" />
       </div>
 
-      <div className="mt-5">
+      <div className="space-read">
         <Aboutclientsay />
       </div>
 
@@ -210,7 +210,7 @@ function TestAboutUs() {
         <OurPartner />
       </div>
 
-      <div className="mt-5 w-90 mx-auto">
+      <div className="space-read w-90 mx-auto">
         <h1 className="section-title text-center mb-5">Global Footprint</h1>
       </div>
       <div className="w-98 mx-auto">
@@ -218,11 +218,11 @@ function TestAboutUs() {
       </div>
 
 
-      <div className="mb-5 mt-5">
+      <div className="mb-5 space-read">
         <Gotocontact />
       </div>
 
-      <div className="mt-5">
+      <div className="space-read">
         <Letsconnect />
       </div>
 

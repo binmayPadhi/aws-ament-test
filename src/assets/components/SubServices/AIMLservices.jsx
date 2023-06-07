@@ -140,7 +140,7 @@ const AIservices = () => {
               }}
             >
               <div className="w-95 mx-auto py-5">
-                <p className="mt-15">
+                <p className="margin-15">
                   <img
                     className="w-100 mx-auto"
                     src={selectedServicesobj.subimg}

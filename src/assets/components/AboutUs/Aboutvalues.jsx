@@ -4,7 +4,7 @@ import About from "../../Data/AboutUs-Data/About";
 const Aboutvalues = () => {
   return (
     <>
-      <div className="w-100 bg-black h-auto py-5 mt-5">
+      <div className="w-100 bg-black h-auto py-5 mt-5 space-read">
         <h1 className="text-center fs-35 fw-bold-600 py-3 text-white">
           OUR VALUES
         </h1>
