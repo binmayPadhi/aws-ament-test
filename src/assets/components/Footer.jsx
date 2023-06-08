@@ -270,7 +270,7 @@ function Footer() {
     return emailjs
       .sendForm(
         "service_h4akrmg",
-        "template_h0xkqot",
+        "template_dvo9l1c",
         emailDetails.current,
         "yz7dQlM6o3Rz3cnB8"
       )
