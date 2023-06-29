@@ -7,8 +7,15 @@ import borderBg from "../images/Service-Page/border.png";
 import servicejson from "../Data/Services-Data/Homeservices";
 import "../CSS/Services.css";
 import CaseStudiesSection from "./Homepage/CaseStudiesSection";
+import { Helmet } from "react-helmet";
 
 function TestService() {
+  useEffect(() => {
+    document.head.innerHTML+=`
+    <meta name='description' content='My description value!!!'/>
+    <meta name='keywords' content='My keywords!!!'/>
+    `
+  }, []);
   const [selectedServices, setSelectedservice] = useState(servicejson[1].name);
   const [selectedServicesobj, setSelectedserviceobj] = useState(servicejson[1]);
   const fetchService = (e, obj) => {
@@ -19,6 +26,12 @@ function TestService() {
 
   return (
     <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>Artificial Intelligence and Data Analytics Consulting Services </title>
+        <meta name="description" content="Amnet Digital offers data analytics consulting and custom AI-powered solutions for fortune 1000 firms to solve complex technology, data, and AI-related challenges. Let's connect." />
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <div
         className="sub-service-intro position-realtive"
         style={{

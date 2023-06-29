@@ -17,6 +17,7 @@ import Gotocontact from "./Gotocontant";
 import Letsconnect from "./AboutUs/Letsconnect";
 import MediaQuery from "react-responsive";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 
 
@@ -26,8 +27,17 @@ function TestAboutUs() {
     e.preventDefault();
     history(`/services`);
   };
-  return (
+
+  return (  
     <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>About our company | Amnet Digital</title>
+        <meta name="description" content="Amnet Digital is a Data, Analytics & AI solutions company that helps businesses make 
+data-driven decisions" />
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
+    
       <div
         className="sub-service-intro position-realtive"
         style={{

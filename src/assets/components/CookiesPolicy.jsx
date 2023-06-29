@@ -473,7 +473,7 @@ const CookiesPolicy = () => {
             contact us (see the Contact Us section at the end of the page) in
             the first instance or drop an email to for a
             <a className="fs-16 px-2" href="">
-              privacy@amnetigital.com
+              privacy@amnetdigital.com
             </a>
             quick resolution.
           </div>

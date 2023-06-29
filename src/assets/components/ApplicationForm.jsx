@@ -51,7 +51,7 @@ const schema = yup
       .required("location is required"),
     acceptCheckbox: yup.string().required("Please check the checkbox"),
   })
-  .required();
+.required();
 
 const ApplicationForm = () => {
   const applicationDetails = useRef();
@@ -69,10 +69,13 @@ const ApplicationForm = () => {
   const [errorImg, setErrorImg] = useState("");
   const onFileChange = (e) => {
     setErrorImg("");
+    console.log(e.target.files[0].type)
     if (
       e.target.files[0].type === "application/pdf" ||
       e.target.files[0].type === "application/docx" ||
-      e.target.files[0].type === "application/doc"
+      e.target.files[0].type === "application/doc"  ||
+      e.target.files[0].type === "application/vnd.openxmlformats-officedocument.wordprocessingml.document" ||
+      e.target.files[0].type === "application/msword"
     ) {
       const files = e.target.files[0];
       setUploadedPhotos([...uploadedPhotos, files]);
@@ -273,7 +276,9 @@ const ApplicationForm = () => {
                       ref={inputRef}>
                     </input>
                     
-                <h1 className="text-center">Upload a file <span className="text-grey-text">or drag and drop here</span></h1>   
+                <h1 className="text-center cr-pointer">Upload a file <span className="text-grey-text">or drag and drop here</span></h1>   
+                
+                </div>
                 {errors.resume && (
                   <p className="fs-12 text-danger fw-bold-400">
                     {errors.resume.message}
@@ -287,8 +292,6 @@ const ApplicationForm = () => {
                     </p>
                   ))}
                 </p>             
-                </div>
-                
             
             </div>
               <div className="row mt-5">

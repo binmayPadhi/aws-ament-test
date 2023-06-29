@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+* {
+	box-sizing: border-box;
+}
+
+.bg-black-guarantee {
+	background: black;
+	font-family: 'Noto Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.example-row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.example {
+	display: block;
+	
+}
+
+

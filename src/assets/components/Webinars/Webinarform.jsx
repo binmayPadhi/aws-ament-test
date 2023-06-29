@@ -72,7 +72,7 @@ const Webinarform = (props) => {
             acceptCheckbox: false,
           }),
           history(
-            `/blogs/webinar-thank-you-reshaping-the-retail-industry-through-AI`
+            `/webinars/thank-you-reshaping-the-retail-industry-through-AI`
           ),
           (error) => {
             console.log(error.text);

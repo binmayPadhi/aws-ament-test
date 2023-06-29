@@ -189,7 +189,7 @@ function Footer() {
         {
           id: 52,
           name: "Webinars",
-          link: "/blogs/webinar-reshaping-the-retail-industry-through-AI",
+          link: "/webinars/reshaping-the-retail-industry-through-AI",
           target: "_balnk",
         },
         {
@@ -270,7 +270,7 @@ function Footer() {
     return emailjs
       .sendForm(
         "service_h4akrmg",
-        "template_dvo9l1c",
+        "template_h0xkqot",
         emailDetails.current,
         "yz7dQlM6o3Rz3cnB8"
       )
