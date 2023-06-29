@@ -26,13 +26,18 @@ import InsightAIOPS from "./Resources/InsightAIOPS";
 import BlogIT from "./Resources/BlogIT";
 import CareerHome from "./CareerHome";
 import Apply from "./Apply";
+import RedirectAIML from "./RedirectAIML";
+import Webinar from "./Webinar";
+import RedirectWebinar from "./RedirectWebinar";
+import RedirectanotherWebinar from "./Redirectanotherwebinar";
+
 
 function App() {
   const path = useLocation();
   const url = path.pathname;
   return (
     <>
-      {url != "/blogs/webinar-reshaping-the-retail-industry-through-AI" &&
+      {url != "/webinars/reshaping-the-retail-industry-through-AI" &&
       url !=
         "/blogs/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
       url != "/swiftinisghts-Webinar" ? (
@@ -48,7 +53,7 @@ function App() {
           <Route path="/services" element={<OurServices />}>
             <Route path="" element={<Services />} />
             <Route path=":name" element={<AIservices />} />
-            <Route path=":name/:service" element={<Viewsubservice />} />
+            {/* <Route path=":name/:service" element={<Viewsubservice />} /> */}
             {/* <Route path=":name/:service" element={<Viewsubservicestart />} /> */}
           </Route>
           <Route path="/careers" element={<CareerHome />}>
@@ -81,26 +86,28 @@ function App() {
               path="swiftinisghts-Webinar"
               element={<SwiftInisghtsWebinar />}
             />
-            <Route
-              path="webinar-reshaping-the-retail-industry-through-AI"
-              element={<Thankswebinar />}
-            />
+            
             <Route
               path="webinar-thank-you-reshaping-the-retail-industry-through-AI"
               element={<Videowebinar />}
             />
           </Route>
+          <Route path="/webinars" element={<Webinar />}>
           <Route
-              exact
-              path="blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
-              element={<Insight />}
+              path="reshaping-the-retail-industry-through-AI"
+              element={<Thankswebinar />}
             />
+          </Route>
+           
           <Route path="/cookiespolicy" element={<CookiesPolicy />} />
           <Route path="/privacypolicy" element={<Privacypolicy />} />
           <Route path="/termsandconditions" element={<Termsandconditions />} />
+          <Route path="/aiml" element={<RedirectAIML />} />
+          <Route path="/webinar-reshaping-the-retail-industry-through-AI" element={<RedirectWebinar />} />
+          <Route path="/swiftinisghts-Webinar" element={<RedirectanotherWebinar />} />
         </Routes>
       </div>
-      {url != "blogs/webinar-reshaping-the-retail-industry-through-AI" &&
+      {url != "webinars/reshaping-the-retail-industry-through-AI" &&
       url !=
         "blogs/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
       url != "blogs/swiftinisghts-Webinar" ? (

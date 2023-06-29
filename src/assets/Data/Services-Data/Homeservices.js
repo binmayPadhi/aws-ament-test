@@ -21,6 +21,9 @@ const Homeservices = [
     id: 31,
     name: "AI & ML Services",
     heading: "AI & ML Services",
+    metaname: 'Artificial Intelligence and Machine Learning Solutions',
+    metadescription: "We offer Artificial Intelligence (AI) and Machine Learning (ML) solutions to empower your business operations and reporting to drive business value through the right data insights.",
+
     headingDescription:
       "We maintain a data-driven mindset all throughout the engagement, whether it is during strategy support phase or model development phase, and focus on utilization of big data and machine learning by empowered business users. We have capability to help evolve solutions that start as process automation to cognitive insight and finally cognitive engagement when systems work autonomously",
     link: "aiml",

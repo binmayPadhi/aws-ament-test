@@ -7,6 +7,7 @@ import Aboutdata from "../Data/AboutUs-Data/About";
 import vector from "../images/HomePage/horizontal-line.png";
 import OrganizationServices from "./Homepage/OrganizationServices";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import AboutUsBG from "../images/About-Us-Page/amnet-about-us-bg.jpg";
 
 function Test() {
@@ -83,6 +84,12 @@ function Test() {
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Artificial Intelligence (AI) and Data Analytics Services Provider </title>
+        <meta name="description" content="Amnet digital is a Data Analytics and AI solutions company that helps businesses make data-driven decisions. Request Free AI & Data Analytics consultation" />
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <MediaQuery minWidth={1025}>
         <div className="h-100 position-relative">
           <video

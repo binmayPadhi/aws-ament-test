@@ -22,7 +22,6 @@ function Navbar(props) {
       url === "/cookiespolicy" ||
       url === "/Privacypolicy" ||
       url === "/termsandconditions" ||
-      url === "/blogs" ||
       url === "/blogs/AI-retail-industry" ||
       url === "/blogs/AIops-retail-industry" ||
       url === "/blogs/AI-for-IT-operations"
@@ -205,6 +204,8 @@ function Navbar(props) {
               <ul className="navbar-nav">
                 {/*--For Mobile Navigation--*/}
                 <div className="service-dropdown-menu" style={navStyle}>
+                  
+                  
                   <NavLink
                     to="/aboutus"
                     onClick={() => (window.location.href = "/aboutus")}
@@ -965,7 +966,7 @@ function Navbar(props) {
                                 onClick={(e) =>
                                   serviceTo(
                                     e,
-                                    `/blogs/webinar-reshaping-the-retail-industry-through-AI`
+                                    `/webinars/reshaping-the-retail-industry-through-AI`
                                   )
                                 }
                                 className="cr-pointer"
@@ -982,7 +983,7 @@ function Navbar(props) {
                                 onClick={(e) =>
                                   serviceTo(
                                     e,
-                                    `/blogs/webinar-reshaping-the-retail-industry-through-AI`
+                                    `/webinars/reshaping-the-retail-industry-through-AI`
                                   )
                                 }
                               >
@@ -1034,7 +1035,7 @@ function Navbar(props) {
                       className="dropdown-item sub-service-dropdown-item"
                       target={"_blank"}
                       onClick={closeNavpopup}
-                      to={`/blogs/webinar-reshaping-the-retail-industry-through-AI`}
+                      to={`/webinars/reshaping-the-retail-industry-through-AI`}
                     >
                       Webinars
                     </NavLink>

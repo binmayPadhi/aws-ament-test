@@ -4,6 +4,7 @@ import blogImg from "../../images/HomePage/blog_banner.png";
 import Letsgetstart from "../Webinars/Letsgetstart";
 import { useNavigate } from "react-router-dom";
 import Insightdata from "../../Data/Resources-Data/Insightdata";
+import { Helmet } from "react-helmet";
 
 const Insighthome = () => {
   const history = useNavigate();
@@ -27,8 +28,16 @@ const Insighthome = () => {
   };
   return (
     <>
+     <Helmet>
+        <meta charSet="utf-8" />
+        <title>Insights Blog - What we think | Amnet Digital </title>
+        <meta name="description" content="Read the Amnet Digital Insights blog where we address the most challenging issues in an effort to create a better workplace. 
+Discover our most recent ideas.
+" />
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <div className="bg-insights mb-0">
-        <div className="mt-5">
+        <div className="">
           <div
             className="sub-service-intro container-fluid"
             style={{
@@ -49,7 +58,7 @@ const Insighthome = () => {
 
         <>
           {/* <!--CASE STUDIES SECTION--> */}
-          <div className="row w-90 mx-auto new-case-studies-row ">
+          <div className="row w-90 mx-auto new-case-studies-row  above-spacings">
             {Insightdata.carddetails.map((list) => {
               return (
                 <div

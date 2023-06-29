@@ -4,12 +4,22 @@ import { Link } from "react-scroll";
 import CaseStudiesBG from "../images/Case-Studies-Page/casestudies.png";
 import CaseStudiesData from "../Data/CaseStudies-Data/CaseStudiesData";
 import Letsconnect from "./Casestudiesconnect";
+import { Helmet } from "react-helmet";
 
 function TestCaseStudies() {
   return (
     <>
-       <div
-        className="sub-service-intro position-realtive"
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Case studies | Amnet Digital
+          Business & Client | Case Studies | Amnet Digital</title>
+        <meta name="description" content="Case studies illustrating how Amnet Digital assists clients globally, across industries, in overcoming challenges and 
+creating long-term value. Learn more.
+" />
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
+      <div
+        className="sub-service-intro position-realtive "
         style={{
           backgroundImage: `url(${CaseStudiesBG})`,
           backgroundAttachment: "scroll",
@@ -26,12 +36,12 @@ function TestCaseStudies() {
                   className="fw-bold-600 text-white fs-35 text-capitalize"
                   data-text="Your Tech Innovation Catalyst"
                 >
-                 Making A Difference
+                  Making A Difference
                 </h2>
                 <p className="fw-bold-400 fs-16 text-white mb-5 mr-5 mt-4">
-                We adopt a bottom-up approach starting with strategy support through discovery and analysis of existing systems and processes and their limitations maximizing the leverage of knowledge and results in higher value generation.
+                  We adopt a bottom-up approach starting with strategy support through discovery and analysis of existing systems and processes and their limitations maximizing the leverage of knowledge and results in higher value generation.
                 </p>
-              
+
               </div>
               <div className="col-lg-5 col-md-5 col-sm-12"></div>
             </div>
@@ -48,18 +58,18 @@ function TestCaseStudies() {
       </div>
 
       {/* New Case Studies QUOTE SECTION */}
-      
+
 
       {/* <!-- CASE STUDIES PAGE ALL CASE STUDIES --> */}
       <div
-        className="case-studies-page-all-case-studies w-90 mx-auto "
+        className="case-studies-page-all-case-studies w-90 mx-auto above-spacings "
         id="details"
       >
         <div className="row case-studies-page-row ml-0 mr-0">
           {CaseStudiesData.map((caseStudy) => {
             return (
               <div
-                className="col-xl-6 col-lg-6 col-md-12 col-sm-12 case-studies-list new-case-studies-list p-2"
+                className="col-xl-6 col-lg-6 col-md-12 col-sm-12 case-studies-list new-case-studies-list p-2 mb-5"
                 id={caseStudy.id}
                 key={caseStudy.id}
               >

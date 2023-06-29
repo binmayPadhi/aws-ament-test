@@ -40,7 +40,7 @@ const Webinarmodal = ({ isShow, closeModal, isCount }) => {
                 <div className="col-md-6 col-lg-6 col-sm-8 col-xs-8">
                   <Link
                     onClick={storeData}
-                    to={`/webinar-reshaping-the-retail-industry-through-AI`}
+                    to={`/reshaping-the-retail-industry-through-AI`}
                     className="fs-10 d-line-block pl-1 link-decoration-none"
                     target="_blank"
                   >

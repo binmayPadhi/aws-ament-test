@@ -15,7 +15,7 @@ const InsightAI = () => {
       <div className="contact-us-intro container-fluid"></div>
       <div className="container-fluid">
         <div className="center">
-          <div className="new-home-about-details row ml-0 mr-0">
+          <div className="new-home-about-details row ml-0 mr-0 above-spacings">
             <div className="col-12 pl-0 pr-0">
               <h1>
                 AI for Retail - Discover how AI can revolutionize the retail
@@ -74,7 +74,7 @@ const InsightAI = () => {
                           <div style={btnColor} className="mt-5">
                             <a
                               className="achorhover"
-                              href={`/blogs/webinar-reshaping-the-retail-industry-through-AI`}
+                              href={`/webinars/reshaping-the-retail-industry-through-AI`}
                             >
                               <p className="mb-0 px-4 py-3">
                                 <span className="lh-1 fs-18">
@@ -94,7 +94,7 @@ const InsightAI = () => {
                       {list.hasOwnProperty("description2") === true ? (
                         <a
                           className="achorhover"
-                          href={`/blogs/webinar-reshaping-the-retail-industry-through-AI`}
+                          href={`/webinars/reshaping-the-retail-industry-through-AI`}
                         >
                           <p className="mb-0 pt-3 mx-auto fs-18 cr-pointer">
                             <img

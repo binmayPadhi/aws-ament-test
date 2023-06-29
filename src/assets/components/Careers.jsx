@@ -12,10 +12,19 @@ import Encourageopportunities from "./Careers/Encourageopportunities";
 import CurrentOpenings from "./Careers/CurrentOpenings";
 import Ourcorevalues from "./Careers/Ourcorevalues";
 import Amnetfamily from "./Careers/AmnetFamily";
+import { Helmet } from "react-helmet";
 
 function TestCareers() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Data, Analytics & AI solutions | Amnet Digital Careers</title>
+        <meta name="description" content="Amnet Digital opens doors for  professional growth, where your skills are developed and tested in exciting ways. 
+Search jobs best suited for you. Apply today!
+" />
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <div
         className="sub-service-intro container-fluid"
         style={{
@@ -75,7 +84,7 @@ function TestCareers() {
       {/* <!-- CAREER-PAGE-DETAILS-SECTION --> */}
       {/* <CareersDetails /> */}
 
-  
+
 
 
 
@@ -83,7 +92,7 @@ function TestCareers() {
       {/* <!-- JOB DESCRIPTIONS --> */}
       {/* <JobLists /> */}
 
-       <EmployeesSay />
+      <EmployeesSay />
 
       {/* NEW HOMEPAGE CAREER SECTION */}
 

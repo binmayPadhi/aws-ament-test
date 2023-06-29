@@ -264,12 +264,12 @@ const Contactform = () => {
               </div>
               <div className="row ml-0 mr-0 mt-1">
                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 pl-0 pr-0">
-                  <label className="font-form">
+                  <label className="font-form ">
                     Interested In<span className="star-green">*</span>
                   </label>
                   <p>
                     <select
-                      className="form-select text-areainput border-0 h-50px"
+                      className="form-select text-areainput border-0 h-50px cr-pointer"
                       aria-label="Default select example"
                       isSearchable="true"
                       name="selecteditem"

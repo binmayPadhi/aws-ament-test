@@ -5,17 +5,21 @@ import thinborder from "../../images/Service-Page/thin-border.png";
 import borderBg from "../../images/Service-Page/border.png";
 import "../../CSS/Services.css";
 import CaseStudiesSection from "../Homepage/CaseStudiesSection";
+import { Helmet } from "react-helmet";
 
 const Viewsubservice = () => {
   const params = useParams();
   const [serviceData, setServiceData] = useState({});
+  const [metaObj, setMetaob] = useState({});
   const [listlabel, setList] = useState([]);
   const [selectedServices, setSelectedservice] = useState("");
   const [selectedServicesobj, setSelectedserviceobj] = useState({});
   const history = useNavigate();
   useEffect(() => {
     services.map((res) => {
+      console.log(res.serviceName);
       if (res.serviceName === params.name) {
+       
         setServiceData(res);
         let x = Object.values(res.sub);
         setList(x[0]);
@@ -40,6 +44,7 @@ const Viewsubservice = () => {
   };
   return (
     <>
+     
       <div
         className="sub-service-intro position-relative"
         style={{

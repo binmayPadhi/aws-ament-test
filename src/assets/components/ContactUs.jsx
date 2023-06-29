@@ -4,10 +4,17 @@ import "../CSS/ContactUs.css";
 import Contactform from "./ContactUs/Contactform";
 import Gotocontact from "./Gotocontact";
 import contactusbg from "../images/Contact-Us-Page/contactusbanner.svg";
+import { Helmet } from "react-helmet";
 
 function TestContactUs() {
   return (
     <>
+     <Helmet>
+        <meta charSet="utf-8" />
+        <title>Contact Us | Amnet Digital </title>
+        <meta name="description" content="Like what you’ve seen? Get in touch to learn more." />
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <div
         className="sub-service-intro position-realtive"
         style={{

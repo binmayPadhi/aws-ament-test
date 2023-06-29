@@ -6,8 +6,8 @@ function CaseStudiesSection() {
     <>
       {/* <!--CASE STUDIES SECTION--> */}
 
-      <div className="case-studies-new w-90 mx-auto">
-        <h1 className="section-title" style={{ marginTop: "60px" }}>
+      <div className="case-studies-new w-90 mx-auto ">
+        <h1 className="section-title below-spacings" style={{ marginTop: "60px" }}>
           CASE STUDIES
         </h1>
 
