@@ -422,7 +422,7 @@ const Aboutdata = {
   {
     id: 2,
     image: profile,
-    count: "300",
+    count: "300+",
     text: "Employees",
   },
   {
@@ -453,13 +453,13 @@ const Aboutdata = {
     id: 7,
     image: universe,
     count: "4",
-    text: "Countries on our global presence",
+    text: "Countries",
   },
   {
     id: 8,
     image: device,
     count: "60",
-    text: "Digital Frameworks & Tech Accelerators",
+    text: "Digital Frameworks & Accelerators",
   },
 ],
 whyamnet: [
