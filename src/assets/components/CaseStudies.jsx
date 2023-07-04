@@ -62,7 +62,7 @@ creating long-term value. Learn more.
 
       {/* <!-- CASE STUDIES PAGE ALL CASE STUDIES --> */}
       <div
-        className="case-studies-page-all-case-studies w-90 mx-auto above-spacings "
+        className="case-studies-page-all-case-studies w-90 mx-auto above-spacings"
         id="details"
       >
         <div className="row case-studies-page-row ml-0 mr-0">

@@ -459,7 +459,7 @@ const Aboutdata = {
     id: 8,
     image: device,
     count: "60",
-    text: "Digital Frameworks & Accelerators",
+    text: "Digital Frameworks &  Accelerators",
   },
 ],
 whyamnet: [

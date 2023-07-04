@@ -15,7 +15,7 @@ const Insightdata = {
       image: blog1,
     },
     {
-      id: "AI-retail-industry",
+      id: "AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations",
       date: "April 21, 2023",
       title:
         "AI for Retail - Discover how AI can revolutionize the retail industry...",
@@ -24,7 +24,7 @@ const Insightdata = {
       image: blog2,
     },
     {
-      id: "AIops-retail-industry",
+      id: "What-is-AIOps-and-explore-how-it-is-revolutionizing-the-retail-industry-by-solving-complex-challenges",
       date: "April 28, 2023",
       title:
         "What is AIOps and explore how it is revolutionizing the retail industry...",
@@ -33,7 +33,7 @@ const Insightdata = {
       image: blog3,
     },
     {
-      id: "AI-for-IT-operations",
+      id: "Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment",
       date: "May 05, 2023",
       title:
         "Why do we need AIOps, and where does it fit with the modern IT...",
@@ -44,7 +44,7 @@ const Insightdata = {
   ],
   ResourceData: [
     {
-      id: "AI-retail-industry",
+      id: "AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations",
       date: "April 21, 2023",
       title:
         "AI for Retail - Discover how AI can revolutionize the retail industry...",
@@ -53,7 +53,7 @@ const Insightdata = {
       image: blog2,
     },
     {
-      id: "AIops-retail-industry",
+      id: "What-is-AIOps-and-explore-how-it-is-revolutionizing-the-retail-industry-by-solving-complex-challenges",
       date: "April 28, 2023",
       title:
         "What is AIOps and explore how it is revolutionizing the retail industry...",
@@ -62,7 +62,7 @@ const Insightdata = {
       image: blog3,
     },
     {
-      id: "AI-for-IT-operations",
+      id: "Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment",
       date: "May 05, 2023",
       title:
         "Why do we need AIOps, and where does it fit with the modern IT...",
