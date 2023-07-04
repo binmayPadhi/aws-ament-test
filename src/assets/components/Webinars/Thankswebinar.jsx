@@ -6,7 +6,6 @@ import Webinarfooter from "./Webinarfooter";
 import "../../CSS/webinar.css";
 import { useState, useEffect } from "react";
 import Letsgetstart from "./Letsgetstart";
-import { Helmet } from "react-helmet";
 
 const Thankswebinar = () => {
   const [width, setWidth] = useState(window.innerWidth);
@@ -26,12 +25,6 @@ const Thankswebinar = () => {
   };
   return (
     <>
-    <Helmet>
-        <meta charSet="utf-8" />
-        <title>Revolutionizing retail industry with advanced analytics and AI - A Live Webinar</title>
-        <meta name="description" content=" " />
-        <link rel="canonical" href="http://mysite.com/example" />
-      </Helmet>
       <Headercontent componentfrom={componentName} />
       <div className="center-90">
         <div

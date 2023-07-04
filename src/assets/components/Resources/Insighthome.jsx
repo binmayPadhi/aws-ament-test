@@ -58,7 +58,7 @@ Discover our most recent ideas.
 
         <>
           {/* <!--CASE STUDIES SECTION--> */}
-          <div className="row w-90 mx-auto new-case-studies-row  above-spacings">
+          <div className="row w-90 mx-auto new-case-studies-row above-spacings">
             {Insightdata.carddetails.map((list) => {
               return (
                 <div

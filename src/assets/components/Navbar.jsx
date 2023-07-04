@@ -22,9 +22,9 @@ function Navbar(props) {
       url === "/cookiespolicy" ||
       url === "/Privacypolicy" ||
       url === "/termsandconditions" ||
-      url === "/blogs/AI-retail-industry" ||
-      url === "/blogs/AIops-retail-industry" ||
-      url === "/blogs/AI-for-IT-operations"
+      url === "/blogs/AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations" ||
+      url === "/blogs/What-is-AIOps-and-explore-how-it-is-revolutionizing-the-retail-industry-by-solving-complex-challenges" ||
+      url === "/blogs/Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment"
     ) {
       setNavcolor("app");
     } else {
@@ -944,7 +944,7 @@ function Navbar(props) {
                             <p className="sub-service-links dropdown-view-all-link ">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/blogs/AI-retail-industry`)
+                                  serviceTo(e, `/blogs/AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer experience-and-optimize-operations`)
                                 }
                               >
                                 {`Read the full blog >`}

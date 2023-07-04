@@ -30,6 +30,7 @@ import RedirectAIML from "./RedirectAIML";
 import Webinar from "./Webinar";
 import RedirectWebinar from "./RedirectWebinar";
 import RedirectanotherWebinar from "./Redirectanotherwebinar";
+import Redirectways from "./Redirectways";
 
 
 function App() {
@@ -72,13 +73,13 @@ function App() {
             <Route exact path="Insighthome" element={<Insighthome />} />
             <Route
               exact
-              path="AIops-retail-industry"
+              path="What-is-AIOps-and-explore-how-it-is-revolutionizing-the-retail-industry-by-solving-complex-challenges"
               element={<InsightAIOPS />}
             />
-            <Route exact path="AI-for-IT-operations" element={<BlogIT />} />
+            <Route exact path="Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment" element={<BlogIT />} />
             <Route
               exact
-              path="AI-retail-industry"
+              path="AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations"
               element={<InsightAI />}
             />
             <Route
@@ -103,6 +104,7 @@ function App() {
           <Route path="/privacypolicy" element={<Privacypolicy />} />
           <Route path="/termsandconditions" element={<Termsandconditions />} />
           <Route path="/aiml" element={<RedirectAIML />} />
+          <Route path="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" element={<Redirectways />} />
           <Route path="/webinar-reshaping-the-retail-industry-through-AI" element={<RedirectWebinar />} />
           <Route path="/swiftinisghts-Webinar" element={<RedirectanotherWebinar />} />
         </Routes>

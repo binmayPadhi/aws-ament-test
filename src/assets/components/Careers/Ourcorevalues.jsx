@@ -20,7 +20,7 @@ const Ourcorevalues = () => {
         <hr className="hr-separation" />  
         <div className="w-100 mx-auto mt-5"> 
         <div className="row ml-1">
-        <div className="col-lg-4 col-md-3 col-sm-12 d-flex flex-row">
+        <div className="col-lg-3 col-md-2 col-sm-12 d-flex flex-row">
           <img src={vara} className="vara-img" />      
           <div className="ml-3 mt-3">
             <p className="fs-15 fw-bold-800">Vara Prasad Tupalli</p>
