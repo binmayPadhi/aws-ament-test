@@ -35,7 +35,7 @@ function TestAboutUs() {
         <title>About our company | Amnet Digital</title>
         <meta name="description" content="Amnet Digital is a Data, Analytics & AI solutions company that helps businesses make 
 data-driven decisions" />
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link rel="canonical" href="https://qa.d1bi9tey43dmrk.amplifyapp.com/aboutus" />
       </Helmet>
     
       <div
