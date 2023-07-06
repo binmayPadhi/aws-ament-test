@@ -1,6 +1,7 @@
 import React from "react";
 import blog4 from "../../images/Resources-page/blog4.png";
 import BlogITdata from "../../Data/Resources-Data/BlogITdata";
+import { Helmet } from "react-helmet";
 import { useNavigate } from "react-router-dom";
 // import "../../CSS/Insight.css";
 import Letsgetstart from "../Webinars/Letsgetstart";
@@ -18,6 +19,13 @@ const BlogIT = () => {
   };
   return (
     <>
+     <Helmet>
+        <meta charSet="utf-8" />
+        <title>Learn How AIOps fits in the Modern IT Environment | Amnet Digital</title>
+        <meta name="description" content="Discover how AIOps, the cutting-edge technology that combines artificial intelligence and operations, seamlessly integrates 
+into the modern IT environment." />
+        <meta name="keywords" content="" />
+      </Helmet>
       <div className="contact-us-intro container-fluid"></div>
       <div className="container-fluid">
         <div className="center">

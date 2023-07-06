@@ -944,7 +944,7 @@ function Navbar(props) {
                             <p className="sub-service-links dropdown-view-all-link ">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/blogs/AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer experience-and-optimize-operations`)
+                                  serviceTo(e, `/blogs/AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations`)
                                 }
                               >
                                 {`Read the full blog >`}

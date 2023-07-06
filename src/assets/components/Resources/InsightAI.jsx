@@ -3,6 +3,7 @@ import blogImg from "../../images/Resources-page/AIblog.jpg";
 import Blog from "../../Data/Resources-Data/BlogAI";
 import Letsgetstart from "../Webinars/Letsgetstart";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const InsightAI = () => {
   const btnColor = {
@@ -12,6 +13,13 @@ const InsightAI = () => {
   };
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Discover how AI can revolutionize the retail industry  | Amnet Digital</title>
+        <meta name="description" content="Uncover the potential of AI in revolutionizing the retail industry. Dive into our comprehensive blog post to discover how AI is 
+reshaping the retail sector." />
+         <meta name="keywords" content="" />
+      </Helmet>
       <div className="contact-us-intro container-fluid"></div>
       <div className="container-fluid">
         <div className="center">

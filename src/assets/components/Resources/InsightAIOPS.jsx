@@ -4,6 +4,7 @@ import BlogAIOPS from "../../Data/Resources-Data/BlogAIOPS";
 import { useNavigate } from "react-router-dom";
 // import "../../CSS/Insight.css";
 import Letsgetstart from "../Webinars/Letsgetstart";
+import { Helmet } from "react-helmet";
 
 const InsightAIOPS = () => {
   const btnColor = {
@@ -13,6 +14,13 @@ const InsightAIOPS = () => {
   };
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>How is AIOps Revolutionizing the Retail Industry | Amnet Digital</title>
+        <meta name="description" content="Dive into our blog post for valuable insights on the game-changing impact of AIOps in revolutionizing the way retailers operate 
+and engage with customers." />
+        <meta name="keywords" content="" />
+      </Helmet>
       <div className="contact-us-intro container-fluid"></div>
       <div className="container-fluid">
         <div className="center">

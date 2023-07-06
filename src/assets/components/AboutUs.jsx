@@ -32,10 +32,10 @@ function TestAboutUs() {
     <>
     <Helmet>
         <meta charSet="utf-8" />
-        <title>About our company | Amnet Digital</title>
+        <title>Your Partner in making Data-Driven Decisions | Amnet Digital</title>
         <meta name="description" content="Amnet Digital is a Data, Analytics & AI solutions company that helps businesses make 
-data-driven decisions" />
-        <link rel="canonical" href="https://qa.d1bi9tey43dmrk.amplifyapp.com/aboutus" />
+            data-driven decisions." />
+            <meta name="keywords" content="Data, Analytics, AI" />
       </Helmet>
     
       <div
