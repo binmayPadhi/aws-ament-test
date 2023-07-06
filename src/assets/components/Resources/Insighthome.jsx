@@ -34,7 +34,7 @@ const Insighthome = () => {
         <meta name="description" content="Read the Amnet Digital Insights blog where we address the most challenging issues in an effort to create a better workplace. 
 Discover our most recent ideas.
 " />
-        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="keywords" content="Amnet Digital Insights." />
       </Helmet>
       <div className="bg-insights mb-0">
         <div className="">

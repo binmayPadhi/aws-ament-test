@@ -3,6 +3,7 @@ import blogImg from "../../images/Resources-page/blog-amnet.jpg";
 import Blog from "../../Data/Resources-Data/Blog";
 import { useNavigate } from "react-router-dom";
 import Letsgetstart from "../Webinars/Letsgetstart";
+import { Helmet } from "react-helmet";
 
 const Insight = () => {
   let history = useNavigate();
@@ -14,6 +15,13 @@ const Insight = () => {
 
   return (
     <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>Seven Significant ways AI is Impacting the Retail Industry | Amnet Digital</title>
+        <meta name="description" content="There are numerous ways how AI in retail has impacted the picture of the retail sector. In this post, we'll explore how AI is used in 
+the retail sector along with some practical examples." />
+        <meta name="keywords" content="" />
+      </Helmet>
       <div className="contact-us-intro container-fluid"></div>
       <div className="container-fluid">
         <div className="center">

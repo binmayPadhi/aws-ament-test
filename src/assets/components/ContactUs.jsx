@@ -13,7 +13,7 @@ function TestContactUs() {
         <meta charSet="utf-8" />
         <title>Contact Us | Amnet Digital </title>
         <meta name="description" content="Like what you’ve seen? Get in touch to learn more." />
-        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="keywords" content="" />
       </Helmet>
       <div
         className="sub-service-intro position-realtive"

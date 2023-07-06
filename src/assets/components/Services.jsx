@@ -30,7 +30,7 @@ function TestService() {
         <meta charSet="utf-8" />
         <title>Artificial Intelligence and Data Analytics Consulting Services </title>
         <meta name="description" content="Amnet Digital offers data analytics consulting and custom AI-powered solutions for fortune 1000 firms to solve complex technology, data, and AI-related challenges. Let's connect." />
-        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="keywords" content="AI consulting services, data analytics services firm, analytics services provider, data engineering consulting services" />
       </Helmet>
       <div
         className="sub-service-intro position-realtive"

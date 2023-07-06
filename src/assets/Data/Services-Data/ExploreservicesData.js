@@ -176,7 +176,7 @@ const subservices = [
     serviceSubheaading: "AI & ML Services for Business",
     metaname: 'Artificial Intelligence and Machine Learning Solutions',
     metadescription: "We offer Artificial Intelligence (AI) and Machine Learning (ML) solutions to empower your business operations and reporting to drive business value through the right data insights.",
-
+    keywords:"AI solutions, ML solutions, AI services, ML services",
     servideSubdescription:
       "We maintain a data-driven mindset all throughout the engagement, whether it is during strategy support phase or model development phase, and focus on utilization of big data and machine learning by empowered business users. We have capability to help evolve solutions that start as process automation to cognitive insight and finally cognitive engagement when systems work autonomously.",
     sub: {
@@ -399,6 +399,7 @@ const subservices = [
     serviceSubheaading: "Data Engineering for Business",
     metaname: "Data Engineering Services and Data Engineering Consulting Firm",
     metadescription:"Amnet Digital offers Data Engineering Services & Solutions to help businesses get the most out of their data using advanced analytics solutions. Learn more.",
+    keywords:"Data Engineering Services, Data Engineering Solutions, Advanced analytics, advanced analyics solutions.",
     servideSubdescription:
       "Amnet Digital takes a business focused approach to data engineering to align analytics and technology. By leveraging modern techniques like fast cluster computing you can maximize the value of your data assets. Create foundation of data and transform extracted knowledge into insights for more informed and timely business decisions.",
     sub: {
@@ -486,6 +487,7 @@ const subservices = [
     serviceSubheaading: "Data Annotation for Business",
     metaname:"Data Annotation Services for Machine Learning | Amnet Digital",
     metadescription:"Amnet Digital offers high-quality data annotation services to train AI algorithms in your enterprise and create high quality annotations from diverse datasets.",
+    keywords:"Data annotation, data annotation services,  quality annotations.",
     servideSubdescription:
       "At Amnet Digital we combine our human-assisted approach with machine-learning and give you the high-quality training data you need. Our image & video annotation, text annotation, speech/audio annotation services will give you the confidence to deploy your AI and ML models at scale.",
     sub: {
@@ -537,6 +539,7 @@ const subservices = [
     serviceSubheaading: "Data Management for Business",
     metaname:"Data Management, Data Governance, and Data Security Services",
     metadescription:"Our data management and data security services help your business secure and capture the critical information within your organization's master data and create a single source of truth. ",
+    keywords:"Data management services, Data processing solutions, Data analysis and reporting, Data security services",
     servideSubdescription:
       "Our data management services span a wide range of business capabilities around data quality management. We help businesses create robust data management solutions that capture the most critical information within your organization 'master data' & create a single source of truth.",
     sub: {
@@ -642,6 +645,7 @@ const subservices = [
     serviceSubheaading: "Cloud Services for Business",
     metaname:"Cloud management & Transformation Services | Amnet Digital",
     metadescription:"Our cloud based solutions helps to transform your business capabilities through integrated cloud solutions thataccelerate innovation, intelligence, and value across enterprises.",
+    keywords:"cloud solutions,  intergrated cloud solutions,",
     servideSubdescription:
       "We adopt a structured approach that offers the flexibility needed to unify your systems within an optimized environment that prioritizes the performance you want , yet at the lowest cost.",
     sub: {
@@ -711,6 +715,7 @@ const subservices = [
     serviceSubheaading: "Platform Engineering for Business",
     metaname:"Platform Engineering Services and Digital Products Development Services",
     metadescription:"Our Platform Engineering Services help businesses accelerate software delivery, enable self-service capabilities, and optimize developers' experience to build internal developer platforms.",
+    keywords:"Platform Engineering Services, Digital Platform Engineering Consulting, Internal Developer Platforms, Accelerate Software Delivery, Internal Developer Platforms",
     servideSubdescription:
       "We are a proven provider of platform engineering services specializing in the design & development of digital experiences. Our experts blend the latest in technology, development methods and tools to deliver bespoke solutions that fit perfectly into your business and elevate your brand’s engagement with your customers.",
     sub: {
@@ -762,6 +767,7 @@ const subservices = [
     serviceSubheaading: "Quality Assurance for Business",
     metaname:"Quality Assurance Services and Solutions | Amnet Digital",
     metadescription:"Minimize risks in functionality and integration with our AI-enabled quality assurance services. Make your software flawless and secured. Learn more.",
+    keywords:"Quality assurance, quality assurance services.",
     servideSubdescription:
       "We provide dedicated Quality Assurance services aligned to latest agile, AI/ML and Digital Transformation trends and offer end-to-end testing & report validation services. At Amnet Digital, we strive for quality shift left and high-grade deliverables with optimized Cost of Quality and significant Return on Investments.",
     sub: {
@@ -831,6 +837,7 @@ const subservices = [
     serviceSubheaading: "Advanced Analytics for Business",
     metaname:"Advanced Analytics Consulting Services Firm",
     metadescription:"We are a global advanced analytics consulting firm enabling enterprises to make data-driven decisions and gain deeper insights into market trends, and key business activities.",
+    keywords:"Advanced analytics, customer analytics, marketing analytics, data analytics, advanced analytics solutions, advanced analytics services firm",
     servideSubdescription:
       "Our proven experience in delivering analytics solutions to enterprises can help your business gain a competitive advantage. We can contribute in a crucial role to formulate the ways to improve business operations and make smart business decisions that result in best return on investments.",
     sub: {
@@ -927,6 +934,7 @@ const subservices = [
     serviceSubheaading: "User Experience for Business",
     metaname:"UI and UX Development Services",
     metadescription:"Discover how Amnet Digital’s strategy & consulting services and solutions leveraging AI & Analytics can help your business achieve optimal long-term value.",
+    keywords:"User experience, UX strategy, experience.",
     servideSubdescription:
       "Amnet Digital aims at designing products that deliver a positive experience by bridging the gap between the stakeholder goals and user expectations. With an emotionally balanced human-centered approach we empathize with the end users and leverage effective user-centric design techniques delivering the best experience for your users across all touch points of your business!",
     sub: {
@@ -987,6 +995,7 @@ const subservices = [
     serviceSubheaading: "Strategy & Consulting for Business",
     metaname:"Strategy Consulting services and solutions | Amnet Digital",
     metadescription:"Discover how Amnet Digital’s strategy & consulting services and solutions leveraging AI & Analytics can help your business achieve optimal long-term value.",
+    keywords:"Strategy and consulting, AI, Analytics, AI and Analytics.",
     servideSubdescription:
       "The era of the standalone digital project is over. We can help you create solutions that influence your whole organization. Digital powers virtually every move a company makes. Analytics informs every high-stakes decision. And emerging technologies offer huge advantage to companies that adopt them first. We help you bring all this together, infusing every project with a set of digital capabilities that focus on fulfilling your strategy.",
     sub: {

@@ -12,6 +12,13 @@ import AboutUsBG from "../images/About-Us-Page/amnet-about-us-bg.jpg";
 
 function Test() {
   const [cookieName, setCookievalue] = useState("");
+  // useEffect(() => {
+  //   document.head.innerHTML+=`
+  //   <meta name='description' content='My description value!!!'/>
+  //   <meta name='keywords' content='My keywords!!!'/>
+  //   <title>hompage</title>
+  //   `
+  // }, []);
   useEffect(() => {
     let checkCookie = getCookie("username");
     setCookievalue(checkCookie);
@@ -88,7 +95,7 @@ function Test() {
         <meta charSet="utf-8" />
         <title>Artificial Intelligence (AI) and Data Analytics Services Provider </title>
         <meta name="description" content="Amnet digital is a Data Analytics and AI solutions company that helps businesses make data-driven decisions. Request Free AI & Data Analytics consultation" />
-        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="keywords" content="AI, data analytics, advanced analytics, analytics" />
       </Helmet>
       <MediaQuery minWidth={1025}>
         <div className="h-100 position-relative">

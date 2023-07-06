@@ -10,13 +10,13 @@ function TestCaseStudies() {
   return (
     <>
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta charset="utf-8" />
         <title>Case studies | Amnet Digital
           Business & Client | Case Studies | Amnet Digital</title>
         <meta name="description" content="Case studies illustrating how Amnet Digital assists clients globally, across industries, in overcoming challenges and 
 creating long-term value. Learn more.
 " />
-        <link rel="canonical" href="http://mysite.com/example" />
+      <meta name="keywords" content="Amnet Digital cases studies." />
       </Helmet>
       <div
         className="sub-service-intro position-realtive "

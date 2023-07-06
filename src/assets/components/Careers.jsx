@@ -23,7 +23,7 @@ function TestCareers() {
         <meta name="description" content="Amnet Digital opens doors for  professional growth, where your skills are developed and tested in exciting ways. 
 Search jobs best suited for you. Apply today!
 " />
-        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="keywords" content="Amnet Digital careers." />
       </Helmet>
       <div
         className="sub-service-intro container-fluid"
