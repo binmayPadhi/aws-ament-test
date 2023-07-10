@@ -19,14 +19,14 @@ const Insight = () => {
         <meta charSet="utf-8" />
         <title>Seven Significant ways AI is Impacting the Retail Industry | Amnet Digital</title>
         <meta name="description" content="There are numerous ways how AI in retail has impacted the picture of the retail sector. In this post, we'll explore how AI is used in 
-the retail sector along with some practical examples." />
+         the retail sector along with some practical examples." />
         <meta name="keywords" content="" />
       </Helmet>
       <div className="contact-us-intro container-fluid"></div>
       <div className="container-fluid">
         <div className="center">
           <div className="new-home-about-details row ml-0 mr-0 above-spacings">
-            <div className="col-12 pl-0 pr-0">
+            <div className="col-12 pl-0 pr-0 mb-5">
               <h1>
                 Seven Significant ways Artificial Intelligence (AI) is Impacting
                 the Retail Industry
