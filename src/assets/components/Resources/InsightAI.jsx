@@ -17,14 +17,14 @@ const InsightAI = () => {
         <meta charSet="utf-8" />
         <title>Discover how AI can revolutionize the retail industry  | Amnet Digital</title>
         <meta name="description" content="Uncover the potential of AI in revolutionizing the retail industry. Dive into our comprehensive blog post to discover how AI is 
-reshaping the retail sector." />
+         reshaping the retail sector." />
          <meta name="keywords" content="" />
       </Helmet>
       <div className="contact-us-intro container-fluid"></div>
       <div className="container-fluid">
         <div className="center">
           <div className="new-home-about-details row ml-0 mr-0 above-spacings">
-            <div className="col-12 pl-0 pr-0">
+            <div className="col-12 pl-0 pr-0 mb-5">
               <h1>
                 AI for Retail - Discover how AI can revolutionize the retail
                 industry and help businesses increase sales, improve customer
@@ -32,9 +32,8 @@ reshaping the retail sector." />
               </h1>
             </div>
           </div>
-
           <div className="row about-us-page-row ml-0 mr-0">
-            <div className="col-12 about-us-details p-0">
+            <div className="col-12 about-us-details p-0 ">
               <img
                 loading="lazy"
                 className="img-fluid"
@@ -43,7 +42,6 @@ reshaping the retail sector." />
               />
             </div>
           </div>
-
           <div className="about-us-page-details">
             <div className="row about-us-page-row ml-0 mr-0">
               {Blog.map((list) => {
@@ -76,7 +74,6 @@ reshaping the retail sector." />
                       ) : (
                         ""
                       )}
-
                       {list.hasOwnProperty("watchnowImg") === true ? (
                         <>
                           <div style={btnColor} className="mt-5">
@@ -129,9 +126,7 @@ reshaping the retail sector." />
       <div>
         <Letsgetstart componentFrom={"blog1"} />
       </div>
-
       {/* NEW HOMEPAGE CAREER SECTION */}
-
       <div
         className="new-career-section"
         style={{

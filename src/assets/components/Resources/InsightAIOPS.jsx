@@ -18,14 +18,14 @@ const InsightAIOPS = () => {
         <meta charSet="utf-8" />
         <title>How is AIOps Revolutionizing the Retail Industry | Amnet Digital</title>
         <meta name="description" content="Dive into our blog post for valuable insights on the game-changing impact of AIOps in revolutionizing the way retailers operate 
-and engage with customers." />
+         and engage with customers." />
         <meta name="keywords" content="" />
       </Helmet>
       <div className="contact-us-intro container-fluid"></div>
       <div className="container-fluid">
         <div className="center">
           <div className="new-home-about-details row ml-0 mr-0 above-spacings">
-            <div className="col-12 pl-0 pr-0">
+            <div className="col-12 pl-0 pr-0 mb-5">
               <h1>
                 What is AIOps and explore how it is revolutionizing the retail
                 industry by solving complex challenges?
