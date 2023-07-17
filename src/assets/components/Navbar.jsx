@@ -205,7 +205,6 @@ function Navbar(props) {
                 {/*--For Mobile Navigation--*/}
                 <div className="service-dropdown-menu" style={navStyle}>
                   
-                  
                   <NavLink
                     to="/aboutus"
                     onClick={() => (window.location.href = "/aboutus")}
@@ -267,9 +266,19 @@ function Navbar(props) {
                         <h1 className="fs-13 fw-bold-400 text-new">
                           What's New
                         </h1>
-                        <h1 className="fs-13 fw-bold-500 text-underline text-black">
+                        <a className="fs-13 fw-bold-500 text-underline text-black cr-pointer"
+                        href="/services/intelligent-document-processing">
+                          INTELLIGENT DOCUMENT PROCESSING
+                        </a>
+                        <p className="fs-13 fw-bold-400 text-digital">
+                          Extract and structure data from complex documents automatically
+                        </p>
+                        <hr className="hr-line" />
+                        <a className="fs-13 fw-bold-500 text-underline text-black cr-pointer" 
+                        href={`/services/${`dataengineering`}/${`data-transformations`}`}>
                           DIGITAL TRANSFORMATION
-                        </h1>
+                        </a>
+                        
                         <p className="fs-13 fw-bold-400 text-digital">
                           Digital Transformation through proprietary
                           accelerators
@@ -305,7 +314,14 @@ function Navbar(props) {
                         <div className="row">
                           <div className="col-lg-4">
                             <p className="service-aiml mt-5 pt-1">
-                              <a href={`/services/aiml`}>AI & ML</a>
+                            <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/aiml`)
+                                }
+                                className="cr-pointer"
+                              >
+                                AI & ML
+                              </span>
                             </p>
                             <p
                               className="sub-service-links"
@@ -896,8 +912,16 @@ function Navbar(props) {
                         <h1 className="fs-13 fw-bold-400 text-new">
                           What's New
                         </h1>
+                        <a className="fs-13 fw-bold-500 text-underline text-black cr-pointer"
+                        href="/services/intelligent-document-processing">
+                          INTELLIGENT DOCUMENT PROCESSING
+                        </a>
+                        <p className="fs-13 fw-bold-400 text-digital">
+                          Extract and structure data from complex documents automatically
+                        </p>
+                        <hr className="hr-line" />
                         <h1 className="fs-13 fw-bold-500 text-underline text-black">
-                          AI in Retail Industry
+                          AI IN RETAIL INDUSTRY
                         </h1>
                         <p className="fs-13 fw-bold-400 text-digital">
                           AI can be used to process and analyze vast amounts of
