@@ -42,7 +42,7 @@ const Decode = () => {
             <div className="bg-goway">
             <div className="w-85 mx-auto pt-4">
                 <div className="row goway-bottom pt-5">
-                <div className="col-lg-4 pl-lg-5 above-spacings">
+                <div className="col-lg-4 above-spacings">
                       <img src={studybook} className="img-idp"/>
                     </div>
                     <hr className="hr-grey-line  d-lg-none"/> 

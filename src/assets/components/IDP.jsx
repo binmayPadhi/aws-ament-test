@@ -47,11 +47,22 @@ const IDP = () => {
         setCounter(100);
       }
     }
-    else if(window.innerWidth >= 320 && window.innerWidth < 768) {
-      if(window.scrollY > 8900) {
-        setCounter(100);
-      }
-    } 
+    // else if(window.innerWidth >= 320 && window.innerWidth < 768) {
+    //   if(window.scrollY > 8900) {
+    //     setCounter(100);
+    //   }
+    // } 
+    else if(window.innerWidth >= 375 && window.innerWidth < 768) {
+            if(window.scrollY > 7900) {
+              setCounter(100);
+            }
+          } 
+          else if(window.innerWidth >= 320 && window.innerWidth < 375) {
+            if(window.scrollY > 8400) {
+              setCounter(100);
+            }
+          }
+    
   }
 
     return (
