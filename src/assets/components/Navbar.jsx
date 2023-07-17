@@ -816,7 +816,14 @@ function Navbar(props) {
                     >
                       Data Annotation
                     </NavLink>
-                  </div>
+                    <NavLink
+                      className="dropdown-item sub-service-dropdown-item"
+                      to={`/services/intelligent-document-processing`}
+                      onClick={closeNavpopup}
+                    >
+                     Intelligent Document Processing
+                    </NavLink>
+                                     </div>
                 </div>
 
                 {/* INDUSTRIES DROPDOWN SECTION */}
@@ -1048,6 +1055,13 @@ function Navbar(props) {
                     className="dropdown-menu"
                     aria-labelledby="dropdownMenuButton"
                   >
+                    <NavLink
+                      className="dropdown-item sub-service-dropdown-item"
+                      to={`/services/intelligent-document-processing`}
+                      onClick={closeNavpopup}
+                    >
+                     Intelligent Document Processing
+                    </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
                       to={`/blogs`}
