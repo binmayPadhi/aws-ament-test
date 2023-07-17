@@ -10,7 +10,6 @@ function CaseStudiesSection() {
         <h1 className="section-title below-spacings" style={{ marginTop: "60px" }}>
           CASE STUDIES
         </h1>
-
         <div className="row mx-0  new-case-studies-row text-left">
           {CaseStudiesSectionData.map((list) => {
             return (

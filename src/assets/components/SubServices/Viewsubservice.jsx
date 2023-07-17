@@ -19,7 +19,6 @@ const Viewsubservice = () => {
     services.map((res) => {
       console.log(res.serviceName);
       if (res.serviceName === params.name) {
-       
         setServiceData(res);
         let x = Object.values(res.sub);
         setList(x[0]);
@@ -44,7 +43,6 @@ const Viewsubservice = () => {
   };
   return (
     <>
-     
       <div
         className="sub-service-intro position-relative"
         style={{

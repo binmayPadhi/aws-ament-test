@@ -1,24 +1,117 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
-* {
-	box-sizing: border-box;
+.overall{
+    background-color: black;
+    height:600px;  
 }
 
-.bg-black-guarantee {
-	background: black;
-	font-family: 'Noto Sans', sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+
+@media only screen and (min-width: 300px) and (max-width: 1023px) {
+    .overall{
+        background-color: black;
+        height:auto;  
+    }
+    
+
 }
 
-.example-row {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+
+.container-circle{
+ background-color: black;
+ border-radius:8px;
+ padding:50px 0;
+ display:flex;
+ flex-direction: column;
+ align-items:center;
+ row-gap:30px;
+ justify-content: center;
 }
 
-.example {
-	display: block;
-	
+.circular-progress{
+    position:relative;
+    height:160px;
+    border-radius:50%;
+    background:conic-gradient( #10ac84 3.6deg, #151E23 0deg);
+    width:160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
 }
 
+.circular{
+    position:relative;
+    height:160px;
+    border-radius:50%;
+    background:conic-gradient(#026c42 3.6deg, #151E23 0deg);
+    width:160px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.circle{
+    position:relative;
+    height:160px;
+    border-radius:50%;
+    background:conic-gradient(#026c42 3.6deg, #151E23 0deg);
+    width:160px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.circle::before{
+    position:absolute;
+    content:"";
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    background-color: black;
+}
+
+.circular::before{
+    position:absolute;
+    content:"";
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    background-color: black;
+
+}
+
+.circular-progress::before{
+    position:absolute;
+    content:"";
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    background-color: black;
+
+}
+
+.progress-value{
+    color:#fff;
+    font-size:40px;
+    font-weight: 600;
+    position: relative;  
+}
+
+.prog{
+    color:#fff;
+    font-size:40px;
+    font-weight: 600;
+    position: relative;
+}
+
+.progressor{
+    color:#fff;
+    font-size:40px;
+    font-weight: 600;
+    position: relative;
+}
+
+.text{
+    color:white;
+    font-size:16px;
+    display: flex;
+    justify-content:center;
+}
 
