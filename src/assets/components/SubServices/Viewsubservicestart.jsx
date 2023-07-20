@@ -45,7 +45,7 @@ const Viewsubservicestart = () => {
   return (
     <>
       <div
-        className="sub-service-intro position-relative"
+        className="sub-service-intro-only-services position-relative"
         style={{
           backgroundImage: `url(${serviceData.serviceImg})`,
           backgroundAttachment: "scroll",
