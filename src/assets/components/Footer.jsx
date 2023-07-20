@@ -114,12 +114,12 @@ function Footer() {
           link: "/services/cloudservices",
           target: "_balnk",
         },
-        {
-          id:36,
-          name:"IDP Solutions",
-          link:"/services/intelligent-document-processing",
-          target:"_blank",
-        },
+        // {
+        //   id:36,
+        //   name:"IDP Solutions",
+        //   link:"/services/intelligent-document-processing",
+        //   target:"_blank",
+        // },
         {
           id: 36,
           name: "User Experience",

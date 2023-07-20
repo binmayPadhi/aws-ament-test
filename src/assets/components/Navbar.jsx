@@ -266,14 +266,14 @@ function Navbar(props) {
                         <h1 className="fs-13 fw-bold-400 text-new">
                           What's New
                         </h1>
-                        <a className="fs-13 fw-bold-500 text-underline text-black cr-pointer"
+                        {/* <a className="fs-13 fw-bold-500 text-underline text-black cr-pointer"
                         href="/services/intelligent-document-processing">
                           INTELLIGENT DOCUMENT PROCESSING
                         </a>
                         <p className="fs-13 fw-bold-400 text-digital">
                           Extract and structure data from complex documents automatically
                         </p>
-                        <hr className="hr-line" />
+                        <hr className="hr-line" /> */}
                         <a className="fs-13 fw-bold-500 text-underline text-black cr-pointer" 
                         href={`/services/${`dataengineering`}/${`data-transformations`}`}>
                           DIGITAL TRANSFORMATION
@@ -816,13 +816,13 @@ function Navbar(props) {
                     >
                       Data Annotation
                     </NavLink>
-                    <NavLink
+                    {/* <NavLink
                       className="dropdown-item sub-service-dropdown-item"
                       to={`/services/intelligent-document-processing`}
                       onClick={closeNavpopup}
                     >
                      Intelligent Document Processing
-                    </NavLink>
+                    </NavLink> */}
                                      </div>
                 </div>
 
@@ -919,14 +919,14 @@ function Navbar(props) {
                         <h1 className="fs-13 fw-bold-400 text-new">
                           What's New
                         </h1>
-                        <a className="fs-13 fw-bold-500 text-underline text-black cr-pointer"
+                        {/* <a className="fs-13 fw-bold-500 text-underline text-black cr-pointer"
                         href="/services/intelligent-document-processing">
                           INTELLIGENT DOCUMENT PROCESSING
                         </a>
                         <p className="fs-13 fw-bold-400 text-digital">
                           Extract and structure data from complex documents automatically
                         </p>
-                        <hr className="hr-line" />
+                        <hr className="hr-line" /> */}
                         <h1 className="fs-13 fw-bold-500 text-underline text-black">
                           AI IN RETAIL INDUSTRY
                         </h1>
@@ -1055,13 +1055,13 @@ function Navbar(props) {
                     className="dropdown-menu"
                     aria-labelledby="dropdownMenuButton"
                   >
-                    <NavLink
+                    {/* <NavLink
                       className="dropdown-item sub-service-dropdown-item"
                       to={`/services/intelligent-document-processing`}
                       onClick={closeNavpopup}
                     >
                      Intelligent Document Processing
-                    </NavLink>
+                    </NavLink> */}
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
                       to={`/blogs`}
