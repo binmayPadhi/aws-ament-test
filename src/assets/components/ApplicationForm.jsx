@@ -89,7 +89,7 @@ const ApplicationForm = () => {
     return emailjs
       .sendForm(
         "service_h4akrmg",
-        "template_h0xkqot",
+        "template_wft5tq9",
         applicationDetails.current,
         "yz7dQlM6o3Rz3cnB8"
       )
