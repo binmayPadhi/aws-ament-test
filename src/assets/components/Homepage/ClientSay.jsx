@@ -72,7 +72,7 @@ function ClientSay() {
                   />
                   {/* <h3 className="card-title">Jamie Lorenzo</h3> */}
                   <p className="card-text client-role text-white fw-bold-700 fs-18">
-                    VP Engineering, eCommerce Company
+                    VP Engineering, E-Commerce Company
                   </p>
                   <p className="card-text client-desc text-white fs-16">
                     We would like to express our satisfaction regarding the

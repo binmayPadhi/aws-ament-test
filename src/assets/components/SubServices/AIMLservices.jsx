@@ -4,7 +4,7 @@ import services from "../../Data/Services-Data/ExploreservicesData";
 import thinborder from "../../images/Service-Page/thin-border.png";
 import borderBg from "../../images/Service-Page/border.png";
 import CaseStudiesSection from "../Homepage/CaseStudiesSection";
-
+import { Helmet } from "react-helmet";
 const AIservices = () => {
   const params = useParams();
   const history = useNavigate();
@@ -12,6 +12,7 @@ const AIservices = () => {
   const [listlabel, setList] = useState([]);
   const [selectedServices, setSelectedservice] = useState("");
   const [selectedServicesobj, setSelectedserviceobj] = useState({});
+  
   useEffect(() => {
     services.map((res) => {
       if (res.serviceName === params.name) {
@@ -33,8 +34,14 @@ const AIservices = () => {
 
   return (
     <>
+     <Helmet>
+        <meta charSet="utf-8" />
+        <title>{`${serviceData.metaname}`} </title>   
+        <meta name="description" content={`${serviceData.metadescription}`} />
+        <meta name="keywords" content="" />
+      </Helmet>
       <div
-        className="sub-service-intro position-relative"
+        className="sub-service-intro-only-services position-relative"
         style={{
           backgroundImage: `url(${serviceData.serviceImg})`,
           backgroundAttachment: "scroll",
@@ -55,6 +62,7 @@ const AIservices = () => {
                   >
                     {serviceData.serviceImgaetitle}
                   </h2>
+                  {serviceData.metaname}
                   <p className="fw-bold-400 fs-16 text-white mb-5 mt-4">
                     {serviceData.servideSubdescription}
                   </p>
@@ -63,7 +71,7 @@ const AIservices = () => {
               </div>
             </div>
           </div>
-          <div className="bottom-img w-100">
+          <div className="bottom-img-services w-100">
             <div className="row">
               <div className="w-90 mx-auto">
                 <div className="col-lg-1 col-md-1 col-sm-12"></div>
@@ -140,7 +148,7 @@ const AIservices = () => {
               }}
             >
               <div className="w-95 mx-auto py-5">
-                <p className="mt-15">
+                <p className="margin-15">
                   <img
                     className="w-100 mx-auto"
                     src={selectedServicesobj.subimg}

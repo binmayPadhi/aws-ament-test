@@ -3,6 +3,7 @@ import blogImg from "../../images/Resources-page/AIblog.jpg";
 import Blog from "../../Data/Resources-Data/BlogAI";
 import Letsgetstart from "../Webinars/Letsgetstart";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const InsightAI = () => {
   const btnColor = {
@@ -12,11 +13,18 @@ const InsightAI = () => {
   };
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Discover how AI can revolutionize the retail industry  | Amnet Digital</title>
+        <meta name="description" content="Uncover the potential of AI in revolutionizing the retail industry. Dive into our comprehensive blog post to discover how AI is 
+         reshaping the retail sector." />
+         <meta name="keywords" content="" />
+      </Helmet>
       <div className="contact-us-intro container-fluid"></div>
       <div className="container-fluid">
         <div className="center">
-          <div className="new-home-about-details row ml-0 mr-0">
-            <div className="col-12 pl-0 pr-0">
+          <div className="new-home-about-details row ml-0 mr-0 above-spacings">
+            <div className="col-12 pl-0 pr-0 mb-5">
               <h1>
                 AI for Retail - Discover how AI can revolutionize the retail
                 industry and help businesses increase sales, improve customer
@@ -24,9 +32,8 @@ const InsightAI = () => {
               </h1>
             </div>
           </div>
-
           <div className="row about-us-page-row ml-0 mr-0">
-            <div className="col-12 about-us-details p-0">
+            <div className="col-12 about-us-details p-0 ">
               <img
                 loading="lazy"
                 className="img-fluid"
@@ -35,7 +42,6 @@ const InsightAI = () => {
               />
             </div>
           </div>
-
           <div className="about-us-page-details">
             <div className="row about-us-page-row ml-0 mr-0">
               {Blog.map((list) => {
@@ -68,13 +74,12 @@ const InsightAI = () => {
                       ) : (
                         ""
                       )}
-
                       {list.hasOwnProperty("watchnowImg") === true ? (
                         <>
                           <div style={btnColor} className="mt-5">
                             <a
                               className="achorhover"
-                              href={`/blog/webinar-reshaping-the-retail-industry-through-AI`}
+                              href={`/webinars/reshaping-the-retail-industry-through-AI`}
                             >
                               <p className="mb-0 px-4 py-3">
                                 <span className="lh-1 fs-18">
@@ -94,7 +99,7 @@ const InsightAI = () => {
                       {list.hasOwnProperty("description2") === true ? (
                         <a
                           className="achorhover"
-                          href={`/blog/webinar-reshaping-the-retail-industry-through-AI`}
+                          href={`/webinars/reshaping-the-retail-industry-through-AI`}
                         >
                           <p className="mb-0 pt-3 mx-auto fs-18 cr-pointer">
                             <img
@@ -121,9 +126,7 @@ const InsightAI = () => {
       <div>
         <Letsgetstart componentFrom={"blog1"} />
       </div>
-
       {/* NEW HOMEPAGE CAREER SECTION */}
-
       <div
         className="new-career-section"
         style={{

@@ -72,7 +72,7 @@ const Webinarform = (props) => {
             acceptCheckbox: false,
           }),
           history(
-            `/blog/webinar-thank-you-reshaping-the-retail-industry-through-AI`
+            `/webinars/thank-you-reshaping-the-retail-industry-through-AI`
           ),
           (error) => {
             console.log(error.text);
@@ -94,7 +94,7 @@ const Webinarform = (props) => {
               First Name<span className="req">*</span>
               <input
                 ref={input1}
-                className="w-100 pl-1"
+                className="w-100 pl-1 border-0"
                 type="text"
                 name="fName"
                 onChange={handleChange}
@@ -103,12 +103,12 @@ const Webinarform = (props) => {
               />
             </label>
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 pl-0 pr-0">
+          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 pl-2 pr-0">
             <label>
               Last Name<span className="req">*</span>
               <input
                 type="text"
-                className="w-100 pl-1"
+                className="w-100 pl-1 border-0"
                 name="lName"
                 onChange={handleChange}
                 value={registerDetails.lName}
@@ -124,7 +124,7 @@ const Webinarform = (props) => {
             </label>
             <p className="email_field">
               <input
-                className="pl-1"
+                className="pl-1 border-0"
                 type="email"
                 name="email"
                 onChange={handleChange}
@@ -142,7 +142,7 @@ const Webinarform = (props) => {
             <p className="email_field">
               <input
                 type="text"
-                className="pl-1"
+                className="pl-1 border-0"
                 name="cName"
                 onChange={handleChange}
                 value={registerDetails.cName}
@@ -158,7 +158,7 @@ const Webinarform = (props) => {
               <input
                 type="text"
                 name="jobTitle"
-                className="pl-1"
+                className="pl-1 border-0"
                 onChange={handleChange}
                 value={registerDetails.jobTitle}
               />

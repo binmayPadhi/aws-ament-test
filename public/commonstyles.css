@@ -171,6 +171,18 @@
   width: 80%;
 }
 
+.w-85{
+  width: 85%;
+}
+
+.w-88{
+  width:88%;
+}
+
+.w-83{
+  width: 83%;
+}
+
 .w-90 {
   width: 90%;
 }
@@ -208,4 +220,135 @@ html [type="button"] {
 
 .pb-8 {
   padding-bottom: 5rem;
+}
+
+.bg-black {
+  background-color: rgba(0, 0, 0, 0.87);
+}
+
+.w-50px {
+  width: 50px;
+}
+
+.ceo-img-section {
+  background: linear-gradient(90deg, #000000 0.66%, #412881 100%);
+}
+
+.mt-15px{
+  margin-top: 15rem;
+}
+
+.glance_styles {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.glances_position {
+  position: absolute;
+  top: 50%;
+}
+
+.gload-title{
+  height: 100%;
+  width:100%;
+}
+
+
+.client-img {
+  background: linear-gradient(180deg, #eaeaea 0%, #f7f7f7 100%);
+}
+
+
+.hr-grey-line{
+  border:1px solid #c9c9c9;
+}
+
+.ceo-image-style{
+  border-radius:360px;
+  height:130px;
+  width:130px;
+  align-items:center;
+  display: flex;
+  justify-content: center;
+}
+
+.lets-connect{
+  border-radius:4px!important;
+  padding:10px 15px;
+
+}
+
+.text-requirement {
+  color: #463f3f;
+}
+
+.top-space {
+  margin-top: 150px;
+}
+
+.margin-amnet{
+  margin-top: 9rem;
+}
+
+.w-100{
+  width:100%;
+}
+
+.border-circle-grey{
+    background-color: #d9d9d9;
+    border-radius:360%!important;
+    padding: 25px;
+    margin-bottom:60px;
+}
+
+.margin-styling{
+   margin-bottom:50px;
+   height:200px;
+}
+
+.cross-img{
+  width:30px;
+  height:30px;
+}
+
+.w-90-lg{
+  width: 90%;
+}
+
+.img-size{
+  height:16px;
+  width:17px;
+}
+
+@media only  screen and (min-width:280px) and (max-width:424px){
+  .margin-amnet{
+    margin-top: 14rem;
+  }
+
+  .w-90-lg{
+    width: 100%;
+  }
+
+  .border-circle-grey{
+    background-color: #d9d9d9;
+    border-radius:360%!important;
+    padding: 15px;
+    margin-right:4px;
+    margin-bottom:60px;
+}
+
+}
+
+@media only screen and (min-width:424px) and (max-width:767px){
+  .border-circle-grey{
+    background-color: #d9d9d9;
+    border-radius:360%!important;
+    padding: 15px;
+    margin-right:6px;
+    margin-bottom:60px;
+}
 }

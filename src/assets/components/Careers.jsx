@@ -1,16 +1,30 @@
 import React from "react";
 import { Link } from "react-scroll";
 import { NavLink } from "react-router-dom";
-import CareerBG from "../images/careers-page/careers-bg.jpg";
+import CareerBG from "../images/careers-page/Careerhome.png";
 import CareersDetails from "./Careers/CareersDetails";
 import OurCulture from "./Careers/OurCulture";
-import WeValueInnovation from "./Careers/WeValueInnovation";
+import Whyamnetdigital from "./Careers/Whyamnetdigital";
 import JobLists from "./Careers/JobLists";
 import EmployeesSay from "./Careers/EmployeesSay";
+import CoreValues from "./Careers/Corevalues";
+import Encourageopportunities from "./Careers/Encourageopportunities";
+import CurrentOpenings from "./Careers/CurrentOpenings";
+import Ourcorevalues from "./Careers/Ourcorevalues";
+import Amnetfamily from "./Careers/AmnetFamily";
+import { Helmet } from "react-helmet";
 
 function TestCareers() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Data, Analytics & AI solutions | Amnet Digital Careers</title>
+        <meta name="description" content="Amnet Digital opens doors for  professional growth, where your skills are developed and tested in exciting ways. 
+Search jobs best suited for you. Apply today!
+" />
+        <meta name="keywords" content="Amnet Digital careers." />
+      </Helmet>
       <div
         className="sub-service-intro container-fluid"
         style={{
@@ -22,73 +36,67 @@ function TestCareers() {
       >
         <div className="w-90 mx-auto">
           <div className="row">
-            <div className="col-lg-5 col-md-10 col-sm-12 new-subService-AIML-intro-caption">
+            <div className="col-lg-6 col-md-12 col-sm-12 new-subService-AIML-intro-caption">
               <h2 className="textAnimation" data-text="Create Your Future!">
-                Create Your Future
+                Explore A World Of Opportunities
               </h2>
-              <p>
-                We are on a mission to solve world’s toughest problems. Come
-                join the fastest growing company in the region working in the
-                hottest technology sector.
+              <p className="pt-4">
+                We believe in creating a diversified culture of the best talent for tech innovation,
+                which reflects in everything we do with heart and mind.
               </p>
-
-              <div className="subService-AIML-intro-btn">
-                {/* <a href="/casestudies">
-                                    <button type="button" className="btn btn-default">View Details</button>
-                                </a> */}
-                <Link
-                  activeClass="active"
-                  to="details"
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
-                  duration={500}
-                >
-                  <button
-                    type="button"
-                    className="btn btn-default sub-service-view-details-btn"
-                  >
-                    Learn more
-                  </button>
-                </Link>
-                <NavLink to="/contactus">
-                  <button
-                    type="button"
-                    className="btn btn-default sub-service-contact-us-btn"
-                  >
-                    Contact Us
-                  </button>
-                </NavLink>
-              </div>
+              <p>
+                Join us to find the purpose and help change the world!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="w-90 mx-auto">
+          <div className="row">
+            <div className="col-lg-6 col-md-10 col-sm-12 bottom-img-career">
+              <p className="fs-24 fw-bold-600 text-white pt-4 pt-md-5">Careers</p>
             </div>
           </div>
         </div>
       </div>
 
-      {/* New Case Studies QUOTE SECTION */}
-      <div className="homepage-quote homepage-news-text">
-        <h2 className="text-center">
-          "We are a fast growing AI/ML based Product Development Company"
-        </h2>
-      </div>
 
-      {/* <!-- CAREER-PAGE-DETAILS-SECTION --> */}
-      <CareersDetails />
+      {/* <!-- Whyamnetdigital--> */}
+      <Whyamnetdigital />
+
+      {/* {---CoreValue---} */}
+      <CoreValues />
+
+      {/* ----EncourageOpportunities--- */}
+      <Encourageopportunities />
+
+      {/* ---CurrentOpenings--- */}
+      <CurrentOpenings />
 
       {/* <!-- CAREER-PAGE-OUR-CULTURE --> */}
       <OurCulture />
 
-      {/* <!-- WE VALUE INNOVATION --> */}
-      <WeValueInnovation />
+      {/* -----Ourcorevalues----- */}
+      <Ourcorevalues />
+
+      {/* {----Amnetfamily-----} */}
+      <Amnetfamily />
+
+      {/* <!-- CAREER-PAGE-DETAILS-SECTION --> */}
+      {/* <CareersDetails /> */}
+
+
+
+
+
 
       {/* <!-- JOB DESCRIPTIONS --> */}
-      <JobLists />
+      {/* <JobLists /> */}
 
       <EmployeesSay />
 
       {/* NEW HOMEPAGE CAREER SECTION */}
 
-      <div
+      {/* <div
         className="new-career-section"
         style={{
           width: "auto",
@@ -128,7 +136,7 @@ function TestCareers() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

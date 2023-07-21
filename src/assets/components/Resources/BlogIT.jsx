@@ -1,6 +1,7 @@
 import React from "react";
 import blog4 from "../../images/Resources-page/blog4.png";
 import BlogITdata from "../../Data/Resources-Data/BlogITdata";
+import { Helmet } from "react-helmet";
 import { useNavigate } from "react-router-dom";
 // import "../../CSS/Insight.css";
 import Letsgetstart from "../Webinars/Letsgetstart";
@@ -14,15 +15,22 @@ const BlogIT = () => {
   };
 
   const navigateTothankspage = () => {
-    history(`/blog/webinar-reshaping-the-retail-industry-through-AI`);
+    history(`/webinars/reshaping-the-retail-industry-through-AI`);
   };
   return (
     <>
+     <Helmet>
+        <meta charSet="utf-8" />
+        <title>Learn How AIOps fits in the Modern IT Environment | Amnet Digital</title>
+        <meta name="description" content="Discover how AIOps, the cutting-edge technology that combines artificial intelligence and operations, seamlessly integrates 
+         into the modern IT environment." />
+        <meta name="keywords" content="" />
+      </Helmet>
       <div className="contact-us-intro container-fluid"></div>
       <div className="container-fluid">
         <div className="center">
-          <div className="new-home-about-details row ml-0 mr-0">
-            <div className="col-12 pl-0 pr-0">
+          <div className="new-home-about-details row ml-0 mr-0 above-spacings">
+            <div className="col-12 pl-0 pr-0 mb-5">
               <h1>
                 Why do we need AIOps and where does it fit with the modern IT
                 environment?
@@ -92,7 +100,7 @@ const BlogIT = () => {
                           <div style={btnColor} className="mt-5">
                             <a
                               className="anchor_styles achorhover"
-                              href={`/blog/webinar-reshaping-the-retail-industry-through-AI`}
+                              href={`/webinars/reshaping-the-retail-industry-through-AI`}
                             >
                               <p className="mb-0 px-4 py-3">
                                 <span className="lh-1 fs-18">

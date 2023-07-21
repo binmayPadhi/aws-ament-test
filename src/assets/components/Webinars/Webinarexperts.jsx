@@ -8,7 +8,7 @@ const Webinarexperts = () => {
   return (
     <>
       <div className="learn-img pb-3">
-        <div className="container clear">
+        <div className="container ">
           <div className="learn-title">
             <p>Learn from Industry Experts</p>
           </div>

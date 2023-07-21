@@ -322,7 +322,7 @@ ul {
   font-weight: 600;
   font-size: 48px;
   line-height: 60px;
-  text-align: center;
+  text-align: center!important;
   color: #ffffff;
   margin: auto;
   padding-top: 50px;

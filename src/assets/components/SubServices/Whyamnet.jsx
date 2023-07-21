@@ -1,8 +1,8 @@
 import React from "react";
-import image1 from "../../images/Service-Page/bar.png";
-import image2 from "../../images/Service-Page/plane.png";
-import image3 from "../../images/Service-Page/hand.png";
-import image4 from "../../images/Service-Page/smile.png";
+import image1 from "../../images/Service-Page/bar.svg";
+import image2 from "../../images/Service-Page/plane.svg";
+import image3 from "../../images/Service-Page/hand.svg";
+import image4 from "../../images/Service-Page/smile.svg";
 
 const Whyamnet = () => {
   return (
@@ -13,10 +13,10 @@ const Whyamnet = () => {
           Amnet Digital?
         </div>
       </div>
-      <div className="col-md-6 col-lg-7 col-xs-12 col-sm-12 mt-15">
+      <div className="col-md-6 col-lg-7 col-xs-12 col-sm-12  mt-15">
         <div className="w-100 d-flex text-left">
           <span>
-            <img src={image1} />
+            <img src={image1} className="w-100" />
           </span>
           <span>
             <p className="heading_why pl-4 mb-0">Proven track record</p>
@@ -38,12 +38,12 @@ const Whyamnet = () => {
             </p>
           </span>
           <span>
-            <img src={image2} />
+            <img src={image2} className="w-100"/>
           </span>
         </div>
         <div className="w-100 d-flex text-left">
           <span>
-            <img src={image3} />
+            <img src={image3} className="w-100"/>
           </span>
           <span>
             <p className="heading_why pl-4 mb-0">Awesome talent</p>
@@ -66,7 +66,7 @@ const Whyamnet = () => {
             </p>
           </span>
           <span>
-            <img src={image4} />
+            <img src={image4} className="w-100"/>
           </span>
         </div>
       </div>

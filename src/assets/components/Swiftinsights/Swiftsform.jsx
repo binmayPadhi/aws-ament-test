@@ -72,7 +72,7 @@ const Swiftinsightsform = (props) => {
             acceptCheckbox: false,
           }),
           history(
-            `/blog/webinar-thank-you-reshaping-the-retail-industry-through-AI`
+            `/webinars/thank-you-reshaping-the-retail-industry-through-AI`
           ),
           (error) => {
             console.log(error.text);

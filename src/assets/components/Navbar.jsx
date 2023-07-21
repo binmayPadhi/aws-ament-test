@@ -10,26 +10,21 @@ import { useState } from "react";
 import { useLayoutEffect } from "react";
 
 function Navbar(props) {
-  window.onload = () => {
-    if (window.innerWidth < 760) {
-      document.getElementById("navbar").onclick();
-    }
-  };
-  const url = window.location.pathname;
+    const url = window.location.pathname;
   const [color, setNavcolor] = useState("homepage");
   const changebackgroundcolor = () => {
     if (
       url === "/legalresources" ||
       url ===
-        "/blog/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" ||
+        "/blogs/seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" ||
+        url === 
+        "/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" ||
       url === "/cookiespolicy" ||
-      url === "/blog/Insighthome" ||
       url === "/Privacypolicy" ||
       url === "/termsandconditions" ||
-      url === "/blog" ||
-      url === "/blog/blog-AI-retail-industry" ||
-      url === "/blog/blog-AIops-retail-industry" ||
-      url === "/blog/AI-for-IT-operations"
+      url === "/blogs/AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations" ||
+      url === "/blogs/What-is-AIOps-and-explore-how-it-is-revolutionizing-the-retail-industry-by-solving-complex-challenges" ||
+      url === "/blogs/Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment"
     ) {
       setNavcolor("app");
     } else {
@@ -209,6 +204,7 @@ function Navbar(props) {
               <ul className="navbar-nav">
                 {/*--For Mobile Navigation--*/}
                 <div className="service-dropdown-menu" style={navStyle}>
+                  
                   <NavLink
                     to="/aboutus"
                     onClick={() => (window.location.href = "/aboutus")}
@@ -270,9 +266,19 @@ function Navbar(props) {
                         <h1 className="fs-13 fw-bold-400 text-new">
                           What's New
                         </h1>
-                        <h1 className="fs-13 fw-bold-500 text-underline text-black">
+                        {/* <a className="fs-13 fw-bold-500 text-underline text-black cr-pointer"
+                        href="/services/intelligent-document-processing">
+                          INTELLIGENT DOCUMENT PROCESSING
+                        </a>
+                        <p className="fs-13 fw-bold-400 text-digital">
+                          Extract and structure data from complex documents automatically
+                        </p>
+                        <hr className="hr-line" /> */}
+                        <a className="fs-13 fw-bold-500 text-underline text-black cr-pointer" 
+                        href={`/services/${`dataengineering`}/${`data-transformations`}`}>
                           DIGITAL TRANSFORMATION
-                        </h1>
+                        </a>
+                        
                         <p className="fs-13 fw-bold-400 text-digital">
                           Digital Transformation through proprietary
                           accelerators
@@ -308,7 +314,14 @@ function Navbar(props) {
                         <div className="row">
                           <div className="col-lg-4">
                             <p className="service-aiml mt-5 pt-1">
-                              <a href={`/services/aiml`}>AI & ML</a>
+                            <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/aiml`)
+                                }
+                                className="cr-pointer"
+                              >
+                                AI & ML
+                              </span>
                             </p>
                             <p
                               className="sub-service-links"
@@ -803,7 +816,14 @@ function Navbar(props) {
                     >
                       Data Annotation
                     </NavLink>
-                  </div>
+                    {/* <NavLink
+                      className="dropdown-item sub-service-dropdown-item"
+                      to={`/services/intelligent-document-processing`}
+                      onClick={closeNavpopup}
+                    >
+                     Intelligent Document Processing
+                    </NavLink> */}
+                                     </div>
                 </div>
 
                 {/* INDUSTRIES DROPDOWN SECTION */}
@@ -881,8 +901,8 @@ function Navbar(props) {
                   style={navStyle}
                 >
                   <NavLink
-                    to="/blog"
-                    onClick={() => (window.location.href = "/blog")}
+                    to="/blogs"
+                    onClick={() => (window.location.href = "/blogs")}
                     style={navStyle}
                     className={color === "app" ? "text-black" : "text-white"}
                   >
@@ -899,8 +919,16 @@ function Navbar(props) {
                         <h1 className="fs-13 fw-bold-400 text-new">
                           What's New
                         </h1>
+                        {/* <a className="fs-13 fw-bold-500 text-underline text-black cr-pointer"
+                        href="/services/intelligent-document-processing">
+                          INTELLIGENT DOCUMENT PROCESSING
+                        </a>
+                        <p className="fs-13 fw-bold-400 text-digital">
+                          Extract and structure data from complex documents automatically
+                        </p>
+                        <hr className="hr-line" /> */}
                         <h1 className="fs-13 fw-bold-500 text-underline text-black">
-                          AI in Retail Industry
+                          AI IN RETAIL INDUSTRY
                         </h1>
                         <p className="fs-13 fw-bold-400 text-digital">
                           AI can be used to process and analyze vast amounts of
@@ -915,30 +943,30 @@ function Navbar(props) {
                             <p className="service-aiml mt-5">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/blog/Insighthome`)
+                                  serviceTo(e, `/blogs`)
                                 }
                                 className="cr-pointer"
                               >
                                 Blog
                               </span>
                             </p>
-                            {/* <p className="fs-13 fw-bold-400 text-digital mt-2">
+                            <p className="fs-13 fw-bold-400 text-digital mt-2">
                               Seven Significant ways Artificial Intelligence (AI
                               ) is Impacting the Retail Industry
-                            </p> */}
-                            {/* <p className="sub-service-links dropdown-view-all-link ">
+                            </p>
+                            <p className="sub-service-links dropdown-view-all-link ">
                               <span
                                 onClick={(e) =>
                                   serviceTo(
                                     e,
-                                    `/blog/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry`
+                                    `/blogs/seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry`
                                   )
                                 }
                               >
                                 {`Read the full blog >`}
                               </span>
-                            </p> */}
-                            {/* <p className="fs-13 fw-bold-400 text-digital mt-2">
+                            </p>
+                            <p className="fs-13 fw-bold-400 text-digital mt-2">
                               AI for Retail - Discover how AI can revolutionize
                               the retail industry and help businesses increase
                               sales, improve customer experience, and optimize
@@ -947,19 +975,29 @@ function Navbar(props) {
                             <p className="sub-service-links dropdown-view-all-link ">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/blog/blog-AI-retail-industry`)
+                                  serviceTo(e, `/blogs/AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations`)
                                 }
                               >
                                 {`Read the full blog >`}
                               </span>
-                            </p> */}
-
+                            </p>
+                            <p className="sub-service-links dropdown-view-all-link ">
+                            <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/blogs`)
+                                }
+                              >
+                                {`see more >`}
+                              </span>
+                            </p>
+                        </div>
+                        <div className="col-lg-4">
                             <p className="service-aiml mt-5">
                               <span
                                 onClick={(e) =>
                                   serviceTo(
                                     e,
-                                    `/blog/webinar-reshaping-the-retail-industry-through-AI`
+                                    `/webinars/reshaping-the-retail-industry-through-AI`
                                   )
                                 }
                                 className="cr-pointer"
@@ -976,7 +1014,7 @@ function Navbar(props) {
                                 onClick={(e) =>
                                   serviceTo(
                                     e,
-                                    `/blog/webinar-reshaping-the-retail-industry-through-AI`
+                                    `/webinars/reshaping-the-retail-industry-through-AI`
                                   )
                                 }
                               >
@@ -1002,7 +1040,7 @@ function Navbar(props) {
                     aria-expanded="false"
                   >
                     <NavLink
-                      to="/blog"
+                      to="/blogs"
                       style={navStyle}
                       onClick={closeNavpopup}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
@@ -1017,9 +1055,16 @@ function Navbar(props) {
                     className="dropdown-menu"
                     aria-labelledby="dropdownMenuButton"
                   >
+                    {/* <NavLink
+                      className="dropdown-item sub-service-dropdown-item"
+                      to={`/services/intelligent-document-processing`}
+                      onClick={closeNavpopup}
+                    >
+                     Intelligent Document Processing
+                    </NavLink> */}
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/blog/Insighthome`}
+                      to={`/blogs`}
                       onClick={closeNavpopup}
                     >
                       Blogs
@@ -1028,7 +1073,7 @@ function Navbar(props) {
                       className="dropdown-item sub-service-dropdown-item"
                       target={"_blank"}
                       onClick={closeNavpopup}
-                      to={`/blog/webinar-reshaping-the-retail-industry-through-AI`}
+                      to={`/webinars/reshaping-the-retail-industry-through-AI`}
                     >
                       Webinars
                     </NavLink>

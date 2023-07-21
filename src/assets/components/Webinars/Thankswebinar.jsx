@@ -6,6 +6,7 @@ import Webinarfooter from "./Webinarfooter";
 import "../../CSS/webinar.css";
 import { useState, useEffect } from "react";
 import Letsgetstart from "./Letsgetstart";
+import { Helmet } from "react-helmet";
 
 const Thankswebinar = () => {
   const [width, setWidth] = useState(window.innerWidth);
@@ -25,6 +26,13 @@ const Thankswebinar = () => {
   };
   return (
     <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>Reshaping the Retail Industry through Advanced Analytics and AI</title>
+        <meta name="description" content="The Retail industry is experiencing unprecedented change driven by consumer needs and demands 
+enabled by technology. Watch the on-demand webinar now!" />
+        <meta name="keywords" content="AI for retail webinar, advanced analytics for retail business" />
+      </Helmet>
       <Headercontent componentfrom={componentName} />
       <div className="center-90">
         <div

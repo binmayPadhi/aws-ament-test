@@ -5,16 +5,19 @@ import thinborder from "../../images/Service-Page/thin-border.png";
 import borderBg from "../../images/Service-Page/border.png";
 import "../../CSS/Services.css";
 import CaseStudiesSection from "../Homepage/CaseStudiesSection";
+import { Helmet } from "react-helmet";
 
 const Viewsubservice = () => {
   const params = useParams();
   const [serviceData, setServiceData] = useState({});
+  const [metaObj, setMetaob] = useState({});
   const [listlabel, setList] = useState([]);
   const [selectedServices, setSelectedservice] = useState("");
   const [selectedServicesobj, setSelectedserviceobj] = useState({});
   const history = useNavigate();
   useEffect(() => {
     services.map((res) => {
+      console.log(res.serviceName);
       if (res.serviceName === params.name) {
         setServiceData(res);
         let x = Object.values(res.sub);
@@ -41,7 +44,7 @@ const Viewsubservice = () => {
   return (
     <>
       <div
-        className="sub-service-intro position-relative"
+        className="sub-service-intro-only-services position-relative"
         style={{
           backgroundImage: `url(${serviceData.serviceImg})`,
           backgroundAttachment: "scroll",
@@ -70,7 +73,7 @@ const Viewsubservice = () => {
               </div>
             </div>
           </div>
-          <div className="bottom-img w-100">
+          <div className="bottom-img-services w-100">
             <div className="row">
               <div className="w-90 mx-auto">
                 <div className="col-lg-1 col-md-1 col-sm-12"></div>
