@@ -32,8 +32,7 @@ const Insighthome = () => {
         <meta charSet="utf-8" />
         <title>Insights Blog - What we think | Amnet Digital </title>
         <meta name="description" content="Read the Amnet Digital Insights blog where we address the most challenging issues in an effort to create a better workplace. 
-Discover our most recent ideas.
-" />
+          Discover our most recent ideas." />
         <meta name="keywords" content="Amnet Digital Insights." />
       </Helmet>
       <div className="bg-insights mb-0">
@@ -55,7 +54,6 @@ Discover our most recent ideas.
             </div>
           </div>
         </div>
-
         <>
           {/* <!--CASE STUDIES SECTION--> */}
           <div className="row w-90 mx-auto new-case-studies-row above-spacings">

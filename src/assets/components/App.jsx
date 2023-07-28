@@ -32,7 +32,7 @@ import RedirectWebinar from "./RedirectWebinar";
 import RedirectanotherWebinar from "./Redirectanotherwebinar";
 import Redirectways from "./Redirectways";
 import { Helmet } from "react-helmet";
-import IDP from "./IDP";
+import ScaleAI from "./Resources/ScaleAI";
 
 
 function App() {
@@ -58,7 +58,6 @@ function App() {
             <Route path="" element={<Services />} />
             <Route path=":name" element={<AIservices />} />
             <Route path=":name/:service" element={<Viewsubservice />} />
-            <Route path="/services/intelligent-document-processing" element={<IDP />} />
             {/* <Route path=":name/:service" element={<Viewsubservicestart />} /> */}
           </Route>
           <Route path="/careers" element={<CareerHome />}>
@@ -85,6 +84,11 @@ function App() {
               exact
               path="AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations"
               element={<InsightAI />}
+            />
+            <Route
+              exact
+              path="how-to-scale-ai-in-retail-industry-with-data-management"
+              element={<ScaleAI />}
             />
             <Route
               exact

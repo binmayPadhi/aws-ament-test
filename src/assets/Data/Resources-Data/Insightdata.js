@@ -2,6 +2,7 @@ import blog1 from "../../images/Resources-page/blog1.png";
 import blog2 from "../../images/Resources-page/blog2.png";
 import blog3 from "../../images/Resources-page/blog3.png";
 import blog4 from "../../images/Resources-page/blog4.png";
+import blog5 from "../../images/Resources-page/blog5.jpg";
 
 const Insightdata = {
   carddetails: [
@@ -41,6 +42,13 @@ const Insightdata = {
         "We need AIOps (Artificial Intelligence for IT Operations) because modern IT environments have become increasingly complex and difficult to manage...",
       image: blog4,
     },
+    {
+      id:"how-to-scale-ai-in-retail-industry-with-data-management",
+      date:"May 10, 2023",
+      title:"How to Scale AI in the Retail Industry with Advanced Data Management Strategies",
+      description:"The retail industry has witnessed a transformative shift worldwide, with the integration of cutting-edge technologies like AI, Data, & Analytics and sales best",
+      image: blog5,
+    }
   ],
   ResourceData: [
     {

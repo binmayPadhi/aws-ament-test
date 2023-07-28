@@ -19,6 +19,7 @@ const Viewsubservice = () => {
     services.map((res) => {
       console.log(res.serviceName);
       if (res.serviceName === params.name) {
+       
         setServiceData(res);
         let x = Object.values(res.sub);
         setList(x[0]);
@@ -43,14 +44,9 @@ const Viewsubservice = () => {
   };
   return (
     <>
-    <Helmet>
-        <meta charSet="utf-8" />
-        <title>{`${serviceData.metaname}`} </title>   
-        <meta name="description" content={`${serviceData.metadescription}`} />
-        <meta name="keywords" content="" />
-      </Helmet>
+     
       <div
-        className="sub-service-intro-only-services position-relative"
+        className="sub-service-intro position-relative"
         style={{
           backgroundImage: `url(${serviceData.serviceImg})`,
           backgroundAttachment: "scroll",

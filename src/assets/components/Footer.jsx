@@ -19,6 +19,9 @@ import star from "../images/HomePage/star.png";
 import send from "../images/HomePage/Sendicon.png";
 import cross from "../images/HomePage/close-icon.png";
 import { useLocation } from "react-router-dom";
+import ISO from "../images/Service-Page/iso.svg";
+import Equalitas from "../images/Service-Page/equalitas.svg";
+
 
 function Footer() {
   const emailDetails = useRef();
@@ -114,12 +117,6 @@ function Footer() {
           link: "/services/cloudservices",
           target: "_balnk",
         },
-        // {
-        //   id:36,
-        //   name:"IDP Solutions",
-        //   link:"/services/intelligent-document-processing",
-        //   target:"_blank",
-        // },
         {
           id: 36,
           name: "User Experience",
@@ -351,6 +348,10 @@ function Footer() {
                 </p>
               );
             })}
+            <div className="col-lg-5">
+            <img className="img-iso" src={ISO}  />
+            <img className="img-iso1" src={Equalitas}  />
+            </div>
             <div className="col-sm-12 col-xs-12"></div>
           </p>
         </div>
