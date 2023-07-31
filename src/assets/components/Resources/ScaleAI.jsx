@@ -54,7 +54,7 @@ const ScaleAI = () => {
                       <p className="fs-19  mt-5">
                         {list.description}{" "}
                         <span>
-                          <a className="fs-18" href={list.link}>
+                          <a className="fs-18" target="_blank" href={list.link}>
                             {list.des}
                           </a>
                         </span>
