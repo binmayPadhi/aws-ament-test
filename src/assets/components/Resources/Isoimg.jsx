@@ -1,7 +1,7 @@
 import React from "react";
 import ISO from "../../images/Service-Page/ISOpage/ISOpage1024_1.jpg";
 import EQUALITAS from "../../images/Service-Page/Equalitas/Equalitas1024_1.jpg";
-import AboutUsBG from "../../images/About-Us-Page/worker-reading-news-with-tablet.png";
+import AboutUsBG from "../../images/Resources-page/certific.png";
 import { Link } from "react-router-dom";
 import pngim from "../../images/Resources-page/ISOpage.pdf";
 import { Helmet } from "react-helmet";
@@ -16,18 +16,21 @@ const Isoimg = () =>{
           <>
            <Helmet>
         <meta charSet="utf-8" />
-        <title>Registration Certificates | ISO  </title>
-        <meta name="description" content="" />
+        <title>ISO 27001:2013 | ISO/IEC 27001:2013 - Amnet Digital </title>
+        <meta name="title" content="ISO 27001:2013 | ISO/IEC 27001:2013 - Amnet Digital" />
+        <meta name="description" content="ISO 27001:2013 | ISO/IEC Information security Management Systems 27001:2013" />
         <meta name="keywords" content="" />
       </Helmet>
           <div
-        className="sub-service-intro position-realtive"
+        className="position-realtive"
         style={{
           backgroundImage: `url(${AboutUsBG})`,
           backgroundAttachment: "scroll",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           width: "100%",
+          height:"600px"
+         
         }}
       >
         {/* <div className="fs-35 text-white position-absolute top-0">

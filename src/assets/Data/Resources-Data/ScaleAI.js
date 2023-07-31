@@ -1,4 +1,3 @@
-
 const ScaleData = [
     {
         id:1,
