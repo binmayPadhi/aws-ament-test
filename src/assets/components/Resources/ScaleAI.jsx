@@ -17,7 +17,9 @@ const ScaleAI = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Scaling AI in the retail industry with data management strategies | Amnet Digital</title>
+        <title> Scaling AI in the Retail Industry with Data Management - Amnet Digital</title>
+        <meta name="title" content="Scaling AI in the retail industry with data management strategies | Amnet Digital
+" />
         <meta name="description" content="The impact of AI on the retail industry is immense if leveraged strategically. Learn how data management can help retailers scale AI toward profitable business growth." />
         <meta name="keywords" content="AI in the retail industry, AI for the retail industry, data management strategies, data management strategy for retail sector, impact of AI on the retail" />
       </Helmet>
@@ -57,6 +59,7 @@ const ScaleAI = () => {
                           <a className="fs-18" target="_blank" href={list.link}>
                             {list.des}
                           </a>
+                         
                         </span>
                         <span className="fs-19">{list.textelement}</span>
                       </p>

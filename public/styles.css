@@ -6617,13 +6617,24 @@ color: #FFFFFF;
   margin-top:50px;
 }
 
-@media only screen and (min-width:767px) and (max-width:1059px){
+@media only screen and (min-width:1059px) and (max-width:1500px){
   .spacing-first{
-    margin-top:40px;
+    margin-top:70px;
+    
   }
   .spacing-icosn{
-    margin-top:10px;
+    margin-top:70px;
   }
+}
+
+@media only screen and (min-width:760px) and (max-width:1058px){
+  .spacing-first{
+    margin-top:70px;
+  }
+  .spacing-icosn{
+    margin-top:0px;
+  }
+
 }
 
 .certificates-spacing{
