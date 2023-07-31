@@ -33,6 +33,7 @@ import RedirectanotherWebinar from "./Redirectanotherwebinar";
 import Redirectways from "./Redirectways";
 import { Helmet } from "react-helmet";
 import ScaleAI from "./Resources/ScaleAI";
+import Isoimg from "./Resources/Isoimg";
 
 
 function App() {
@@ -54,8 +55,14 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/aboutus" element={<AboutUs />} />
+          <Route
+              exact
+              path="/odc-and-iso-recognized-certification"
+              element={<Isoimg />}
+            />
           <Route path="/services" element={<OurServices />}>
             <Route path="" element={<Services />} />
+
             <Route path=":name" element={<AIservices />} />
             <Route path=":name/:service" element={<Viewsubservice />} />
             {/* <Route path=":name/:service" element={<Viewsubservicestart />} /> */}
@@ -95,6 +102,7 @@ function App() {
               path="swiftinisghts-Webinar"
               element={<SwiftInisghtsWebinar />}
             />
+             
             
             <Route
               path="webinar-thank-you-reshaping-the-retail-industry-through-AI"

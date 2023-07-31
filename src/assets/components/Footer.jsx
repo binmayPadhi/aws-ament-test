@@ -19,8 +19,9 @@ import star from "../images/HomePage/star.png";
 import send from "../images/HomePage/Sendicon.png";
 import cross from "../images/HomePage/close-icon.png";
 import { useLocation } from "react-router-dom";
-import ISO from "../images/Service-Page/iso.svg";
-import Equalitas from "../images/Service-Page/equalitas.svg";
+import ISO from "../images/Resources-page/iso1.png";
+import Equalitas from "../images/Resources-page/equalitas1.png";
+
 
 
 function Footer() {
@@ -43,16 +44,18 @@ function Footer() {
           link: "/careers",
           target: "_balnk",
         },
-        // {
-        //   id: "13",
-        //   name: "",
-        //   link: "",
-        //   target: "_balnk",
-        // },
+        {
+          id: "13",
+          name: "",
+          link: "/odc-and-iso-recognized-certification",
+          target: "_balnk",
+          image:ISO,
+          image1:Equalitas,
+        },
         // {
         //   id: "14",
         //   name: "",
-        //   link: "",
+        //   link: "/contactus",
         //   target: "_balnk",
         // },
       ],
@@ -201,12 +204,14 @@ function Footer() {
           link: "/casestudies",
           target: "_balnk",
         },
-        // {
-        //   id: 54,
-        //   name: "",
-        //   link: "",
-        //   target: "_balnk",
-        // },
+        {
+          id: "54",
+          name: "",
+          link: "/odc-and-iso-recognized-certification",
+          target: "_balnk",
+          certifiedimage:ISO,
+          certifiedimage1:Equalitas,
+        },
       ],
     },
   ];
@@ -335,11 +340,20 @@ function Footer() {
                           <Link
                             to={val.link}
                             target={
-                              val.id !== 21 && val.id !== 52 ? "" : "_blank"
+                              val.id !== 21 && val.id !== 52  ? "" : "_blank"
                             }
                             className="desName cr-pointer text-decoration-none fs-13 text-black"
                           >
-                            {val.name}
+                            <MediaQuery minWidth={760} >
+                            {val.hasOwnProperty('image') === true ? 
+                           <span><a href={val.id}><img className="spacing-first" src={val.image}/></a> <a href={val.id}><img className="spacing-icosn" src={val.image1}/></a></span>: val.name
+                          }
+                            </MediaQuery>
+                            <MediaQuery minWidth={320} maxWidth={759}>
+                            {val.hasOwnProperty('certifiedimage') === true ? 
+                            <a href={val.id}><span> <img className="spacing-icosn" src={val.certifiedimage}/> <img className="spacing-icosn" src={val.certifiedimage1}/></span></a> : val.name
+                          }
+                            </MediaQuery>      
                           </Link>
                         </li>
                       );
@@ -348,10 +362,19 @@ function Footer() {
                 </p>
               );
             })}
-            <div className="col-lg-5">
-            <img className="img-iso" src={ISO}  />
-            <img className="img-iso1" src={Equalitas}  />
-            </div>
+            {/* <div className="col-lg-5">
+              <Link
+                to=""
+                onClick={(event) => { event.preventDefault(); window.open("ISOpage.pdf"); }}>
+                <img className="img-iso" src={ISO} />
+              </Link>
+              <Link
+                to=""
+                onClick={(event) => { event.preventDefault(); window.open("ISOpage.pdf"); }}>
+               <img className="img-iso1" src={Equalitas} />
+              </Link>
+              
+            </div> */}
             <div className="col-sm-12 col-xs-12"></div>
           </p>
         </div>

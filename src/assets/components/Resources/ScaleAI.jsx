@@ -36,22 +36,22 @@ const ScaleAI = () => {
             <div className="col-12 about-us-details p-0">
               <img
                 loading="lazy"
-                className="img-fluid "
+                className="img-fluid p-0"
                 src={blog5}
                 alt="blog"
               />
             </div>
           </div>
 
-          <div className="about-us-page-details justification">
+          <div className=" justification">
             <div className="row  ml-0 mr-0">
               {Scale.map((list) => {
                 return (
-                  <div className="col-12 about-us-details p-0" key={list.id}>
-                    <div className="about-us-desc-blog">
-                      <h2>{list.title}</h2>
-                      <h1>{list.subtitle}</h1>
-                      <p className="fs-19  mt-3">
+                  <div className="col-12  p-0" key={list.id}>
+                    <div className="">
+                      <p className="fs-24 fw-bold-800">{list.titlekey}</p>
+                      <h1 className="fw-bold-600 ">{list.subtitle}</h1>
+                      <p className="fs-19  mt-5">
                         {list.description}{" "}
                         <span>
                           <a className="fs-18" href={list.link}>
@@ -60,20 +60,20 @@ const ScaleAI = () => {
                         </span>
                         <span className="fs-19">{list.textelement}</span>
                       </p>
-                      <p className="fs-19  mt-3">
+                      <p className="fs-19 p-0 m-0">
                         {list.description1}{" "}
                         <span className="fs-18 fw-bold-800">
                             {list.boldtext}
                         </span>
                         <span className="fs-19">{list.description2}</span>
                       </p>
-                      <p className="fs-16 fw-bold-700 mt-4">
-                        {list.description3}
+                      <p className="fs-19  mt-4">
+                        {list.description12}
                       </p>
-                      <p className="fs-16 fw-bold-700 mt-4">
+                      <p className="fs-19 ">
                         {list.description4}
                       </p>
-                      <p className="fs-19 fw-bold-800 mt-3">
+                      <p className="fs-19 fw-bold-800">
                       <span className="fs-19 fw-bold-800">
                         {list.textbold}{" "}
                         </span>
@@ -84,6 +84,7 @@ const ScaleAI = () => {
                         </span>
                         <span className="fs-19 fw-bold-800">{list.description10}</span>
                       </p>
+                      <p className="fs-19 ">{list.description11}</p>
                       {list.hasOwnProperty("orderedlist") === true ? (
                         <>
                           {
@@ -91,7 +92,7 @@ const ScaleAI = () => {
                               {list.orderedlist.map((response) => {
                                 return (
                                   <>
-                                    <li className="fs-19 fw-bold-800">
+                                    <li className="fs-19 pt-4 fw-bold-800 pb-3">
                                       {response.heading}
                                     </li>
                                     <p className="fs-19">{response.description}</p>
@@ -130,7 +131,7 @@ const ScaleAI = () => {
                         ""
                       )}
                       {list.hasOwnProperty("description2") === true ? (
-                        <p className="mb-0 pt-3 mx-auto fs-18 cr-pointer"></p>
+                        <p className="mb-0  mx-auto fs-18 cr-pointer"></p>
                       ) : (
                         ""
                       )}

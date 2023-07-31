@@ -18,6 +18,7 @@ import Letsconnect from "./AboutUs/Letsconnect";
 import MediaQuery from "react-responsive";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import Isoimg from "./Resources/Isoimg";
 
 
 
@@ -236,7 +237,7 @@ function TestAboutUs() {
         <Letsconnect />
       </div>
 
-
+     
 
     </>
   );
