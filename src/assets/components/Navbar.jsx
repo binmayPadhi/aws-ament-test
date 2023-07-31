@@ -26,6 +26,7 @@ function Navbar(props) {
       url === "/blogs/What-is-AIOps-and-explore-how-it-is-revolutionizing-the-retail-industry-by-solving-complex-challenges" ||
       url === "/blogs/Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment" ||
       url === "/blogs/how-to-scale-ai-in-retail-industry-with-data-management"
+     
     ) {
       setNavcolor("app");
     } else {
@@ -268,9 +269,10 @@ function Navbar(props) {
                         <h1 className="fs-13 fw-bold-400 text-new">
                           What's New
                         </h1>
-                        <h1 className="fs-13 fw-bold-500 text-underline text-black">
+                        <a  href={`/services/${`dataengineering`}/${`data-transformations`}`}
+                         className="fs-13 fw-bold-500 text-underline text-black">
                           DIGITAL TRANSFORMATION
-                        </h1>
+                        </a>
                         <p className="fs-13 fw-bold-400 text-digital">
                           Digital Transformation through proprietary
                           accelerators

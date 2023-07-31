@@ -28,18 +28,18 @@ const ScaleData = [
     },
     {
         id:5,
-        title:"Some key applications of AI in the retail industry include:",
+        titlekey:"Some key applications of AI in the retail industry include:",
         subtitle:"Inventory management",
         description:"AI enables retailers to accurately forecast demand, optimize inventory levels, and streamline supply chain operations by leveraging advanced algorithms and data analytics. With AI-powered solutions, retailers can track inventory in real-time, make data-driven decisions regarding stock replenishment, and ensure the right products are available at the right time.",
         description1:"Global retail giants are embracing AI-driven robots to patrol their shelves and identify missing items, products to restock, and price tags that need changes. On the AI-powered chatbots to help store visitors locate items and employees monitor the store stock.",
-        description3:"Furthermore, AI-led systems facilitate dynamic pricing and promotions, supplier collaboration, and continuous improvement through machine learning. Retailers can identify seasonal patterns and trends and adjust inventory levels and assortment strategies accordingly.",
+        description12:"Furthermore, AI-led systems facilitate dynamic pricing and promotions, supplier collaboration, and continuous improvement through machine learning. Retailers can identify seasonal patterns and trends and adjust inventory levels and assortment strategies accordingly.",
     },
     {
         id:6,
         subtitle:"Personalized marketing",
         description:"The impact of AI on the retail industry is immense in revolutionizing marketing strategies. It enables retailers to analyze large volumes of customer data and deliver highly targeted marketing campaigns.",
         description1:"Moreover, AI algorithms can process and understand customer preferences, purchase history, browsing behavior, and demographic information to segment customers into specific groups. Customer segmentation allows retailers to create personalized product recommendations, tailored promotions, and customized offers that resonate with individual buyers.",
-        description3:"For instance, leading grocery chains around the world are leveraging AI-powered applications assisting digital shoppers with recommending products based on their preferences and buying patterns. This AI solution notifies customers about their preferred items, price drops, discounts, or special offers, ensuring increased sales and improved customer experience.",
+        description12:"For instance, leading grocery chains around the world are leveraging AI-powered applications assisting digital shoppers with recommending products based on their preferences and buying patterns. This AI solution notifies customers about their preferred items, price drops, discounts, or special offers, ensuring increased sales and improved customer experience.",
         description4:"Additionally, AI-powered solutions help retailers to automate and optimize email marketing, social media targeting, and website personalization. It ensures omnichannel touchpoints to enhance customer satisfaction and loyalty and drive sales by delivering a seamless shopping experience.",
     },
     {
@@ -53,14 +53,14 @@ const ScaleData = [
         subtitle:"Supply chain management",
         description:"AI is pivotal in optimizing the supply chain by leveraging advanced algorithms and predictive analytics. Retailers can streamline supply chain operations and enhance overall efficiency with automation.",
         description1:"Custom AI solutions help e-commerce businesses to automate its warehouse operations. The AI-programmed robots assist humans to streamline operations, increase productivity, analyze sales data, forecast market demands, and reduce labor costs and ensure agile production processes to maintain its stock.",
-        description3:"Furthermore, AI can analyze sales forecasts, historical data, inventory levels, supplier performance, and market trends to help retailers predict the precise demand, procurement, production, and distribution processes.",
+        description12:"Furthermore, AI can analyze sales forecasts, historical data, inventory levels, supplier performance, and market trends to help retailers predict the precise demand, procurement, production, and distribution processes.",
         description4:"It also enables predictive maintenance, helping retailers identify potential equipment failures or maintenance needs, reducing downtime, and improving operational reliability.",
     },
     {
         id:9,
         subtitle:"How data management helps in scaling AI?",
         description:"Scaling AI in the retail market heavily relies on high-quality and well-organized data. Feeding AI algorithms with diverse, reliable, and meaningful data helps retailers predict their business processes.",
-        description1:"While data management is integral to scaling AI initiatives, let’s understand how it helps unlock the full potential of AI to drive innovation, efficiency, and success in a scalable manner:",
+        description11:"While data management is integral to scaling AI initiatives, let’s understand how it helps unlock the full potential of AI to drive innovation, efficiency, and success in a scalable manner:",
     },
     {
         id:10,
@@ -136,7 +136,7 @@ const ScaleData = [
         id:11,
         subtitle:"What is the future of AI in the retail industry?",
         description:"As AI algorithms become more sophisticated, retailers expect advancements in visual search, voice-enabled commerce, and predictive analytics to revamp personalized marketing, inventory management, supply chain optimization, and enhanced customer services.",
-        description3:"They look to leverage AI to enhance security measures, combat fraud, and provide seamless checkout experiences. Additionally, AI-driven chatbots and virtual assistants will empower retailers with deeper insights into customer behavior, hyper-personalized services, and targeted marketing strategies.",
+        description12:"They look to leverage AI to enhance security measures, combat fraud, and provide seamless checkout experiences. Additionally, AI-driven chatbots and virtual assistants will empower retailers with deeper insights into customer behavior, hyper-personalized services, and targeted marketing strategies.",
         description4:"However, in this dynamic landscape, retailers must also address ethical considerations, data privacy, and transparency in algorithm-based decision-making processes.",
 
     },
@@ -146,7 +146,7 @@ const ScaleData = [
         des:"Amnet Digital",
         link:"/",
         textelement:" nurtures highly AI experienced teams to power retail businesses toward procuring well-organized data, deploying AI-powered solutions to data analysis, and unlocking actionable insights to make well informed decisions.",
-        description3:"We believe leveraging intelligent AI technologies in a compliant fashion will drive retail industry growth, optimize operations, and deliver exceptional customer experiences in an increasingly digital world.",
+        description12:"We believe leveraging intelligent AI technologies in a compliant fashion will drive retail industry growth, optimize operations, and deliver exceptional customer experiences in an increasingly digital world.",
     },
     {
         id:13,

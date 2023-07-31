@@ -6593,9 +6593,44 @@ color: #FFFFFF;
   color:#c2c2c2;
 }
 
-.justification{
+/* .justification{
   text-align: justify;
   text-justify: inter-word;
+} */
+
+.certification-styling{
+  height:100%;
+  width:50vw;
+ 
 }
 
+.isoimg-styling{
+  height:100%;
+  width:50vw;
+}
+
+.spacing-icosn{
+  margin-top:50px;
+}
+
+.spacing-first{
+  margin-top:50px;
+}
+
+@media only screen and (min-width:767px) and (max-width:1059px){
+  .spacing-first{
+    margin-top:40px;
+  }
+  .spacing-icosn{
+    margin-top:10px;
+  }
+}
+
+.certificates-spacing{
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
