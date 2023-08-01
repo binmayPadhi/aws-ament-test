@@ -6617,7 +6617,7 @@ color: #FFFFFF;
   margin-top:50px;
 }
 
-@media only screen and (min-width:1059px) and (max-width:1500px){
+@media only screen and (min-width:1439px) and (max-width:1500px){
   .spacing-first{
     margin-top:70px;
     
@@ -6627,9 +6627,9 @@ color: #FFFFFF;
   }
 }
 
-@media only screen and (min-width:760px) and (max-width:1058px){
+@media only screen and (min-width:992px) {
   .spacing-first{
-    margin-top:70px;
+    margin-top:1.5rem;
   }
   .spacing-icosn{
     margin-top:0px;

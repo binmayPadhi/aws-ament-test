@@ -15,10 +15,10 @@ const ScaleData = [
     },
     {
         id:3,
-        description:"Let’s dive deeper into",
-        des:"how AI transforms the retail industry,",
+        description13:"Let’s dive deeper into",
+        descr:"how AI transforms the retail industry,",
         link:"/blogs/AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations",
-        textelement:" the importance of data management in scaling AI initiatives, and the key strategies retailers can adopt to thrive in this dynamic environment."
+        textel:" the importance of data management in scaling AI initiatives, and the key strategies retailers can adopt to thrive in this dynamic environment."
     },
     {
         id:4,
