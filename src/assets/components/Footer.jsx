@@ -44,7 +44,7 @@ function Footer() {
           link: "/careers",
           target: "_balnk",
         },
-        {
+                {
           id: "13",
           name: "",
           link: "/odc-and-iso-recognized-certification",
@@ -321,8 +321,8 @@ function Footer() {
             <div className="col-md-3 col-lg-3 col-sm-12"></div>
           </div>
         </div>
-        <div className=" mx-auto mb-5">
-          <p className="row center-70 mt-3 mb-3">
+        <div className="center-70 mx-auto mb-5">
+          <p className="row  mt-3 mb-3">
             <div className="col-sm-12 col-xs-12"></div>
             {footerlist.map((list) => {
               return (
@@ -346,7 +346,7 @@ function Footer() {
                           >
                             <MediaQuery minWidth={760} >
                             {val.hasOwnProperty('image') === true ? 
-                           <span><a href={val.id}><img className="spacing-first" src={val.image}/></a> <a href={val.id}><img className="spacing-icosn" src={val.image1}/></a></span>: val.name
+                           <p className="mb-0 mt-md-5 spacing-first"><a href={val.id}><img  src={val.image}/></a> <a href={val.id}><img  src={val.image1}/></a></p>: val.name
                           }
                             </MediaQuery>
                             <MediaQuery minWidth={320} maxWidth={759}>
@@ -384,7 +384,7 @@ function Footer() {
           <div className="row mb-5">
             <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 text-left">
               <p className="listName">info@amnetdigital.com</p>
-              <p className="listName">098765 12345</p>
+              <p className="listName">+91832-8631349</p>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3 text-md-center text-lg-center text-sm-left">
               <p className="listName text-md-center">

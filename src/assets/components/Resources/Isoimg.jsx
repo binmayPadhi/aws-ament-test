@@ -44,7 +44,7 @@ const Isoimg = () =>{
                   className="fw-bold-600 text-white fs-35 text-capitalize"
                   data-text="Your Tech Innovation Catalyst"
                 >
-                 Registration Cerficates
+                 Registration Certificates
                 </h2>
                 <p className="fw-bold-400 fs-16 text-white mb-5 mr-5 mt-4">
                  

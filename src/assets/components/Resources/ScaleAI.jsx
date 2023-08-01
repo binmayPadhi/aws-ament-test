@@ -58,10 +58,19 @@ const ScaleAI = () => {
                         <span>
                           <a className="fs-18" target="_blank" href={list.link}>
                             {list.des}
+                          </a>                        
+                        </span>
+                        <span className="fs-19">{list.textelement}</span>
+                      </p>
+                      <p className="fs-19  mt-5">
+                        {list.description13}{" "}
+                        <span>
+                          <a className="fs-18"  href={list.link}>
+                            {list.descr}
                           </a>
                          
                         </span>
-                        <span className="fs-19">{list.textelement}</span>
+                        <span className="fs-19">{list.textel}</span>
                       </p>
                       <p className="fs-19 p-0 m-0">
                         {list.description1}{" "}
