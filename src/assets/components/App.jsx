@@ -32,7 +32,8 @@ import RedirectWebinar from "./RedirectWebinar";
 import RedirectanotherWebinar from "./Redirectanotherwebinar";
 import Redirectways from "./Redirectways";
 import { Helmet } from "react-helmet";
-import IDP from "./IDP";
+import ScaleAI from "./Resources/ScaleAI";
+import Isoimg from "./Resources/Isoimg";
 
 
 function App() {
@@ -54,11 +55,16 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/aboutus" element={<AboutUs />} />
+          <Route
+              exact
+              path="/odc-and-iso-recognized-certification"
+              element={<Isoimg />}
+            />
           <Route path="/services" element={<OurServices />}>
             <Route path="" element={<Services />} />
+
             <Route path=":name" element={<AIservices />} />
             <Route path=":name/:service" element={<Viewsubservice />} />
-            <Route path="/services/intelligent-document-processing" element={<IDP />} />
             {/* <Route path=":name/:service" element={<Viewsubservicestart />} /> */}
           </Route>
           <Route path="/careers" element={<CareerHome />}>
@@ -88,9 +94,15 @@ function App() {
             />
             <Route
               exact
+              path="how-to-scale-ai-in-retail-industry-with-data-management"
+              element={<ScaleAI />}
+            />
+            <Route
+              exact
               path="swiftinisghts-Webinar"
               element={<SwiftInisghtsWebinar />}
             />
+             
             
             <Route
               path="webinar-thank-you-reshaping-the-retail-industry-through-AI"

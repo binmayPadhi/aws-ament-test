@@ -89,10 +89,11 @@ const ApplicationForm = () => {
     return emailjs
       .sendForm(
         "service_h4akrmg",
-        "template_wft5tq9",
+        "template_h0xkqot",
         applicationDetails.current,
         "yz7dQlM6o3Rz3cnB8"
       )
+      
       .then(
         console.log("mail sent"),
         reset(),
@@ -255,7 +256,6 @@ const ApplicationForm = () => {
               <label>
                     Resume<span className="star-color">*</span>
                   </label>
-             
               <div className="dropzone"
                   onDragOver={handleDragOver}
                   onDrop={handleDrop}
@@ -340,7 +340,7 @@ const ApplicationForm = () => {
                 </div>
               </div>
               <div className="row">
-                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-4">
+                  <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-4">
                   <label>
                     Salary Expectation(yearly gross salary)
                     <span className="star-color">*</span>

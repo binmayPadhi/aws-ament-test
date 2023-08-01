@@ -2,26 +2,25 @@ import blog1 from "../../images/Resources-page/blog1.png";
 import blog2 from "../../images/Resources-page/blog2.png";
 import blog3 from "../../images/Resources-page/blog3.png";
 import blog4 from "../../images/Resources-page/blog4.png";
+import blog5 from "../../images/Resources-page/blog5.jpg";
 
 const Insightdata = {
   carddetails: [
     {
-      id: "seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry",
-      date: "April 14, 2023",
-      title:
-        "Seven Significant ways Artificial Intelligence (AI) is Impacting...",
-      description:
-        "Artificial Intelligence is becoming the limelight practice for Retail businesses as online shopping replaces more and more physical establishments..",
-      image: blog1,
+      id:"how-to-scale-ai-in-retail-industry-with-data-management",
+      date:"July 31, 2023",
+      title:"How to Scale AI in the Retail Industry with Advanced Data Management...",
+      description:"The retail industry has witnessed a transformative shift worldwide, with the integration of cutting-edge technologies like AI, Data, & Analytics and sales best",
+      image: blog5,
     },
     {
-      id: "AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations",
-      date: "April 21, 2023",
+      id: "Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment",
+      date: "May 05, 2023",
       title:
-        "AI for Retail - Discover how AI can revolutionize the retail industry...",
+        "Why do we need AIOps, and where does it fit with the modern IT...",
       description:
-        "The world of retail is constantly evolving, and businesses must keep up with the latest technology to stay competitive. One of the most promising advancements...",
-      image: blog2,
+        "We need AIOps (Artificial Intelligence for IT Operations) because modern IT environments have become increasingly complex and difficult to manage...",
+      image: blog4,
     },
     {
       id: "What-is-AIOps-and-explore-how-it-is-revolutionizing-the-retail-industry-by-solving-complex-challenges",
@@ -33,14 +32,27 @@ const Insightdata = {
       image: blog3,
     },
     {
-      id: "Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment",
-      date: "May 05, 2023",
+      id: "AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations",
+      date: "April 21, 2023",
       title:
-        "Why do we need AIOps, and where does it fit with the modern IT...",
+        "AI for Retail - Discover how AI can revolutionize the retail industry...",
       description:
-        "We need AIOps (Artificial Intelligence for IT Operations) because modern IT environments have become increasingly complex and difficult to manage...",
-      image: blog4,
+        "The world of retail is constantly evolving, and businesses must keep up with the latest technology to stay competitive. One of the most promising advancements...",
+      image: blog2,
     },
+    {
+      id: "seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry",
+      date: "April 14, 2023",
+      title:
+        "Seven Significant ways Artificial Intelligence (AI) is Impacting...",
+      description:
+        "Artificial Intelligence is becoming the limelight practice for Retail businesses as online shopping replaces more and more physical establishments..",
+      image: blog1,
+    },
+   
+   
+    
+    
   ],
   ResourceData: [
     {
@@ -61,15 +73,7 @@ const Insightdata = {
         "Artificial Intelligence for IT Operations (AIOps) is a discipline that combines the power of Artificial Intelligence (AI), Natural Language Processing (NLP)...",
       image: blog3,
     },
-    {
-      id: "Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment",
-      date: "May 05, 2023",
-      title:
-        "Why do we need AIOps, and where does it fit with the modern IT...",
-      description:
-        "We need AIOps (Artificial Intelligence for IT Operations) because modern IT environments have become increasingly complex and difficult to manage...",
-      image: blog4,
-    },
+    
 
   ],
 

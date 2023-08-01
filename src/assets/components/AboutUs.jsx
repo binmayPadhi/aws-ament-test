@@ -18,6 +18,7 @@ import Letsconnect from "./AboutUs/Letsconnect";
 import MediaQuery from "react-responsive";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import Isoimg from "./Resources/Isoimg";
 
 
 
@@ -87,7 +88,7 @@ function TestAboutUs() {
       </div>
       {/* AboutUS Page QUOTE SECTION */}
 
-      <div className="mt-10">
+      <div className="mt-10 w-90 mx-auto">
         <h1 className="text-center text-black fs-35 fw-bold-600">WHO WE ARE</h1>
         <p className="text-grey fs-16 fw-bold-400 text-center mb-0">
           Amnet Digital is a Data, Analytics & AI solutions company that helps businesses to make data-driven decisions, uncover key insights,
@@ -236,7 +237,7 @@ function TestAboutUs() {
         <Letsconnect />
       </div>
 
-
+     
 
     </>
   );

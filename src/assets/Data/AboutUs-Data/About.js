@@ -428,7 +428,7 @@ const Aboutdata = {
   {
     id: 3,
     image: handshake,
-    count: "10",
+    count: "10+",
     text: "Clients",
   },
   {

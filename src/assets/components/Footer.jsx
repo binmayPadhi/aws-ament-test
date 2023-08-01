@@ -19,6 +19,10 @@ import star from "../images/HomePage/star.png";
 import send from "../images/HomePage/Sendicon.png";
 import cross from "../images/HomePage/close-icon.png";
 import { useLocation } from "react-router-dom";
+import ISO from "../images/Resources-page/iso1.png";
+import Equalitas from "../images/Resources-page/equalitas1.png";
+
+
 
 function Footer() {
   const emailDetails = useRef();
@@ -40,16 +44,18 @@ function Footer() {
           link: "/careers",
           target: "_balnk",
         },
-        // {
-        //   id: "13",
-        //   name: "",
-        //   link: "",
-        //   target: "_balnk",
-        // },
+                {
+          id: "13",
+          name: "",
+          link: "/odc-and-iso-recognized-certification",
+          target: "_balnk",
+          image:ISO,
+          image1:Equalitas,
+        },
         // {
         //   id: "14",
         //   name: "",
-        //   link: "",
+        //   link: "/contactus",
         //   target: "_balnk",
         // },
       ],
@@ -114,12 +120,6 @@ function Footer() {
           link: "/services/cloudservices",
           target: "_balnk",
         },
-        // {
-        //   id:36,
-        //   name:"IDP Solutions",
-        //   link:"/services/intelligent-document-processing",
-        //   target:"_blank",
-        // },
         {
           id: 36,
           name: "User Experience",
@@ -204,12 +204,14 @@ function Footer() {
           link: "/casestudies",
           target: "_balnk",
         },
-        // {
-        //   id: 54,
-        //   name: "",
-        //   link: "",
-        //   target: "_balnk",
-        // },
+        {
+          id: "54",
+          name: "",
+          link: "/odc-and-iso-recognized-certification",
+          target: "_balnk",
+          certifiedimage:ISO,
+          certifiedimage1:Equalitas,
+        },
       ],
     },
   ];
@@ -319,8 +321,8 @@ function Footer() {
             <div className="col-md-3 col-lg-3 col-sm-12"></div>
           </div>
         </div>
-        <div className=" mx-auto mb-5">
-          <p className="row center-70 mt-3 mb-3">
+        <div className="center-70 mx-auto mb-5">
+          <p className="row  mt-3 mb-3">
             <div className="col-sm-12 col-xs-12"></div>
             {footerlist.map((list) => {
               return (
@@ -338,11 +340,20 @@ function Footer() {
                           <Link
                             to={val.link}
                             target={
-                              val.id !== 21 && val.id !== 52 ? "" : "_blank"
+                              val.id !== 21 && val.id !== 52  ? "" : "_blank"
                             }
                             className="desName cr-pointer text-decoration-none fs-13 text-black"
                           >
-                            {val.name}
+                            <MediaQuery minWidth={760} >
+                            {val.hasOwnProperty('image') === true ? 
+                           <p className="mb-0 mt-md-5 spacing-first"><a href={val.id}><img  src={val.image}/></a> <a href={val.id}><img  src={val.image1}/></a></p>: val.name
+                          }
+                            </MediaQuery>
+                            <MediaQuery minWidth={320} maxWidth={759}>
+                            {val.hasOwnProperty('certifiedimage') === true ? 
+                            <a href={val.id}><span> <img className="spacing-icosn" src={val.certifiedimage}/> <img className="spacing-icosn" src={val.certifiedimage1}/></span></a> : val.name
+                          }
+                            </MediaQuery>      
                           </Link>
                         </li>
                       );
@@ -351,6 +362,19 @@ function Footer() {
                 </p>
               );
             })}
+            {/* <div className="col-lg-5">
+              <Link
+                to=""
+                onClick={(event) => { event.preventDefault(); window.open("ISOpage.pdf"); }}>
+                <img className="img-iso" src={ISO} />
+              </Link>
+              <Link
+                to=""
+                onClick={(event) => { event.preventDefault(); window.open("ISOpage.pdf"); }}>
+               <img className="img-iso1" src={Equalitas} />
+              </Link>
+              
+            </div> */}
             <div className="col-sm-12 col-xs-12"></div>
           </p>
         </div>
@@ -360,7 +384,7 @@ function Footer() {
           <div className="row mb-5">
             <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 text-left">
               <p className="listName">info@amnetdigital.com</p>
-              <p className="listName">098765 12345</p>
+              <p className="listName">+91832-8631349</p>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3 text-md-center text-lg-center text-sm-left">
               <p className="listName text-md-center">
