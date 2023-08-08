@@ -33,7 +33,7 @@ const DataMigration = () => {
           <div className="new-home-about-details row ml-0 mr-0 above-spacings">
             <div className="col-12 pl-0 pr-0 mb-5">
               <h1>
-              6 Key Steps To Include In Your Data Migration Project
+                6 Key Steps To Include In Your Data Migration Project
               </h1>
             </div>
           </div>
@@ -49,43 +49,63 @@ const DataMigration = () => {
             </div>
           </div>
 
-          
-            <div className="row  ml-0 mr-0">
-              {Migrationdata.map((list) => {
-                return (
-                  <div className="col-12  p-0" key={list.id}>
-                   
-                    <h2 className="fs-24 fw-bold-800 mt-5">{list.title}</h2>
-                        <p className="fs-19 mt-3 ">{list.description30}</p> 
-                        <p className="fs-19 ">{list.description20}</p>
-                        <p className="fs-19  ">{list.description21}</p>
-                        <p className="fs-19 ">{list.description22}</p>
-                        <p className="fs-19 ">{list.description23}</p>
-                        <p className="fs-19 ">{list.description24}</p>  
-                        <img src={list.image} className="w-100"/> 
-                        {list.hasOwnProperty("unorderedlist") === true ? (
-                                    <>
-                                        {
-                                            <ul className="career-details  pl-5">
-                                                {list.unorderedlist.map((list) => {
-                                                    return (
-                                                        <>
-                                                            <li className="fs-19 mt-2 fw-bold-400">
-                                                                {list.descript}
-                                                            </li>
-                                                        </>
-                                                    );
-                                                })}
-                                            </ul>
-                                        }
-                                    </>
-                                ) : (
-                                    ""
-                                )}                                  
-                  </div>
-                );
-              })}
-            </div>
+
+          <div className="row  ml-0 mr-0">
+            {Migrationdata.map((list) => {
+              return (
+                <div className="col-12  p-0" key={list.id}>
+
+                  <h2 className="fs-24 fw-bold-800 mt-5">{list.title}</h2>
+                  <p className="fs-19 mt-3 ">{list.description30}</p>
+                  <p className="fs-19 ">{list.description20}</p>
+                  <p className="fs-19  ">{list.description21}</p>
+                  <p className="fs-19 ">{list.description22}</p>
+                  <p className="fs-19 ">{list.description23}</p>
+                  <p className="fs-19 ">{list.description24}</p>
+                  <img src={list.image} className="w-100" />
+                  {list.hasOwnProperty("unorderedlist") === true ? (
+                    <>
+                      {
+                        <ul className="career-details  pl-5">
+                          {list.unorderedlist.map((list) => {
+                            return (
+                              <>
+                                <li className="fs-19 mt-2 fw-bold-400">
+                                  {list.descript}
+                                </li>
+                              </>
+                            );
+                          })}
+                        </ul>
+                      }
+                    </>
+                  ) : (
+                    ""
+                  )}
+                  <p className="fs-19 ">
+                    {list.description}{" "}
+                    <span>
+                      <a className="fs-18" target="_blank" href={list.link}>
+                        {list.des}
+                      </a>
+                    </span>
+                    <span className="fs-19">{list.textelement}</span>
+                  </p>
+                  <p className="fs-19 fw-bold-800">
+                    <span className="fs-19 fw-bold-800">
+                      {list.textbold}{" "}
+                    </span>
+                    <span>
+                      <a className="fs-18 fw-bold-800" href="/contactus">
+                        {list.ref}
+                      </a>
+                    </span>
+                    <span className="fs-19 fw-bold-800">{list.description10}</span>
+                  </p>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
 
