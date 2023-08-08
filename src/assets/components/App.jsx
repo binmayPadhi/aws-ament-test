@@ -34,6 +34,7 @@ import Redirectways from "./Redirectways";
 import { Helmet } from "react-helmet";
 import ScaleAI from "./Resources/ScaleAI";
 import Isoimg from "./Resources/Isoimg";
+import DataMigration from "./Resources/DataMigration";
 
 
 function App() {
@@ -60,6 +61,7 @@ function App() {
               path="/odc-and-iso-recognized-certification"
               element={<Isoimg />}
             />
+           
           <Route path="/services" element={<OurServices />}>
             <Route path="" element={<Services />} />
 
@@ -96,6 +98,11 @@ function App() {
               exact
               path="how-to-scale-ai-in-retail-industry-with-data-management"
               element={<ScaleAI />}
+            />
+             <Route
+              exact
+              path="data-migration"
+              element={<DataMigration />}
             />
             <Route
               exact

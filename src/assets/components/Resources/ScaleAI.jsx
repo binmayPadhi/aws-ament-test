@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import Letsgetstart from "../Webinars/Letsgetstart";
 import blog5 from "../../images/Resources-page/blog5.jpg";
 import { Helmet } from "react-helmet";
+import Newgetstart from "../Webinars/Newgetstart";
 
 const ScaleAI = () => {
   const btnColor = {
@@ -38,7 +39,7 @@ const ScaleAI = () => {
             <div className="col-12 about-us-details p-0">
               <img
                 loading="lazy"
-                className="img-fluid p-0"
+                className="img-fluid "
                 src={blog5}
                 alt="blog"
               />
@@ -62,7 +63,7 @@ const ScaleAI = () => {
                         </span>
                         <span className="fs-19">{list.textelement}</span>
                       </p>
-                      <p className="fs-19  mt-5">
+                      <p className="fs-19  mt-3">
                         {list.description13}{" "}
                         <span>
                           <a className="fs-18"  href={list.link}>
@@ -158,7 +159,7 @@ const ScaleAI = () => {
 
       {/** let gets started */}
       <div>
-        <Letsgetstart componentFrom={"blog"} />
+        <Newgetstart componentFrom={"blog"} />
       </div>
 
       {/* NEW HOMEPAGE CAREER SECTION */}

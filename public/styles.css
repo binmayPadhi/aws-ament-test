@@ -6627,9 +6627,9 @@ color: #FFFFFF;
   }
 }
 
-@media only screen and (min-width:992px) {
+@media only screen and (min-width:760px) and (max-width:1438px){
   .spacing-first{
-    margin-top:1.5rem;
+    margin-top:10px;
   }
   .spacing-icosn{
     margin-top:0px;
@@ -6639,5 +6639,13 @@ color: #FFFFFF;
 
 .certificates-spacing{
   margin-top: 50px;
- }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
+
+.img-center{
+  height:300px;
+}

@@ -7,21 +7,20 @@ import pngim from "../../images/Resources-page/ISOpage.pdf";
 import { Helmet } from "react-helmet";
 
 
-const Isoimg = () => {
+const Isoimg = () =>{
   const redirectTo = (e) => {
     e.preventDefault();
-
   };
-  return (
-    <>
-      <Helmet>
+        return (
+          <>
+        <Helmet>
         <meta charSet="utf-8" />
         <title>ISO 27001:2013 | ISO/IEC 27001:2013 - Amnet Digital </title>
         <meta name="title" content="ISO 27001:2013 | ISO/IEC 27001:2013 - Amnet Digital" />
         <meta name="description" content="ISO 27001:2013 | ISO/IEC Information security Management Systems 27001:2013" />
         <meta name="keywords" content="" />
       </Helmet>
-      <div
+          <div
         className="position-realtive"
         style={{
           backgroundImage: `url(${AboutUsBG})`,
@@ -29,8 +28,7 @@ const Isoimg = () => {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           width: "100%",
-          height: "600px"
-
+          height:"600px"
         }}
       >
         {/* <div className="fs-35 text-white position-absolute top-0">
@@ -44,40 +42,37 @@ const Isoimg = () => {
                   className="fw-bold-600 text-white fs-35 text-capitalize"
                   data-text="Your Tech Innovation Catalyst"
                 >
-                  Registration Certificates
+                 Registration Certificates
                 </h2>
                 <p className="fw-bold-400 fs-16 text-white mb-5 mr-5 mt-4">
-
-                </p>
-
+                </p>              
               </div>
               <div className="col-lg-5 col-md-5 col-sm-12"></div>
             </div>
           </div>
           <div className="bottom-img-about w-100">
             <div className="row">
-              <div className="col-lg-6 col-md-6 col-sm-12">
-
+              <div className="col-lg-6 col-md-6 col-sm-12">               
               </div>
               <div className="col-lg-5 col-md-5 col-sm-12"></div>
             </div>
           </div>
         </div>
       </div>
-      <div className="w-50 mx-auto mt-5">
-        <div className="row">
-          <div className="col-12">
-            <img src={ISO} className="isoimg-styling" />
-          </div>
-          <div className="col-12">
-            <img src={EQUALITAS} className="certification-styling" />
-          </div>
-        </div>
-      </div>
-    </>
-  );
-
-
+          <div className="w-50 mx-auto mt-5">
+            <div className="row">
+              <div className="col-12">
+           <img src={ISO} className="isoimg-styling"/>
+           </div>
+           <div className="col-12">
+           <img src={EQUALITAS} className="certification-styling" />
+           </div>
+           </div>          
+           </div>
+          </>
+        );
+      
+      
 }
 
 export default Isoimg;
