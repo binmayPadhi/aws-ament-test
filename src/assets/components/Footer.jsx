@@ -44,7 +44,7 @@ function Footer() {
           link: "/careers",
           target: "_balnk",
         },
-                {
+        {
           id: "13",
           name: "",
           link: "/odc-and-iso-recognized-certification",
@@ -344,7 +344,7 @@ function Footer() {
                             }
                             className="desName cr-pointer text-decoration-none fs-13 text-black"
                           >
-                            <MediaQuery minWidth={760} >
+                           <MediaQuery minWidth={760} >
                             {val.hasOwnProperty('image') === true ? 
                            <p className="mb-0 mt-md-5 spacing-first"><a href={val.id}><img  src={val.image}/></a> <a href={val.id}><img  src={val.image1}/></a></p>: val.name
                           }

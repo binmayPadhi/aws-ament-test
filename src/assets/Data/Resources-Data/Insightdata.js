@@ -3,9 +3,17 @@ import blog2 from "../../images/Resources-page/blog2.png";
 import blog3 from "../../images/Resources-page/blog3.png";
 import blog4 from "../../images/Resources-page/blog4.png";
 import blog5 from "../../images/Resources-page/blog5.jpg";
+import blog6 from "../../images/Resources-page/blog6.jpg";
 
 const Insightdata = {
   carddetails: [
+    {
+      id:"data-migration",
+      date:"August 8, 2023",
+      title:"6 Key Steps To Include In Your Data Migration Project",
+      description:"Forward-thinking businesses across the globe effectively utilize AI, big data, and predictive analytics for targeted advertising, capitalizing on its vast subscriber",
+      image: blog6,
+    },
     {
       id:"how-to-scale-ai-in-retail-industry-with-data-management",
       date:"July 31, 2023",

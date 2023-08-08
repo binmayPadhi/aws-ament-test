@@ -5,6 +5,7 @@ import { Helmet } from "react-helmet";
 import { useNavigate } from "react-router-dom";
 // import "../../CSS/Insight.css";
 import Letsgetstart from "../Webinars/Letsgetstart";
+import Newgetstart from "../Webinars/Newgetstart";
 
 const BlogIT = () => {
   let history = useNavigate();
@@ -49,13 +50,13 @@ const BlogIT = () => {
             </div>
           </div>
 
-          <div className="about-us-page-details">
+          <div className="">
             <div className="row  ml-0 mr-0">
               {BlogITdata.map((list) => {
                 return (
                   <div className="col-12 about-us-details p-0" key={list.id}>
                     <div className="about-us-desc-blog">
-                      <h2>{list.title}</h2>
+                      <h2 className="pb-3">{list.title}</h2>
                       <h1>{list.subtitle}</h1>
                       <p>{list.description}</p>
                       <p>{list.description1}</p>
@@ -82,9 +83,11 @@ const BlogIT = () => {
                               {list.orderedlist.map((response) => {
                                 return (
                                   <>
-                                    <li className="fs-18">
+                                    <li className="fs-18 pb-3">
+                                    <span className="fs-18 fw-bold">{response.sidehead}</span>
                                       {response.content}
                                     </li>
+                                    
                                   </>
                                 );
                               })}
@@ -136,7 +139,7 @@ const BlogIT = () => {
 
       {/** let gets started */}
       <div>
-        <Letsgetstart componentFrom={"blog"} />
+        <Newgetstart componentFrom={"blog"} />
       </div>
 
       {/* NEW HOMEPAGE CAREER SECTION */}

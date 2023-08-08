@@ -4,6 +4,7 @@ import Blog from "../../Data/Resources-Data/Blog";
 import { useNavigate } from "react-router-dom";
 import Letsgetstart from "../Webinars/Letsgetstart";
 import { Helmet } from "react-helmet";
+import Newgetstart from "../Webinars/Newgetstart";
 
 const Insight = () => {
   let history = useNavigate();
@@ -45,13 +46,13 @@ const Insight = () => {
             </div>
           </div>
 
-          <div className="about-us-page-details">
+          <div className="">
             <div className="row about-us-page-row ml-0 mr-0">
               {Blog.map((list) => {
                 return (
                   <div className="col-12 about-us-details p-0" key={list.id}>
                     <div className="about-us-desc-blog">
-                      <h2>{list.title}</h2>
+                      <h2 className="pb-2">{list.title}</h2>
                       <p>{list.description}</p>
                       <p>{list.description1}</p>
                       {list.hasOwnProperty("watchnowImg") === true ? (
@@ -104,7 +105,7 @@ const Insight = () => {
 
       {/** let gets started */}
       <div>
-        <Letsgetstart componentFrom={"blog"} />
+        <Newgetstart componentFrom={"blog"} />
       </div>
 
       {/* NEW HOMEPAGE CAREER SECTION */}

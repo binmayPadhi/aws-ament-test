@@ -11,20 +11,24 @@ const BlogITdata = [
 
     orderedlist: [
       {
+        sidehead:"Scale: ",
         content:
-          "Scale: Modern IT environments are often distributed across multiple cloud providers and data centers, with thousands or even millions of devices and applications. AIOps can process and analyze large amounts of data in real-time, identifying patterns and anomalies that may be missed by humans. ",
+          "Modern IT environments are often distributed across multiple cloud providers and data centers, with thousands or even millions of devices and applications. AIOps can process and analyze large amounts of data in real-time, identifying patterns and anomalies that may be missed by humans. ",
       },
       {
+        sidehead:"Speed: ",
         content:
-          "Speed: Modern IT environments require rapid response times to meet customer expectations and prevent downtime. AIOps can help detect and respond to issues in real time, often before they become visible.",
+          "Modern IT environments require rapid response times to meet customer expectations and prevent downtime. AIOps can help detect and respond to issues in real time, often before they become visible.",
       },
       {
+        sidehead:"Complexity: ",
         content:
-          "Complexity: AIOps can help IT teams understand and manage complexity by identifying relationships and dependencies between components of the IT environment.",
+          "AIOps can help IT teams understand and manage complexity by identifying relationships and dependencies between components of the IT environment.",
       },
       {
+        sidehead:"Costs: ",
         content:
-          "Costs: Traditional IT operations can be expensive, requiring large teams of highly skilled professionals. AIOps can help reduce costs by automating repetitive tasks, improving efficiency, and reducing the risk of downtime and other costly incidents. ",
+          "Traditional IT operations can be expensive, requiring large teams of highly skilled professionals. AIOps can help reduce costs by automating repetitive tasks, improving efficiency, and reducing the risk of downtime and other costly incidents. ",
       },
     ],
   },
