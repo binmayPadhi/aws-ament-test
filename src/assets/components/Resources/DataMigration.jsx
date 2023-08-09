@@ -1,5 +1,9 @@
 import React from "react";
-
+import blog3 from "../../images/Resources-page/blog3.png";
+import Scale from "../../Data/Resources-Data/ScaleAI";
+import { useNavigate } from "react-router-dom";
+// import "../../CSS/Insight.css";
+import Letsgetstart from "../Webinars/Letsgetstart";
 import blog6 from "../../images/Resources-page/blog6.jpg";
 import { Helmet } from "react-helmet";
 import Newgetstart from "../Webinars/Newgetstart";
@@ -57,6 +61,26 @@ const DataMigration = () => {
                   <p className="fs-19  ">{list.description21}</p>
                   <p className="fs-19 ">{list.description22}</p>
                   <p className="fs-19 ">{list.description23}</p>
+                  <p className="fs-19 ">
+                    {list.description}{" "}
+                    <span>
+                      <a className="fs-18" target="_blank" href={list.link}>
+                        {list.des}
+                      </a>
+                    </span>
+                    <span className="fs-19">{list.textelement}</span>
+                  </p>
+                  <p className="fs-19 fw-bold-800 mt-5">
+                    <span className="fs-19 fw-bold-800">
+                      {list.textbold}{" "}
+                    </span>
+                    <span>
+                      <a className="fs-18 fw-bold-800" href="/contactus">
+                        {list.ref}
+                      </a>
+                    </span>
+                    <span className="fs-19 fw-bold-800">{list.description10}</span>
+                  </p>
                   <p className="fs-19 ">{list.description24}</p>
                   <img src={list.image} className="w-100" />
                   {list.hasOwnProperty("unorderedlist") === true ? (
@@ -78,26 +102,7 @@ const DataMigration = () => {
                   ) : (
                     ""
                   )}
-                  <p className="fs-19 ">
-                    {list.description}{" "}
-                    <span>
-                      <a className="fs-18" target="_blank" href={list.link}>
-                        {list.des}
-                      </a>
-                    </span>
-                    <span className="fs-19">{list.textelement}</span>
-                  </p>
-                  <p className="fs-19 fw-bold-800">
-                    <span className="fs-19 fw-bold-800">
-                      {list.textbold}{" "}
-                    </span>
-                    <span>
-                      <a className="fs-18 fw-bold-800" href="/contactus">
-                        {list.ref}
-                      </a>
-                    </span>
-                    <span className="fs-19 fw-bold-800">{list.description10}</span>
-                  </p>
+               
                 </div>
               );
             })}
@@ -106,9 +111,9 @@ const DataMigration = () => {
       </div>
 
       {/** let gets started */}
-      <div>
+      
         <Newgetstart componentFrom={"blog"} />
-      </div>
+      
 
       {/* NEW HOMEPAGE CAREER SECTION */}
 
