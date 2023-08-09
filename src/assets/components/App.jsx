@@ -104,6 +104,11 @@ function App() {
               path="6-steps-to-include-in-your-data-migration-journey"
               element={<DataMigration />}
             />
+             <Route
+              exact
+              path="data-migration"
+              element={<DataMigration />}
+            />
             <Route
               exact
               path="swiftinisghts-Webinar"
