@@ -101,7 +101,7 @@ function App() {
             />
              <Route
               exact
-              path="data-migration"
+              path="6-steps-to-include-in-your-data-migration-journey"
               element={<DataMigration />}
             />
             <Route
