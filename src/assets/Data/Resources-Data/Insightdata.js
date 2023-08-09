@@ -8,7 +8,7 @@ import blog6 from "../../images/Resources-page/blog6.jpg";
 const Insightdata = {
   carddetails: [
     {
-      id:"data-migration",
+      id:"6-steps-to-include-in-your-data-migration-journey",
       date:"August 8, 2023",
       title:"6 Key Steps To Include In Your Data Migration Project",
       description:"Forward-thinking businesses across the globe effectively utilize AI, big data, and predictive analytics for targeted advertising, capitalizing on its vast subscriber",
