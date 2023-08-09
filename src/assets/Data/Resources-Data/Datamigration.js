@@ -23,8 +23,6 @@ const Migrationdata= [
                     descript:"Figure out how your different datasets and systems are connected. Any dependencies we need to be aware of? Changes in one dataset shouldn't  wreak havoc on others. We want a smooth sailing transition, after all."
                 },
             ]
-           
-           
             
         },
         {
@@ -72,8 +70,7 @@ const Migrationdata= [
             description21:"We've taken you on a journey through the key steps to include in your data migration project. From assessing your current data landscape to monitoring and maintaining data quality, we've covered it all with a touch of friendliness and enthusiasm.",
             description22:"Remember, data migration may seem like a daunting task, but with the right approach and guidance, it can be a successful and rewarding endeavour. By following these steps, you'll be well-equipped to navigate the challenges and ensure a smooth transition of your valuable data.",
             description23:"We understand the critical importance of data migration projects and have established ourselves as a trusted data migration services provider in offering comprehensive data migration consulting services. With deep expertise in managing complex data migration projects, we help businesses streamline their data operations and maximise the value of their information assets.",
-             description24:"At Amnet Digital, our data migration services team ensures businesses moving data is successful and efficient, without impacting the business, whether it is to a new system, or location. We enable your entire organization to simplify your data operations to become more efficient as part of your digital transformation journey.",
-        },
+                   },
         {
             id:12,
             description:"At",
