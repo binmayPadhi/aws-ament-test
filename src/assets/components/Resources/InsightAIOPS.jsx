@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 // import "../../CSS/Insight.css";
 import Letsgetstart from "../Webinars/Letsgetstart";
 import { Helmet } from "react-helmet";
+import Newgetstart from "../Webinars/Newgetstart";
 
 const InsightAIOPS = () => {
   const btnColor = {
@@ -37,21 +38,21 @@ const InsightAIOPS = () => {
             <div className="col-12 about-us-details p-0">
               <img
                 loading="lazy"
-                className="img-fluid "
+                className="img-fluid pb-3 "
                 src={blog3}
                 alt="blog"
               />
             </div>
           </div>
 
-          <div className="about-us-page-details">
+          <div className="">
             <div className="row  ml-0 mr-0">
               {BlogAIOPS.map((list) => {
                 return (
                   <div className="col-12 about-us-details p-0" key={list.id}>
                     <div className="about-us-desc-blog">
-                      <h2>{list.title}</h2>
-                      <h1>{list.subtitle}</h1>
+                      <h2 className="pb-2">{list.title}</h2>
+                      <h1 className="pb-2">{list.subtitle}</h1>
                       <p>{list.description}</p>
                       <p>{list.description1}</p>
                       <p>{list.description2}</p>
@@ -108,7 +109,7 @@ const InsightAIOPS = () => {
 
       {/** let gets started */}
       <div>
-        <Letsgetstart componentFrom={"blog"} />
+        <Newgetstart componentFrom={"blog"} />
       </div>
 
       {/* NEW HOMEPAGE CAREER SECTION */}

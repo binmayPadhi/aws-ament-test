@@ -4,6 +4,7 @@ import Blog from "../../Data/Resources-Data/BlogAI";
 import Letsgetstart from "../Webinars/Letsgetstart";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import Newgetstart from "../Webinars/Newgetstart";
 
 const InsightAI = () => {
   const btnColor = {
@@ -42,7 +43,7 @@ const InsightAI = () => {
               />
             </div>
           </div>
-          <div className="about-us-page-details">
+          <div className="">
             <div className="row about-us-page-row ml-0 mr-0">
               {Blog.map((list) => {
                 return (
@@ -124,7 +125,7 @@ const InsightAI = () => {
 
       {/** let gets started */}
       <div>
-        <Letsgetstart componentFrom={"blog1"} />
+        <Newgetstart componentFrom={"blog"} />
       </div>
       {/* NEW HOMEPAGE CAREER SECTION */}
       <div

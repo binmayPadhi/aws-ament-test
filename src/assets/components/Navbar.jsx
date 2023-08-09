@@ -25,7 +25,8 @@ function Navbar(props) {
       url === "/blogs/AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations" ||
       url === "/blogs/What-is-AIOps-and-explore-how-it-is-revolutionizing-the-retail-industry-by-solving-complex-challenges" ||
       url === "/blogs/Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment" ||
-      url === "/blogs/how-to-scale-ai-in-retail-industry-with-data-management"
+      url === "/blogs/how-to-scale-ai-in-retail-industry-with-data-management" ||
+      url === "/blogs/data-migration"
      
     ) {
       setNavcolor("app");
@@ -307,9 +308,18 @@ function Navbar(props) {
                       <div className="col-lg-9 bg-dropdown ">
                         <div className="row">
                           <div className="col-lg-4">
-                            <p className="service-aiml mt-5 pt-1">
-                              <a href={`/services/aiml`}>AI & ML</a>
-                            </p>
+                          <p className="service-aiml mt-5">
+                            <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/aiml`)
+                                }
+                                className="cr-pointer"
+                              >
+                                AI & ML
+                              </span>
+                             </p>
+                              
+                            
                             <p
                               className="sub-service-links"
                               style={{ marginTop: "5px" }}
