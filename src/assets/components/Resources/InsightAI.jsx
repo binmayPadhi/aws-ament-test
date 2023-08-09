@@ -125,7 +125,7 @@ const InsightAI = () => {
 
       {/** let gets started */}
       <div>
-        <Newgetstart componentFrom={"blog1"} />
+        <Newgetstart componentFrom={"blog"} />
       </div>
       {/* NEW HOMEPAGE CAREER SECTION */}
       <div

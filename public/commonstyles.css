@@ -71,8 +71,16 @@
   width: 95%;
 }
 
+.w-35{
+  width:25%;
+}
+
 .w-60 {
   width: 60%;
+}
+
+.fs-25{
+  font-size:25px;
 }
 
 .top-10 {

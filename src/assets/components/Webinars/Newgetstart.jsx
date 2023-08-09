@@ -102,17 +102,17 @@ const Newgetstart = (props) => {
                 )}
               </p>
               <p className="mb-0 text-white fs-20 font-weight-bold pb-4">
-                Schedule your FREE consulation now!
+                Schedule your FREE consultation now!
               </p>
             </div>
           </div>
           <div className=" width-18 bg-right  d-flex align-items-center">
             <div className="center-98">
               <p
-                className="mb-0 text-white fs-20 font-weight-bold w-100 pl-md-4 pl-sm-2"
+                className="mb-0 text-white fs-25 font-weight-bold w-100 pl-md-5 pl-lg-5 pl-sm-2"
                 onClick={handleShow}
               >
-                Let's get started
+                Let's Start
                 <i
                   className="fa fa-long-arrow-right text-white fs-18 pl-2"
                   aria-hidden="true"
