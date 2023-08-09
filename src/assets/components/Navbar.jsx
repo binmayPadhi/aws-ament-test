@@ -308,9 +308,18 @@ function Navbar(props) {
                       <div className="col-lg-9 bg-dropdown ">
                         <div className="row">
                           <div className="col-lg-4">
-                            <p className="service-aiml mt-5 pt-1">
-                              <a href={`/services/aiml`}>AI & ML</a>
-                            </p>
+                          <p className="service-aiml mt-5">
+                            <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/aiml`)
+                                }
+                                className="cr-pointer"
+                              >
+                                AI & ML
+                              </span>
+                             </p>
+                              
+                            
                             <p
                               className="sub-service-links"
                               style={{ marginTop: "5px" }}
