@@ -96,7 +96,7 @@ const RealValue = () => {
                   <p className="fs-19 ">{list.description28}</p>
                   <p className="fs-19 ">{list.description29}</p>
                   <p className="fs-19 ">{list.description31}</p>
-                  <p className="fs-19 fw-bold">
+                  <p className="fs-19 font-weight-bold fw-bold">
                     {list.description3}{" "}
                     <span>
                       <a className="fs-18" target="_blank" href={list.linksto}>
