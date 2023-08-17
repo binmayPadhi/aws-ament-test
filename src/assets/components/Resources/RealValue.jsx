@@ -33,7 +33,7 @@ const RealValue = () => {
           <div className="new-home-about-details row ml-0 mr-0 above-spacings">
             <div className="col-12 pl-0 pr-0 mb-5">
               <h1>
-              The Real Value AI Can Bring to Your Retail Business
+                The Real Value AI Can Bring to Your Retail Business
               </h1>
             </div>
           </div>
@@ -55,7 +55,7 @@ const RealValue = () => {
               return (
                 <div className="col-12  p-0" key={list.id}>
 
-                 
+
                   <p className="fs-19 mt-5">
                     {list.description}{" "}
                     <span>
@@ -68,7 +68,7 @@ const RealValue = () => {
                   <p className="fs-19 mt-5">
                     {list.description2}{" "}
                     <span>
-                      <a className="fs-18" target="_blank" href={list.link2}>
+                      <a className="fs-18" target="" href={list.link2}>
                         {list.des2}
                       </a>
                     </span>
@@ -76,15 +76,14 @@ const RealValue = () => {
                   </p>
                   <h2 className="fs-24 fw-bold-800 ">{list.title}</h2>
                   <p className="fs-19 mt-3 ">{list.description30}</p>
-                  <p className="fs-19 ">{list.description20}</p>
                   <p className="fs-19  ">{list.description21}</p>
                   <p className="fs-19 ">{list.description22}</p>
                   <p className="fs-19 ">{list.description23}</p>
                   <p className="fs-19 ">{list.description24}</p>
-                  <p className="fs-19 mt-5">
+                  <p className="fs-19 mt-3">
                     {list.description1}{" "}
                     <span>
-                      <a className="fs-18" target="_blank" href={list.links}>
+                      <a className="fs-18" target="" href={list.links}>
                         {list.desc}
                       </a>
                     </span>
@@ -96,15 +95,15 @@ const RealValue = () => {
                   <p className="fs-19 ">{list.description28}</p>
                   <p className="fs-19 ">{list.description29}</p>
                   <p className="fs-19 ">{list.description31}</p>
-                  <p className="fs-19 font-weight-bold fw-bold">
+                  <p className="fs-19 fw-bold-800">
                     {list.description3}{" "}
                     <span>
-                      <a className="fs-18" target="_blank" href={list.linksto}>
+                      <a className="fs-18" target="" href={list.linksto}>
                         {list.descrip}
                       </a>
                     </span>
                     <span className="fs-19">{list.textelementsof}</span>
-                  </p>               
+                  </p>
                 </div>
               );
             })}
@@ -113,9 +112,9 @@ const RealValue = () => {
       </div>
 
       {/** let gets started */}
-      
-        <Newgetstart componentFrom={"blog"} />
-      
+
+      <Newgetstart componentFrom={"blog"} />
+
 
       {/* NEW HOMEPAGE CAREER SECTION */}
 
