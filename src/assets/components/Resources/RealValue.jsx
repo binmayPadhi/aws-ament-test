@@ -91,7 +91,7 @@ const RealValue = () => {
                     <span className="fs-19">{list.textelements}</span>
                   </p>
                   <p className="fs-19">{list.description25}</p>
-                  <img src={list.image} className="w-100" />
+                  <img src={list.image} alt={list.image} className="w-100" />
                   <p className="fs-19 ">{list.description27}</p>
                   <p className="fs-19 ">{list.description28}</p>
                   <p className="fs-19 ">{list.description29}</p>
