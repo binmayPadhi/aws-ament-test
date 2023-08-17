@@ -35,6 +35,7 @@ import { Helmet } from "react-helmet";
 import ScaleAI from "./Resources/ScaleAI";
 import Isoimg from "./Resources/Isoimg";
 import DataMigration from "./Resources/DataMigration";
+import RealValue from "./Resources/RealValue";
 
 
 function App() {
@@ -99,14 +100,14 @@ function App() {
               path="how-to-scale-ai-in-retail-industry-with-data-management"
               element={<ScaleAI />}
             />
-             <Route
-              exact
-              path="6-steps-to-include-in-your-data-migration-journey"
-              element={<DataMigration />}
+            <Route
+            exact 
+            path="the-real-value-ai-can-bring-to-retail-industry"
+            element={<RealValue />}
             />
              <Route
               exact
-              path="data-migration"
+              path="6-steps-to-include-in-your-data-migration-journey"
               element={<DataMigration />}
             />
             <Route

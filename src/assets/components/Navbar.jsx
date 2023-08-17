@@ -26,7 +26,8 @@ function Navbar(props) {
       url === "/blogs/What-is-AIOps-and-explore-how-it-is-revolutionizing-the-retail-industry-by-solving-complex-challenges" ||
       url === "/blogs/Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment" ||
       url === "/blogs/how-to-scale-ai-in-retail-industry-with-data-management" ||
-      url === "/blogs/6-steps-to-include-in-your-data-migration-journey" || url === "/blogs/data-migration"
+      url === "/blogs/6-steps-to-include-in-your-data-migration-journey" ||
+      url === "/blogs/the-real-value-ai-can-bring-to-retail-industry"
      
     ) {
       setNavcolor("app");

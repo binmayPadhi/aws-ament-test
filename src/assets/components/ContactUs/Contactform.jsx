@@ -148,7 +148,7 @@ const Contactform = () => {
             <h5 className=" clr-black  fw-bold-700 fs-16 mt-4">
               Are you ready to become a digital-first organization?
             </h5>
-            <p className=" clr-black  mt-5 fs-16 fw-bold-400 text-justify">
+            <p className="clr-black  mt-5 fs-16 fw-bold-400 text-justify">
               We are experts in solving complex business technology challenges
               in today's unprecedented situations, leveraging our digital
               frameworks and technology accelerators.
