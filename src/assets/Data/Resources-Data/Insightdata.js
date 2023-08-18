@@ -10,7 +10,7 @@ const Insightdata = {
   carddetails: [
     {
       id:"the-real-value-ai-can-bring-to-retail-industry",
-      date:"August 17, 2023",
+      date:"August 16, 2023",
       title:"The Real Value AI Can Bring to Your Retail Business",
       description:"Did you know? Gartner predicts that by 2025, 80% of customer interactions will be managed by AI technologies, leading to more personalized experiences....",
       image: blog7,

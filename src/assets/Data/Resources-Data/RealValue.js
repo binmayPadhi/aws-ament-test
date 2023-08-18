@@ -1,6 +1,6 @@
 import image from "../../images/Resources-page/blogcenter.png";
-import image1 from "../../images/Resources-page/supplyChain.png";
-import image2 from "../../images/Resources-page/customer_prediction.png"
+import image1 from "../../images/Resources-page/SupplyChainimg.png";
+import image2 from "../../images/Resources-page/customer_predictionimg.png";
 const Realdata= [
     {
         id:1,
