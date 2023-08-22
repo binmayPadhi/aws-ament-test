@@ -91,7 +91,7 @@ const Pressdata = () =>{
                   <p className="fs-19">
                     {list.paragraph2}{" "}
                     <span>
-                      <a className="fs-18" target="_blank" href={list.links2}>
+                      <a className="fs-18" alt="dst2" target={list.target !=='' ? '_blank' : ''} href={list.links2}>
                         {list.dst2}
                       </a>
                     </span>
@@ -102,7 +102,7 @@ const Pressdata = () =>{
                 
                  <p className="fs-18">{list.description4}
                  <span>
-                 <a className="fs-18" target="_blank" href={list.links3}>
+                 <a className="fs-18" alt="tar" target="_blank" href={list.links3}>
                         {list.dst3}
                       </a>
                  </span>
