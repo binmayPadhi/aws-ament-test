@@ -6,7 +6,7 @@ import hadoopLogo from "../../images/HomePage/partner-logos/hadoop.png";
 import siliconLogo from "../../images/HomePage/partner-logos/silicon.png";
 import teamleaseLogo from "../../images/HomePage/partner-logos/teamlease.png";
 import cioreviewLogo from "../../images/HomePage/partner-logos/cioreview.png";
-import business from "../../images/HomePage/Business Connect Award.png";
+import BusinessLogo from "../../images/HomePage/Business Connect Award.png";
 const ourPartnerData = [
     {
         id : 1,
@@ -42,8 +42,8 @@ const ourPartnerData = [
         partnerLogo : cioreviewLogo
     },
     {
-        id : 9,
-        partnerLogo : business
+        id: 9,
+        partnerLogo: BusinessLogo
     }
 ];
 

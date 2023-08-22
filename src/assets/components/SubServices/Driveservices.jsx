@@ -1,7 +1,18 @@
 import React from "react";
 import Driveimg from "../../images/Service-Page/Drive.jpg";
+import { useNavigate } from "react-router-dom";
 
 const Driveservices = () => {
+  const history = useNavigate();
+  const redirectTo = (e, name) => {
+    
+    e.preventDefault();
+    if (name === "contact") {
+      history(`/contactus`);
+    } else {
+      history(`/careers`);
+    }
+  };
     return (
         <>
           <div
@@ -21,9 +32,10 @@ const Driveservices = () => {
               Start your digital journey today and become a forward-thinking
               organisation
             </p>
+            <p className="drive_para fw-bold-600">Ready to go for growth?</p>
             <p className="w-100 d-flex justify-content-center mt-4">
-              <p className="btn_drive">
-                Request your FREE Data Engineering consultation
+              <p className="btn_drive cr-pointer"  onClick={(e) => redirectTo(e, "contact")}>
+                Talk to our experts
               </p>
             </p>
           </div>

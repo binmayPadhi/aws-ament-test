@@ -1,8 +1,8 @@
 import React from "react";
 import Datapress from "../Data/Privacypolicy-Data/Datapress";
 import { Helmet } from "react-helmet";
-import AboutUsBG from "../images/About-Us-Page/worker-reading-news-with-tablet.png";
-
+import Pressimg from "../images/HomePage/press-releaseimg.png";
+import Driveservices from "./SubServices/Driveservices";
 const Pressdata = () =>{
     return(
         <>
@@ -15,15 +15,38 @@ const Pressdata = () =>{
       </Helmet>
         <div className="">
         <div
-        className="sub-service-intro position-realtive "
+        className="sub-service-intro position-realtive"
         style={{
-          backgroundImage: `url(${AboutUsBG})`,
+          backgroundImage: `url(${Pressimg})`,
           backgroundAttachment: "scroll",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           width: "100%",
         }}
-      > </div>
+      >
+       
+        <div className="w-85 mx-auto">
+          <div className="text-center-img">
+            <div className="row">
+              <div className="col-lg-7 col-md-7 col-sm-12">
+                <h2
+                  className="fw-bold-600 text-white fs-35 text-capitalize"
+                  data-text="Your Tech Innovation Catalyst"
+                >
+                 Press Release
+                </h2>
+                <p className="fw-bold-400 fs-18 text-white mb-5 mr-5 mt-4">
+                Amnet Digital named the "Best AI & Data Analytics Company Of The Year 2023" by Business Connect
+                </p>
+              </div>
+              <div className="col-lg-4 col-md-4 col-sm-12"></div>
+            </div>
+          </div>
+          <div className="bottom-img-about w-100">
+            
+          </div>
+        </div>
+      </div>
       <div className="mt-5 w-80 mx-auto">
          {Datapress.map((list) =>{
             return(
@@ -89,6 +112,9 @@ const Pressdata = () =>{
             )
          })}
          </div>
+        </div>
+        <div className="mt-5">
+        <Driveservices />
         </div>
         </>
     )
