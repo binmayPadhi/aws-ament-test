@@ -1082,6 +1082,13 @@ function Navbar(props) {
                     >
                       Webinars
                     </NavLink>
+                    <NavLink
+                      className="dropdown-item sub-service-dropdown-item"
+                      onClick={closeNavpopup}
+                      to={`/press-release/amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023`}
+                    >
+                      Press Release
+                    </NavLink>
                   </div>
                 </div>
 
