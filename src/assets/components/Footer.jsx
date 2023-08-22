@@ -21,6 +21,7 @@ import cross from "../images/HomePage/close-icon.png";
 import { useLocation } from "react-router-dom";
 import ISO from "../images/Resources-page/iso1.png";
 import Equalitas from "../images/Resources-page/equalitas1.png";
+import Business from "../images/HomePage/Business Connect Award.png";
 
 
 
@@ -50,14 +51,10 @@ function Footer() {
           link: "/odc-and-iso-recognized-certification",
           target: "_balnk",
           image:ISO,
+          Blink:"/press-release/amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023",
           image1:Equalitas,
         },
-        // {
-        //   id: "14",
-        //   name: "",
-        //   link: "/contactus",
-        //   target: "_balnk",
-        // },
+        
       ],
     },
     {
@@ -205,10 +202,11 @@ function Footer() {
           target: "_balnk",
         },
         {
-          id: "54",
+          id: 54,
           name: "",
           link: "/odc-and-iso-recognized-certification",
           target: "_balnk",
+          Blink:"/press-release/amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023",
           certifiedimage:ISO,
           certifiedimage1:Equalitas,
         },
@@ -346,12 +344,12 @@ function Footer() {
                           >
                            <MediaQuery minWidth={760} >
                             {val.hasOwnProperty('image') === true ? 
-                           <p className="mb-0 mt-md-5 spacing-first"><a href={val.id}><img  src={val.image}/></a> <a href={val.id}><img  src={val.image1}/></a></p>: val.name
+                           <p className="mb-0 mt-md-5 spacing-first"><a href={val.id}><img  src={val.image}/></a> <a href={val.id}><img  src={val.image1}/></a> <a href={val.Blink}><img  src={val.image2}/></a></p>: val.name
                           }
                             </MediaQuery>
                             <MediaQuery minWidth={320} maxWidth={759}>
                             {val.hasOwnProperty('certifiedimage') === true ? 
-                            <a href={val.id}><span> <img className="spacing-icosn" src={val.certifiedimage}/> <img className="spacing-icosn" src={val.certifiedimage1}/></span></a> : val.name
+                            <a href={val.id}><span> <img className="spacing-icosn" src={val.certifiedimage}/> <img className="spacing-icosn" src={val.certifiedimage1}/> <img className="spacing-icosn" src={val.certifiedimage2}/></span></a> : val.name
                           }
                             </MediaQuery>      
                           </Link>
