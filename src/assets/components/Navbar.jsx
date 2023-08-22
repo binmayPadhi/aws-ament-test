@@ -27,7 +27,8 @@ function Navbar(props) {
       url === "/blogs/Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment" ||
       url === "/blogs/how-to-scale-ai-in-retail-industry-with-data-management" ||
       url === "/blogs/6-steps-to-include-in-your-data-migration-journey" ||
-      url === "/blogs/the-real-value-ai-can-bring-to-retail-industry"
+      url === "/blogs/the-real-value-ai-can-bring-to-retail-industry"  ||
+      url === "/press-release/amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023"
      
     ) {
       setNavcolor("app");
@@ -1002,6 +1003,36 @@ function Navbar(props) {
                                 }
                               >
                                 {`Watch the webinar >`}
+                              </span>
+                            </p>
+                          </div>
+                          <div className="col-lg-4">
+                            <p className="service-aiml mt-5">
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `press-release/amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023`
+                                  )
+                                }
+                                className="cr-pointer"
+                              >
+                                Press Release
+                              </span>
+                            </p>
+                            <p className="fs-13 fw-bold-400 text-digital mt-2">
+                            Amnet Digital named the "Best AI & Data Analytics Company Of The Year 2023" by Business Connect
+                            </p>
+                            <p className="sub-service-links dropdown-view-all-link ">
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(
+                                    e,
+                                    `press-release/amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023`
+                                  )
+                                }
+                              >
+                                {`Read the Press Release >`}
                               </span>
                             </p>
                           </div>

@@ -24,6 +24,7 @@ import Equalitas from "../images/Resources-page/equalitas1.png";
 
 
 
+
 function Footer() {
   const emailDetails = useRef();
   const { pathname } = useLocation();
@@ -48,17 +49,13 @@ function Footer() {
           id: "13",
           name: "",
           link: "/odc-and-iso-recognized-certification",
+          link1: "/press-release/amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023",
           target: "_balnk",
           image:ISO,
           image1:Equalitas,
-        },
-        // {
-        //   id: "14",
-        //   name: "",
-        //   link: "/contactus",
-        //   target: "_balnk",
-        // },
-      ],
+          image2: ''
+        }
+     ],
     },
     {
       id: 2,
@@ -211,8 +208,9 @@ function Footer() {
           target: "_balnk",
           certifiedimage:ISO,
           certifiedimage1:Equalitas,
+          certifiedimage2:'',
         },
-      ],
+     ],
     },
   ];
 
@@ -346,12 +344,13 @@ function Footer() {
                           >
                            <MediaQuery minWidth={760} >
                             {val.hasOwnProperty('image') === true ? 
-                           <p className="mb-0 mt-md-5 spacing-first"><a href={val.id}><img  src={val.image}/></a> <a href={val.id}><img  src={val.image1}/></a></p>: val.name
+                           <p className="mb-0 mt-md-5 spacing-first"><a href={val.id}><img  src={val.image}/></a> <a href={val.id}><img  src={val.image1}/></a> 
+                           <a href={val.id}><img  src={val.image2}/></a></p>: val.name
                           }
                             </MediaQuery>
                             <MediaQuery minWidth={320} maxWidth={759}>
                             {val.hasOwnProperty('certifiedimage') === true ? 
-                            <a href={val.id}><span> <img className="spacing-icosn" src={val.certifiedimage}/> <img className="spacing-icosn" src={val.certifiedimage1}/></span></a> : val.name
+                            <a href={val.id}><span> <img className="spacing-icosn" src={val.certifiedimage}/> <img className="spacing-icosn" src={val.certifiedimage1}/> <img className="spacing-icosn" src={val.certifiedimage2}/></span></a> : val.name
                           }
                             </MediaQuery>      
                           </Link>

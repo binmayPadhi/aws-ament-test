@@ -2007,7 +2007,7 @@ label {
 }
 
 .about-us-desc {
-  padding: 130px 0;
+  padding: 0;
   font-family: "Poppins", sans-serif;
 }
 
@@ -2087,6 +2087,10 @@ label {
   opacity: 0.8;
 }
 
+.about-us-desc {
+  padding: 15px 0;
+}
+
 /* ABOUT US PAGE RESPONSIVE SECTION */
 /* .............................................................................................................................. */
 
@@ -2146,9 +2150,7 @@ label {
     float: none;
   }
 
-  .about-us-desc {
-    padding: 15px 0;
-  }
+ 
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
@@ -6648,4 +6650,18 @@ color: #FFFFFF;
 
 .img-center{
   height:300px;
+}
+
+.press-title{
+  color:black;
+  font-size:25px;
+  font-weight:800;
+}
+
+.w-80{
+  width:80%!important;
+}
+
+.press-start{
+  margin-top:85px!important;
 }
