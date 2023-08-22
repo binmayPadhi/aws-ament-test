@@ -36,6 +36,10 @@ import ScaleAI from "./Resources/ScaleAI";
 import Isoimg from "./Resources/Isoimg";
 import DataMigration from "./Resources/DataMigration";
 import RealValue from "./Resources/RealValue";
+import Product from "./Products/products";
+import ProductSwiftinsight from "./Products/Productswiftinsight";
+import Pressrelease from "./Pressrelease";
+import Pressdata from "./Pressdata";
 
 
 function App() {
@@ -76,6 +80,9 @@ function App() {
           </Route>
           <Route path="/casestudies" element={<CaseStudies />} />
           <Route path="/legalresources" element={<Legalterms />} />
+          <Route path="/products" element={<Product />}>
+             <Route exact path="" element={<ProductSwiftinsight />} />
+          </Route>
           <Route path="/blogs" element={<Blog />}>
             <Route exact path="" element={<Insighthome />} />
             <Route
@@ -128,7 +135,9 @@ function App() {
               element={<Thankswebinar />}
             />
           </Route>
-           
+          <Route path="/press-release" element={<Pressrelease />} >
+           <Route path="amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023" element={<Pressdata />} />
+           </Route>
           <Route path="/cookiespolicy" element={<CookiesPolicy />} />
           <Route path="/privacypolicy" element={<Privacypolicy />} />
           <Route path="/termsandconditions" element={<Termsandconditions />} />
