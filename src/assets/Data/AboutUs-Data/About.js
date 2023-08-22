@@ -39,7 +39,6 @@ import image2 from "../../images/HomePage/plane.svg";
 import image3 from "../../images/HomePage/hand.svg";
 import image4 from "../../images/HomePage/smile.svg";
 
-
 const Aboutdata = {  
   whoweare: [
     {

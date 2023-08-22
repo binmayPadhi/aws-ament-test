@@ -27,9 +27,7 @@ function Navbar(props) {
       url === "/blogs/Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment" ||
       url === "/blogs/how-to-scale-ai-in-retail-industry-with-data-management" ||
       url === "/blogs/6-steps-to-include-in-your-data-migration-journey" ||
-      url === "/blogs/the-real-value-ai-can-bring-to-retail-industry"  ||
-      url === "/press-release/amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023"
-     
+      url === "/blogs/the-real-value-ai-can-bring-to-retail-industry" 
     ) {
       setNavcolor("app");
     } else {
