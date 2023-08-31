@@ -840,7 +840,7 @@ function Navbar(props) {
                 </div>
 
 
-                {/* PRODUCTS DROPDOWN */}
+                {/* PRODUCTS desktop DROPDOWN */}
                 <div
                   className="service-dropdown-menu"
                   onMouseOver={() => showDropdown("products")}
@@ -925,6 +925,7 @@ function Navbar(props) {
                     </div>
                   </div>
                 </div>
+                {/* PRODUCTS mobile DROPDOWN */}
                 <div
                   className="dropdown sub-service-dropdown"
                   style={{ marginTop: "5.5px" }}
@@ -937,8 +938,8 @@ function Navbar(props) {
                     aria-expanded="false"
                   >
                     <NavLink
-                      to="/press-release"
-                      style={navStyle}
+                       to="/products"
+                       style={navStyle}
                       onClick={closeNavpopup}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                     >
@@ -954,7 +955,7 @@ function Navbar(props) {
                   >
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to="/products"
+                      to={`/products`}
                       target={""}
                       onClick={closeNavpopup}
                     >
@@ -1207,7 +1208,7 @@ function Navbar(props) {
                     aria-expanded="false"
                   >
                     <NavLink
-                      to="/blogs"
+                      to={`/blogs`}
                       style={navStyle}
                       onClick={closeNavpopup}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
