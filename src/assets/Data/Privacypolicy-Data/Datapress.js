@@ -60,14 +60,13 @@ const Datapress = [
         des2:" that helps businesses make data-driven decisions. We offer interconnected information technology services, solutions & products that enable enterprises to realize the true potential of Data, Analytics & AI. Innovation bundled with automation, robustness, scalability & security to",
         textelement2:" empower ",
         des3:"customers is our forte. With the most ingenious talent pool that strives to deliver value through actionable insights to our customers, the associates at Amnet Digital are constantly exploring & implementing innovation in the Retail, eCommerce, Information Management, Healthcare, Manufacturing, Real Estate, HR & Staffing industries that help businesses make data-driven decisions.",
-        target: ''
+
     },
     {
         id:9,
         paragraph2:"First, published on Business Connect -",
         links2:"https://businessconnectindia.in/amnet-digital/",
         dst2:"https://businessconnectindia.in/amnet-digital/",
-        target: '_blank'
     },
     {
         id:10,

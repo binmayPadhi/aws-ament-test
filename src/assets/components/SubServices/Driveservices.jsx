@@ -30,9 +30,9 @@ const Driveservices = () => {
             <p className="drive">DRIVE REAL BUSINESS VALUE</p>
             <p className="drive_para mt-4">
               Start your digital journey today to become a forward-thinking
-              organization!
+              organisation
             </p>
-            <p className="drive_para fw-bold-600 mb-3">Ready to go for growth?</p>
+            <p className="drive_para fw-bold-600 mb-2">Ready to go for growth?</p>
             <p className="w-100 d-flex justify-content-center mt-5">
               <p className="btn_drive cr-pointer"  onClick={(e) => redirectTo(e, "contact")}>
                 Talk to our experts

@@ -108,6 +108,16 @@ const Contactform = () => {
       name: "Quality Assurance",
       link: "",
     },
+    {
+      id: 41,
+      name: "Swift Insights",
+      link: "",
+    },
+    {
+      id: 42,
+      name: "Swift Data",
+      link: "",
+    },
   ];
   const {
     register,
