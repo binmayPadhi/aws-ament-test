@@ -76,8 +76,8 @@ function Footer() {
         {
           id: 21,
           name: "Swift Insights",
-          link: "https://swiftinsights.ai/",
-          target: "_balnk",
+          link: "/products",
+          target: "",
         },
         {
           id: 22,
@@ -350,7 +350,7 @@ function Footer() {
                           <Link
                             to={val.link}
                             target={
-                              val.id !== 21 && val.id !== 52  ? "" : "_blank"
+                              val.id !== 25 && val.id !== 52  ? "" : "_blank"
                             }
                             className="desName cr-pointer text-decoration-none fs-13 text-black"
                           >

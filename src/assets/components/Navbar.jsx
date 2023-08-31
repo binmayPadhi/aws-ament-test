@@ -260,141 +260,7 @@ function Navbar(props) {
                     </NavLink>
                   </div>
                 </div>
-                {/* PRODUCTS DROPDOWN */}
-                <div
-                  className="service-dropdown-menu"
-                  onMouseOver={() => showDropdown("products")}
-                  onMouseOut={() => hideDropdown("products")}
-                  style={navStyle}
-                >
-                  <NavLink
-                    to="/products"
-                    onClick={() => (window.location.href = "/products")}
-                    style={navStyle}
-                    className={color === "app" ? "text-black" : "text-white"}
-                  >
-                    Products
-                  </NavLink>
-                  <div className="arrow-up-products hide"></div>
-                  <div
-                    className="dropdown-content-products"
-                    style={{ width: "95%", top: "40px" }}
-                    onClick={() => hideDropdown("products")}
-                  >
-                    <div className="row">
-                      <div className="col-lg-3 bg-nav-white pt-5">
-                        <h1 className="fs-13 fw-bold-400 text-new">
-                          What's New
-                        </h1>
-                        <h1 className="fs-13 fw-bold-500 text-underline text-black">
-                        Products & Accelerators
-                        </h1>
-                        <p className="fs-13 fw-bold-400 text-digital">
-                        Presenting cutting-edge products that accelerate your digital & data transformation journey!
-                        </p>
-                      </div>
-                      <div className="col-lg-9 bg-dropdown ">
-                        <div className="row pb-4">
-                          <div className="col-lg-4">
-                            <p className="service-aiml mt-5">
-                              <span
-                                onClick={(e) =>
-                                  serviceTo(e, `/`)
-                                }
-                                className="cr-pointer"
-                              >
-                              Swift Insights
-                              </span>
-                            </p>
-                            <p className="fs-13 fw-bold-400 text-digital mt-2">
-                            Data Ingestion to visualisation powered by AI
-                            </p>
-                            <a className="sub-service-links dropdown-view-all-link mb-5" href="https://swiftinsights.ai/" target="/blank">
-                              <span                            
-                              >
-                                {`See more >`}
-                              </span>
-                            </a>
-                            <p className="fs-13 fw-bold-400 text-digital mt-5 mb-5">
-                              
-                            </p>                           
-                            <a className="view-style mt-5 mb-5" href="/products">
-                            <span
-                                
-                              >
-                                {`View All Products >`}
-                              </span>
-                            </a>
-                        </div>
-                        <div className="col-lg-4">
-                            <p className="service-aiml mt-5">
-                              <span
-                                className="cr-pointer"
-                              >
-                              Swift Data
-                              </span>
-                            </p>
-                            <p className="fs-13 fw-bold-400 text-digital mt-2">
-                            Cloud-first low-code data migration accelerator
-                            </p>
-                            <a className="sub-service-links dropdown-view-all-link " href="/products" target="/blank">
-                              <span
-                               
-                              >
-                                {`See more >`}
-                              </span>
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="dropdown sub-service-dropdown"
-                  style={{ marginTop: "5.5px" }}
-                >
-                  <div
-                    className="dropdown-toggle d-flex"
-                    id="dropdownMenuButton"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    <NavLink
-                      to="/press-release"
-                      style={navStyle}
-                      onClick={closeNavpopup}
-                      activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
-                    >
-                      Products
-                    </NavLink>
-                    <div style={navStyle}>
-                      <i className="fa fa-angle-right" aria-hidden="true"></i>
-                    </div>
-                  </div>
-                  <div
-                    className="dropdown-menu"
-                    aria-labelledby="dropdownMenuButton"
-                  >
-                    <NavLink
-                      className="dropdown-item sub-service-dropdown-item"
-                      href="https://swiftinsights.ai/"
-                      target={"_blank"}
-                      onClick={closeNavpopup}
-                    >
-                      SwiftInsights
-                    </NavLink>
-                    <NavLink
-                      className="dropdown-item sub-service-dropdown-item"
-                      target={""}
-                      onClick={closeNavpopup}
-                      to={`/products`}
-                    >
-                      SwiftData
-                    </NavLink>
-                  </div>
-                </div>
+                
 
                 {/* SERVICE DROPDOWN MENU   */}
 
@@ -969,6 +835,138 @@ function Navbar(props) {
                       onClick={closeNavpopup}
                     >
                       Data Annotation
+                    </NavLink>
+                  </div>
+                </div>
+
+
+                {/* PRODUCTS DROPDOWN */}
+                <div
+                  className="service-dropdown-menu"
+                  onMouseOver={() => showDropdown("products")}
+                  onMouseOut={() => hideDropdown("products")}
+                  style={navStyle}
+                >
+                  <NavLink
+                    to="/products"
+                    onClick={() => (window.location.href = "/products")}
+                    style={navStyle}
+                    className={color === "app" ? "text-black" : "text-white"}
+                  >
+                    Products
+                  </NavLink>
+                  <div className="arrow-up-products hide"></div>
+                  <div
+                    className="dropdown-content-products"
+                    style={{ width: "95%", top: "40px" }}
+                    onClick={() => hideDropdown("products")}
+                  >
+                    <div className="row">
+                      <div className="col-lg-3 bg-nav-white pt-5">
+                        <h1 className="fs-13 fw-bold-400 text-new">
+                          What's New
+                        </h1>
+                        <h1 className="fs-13 fw-bold-500 text-underline text-black">
+                        Products & Accelerators
+                        </h1>
+                        <p className="fs-13 fw-bold-400 text-digital">
+                        Presenting cutting-edge products that accelerate your digital & data transformation journey!
+                        </p>
+                      </div>
+                      <div className="col-lg-9 bg-dropdown ">
+                        <div className="row pb-4">
+                          <div className="col-lg-4">
+                            <p className="service-aiml mt-5">
+                              <span                            
+                              >
+                              Swift Insights
+                              </span>
+                            </p>
+                            <p className="fs-13 fw-bold-400 text-digital mt-2">
+                            Data Ingestion to visualisation powered by AI
+                            </p>
+                            <a className="sub-service-links dropdown-view-all-link mb-5" href="/products" >
+                              <span                            
+                              >
+                                {`See more >`}
+                              </span>
+                            </a>
+                            <p className="fs-13 fw-bold-400 text-digital mt-5 mb-5">
+                              
+                            </p>                           
+                            <a className="view-style mt-5 mb-5" href="/products">
+                            <span                               
+                              >
+                                {`View All Products >`}
+                              </span>
+                            </a>
+                        </div>
+                        <div className="col-lg-4">
+                            <p className="service-aiml mt-5">
+                              <span
+                                
+                              >
+                              Swift Data
+                              </span>
+                            </p>
+                            <p className="fs-13 fw-bold-400 text-digital mt-2">
+                            Cloud-first low-code data migration accelerator
+                            </p>
+                            <a className="sub-service-links dropdown-view-all-link " href="/products" >
+                              <span
+                               
+                              >
+                                {`See more >`}
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="dropdown sub-service-dropdown"
+                  style={{ marginTop: "5.5px" }}
+                >
+                  <div
+                    className="dropdown-toggle d-flex"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <NavLink
+                      to="/press-release"
+                      style={navStyle}
+                      onClick={closeNavpopup}
+                      activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
+                    >
+                      Products
+                    </NavLink>
+                    <div style={navStyle}>
+                      <i className="fa fa-angle-right" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                  <div
+                    className="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <NavLink
+                      className="dropdown-item sub-service-dropdown-item"
+                      href="/products"
+                      target={""}
+                      onClick={closeNavpopup}
+                    >
+                      Swift Insights
+                    </NavLink>
+                    <NavLink
+                      className="dropdown-item sub-service-dropdown-item"
+                      target={""}
+                      onClick={closeNavpopup}
+                      to={`/products`}
+                    >
+                      Swift Data
                     </NavLink>
                   </div>
                 </div>

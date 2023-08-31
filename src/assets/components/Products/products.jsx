@@ -66,9 +66,9 @@ const Product = () => {
         <div className="w-88 mx-auto">
         <div className="row">
           <div className="col-lg-5 analytics-space">
-             <p className="analytics-font">Data Movement Made Nimble &  <span className="color-blue fw-bold-600">Agile!</span></p>
-             <p className="let-styling fw-bold-600">Accelerate your data migration or setup instant pipelines!</p>
-             <p className="fs-19">Swift Data is a cloud-first low-code data movement accelerator that delivers high quality data from any source to your target systems & enables you to set up instant data pipelines!
+             <p className="analytics-font">Data Movement Made Nimble &  <span className="color-blue fw-bold-600">Agile</span></p>
+             <p className="let-styling fw-bold-600">Accelerate your data migration or setup instant pipelines</p>
+             <p className="fs-19">Swift Data is a cloud-first low-code data movement accelerator that delivers high quality data from any source to your target systems & enables you to set up instant data pipelines
              </p>
              <div className="d-flex">
                 <a
