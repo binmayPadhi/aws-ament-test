@@ -27,7 +27,8 @@ function Navbar(props) {
       url === "/blogs/Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment" ||
       url === "/blogs/how-to-scale-ai-in-retail-industry-with-data-management" ||
       url === "/blogs/6-steps-to-include-in-your-data-migration-journey" ||
-      url === "/blogs/the-real-value-ai-can-bring-to-retail-industry" 
+      url === "/blogs/the-real-value-ai-can-bring-to-retail-industry" ||
+      url === "/products" 
     ) {
       setNavcolor("app");
     } else {
@@ -100,7 +101,7 @@ function Navbar(props) {
       document.getElementsByClassName("arrow-up")[0].classList.add("show");
       document.getElementsByClassName("dropdown-content")[0].style.display =
         "block";
-    } else {
+    } else if (val == "insights") {
       document
         .getElementsByClassName("arrow-up-insights")[0]
         .classList.remove("hide");
@@ -110,6 +111,16 @@ function Navbar(props) {
       document.getElementsByClassName(
         "dropdown-content-blog"
       )[0].style.display = "block";
+    } else {
+      document
+      .getElementsByClassName("arrow-up-products")[0]
+      .classList.remove("hide");
+    document
+      .getElementsByClassName("arrow-up-products")[0]
+      .classList.add("show");
+    document.getElementsByClassName(
+      "dropdown-content-products"
+    )[0].style.display = "block";
     }
   }
   function hideDropdown(val) {
@@ -118,7 +129,7 @@ function Navbar(props) {
       document.getElementsByClassName("arrow-up")[0].classList.add("hide");
       document.getElementsByClassName("dropdown-content")[0].style.display =
         "none";
-    } else {
+    } else if (val == "insights") {
       document
         .getElementsByClassName("arrow-up-insights")[0]
         .classList.remove("show");
@@ -127,6 +138,16 @@ function Navbar(props) {
         .classList.add("hide");
       document.getElementsByClassName(
         "dropdown-content-blog"
+      )[0].style.display = "none";
+    } else {
+      document
+        .getElementsByClassName("arrow-up-products")[0]
+        .classList.remove("show");
+      document
+        .getElementsByClassName("arrow-up-products")[0]
+        .classList.add("hide");
+      document.getElementsByClassName(
+        "dropdown-content-products"
       )[0].style.display = "none";
     }
   }
@@ -239,6 +260,142 @@ function Navbar(props) {
                     </NavLink>
                   </div>
                 </div>
+                {/* PRODUCTS DROPDOWN */}
+                <div
+                  className="service-dropdown-menu"
+                  onMouseOver={() => showDropdown("products")}
+                  onMouseOut={() => hideDropdown("products")}
+                  style={navStyle}
+                >
+                  <NavLink
+                    to="/products"
+                    onClick={() => (window.location.href = "/products")}
+                    style={navStyle}
+                    className={color === "app" ? "text-black" : "text-white"}
+                  >
+                    Products
+                  </NavLink>
+                  <div className="arrow-up-products hide"></div>
+                  <div
+                    className="dropdown-content-products"
+                    style={{ width: "95%", top: "40px" }}
+                    onClick={() => hideDropdown("products")}
+                  >
+                    <div className="row">
+                      <div className="col-lg-3 bg-nav-white pt-5">
+                        <h1 className="fs-13 fw-bold-400 text-new">
+                          What's New
+                        </h1>
+                        <h1 className="fs-13 fw-bold-500 text-underline text-black">
+                        Products & Accelerators
+                        </h1>
+                        <p className="fs-13 fw-bold-400 text-digital">
+                        Presenting cutting-edge products that accelerate your digital & data transformation journey!
+                        </p>
+                      </div>
+                      <div className="col-lg-9 bg-dropdown ">
+                        <div className="row pb-4">
+                          <div className="col-lg-4">
+                            <p className="service-aiml mt-5">
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/`)
+                                }
+                                className="cr-pointer"
+                              >
+                              Swift Insights
+                              </span>
+                            </p>
+                            <p className="fs-13 fw-bold-400 text-digital mt-2">
+                            Data Ingestion to visualisation powered by AI
+                            </p>
+                            <a className="sub-service-links dropdown-view-all-link mb-5" href="https://swiftinsights.ai/" target="/blank">
+                              <span                            
+                              >
+                                {`See more >`}
+                              </span>
+                            </a>
+                            <p className="fs-13 fw-bold-400 text-digital mt-5 mb-5">
+                              
+                            </p>                           
+                            <a className="view-style mt-5 mb-5" href="/products">
+                            <span
+                                
+                              >
+                                {`View All Products >`}
+                              </span>
+                            </a>
+                        </div>
+                        <div className="col-lg-4">
+                            <p className="service-aiml mt-5">
+                              <span
+                                className="cr-pointer"
+                              >
+                              Swift Data
+                              </span>
+                            </p>
+                            <p className="fs-13 fw-bold-400 text-digital mt-2">
+                            Cloud-first low-code data migration accelerator
+                            </p>
+                            <a className="sub-service-links dropdown-view-all-link " href="/products" target="/blank">
+                              <span
+                               
+                              >
+                                {`See more >`}
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="dropdown sub-service-dropdown"
+                  style={{ marginTop: "5.5px" }}
+                >
+                  <div
+                    className="dropdown-toggle d-flex"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <NavLink
+                      to="/press-release"
+                      style={navStyle}
+                      onClick={closeNavpopup}
+                      activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
+                    >
+                      Products
+                    </NavLink>
+                    <div style={navStyle}>
+                      <i className="fa fa-angle-right" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                  <div
+                    className="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <NavLink
+                      className="dropdown-item sub-service-dropdown-item"
+                      href="https://swiftinsights.ai/"
+                      target={"_blank"}
+                      onClick={closeNavpopup}
+                    >
+                      SwiftInsights
+                    </NavLink>
+                    <NavLink
+                      className="dropdown-item sub-service-dropdown-item"
+                      target={""}
+                      onClick={closeNavpopup}
+                      to={`/products`}
+                    >
+                      SwiftData
+                    </NavLink>
+                  </div>
+                </div>
+
                 {/* SERVICE DROPDOWN MENU   */}
 
                 <div
@@ -1081,13 +1238,6 @@ function Navbar(props) {
                       to={`/webinars/reshaping-the-retail-industry-through-AI`}
                     >
                       Webinars
-                    </NavLink>
-                    <NavLink
-                      className="dropdown-item sub-service-dropdown-item"
-                      onClick={closeNavpopup}
-                      to={`/press-release/amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023`}
-                    >
-                      Press Release
                     </NavLink>
                   </div>
                 </div>
