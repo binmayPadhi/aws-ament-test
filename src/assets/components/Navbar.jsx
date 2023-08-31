@@ -954,7 +954,7 @@ function Navbar(props) {
                   >
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      href="/products"
+                      to="/products"
                       target={""}
                       onClick={closeNavpopup}
                     >
