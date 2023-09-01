@@ -47,33 +47,45 @@ function Footer() {
         },
         {
           id: "13",
+          name: "Our Partners",
+          link: "",
+          target: "_balnk",
+        },
+        {
+          id: "14",
+          name: "Leadership Team",
+          link: "",
+          target: "_balnk",
+        },
+        {
+          id: "15",
           name: "",
           link: "/odc-and-iso-recognized-certification",
           target: "_balnk",
           image:ISO,
-          Blink:"/press-release/amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023",
           image1:Equalitas,
+          image2:Business,
         },
         
       ],
     },
     {
       id: 2,
-      headingName: "ACCELERATORS",
+      headingName: "PRODUCTS & ACCELERATORS",
       sublist: [
         {
           id: 21,
           name: "Swift Insights",
-          link: "https://swiftinsights.ai/",
-          target: "_balnk",
+          link: "/products",
+          target: "",
         },
-        // {
-        //   id: 22,
-        //   name: "Swift Data",
-        //   link: "",
-        //   target: "_balnk",
-        //   tooltip: "Coming Soon...",
-        // },
+        {
+          id: 22,
+          name: "Swift Data",
+          link: "/products",
+          target: " ",
+          tooltip: "Coming Soon...",
+        },
         // {
         //   id: 23,
         //   name: "Intelligent Document Processor",
@@ -143,44 +155,44 @@ function Footer() {
         },
       ],
     },
-    // {
-    //   id: 4,
-    //   headingName: "INDUSTRIES",
-    //   sublist: [
-    //     {
-    //       id: 41,
-    //       name: " Retail & Ecommerce",
-    //       link: "",
-    //       target: "_balnk",
-    //     },
-    //     {
-    //       id: 42,
-    //       name: "Information Management",
-    //       link: "",
-    //       target: "_balnk",
-    //     },
-    //     {
-    //       id: 43,
-    //       name: "Healthcare",
-    //       link: "",
-    //       target: "_balnk",
-    //     },
-    //     {
-    //       id: 44,
-    //       name: "HRMS",
-    //       link: "",
-    //       target: "_balnk",
-    //     },
-    //     {
-    //       id: 45,
-    //       name: "Financial Services",
-    //       link: "",
-    //       target: "_balnk",
-    //     },
-    //   ],
-    // },
     {
       id: 4,
+      headingName: "INDUSTRIES",
+      sublist: [
+        {
+          id: 41,
+          name: " Retail & Ecommerce",
+          link: "",
+          target: "_balnk",
+        },
+        {
+          id: 42,
+          name: "Information Management",
+          link: "",
+          target: "_balnk",
+        },
+        {
+          id: 43,
+          name: "Healthcare",
+          link: "",
+          target: "_balnk",
+        },
+        {
+          id: 44,
+          name: "HRMS",
+          link: "",
+          target: "_balnk",
+        },
+        {
+          id: 45,
+          name: "Financial Services",
+          link: "",
+          target: "_balnk",
+        },
+      ],
+    },
+    {
+      id: 5,
       headingName: "RESOURCES",
       sublist: [
         {
@@ -202,13 +214,13 @@ function Footer() {
           target: "_balnk",
         },
         {
-          id: 54,
+          id: "54",
           name: "",
           link: "/odc-and-iso-recognized-certification",
           target: "_balnk",
-          Blink:"/press-release/amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023",
           certifiedimage:ISO,
           certifiedimage1:Equalitas,
+          certifiedimage2:Business,
         },
       ],
     },
@@ -319,13 +331,13 @@ function Footer() {
             <div className="col-md-3 col-lg-3 col-sm-12"></div>
           </div>
         </div>
-        <div className="center-70 mx-auto mb-5">
-          <p className="row  mt-3 mb-3">
-            <div className="col-sm-12 col-xs-12"></div>
+        <div className="w-98 mx-auto mb-5">
+          <p className="row mx-0 mt-3 mb-3">
+            <div className="col-sm-12 col-xs-12 col-md-1 col-lg-1"></div>
             {footerlist.map((list) => {
               return (
                 <p
-                  className="col-md-3 col-lg-3 col-sm-12 col-xs-12 text-md-left text-lg-left text-sm-left"
+                  className="col-md-2 col-lg-2 col-sm-12 col-xs-12"
                   key={list.id}
                 >
                   <h5 className="list-heading heading-padding">
@@ -334,22 +346,22 @@ function Footer() {
                   <ul className="pt-3 heading-padding">
                     {list.sublist.map((val) => {
                       return (
-                        <li key={val.id}>
+                        <li key={val.id} className="pt-2">
                           <Link
                             to={val.link}
                             target={
-                              val.id !== 21 && val.id !== 52  ? "" : "_blank"
+                              val.id !== 25 && val.id !== 52  ? "" : "_blank"
                             }
                             className="desName cr-pointer text-decoration-none fs-13 text-black"
                           >
                            <MediaQuery minWidth={760} >
                             {val.hasOwnProperty('image') === true ? 
-                           <p className="mb-0 mt-md-5 spacing-first"><a href={val.id}><img  src={val.image}/></a> <a href={val.id}><img  src={val.image1}/></a> <a href={val.Blink}><img  src={val.image2}/></a></p>: val.name
+                           <p className="mb-0 mt-md-5 spacing-first"><a href={val.id}><img  src={val.image}/></a> <a href={val.id}><img  src={val.image1}/></a></p>: val.name
                           }
                             </MediaQuery>
                             <MediaQuery minWidth={320} maxWidth={759}>
                             {val.hasOwnProperty('certifiedimage') === true ? 
-                            <a href={val.id}><span> <img className="spacing-icosn" src={val.certifiedimage}/> <img className="spacing-icosn" src={val.certifiedimage1}/> <img className="spacing-icosn" src={val.certifiedimage2}/></span></a> : val.name
+                            <a href={val.id}><span> <img className="spacing-icosn" src={val.certifiedimage}/> <img className="spacing-icosn" src={val.certifiedimage1}/></span></a> : val.name
                           }
                             </MediaQuery>      
                           </Link>
@@ -360,20 +372,7 @@ function Footer() {
                 </p>
               );
             })}
-            {/* <div className="col-lg-5">
-              <Link
-                to=""
-                onClick={(event) => { event.preventDefault(); window.open("ISOpage.pdf"); }}>
-                <img className="img-iso" src={ISO} />
-              </Link>
-              <Link
-                to=""
-                onClick={(event) => { event.preventDefault(); window.open("ISOpage.pdf"); }}>
-               <img className="img-iso1" src={Equalitas} />
-              </Link>
-              
-            </div> */}
-            <div className="col-sm-12 col-xs-12"></div>
+            <div className="col-sm-12 col-xs-12 col-md-1 col-lg-1"></div>
           </p>
         </div>
       </div>

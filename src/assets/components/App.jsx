@@ -80,9 +80,7 @@ function App() {
           </Route>
           <Route path="/casestudies" element={<CaseStudies />} />
           <Route path="/legalresources" element={<Legalterms />} />
-          <Route path="/products" element={<Product />}>
-             <Route exact path="" element={<ProductSwiftinsight />} />
-          </Route>
+          <Route path="/products" element={<Product />} />
           <Route path="/blogs" element={<Blog />}>
             <Route exact path="" element={<Insighthome />} />
             <Route

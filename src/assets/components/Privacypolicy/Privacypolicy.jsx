@@ -4,11 +4,12 @@ import privacypolicydata from "../../Data/Privacypolicy-Data/Privacpoliydata";
 const Privacypolicy = () => {
   return (
     <>
-      <div className="contact-us-intro container-fluid"></div>
+      <div className="contact-us-intro container"></div>
       <div className="cookie-policy new-all-margin">
+       
+        <div className="row ml-0 mr-0 w-85 mx-auto">
         <h1 className="cookie-policy-title">Privacy Policy</h1>
         <h4>Last updated: January 2023</h4>
-        <div className="row ml-0 mr-0">
           {privacypolicydata.map((list, index) => {
             return (
               <div className="col-12  p-0" key={list.id}>
