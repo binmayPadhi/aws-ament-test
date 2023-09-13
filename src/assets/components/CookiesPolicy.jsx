@@ -25,7 +25,7 @@ const CookiesPolicy = () => {
             To find more information, please go to
             <a
               className="px-2 fs-16"
-              href="www.allaboutcookies.org"
+              href="https://www.allaboutcookies.org/"
               target="_blank"
             >
               www.allaboutcookies.org
@@ -34,7 +34,7 @@ const CookiesPolicy = () => {
             Europe, please go to
             <a
               className="px-2 fs-16"
-              href="www.allaboutcookies.org"
+              href="https://youronlinechoices.eu/"
               target="_blank"
             >
               www.youronlinechoices.eu
@@ -92,7 +92,7 @@ const CookiesPolicy = () => {
             Do this for more information on managing cookies see
             <a
               className="px-2 fs-16"
-              href="www.allaboutcookies.org/manage-cookies"
+              href="https://www.allaboutcookies.org/manage-cookies"
               target="_blank"
             >
               www.allaboutcookies.org/manage-cookies
@@ -187,7 +187,7 @@ const CookiesPolicy = () => {
           <br />
           <ul className="mt-2 pl-3 google-links">
             <li>
-              <a className="fs-18" target="_blank" href="http://www.google.com">
+              <a className="fs-18" target="_blank" href="https://support.google.com/chrome/answer/95647?hl=en&co=GENIE.Platform%3DDesktop">
                 Google Chrome
               </a>
             </li>
@@ -195,7 +195,7 @@ const CookiesPolicy = () => {
               <a
                 className="fs-18"
                 target="_blank"
-                href="www.interentexplorer.com"
+                href="https://support.microsoft.com/en-us/windows/delete-and-manage-cookies-168dab11-0753-043d-7c16-ede5947fc64d"
               >
                 Internet Explorer
               </a>
@@ -204,33 +204,33 @@ const CookiesPolicy = () => {
               <a
                 className="fs-18"
                 target="_blank"
-                href="https://www.firefox.com"
+                href="https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer"
               >
                 Mozilla Firefox
               </a>
             </li>
             <li>
-              <a className="fs-18" target="_blank" href="www.google.com">
+              <a className="fs-18" target="_blank" href="https://support.apple.com/en-in/guide/safari/sfri11471/mac">
                 Safari (Desktop)
               </a>
             </li>
             <li>
-              <a className="fs-18" target="_blank" href="www.google.com">
+              <a className="fs-18" target="_blank" href="https://support.apple.com/en-us/HT201265">
                 Safari (Mobile)
               </a>
             </li>
             <li>
-              <a className="fs-18" target="_blank" href="www.google.com">
+              <a className="fs-18" target="_blank" href="https://support.google.com/chrome/answer/95647?hl=en&co=GENIE.Platform%3DAndroid">
                 Android Browser
               </a>
             </li>
             <li>
-              <a className="fs-18" target="_blank" href="www.opera.com">
+              <a className="fs-18" target="_blank" href=" https://www.opera.com/help">
                 Opera
               </a>
             </li>
             <li>
-              <a className="fs-18" target="_blank" href="www.opera.com">
+              <a className="fs-18" target="_blank" href="https://help.opera.com/en/mobile/android/#privacy">
                 Opera Mobile
               </a>
             </li>
@@ -247,7 +247,7 @@ const CookiesPolicy = () => {
             re-visit this Cookie Statement regularly to stay informed about our
             use of cookies and related technologies. For more information
             relating to cookies, you may contact{" "}
-            <a className="fs-16 px-2" href="">
+            <a className="fs-16 px-2" href="/privacypolicy">
               privacy@amnetigital.com
             </a>
           </div>
@@ -472,7 +472,7 @@ const CookiesPolicy = () => {
             the competent Supervisory Authority in our jurisdiction, so please
             contact us (see the Contact Us section at the end of the page) in
             the first instance or drop an email to for a
-            <a className="fs-16 px-2" href="">
+            <a className="fs-16 px-2" href="/privacypolicy">
               privacy@amnetdigital.com
             </a>
             quick resolution.
