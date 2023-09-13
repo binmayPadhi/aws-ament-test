@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 import * as yup from "yup";
 import Modal from "react-bootstrap/Modal";
 import linkdein from "../images/HomePage/Linkedin.png";
-import twitter from "../images/HomePage/Twitter.png";
+import twitter from "../images/HomePage/Twitters.png";
 import facebook from "../images/HomePage/Facebook.png";
 import youtube from "../images/HomePage/Youtube.png";
 import instagram from "../images/HomePage/Instagram.png";

@@ -20,7 +20,7 @@ const Termsandconditions = () => {
             <a
               className="px-2 fs-16"
               href="https://www.amnetdigital.com"
-              target="_blank"
+             
             >
               https://www.amnetdigital.com/
             </a>
@@ -83,11 +83,11 @@ const Termsandconditions = () => {
           </div>
           <div className="fs-16 font-weight-bolder">
             b) Write to us at
-            <a href="" className="px-2 fs-16">
+            <a href="mailto:info@amnetdigital.com" className="px-2 fs-16">
               info@amnetdigital.com
             </a>{" "}
             or{" "}
-            <a href="" className="px-2 fs-16">
+            <a href="mailto:marketing@amnetdigital.com" className="px-2 fs-16">
               marketing@amnetdigital.com
             </a>
           </div>
@@ -226,12 +226,12 @@ const Termsandconditions = () => {
           <br />
           <div className="fs-16 font-weight-bolder">
             To find more information, please go to{" "}
-            <a href="https://www.allaboutcookies.org/" className="px-2 fs-16">
+            <a href="https://www.allaboutcookies.org/" target="/blank" className="px-2 fs-16">
               www.allaboutcookies.org
             </a>
             if you are located in the United States. If you are located in
             Europe, please go to
-            <a href="https://youronlinechoices.eu/" className="px-2 fs-16">
+            <a href="https://youronlinechoices.eu/" target="/blank" className="px-2 fs-16">
               youronlinechoices.eu
             </a>
           </div>
@@ -360,11 +360,11 @@ const Termsandconditions = () => {
               </li>
               <li className="fs-16 font-weight-bolder">
                 b) Write to us at
-                <a href="" className="px-2 fs-16">
+                <a href="mailto:info@amnetdigital.com" className="px-2 fs-16">
                   info@amnetdigital.com
                 </a>{" "}
                 or{" "}
-                <a href="" className="px-2 fs-16">
+                <a href="mailto:marketing@amnetdigital.com" className="px-2 fs-16">
                   marketing@amnetdigital.com
                 </a>
               </li>

@@ -20,7 +20,7 @@ function Navbar(props) {
         url === 
         "/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" ||
       url === "/cookiespolicy" ||
-      url === "/Privacypolicy" ||
+      url === "/privacypolicy" ||
       url === "/termsandconditions" ||
       url === "/blogs/AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations" ||
       url === "/blogs/What-is-AIOps-and-explore-how-it-is-revolutionizing-the-retail-industry-by-solving-complex-challenges" ||
@@ -150,6 +150,7 @@ function Navbar(props) {
         "dropdown-content-products"
       )[0].style.display = "none";
     }
+    console.log(val,"************");
   }
 
   function showIndustryDropdown() {
@@ -840,7 +841,7 @@ function Navbar(props) {
                 </div>
 
 
-                {/* PRODUCTS desktop DROPDOWN */}
+                {/* PRODUCTS DROPDOWN */}
                 <div
                   className="service-dropdown-menu"
                   onMouseOver={() => showDropdown("products")}
@@ -925,7 +926,7 @@ function Navbar(props) {
                     </div>
                   </div>
                 </div>
-                {/* PRODUCTS mobile DROPDOWN */}
+                 {/* Products mobile dropdown */}
                 <div
                   className="dropdown sub-service-dropdown"
                   style={{ marginTop: "5.5px" }}
@@ -938,9 +939,10 @@ function Navbar(props) {
                     aria-expanded="false"
                   >
                     <NavLink
-                       to="/products"
-                       style={navStyle}
-                      onClick={closeNavpopup}
+                      to={"/products"}
+                       onClick={() => (window.location.href = "/products")}
+                      style={navStyle}
+                     
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                     >
                       Products
@@ -955,7 +957,7 @@ function Navbar(props) {
                   >
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/products`}
+                      to={"/products"}
                       target={""}
                       onClick={closeNavpopup}
                     >
@@ -1208,7 +1210,7 @@ function Navbar(props) {
                     aria-expanded="false"
                   >
                     <NavLink
-                      to={`/blogs`}
+                      to="/blogs"
                       style={navStyle}
                       onClick={closeNavpopup}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}

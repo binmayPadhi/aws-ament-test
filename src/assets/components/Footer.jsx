@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useRef } from "react";
 import amnetLogo from "../images/HomePage/amnetdigitalblack.png";
 import linkdein from "../images/HomePage/Linkedin.png";
-import twitter from "../images/HomePage/Twitter.png";
+import twitter from "../images/HomePage/Twitters.png";
 import facebook from "../images/HomePage/Facebook.png";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
@@ -420,7 +420,7 @@ function Footer() {
                   </a>
                 </p>
                 <p className="listName w-sm-100">
-                  <a href="/Privacypolicy" className="fs-13 text-black">
+                  <a href="/privacypolicy" className="fs-13 text-black">
                     Privacy Policy
                   </a>
                 </p>
@@ -437,7 +437,7 @@ function Footer() {
                   </a>
                 </span>
                 <span className="px-2 listName w-sm-100">
-                  <a href="/Privacypolicy" className="fs-13 text-black">
+                  <a href="/privacypolicy" className="fs-13 text-black">
                     Privacy Policy
                   </a>
                 </span>
