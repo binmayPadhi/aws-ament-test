@@ -7,9 +7,7 @@ const Privacypolicy = () => {
       <div className="contact-us-intro container"></div>
       <div className="cookie-policy new-all-margin">
        
-      
         <div className="row ml-0 mr-0 ">
-       
         <h1 className="cookie-policy-title w-100">Privacy Policy</h1>
         <h4 className="clr-updated w-100">Last updated: January 2023</h4>
           {privacypolicydata.map((list, index) => {

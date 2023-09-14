@@ -14,7 +14,7 @@ const privacypolicydata = [
     id: 2,
     title: "How does Amnet Digital protect your collected personal data?",
     description:
-      "Amnet Digital attaches great importance to your right to privacy and the protection of your personal data. You will be of utmost security when you deal with Amnet Digital, your personal data are in good hands for good reasons.",
+      "Amnet Digital attaches great importance to your right to privacy and the protection of your personal data. You will be of utmost security when you deal with Amnet Digital, your personal data is in good hands for good reasons.",
     description1:
       "We protect your personal data in accordance with our data privacy policies, and applicable laws. In addition, Amnet Digital maintains the appropriate technical and organizational measures to protect your personal data against unlawful/unauthorized processing and or against data alteration, data disclosure, and third-party data access.",
   },
