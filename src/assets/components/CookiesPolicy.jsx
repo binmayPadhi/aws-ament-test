@@ -17,15 +17,15 @@ const CookiesPolicy = () => {
             A cookie is a small text file that is stored on your computer or
             another internet-connected device in order to identify your browser,
             provide analytics, and remember information about you such as your
-            language preference or login information. They re completely safe
-            and can t be used to run programs or deliver viruses to your device.
+            language preference or login information. They're completely safe
+            and can't be used to run programs or deliver viruses to your device.
           </div>
           <br />
           <div className="fs-16 font-weight-bolder">
             To find more information, please go to
             <a
               className="px-2 fs-16"
-              href="https://www.allaboutcookies.org/"
+              href="https://www.cookieyes.com/knowledge-base/cookie-consent/are-there-cookie-laws-in-the-us/"
               target="_blank"
             >
               www.allaboutcookies.org
@@ -54,7 +54,7 @@ const CookiesPolicy = () => {
             persistent cookie will remain until it expires, or you delete your
             cookies. Expiration dates are set in the cookies themselves; some
             may expire after a few minutes while others may expire after
-            multiple years. Cookies placed by the website you re visiting are
+            multiple years. Cookies placed by the website you're visiting are
             called first-party cookies .
           </div>
           <br />
@@ -92,7 +92,7 @@ const CookiesPolicy = () => {
             Do this for more information on managing cookies see
             <a
               className="px-2 fs-16"
-              href="https://www.allaboutcookies.org/manage-cookies"
+              href="https://www.aboutcookies.org.uk/managing-cookies"
               target="_blank"
             >
               www.allaboutcookies.org/manage-cookies
