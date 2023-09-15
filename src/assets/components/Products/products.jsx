@@ -44,7 +44,7 @@ const Product = () => {
                 <a
                    href="/contactus"
                   type="button"
-                  className="fw-bold-700 fs-14 px-4 py-3 text-white btn-orange d-table rounded-1 cr-pointer ms-5"
+                  className="fw-bold-700 fs-14 px-4 py-3 text-white btn-orange d-table rounded-1 cr-pointer ml-5"
                 >
                   Contact Us
                 </a>
