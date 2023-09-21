@@ -5,9 +5,17 @@ import blog4 from "../../images/Resources-page/blog4.png";
 import blog5 from "../../images/Resources-page/blog5.jpg";
 import blog6 from "../../images/Resources-page/blog6.jpg";
 import blog7 from "../../images/Resources-page/blog7.jpg";
+import blog8 from "../../images/Resources-page/blog_image-min.png";
 
 const Insightdata = {
   carddetails: [
+    {
+      id:"medical-data-image-video-annotation-services",
+      date:"September 20, 2023",
+      title:"Medical Data (Image or Video) Annotation - How to go about it?",
+      description:"There’s no exaggeration that GenAI, Machine Learning, Deep Learning, and Image Annotation have the power to transform the healthcare industry to deliver better patient outcomes.",
+      image:blog8,
+    },
     {
       id:"the-real-value-ai-can-bring-to-retail-industry",
       date:"August 16, 2023",

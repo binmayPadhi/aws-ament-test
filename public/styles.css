@@ -23,6 +23,22 @@ body {
   background-color: transparent;
 }
 
+.border-green{
+  background-color: #18ae8e;
+  border-radius:4px;
+  width:100%;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.underline-text{
+  text-decoration: underline;
+  border-color:white;
+  color:white;
+}
+
 .section-header {
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
@@ -3252,6 +3268,12 @@ label {
   .job-desc-card button {
     font-size: 1.5rem;
   }
+
+  .border-box-green{
+    background-color: #18ae8e;
+    border-radius:4px!important;
+    height:300px!important;
+  }
 }
 
 @media only screen and (min-width: 425px) and (max-width: 767px) {
@@ -3285,6 +3307,32 @@ label {
   height: 550px;
   background: #f4f4f4;
   opacity: 1;
+}
+
+.text-center-img-CTA {
+  position: absolute;
+  top: 30%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.fs-21{
+  font-size:21px;
+}
+
+.fw-bold-600{
+  font-weight:600;
+}
+
+
+.sub-CTA-intro{
+  position: relative;
+  width: 100%;
+  height:400px;
+  background: #f4f4f4;
+  opacity: 1;
+
 }
 
 .subService-AIML-intro-caption {

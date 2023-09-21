@@ -28,6 +28,7 @@ function Navbar(props) {
       url === "/blogs/how-to-scale-ai-in-retail-industry-with-data-management" ||
       url === "/blogs/6-steps-to-include-in-your-data-migration-journey" ||
       url === "/blogs/the-real-value-ai-can-bring-to-retail-industry" ||
+      url === "/blogs/medical-data-image-video-annotation-services" ||
       url === "/products" 
     ) {
       setNavcolor("app");
@@ -1108,9 +1109,7 @@ function Navbar(props) {
                             </p>
                             <p className="fs-13 fw-bold-400 text-digital mt-2">
                               AI for Retail - Discover how AI can revolutionize
-                              the retail industry and help businesses increase
-                              sales, improve customer experience, and optimize
-                              operations.
+                              the retail industry 
                             </p>
                             <p className="sub-service-links dropdown-view-all-link ">
                               <span

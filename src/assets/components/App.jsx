@@ -40,6 +40,7 @@ import Product from "./Products/products";
 import ProductSwiftinsight from "./Products/Productswiftinsight";
 import Pressrelease from "./Pressrelease";
 import Pressdata from "./Pressdata";
+import ImageVideoAnnotation from "./Resources/ImageVideoAnnotation";
 
 
 function App() {
@@ -109,6 +110,11 @@ function App() {
             exact 
             path="the-real-value-ai-can-bring-to-retail-industry"
             element={<RealValue />}
+            />
+            <Route
+            exact 
+            path="medical-data-image-video-annotation-services"
+            element={ <ImageVideoAnnotation />}
             />
              <Route
               exact
