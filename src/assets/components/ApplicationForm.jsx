@@ -439,7 +439,7 @@ const ApplicationForm = () => {
                     processing your information according to our
                     <span className="fs-10 d-line-block">
                       <Link
-                        to={`/Privacypolicy`}
+                        to={`/privacypolicy`}
                         className="fs-16 d-line-block pl-1"
                         target="_blank"
                       >

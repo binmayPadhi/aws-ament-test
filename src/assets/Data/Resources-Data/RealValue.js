@@ -50,8 +50,6 @@ const Realdata= [
         description25:"This allows retailers to optimize their inventory levels, reduce stockouts and overstocking, and minimize storage and holding costs. AI can also improve supply chain efficiency by automating processes like procurement, warehousing, and logistics. This leads to streamlined operations, reduced lead times, and enhanced collaboration with suppliers.",
         image: image1,
         },
-    
-   
     {
         id:9,
         title:"5. Personalized Shopping Experiences",

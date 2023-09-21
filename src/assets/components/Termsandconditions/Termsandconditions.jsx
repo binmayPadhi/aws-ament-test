@@ -20,7 +20,7 @@ const Termsandconditions = () => {
             <a
               className="px-2 fs-16"
               href="https://www.amnetdigital.com"
-              target="_blank"
+             
             >
               https://www.amnetdigital.com/
             </a>
@@ -83,11 +83,11 @@ const Termsandconditions = () => {
           </div>
           <div className="fs-16 font-weight-bolder">
             b) Write to us at
-            <a href="" className="px-2 fs-16">
+            <a href="mailto:info@amnetdigital.com" className="px-2 fs-16">
               info@amnetdigital.com
             </a>{" "}
             or{" "}
-            <a href="" className="px-2 fs-16">
+            <a href="mailto:marketing@amnetdigital.com" className="px-2 fs-16">
               marketing@amnetdigital.com
             </a>
           </div>
@@ -226,12 +226,12 @@ const Termsandconditions = () => {
           <br />
           <div className="fs-16 font-weight-bolder">
             To find more information, please go to{" "}
-            <a href="https://www.allaboutcookies.org/" className="px-2 fs-16">
+            <a href="https://www.cookieyes.com/knowledge-base/cookie-consent/are-there-cookie-laws-in-the-us/" target="/blank" className="px-2 fs-16">
               www.allaboutcookies.org
             </a>
             if you are located in the United States. If you are located in
             Europe, please go to
-            <a href="https://youronlinechoices.eu/" className="px-2 fs-16">
+            <a href="https://youronlinechoices.eu/" target="/blank" className="px-2 fs-16">
               youronlinechoices.eu
             </a>
           </div>
@@ -269,7 +269,7 @@ const Termsandconditions = () => {
             Amnet Digital has not reviewed all of the sites linked to its online
             website and is not responsible for the contents of any such linked
             site. The inclusion of any link does not imply endorsement by Amnet
-            Digital of the site. Use of any such linked website is at the user s
+            Digital of the site. Use of any such linked website is at the user's
             own risk.
           </div>
         </p>
@@ -319,7 +319,7 @@ const Termsandconditions = () => {
             DIGITAL with regard to your use of our website, and any and all
             other written or oral agreements or understandings previously
             existing between you and AMNET DIGITAL with respect to such use are
-            hereby canceled and superseded. Amnet Digital s
+            hereby canceled and superseded. Amnet Digital's
             <b className="fs-16 px-2">"Terms of Use"</b> shall not be
             interpreted or construed to confer any rights or remedies on any
             third parties.
@@ -360,11 +360,11 @@ const Termsandconditions = () => {
               </li>
               <li className="fs-16 font-weight-bolder">
                 b) Write to us at
-                <a href="" className="px-2 fs-16">
+                <a href="mailto:info@amnetdigital.com" className="px-2 fs-16">
                   info@amnetdigital.com
                 </a>{" "}
                 or{" "}
-                <a href="" className="px-2 fs-16">
+                <a href="mailto:marketing@amnetdigital.com" className="px-2 fs-16">
                   marketing@amnetdigital.com
                 </a>
               </li>
