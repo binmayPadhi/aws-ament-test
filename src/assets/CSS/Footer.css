@@ -208,6 +208,16 @@ hr {
   height: 200px;
 }
 
+.center-85{
+  width:85%;
+  margin: auto;
+}
+
+.center-80{
+  width:80%;
+  margin: auto;
+}
+
 .center-88 {
   width: 88%;
   margin: auto;

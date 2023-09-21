@@ -17,8 +17,8 @@ const CookiesPolicy = () => {
             A cookie is a small text file that is stored on your computer or
             another internet-connected device in order to identify your browser,
             provide analytics, and remember information about you such as your
-            language preference or login information. They're completely safe
-            and can't be used to run programs or deliver viruses to your device.
+            language preference or login information. They re completely safe
+            and can t be used to run programs or deliver viruses to your device.
           </div>
           <br />
           <div className="fs-16 font-weight-bolder">
