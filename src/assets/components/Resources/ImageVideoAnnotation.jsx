@@ -44,7 +44,7 @@ video annotation services, data labeling services, data annotation" />
             <div className="col-12 about-us-details p-0">
               <img
                 loading="lazy"
-                className="img-fluid mb-5"
+                className="img-fluid mb-5 w-100"
                 src={blog8}
                 alt="blog"
               />
