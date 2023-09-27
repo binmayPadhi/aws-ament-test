@@ -10,9 +10,9 @@ import blog8 from "../../images/Resources-page/blog_image-min.png";
 const Insightdata = {
   carddetails: [
     {
-      id:"medical-data-image-video-annotation-services",
+      id:"medical-image-video-data-annotation-services",
       date:"September 20, 2023",
-      title:"Medical Data (Image or Video) Annotation - How to go about it?",
+      title:"Medical Image / Video Data Annotation: How to go about it ?",
       description:"There’s no exaggeration that GenAI, Machine Learning, Deep Learning, and Image Annotation have the power to transform the healthcare industry to deliver better patient outcomes.",
       image:blog8,
     },

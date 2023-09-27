@@ -113,7 +113,7 @@ function App() {
             />
             <Route
             exact 
-            path="medical-data-image-video-annotation-services"
+            path="medical-image-video-data-annotation-services"
             element={ <ImageVideoAnnotation />}
             />
              <Route
