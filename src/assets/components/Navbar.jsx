@@ -28,7 +28,7 @@ function Navbar(props) {
       url === "/blogs/how-to-scale-ai-in-retail-industry-with-data-management" ||
       url === "/blogs/6-steps-to-include-in-your-data-migration-journey" ||
       url === "/blogs/the-real-value-ai-can-bring-to-retail-industry" ||
-      url === "/blogs/medical-data-image-video-annotation-services" ||
+      url === "/blogs/medical-image-video-data-annotation-services" ||
       url === "/products" 
     ) {
       setNavcolor("app");

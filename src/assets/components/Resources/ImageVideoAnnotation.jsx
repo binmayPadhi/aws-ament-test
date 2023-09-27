@@ -23,8 +23,8 @@ const ImageVideoAnnotation = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title> Medical Data (Image or Video) Annotation Services – Amnet Digital</title>
-        <meta name="title" content="Medical Data (Image + Video) Annotation Services Provider | Amnet Digital" />
+        <title>Medical Image / Video Data Annotation Services – Amnet Digital</title>
+        <meta name="title" content="Medical Image / Video Data Annotation Provider | Amnet Digital" />
         <meta name="description" content="GenAI, Machine Learning, Deep Learning, and Image Annotation have the power to
 transform the healthcare industry to deliver better patient outcomes." />
         <meta name="keywords" content="medical data annotation services, medical image annotation services, medical
@@ -35,8 +35,8 @@ video annotation services, data labeling services, data annotation" />
         <div className="center">
           <div className="new-home-about-details row ml-0 mr-0 above-spacings">
             <div className="col-12 pl-0 pr-0 mb-5">
-              <h1>
-                Medical Data (Image or Video) Annotation - How to go about it?
+              <h1 >
+              Medical Image <span className="fs-30">/ </span>Video Data Annotation: How to go about it?
               </h1>
             </div>
           </div>
