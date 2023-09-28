@@ -39,7 +39,7 @@ const RealValue = () => {
           </div>
 
           <div className="row about-us-page-row ml-0 mr-0">
-            <div className="col-12 about-us-details p-0">
+            <div className="col-12 p-0">
               <img
                 loading="lazy"
                 className="img-fluid "

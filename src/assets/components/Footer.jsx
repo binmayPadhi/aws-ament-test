@@ -161,33 +161,26 @@ function Footer() {
       sublist: [
         {
           id: 41,
-          name: " Retail & Ecommerce",
-          link: "",
-          target: "_balnk",
+          name: " Retail & Ecommerce", 
         },
         {
           id: 42,
-          name: "Information Management",
-          link: "",
-          target: "_balnk",
+          name: "Information Management",  
         },
         {
           id: 43,
           name: "Healthcare",
-          link: "",
-          target: "_balnk",
+         
         },
         {
           id: 44,
           name: "HRMS",
-          link: "",
-          target: "_balnk",
+         
         },
         {
           id: 45,
           name: "Financial Services",
-          link: "",
-          target: "_balnk",
+         
         },
       ],
     },
@@ -352,7 +345,7 @@ function Footer() {
                             target={
                               val.id !== 25 && val.id !== 52  ? "" : "_blank"
                             }
-                            className="desName cr-pointer text-decoration-none fs-13 text-black"
+                            className="desName  text-decoration-none fs-13 text-black"
                           >
                            <MediaQuery minWidth={760} >
                             {val.hasOwnProperty('image') === true ? 
