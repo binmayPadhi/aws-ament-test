@@ -6,9 +6,17 @@ import blog5 from "../../images/Resources-page/blog5.jpg";
 import blog6 from "../../images/Resources-page/blog6.jpg";
 import blog7 from "../../images/Resources-page/blog7.jpg";
 import blog8 from "../../images/Resources-page/blog_image-min.png";
+import blog9 from "../../images/Resources-page/blog9.png"
 
 const Insightdata = {
   carddetails: [
+    {
+      id:"supply-chain-planning-decisions-with-actionable-demand-forecasting-insights",
+      date:"November 2, 2023",
+      title:"Foster Supply Chain Planning Decisions with Actionable Demand Forecasting Insights",
+      description:"Master demand forecasting methods for sales optimization. Explore techniques, technologies & strategies, and uplift your sales performance.",
+      image:blog9,
+    },
     {
       id:"medical-image-video-data-annotation-services",
       date:"September 20, 2023",
