@@ -98,8 +98,8 @@ const Forecasting = () => {
                                         {list.hasOwnProperty("buttontxt") === true ? (
                                             <>
                                                 {
-                                                    <p className="mb-3">
-                                                        <button className="fs-20 border-green ">
+                                                    <p>
+                                                        <button className="fs-20 border-green mt-1 mb-5">
                                                             <a className="fs-20 text-white underline-text" href="/contactus">{list.buttontxt}<br/>{list.buttontxt2}</a></button>
                                                     </p>
                                                 }
