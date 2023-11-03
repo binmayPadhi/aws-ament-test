@@ -58,7 +58,7 @@ const Forecasting = () => {
                                     <p className="fs-18 mt-5">
                                         {list.description}{" "}
                                         <span>
-                                            <a className="fs-18 fw-bold" target="_blank" href={list.link}>
+                                            <a className="fs-18 fw-bold font-weight-bold" target="_blank" href={list.link}>
                                                 {list.des}
                                             </a>
                                         </span>
@@ -67,12 +67,12 @@ const Forecasting = () => {
                                     <p className="fs-18">{list.description1}</p>
                                     <p className="fs-18">{list.description2}</p>
                                     <p className="fs-18">{list.description3}</p>
-                                    <h2 className="fs-24 fw-bold ">{list.subtitle}</h2>
+                                    <h2 className="fs-24 fw-bold font-weight-bold ">{list.subtitle}</h2>
                                     <p className="fs-18">{list.description4}</p>
                                     <p className="fs-18 mt-5">
                                         {list.description5}{" "}
                                         <span>
-                                            <a className="fs-18 fw-bold" target="_blank" href={list.link}>
+                                            <a className="fs-18 fw-bold font-weight-bold" target="_blank" href={list.link}>
                                                 {list.des2}
                                             </a>
                                         </span>
@@ -80,7 +80,7 @@ const Forecasting = () => {
                                     </p>
                                     <p className="fs-18 ">
                                         <span>
-                                            <a className="fs-18 fw-bold" target="_blank" href={list.link}>
+                                            <a className="fs-18 fw-bold font-weight-bold" target="_blank" href={list.link}>
                                                 {list.description6}
                                             </a>
                                         </span>
@@ -88,7 +88,7 @@ const Forecasting = () => {
                                     </p>
                                     <p className="fs-18 ">
                                         <span>
-                                            <a className="fs-18 fw-bold" target="_blank" href={list.link}>
+                                            <a className="fs-18 fw-bold font-weight-bold" target="_blank" href={list.link}>
                                                 {list.add}
                                             </a>
                                         </span>
@@ -110,7 +110,7 @@ const Forecasting = () => {
                                     </p>
                                     <p className="fs-18 ">
                                         <span>
-                                            <a className="fs-18 fw-bold" target="_blank" href={list.link}>
+                                            <a className="fs-18 fw-bold font-weight-bold" target="_blank" href={list.link}>
                                                 {list.description10}
                                             </a>
                                         </span>
@@ -118,7 +118,7 @@ const Forecasting = () => {
                                     </p>
                                     <p className="fs-18 ">
                                         <span>
-                                            <a className="fs-18 fw-bold" target="_blank" href={list.link}>
+                                            <a className="fs-18 fw-bold font-weight-bold" target="_blank" href={list.link}>
                                                 {list.description12}
                                             </a>
                                         </span>
@@ -126,7 +126,7 @@ const Forecasting = () => {
                                     </p>
                                     <p className="fs-18 ">
                                         <span>
-                                            <a className="fs-18 fw-bold" target="_blank" href={list.link}>
+                                            <a className="fs-18 fw-bold font-weight-bold" target="_blank" href={list.link}>
                                                 {list.description14}
                                             </a>
                                         </span>
@@ -135,7 +135,7 @@ const Forecasting = () => {
                                     <p className="fs-18">
                                         {list.description50}{" "}
                                         <span>
-                                            <a className="fs-18 fw-bold" target="_blank" href={list.link}>
+                                            <a className="fs-18 fw-bold font-weight-bold" target="_blank" href={list.link}>
                                                 {list.des5}
                                             </a>
                                         </span>
@@ -147,7 +147,7 @@ const Forecasting = () => {
 
                                     <p className="fs-18 ">
                                         <span>
-                                            <a className="fs-18 fw-bold" target="_blank" href={list.link}>
+                                            <a className="fs-18 fw-bold font-weight-bold" target="_blank" href={list.link}>
                                                 {list.description20}
                                             </a>
                                         </span>
@@ -155,7 +155,7 @@ const Forecasting = () => {
                                     </p>
                                     <p className="fs-18 ">
                                         <span>
-                                            <a className="fs-18 fw-bold" target="_blank" href={list.link}>
+                                            <a className="fs-18 fw-bold font-weight-bold" target="_blank" href={list.link}>
                                                 {list.description22}
                                             </a>
                                         </span>
@@ -164,7 +164,7 @@ const Forecasting = () => {
                                    
                                     <p className="fs-18 ">
                                         <span>
-                                            <a className="fs-18 fw-bold" target="_blank" href={list.link}>
+                                            <a className="fs-18 fw-bold font-weight-bold" target="_blank" href={list.link}>
                                                 {list.description24}
                                             </a>
                                         </span>
@@ -209,17 +209,17 @@ const Forecasting = () => {
             <div className="col-lg-4 col-md-4 col-sm-12"></div>
               <div className="col-lg-8 col-md-8 col-sm-12">
                 <h2
-                  className="fw-bold-600 text-white fs-35 text-capitalize"
+                  className="fw-bold font-weight-bold-600 text-white fs-35 text-capitalize"
                   data-text="Your Tech Innovation Catalyst"
                 >
                   Powering Businesses To Achieve More
                 </h2>
-                <p className="fw-bold-400 fs-16 text-white mb-5 mr-5 mt-4">
+                <p className="fw-bold font-weight-bold-400 fs-16 text-white mb-5 mr-5 mt-4">
                   At Amnet Digital, our focus is to infuse Data, Analytics & AI that enables clients to realize the higher value of their digital transformation initiatives and drive positive business impact.
                 </p>
                 <button
                   type="button"
-                  className="fw-bold-700 fs-14 px-4 py-3 text-white bg-grey d-table rounded-1 cr-pointer"
+                  className="fw-bold font-weight-bold-700 fs-14 px-4 py-3 text-white bg-grey d-table rounded-1 cr-pointer"
                 >
                   Explore Services
                 </button>
@@ -230,7 +230,7 @@ const Forecasting = () => {
             <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12"></div>
               <div className="col-lg-8 col-md-8 col-sm-12">
-                <p className="fs-24 fw-bold-600 text-white">About Us</p>
+                <p className="fs-24 fw-bold font-weight-bold-600 text-white">About Us</p>
               </div>
             </div>
           </div>
