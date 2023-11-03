@@ -41,6 +41,7 @@ import ProductSwiftinsight from "./Products/Productswiftinsight";
 import Pressrelease from "./Pressrelease";
 import Pressdata from "./Pressdata";
 import ImageVideoAnnotation from "./Resources/ImageVideoAnnotation";
+import Forecasting from "./Resources/Forecasting";
 
 
 function App() {
@@ -116,6 +117,10 @@ function App() {
             path="medical-image-video-data-annotation-services"
             element={ <ImageVideoAnnotation />}
             />
+            <Route
+            exact
+            path="supply-chain-planning-decisions-with-actionable-demand-forecasting-insights"
+            element={ <Forecasting/>}/>
              <Route
               exact
               path="6-steps-to-include-in-your-data-migration-journey"

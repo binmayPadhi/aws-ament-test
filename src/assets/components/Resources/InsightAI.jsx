@@ -47,7 +47,7 @@ const InsightAI = () => {
             <div className="row about-us-page-row ml-0 mr-0">
               {Blog.map((list) => {
                 return (
-                  <div className="col-12 about-us-details p-0" key={list.id}>
+                  <div className="col-12  p-0" key={list.id}>
                     <div className="about-us-desc-blog">
                       <h2>{list.title}</h2>
                       <h3 className="fs-26 fw-bold-600">{list.subheading}</h3>

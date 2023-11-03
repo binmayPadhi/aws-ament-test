@@ -29,6 +29,7 @@ function Navbar(props) {
       url === "/blogs/6-steps-to-include-in-your-data-migration-journey" ||
       url === "/blogs/the-real-value-ai-can-bring-to-retail-industry" ||
       url === "/blogs/medical-image-video-data-annotation-services" ||
+      url === "/blogs/supply-chain-planning-decisions-with-actionable-demand-forecasting-insights" ||
       url === "/products" 
     ) {
       setNavcolor("app");
@@ -229,9 +230,7 @@ function Navbar(props) {
               {/* <!-- navigation bar menus --> */}
               <ul className="navbar-nav">
                 {/*--For Mobile Navigation--*/}
-                <div className="service-dropdown-menu" style={navStyle}>
-                  
-                  
+                <div className="service-dropdown-menu" style={navStyle}>    
                   <NavLink
                     to="/aboutus"
                     onClick={() => (window.location.href = "/aboutus")}
@@ -261,8 +260,7 @@ function Navbar(props) {
                       About Us
                     </NavLink>
                   </div>
-                </div>
-                
+                </div>              
 
                 {/* SERVICE DROPDOWN MENU   */}
 
