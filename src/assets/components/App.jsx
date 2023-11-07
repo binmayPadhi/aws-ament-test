@@ -71,14 +71,21 @@ function App() {
            
           <Route path="/services" element={<OurServices />}>
             <Route path="" element={<Services />} />
-
             <Route path=":name" element={<AIservices />} />
             <Route path=":name/:service" element={<Viewsubservice />} />
             {/* <Route path=":name/:service" element={<Viewsubservicestart />} /> */}
           </Route>
           <Route path="/careers" element={<CareerHome />}>
             <Route path="" element={<Careers />} />
+            <Route path="data-architect" element={<Apply />}/>
+            <Route path="full-stack-node" element={ <Apply />}/>
+            <Route path="data-scientist" element={<Apply />}/>
+            <Route path="dot-net-developer" element={<Apply />}/>
+            <Route path="ui-ux-designer" element={<Apply />}/>
+            <Route path="azure-developer" element={<Apply />}/>
+            <Route path="python-developer" element={<Apply />}/>
            <Route path="applyjob" element={<Apply />} />
+          
           </Route>
           <Route path="/casestudies" element={<CaseStudies />} />
           <Route path="/legalresources" element={<Legalterms />} />
