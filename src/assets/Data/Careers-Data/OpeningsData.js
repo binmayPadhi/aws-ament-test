@@ -5,7 +5,8 @@ const Openings = [
       role: "Full Stack Node",
       location: "Hyderabad",
       button: "Apply Now",
-      link: "/careers/fullstacknode",
+      link:"/careers",
+      sublink: "full-stack-node",
     },
     // {
     //   id: 2,
@@ -13,7 +14,7 @@ const Openings = [
     //   role: "Application Engineer",
     //   location: "Hyderabad",
     //   button: "Apply Now",
-    //   link: "/careers/applicationengineering",
+    //   sublink: "/careers/applicationengineering",
     // },
     // {
     //   id: 3,
@@ -21,7 +22,7 @@ const Openings = [
     //   role: "Data Engineer",
     //   location: "Hyderabad",
     //   button: "Apply Now",
-    //   link: "/careers/dataengineer",
+    //   sublink: "/careers/dataengineer",
     // },
     {
       id: 4,
@@ -29,7 +30,8 @@ const Openings = [
       role: "Data Scientist",
       location: "Hyderabad",
       button: "Apply Now",
-      link: "/careers/datascientist",
+      link:"/careers",
+      sublink: "data-scientist",
     },
     // {
     //   id: 5,
@@ -37,7 +39,7 @@ const Openings = [
     //   role: "Data Visualization",
     //   location: "Hyderabad",
     //   button: "Apply Now",
-    //   link: "/careers/datavisualization",
+    //   sublink: "/careers/datavisualization",
     // },
     {
       id: 6,
@@ -45,7 +47,8 @@ const Openings = [
       role: "Dot Net Developer",
       location: "Hyderabad",
       button: "Apply Now",
-      link: "/careers/dotnet",
+      link:"/careers",
+      sublink: "dot-net-developer",
     },
     // {
     //   id: 7,
@@ -53,7 +56,7 @@ const Openings = [
     //   role: "Project Manager",
     //   location: "Hyderabad",
     //   button: "Apply Now",
-    //   link: "/careers/projectmanager",
+    //   sublink: "/careers/projectmanager",
     // },
     // {
     //   id: 8,
@@ -61,7 +64,7 @@ const Openings = [
     //   role: "QA Lead/Analyst",
     //   location: "Hyderabad",
     //   button: "Apply Now",
-    //   link: "/careers/qalead",
+    //   sublink: "/careers/qalead",
     // },
     {
       id: 9,
@@ -69,7 +72,8 @@ const Openings = [
       role: "Azure Architect",
       location: "Hyderabad",
       button: "Apply Now",
-      link: "/careers/azure",
+      link:"/careers",
+      sublink: "azure-developer",
     },
     {
       id: 10,
@@ -77,7 +81,8 @@ const Openings = [
       role: "Data Architect",
       location: "Hyderabad",
       button: "Apply Now",
-      link: "/careers/dataarchitect",
+      link:"/careers",
+      sublink: "data-architect",
     },
     {
       id: 11,
@@ -85,7 +90,7 @@ const Openings = [
       role: "Python Developer",
       location: "Hyderabad",
       button: "Apply Now",
-      link: "/careers/python",
+      sublink: "python-developer",
     },
     {
       id: 12,
@@ -93,7 +98,7 @@ const Openings = [
       role: "UI/UX Designer",
       location: "Hyderabad",
       button: "Apply Now",
-      link: "/careers/uxdesigner",
+      sublink: "ui-ux-designer",
     },
   ];
   

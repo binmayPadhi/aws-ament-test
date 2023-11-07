@@ -6,7 +6,7 @@ import OpeningsJson from "../../Data/Careers-Data/OpeningsData";
 
 const CurrentOpenings = () => {
     const redirectTo = (e, path) => {
-        sessionStorage.setItem("job", path)
+        sessionStorage.setItem("job", path);
     };
 const [Openings, SetOpenings] = useState(OpeningsJson);
 const [inputvalue, Setinputvalue] = useState("");
@@ -34,6 +34,7 @@ const sortJson = (e) => {
     }
 } 
 
+const [toggle,settoggle]=useState("dataarchitect")
 // const handleKeyPress = (event) => {
 //     if(event.key === 'Enter'){
 //       console.log('enter press here! ')
@@ -75,9 +76,28 @@ const sortJson = (e) => {
                                             {res.location}
                                         </p>
                                         <p className="d-flex justify-content-end">
-                                            <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
-                                                onClick={(e) => redirectTo(e, res.role)} href='/careers/applyjob'>{res.button} 
-                                          </a>
+                                            
+                                          {res.sublink==="data-architect" &&  <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
+                                                onClick={(e) => redirectTo(e, res.role)} href='/careers/data-architect'>{res.button} 
+                                          </a>}
+                                          {res.sublink==="data-scientist" &&  <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
+                                                onClick={(e) => redirectTo(e, res.role)} href='/careers/data-scientist'>{res.button} 
+                                          </a>}
+                                          {res.sublink==="full-stack-node" &&  <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
+                                                onClick={(e) => redirectTo(e, res.role)} href='/careers/full-stack-node'>{res.button} 
+                                          </a>}
+                                          {res.sublink==="dot-net-developer" &&  <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
+                                                onClick={(e) => redirectTo(e, res.role)} href='/careers/dot-net-developer'>{res.button} 
+                                          </a>}
+                                          {res.sublink==="azure-developer" &&  <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
+                                                onClick={(e) => redirectTo(e, res.role)} href='/careers/azure-developer'>{res.button} 
+                                          </a>}
+                                          {res.sublink==="python-developer" &&  <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
+                                                onClick={(e) => redirectTo(e, res.role)} href='/careers/python-developer'>{res.button} 
+                                          </a>}
+                                          {res.sublink==="ui-ux-designer" &&  <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
+                                                onClick={(e) => redirectTo(e, res.role)} href='/careers/ui-ux-designer'>{res.button} 
+                                          </a>}
                                         </p>
                                     </div>
                                 </div>
