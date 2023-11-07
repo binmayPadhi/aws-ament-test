@@ -1,18 +1,21 @@
 import React, { useRef, useState } from "react";
 import "../../CSS/Opportunities.css";
 import OpeningsJson from "../../Data/Careers-Data/OpeningsData";
+import { useNavigate } from "react-router-dom";
 
 
 
 const CurrentOpenings = () => {
-    const redirectTo = (e, path) => {
-        sessionStorage.setItem("job", path);
+    const history = useNavigate();
+    const redirectTo = (e, path, routerLink) => {
+              sessionStorage.setItem("job", path);
+        const link = '/careers/' + routerLink;
+        history(link);
     };
 const [Openings, SetOpenings] = useState(OpeningsJson);
 const [inputvalue, Setinputvalue] = useState("");
 const SearchResults = (e) => {
-    console.log(e);
-    let searchvalue = OpeningsJson.filter(response =>
+       let searchvalue = OpeningsJson.filter(response =>
         response.role.trim().toLowerCase().includes(e.trim().toLowerCase())
       );
       SetOpenings(searchvalue);
@@ -76,28 +79,9 @@ const [toggle,settoggle]=useState("dataarchitect")
                                             {res.location}
                                         </p>
                                         <p className="d-flex justify-content-end">
-                                            
-                                          {res.sublink==="data-architect" &&  <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
-                                                onClick={(e) => redirectTo(e, res.role)} href='/careers/data-architect'>{res.button} 
-                                          </a>}
-                                          {res.sublink==="data-scientist" &&  <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
-                                                onClick={(e) => redirectTo(e, res.role)} href='/careers/data-scientist'>{res.button} 
-                                          </a>}
-                                          {res.sublink==="full-stack-node" &&  <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
-                                                onClick={(e) => redirectTo(e, res.role)} href='/careers/full-stack-node'>{res.button} 
-                                          </a>}
-                                          {res.sublink==="dot-net-developer" &&  <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
-                                                onClick={(e) => redirectTo(e, res.role)} href='/careers/dot-net-developer'>{res.button} 
-                                          </a>}
-                                          {res.sublink==="azure-developer" &&  <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
-                                                onClick={(e) => redirectTo(e, res.role)} href='/careers/azure-developer'>{res.button} 
-                                          </a>}
-                                          {res.sublink==="python-developer" &&  <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
-                                                onClick={(e) => redirectTo(e, res.role)} href='/careers/python-developer'>{res.button} 
-                                          </a>}
-                                          {res.sublink==="ui-ux-designer" &&  <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
-                                                onClick={(e) => redirectTo(e, res.role)} href='/careers/ui-ux-designer'>{res.button} 
-                                          </a>}
+                                          <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
+                                                onClick={(e) => redirectTo(e, res.role, res.sublink)}>{res.button} 
+                                          </a>
                                         </p>
                                     </div>
                                 </div>
