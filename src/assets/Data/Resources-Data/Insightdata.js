@@ -13,7 +13,7 @@ const Insightdata = {
   carddetails: [
     {
       id:"10-ways-how-generative-ai-is-impacting-retail-organizations",
-      date:"November 11, 2023",
+      date:"November 8, 2023",
       title:"10 ways how Generative AI has a positive impact on Retail organizations",
       description:"Master demand forecasting methods for sales optimization. Explore techniques, technologies & strategies, and uplift your sales performance.",
       image:blog10,
