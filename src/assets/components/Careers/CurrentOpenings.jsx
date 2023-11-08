@@ -1,18 +1,21 @@
 import React, { useRef, useState } from "react";
 import "../../CSS/Opportunities.css";
 import OpeningsJson from "../../Data/Careers-Data/OpeningsData";
+import { useNavigate } from "react-router-dom";
 
 
 
 const CurrentOpenings = () => {
-    const redirectTo = (e, path) => {
-        sessionStorage.setItem("job", path)
+    const history = useNavigate();
+    const redirectTo = (e, path, routerLink) => {
+              sessionStorage.setItem("job", path);
+        const link = '/careers/' + routerLink;
+        history(link);
     };
 const [Openings, SetOpenings] = useState(OpeningsJson);
 const [inputvalue, Setinputvalue] = useState("");
 const SearchResults = (e) => {
-    console.log(e);
-    let searchvalue = OpeningsJson.filter(response =>
+       let searchvalue = OpeningsJson.filter(response =>
         response.role.trim().toLowerCase().includes(e.trim().toLowerCase())
       );
       SetOpenings(searchvalue);
@@ -34,6 +37,7 @@ const sortJson = (e) => {
     }
 } 
 
+const [toggle,settoggle]=useState("dataarchitect")
 // const handleKeyPress = (event) => {
 //     if(event.key === 'Enter'){
 //       console.log('enter press here! ')
@@ -75,8 +79,8 @@ const sortJson = (e) => {
                                             {res.location}
                                         </p>
                                         <p className="d-flex justify-content-end">
-                                            <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
-                                                onClick={(e) => redirectTo(e, res.role)} href='/careers/applyjob'>{res.button} 
+                                          <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
+                                                onClick={(e) => redirectTo(e, res.role, res.sublink)}>{res.button} 
                                           </a>
                                         </p>
                                     </div>

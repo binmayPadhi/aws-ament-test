@@ -71,14 +71,13 @@ function App() {
            
           <Route path="/services" element={<OurServices />}>
             <Route path="" element={<Services />} />
-
             <Route path=":name" element={<AIservices />} />
             <Route path=":name/:service" element={<Viewsubservice />} />
             {/* <Route path=":name/:service" element={<Viewsubservicestart />} /> */}
           </Route>
           <Route path="/careers" element={<CareerHome />}>
             <Route path="" element={<Careers />} />
-           <Route path="applyjob" element={<Apply />} />
+            <Route path=":job" element={<Apply />}/>
           </Route>
           <Route path="/casestudies" element={<CaseStudies />} />
           <Route path="/legalresources" element={<Legalterms />} />

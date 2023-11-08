@@ -1010,8 +1010,8 @@ function Navbar(props) {
                 </div>
                 <div className="service-dropdown-menu " style={navStyle}>
                   <NavLink
-                    to="/Careers"
-                    onClick={() => (window.location.href = "/Careers")}
+                    to="/careers"
+                    onClick={() => (window.location.href = "/careers")}
                     style={navStyle}
                     className={color === "app" ? "text-black" : "text-white"}
                   >
