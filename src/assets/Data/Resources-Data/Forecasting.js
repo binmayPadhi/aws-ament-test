@@ -151,22 +151,6 @@ const Forecast = [
     },
 
 
-    // {
-    //     id: 12,
-    //     subtitle: "The Impact of Demand Forecasting on Production and Supply Chain Management",
-    //     description4:"Demand forecasting significantly influences production planning and supply chain management. By integrating demand forecasts into production planning, businesses can optimize production schedules, minimize production bottlenecks, and efficiently allocate resources.",
-    // },
-    // {
-    //     id:13,
-    //     subtitle:"",
-    //     description20: "1. Reduce Holding Costs:  ",
-    //     description21: "Keeping excess inventory incurs holding costs such as storage fees, insurance, and depreciation. Demand forecasting ensures that businesses maintain lean inventories, minimizing holding costs and optimizing working capital.",
-    //     description22: "2. Improve Order Fulfillment: ",
-    //     description23: "Meeting customer demand promptly enhances order fulfillment rates, resulting in higher customer satisfaction and improved brand reputation.",
-    //     description24: "3. Minimize Stockouts:",
-    //     description25: "By accurately predicting demand, businesses can avoid stockouts and ensure products are available when customers need them, preventing lost sales opportunities.",
-
-    // },
    
 ]
 export default Forecast;

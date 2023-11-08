@@ -73,7 +73,7 @@ const Openings = [
       location: "Hyderabad",
       button: "Apply Now",
       link:"/careers",
-      sublink: "azure-developer",
+      sublink: "azure-architect",
     },
     {
       id: 10,
@@ -95,10 +95,10 @@ const Openings = [
     {
       id: 12,
       heading: "SENIOR LEVEL",
-      role: "UI/UX Designer",
+      role: "UX Designer",
       location: "Hyderabad",
       button: "Apply Now",
-      sublink: "ui-ux-designer",
+      sublink: "ux-designer",
     },
   ];
   

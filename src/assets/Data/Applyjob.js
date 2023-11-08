@@ -513,8 +513,8 @@ const Jobdescription = [
         ]
     },
     {
-        applyfor: "UI/UX Designer",
-        title: "UI/UX Designer",
+        applyfor: "UX Designer",
+        title: "UX Designer",
         level:"senior",
         experience:"7+ years",
         aboutdescription: "We are looking for a smart and talented Ux/Ui designer who possess passion for delivering high quality work and wants to be involved in designing a wide variety of things across digital and offline media. A self-starter, capable of delivering creative ideas and showing amazing attention to detail will be preferred.",

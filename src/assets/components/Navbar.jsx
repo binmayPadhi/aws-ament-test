@@ -30,6 +30,7 @@ function Navbar(props) {
       url === "/blogs/the-real-value-ai-can-bring-to-retail-industry" ||
       url === "/blogs/medical-image-video-data-annotation-services" ||
       url === "/blogs/supply-chain-planning-decisions-with-actionable-demand-forecasting-insights" ||
+      url === "/blogs/10-ways-how-generative-ai-is-impacting-retail-organizations" ||
       url === "/products" 
     ) {
       setNavcolor("app");

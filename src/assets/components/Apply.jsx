@@ -19,6 +19,7 @@ import instagram from "../images/HomePage/Instagram.png";
 import cross from "../images/careers-page/cross.png";
 import mail from "../images/careers-page/mail.png";
 
+
 const Apply = () => {
     const activeList = {
         fontFamily: "Poppins",
@@ -54,17 +55,30 @@ const Apply = () => {
         setselectedTab(name);
     };
 
-
-
     const [res, setObject] = useState({});
+    let location = window.location.pathname;
+    // console.log(location)
+    let getSelectedJobFromRoute = location.split("/");
+    // console.log(getSelectedJobFromRoute[2])
     useEffect(() => {
         let selectedJob = sessionStorage.getItem('job');
-        ApplyjobJson.map((data) => {
-            if (data.applyfor === selectedJob) {
-                setObject(data)
-            }
-        });
-        console.log(res);
+        if (selectedJob === null) {
+            selectedJob = getSelectedJobFromRoute[2]
+            ApplyjobJson.map((data) => {
+                console.log(data.applyfor.replace(/\s+/g, '-').toLowerCase());
+                if (data.applyfor.replace(/\s+/g, '-').toLowerCase() === selectedJob) {
+                    setObject(data)
+                }
+            });
+        }
+        else {
+            ApplyjobJson.map((data) => {
+                if (data.applyfor === selectedJob) {
+                    setObject(data)
+                }
+            });
+        }
+
     }, []);
 
     const schema = yup
@@ -76,7 +90,6 @@ const Apply = () => {
                 .required("location is required"),
             acceptCheckbox: yup.string().required("Please check the checkbox"),
         })
-
     const {
         register,
         handleSubmit,
@@ -85,40 +98,41 @@ const Apply = () => {
     } = useForm({
         resolver: yupResolver(schema),
     });
-    
+
 
     const [show, setShow] = useState(false);
-    const showModal= () => setShow(true);
+    const showModal = () => setShow(true);
     const closeModal = () => setShow(false);
     const icons = [
         {
-          id: 1,
-          image: linkdein,
-          link: "https://in.linkedin.com",
+            id: 1,
+            image: linkdein,
+            link: "https://in.linkedin.com",
         },
         {
-          id: 2,
-          image: twitter,
-          link: "https://twitter.com",
+            id: 2,
+            image: twitter,
+            link: "https://twitter.com",
         },
         {
-          id: 3,
-          image: facebook,
-          link: "https://www.facebook.com",
+            id: 3,
+            image: facebook,
+            link: "https://www.facebook.com",
         },
         {
-          id: 4,
-          image: mail,
-          link: "https://mail.google.com/mail/u/0/#inbox/FMfcgzGsmrGfqFrGrvQrzGkFPFvrzChS?compose=new",
+            id: 4,
+            image: mail,
+            link: "https://mail.google.com/mail/u/0/#inbox/FMfcgzGsmrGfqFrGrvQrzGkFPFvrzChS?compose=new",
         },
         {
-          id: 5,
-          image: instagram,
-          link: "https://www.instagram.com",
+            id: 5,
+            image: instagram,
+            link: "https://www.instagram.com",
         },
-      ];
+    ];
     return (
         <>
+
             <div
                 className="position-realtive"
                 style={{
@@ -138,6 +152,7 @@ const Apply = () => {
                         <div className="col-lg-6 col-md-6 col-sm-12">
                             <p className="fs-50 fw-bold-700 text-white pl-4">
                                 {res.title}
+
                             </p>
                         </div>
                         <div className="col-lg-5 col-md-5 col-sm-12"></div>
@@ -175,7 +190,7 @@ const Apply = () => {
                         </h5>
                         <div className="row w-80 mx-auto py-2">
                             <div className="w-90-lg d-flex justify-content-between">
-                            <div className=" text-black fs-18 fw-bold-600">
+                                <div className=" text-black fs-18 fw-bold-600">
                                     Description
                                 </div>
                                 <div className="text-lg-right text-lg-left text-black fs-18 fw-bold-600">
@@ -186,8 +201,8 @@ const Apply = () => {
                             <Modal show={show} centered >
                                 <Modal.Body className="margin-styling">
                                     <div className="d-flex justify-content-between mb-5">
-                                    <h1 className="p-2 mb-5">Share with</h1>
-                                    <img src={cross}  className="cross-img cr-pointer" onClick={closeModal}/>
+                                        <h1 className="p-2 mb-5">Share with</h1>
+                                        <img src={cross} className="cross-img cr-pointer" onClick={closeModal} />
                                     </div>
                                     {icons.map((listedicon) => {
                                         return (
@@ -198,7 +213,7 @@ const Apply = () => {
                                                 className="border-circle-grey m-lg-3 m-sm-1 mt-5 mb-5"
                                                 style={{ cursor: "pointer" }}
                                             >
-                                                <img src={listedicon.image}  className="img-size" />
+                                                <img src={listedicon.image} className="img-size" />
                                             </a>
                                         );
                                     })}
@@ -240,7 +255,7 @@ const Apply = () => {
                                 <h1 className="fs-18 fw-bold-600">About the Role</h1>
                                 <p className="fs-16 fw-bold-400">
                                     {res.aboutdescription}
-                                </p>                               
+                                </p>
                                 <h1 className="fs-18 fw-bold-600 mt-5">
                                     Your Key Responsibilities
                                 </h1>
@@ -282,7 +297,7 @@ const Apply = () => {
                                     </>
                                 ) : (
                                     ""
-                                )}                           
+                                )}
                             </div>
                         </div>
                     </div>
