@@ -6,10 +6,18 @@ import blog5 from "../../images/Resources-page/blog5.jpg";
 import blog6 from "../../images/Resources-page/blog6.jpg";
 import blog7 from "../../images/Resources-page/blog7.jpg";
 import blog8 from "../../images/Resources-page/blog_image-min.png";
-import blog9 from "../../images/Resources-page/blog9.png"
+import blog9 from "../../images/Resources-page/blog9.png";
+import blog10 from "../../images/Resources-page/image10.jpg";
 
 const Insightdata = {
   carddetails: [
+    {
+      id:"10-ways-how-generative-ai-is-impacting-retail-organizations",
+      date:"November 11, 2023",
+      title:"10 ways how Generative AI has a positive impact on Retail organizations",
+      description:"Master demand forecasting methods for sales optimization. Explore techniques, technologies & strategies, and uplift your sales performance.",
+      image:blog10,
+    },
     {
       id:"supply-chain-planning-decisions-with-actionable-demand-forecasting-insights",
       date:"November 2, 2023",
