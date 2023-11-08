@@ -15,7 +15,8 @@ const CurrentOpenings = () => {
 const [Openings, SetOpenings] = useState(OpeningsJson);
 const [inputvalue, Setinputvalue] = useState("");
 const SearchResults = (e) => {
-       let searchvalue = OpeningsJson.filter(response =>
+    console.log(e);
+    let searchvalue = OpeningsJson.filter(response =>
         response.role.trim().toLowerCase().includes(e.trim().toLowerCase())
       );
       SetOpenings(searchvalue);
@@ -79,9 +80,11 @@ const [toggle,settoggle]=useState("dataarchitect")
                                             {res.location}
                                         </p>
                                         <p className="d-flex justify-content-end">
-                                          <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
-                                                onClick={(e) => redirectTo(e, res.role, res.sublink)}>{res.button} 
+                                            
+                                         <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
+                                                onClick={(e) => redirectTo(e, res.role, res.sublink)} >{res.button} 
                                           </a>
+                                          
                                         </p>
                                     </div>
                                 </div>

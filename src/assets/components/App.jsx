@@ -42,6 +42,7 @@ import Pressrelease from "./Pressrelease";
 import Pressdata from "./Pressdata";
 import ImageVideoAnnotation from "./Resources/ImageVideoAnnotation";
 import Forecasting from "./Resources/Forecasting";
+import GenerativeAI from "./Resources/GenerativeAI";
 
 
 function App() {
@@ -77,8 +78,10 @@ function App() {
           </Route>
           <Route path="/careers" element={<CareerHome />}>
             <Route path="" element={<Careers />} />
-            <Route path=":job" element={<Apply />}/>
+            <Route path=":name" element={<Apply />}/>
+           
           </Route>
+        
           <Route path="/casestudies" element={<CaseStudies />} />
           <Route path="/legalresources" element={<Legalterms />} />
           <Route path="/products" element={<Product />} />
@@ -120,6 +123,8 @@ function App() {
             exact
             path="supply-chain-planning-decisions-with-actionable-demand-forecasting-insights"
             element={ <Forecasting/>}/>
+              <Route exact path="10-ways-how-generative-ai-is-impacting-retail-organizations" 
+              element={<GenerativeAI/>}/>
              <Route
               exact
               path="6-steps-to-include-in-your-data-migration-journey"
