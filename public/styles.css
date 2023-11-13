@@ -6815,3 +6815,27 @@ background-color:black;
   width: 150px;
 background-color:#1A4598;
 }
+
+/* .carousel-inner > .item {
+  position: relative;
+  display: none;
+  -webkit-transition: 0.6s ease-in-out left;
+  -moz-transition: 0.6s ease-in-out left;
+  -o-transition: 0.6s ease-in-out left;
+  transition: 0.6s ease-in-out left;
+} */
+
+
+.carousel-inner .carousel-item {
+  transition: -webkit-transform 0.1s ease;
+  transition: transform 0.1s ease;
+  transition: transform 0.1s ease, -webkit-transform 100ms ease;
+  
+}
+
+
+.color-change{
+
+  color:white!important;
+}
+.carousel-indicators li { visibility: hidden; }

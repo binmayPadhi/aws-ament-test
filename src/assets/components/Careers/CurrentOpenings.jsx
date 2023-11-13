@@ -8,42 +8,42 @@ import { useNavigate } from "react-router-dom";
 const CurrentOpenings = () => {
     const history = useNavigate();
     const redirectTo = (e, path, routerLink) => {
-              sessionStorage.setItem("job", path);
+        sessionStorage.setItem("job", path);
         const link = '/careers/' + routerLink;
         history(link);
     };
-const [Openings, SetOpenings] = useState(OpeningsJson);
-const [inputvalue, Setinputvalue] = useState("");
-const SearchResults = (e) => {
-    console.log(e);
-    let searchvalue = OpeningsJson.filter(response =>
-        response.role.trim().toLowerCase().includes(e.trim().toLowerCase())
-      );
-      SetOpenings(searchvalue);
-};
-
-const ClearResults = () => {
-    Setinputvalue("");
-    SetOpenings(OpeningsJson);
-}
-
-const sortJson = (e) => {
-    console.log(e);
-    Setinputvalue(e);
-    if(e.length != 0){
+    const [Openings, SetOpenings] = useState(OpeningsJson);
+    const [inputvalue, Setinputvalue] = useState("");
+    const SearchResults = (e) => {
         console.log(e);
-        SearchResults(e)
-    }else{
-        ClearResults()
-    }
-} 
+        let searchvalue = OpeningsJson.filter(response =>
+            response.role.trim().toLowerCase().includes(e.trim().toLowerCase())
+        );
+        SetOpenings(searchvalue);
+    };
 
-const [toggle,settoggle]=useState("dataarchitect")
-// const handleKeyPress = (event) => {
-//     if(event.key === 'Enter'){
-//       console.log('enter press here! ')
-//     }
-//   }
+    const ClearResults = () => {
+        Setinputvalue("");
+        SetOpenings(OpeningsJson);
+    }
+
+    const sortJson = (e) => {
+        console.log(e);
+        Setinputvalue(e);
+        if (e.length != 0) {
+            console.log(e);
+            SearchResults(e)
+        } else {
+            ClearResults()
+        }
+    }
+
+    const [toggle, settoggle] = useState("dataarchitect")
+    // const handleKeyPress = (event) => {
+    //     if(event.key === 'Enter'){
+    //       console.log('enter press here! ')
+    //     }
+    //   }
 
     // const {       
     //     formState: { },
@@ -59,8 +59,8 @@ const [toggle,settoggle]=useState("dataarchitect")
                 </p>
                 <div className="row">
                     <div className="col-lg-4 col-md-4 col-sm-12 mt-3">
-                        <input className="input-search" type="text" value={inputvalue}  onChange={(e) => sortJson(e.target.value)} placeholder="Search for jobs by skill or keyword" />
-                    </div>                  
+                        <input className="input-search" type="text" value={inputvalue} onChange={(e) => sortJson(e.target.value)} placeholder="Search for jobs by skill or keyword" />
+                    </div>
                     <div className="col-lg-6 col-md-8 col-sm-12 mt-3">
                         {/* <button className="button-search" onClick={SearchResults}>Search</button> */}
                         <button className="clear ml-lg-4 ml-md-3 ml-sm-2 ml-xs-2" onClick={ClearResults}>Clear</button>
@@ -80,18 +80,18 @@ const [toggle,settoggle]=useState("dataarchitect")
                                             {res.location}
                                         </p>
                                         <p className="d-flex justify-content-end">
-                                            
-                                         <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
-                                                onClick={(e) => redirectTo(e, res.role, res.sublink)} >{res.button} 
-                                          </a>
-                                          
+
+                                            <a className="fw-bold-600 apply-now fs-12 top-40 d-flex justify-content-end cr-pointer text-black"
+                                                onClick={(e) => redirectTo(e, res.role, res.sublink)} >{res.button}
+                                            </a>
+
                                         </p>
                                     </div>
                                 </div>
                             </>
                         );
                     })}
-                </div>              
+                </div>
                 {/* <div className="d-flex justify-content-center">
                     <button className="fs-14 fw-bold-600 button-exploremore">
                         Explore More Jobs
