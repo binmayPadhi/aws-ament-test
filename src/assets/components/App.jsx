@@ -79,9 +79,7 @@ function App() {
           <Route path="/careers" element={<CareerHome />}>
             <Route path="" element={<Careers />} />
             <Route path=":name" element={<Apply />}/>
-           
           </Route>
-        
           <Route path="/casestudies" element={<CaseStudies />} />
           <Route path="/legalresources" element={<Legalterms />} />
           <Route path="/products" element={<Product />} />

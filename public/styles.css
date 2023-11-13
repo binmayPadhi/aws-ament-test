@@ -6815,3 +6815,62 @@ background-color:black;
   width: 150px;
 background-color:#1A4598;
 }
+
+/* .carousel-inner > .item {
+  position: relative;
+  display: none;
+  -webkit-transition: 0.6s ease-in-out left;
+  -moz-transition: 0.6s ease-in-out left;
+  -o-transition: 0.6s ease-in-out left;
+  transition: 0.6s ease-in-out left;
+} */
+
+
+.carousel-inner .carousel-item {
+  transition: -webkit-transform 0.1s ease;
+  transition: transform 0.1s ease;
+  transition: transform 0.1s ease, -webkit-transform 100ms ease;
+  
+}
+
+
+.color-change{
+
+  color:white!important;
+}
+.carousel-indicators li { visibility: hidden; }
+
+
+ /* .carousel-control-next {
+ width:50px;
+ height:50px;
+ background-color: #000;
+ border-radius: 50%;
+top:100px;
+} */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px!important;
+  width: 50px!important;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+  background-color: white!important;
+  padding:20px;
+}
+
+/* .carousel-control-next-icon:after
+{
+
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+ 
+  font-size: 55px;
+  color: red;
+} */
