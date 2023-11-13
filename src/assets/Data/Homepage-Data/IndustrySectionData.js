@@ -2,18 +2,24 @@ import ReatilIMG from "../../images/HomePage/homepage-industry-IMG/amnet-retail-
 import HealthcareIMG from "../../images/HomePage/homepage-industry-IMG/amnet-healthcare-indsutry.jpg";
 import EnterpriseIMG from "../../images/HomePage/homepage-industry-IMG/amnet-information-mgmt-industry.jpg";
 import FinancialIMG from "../../images/HomePage/homepage-industry-IMG/amnet-financial-industry.jpg";
-
-const IndustrySectionData = [
+import LogisticsIMG from "../../images/HomePage/homepage-industry-IMG/LogisticsImage.png";
+const IndustrySectionData = {
+  SectionData:[
   {
     id: "retail-ecommerce",
     industryTitle: "Retail & E-Commerce",
     industryIMG: ReatilIMG,
   },
   {
-    id: "healthcare",
-    industryTitle: "Healthcare",
-    industryIMG: HealthcareIMG,
+    id:"logistics",
+    industryTitle: "Logistics & Supply Chain",
+    industryIMG: LogisticsIMG, 
   },
+  // {
+  //   id: "healthcare",
+  //   industryTitle: "Healthcare",
+  //   industryIMG: HealthcareIMG,
+  // },
   {
     id: "information-management",
     industryTitle: "Information Management",
@@ -24,6 +30,39 @@ const IndustrySectionData = [
     industryTitle: "Financial Services",
     industryIMG: FinancialIMG,
   },
-];
+],
+SectionDatasecond:[
+  {
+    id:"logistics",
+    Titleindustry: " Logistics & Supply Chain",
+    IMGindustry: LogisticsIMG, 
+  },
+  
+  {
+    id: "information-management",
+    Titleindustry: "Information Management",
+    IMGindustry: EnterpriseIMG,
+  },
+  
+  {
+    id: "financial-services",
+    Titleindustry: "Financial Services",
+    IMGindustry: FinancialIMG,
+  },
+  {
+    id: "healthcare",
+    Titleindustry: "Healthcare",
+    IMGindustry: HealthcareIMG,
+  },
+  // {
+  //   id: "retail-ecommerce",
+  //   Titleindustry: "Retail & E-Commerce",
+  //   IMGindustry: ReatilIMG,
+  // },
+ 
+]
+
+}
+
 
 export default IndustrySectionData;

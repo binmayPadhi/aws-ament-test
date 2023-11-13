@@ -74,17 +74,14 @@ const GenerativeAI = () => {
                                         </span>
                                         <span className="fs-18">{list.textelement10}</span>
                                     </p>
-                                    <p className="fs-18">{list.description2}</p>
-                                   
+                                    <p className="fs-18">{list.description2}</p>                                  
                                     <h2 className="fs-24 fw-bold font-weight-bold ">{list.subtitle}</h2>
                                     <p className="fs-18">{list.description4}</p>
                                     <p className="fs-20 font-weight-bold fw-bold">{list.sideheading}</p>
-                                    <p className="fs-18 ">
-                                   
+                                    <p className="fs-18 ">                                   
                                             <p className="fs-18 fw-bold font-weight-bold"  >
                                                 {list.description6}
-                                            </p>
-                                     
+                                           </p>                                    
                                         <span className="fs-18">{list.description7}</span>
                                     </p>
                                     <p className="fs-18 ">
@@ -93,8 +90,7 @@ const GenerativeAI = () => {
                                             {list.descrip}
                                         </span>
                                         <span className="fs-18">{list.description60}</span>
-                                    </p>
-                                   
+                                    </p>                                   
                                     <p className="fs-18 ">
                                       
                                             <p className="fs-18 fw-bold font-weight-bold" target="_blank" href={list.link}>
@@ -124,11 +120,8 @@ const GenerativeAI = () => {
                                             {list.dial7}
                                         </span>
                                         <span className="fs-18">{list.dial8}</span>
-                                    </p>
-
-                                    
-                                    <p className="fs-18 ">
-                                  
+                                    </p>                 
+                                    <p className="fs-18 ">                                 
                                             <p className="fs-18 fw-bold font-weight-bold" target="_blank" href={list.link}>
                                                 {list.description14}
                                             </p>
@@ -208,12 +201,10 @@ const GenerativeAI = () => {
                                                 {list.description44}
                                             </a>
                                         </span>
-                                        <span className="fs-18  ">{list.description45}</span>
-                                      
+                                        <span className="fs-18  ">{list.description45}</span>                                     
                                     </p>
                                     <p className="fs-18"> {list.description46}</p>
-                                    <p className="fs-18"> {list.description47}</p>
-                                  
+                                    <p className="fs-18"> {list.description47}</p>       
                                 </div>
                             );
                         })}
