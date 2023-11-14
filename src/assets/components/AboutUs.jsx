@@ -12,7 +12,7 @@ import ceo from "../images/About-Us-Page/CEO.png";
 import achievement from "../images/About-Us-Page/Achievements.png";
 import Amnetglance from "./AboutUs/Amnetglance";
 import Aboutclientsay from "./AboutUs/Aboutclientsay";
-import global from "../images/HomePage/global.png";
+import global from "../images/HomePage/amnet_global_plain.png";
 import Gotocontact from "./Gotocontant";
 import Letsconnect from "./AboutUs/Letsconnect";
 import MediaQuery from "react-responsive";
@@ -221,7 +221,7 @@ function TestAboutUs() {
         <OurPartner />
       </div>
 
-      <div className="space-read w-90 mx-auto">
+      <div className="space-read w-90 mx-auto border-bottom">
         <h1 className="section-title text-center mb-5">Global Footprint</h1>
       </div>
       <div className="w-98 mx-auto">
