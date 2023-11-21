@@ -8,14 +8,22 @@ import blog7 from "../../images/Resources-page/blog7.jpg";
 import blog8 from "../../images/Resources-page/blog_image-min.png";
 import blog9 from "../../images/Resources-page/blog9.png";
 import blog10 from "../../images/Resources-page/image10.jpg";
+import blog11 from "../../images/Resources-page/blog11.png";
 
 const Insightdata = {
   carddetails: [
     {
+      id:"5-ways-AI-can-enhance-and-optimize-your-inventory-management",
+      date:"November 21, 2023",
+      title:"5 Ways AI can Enhance and Optimize your Inventory Management",
+      description:"47% of global retail brands have embraced AI to forecast demand, reduce stock-outs, automate warehousing, and improve logistics efficiency.",
+      image:blog11,
+    },
+    {
       id:"10-ways-how-generative-ai-is-impacting-retail-organizations",
       date:"November 8, 2023",
       title:"10 ways how Generative AI has a positive impact on Retail organizations",
-      description:"Master demand forecasting methods for sales optimization. Explore techniques, technologies & strategies, and uplift your sales performance.",
+      description:"63% of retail leaders are expected to spend more on data analytics. Also, over 35% of leaders believe AI is a game-changing technology in transforming the retail landscape.",
       image:blog10,
     },
     {

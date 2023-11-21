@@ -43,6 +43,7 @@ import Pressdata from "./Pressdata";
 import ImageVideoAnnotation from "./Resources/ImageVideoAnnotation";
 import Forecasting from "./Resources/Forecasting";
 import GenerativeAI from "./Resources/GenerativeAI";
+import InventoryManagement from "./Resources/InventoryManagement";
 
 
 function App() {
@@ -101,6 +102,11 @@ function App() {
               exact
               path="AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations"
               element={<InsightAI />}
+            />
+            <Route
+              exact
+              path="5-ways-AI-can-enhance-and-optimize-your-inventory-management"
+              element={<InventoryManagement />}
             />
             <Route
               exact
