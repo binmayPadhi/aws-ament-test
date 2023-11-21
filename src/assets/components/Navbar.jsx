@@ -31,7 +31,8 @@ function Navbar(props) {
       url === "/blogs/medical-image-video-data-annotation-services" ||
       url === "/blogs/supply-chain-planning-decisions-with-actionable-demand-forecasting-insights" ||
       url === "/blogs/10-ways-how-generative-ai-is-impacting-retail-organizations" ||
-      url === "/products" 
+      url === "/products" ||
+      url === "/blogs/5-ways-AI-can-enhance-and-optimize-your-inventory-management"
     ) {
       setNavcolor("app");
     } else {
