@@ -167,6 +167,11 @@ const AIservices = () => {
                   <span className=" fs-16 fw-bold-400 text-darkgrey">
                     {selectedServicesobj.subDes}
                   </span>
+                  <span >
+                    <a href="/generative-ai-solutions" className=" fs-16 fw-bold-400 text-darkgreen" >
+                    {selectedServicesobj.textlink}
+                    </a>
+                    </span>
                 </p>
               </div>
             </div>

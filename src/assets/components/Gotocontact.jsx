@@ -18,7 +18,7 @@ const Gotocontact = () => {
       <div class="card-overlay"></div>
       <div className="text-center-img">
         <div className="w-90 mx-auto pb-8">
-          <p className="letpara text-left pt-8">Let’s work & grow together</p>
+          <p className="letpara text-left pt-8">LET'S WORK & GROW TOGETHER</p>
 
           <p className="content-text fs-20 text-left w-75">
             We are on a mission to solve complex techonolgy problems and provide

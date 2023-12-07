@@ -166,6 +166,8 @@ import add from "../../images/services-images/Strategy_Consulting/services-strat
 import addi from "../../images/services-images/Strategy_Consulting/strategy_consulting-icon-application-development.png";
 import aic from "../../images/services-images/Strategy_Consulting/services-strategy_consulting-ai-customization.png";
 import aici from "../../images/services-images/Strategy_Consulting/strategy_consulting-icon-ai-customization.png";
+import GenAIimg from "../../images/services-images/Strategy_Consulting/GenAIimage.png";
+import Genicon from "../../images/services-images/Strategy_Consulting/Genicon.png";
 
 const subservices = [
   {
@@ -181,6 +183,17 @@ const subservices = [
       "We maintain a data-driven mindset all throughout the engagement, whether it is during strategy support phase or model development phase, and focus on utilization of big data and machine learning by empowered business users. We have capability to help evolve solutions that start as process automation to cognitive insight and finally cognitive engagement when systems work autonomously.",
     sub: {
       data: [
+        {
+          id: 11,
+          name: "Generative AI",
+          subimg: GenAIimg,
+          subDes:
+            "Harness Generative AI, Large Language Models (LLMs), Conversational AI, and ChatGPT to elevate customer and employee experiences, achieve technological and operational excellence, and deploy intelligent custom bots/virtual assistants with automation, digital self service, and 24/7 customer support",
+          subImgdata: Genicon,
+          sublink: "generative-ai",
+          textlink: " Learn More...",
+          hyperlink: "/generative-ai-solutions"
+        },
         {
           id: 11,
           name: "Statistical Analysis",

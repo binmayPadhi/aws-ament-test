@@ -19,7 +19,7 @@ const Viewsubservice = () => {
     services.map((res) => {
       console.log(res.serviceName);
       if (res.serviceName === params.name) {
-       
+
         setServiceData(res);
         let x = Object.values(res.sub);
         setList(x[0]);
@@ -31,10 +31,10 @@ const Viewsubservice = () => {
         });
       }
     });
-    if (window.innerWidth > 1024){
+    if (window.innerWidth > 1024) {
       window.scrollTo(0, 500);
     }
-    else{
+    else {
       window.scrollTo(0, 1200);
     }
   }, [params.service]);
@@ -46,7 +46,7 @@ const Viewsubservice = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{`${serviceData.metaname}`} </title>   
+        <title>{`${serviceData.metaname}`} </title>
         <meta name="description" content={`${serviceData.metadescription}`} />
         <meta name="keywords" content="" />
       </Helmet>
@@ -183,6 +183,11 @@ const Viewsubservice = () => {
                 <p className="mt-3">
                   <span className=" fs-16 fw-bold-400 text-darkgrey">
                     {selectedServicesobj.subDes}
+                  </span>
+                  <span >
+                    <a href="/generative-ai-solutions" className=" fs-16 fw-bold-400 text-darkgreen" >
+                      {selectedServicesobj.textlink}
+                    </a>
                   </span>
                 </p>
               </div>
