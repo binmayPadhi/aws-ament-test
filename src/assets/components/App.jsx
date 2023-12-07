@@ -44,6 +44,7 @@ import ImageVideoAnnotation from "./Resources/ImageVideoAnnotation";
 import Forecasting from "./Resources/Forecasting";
 import GenerativeAI from "./Resources/GenerativeAI";
 import InventoryManagement from "./Resources/InventoryManagement";
+import GenAI from "./SubServices/GenAI";
 
 
 function App() {
@@ -70,7 +71,11 @@ function App() {
               path="/odc-and-iso-recognized-certification"
               element={<Isoimg />}
             />
-           
+           <Route
+              exact
+              path="/generative-ai-solutions"
+              element={<GenAI/>}
+            />
           <Route path="/services" element={<OurServices />}>
             <Route path="" element={<Services />} />
             <Route path=":name" element={<AIservices />} />

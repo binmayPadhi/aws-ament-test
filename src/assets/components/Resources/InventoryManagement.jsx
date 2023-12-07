@@ -1,17 +1,7 @@
 import React from "react";
-import blog3 from "../../images/Resources-page/blog3.png";
-import Scale from "../../Data/Resources-Data/ScaleAI";
-import { useNavigate } from "react-router-dom";
-import Letsgetstart from "../Webinars/Letsgetstart";
-import blog6 from "../../images/Resources-page/blog6.jpg";
 import { Helmet } from "react-helmet";
-import Newgetstart from "../Webinars/Newgetstart";
-import ImageAnnotation from "../../Data/Resources-Data/ImageAnnotation";
 import blog11 from "../../images/Resources-page/blog11.png";
 import CTAIMG from "../../images/Resources-page/bloginventory.png";
-import AboutUsBG from "../../images/Resources-page/cta_image_wo_text-min.png";
-import Forecast from "../../Data/Resources-Data/Forecasting";
-import Generative from "../../Data/Resources-Data/GenerativeAI";
 import Inventorydata from "../../Data/Resources-Data/Inventorydata";
 
 
