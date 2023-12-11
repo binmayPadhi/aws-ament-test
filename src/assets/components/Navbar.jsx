@@ -8,6 +8,7 @@ import { useEffect } from "react";
 import Ribbon from "./Ribbon";
 import { useState } from "react";
 import { useLayoutEffect } from "react";
+import gen from "../images/services-images/GenAI/Gen_Icon.png"
 
 function Navbar(props) {
     const url = window.location.pathname;
@@ -295,25 +296,33 @@ function Navbar(props) {
                         <h1 className="fs-13 fw-bold-400 text-new">
                           What's New
                         </h1>
+                        <div className="d-flex border-bottom-black pb-4">
+                          <img src={gen} className="w-20" />
+                          <div className="ml-3">
+                            <a href="/generative-ai-solutions" className="fs-13 fw-bold-500 text-underline text-black">
+                              Generative AI
+                            </a>
+                            <p className="fs-13 fw-bold-400 text-digital ">
+                             Empowering businesses with intelligent automation
+                            </p>
+                          </div>
+                        </div>
+                      
                         <a  href={`/services/${`dataengineering`}/${`data-transformations`}`}
                          className="fs-13 fw-bold-500 text-underline text-black">
                           DIGITAL TRANSFORMATION
                         </a>
-                        <p className="fs-13 fw-bold-400 text-digital">
+                        <p className="fs-13 fw-bold-400 text-digital border-bottom-black pb-4">
                           Digital Transformation through proprietary
-                          accelerators
+                          accelerators    
                         </p>
-                        <hr className="hr-line" />
-
                         <h1 className="fs-13 fw-bold-500 text-underline mt-4">
                           SERVICES OVERVIEW
                         </h1>
-                        <p className="fs-13 fw-bold-400 text-digital">
+                        <p className="fs-13 fw-bold-400 text-digital border-bottom-black pb-4">
                           We offer a comprehensive portfolio of services to
                           deliver solutions that make a difference!
                         </p>
-                        <hr className="hr-line" />
-
                         <h1 className="fs-13 fw-bold-400 text-new mt-4">
                           Amnet Insight{" "}
                         </h1>
@@ -342,9 +351,17 @@ function Navbar(props) {
                               >
                                 AI & ML
                               </span>
-                             </p>
-                              
-                            
+                             </p> 
+                             <p
+                              className="sub-service-links"
+                              style={{ marginTop: "5px" }}
+                            >
+                              <a
+                                href={`/services/${`aiml`}/${`generative-ai`}`}
+                              >
+                                Generative AI
+                              </a>
+                            </p>
                             <p
                               className="sub-service-links"
                               style={{ marginTop: "5px" }}
@@ -360,13 +377,6 @@ function Navbar(props) {
                                 href={`/services/${`aiml`}/${`visualizations`}`}
                               >
                                 Visualizations
-                              </a>
-                            </p>
-                            <p className="sub-service-links">
-                              <a
-                                href={`/services/${`aiml`}/${`anomaly-detection`}`}
-                              >
-                                Anomaly Detection
                               </a>
                             </p>
                             <p className="sub-service-links dropdown-view-all-link mb-0">

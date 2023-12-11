@@ -11,11 +11,50 @@
   outline: 0 !important;
 }
 
+.w-85{
+  width:85%;
+}
+
+.gradient-green-line{
+    height: 3px;
+    background: linear-gradient(90deg, #1DAD8F 36.61%, rgba(0, 0, 0, 0.79) 84.07%);
+    width: 300px;
+    border-radius: 4px;
+}
+
+.card-white{
+  width:100%;
+  height:300px;
+  border-radius: 8px;
+  background-color: white;
+  
+}
+
+.fs-34{
+  font-size:34px;
+}
+
+.align-center{
+  align-items: center!important;
+}
+
+.w-40{
+  width:40%;
+}
+
+.grey-bg{
+  background-color: #f2f2f2;
+}
+
 body {
   margin: 0px 140px 0px 140px;
   left: 140px;
   left: 140px !important;
   overflow-x: hidden;
+}
+
+.paddin-space{
+  padding-top:50px;
 }
 
 .all-margin {
@@ -300,6 +339,24 @@ body {
   border-style: none;
   height: 150px;
 }
+
+.top-spacing{
+  margin-top:60px;
+}
+
+.bottom-spacing{
+  margin-bottom:60px;
+}
+
+.border-rad{
+  border-radius: 4px!important;
+}
+
+.gen-font{
+  font-size:35px;
+  font-weight:600;
+}
+
 
 .industry-section .dot-icon {
   position: absolute;
@@ -3308,6 +3365,16 @@ label {
   background: #f4f4f4;
   opacity: 1;
 }
+
+.sub-service-intro-genai{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background: #f4f4f4;
+  opacity: 1;
+}
+
+
 
 .text-center-img-CTA {
   position: absolute;
@@ -6833,6 +6900,11 @@ background-color:#1A4598;
   
 }
 
+.image-size{
+  width:100%;
+  height:350px;
+  margin-top:30px;
+}
 
 .color-change{
 
@@ -6860,6 +6932,12 @@ top:100px;
   background-image: none;
   background-color: white!important;
   padding:20px;
+}
+
+.text-darkgreen{
+  color: #1dad8f;
+  font-weight:800;
+  
 }
 
 /* .carousel-control-next-icon:after
