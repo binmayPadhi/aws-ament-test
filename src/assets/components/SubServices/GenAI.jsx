@@ -7,18 +7,19 @@ import Genimg from "../../images/services-images/GenAI/UseCasesBG.png";
 import { useState } from "react";
 import imagechange from "../../images/services-images/GenAI/Subscribe.png";
 import url1 from "../../images/services-images/GenAI/vert-card_Banking.png";
-import url2 from "../../images/services-images/GenAI/vert-card_Human Resource.png";
-import url3 from "../../images/services-images/GenAI/vert-card_Insurance.png";
+import url2 from "../../images/services-images/GenAI/vert-card_Insurance.png";
+import url3 from "../../images/services-images/GenAI/vert-card_Human Resource.png";
 import url4 from "../../images/services-images/GenAI/vert-card_Manufacturing.png";
 import url5 from "../../images/services-images/GenAI/vert-card_Retail.png";
 import url6 from "../../images/services-images/GenAI/vert-card_IT.png";
-import hoverUrl1 from "../../images/services-images/GenAI/vert-card_b1.png";
-import hoverUrl2 from "../../images/services-images/GenAI/vert-card_b2.png";
+import hoverUrl5 from "../../images/services-images/GenAI/vert-card_b1.png";
+import hoverUrl4 from "../../images/services-images/GenAI/vert-card_b2.png";
 import hoverUrl3 from "../../images/services-images/GenAI/vert-card_b3.png";
-import hoverUrl4 from "../../images/services-images/GenAI/vert-card_b4.png";
-import hoverUrl5 from "../../images/services-images/GenAI/vert-card_b5.png";
-import hoverUrl6 from "../../images/services-images/GenAI/vert-card_b6.png";
+import hoverUrl6 from "../../images/services-images/GenAI/vert-card_b4.png";
+import hoverUrl1 from "../../images/services-images/GenAI/vert-card_b5.png";
+import hoverUrl2 from "../../images/services-images/GenAI/vert-card_b6.png";
 import "../../CSS/GenAI.css";
+import backgroundimage from "../../images/services-images/GenAI/Heading-image.png";
 const GenAI = () => {
     const [selectedId, setId] = useState("");
     const hightlightText = (id) => {
@@ -30,8 +31,8 @@ const GenAI = () => {
     };
 
     const [hoveredIndex, setHoveredIndex] = useState(null);
-    const defaultImages = [url1, url2, url3, url4, url5, url6];
-    const hoverImages = [hoverUrl1, hoverUrl2, hoverUrl3, hoverUrl4, hoverUrl5, hoverUrl6];
+    const defaultImages = [url5,  url4, url6, url1, url3, url2,];
+    const hoverImages = [ hoverUrl5, hoverUrl4, hoverUrl6,hoverUrl1,  hoverUrl3, hoverUrl2,];
 
     const handleMouseEnter = (index) => {
         setHoveredIndex(index);
@@ -43,9 +44,9 @@ const GenAI = () => {
     return (
         <>
             <div
-                className="sub-service-intro position-realtive"
+                className="sub-service-intro-genai position-realtive"
                 style={{
-                    backgroundImage: `url(${AboutUsBG})`,
+                    backgroundImage: `url(${backgroundimage})`,
                     backgroundAttachment: "scroll",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
@@ -73,10 +74,11 @@ const GenAI = () => {
                                     service, and 24/7 customer support.
                                 </p>
                                 <button
-                                    type="button"
-                                    className="fw-bold-700 fs-14 px-4 py-3 text-white bg-grey d-table rounded-1 cr-pointer"
+                                    type="button"    
                                 >
+                                    <a href="/contactus" className="fw-bold-700 fs-14 px-4 py-3 text-white bg-grey d-table rounded-1 border-rad cr-pointer">
                                     Talk to an Expert
+                                    </a>
                                 </button>
                             </div>
                             <div className="col-lg-5 col-md-5 col-sm-12"></div>
@@ -93,18 +95,18 @@ const GenAI = () => {
                 </div>
             </div>
             <div className="w-90 mx-auto">
-                <div className="w-85 mx-auto">
+                <div className="w-85 mx-auto top-spacing">
                     <h1 className="text-center mt-5 fw-bold-600">Galvanize your Teams for Business Success with Generative AI</h1>
                     <p className="fs-15 text-center">We guide businesses in developing and deploying digital-trusted Generative AI solutions to mitigate technology
                         risks, lower operational costs, and deliver greater customer experiences. Also, with the right blend of Gen AI +
                         custom-built LLM models, you can accelerate ROI and achieve new levels of success.</p>
                 </div>
                 <div className="d-flex flex-row justify-content-center">
-                    <div className="gradient-green-line"></div>
+                    <div className="gradient-green-line mt-5"></div>
                 </div>
                 <div className="w-85 mx-auto">
-                    <h1 className="text-center mt-5 fw-bold-600">Unlock Revenue Growth. Realize Value. Light up New Opportunities.</h1>
-                    <p className="fs-16 text-center">We guide your business in the safe and responsible deployment of Generative AI and Large Language Models
+                    <h1 className="text-center mt-5 fw-bold-600 ">Unlock Revenue Growth. Realize Value. Light up New Opportunities.</h1>
+                    <p className="fs-16 text-center bottom-spacing">We guide your business in the safe and responsible deployment of Generative AI and Large Language Models
                         (LLMs), adhering to governance, risk, and compliance (GRC) practices. We provide comprehensive Gen AI
                         services and solutions, establishing a scalable tech discipline. Partner with Amnet Digital to develop a
                         comprehensive strategy, including prudent data models, a solid business case, and a concrete Generative AI
@@ -112,7 +114,6 @@ const GenAI = () => {
                 </div>
             </div>
             <div className="">
-             
                 <div
                     className="sub-service-intro position-realtive"
                     style={{
@@ -128,8 +129,8 @@ const GenAI = () => {
                         paddingRight: '20px',
                     }}
                 >
-                       <h1 className="text-center mt-5 fw-bold-600 text-white mb-5">GEN AI USE CASES</h1>
-                    <div className="row">
+                       <h1 className="text-center mt-5  text-white mb-5 gen-font">GEN AI USE CASES</h1>
+                    <div className="row w-90 mx-auto">
                     {defaultImages.map((url, index) => (
                         <div className="col-lg-4">
                                 <img
@@ -149,10 +150,10 @@ const GenAI = () => {
 
             <div className="w-90 mx-auto">
                 <div className="row pt-5">
-                    <h1 className="fs-34 fw-bold-600 text-center pb-5">Why choose Amnet Digital as your Gen AI partner?</h1>
+                    <h1 className="fs-34 fw-bold-600 text-center pb-5 pt-5">Why choose Amnet Digital as your Gen AI partner?</h1>
                     {GenAIData.genfirstdata.map((list) => {
                         return (
-                            <div className="col-lg-4 text-center pt-3">
+                            <div className="col-lg-4 text-center pt-5">
                                 <img src={list.icon} className="w-25 pb-5" />
                                 <h1 className="fs-18 fw-bold-800 pb-4">{list.title}</h1>
                                 <p className="fs-16 ">{list.paragraph}</p>
@@ -271,19 +272,24 @@ const GenAI = () => {
                 <div class="card-overlay"></div>
                 <div className="text-center-img">
                     <div className="w-90 mx-auto pb-8">
-                        <p className="letpara text-left pt-8">Generative AI For Everyone!</p>
-                        <p className="content-text fs-18 text-left w-75">
+                        <div className="row">
+                            <div className="col-lg-9 col-sm-12">
+                        <p className="letpara text-left pt-8 pb-3">Generative AI For Everyone!</p>
+                        <p className="content-text fs-18 text-left pb-3">
                             Achieve business agility, continuity, and credibility by putting Generative AI to
                             work for success. Navigate your business growth in lengths and deliver
                             remarkable customer experiences with Amnet Digital's Generative AI solutions.
                         </p>
+                    
                         <p className="d-flex flex-row justify-content-start pt-4">
-                            <a href="/careers">
+                            <a href="/contactus">
                                 <button className="current-openings fs-16 fw-bold-600">
                                     Talk to our Expert
                                 </button>
                             </a>
                         </p>
+                    </div>
+                    </div>
                     </div>
                 </div>
             </div>

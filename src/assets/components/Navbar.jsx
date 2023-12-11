@@ -379,13 +379,6 @@ function Navbar(props) {
                                 Visualizations
                               </a>
                             </p>
-                            <p className="sub-service-links">
-                              <a
-                                href={`/services/${`aiml`}/${`anomaly-detection`}`}
-                              >
-                                Anomaly Detection
-                              </a>
-                            </p>
                             <p className="sub-service-links dropdown-view-all-link mb-0">
                               <span
                                 onClick={(e) => serviceTo(e, `/services/aiml`)}
