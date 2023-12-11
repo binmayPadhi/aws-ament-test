@@ -96,14 +96,14 @@ genseconddata:[
 ],
 CaseStudiesSectionData: [
     {
-        id : "propensity-modelling",
+        id : "virtual-assistant",
         caseStudiesTitle : "Virtual Assistant",
         caseStudiesDesc : "Virtual shopping assistant to help shoppers find the best products in the easiest way across multiple domains like Retail, eCommerce and Healthcare.",   
         caseStudiesIMG : propensityIMG,
     },
 
     {
-        id : "virtual-assistant",
+        id : "propensity-modelling ",
         caseStudiesTitle : "Policy assistant",
         caseStudiesDesc : "Introduced a Gen AI-powered chat-bot to answer employee queries about internal policy documents, enhance employee understanding of company policies, and improve workplace efficiency & compliance.",
         caseStudiesIMG : virtualIMG,
