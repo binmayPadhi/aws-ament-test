@@ -64,7 +64,7 @@ const GenAI = () => {
                                     className="fw-bold-600 text-white fs-35 text-capitalize"
                                     data-text="Your Tech Innovation Catalyst"
                                 >
-                                    Generative AI Solutions For Everyone
+                                    Generative AI Solutions For Everyone 
                                 </h2>
                                 <p className="fw-bold-400 fs-16 text-white mb-5 mr-5 mt-4">
                                     Harness Generative AI, Large Language Models (LLMs), Conversational
@@ -77,7 +77,7 @@ const GenAI = () => {
                                     type="button"    
                                 >
                                     <a href="/contactus" className="fw-bold-700 fs-14 px-4 py-3 text-white bg-grey d-table rounded-1 border-rad cr-pointer">
-                                    Talk to an Expert
+                                    Talk to an Expert  
                                     </a>
                                 </button>
                             </div>
