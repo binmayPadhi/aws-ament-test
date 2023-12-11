@@ -125,14 +125,14 @@ carddetails: [
     {
       id:"10-ways-how-generative-ai-is-impacting-retail-organizations",
       date:"November 21, 2023",
-      title:"5 Ways AI can Enhance and Optimize your Inventory Management",
-      description:"47% of global retail brands have embraced AI to forecast demand, reduce stock-outs, automate warehousing, and improve logistics efficiency.",
+      title:"10 ways how Generative AI has a positive impact on Retail organizations",
+      description:"47% of global retail brands have already embraced AI to forecast demand, reduce stock-outs, automate warehousing, and improve logistics efficiency. Because that helps them decrease carrying costs....",
       image:blog10,
     },
     {
       id:"5-ways-AI-can-enhance-and-optimize-your-inventory-management",
       date:"November 8, 2023",
-      title:"10 ways how Generative AI has a positive impact on Retail organizations",
+      title:"5 Ways AI can Enhance and Optimize your Inventory Management ",
       description:"63% of retail leaders are expected to spend more on data analytics. Also, over 35% of leaders believe AI is a game-changing technology in transforming the retail landscape.",
       image:blog11,
     },
@@ -140,7 +140,7 @@ carddetails: [
       id:"the-real-value-ai-can-bring-to-retail-industry",
       date:"August 16, 2023",
       title:"The Real Value AI Can Bring to Your Retail Business",
-      description:"Did you know? Gartner predicts that by 2025, 80% of customer interactions will be managed by AI technologies, leading to more personalized experiences....",
+      description:"Did you know? Gartner predicts that by 2025, 80% of customer interactions will be managed by AI technologies, leading to more personalized experiences. In today's fast-paced and highly competitive retail landscape....",
       image: blog7,
     },
     
