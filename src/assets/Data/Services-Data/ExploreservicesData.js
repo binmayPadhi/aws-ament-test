@@ -188,10 +188,10 @@ const subservices = [
           name: "Generative AI",
           subimg: GenAIimg,
           subDes:
-            "Harness Generative AI, Large Language Models (LLMs), Conversational AI, and ChatGPT to elevate customer and employee experiences, achieve technological and operational excellence, and deploy intelligent custom bots/virtual assistants with automation, digital self service, and 24/7 customer support",
+            "Harness Generative AI, Large Language Models (LLMs), Conversational AI, and ChatGPT to elevate customer and employee experiences, achieve technological and operational excellence, and deploy intelligent custom bots/virtual assistants with automation, digital self service, and 24/7 customer support  ",
           subImgdata: Genicon,
           sublink: "generative-ai",
-          textlink: " Learn More...",
+          textlink: "  Learn More...",
           hyperlink: "/generative-ai-solutions"
         },
         {
