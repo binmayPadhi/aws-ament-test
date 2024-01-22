@@ -406,7 +406,7 @@ function Footer() {
           <p className="footer-border"></p>
           <div className="row mb-5">
             <div className="col-lg-3 col-md-4 col-sm-12 col-xs-12 mt-3 text-md-left text-lg-left text-sm-left">
-              <p className="listName w-100">© 2023 Amnet Digital</p>
+              <p className="listName w-100">© 2024 Amnet Digital</p>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3 text-md-center text-lg-center text-sm-left">
               <MediaQuery minWidth={200} maxWidth={759}>
