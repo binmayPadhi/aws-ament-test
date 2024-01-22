@@ -377,8 +377,11 @@ function Footer() {
               <p className="listName">+91832-8631349</p>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3 text-md-center text-lg-center text-sm-left">
+            <p className="listName text-md-center">
+            Austin, TX
+            </p>
               <p className="listName text-md-center">
-                660 South Bagdad Road #320, Leander, TX 78641 Austin, Texas
+              660 South Bagdad Road #320, Leander, 78641
               </p>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 ">
