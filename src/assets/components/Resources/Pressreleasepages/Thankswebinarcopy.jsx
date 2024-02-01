@@ -1,14 +1,14 @@
 import React from "react";
-import Headercontent from "./Headercontent";
-import Webinarform from "./Webinarform";
-import Webinarexperts from "./Webinarexperts";
-import Webinarfooter from "./Webinarfooter";
-import "../../CSS/webinar.css";
+import Headercontent from "../../Webinars/Headercontent";
+import Webinarform from "../../Webinars/Webinarform";
+import Webinarexperts from "../../Webinars/Webinarexperts";
+import Webinarfooter from "../../Webinars/Webinarfooter";
+import "../../../CSS/webinar.css";
 import { useState, useEffect } from "react";
-import Letsgetstart from "./Letsgetstart";
+import Letsgetstart from "../../Webinars/Letsgetstart";
 import { Helmet } from "react-helmet";
 
-const Thankswebinar = () => {
+const Thankswebinarcopy = () => {
   const [width, setWidth] = useState(window.innerWidth);
   const [focusInput, setFocusinput] = useState(false);
   const updateDimensions = () => {
@@ -115,4 +115,4 @@ enabled by technology. Watch the on-demand webinar now!" />
   );
 };
 
-export default Thankswebinar;
+export default Thankswebinarcopy;
