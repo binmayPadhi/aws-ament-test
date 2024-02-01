@@ -53,9 +53,7 @@ const GenAI = () => {
                     width: "100%",
                 }}
             >
-                {/* <div className="fs-35 text-white position-absolute top-0">
-                            <Navbar navChange={navColor} />
-                       </div> */}
+                
                 <div className="w-85 mx-auto">
                     <div className="text-center-img">
                         <div className="row">
@@ -64,7 +62,7 @@ const GenAI = () => {
                                     className="fw-bold-600 text-white fs-35 text-capitalize"
                                     data-text="Your Tech Innovation Catalyst"
                                 >
-                                    Generative AI Solutions For Everyone
+                                    Generative AI Solutions For Everyone 
                                 </h2>
                                 <p className="fw-bold-400 fs-16 text-white mb-5 mr-5 mt-4">
                                     Harness Generative AI, Large Language Models (LLMs), Conversational
@@ -77,7 +75,7 @@ const GenAI = () => {
                                     type="button"    
                                 >
                                     <a href="/contactus" className="fw-bold-700 fs-14 px-4 py-3 text-white bg-grey d-table rounded-1 border-rad cr-pointer">
-                                    Talk to an Expert
+                                    Talk to an Expert  
                                     </a>
                                 </button>
                             </div>
@@ -206,8 +204,6 @@ const GenAI = () => {
                         })}
                     </div>
                 </div>
-
-
             </div>
             <div className="row w-90 mx-auto new-case-studies-row above-spacings">
                 <h1 className="fs-40 fw-bold-600 text-center bottom-spacing">What's New?</h1>
@@ -216,9 +212,7 @@ const GenAI = () => {
                         <div
                             className="col-lg-4 col-md-6 col-sm-12 col-xs-12 cr-pointer highlight-text d-flex align-items-strech mb-4"
                             key={list.id}
-                            //   onClick={() => {
-                            //     navigateTowebinarspage(list.id);
-                            //   }}
+                           
                             onMouseEnter={() => {
                                 hightlightText(list.id);
                             }}

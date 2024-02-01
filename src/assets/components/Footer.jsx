@@ -22,7 +22,7 @@ import { useLocation } from "react-router-dom";
 import ISO from "../images/Resources-page/iso1.png";
 import Equalitas from "../images/Resources-page/equalitas1.png";
 import Business from "../images/HomePage/Business Connect Award.png";
-
+import soc from "../images/Resources-page/SOC2_Logo.png";
 
 
 function Footer() {
@@ -65,7 +65,14 @@ function Footer() {
           image:ISO,
           image1:Equalitas,
           image2:Business,
+          image3:soc,
         },
+        {
+          id: "16",
+          name:"",
+          link:"",
+          image3:soc,
+        }
         
       ],
     },
@@ -180,7 +187,7 @@ function Footer() {
         {
           id: 45,
           name: "Financial Services",
-         
+        
         },
       ],
     },
@@ -214,6 +221,7 @@ function Footer() {
           certifiedimage:ISO,
           certifiedimage1:Equalitas,
           certifiedimage2:Business,
+          certifiedimage3:soc,
         },
       ],
     },
@@ -349,12 +357,12 @@ function Footer() {
                           >
                            <MediaQuery minWidth={760} >
                             {val.hasOwnProperty('image') === true ? 
-                           <p className="mb-0 mt-md-5 spacing-first"><a href={val.id}><img  src={val.image}/></a> <a href={val.id}><img  src={val.image1}/></a></p>: val.name
+                           <p className="mb-0 mt-md-5 spacing-first"><a href={val.id}><img  src={val.image}/></a> <a href={val.id}><img  src={val.image1}/></a> <a><img  src={val.image3}/></a></p>: val.name
                           }
                             </MediaQuery>
                             <MediaQuery minWidth={320} maxWidth={759}>
                             {val.hasOwnProperty('certifiedimage') === true ? 
-                            <a href={val.id}><span> <img className="spacing-icosn" src={val.certifiedimage}/> <img className="spacing-icosn" src={val.certifiedimage1}/></span></a> : val.name
+                            <a href={val.id}><span> <img className="spacing-icosn" src={val.certifiedimage}/> <img className="spacing-icosn" src={val.certifiedimage1}/> <img className="spacing-icosn" src={val.certifiedimage3}/></span></a> : val.name
                           }
                             </MediaQuery>      
                           </Link>
@@ -377,8 +385,11 @@ function Footer() {
               <p className="listName">+91832-8631349</p>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3 text-md-center text-lg-center text-sm-left">
+            <p className="listName text-md-center">
+            Austin, TX
+            </p>
               <p className="listName text-md-center">
-                660 South Bagdad Road #320, Leander, TX 78641 Austin, Texas
+              660 South Bagdad Road #320, Leander, 78641
               </p>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 ">
@@ -403,7 +414,7 @@ function Footer() {
           <p className="footer-border"></p>
           <div className="row mb-5">
             <div className="col-lg-3 col-md-4 col-sm-12 col-xs-12 mt-3 text-md-left text-lg-left text-sm-left">
-              <p className="listName w-100">© 2023 Amnet Digital</p>
+              <p className="listName w-100">© 2024 Amnet Digital</p>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3 text-md-center text-lg-center text-sm-left">
               <MediaQuery minWidth={200} maxWidth={759}>

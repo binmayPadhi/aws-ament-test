@@ -3384,6 +3384,11 @@ label {
   transform: translateY(-50%);
 }
 
+.bottom-img-absolute{
+  position: absolute;
+  bottom:20px;
+}
+
 .fs-21{
   font-size:21px;
 }
