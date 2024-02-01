@@ -1177,7 +1177,7 @@ function Navbar(props) {
                                 onClick={(e) =>
                                   serviceTo(
                                     e,
-                                    `press-release/amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023`
+                                    `press-release`
                                   )
                                 }
                                 className="cr-pointer"
@@ -1193,7 +1193,7 @@ function Navbar(props) {
                                 onClick={(e) =>
                                   serviceTo(
                                     e,
-                                    `press-release/amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023`
+                                    `press-release`
                                   )
                                 }
                               >
