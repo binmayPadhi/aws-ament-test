@@ -8,10 +8,10 @@ const Pressreleasetwo = () => {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Amnet Digital Named The Best AI & Data Analytics Company Of The Year 2023 </title>
-                <meta name="title" content="Amnet Digital Named The Best AI & Data Analytics Company Of The Year 2023 By Business Connect Publication"></meta>
-                <meta name="description" content="Amnet Digital named “The Best AI & Data Analytics Company Of The Year 2023” by Business Connect. Read the full press release here!" />
-                <meta name="keywords" content="Amnet Digital, The Best AI & Data Analytics Company Of The Year 2023, Recognition Press Release, Business Connect" />
+                <title> Amnet Digital launches Swift Insights, AI-powered Analytics Platform | Amnet Digital </title>
+                <meta name="title" content="Amnet Digital launches Swift Insights, AI-powered Analytics Platform | Amnet Digital "></meta>
+                <meta name="description" content=" Amnet Digital launches Swift Insights, an AI-powered analytics platform for actionable insights and data-driven success." />
+                <meta name="keywords" content="AI-Powered Analytics, Product Launch, Data Analytics, Advanced Analytics, AI press release." />
             </Helmet>
             <div className="">
                 <div

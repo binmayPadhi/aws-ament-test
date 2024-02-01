@@ -10,10 +10,10 @@ const Telangana = () => {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Amnet Digital Named The Best AI & Data Analytics Company Of The Year 2023 </title>
-                <meta name="title" content="Amnet Digital Named The Best AI & Data Analytics Company Of The Year 2023 By Business Connect Publication"></meta>
-                <meta name="description" content="Amnet Digital named “The Best AI & Data Analytics Company Of The Year 2023” by Business Connect. Read the full press release here!" />
-                <meta name="keywords" content="Amnet Digital, The Best AI & Data Analytics Company Of The Year 2023, Recognition Press Release, Business Connect" />
+                <title> Amnet Digital named as a winner by Telangana State Awards 2023 </title>
+                <meta name="title" content="Amnet Digital named as a winner by Telangana State Awards 2023"></meta>
+                <meta name="description" content="Amnet Digital is honored by Telangana State Awards, affirming our commitment to deliver exceptional digital solutions with excellence." />
+                <meta name="keywords" content="Industry Recognition, Best AI Services company,  Recognition." />
             </Helmet>
             <div className="">
                 <div

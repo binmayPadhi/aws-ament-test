@@ -1177,7 +1177,7 @@ function Navbar(props) {
                                 onClick={(e) =>
                                   serviceTo(
                                     e,
-                                    `press-release`
+                                    `press-releases`
                                   )
                                 }
                                 className="cr-pointer"
@@ -1193,7 +1193,7 @@ function Navbar(props) {
                                 onClick={(e) =>
                                   serviceTo(
                                     e,
-                                    `press-release`
+                                    `press-releases`
                                   )
                                 }
                               >
