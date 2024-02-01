@@ -29,10 +29,9 @@ const Pressreleasehome = () => {
     <>
      <Helmet>
         <meta charSet="utf-8" />
-        <title>Insights Blog - What we think | Amnet Digital </title>
-        <meta name="description" content="Read the Amnet Digital Insights blog where we address the most challenging issues in an effort to create a better workplace. 
-          Discover our most recent ideas." />
-        <meta name="keywords" content="Amnet Digital Insights." />
+        <title> Explore Our Latest Press Releases and Company Updates | Amnet Digital</title>
+        <meta name="description" content="Explore the latest milestones and achievements of Amnet Digital through our Press Releases. Stay informed about our innovations and industry impact." />
+        <meta name="keywords" content="Press Release, Data-Driven Insights, Market Insights, AI Press Release" />
       </Helmet>
       <div className="bg-insights mb-0">
         <div className="">
@@ -74,7 +73,7 @@ const Pressreleasehome = () => {
                   <div className="card animation-card-image mr-4 box_shadow">
                     <a
                       className="anchor_styles achorhover"
-                      href={`press-release/${list.id}`}
+                      href={`press-releases/${list.id}`}
                     >
                       <div className="card-header border-0 bgc-white p-0">
                         <img

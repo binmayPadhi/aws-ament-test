@@ -93,7 +93,7 @@ function App() {
           <Route path="/casestudies" element={<CaseStudies />} />
           <Route path="/legalresources" element={<Legalterms />} />
           <Route path="/products" element={<Product />} />
-          <Route path="/press-release" element={<Pressrelease />} >
+          <Route path="/press-releases" element={<Pressrelease />} >
             <Route exact path="" element={<Pressreleasehome />}/>
             <Route
               path="reshaping-the-retail-industry-through-AI"
