@@ -19,7 +19,7 @@ import star from "../images/HomePage/star.png";
 import send from "../images/HomePage/Sendicon.png";
 import cross from "../images/HomePage/close-icon.png";
 import { useLocation } from "react-router-dom";
-import ISO from "../images/Resources-page/iso1.png";
+import ISO from "../images/HomePage/isoimage.png";
 import Equalitas from "../images/Resources-page/equalitas1.png";
 import Business from "../images/HomePage/Business Connect Award.png";
 import soc from "../images/Resources-page/SOC2_Logo.png";
@@ -357,7 +357,7 @@ function Footer() {
                           >
                            <MediaQuery minWidth={760} >
                             {val.hasOwnProperty('image') === true ? 
-                           <p className="mb-0 mt-md-5 spacing-first"><a href={val.id}><img  src={val.image}/></a> <a href={val.id}><img  src={val.image1}/></a> <a><img  src={val.image3}/></a></p>: val.name
+                           <p className="mb-0 mt-md-5 spacing-first"><span><a href={val.id}><img  src={val.image}/></a></span><span></span> <a href={val.id}><img  src={val.image1}/></a> <a><img  src={val.image3}/></a></p>: val.name
                           }
                             </MediaQuery>
                             <MediaQuery minWidth={320} maxWidth={759}>
