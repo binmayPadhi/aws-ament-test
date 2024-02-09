@@ -51,7 +51,7 @@ const Jobdescription = [
                 content: "Experience: 4 to 6 years",
             },
             {
-                content: "Design &amp; develop web-based applications as per the business requirements and specifications.",
+                content: "Design  & develop web-based applications as per the business requirements and specifications.",
             },
             {
                 content: "Develop front-end and back-end components and codes as per the robust architectural approach and design patterns. Adhere to guiding principles and code standards.",
@@ -60,7 +60,7 @@ const Jobdescription = [
                 content: "Write efficient, re-usable, optimal, and well-documented code.",
             },
             {
-                content: "Perform unit testing &amp; system integration testing involve in troubleshooting and debugging critical problems and resolving complex technical issues that may arise.",
+                content: "Perform unit testing & system integration testing involve in troubleshooting and debugging critical problems and resolving complex technical issues that may arise.",
             },
             {
                 content: "Should have experience in the design and development of web services and API and XML.",
@@ -72,7 +72,7 @@ const Jobdescription = [
                 content: "Experience and Knowledge of NodeJS and the concept of RESTful API is a must.",
             },
             {
-                content: "Experience in Angular-based applications is needed Experience in end-to-end web development Experience with SQL (PostgreSQL preferred) &amp; NoSQL (Mongo preferred) databases.",
+                content: "Experience in Angular-based applications is needed Experience in end-to-end web development Experience with SQL (PostgreSQL preferred) & NoSQL (Mongo preferred) databases.",
             },
 
         ]
@@ -586,6 +586,608 @@ const Jobdescription = [
             },
         ]
     },
+    {
+        applyfor: "Data Science Lead",
+        title: "Data Science Lead",
+        level:"mid-senior",
+        experience:"7 - 9 years",
+        aboutdescription: "A Data Scientists roles and responsibilities include extracting data from multiple sources, using machine learning tools to organize data, process, clean, and validate the data, analyze the data for information and patterns, develop prediction systems, present the data in a clear manner, and propose solutions.",
+        unorderedlist: [
+            {
+                content: "Perform Data cleansing activities such as data cleaning, merging and enrichment etc.",
+            },
+            {
+                content: "Perform feature engineering through extracting meaningful features from measured and/or derived data.",
+            },
+            {
+                content: "Perform exploratory and targeted data analyses to get key insights.",
+            },
+            {
+                content: "Build Stochastic and Machine learning algorithms that potentially address business problems.",
+            },
+            {
+                content: "Lead and implement Machine Learning projects from initiation through completion with particular focus on automated deployment and ensuring optimized performance."
+            },
+            {
+                content: "Maintain and optimize the machine learning/deep learning models developed by the Data Scientist and ensure seamless deployment in different environments (Dev/QA/Prod) while enabling model tracking, model experimentation and model automation."
+            },
+            {
+                content: "Collaborate with the data engineers and data scientists on model development to containerize and build out the deployment pipelines for new models. "
+            },
+            {
+                content: "Collaborate on MLOPS life cycle experience with MLOPS work flows traceability and versioning of datasets."
+            },
+            {
+                content: "Ensure traceability and versioning of datasets, models evaluation pipelines."
+            },
+            {
+                content: "Design, prototype, build and maintain APIs for consumption of machine learning models at scale."
+            },
+            {
+                content: "Facilitate the development and deployment of POC machine learning systems."
+            },
+            {
+                content: "Using standard methodologies framework to ensure data quality and reconciliation checks are in place and are transparent to everyone."
+            }
+        ],
+        unorderedlist1: [
+            {
+                content: "In-depth understanding and modelling experience in supervised, unsupervised, and deep learning models (CNN/RNN/LSTM/BERT/ Transformers etc.)",
+            },
+            {
+                content: "Knowledge of vector algebra, statistical and probabilistic modelling is highly desirable.",
+            },
+            {
+                content: "Knowledge of advanced statistical techniques and concepts (regression, properties of distributions, statistical tests, etc.) and experience in applying the same.",
+            },
+            {
+                content: "Experience in major machine learning frameworks such as Pytorch, Scikit-Learn, TensorFlow, SparkML etc.",
+            },
+            {
+                content: "Hands-on knowledge of data wrangling, data cleaning/preparation, dimensionality reduction techniques is required.",
+            },
+            {
+                content: "Knowledge of creating data architectures/pipeline.",
+            },
+            {
+                content: "Fluency in Python programming.",
+            },
+            {
+                content: "Familiarity with SQL and NoSQL (anyone) databases is desirable.",
+            },
+            {
+                content: "Experience working with Machine Learning deployment frameworks like Azure ML studio, AWS sage maker etc is an added advantage.",
+            },
+            {
+                content: "Strong analytical and critical thinking skills.",
+            },
+            {
+                content: "Have a business mindset, swift to identify risk situations and opportunities, and able to generate creative solutions to business problems.",
+            },
+            {
+                content: "Effective communication skills(written and verbal) to properly articulate complicated statistical models/ reports to management and other IT development partner.",
+            },
+           
+        ]
+    },
+    {
+        applyfor: "Einstein Analytics",
+        title: "Einstein Analytics",
+        level:"mid-senior",
+        experience:"7 - 12 years",
+        aboutdescription: "Contribute to our team's success by spearheading model development, accurate predictions, and advanced analytics leveraging Einstein Discovery. Drive the implementation of CRM Analytics Dashboard, Recipes, and data replications, playing a crucial role in shaping our data-driven strategies.",
+        unorderedlist: [
+            {
+                content: "Lead model development and fine-tuning in Einstein Discovery.",
+            },
+            {
+                content: "Ensure accuracy in predictions and leverage prediction algorithms.",
+            },
+            {
+                content: "Apply performance considerations to optimize model and prediction efficiency.",
+            },
+            {
+                content: "Develop complex dashboards using SAQL and Einstein Design.",
+            },
+            {
+                content: "Handle logic, data transformation, and validations using Recipes in Einstein Discovery."
+            },
+            {
+                content: "Configure and import data into Datasets from diverse source systems, including Salesforce CRM."
+            },
+            {
+                content: "Drive the implementation of advanced analytics strategies, focusing on CRM Analytics Dashboards. "
+            },
+            {
+                content: "Utilize expertise in JSON, Python, SOQL, and SAQL for data extraction and manipulation."
+            },
+            {
+                content: "Collaborate with cross-functional teams for successful analytics initiative execution."
+            },
+            {
+                content: "Stay updated on the latest developments in analytics, AI, and data science."
+            },
+        
+        ],
+        unorderedlist1: [
+            {
+                content: "Lead complex dashboard development using SAQL and Einstein Design.",
+            },
+            {
+                content: "Develop insightful stories in Einstein Discovery, enhancing data-driven narratives.",
+            },
+            {
+                content: "Prepare and fine-tune models within Einstein Discovery for optimal performance.",
+            },
+            {
+                content: "Demonstrate expertise in making accurate predictions based on model outputs.",
+            },
+            {
+                content: "Apply in-depth knowledge and experience in diverse prediction algorithms.",
+            },
+            {
+                content: "Implement performance considerations to enhance model and prediction efficiency.",
+            },
+            {
+                content: "Drive changes for data extraction, logic, and transformations as needed for dashboard development.",
+            },
+            {
+                content: "Utilize Recipes for logic, data transformation, and validations in Einstein Discovery.",
+            },
+            {
+                content: "Hands-on experience with JSON, Python, SOQL, and SAQL for versatile data handling.",
+            },
+            {
+                content: "Configure and import data into Datasets from Salesforce CRM and external sources.",
+            },           
+        ]
+    },
+    {
+        applyfor: "Java Architect",
+        title: "Java Architect",
+        level:"senior",
+        experience:"12 - 20 years",
+        aboutdescription: "Lead the charge in architecting large-scale Java applications with over 10 years of hands-on experience. Collaborate with tech and design teams, troubleshoot design flaws, and design scalable systems. Drive Proof of Concept (POC) for enterprise web applications, ensuring adherence to MVC model. Provide technical leadership, conduct code reviews, and champion continuous integration.",
+        unorderedlist: [
+            {
+                content: "Meeting with technology team and the design team to discuss the goals and needs of the project.",
+            },
+            {
+                content: "Examining and defining current architecture systems.",
+            },
+            {
+                content: "Designing scalable architecture systems for Java-based applications.",
+            },
+            {
+                content: "Troubleshooting design flaws and system bottlenecks.",
+            },
+            {
+                content: "Lead POC effort to design an enterprise n-tier web-based application using MVC model."
+            },
+            {
+                content: "Performing validation tests to ensure the flexibility and scalability of the Java environment."
+            },
+            {
+                content: "Assisting the software design team with application integration."
+            },
+            {
+                content: "Work closely with developers to develop internal tools and platforms for the build process."
+            },
+            {
+                content: "Provide technical leadership for software development methodology, including code reviews, unit tests, and code style."
+            },
+            {
+                content: "Provide subject matter expertise for application security, performance, and scalability."
+            },
+            {
+                content: "Provide technical leadership for the continuous integration and continuous delivery process."
+            },
+            {
+                content: "Develop and document best practices for team collaboration, estimating, productivity, software architecture, technical design, and documentation."
+            },
+            {
+                content: "Work closely with product owners to understand and translate business objectives into technical requirements. "
+            },
+            {
+                content: "Conduct code reviews to ensure coding standards."
+            },
+            {
+                content: "Conducting system performance tests and application tuning."
+            },
+            {
+                content: "Completing systems reports."
+            }
+        ],
+        unorderedlist1: [
+            {
+                content: "5+ years of experience architechting large-scale applications of Java.",
+            },
+            {
+                content: "10+ years’ experience with Java 7/8, J2EE, Eclipse or similar tool.",
+            },
+            {
+                content: "5+ years of experience with Spring Boot, Spring Security, Spring Data, Spring MVC along with Unit Testing, and Integration Testing.",
+            },
+            {
+                content: "Experience designing and coding high-performance, scalable, reusable, enterprise Java applications.",
+            },
+            {
+                content: "Excellent understanding of design patterns and micro service architecture.",
+            },
+            {
+                content: "Experience designing RESTful web services.",
+            },
+            {
+                content: "Experience designing, implementing, and integrating Spring and/or Spring Boot.",
+            },
+            {
+                content: "Experience in writing unit tests and documentation.",
+            },
+            {
+                content: "Hands on experience in Enterprise Integration Patterns (EIP); Exposure with apache camel or spring integration.",
+            },
+            {
+                content: "Hands on experience with Kubernetes and exposure in no-SQL databases.",
+            },
+            {
+                content: "Deep understanding of data architecture, industry standards, and best practices.",
+            },
+            {
+                content: "Ability to clearly and concisely document architectural diagrams, technical proposals, and research results.",
+            },
+            {
+                content: "Experience with writing complex queries for Oracle database."
+            },
+            {
+                content: "Linux and systems management experience."
+            },
+            {
+                content: "Experience in high-volume, transaction processing productions systems."
+            },
+            {
+                content: "Object oriented analysis, design and programming skills."
+            },
+            {
+                content: "Experience with a recognized software development life cycle methodology."
+            }
+           
+        ]
+    },
+    {
+        applyfor: "Lead Full Stack",
+        title: "Lead Full Stack",
+        level:"senior",
+        experience:"7 - 9 years",
+        aboutdescription: "We are looking to add bright, focused, resourceful and highly goal-oriented Software Developer with experience in Node Js. Candidates should enjoy working in a challenging environment; have the enthusiasm and ambition to develop & complete projects to the highest standard and want to be part of an organization that puts technology at the heart of everything it does.",
+        unorderedlist: [
+            {
+                content: "Must be able to develop state of art Angular applications using RESTful micro services, Node.js and MongoDB Stack.",
+            },
+            {
+                content: "Implementation of security and data protection.",
+            },
+            {
+                content: "Implementation of robust set of services / APIs to power the web application.",
+            },
+            {
+                content: "Building reusable code and libraries for future use.",
+            },
+            {
+                content: "Optimization of the application for maximum speed and scalability."
+            },
+            {
+                content: "Integration of the front-end and back-end aspects of the web application."
+            },
+            {
+                content: "Execute testing plans/strategy, create test cases, and user acceptance criteria."
+            },
+            {
+                content: "Assist with test execution during test life cycle."
+            },
+            {
+                content: "Maintain the defect management life cycle, using a defect tracking tool."
+            },
+            {
+                content: "Work with the developer team to ensure all defects are cleared out."
+            },
+            {
+                content: "Document defects, reasons, find trends and minimize the defects from happening again."
+            },
+            {
+                content: "Provide training."
+            },
+           
+            {
+                content: "Maintain system documentation and user guides."
+            }
+        ],
+        unorderedlist1: [
+            {
+                content: "Experience: 7 to 10 years.",
+            },
+            {
+                content: "Design & develop web-based applications as per the business requirements and specifications.",
+            },
+            {
+                content: "Develop front-end and back-end components and codes as per the robust architectural approach and design patterns. ",
+            },
+            {
+                content: "Adhere to guiding principles and code standards.",
+            },
+            {
+                content: "Write efficient, re-usable, optimal, and well-documented code. ",
+            },
+            {
+                content: "Perform unit testing & system integration testing Involve in troubleshooting and debugging critical problems and resolving complex technical issues that may arise.",
+            },
+            {
+                content: "Should have experience in the design and development of web services and API and XML.",
+            },
+            {
+                content: "Should preferably have a working understanding of cloud infrastructure components.",
+            },
+            {
+                content: "Experience and Knowledge of NodeJS and the concept of RESTful API is a must.",
+            },
+            {
+                content: "Experience in Angular-based applications is needed Experience in end-to-end web development Experience with SQL (PostgreSQL preferred) & NoSQL (Mongo preferred) databases.",
+            }, 
+        ]
+    },
+    {
+        applyfor: "React Js Developer",
+        title: "React Js Developer",
+        level:"mid-senior",
+        experience:"4 - 7 years",
+        aboutdescription: "We are looking to add bright, focused, resourceful and highly goal-oriented Software Developer with experience in Node Js. Candidates should enjoy working in a challenging environment; have the enthusiasm and ambition to develop & complete projects to the highest standard and want to be part of an organization that puts technology at the heart of everything it does.",
+        unorderedlist: [
+            {
+                content: "Candidate should have strong experience in developing web applications using java script frameworks like React JS and Redux.",
+            },
+            {
+                content: "Strong Experience in producing clean, semantic HTML and CSS.",
+            },
+            {
+                content: "Hands on experience in unit testing frameworks like Jest or Mocha.",
+            },
+            {
+                content: "Experience with bundling tools like webpack, grunt or gulp.",
+            },
+            {
+                content: "Exposure to continuous integration tools like Teamcity, Jenkins or any other dev-ops tool."
+            },
+            {
+                content: "Knowledge in using JIRA, Stash, Git, ES Lint."
+            },
+            {
+                content: "Developing user-facing applications."
+            },
+            {
+                content: "Optimizing your application for performance."
+            },
+            {
+                content: "Staying up-to-date with all recent modules/versions."
+            },
+            {
+                content: "Keeping an eye on security updates and issues found with product/module dependencies."
+            },
+            {
+                content: "Proposing any upgrades and updates necessary for keeping up with modern security and  development best practices."
+            },
+         
+        ],
+        unorderedlist1: [
+            {
+                content: "Strong experience in React JS and Redux.",
+            },
+            {
+                content: "Proficient in producing clean, semantic HTML and CSS.",
+            },
+            {
+                content: "Hands-on experience in unit testing with Jest or Mocha. ",
+            },
+            {
+                content: "Familiarity with bundling tools like webpack, grunt, or gulp.",
+            },
+            {
+                content: "Exposure to continuous integration tools (Teamcity, Jenkins, etc.). ",
+            },
+            {
+                content: "Knowledge of JIRA, Stash, Git, and ES Lint.",
+            },
+            {
+                content: "Proven expertise in developing user-facing applications.",
+            },
+            {
+                content: "Optimization skills for enhanced application performance.",
+            },
+            {
+                content: "Up-to-date with recent modules/versions."
+            },
+            {
+                content: "Vigilance in monitoring security updates and addressing dependencies."
+            }
+          
+           
+        ]
+    },
+    {
+        applyfor: "Java Full Stack",
+        title: "Java Full Stack",
+        level:"senior",
+        experience:"7 - 9 years",
+        aboutdescription: "We are looking to add bright, focused, resourceful and highly goal-oriented Software Developer with experience in Node Js. Candidates should enjoy working in a challenging environment; have the enthusiasm and ambition to develop & complete projects to the highest standard and want to be part of an organization that puts technology at the heart of everything it does.",
+        unorderedlist: [
+            {
+                content: "Hands-on experience into Java 1.5 and Spring, Spring Boot/Microservices, Restful architecture.",
+            },
+            {
+                content: "Strong experience in JavaScript, Angular, HTML 5, CSS.",
+            },
+            {
+                content: "Familiarity with JS frameworks such as jQuery.",
+            },
+            {
+                content: " Deep and extensive knowledge of JavaScript and the web development ecosystem (bootstrap, SASS).",
+            },
+            {
+                content: "Experience in design and engineering of REST/SOAP based web services."
+            },
+            {
+                content: "Knowledge of any DB (preferably MariaDB), SQL pl SQL."
+            },
+            {
+                content: "Experience in Bootstrap compatibility, Object-Oriented Design, Web Services (REST/SOAP) Web Services (Restful/Any web services). Consumption experience is fine."
+            },
+            {
+                content: "CI / CD knowledge and tools like GitHub, Gradle / maven, SonarQube."
+            },
+            {
+                content: "Experience of working in Agile environment and good understanding of Agile processes."
+            },
+                     
+        ],
+        unorderedlist1: [
+            {
+                content: "Hands-on expertise in Java 1.5 and proficiency in Spring, Spring Boot/Microservices, and Restful architecture.",
+            },
+            {
+                content: "Strong command of JavaScript, Angular, HTML5, and CSS, with a familiarity with JS frameworks such as jQuery.",
+            },
+            {
+                content: "Deep and extensive knowledge of JavaScript and a comprehensive understanding of the web development ecosystem, including bootstrap and SASS.",
+            },
+            {
+                content: "Experience in the design and engineering of REST/SOAP-based web services.",
+            },
+            {
+                content: "Familiarity with databases, preferably MariaDB, and proficiency in SQL and PL/SQL. ",
+            },
+            {
+                content: "Competence in Bootstrap compatibility, Object-Oriented Design, and consumption of web services (REST/SOAP).",
+            },
+            {
+                content: "Familiarity with CI/CD practices and tools such as GitHub, Gradle/Maven, and SonarQube.",
+            },
+            {
+                content: "Practical experience in Agile development environments with a good understanding of Agile processes.",
+            },
+            {
+                content: "Proficiency in Angular, JAVA, JavaScript, Spring/Spring Boot, and REST/Rest API."
+            },
+            
+           
+        ]
+    },
+    {
+        applyfor: "BDM / Sales",
+        title: "BDM / Sales",
+        level:"mid -  senior",
+        experience:"5 to 10 years",
+        aboutdescription: "We are looking to add bright, focused, resourceful and highly goal-oriented Software Developer with experience in Node Js. Candidates should enjoy working in a challenging environment; have the enthusiasm and ambition to develop & complete projects to the highest standard and want to be part of an organization that puts technology at the heart of everything it does.",
+        unorderedlist: [
+            {
+                content: "Spearhead IT sales initiatives with a primary focus on lead generation.",
+            },
+            {
+                content: "Develop and implement effective sales strategies to drive business growth.",
+            },
+            {
+                content: "Identify and pursue new business opportunities in the IT sector.",
+            },
+            {
+                content: "Strong understanding of market dynamics, industry trends, and competitive landscapes.",
+            },
+            {
+                content: "Excellent communication, negotiation, and interpersonal skills."
+            },
+            {
+                content: "Strategic thinker with the ability to identify and capitalize on new opportunities."
+            },
+            {
+                content: "Proficiency in using CRM systems, sales tools, and ability to research and identify open source tools for sales growth."
+            },
+            {
+                content: "Cultivate and maintain strong client relationships. "
+            },
+            {
+                content: "Stay updated on industry trends and competitor activities."
+            },
+            {
+                content: "Utilize expertise in IT solutions to effectively communicate value propositions."
+            },
+            {
+                content: "Proven track record of meeting and exceeding IT sales targets."
+            },
+            {
+                content: "Expertise in lead generation strategies for the IT industry."
+            },
+            {
+                content: "Strong communication and interpersonal skills."
+            },
+            {
+                content: "Proficient in proposal writing and creating compelling sales pitches."
+            },
+            {
+                content: "Ability to work independently and collaboratively."
+            }
+                     
+        ],
+        unorderedlist1: [
+            {
+                content: "5+ years of experience architechting large-scale applications of Java.",
+            },
+            {
+                content: "10+ years’ experience with Java 7/8, J2EE, Eclipse or similar tool.",
+            },
+            {
+                content: "5+ years of experience with Spring Boot, Spring Security, Spring Data, Spring MVC along with Unit Testing, and Integration Testing.",
+            },
+            {
+                content: "Experience designing and coding high-performance, scalable, reusable, enterprise Java applications.",
+            },
+            {
+                content: "Excellent understanding of design patterns and micro service architecture.",
+            },
+            {
+                content: "Experience designing RESTful web services.",
+            },
+            {
+                content: "Experience designing, implementing, and integrating Spring and/or Spring Boot.",
+            },
+            {
+                content: "Experience in writing unit tests and documentation.",
+            },
+            {
+                content: "Hands on experience in Enterprise Integration Patterns (EIP); Exposure with apache camel or spring integration."
+            },
+            {
+                content: "Hands on experience with Kubernetes and exposure in no-SQL databases."
+            },
+            {
+                content: "Deep understanding of data architecture, industry standards, and best practices."
+            },
+            {
+                content: "Ability to clearly and concisely document architectural diagrams, technical proposals, and research results."
+            },
+            {
+                content: "Experience with writing complex queries for Oracle database."
+            },
+            {
+                content: "Linux and systems management experience."
+            },
+            {
+                content: "Experience in high-volume, transaction processing productions systems."
+            },
+            {
+                content: "Object oriented analysis, design and programming skills."
+            },
+            {
+                content: "Experience with a recognized software development life cycle methodology."
+            }
+           
+        ]
+    }
 ]
 
 export default Jobdescription;
