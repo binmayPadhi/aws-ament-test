@@ -219,7 +219,7 @@ const Apply = () => {
                                     })}
                                 </Modal.Body>
                             </Modal>
-                            <div className="w-100 d-flex justify-content-between my-5">
+                            <div className="w-100 d-flex justify-content-between mt-5">
                                 <span className="text-black fs-18 fw-bold-600">
                                     Who are we?
                                 </span>
