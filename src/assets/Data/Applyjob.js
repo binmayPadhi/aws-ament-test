@@ -1,82 +1,82 @@
 const Jobdescription = [
-    {
-        applyfor: "Full Stack Node",
-        title: "Full Stack Node",
-        level:"mid-senior",
-        experience:"4 to 6 years",
-        aboutdescription: "We are looking to add bright, focused, resourceful and highly goal-oriented Software Developer with experience in Node Js. Candidates should enjoy working in a challenging environment; have the enthusiasm and ambition to develop & amp; complete projects to the highest standard and want to be part of an organization that puts technology at the heart of everything it does.",
-        unorderedlist: [
-            {
-                content: "Must be able to develop state of art Angular applications using RESTful micro services, Node.js and MongoDB Stack.",
-            },
-            {
-                content: "Implementation of security and data protection.",
-            },
-            {
-                content: "Implementation of robust set of services / APIs to power the web application.",
-            },
-            {
-                content: "Building reusable code and libraries for future use.",
-            },
-            {
-                content: "Optimisation of the application for maximum speed and scalability.",
-            },
-            {
-                content: "Integration of the front-end and back-end aspects of the web application.",
-            },
-            {
-                content: "Execute testing plans/strategy, create test cases, and user acceptance criteria.",
-            },
-            {
-                content: "Assist with test execution during test life cycle.",
-            },
-            {
-                content: "Maintain the defect management life cycle, using a defect tracking tool.",
-            },
-            {
-                content: "Work with the developer team to ensure all defects are cleared out.",
-            },
-            {
-                content: "Document defects, reasons, find trends and minimize the defects from happening again.",
-            },
-            {
-                content: "Provide training.",
-            },
-            {
-                content: "Maintain system documentation and user guides.",
-            },
-        ],
-        unorderedlist1: [
-            {
-                content: "Experience: 4 to 6 years",
-            },
-            {
-                content: "Design  & develop web-based applications as per the business requirements and specifications.",
-            },
-            {
-                content: "Develop front-end and back-end components and codes as per the robust architectural approach and design patterns. Adhere to guiding principles and code standards.",
-            },
-            {
-                content: "Write efficient, re-usable, optimal, and well-documented code.",
-            },
-            {
-                content: "Perform unit testing & system integration testing involve in troubleshooting and debugging critical problems and resolving complex technical issues that may arise.",
-            },
-            {
-                content: "Should have experience in the design and development of web services and API and XML.",
-            },
-            {
-                content: "Should preferably have a working understanding of cloud infrastructure components.",
-            },
-            {
-                content: "Experience and Knowledge of NodeJS and the concept of RESTful API is a must.",
-            },
-            {
-                content: "Experience in Angular-based applications is needed Experience in end-to-end web development Experience with SQL (PostgreSQL preferred) & NoSQL (Mongo preferred) databases.",
-            },
+    // {
+    //     applyfor: "Full Stack Node",
+    //     title: "Full Stack Node",
+    //     level:"mid-senior",
+    //     experience:"4 to 6 years",
+    //     aboutdescription: "We are looking to add bright, focused, resourceful and highly goal-oriented Software Developer with experience in Node Js. Candidates should enjoy working in a challenging environment; have the enthusiasm and ambition to develop & amp; complete projects to the highest standard and want to be part of an organization that puts technology at the heart of everything it does.",
+    //     unorderedlist: [
+    //         {
+    //             content: "Must be able to develop state of art Angular applications using RESTful micro services, Node.js and MongoDB Stack.",
+    //         },
+    //         {
+    //             content: "Implementation of security and data protection.",
+    //         },
+    //         {
+    //             content: "Implementation of robust set of services / APIs to power the web application.",
+    //         },
+    //         {
+    //             content: "Building reusable code and libraries for future use.",
+    //         },
+    //         {
+    //             content: "Optimisation of the application for maximum speed and scalability.",
+    //         },
+    //         {
+    //             content: "Integration of the front-end and back-end aspects of the web application.",
+    //         },
+    //         {
+    //             content: "Execute testing plans/strategy, create test cases, and user acceptance criteria.",
+    //         },
+    //         {
+    //             content: "Assist with test execution during test life cycle.",
+    //         },
+    //         {
+    //             content: "Maintain the defect management life cycle, using a defect tracking tool.",
+    //         },
+    //         {
+    //             content: "Work with the developer team to ensure all defects are cleared out.",
+    //         },
+    //         {
+    //             content: "Document defects, reasons, find trends and minimize the defects from happening again.",
+    //         },
+    //         {
+    //             content: "Provide training.",
+    //         },
+    //         {
+    //             content: "Maintain system documentation and user guides.",
+    //         },
+    //     ],
+    //     unorderedlist1: [
+    //         {
+    //             content: "Experience: 4 to 6 years",
+    //         },
+    //         {
+    //             content: "Design  & develop web-based applications as per the business requirements and specifications.",
+    //         },
+    //         {
+    //             content: "Develop front-end and back-end components and codes as per the robust architectural approach and design patterns. Adhere to guiding principles and code standards.",
+    //         },
+    //         {
+    //             content: "Write efficient, re-usable, optimal, and well-documented code.",
+    //         },
+    //         {
+    //             content: "Perform unit testing & system integration testing involve in troubleshooting and debugging critical problems and resolving complex technical issues that may arise.",
+    //         },
+    //         {
+    //             content: "Should have experience in the design and development of web services and API and XML.",
+    //         },
+    //         {
+    //             content: "Should preferably have a working understanding of cloud infrastructure components.",
+    //         },
+    //         {
+    //             content: "Experience and Knowledge of NodeJS and the concept of RESTful API is a must.",
+    //         },
+    //         {
+    //             content: "Experience in Angular-based applications is needed Experience in end-to-end web development Experience with SQL (PostgreSQL preferred) & NoSQL (Mongo preferred) databases.",
+    //         },
 
-        ]
-    },
+    //     ]
+    // },
     {
         applyfor: "Data Scientist",
         title: "Data Scientist",
@@ -164,256 +164,256 @@ const Jobdescription = [
             },
         ],
     },
-    {
-        applyfor: "Dot Net Developer",
-        title: "Dot Net Developer",
-        level:"mid-senior",
-        experience:"4 to 6 years",
-        aboutdescription: "Providing development guidance to developers and peers with  ability to triage and assign work. Provide high quality application engineering deliverables in accordance with the project timelines. Participation and possible facilitation of stand ups, grooming, sprint planning, task estimation and sprint retrospectives. Regular interaction with Product Owners/BAs to understand business requirements and help with story /task definition and prioritization. Coordinating with the deployment team to push the completed tasks to higher environments. Mentoring the junior Associate Developers and suggesting the best Coding Practices.",
-        unorderedlist: [
-            {
-                content: "Documents and demonstrates solutions by developing documentation, flowcharts, layouts, diagrams, charts, code comments and clear code.",
-            },
-            {
-                content: "Can produce well-organized, optimized and documented source code.",
-            },
-            {
-                content: "Work independently when required.",
-            },
-            {
-                content: "Attention to detail is essential and all tasks must be carried out to the highest standard.",
-            },
-            {
-                content: "Coordinate with other programmers to design and implement features.",
-            },
-            {
-                content: "Become a part of a state-of-the-art offshore Centre of a global operating organization.",
-            },
-            {
-                content: "Participate in building high class products for our customers and profit from the motivating and employee friendly environment in our organization.",
-            },
-        ],
-        unorderedlist1: [
-            {
-                content: "Experience: 4 to 6 years",
-            },
-            {
-                content: "Proven experience as a .NET Developer or Application Developer.",
-            },
-            {
-                content: "Excellent technical hands-on experience on .Net Core, Web Api and Sql Server.",
-            },
-            {
-                content: "Strong in oops concepts.",
-            },
-            {
-                content: "Good knowledge on Asp.Net MVC, ADO.Net and Entity Framework.",
-            },
-            {
-                content: "Familiarity with architecture styles/APIs (REST, RPC)",
-            },
-            {
-                content: "Understanding of Agile methodologies",
-            },
-            {
-                content: "Good communication and presentation skills.",
-            },
-            {
-                content: "Good team player and excellent individual contributor",
-            },
-            {
-                content: "Knowledge on any of the architectural design pattern",
-            },
-            {
-                content: "Good experience in developing platforms. (.Net/ .NET Core )",
-            },
-            {
-                content: "Excellent hands-on experience in ASP.Net, ASP.Net MVC, ASP.Net Core",
-            },
-            {
-                content: "Participating in full stack development",
-            },
-            {
-                content: "Adhere to application engineering methodologies, coding standards, code reviews.",
-            },
-            {
-                content: "Providing feedback regarding application engineering methodologies, standards, and leading practices when appropriate",
-            },
-            {
-                content: "Collaborating with other development teams for integrations and deployment",
-            },
-        ]
+    // {
+    //     applyfor: "Dot Net Developer",
+    //     title: "Dot Net Developer",
+    //     level:"mid-senior",
+    //     experience:"4 to 6 years",
+    //     aboutdescription: "Providing development guidance to developers and peers with  ability to triage and assign work. Provide high quality application engineering deliverables in accordance with the project timelines. Participation and possible facilitation of stand ups, grooming, sprint planning, task estimation and sprint retrospectives. Regular interaction with Product Owners/BAs to understand business requirements and help with story /task definition and prioritization. Coordinating with the deployment team to push the completed tasks to higher environments. Mentoring the junior Associate Developers and suggesting the best Coding Practices.",
+    //     unorderedlist: [
+    //         {
+    //             content: "Documents and demonstrates solutions by developing documentation, flowcharts, layouts, diagrams, charts, code comments and clear code.",
+    //         },
+    //         {
+    //             content: "Can produce well-organized, optimized and documented source code.",
+    //         },
+    //         {
+    //             content: "Work independently when required.",
+    //         },
+    //         {
+    //             content: "Attention to detail is essential and all tasks must be carried out to the highest standard.",
+    //         },
+    //         {
+    //             content: "Coordinate with other programmers to design and implement features.",
+    //         },
+    //         {
+    //             content: "Become a part of a state-of-the-art offshore Centre of a global operating organization.",
+    //         },
+    //         {
+    //             content: "Participate in building high class products for our customers and profit from the motivating and employee friendly environment in our organization.",
+    //         },
+    //     ],
+    //     unorderedlist1: [
+    //         {
+    //             content: "Experience: 4 to 6 years",
+    //         },
+    //         {
+    //             content: "Proven experience as a .NET Developer or Application Developer.",
+    //         },
+    //         {
+    //             content: "Excellent technical hands-on experience on .Net Core, Web Api and Sql Server.",
+    //         },
+    //         {
+    //             content: "Strong in oops concepts.",
+    //         },
+    //         {
+    //             content: "Good knowledge on Asp.Net MVC, ADO.Net and Entity Framework.",
+    //         },
+    //         {
+    //             content: "Familiarity with architecture styles/APIs (REST, RPC)",
+    //         },
+    //         {
+    //             content: "Understanding of Agile methodologies",
+    //         },
+    //         {
+    //             content: "Good communication and presentation skills.",
+    //         },
+    //         {
+    //             content: "Good team player and excellent individual contributor",
+    //         },
+    //         {
+    //             content: "Knowledge on any of the architectural design pattern",
+    //         },
+    //         {
+    //             content: "Good experience in developing platforms. (.Net/ .NET Core )",
+    //         },
+    //         {
+    //             content: "Excellent hands-on experience in ASP.Net, ASP.Net MVC, ASP.Net Core",
+    //         },
+    //         {
+    //             content: "Participating in full stack development",
+    //         },
+    //         {
+    //             content: "Adhere to application engineering methodologies, coding standards, code reviews.",
+    //         },
+    //         {
+    //             content: "Providing feedback regarding application engineering methodologies, standards, and leading practices when appropriate",
+    //         },
+    //         {
+    //             content: "Collaborating with other development teams for integrations and deployment",
+    //         },
+    //     ]
 
-    },
-    {
-        applyfor: "Azure Architect",
-        title: "Azure Architect",
-        level:"senior",
-        experience:"14+ years",
-        aboutdescription: "This role requires a high degree of independent execution, ownership and responsibility for business customer success. Lead a group of architects and provide them direction in implementing a cloud solution. Work independently with business and technical stakeholders to understand the organization&#39;s obstacles, and provide due diligence.",
-        unorderedlist: [
-            {
-                content: "Contribute to the delivery of data quality reviews including data cleansing where required to ensure integrity and quality.",
-            },
-            {
-                content: "Understand data models, data storage models and data migration to manage data within the organization, for a small to medium-sized project.",
-            },
-            {
-                content: "Resolving escalated design and implementation issues with moderate to high complexity.",
-            },
-            {
-                content: "Analyzing the latest industry trends such as cloud computing and distributed processing and beginning to infer risks and benefits of their use in business.",
-            },
-            {
-                content: "Work toward adherence to the relevant data engineering and data modelling processes, procedures and standards.",
-            },
-            {
-                content: "Design and maintain the overall architecture for the product(s)/platform(s) in alignment with enterprise architecture and platform strategy (including architectural roadmaps)",
-            },
+    // },
+    // {
+    //     applyfor: "Azure Architect",
+    //     title: "Azure Architect",
+    //     level:"senior",
+    //     experience:"14+ years",
+    //     aboutdescription: "This role requires a high degree of independent execution, ownership and responsibility for business customer success. Lead a group of architects and provide them direction in implementing a cloud solution. Work independently with business and technical stakeholders to understand the organization&#39;s obstacles, and provide due diligence.",
+    //     unorderedlist: [
+    //         {
+    //             content: "Contribute to the delivery of data quality reviews including data cleansing where required to ensure integrity and quality.",
+    //         },
+    //         {
+    //             content: "Understand data models, data storage models and data migration to manage data within the organization, for a small to medium-sized project.",
+    //         },
+    //         {
+    //             content: "Resolving escalated design and implementation issues with moderate to high complexity.",
+    //         },
+    //         {
+    //             content: "Analyzing the latest industry trends such as cloud computing and distributed processing and beginning to infer risks and benefits of their use in business.",
+    //         },
+    //         {
+    //             content: "Work toward adherence to the relevant data engineering and data modelling processes, procedures and standards.",
+    //         },
+    //         {
+    //             content: "Design and maintain the overall architecture for the product(s)/platform(s) in alignment with enterprise architecture and platform strategy (including architectural roadmaps)",
+    //         },
 
-        ],
-        unorderedlist1: [
-            {
-                content: "Minimum of 14 years experience, with at least 5 year as a architect in Azure Space across Architecture, Design, Development, testing &amp; Deployment, full understanding in SDLC.",
-            },
-            {
-                content: "5+ years hands-on experience with architectures in a Microsoft Azure based platform",
-            },
-            {
-                content: "Solid experience leading data teams in developing data engineering platforms.",
-            },
-            {
-                content: "Good working Experience of Azure Data Bricks, Data Bricks Delta Lake, Azure Data Factory (ADF), ADF metadata driven pipelines, Azure DevOps, MS SQL Server, SSMS, Python and PySpark.",
-            },
-            {
-                content: "Knowledge of Azure connectivity in general, Azure Key Vault, Azure Functions, Azure integration with Active Directory.",
-            },
-            {
-                content: "SQL coding to write queries, stored procedures, views, functions etc. SQL management studio DB configuration experience.",
-            },
-            {
-                content: " Experience in SQL Server and SSIS packages ETL implementation experience knowledge of Azure SQL, Azure Functions, Azure Data Factory (ADF), ADF metadata driven pipelines, Azure DevOps.",
-            },
+    //     ],
+    //     unorderedlist1: [
+    //         {
+    //             content: "Minimum of 14 years experience, with at least 5 year as a architect in Azure Space across Architecture, Design, Development, testing &amp; Deployment, full understanding in SDLC.",
+    //         },
+    //         {
+    //             content: "5+ years hands-on experience with architectures in a Microsoft Azure based platform",
+    //         },
+    //         {
+    //             content: "Solid experience leading data teams in developing data engineering platforms.",
+    //         },
+    //         {
+    //             content: "Good working Experience of Azure Data Bricks, Data Bricks Delta Lake, Azure Data Factory (ADF), ADF metadata driven pipelines, Azure DevOps, MS SQL Server, SSMS, Python and PySpark.",
+    //         },
+    //         {
+    //             content: "Knowledge of Azure connectivity in general, Azure Key Vault, Azure Functions, Azure integration with Active Directory.",
+    //         },
+    //         {
+    //             content: "SQL coding to write queries, stored procedures, views, functions etc. SQL management studio DB configuration experience.",
+    //         },
+    //         {
+    //             content: " Experience in SQL Server and SSIS packages ETL implementation experience knowledge of Azure SQL, Azure Functions, Azure Data Factory (ADF), ADF metadata driven pipelines, Azure DevOps.",
+    //         },
 
-        ]
-    },
-    {
-        applyfor: "Data Architect",
-        title: "Data Architect",
-        level:"senior",
-        experience:"8+ years",
-        aboutdescription: "A data architect roles and responsibilities include Developing and implementing an overall organizational data strategy that is in line with business processes. The strategy includes data model designs, database development standards, implementation and management of data warehouses and data analytics systems.",
-        unorderedlist: [
-            {
-                content: "Designs, develops, deploys, and supports sustainable data/solutions architectures such as design patterns, reference architecture, conceptual, logical, and physical data models.",
-            },
-            {
-                content: "Build proof of concepts (POC), minimal viable product (MVP), and produce scalable data architecture solutions with end-to-end delivery.",
-            },
-            {
-                content: "Build data models, data marts, and semantic layer.",
-            },
-            {
-                content: "Build solutions with self-sustainable, easily scalable design with zero to no maintenance in mind.",
-            },
-            {
-                content: "Conduct Assessments (Data Assessments, Data Governance &amp; Security Assessments, and Data Quality Assessments).",
-            },
-            {
-                content: "Build data models using Kimball data model, dimensional modeling, star, and snowflake schema design and development.",
-            },
-            {
-                content: "Build reusable datasets and models with a single source of truth (SSOT) in mind.",
-            },
-            {
-                content: "Build data delivery process across the enterprise using different data sources and destinations.",
-            },
-            {
-                content: "Data migrations from heterogeneous databases (ex: SQL Server, MySQL, PostgreSQL, Oracle, DB2, MariaDB, MongoDB, and Redshift) to Azure SQL or Azure Synapse or Azure Cosmos DB.",
-            },
-            {
-                content: "Data ingestion from different file types (ex: XML, JSON, Avro, Parquet, and ORC) into databases such as Azure SQL, Azure Synapse, Azure Cosmos DB, and Snowflake.",
-            },
-            {
-                content: "Meet the requirements and deadlines established for a given project. ",
-            },
-            {
-                content: "Follow internal processes and procedures. ",
-            },
-            {
-                content: "Investigate and resolve data architecture defects, performance issues and build data quality rules.",
-            },
-            {
-                content: "Work closely with other team members to coordinate assignments and communicate status.",
-            },
-        ],
-        unorderedlist1: [
-            {
-                content: "Bachelor’s degree in computer science or Data Analytics or Software Engineering or Mathematics.",
-            },
-            {
-                content: "8+ years of experience in Data Architecture, Data Modeling, and conducting assessments.",
-            },
-            {
-                content: "Experience in advanced SQL and database (ex. Azure SQL, SQL Server, Snowflake, Redshift, Oracle, SQL Server, MySQL, NoSQL, etc.).",
-            },
-            {
-                content: "Experience with Azure Data Factory, Azure SQL, Azure Synapse, Azure Databricks, ML/AI, Databricks, and ML Ops.",
-            },
-            {
-                content: "Experience with Hadoop components.",
-            },
-            {
-                content: "Experience architecting and developing complex data ingestion pipelines, SQL queries, views, procedures, and functions.",
-            },
-            {
-                content: "Experience in advanced SQL development experience: Management of high volume of data, building aggregates, and cubes, tuning complex queries for performance, improving overall data retrieval process, indexing and query plan analysis, and refactoring. ",
-            },
-            {
-                content: "Experience in managing and maintaining data integration between different applications and databases using Rest API.",
-            },
-            {
-                content: "Experience with data extraction with a wide variety of ETL/ELT tools and processes. Azure experience is preferred. ",
-            },
-            {
-                content: "Experience building Data Warehouses, Data Mart, and Symantec data layers.",
-            },
-            {
-                content: "Experience with Azure Data Factory, Azure SQL, Azure Synapse, Azure Databricks, ML/AI, Databricks, and ML Ops.",
-            },
-            {
-                content: "Experienced working in the cloud and serverless database solutions (Azure, AWS, Snowflake, BigQuery, BigTable, etc.) in combination with any BI Tools (Power BI, Tableau, Looker, Qlik, etc.). Azure and Power BI technology experience is strongly preferred.",
-            },
-            {
-                content: "Experience with JIRA, Kimble, etc. ",
-            },
-            {
-                content: "Experience with Version control applications (example: Azure DevOps, GitHub, BitBucket, etc.) ",
-            },
-            {
-                content: "Proficient in relational and NoSQL databases.",
-            },
-            {
-                content: "Rigorous attention to detail. ",
-            },
-            {
-                content: "Ability to communicate with internal/external stakeholders and work through data-related inquiries and issues. ",
-            },
-            {
-                content: "Effectively manage workload with shifting priorities and varying business requirements.",
-            },
-            {
-                content: "Excellent problem-solving skills to identify creative ways to achieve solutions.",
-            },
-            {
-                content: "Capable of taking responsibility for a task and managing it through completion.",
-            },
-            {
-                content: "Excellent verbal and written communication skills.",
-            },
+    //     ]
+    // },
+    // {
+    //     applyfor: "Data Architect",
+    //     title: "Data Architect",
+    //     level:"senior",
+    //     experience:"8+ years",
+    //     aboutdescription: "A data architect roles and responsibilities include Developing and implementing an overall organizational data strategy that is in line with business processes. The strategy includes data model designs, database development standards, implementation and management of data warehouses and data analytics systems.",
+    //     unorderedlist: [
+    //         {
+    //             content: "Designs, develops, deploys, and supports sustainable data/solutions architectures such as design patterns, reference architecture, conceptual, logical, and physical data models.",
+    //         },
+    //         {
+    //             content: "Build proof of concepts (POC), minimal viable product (MVP), and produce scalable data architecture solutions with end-to-end delivery.",
+    //         },
+    //         {
+    //             content: "Build data models, data marts, and semantic layer.",
+    //         },
+    //         {
+    //             content: "Build solutions with self-sustainable, easily scalable design with zero to no maintenance in mind.",
+    //         },
+    //         {
+    //             content: "Conduct Assessments (Data Assessments, Data Governance &amp; Security Assessments, and Data Quality Assessments).",
+    //         },
+    //         {
+    //             content: "Build data models using Kimball data model, dimensional modeling, star, and snowflake schema design and development.",
+    //         },
+    //         {
+    //             content: "Build reusable datasets and models with a single source of truth (SSOT) in mind.",
+    //         },
+    //         {
+    //             content: "Build data delivery process across the enterprise using different data sources and destinations.",
+    //         },
+    //         {
+    //             content: "Data migrations from heterogeneous databases (ex: SQL Server, MySQL, PostgreSQL, Oracle, DB2, MariaDB, MongoDB, and Redshift) to Azure SQL or Azure Synapse or Azure Cosmos DB.",
+    //         },
+    //         {
+    //             content: "Data ingestion from different file types (ex: XML, JSON, Avro, Parquet, and ORC) into databases such as Azure SQL, Azure Synapse, Azure Cosmos DB, and Snowflake.",
+    //         },
+    //         {
+    //             content: "Meet the requirements and deadlines established for a given project. ",
+    //         },
+    //         {
+    //             content: "Follow internal processes and procedures. ",
+    //         },
+    //         {
+    //             content: "Investigate and resolve data architecture defects, performance issues and build data quality rules.",
+    //         },
+    //         {
+    //             content: "Work closely with other team members to coordinate assignments and communicate status.",
+    //         },
+    //     ],
+    //     unorderedlist1: [
+    //         {
+    //             content: "Bachelor’s degree in computer science or Data Analytics or Software Engineering or Mathematics.",
+    //         },
+    //         {
+    //             content: "8+ years of experience in Data Architecture, Data Modeling, and conducting assessments.",
+    //         },
+    //         {
+    //             content: "Experience in advanced SQL and database (ex. Azure SQL, SQL Server, Snowflake, Redshift, Oracle, SQL Server, MySQL, NoSQL, etc.).",
+    //         },
+    //         {
+    //             content: "Experience with Azure Data Factory, Azure SQL, Azure Synapse, Azure Databricks, ML/AI, Databricks, and ML Ops.",
+    //         },
+    //         {
+    //             content: "Experience with Hadoop components.",
+    //         },
+    //         {
+    //             content: "Experience architecting and developing complex data ingestion pipelines, SQL queries, views, procedures, and functions.",
+    //         },
+    //         {
+    //             content: "Experience in advanced SQL development experience: Management of high volume of data, building aggregates, and cubes, tuning complex queries for performance, improving overall data retrieval process, indexing and query plan analysis, and refactoring. ",
+    //         },
+    //         {
+    //             content: "Experience in managing and maintaining data integration between different applications and databases using Rest API.",
+    //         },
+    //         {
+    //             content: "Experience with data extraction with a wide variety of ETL/ELT tools and processes. Azure experience is preferred. ",
+    //         },
+    //         {
+    //             content: "Experience building Data Warehouses, Data Mart, and Symantec data layers.",
+    //         },
+    //         {
+    //             content: "Experience with Azure Data Factory, Azure SQL, Azure Synapse, Azure Databricks, ML/AI, Databricks, and ML Ops.",
+    //         },
+    //         {
+    //             content: "Experienced working in the cloud and serverless database solutions (Azure, AWS, Snowflake, BigQuery, BigTable, etc.) in combination with any BI Tools (Power BI, Tableau, Looker, Qlik, etc.). Azure and Power BI technology experience is strongly preferred.",
+    //         },
+    //         {
+    //             content: "Experience with JIRA, Kimble, etc. ",
+    //         },
+    //         {
+    //             content: "Experience with Version control applications (example: Azure DevOps, GitHub, BitBucket, etc.) ",
+    //         },
+    //         {
+    //             content: "Proficient in relational and NoSQL databases.",
+    //         },
+    //         {
+    //             content: "Rigorous attention to detail. ",
+    //         },
+    //         {
+    //             content: "Ability to communicate with internal/external stakeholders and work through data-related inquiries and issues. ",
+    //         },
+    //         {
+    //             content: "Effectively manage workload with shifting priorities and varying business requirements.",
+    //         },
+    //         {
+    //             content: "Excellent problem-solving skills to identify creative ways to achieve solutions.",
+    //         },
+    //         {
+    //             content: "Capable of taking responsibility for a task and managing it through completion.",
+    //         },
+    //         {
+    //             content: "Excellent verbal and written communication skills.",
+    //         },
 
-        ]
-    },
+    //     ]
+    // },
     {
         applyfor: "Python Developer",
         title: "Python Developer",
@@ -742,117 +742,117 @@ const Jobdescription = [
             },           
         ]
     },
-    {
-        applyfor: "Java Architect",
-        title: "Java Architect",
-        level:"senior",
-        experience:"12 - 20 years",
-        aboutdescription: "Lead the charge in architecting large-scale Java applications with over 10 years of hands-on experience. Collaborate with tech and design teams, troubleshoot design flaws, and design scalable systems. Drive Proof of Concept (POC) for enterprise web applications, ensuring adherence to MVC model. Provide technical leadership, conduct code reviews, and champion continuous integration.",
-        unorderedlist: [
-            {
-                content: "Meeting with technology team and the design team to discuss the goals and needs of the project.",
-            },
-            {
-                content: "Examining and defining current architecture systems.",
-            },
-            {
-                content: "Designing scalable architecture systems for Java-based applications.",
-            },
-            {
-                content: "Troubleshooting design flaws and system bottlenecks.",
-            },
-            {
-                content: "Lead POC effort to design an enterprise n-tier web-based application using MVC model."
-            },
-            {
-                content: "Performing validation tests to ensure the flexibility and scalability of the Java environment."
-            },
-            {
-                content: "Assisting the software design team with application integration."
-            },
-            {
-                content: "Work closely with developers to develop internal tools and platforms for the build process."
-            },
-            {
-                content: "Provide technical leadership for software development methodology, including code reviews, unit tests, and code style."
-            },
-            {
-                content: "Provide subject matter expertise for application security, performance, and scalability."
-            },
-            {
-                content: "Provide technical leadership for the continuous integration and continuous delivery process."
-            },
-            {
-                content: "Develop and document best practices for team collaboration, estimating, productivity, software architecture, technical design, and documentation."
-            },
-            {
-                content: "Work closely with product owners to understand and translate business objectives into technical requirements. "
-            },
-            {
-                content: "Conduct code reviews to ensure coding standards."
-            },
-            {
-                content: "Conducting system performance tests and application tuning."
-            },
-            {
-                content: "Completing systems reports."
-            }
-        ],
-        unorderedlist1: [
-            {
-                content: "5+ years of experience architechting large-scale applications of Java.",
-            },
-            {
-                content: "10+ years’ experience with Java 7/8, J2EE, Eclipse or similar tool.",
-            },
-            {
-                content: "5+ years of experience with Spring Boot, Spring Security, Spring Data, Spring MVC along with Unit Testing, and Integration Testing.",
-            },
-            {
-                content: "Experience designing and coding high-performance, scalable, reusable, enterprise Java applications.",
-            },
-            {
-                content: "Excellent understanding of design patterns and micro service architecture.",
-            },
-            {
-                content: "Experience designing RESTful web services.",
-            },
-            {
-                content: "Experience designing, implementing, and integrating Spring and/or Spring Boot.",
-            },
-            {
-                content: "Experience in writing unit tests and documentation.",
-            },
-            {
-                content: "Hands on experience in Enterprise Integration Patterns (EIP); Exposure with apache camel or spring integration.",
-            },
-            {
-                content: "Hands on experience with Kubernetes and exposure in no-SQL databases.",
-            },
-            {
-                content: "Deep understanding of data architecture, industry standards, and best practices.",
-            },
-            {
-                content: "Ability to clearly and concisely document architectural diagrams, technical proposals, and research results.",
-            },
-            {
-                content: "Experience with writing complex queries for Oracle database."
-            },
-            {
-                content: "Linux and systems management experience."
-            },
-            {
-                content: "Experience in high-volume, transaction processing productions systems."
-            },
-            {
-                content: "Object oriented analysis, design and programming skills."
-            },
-            {
-                content: "Experience with a recognized software development life cycle methodology."
-            }
+    // {
+    //     applyfor: "Java Architect",
+    //     title: "Java Architect",
+    //     level:"senior",
+    //     experience:"12 - 20 years",
+    //     aboutdescription: "Lead the charge in architecting large-scale Java applications with over 10 years of hands-on experience. Collaborate with tech and design teams, troubleshoot design flaws, and design scalable systems. Drive Proof of Concept (POC) for enterprise web applications, ensuring adherence to MVC model. Provide technical leadership, conduct code reviews, and champion continuous integration.",
+    //     unorderedlist: [
+    //         {
+    //             content: "Meeting with technology team and the design team to discuss the goals and needs of the project.",
+    //         },
+    //         {
+    //             content: "Examining and defining current architecture systems.",
+    //         },
+    //         {
+    //             content: "Designing scalable architecture systems for Java-based applications.",
+    //         },
+    //         {
+    //             content: "Troubleshooting design flaws and system bottlenecks.",
+    //         },
+    //         {
+    //             content: "Lead POC effort to design an enterprise n-tier web-based application using MVC model."
+    //         },
+    //         {
+    //             content: "Performing validation tests to ensure the flexibility and scalability of the Java environment."
+    //         },
+    //         {
+    //             content: "Assisting the software design team with application integration."
+    //         },
+    //         {
+    //             content: "Work closely with developers to develop internal tools and platforms for the build process."
+    //         },
+    //         {
+    //             content: "Provide technical leadership for software development methodology, including code reviews, unit tests, and code style."
+    //         },
+    //         {
+    //             content: "Provide subject matter expertise for application security, performance, and scalability."
+    //         },
+    //         {
+    //             content: "Provide technical leadership for the continuous integration and continuous delivery process."
+    //         },
+    //         {
+    //             content: "Develop and document best practices for team collaboration, estimating, productivity, software architecture, technical design, and documentation."
+    //         },
+    //         {
+    //             content: "Work closely with product owners to understand and translate business objectives into technical requirements. "
+    //         },
+    //         {
+    //             content: "Conduct code reviews to ensure coding standards."
+    //         },
+    //         {
+    //             content: "Conducting system performance tests and application tuning."
+    //         },
+    //         {
+    //             content: "Completing systems reports."
+    //         }
+    //     ],
+    //     unorderedlist1: [
+    //         {
+    //             content: "5+ years of experience architechting large-scale applications of Java.",
+    //         },
+    //         {
+    //             content: "10+ years’ experience with Java 7/8, J2EE, Eclipse or similar tool.",
+    //         },
+    //         {
+    //             content: "5+ years of experience with Spring Boot, Spring Security, Spring Data, Spring MVC along with Unit Testing, and Integration Testing.",
+    //         },
+    //         {
+    //             content: "Experience designing and coding high-performance, scalable, reusable, enterprise Java applications.",
+    //         },
+    //         {
+    //             content: "Excellent understanding of design patterns and micro service architecture.",
+    //         },
+    //         {
+    //             content: "Experience designing RESTful web services.",
+    //         },
+    //         {
+    //             content: "Experience designing, implementing, and integrating Spring and/or Spring Boot.",
+    //         },
+    //         {
+    //             content: "Experience in writing unit tests and documentation.",
+    //         },
+    //         {
+    //             content: "Hands on experience in Enterprise Integration Patterns (EIP); Exposure with apache camel or spring integration.",
+    //         },
+    //         {
+    //             content: "Hands on experience with Kubernetes and exposure in no-SQL databases.",
+    //         },
+    //         {
+    //             content: "Deep understanding of data architecture, industry standards, and best practices.",
+    //         },
+    //         {
+    //             content: "Ability to clearly and concisely document architectural diagrams, technical proposals, and research results.",
+    //         },
+    //         {
+    //             content: "Experience with writing complex queries for Oracle database."
+    //         },
+    //         {
+    //             content: "Linux and systems management experience."
+    //         },
+    //         {
+    //             content: "Experience in high-volume, transaction processing productions systems."
+    //         },
+    //         {
+    //             content: "Object oriented analysis, design and programming skills."
+    //         },
+    //         {
+    //             content: "Experience with a recognized software development life cycle methodology."
+    //         }
            
-        ]
-    },
+    //     ]
+    // },
     {
         applyfor: "Lead Full Stack",
         title: "Lead Full Stack",
@@ -934,83 +934,83 @@ const Jobdescription = [
             }, 
         ]
     },
-    {
-        applyfor: "React Js Developer",
-        title: "React Js Developer",
-        level:"mid-senior",
-        experience:"4 - 7 years",
-        aboutdescription: "We are looking to add bright, focused, resourceful and highly goal-oriented Software Developer with experience in Node Js. Candidates should enjoy working in a challenging environment; have the enthusiasm and ambition to develop & complete projects to the highest standard and want to be part of an organization that puts technology at the heart of everything it does.",
-        unorderedlist: [
-            {
-                content: "Candidate should have strong experience in developing web applications using java script frameworks like React JS and Redux.",
-            },
-            {
-                content: "Strong Experience in producing clean, semantic HTML and CSS.",
-            },
-            {
-                content: "Hands on experience in unit testing frameworks like Jest or Mocha.",
-            },
-            {
-                content: "Experience with bundling tools like webpack, grunt or gulp.",
-            },
-            {
-                content: "Exposure to continuous integration tools like Teamcity, Jenkins or any other dev-ops tool."
-            },
-            {
-                content: "Knowledge in using JIRA, Stash, Git, ES Lint."
-            },
-            {
-                content: "Developing user-facing applications."
-            },
-            {
-                content: "Optimizing your application for performance."
-            },
-            {
-                content: "Staying up-to-date with all recent modules/versions."
-            },
-            {
-                content: "Keeping an eye on security updates and issues found with product/module dependencies."
-            },
-            {
-                content: "Proposing any upgrades and updates necessary for keeping up with modern security and  development best practices."
-            },
+    // {
+    //     applyfor: "React Js Developer",
+    //     title: "React Js Developer",
+    //     level:"mid-senior",
+    //     experience:"4 - 7 years",
+    //     aboutdescription: "We are looking to add bright, focused, resourceful and highly goal-oriented Software Developer with experience in Node Js. Candidates should enjoy working in a challenging environment; have the enthusiasm and ambition to develop & complete projects to the highest standard and want to be part of an organization that puts technology at the heart of everything it does.",
+    //     unorderedlist: [
+    //         {
+    //             content: "Candidate should have strong experience in developing web applications using java script frameworks like React JS and Redux.",
+    //         },
+    //         {
+    //             content: "Strong Experience in producing clean, semantic HTML and CSS.",
+    //         },
+    //         {
+    //             content: "Hands on experience in unit testing frameworks like Jest or Mocha.",
+    //         },
+    //         {
+    //             content: "Experience with bundling tools like webpack, grunt or gulp.",
+    //         },
+    //         {
+    //             content: "Exposure to continuous integration tools like Teamcity, Jenkins or any other dev-ops tool."
+    //         },
+    //         {
+    //             content: "Knowledge in using JIRA, Stash, Git, ES Lint."
+    //         },
+    //         {
+    //             content: "Developing user-facing applications."
+    //         },
+    //         {
+    //             content: "Optimizing your application for performance."
+    //         },
+    //         {
+    //             content: "Staying up-to-date with all recent modules/versions."
+    //         },
+    //         {
+    //             content: "Keeping an eye on security updates and issues found with product/module dependencies."
+    //         },
+    //         {
+    //             content: "Proposing any upgrades and updates necessary for keeping up with modern security and  development best practices."
+    //         },
          
-        ],
-        unorderedlist1: [
-            {
-                content: "Strong experience in React JS and Redux.",
-            },
-            {
-                content: "Proficient in producing clean, semantic HTML and CSS.",
-            },
-            {
-                content: "Hands-on experience in unit testing with Jest or Mocha. ",
-            },
-            {
-                content: "Familiarity with bundling tools like webpack, grunt, or gulp.",
-            },
-            {
-                content: "Exposure to continuous integration tools (Teamcity, Jenkins, etc.). ",
-            },
-            {
-                content: "Knowledge of JIRA, Stash, Git, and ES Lint.",
-            },
-            {
-                content: "Proven expertise in developing user-facing applications.",
-            },
-            {
-                content: "Optimization skills for enhanced application performance.",
-            },
-            {
-                content: "Up-to-date with recent modules/versions."
-            },
-            {
-                content: "Vigilance in monitoring security updates and addressing dependencies."
-            }
+    //     ],
+    //     unorderedlist1: [
+    //         {
+    //             content: "Strong experience in React JS and Redux.",
+    //         },
+    //         {
+    //             content: "Proficient in producing clean, semantic HTML and CSS.",
+    //         },
+    //         {
+    //             content: "Hands-on experience in unit testing with Jest or Mocha. ",
+    //         },
+    //         {
+    //             content: "Familiarity with bundling tools like webpack, grunt, or gulp.",
+    //         },
+    //         {
+    //             content: "Exposure to continuous integration tools (Teamcity, Jenkins, etc.). ",
+    //         },
+    //         {
+    //             content: "Knowledge of JIRA, Stash, Git, and ES Lint.",
+    //         },
+    //         {
+    //             content: "Proven expertise in developing user-facing applications.",
+    //         },
+    //         {
+    //             content: "Optimization skills for enhanced application performance.",
+    //         },
+    //         {
+    //             content: "Up-to-date with recent modules/versions."
+    //         },
+    //         {
+    //             content: "Vigilance in monitoring security updates and addressing dependencies."
+    //         }
           
            
-        ]
-    },
+    //     ]
+    // },
     {
         applyfor: "Java Full Stack",
         title: "Java Full Stack",
