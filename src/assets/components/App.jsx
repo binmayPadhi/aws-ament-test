@@ -43,6 +43,12 @@ import Pressdata from "./Pressdata";
 import ImageVideoAnnotation from "./Resources/ImageVideoAnnotation";
 import Forecasting from "./Resources/Forecasting";
 import GenerativeAI from "./Resources/GenerativeAI";
+import InventoryManagement from "./Resources/InventoryManagement";
+import GenAI from "./SubServices/GenAI";
+import Pressreleasehome from "./Resources/Pressreleasepages/Pressreleasehome";
+import Pressreleasetwo from "./Resources/Pressreleasepages/Pressreleasetwo";
+import Telangana from "./Resources/Pressreleasepages/Telangana";
+import Thankswebinarcopy from "./Resources/Pressreleasepages/Thankswebinarcopy";
 
 
 function App() {
@@ -69,7 +75,11 @@ function App() {
               path="/odc-and-iso-recognized-certification"
               element={<Isoimg />}
             />
-           
+           <Route
+              exact
+              path="/generative-ai-solutions"
+              element={<GenAI/>}
+            />
           <Route path="/services" element={<OurServices />}>
             <Route path="" element={<Services />} />
             <Route path=":name" element={<AIservices />} />
@@ -83,6 +93,16 @@ function App() {
           <Route path="/casestudies" element={<CaseStudies />} />
           <Route path="/legalresources" element={<Legalterms />} />
           <Route path="/products" element={<Product />} />
+          <Route path="/press-releases" element={<Pressrelease />} >
+            <Route exact path="" element={<Pressreleasehome />}/>
+            <Route
+              path="reshaping-the-retail-industry-through-AI"
+              element={<Thankswebinarcopy />}
+            />
+            <Route path="ament-digital-announces-launch-of-swift-insights" element={<Pressreleasetwo/>}/>
+            <Route path="telangana-state-awards-winner" element={<Telangana/>}/>
+           <Route path="amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023" element={<Pressdata />} />
+           </Route>
           <Route path="/blogs" element={<Blog />}>
             <Route exact path="" element={<Insighthome />} />
             <Route
@@ -101,6 +121,11 @@ function App() {
               exact
               path="AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations"
               element={<InsightAI />}
+            />
+            <Route
+              exact
+              path="5-ways-AI-can-enhance-and-optimize-your-inventory-management"
+              element={<InventoryManagement />}
             />
             <Route
               exact
@@ -133,8 +158,6 @@ function App() {
               path="swiftinisghts-Webinar"
               element={<SwiftInisghtsWebinar />}
             />
-             
-            
             <Route
               path="webinar-thank-you-reshaping-the-retail-industry-through-AI"
               element={<Videowebinar />}
@@ -146,9 +169,6 @@ function App() {
               element={<Thankswebinar />}
             />
           </Route>
-          <Route path="/press-release" element={<Pressrelease />} >
-           <Route path="amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023" element={<Pressdata />} />
-           </Route>
           <Route path="/cookiespolicy" element={<CookiesPolicy />} />
           <Route path="/privacypolicy" element={<Privacypolicy />} />
           <Route path="/termsandconditions" element={<Termsandconditions />} />

@@ -11,11 +11,50 @@
   outline: 0 !important;
 }
 
+.w-85{
+  width:85%;
+}
+
+.gradient-green-line{
+    height: 3px;
+    background: linear-gradient(90deg, #1DAD8F 36.61%, rgba(0, 0, 0, 0.79) 84.07%);
+    width: 300px;
+    border-radius: 4px;
+}
+
+.card-white{
+  width:100%;
+  height:300px;
+  border-radius: 8px;
+  background-color: white;
+  
+}
+
+.fs-34{
+  font-size:34px;
+}
+
+.align-center{
+  align-items: center!important;
+}
+
+.w-40{
+  width:40%;
+}
+
+.grey-bg{
+  background-color: #f2f2f2;
+}
+
 body {
   margin: 0px 140px 0px 140px;
   left: 140px;
   left: 140px !important;
   overflow-x: hidden;
+}
+
+.paddin-space{
+  padding-top:50px;
 }
 
 .all-margin {
@@ -300,6 +339,24 @@ body {
   border-style: none;
   height: 150px;
 }
+
+.top-spacing{
+  margin-top:60px;
+}
+
+.bottom-spacing{
+  margin-bottom:60px;
+}
+
+.border-rad{
+  border-radius: 4px!important;
+}
+
+.gen-font{
+  font-size:35px;
+  font-weight:600;
+}
+
 
 .industry-section .dot-icon {
   position: absolute;
@@ -3309,12 +3366,27 @@ label {
   opacity: 1;
 }
 
+.sub-service-intro-genai{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background: #f4f4f4;
+  opacity: 1;
+}
+
+
+
 .text-center-img-CTA {
   position: absolute;
   top: 30%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+.bottom-img-absolute{
+  position: absolute;
+  bottom:20px;
 }
 
 .fs-21{
@@ -6833,9 +6905,55 @@ background-color:#1A4598;
   
 }
 
+.image-size{
+  width:100%;
+  height:360px;
+  margin-top:30px;
+}
 
 .color-change{
 
   color:white!important;
 }
 .carousel-indicators li { visibility: hidden; }
+
+
+ /* .carousel-control-next {
+ width:50px;
+ height:50px;
+ background-color: #000;
+ border-radius: 50%;
+top:100px;
+} */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px!important;
+  width: 50px!important;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+  background-color: white!important;
+  padding:20px;
+}
+
+.text-darkgreen{
+  color: #1dad8f;
+  font-weight:800;
+  
+}
+
+/* .carousel-control-next-icon:after
+{
+
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+ 
+  font-size: 55px;
+  color: red;
+} */

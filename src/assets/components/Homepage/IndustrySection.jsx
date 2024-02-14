@@ -1,5 +1,7 @@
 import React from "react";
 import IndusrtySectionData from "../../Data/Homepage-Data/IndustrySectionData";
+import previous from "../../images/HomePage/homepage-industry-IMG/left-arrow.png";
+import next from "../../images/HomePage/homepage-industry-IMG/right-arrow.png";
 
 function IndustrySection() {
   return (
@@ -71,11 +73,11 @@ function IndustrySection() {
    
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <img src={previous} className="w-25"/>
     <span class="visually-hidden">Previous</span>
   </button>
   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <img src={next} className="w-25"/>
     <span class="visually-hidden">Next</span>
   </button>
 </div>

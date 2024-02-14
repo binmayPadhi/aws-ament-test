@@ -110,7 +110,7 @@ enabled by technology. Watch the on-demand webinar now!" />
         <Letsgetstart />
       </div>
       {/* Footer */}
-      <Webinarfooter />
+      {/* <Webinarfooter /> */}
     </>
   );
 };

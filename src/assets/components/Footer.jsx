@@ -24,6 +24,7 @@ import Equalitas from "../images/HomePage/Equalitasimag.svg";
 import Business from "../images/HomePage/Business Connect Award.png";
 import soc from "../images/HomePage/SOC2img.svg";
 
+// import soc from "../images/Resources-page/SOC2_Logo.png";
 
 
 function Footer() {
@@ -181,7 +182,6 @@ function Footer() {
         {
           id: 45,
           name: "Financial Services",
-
         },
       ],
     },
@@ -393,8 +393,11 @@ function Footer() {
               <p className="listName">+91832-8631349</p>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3 text-md-center text-lg-center text-sm-left">
+            <p className="listName text-md-center">
+            Austin, TX
+            </p>
               <p className="listName text-md-center">
-                660 South Bagdad Road #320, Leander, TX 78641 Austin, Texas
+              660 South Bagdad Road #320, Leander, 78641
               </p>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3 ">
@@ -419,7 +422,7 @@ function Footer() {
           <p className="footer-border"></p>
           <div className="row mb-5">
             <div className="col-lg-3 col-md-4 col-sm-12 col-xs-12 mt-3 text-md-left text-lg-left text-sm-left">
-              <p className="listName w-100">© 2023 Amnet Digital</p>
+              <p className="listName w-100">© 2024 Amnet Digital</p>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3 text-md-center text-lg-center text-sm-left">
               <MediaQuery minWidth={200} maxWidth={759}>
