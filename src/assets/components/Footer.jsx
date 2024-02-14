@@ -19,9 +19,10 @@ import star from "../images/HomePage/star.png";
 import send from "../images/HomePage/Sendicon.png";
 import cross from "../images/HomePage/close-icon.png";
 import { useLocation } from "react-router-dom";
-import ISO from "../images/Resources-page/iso1.png";
-import Equalitas from "../images/Resources-page/equalitas1.png";
+import ISO from "../images/HomePage/ISOimge.svg";
+import Equalitas from "../images/HomePage/Equalitasimag.svg";
 import Business from "../images/HomePage/Business Connect Award.png";
+import soc from "../images/HomePage/SOC2img.svg";
 
 
 
@@ -62,11 +63,11 @@ function Footer() {
           name: "",
           link: "/odc-and-iso-recognized-certification",
           target: "_balnk",
-          image:ISO,
-          image1:Equalitas,
-          image2:Business,
+          image: ISO,
+          image1: Equalitas,
+          image2: soc,
         },
-        
+
       ],
     },
     {
@@ -161,26 +162,26 @@ function Footer() {
       sublist: [
         {
           id: 41,
-          name: " Retail & Ecommerce", 
+          name: " Retail & Ecommerce",
         },
         {
           id: 42,
-          name: "Information Management",  
+          name: "Information Management",
         },
         {
           id: 43,
           name: "Healthcare",
-         
+
         },
         {
           id: 44,
           name: "HRMS",
-         
+
         },
         {
           id: 45,
           name: "Financial Services",
-         
+
         },
       ],
     },
@@ -211,9 +212,9 @@ function Footer() {
           name: "",
           link: "/odc-and-iso-recognized-certification",
           target: "_balnk",
-          certifiedimage:ISO,
-          certifiedimage1:Equalitas,
-          certifiedimage2:Business,
+          certifiedimage: ISO,
+          certifiedimage1: Equalitas,
+          certifiedimage2: Business,
         },
       ],
     },
@@ -343,31 +344,46 @@ function Footer() {
                           <Link
                             to={val.link}
                             target={
-                              val.id !== 25 && val.id !== 52  ? "" : "_blank"
+                              val.id !== 25 && val.id !== 52 ? "" : "_blank"
                             }
                             className="desName  text-decoration-none fs-13 text-black"
                           >
-                           <MediaQuery minWidth={760} >
-                            {val.hasOwnProperty('image') === true ? 
-                           <p className="mb-0 mt-md-5 spacing-first"><a href={val.id}><img  src={val.image}/></a> <a href={val.id}><img  src={val.image1}/></a></p>: val.name
-                          }
+                            <MediaQuery minWidth={760} >
+                              {val.name}
                             </MediaQuery>
                             <MediaQuery minWidth={320} maxWidth={759}>
-                            {val.hasOwnProperty('certifiedimage') === true ? 
-                            <a href={val.id}><span> <img className="spacing-icosn" src={val.certifiedimage}/> <img className="spacing-icosn" src={val.certifiedimage1}/></span></a> : val.name
-                          }
-                            </MediaQuery>      
+                              { val.name
+                              }
+                            </MediaQuery>
                           </Link>
                         </li>
                       );
                     })}
                   </ul>
+
                 </p>
               );
             })}
+          <div className="w-90 mx-auto">
+            {/* <p className="mb-0 mt-md-5 spacing-first" ><a href=""><img src={Equalitas} /></a> <span><a href=""><img src={Equalitas} /></a></span> </p> */}
+            <MediaQuery minWidth={760} >
+              {
+              <div className="ml-lg-5 d-flex flex-row justify-content-center"><span className="me-5"><a href="/odc-and-iso-recognized-certification"><img src={ISO} /></a></span><span className="me-5"><a href="/odc-and-iso-recognized-certification"><img src={Equalitas} /></a></span><span ><a ><img src={soc} /></a></span></div>
+
+              }
+            </MediaQuery>
+            <MediaQuery minWidth={320} maxWidth={759}>
+              {
+              <p> <a href=""><img  className="" src={ISO} /></a> <span><a href=""><img  className="" src={Equalitas} /></a></span><span><a ><img className="" src={soc} /></a></span></p>
+
+              }
+           
+            </MediaQuery>
+            </div>
             <div className="col-sm-12 col-xs-12 col-md-1 col-lg-1"></div>
           </p>
         </div>
+
       </div>
       <div className="container-fluid bg-white mt-5">
         <div className="center-88">
