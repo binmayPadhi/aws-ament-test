@@ -374,7 +374,7 @@ function Footer() {
             </MediaQuery>
             <MediaQuery minWidth={320} maxWidth={759}>
               {
-              <p> <a href=""><img  className="" src={ISO} /></a> <span><a href=""><img  className="" src={Equalitas} /></a></span><span><a ><img className="" src={soc} /></a></span></p>
+              <p> <a href="/odc-and-iso-recognized-certification"><img  className="" src={ISO} /></a> <span><a href="/odc-and-iso-recognized-certification"><img  className="" src={Equalitas} /></a></span><span><a ><img className="" src={soc} /></a></span></p>
 
               }
            
