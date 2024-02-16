@@ -12,6 +12,7 @@
     "@tippyjs/react": "4.2.6",
     "bootstrap": "5.2.3",
     "emailjs-com": "2.6.3",
+    "helmet": "^7.1.0",
     "react": "18.2.0",
     "react-bootstrap": "2.7.2",
     "react-dom": "18.2.0",
