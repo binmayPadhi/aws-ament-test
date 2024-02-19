@@ -360,7 +360,6 @@ function Footer() {
                       );
                     })}
                   </ul>
-
                 </p>
               );
             })}
@@ -369,15 +368,12 @@ function Footer() {
             <MediaQuery minWidth={760} >
               {
               <div className="ml-lg-5 d-flex flex-row justify-content-center"><span className="me-5"><a href="/odc-and-iso-recognized-certification"><img src={ISO} /></a></span><span className="me-5"><a href="/odc-and-iso-recognized-certification"><img src={Equalitas} /></a></span><span ><a ><img src={soc} /></a></span></div>
-
               }
             </MediaQuery>
             <MediaQuery minWidth={320} maxWidth={759}>
               {
               <p> <a href="/odc-and-iso-recognized-certification"><img  className="" src={ISO} /></a> <span><a href="/odc-and-iso-recognized-certification"><img  className="" src={Equalitas} /></a></span><span><a ><img className="" src={soc} /></a></span></p>
-
               }
-           
             </MediaQuery>
             </div>
             <div className="col-sm-12 col-xs-12 col-md-1 col-lg-1"></div>

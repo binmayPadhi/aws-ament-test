@@ -197,6 +197,8 @@ function Navbar(props) {
     }
   };
 
+  
+
   return (
     <>
       {/* <!-- NAVIGATION BAR --> */}
@@ -206,7 +208,7 @@ function Navbar(props) {
         <div
           className={"navigation-bar " + (color === "app" ? "bgc-white" : "")}
         >
-          <nav className="navbar navbar-expand-lg ">
+          <nav className="navbar navbar-expand-lg">
             <a href="/" className="navbar-brand active pb-2">
               <img
                 className="img-fluid logo"
@@ -218,12 +220,12 @@ function Navbar(props) {
             <button
               className="navbar-toggler custom-toggler bgc-white"
               type="button"
-              data-toggle="collapse"
-              data-target="#navbarNav"
               aria-controls="navbarNav"
               aria-haspopup="true"
               aria-expanded="false"
               aria-label="Toggle navigation"
+              data-bs-toggle="collapse" 
+              data-bs-target="#navbarNav" 
             >
               <div className="navbar-toggler-icon"></div>
               <div className="navbar-toggler-icon"></div>
