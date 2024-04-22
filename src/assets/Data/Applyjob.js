@@ -1082,9 +1082,9 @@ const Jobdescription = [
     {
         applyfor: "BDM / Sales",
         title: "BDM / Sales",
-        level:"mid -  senior",
+        level:"mid - senior",
         experience:"5 to 10 years",
-        aboutdescription: "We are looking to add bright, focused, resourceful and highly goal-oriented Software Developer with experience in Node Js. Candidates should enjoy working in a challenging environment; have the enthusiasm and ambition to develop & complete projects to the highest standard and want to be part of an organization that puts technology at the heart of everything it does.",
+        aboutdescription: "Join us as a key player in our team, driving IT sales initiatives with a focus on lead generation. Your responsibilities include developing effective sales strategies, identifying new business opportunities, and nurturing client relationships. With your expertise in IT solutions and track record of exceeding targets, you'll play a critical role in our growth journey.",
         unorderedlist: [
             {
                 content: "Spearhead IT sales initiatives with a primary focus on lead generation.",
@@ -1135,56 +1135,50 @@ const Jobdescription = [
         ],
         unorderedlist1: [
             {
-                content: "5+ years of experience architechting large-scale applications of Java.",
+                content: "Proven expertise in spearheading IT sales initiatives with a primary focus on lead generation.",
             },
             {
-                content: "10+ years’ experience with Java 7/8, J2EE, Eclipse or similar tool.",
+                content: "Demonstrated ability to develop and implement effective sales strategies for driving business growth.",
             },
             {
-                content: "5+ years of experience with Spring Boot, Spring Security, Spring Data, Spring MVC along with Unit Testing, and Integration Testing.",
+                content: "Aptitude for identifying and pursuing new business opportunities within the IT sector.",
             },
             {
-                content: "Experience designing and coding high-performance, scalable, reusable, enterprise Java applications.",
+                content: "Strong understanding of market dynamics, industry trends, and competitive landscapes.",
             },
             {
-                content: "Excellent understanding of design patterns and micro service architecture.",
+                content: "Excellent communication, negotiation, and interpersonal skills.",
             },
             {
-                content: "Experience designing RESTful web services.",
+                content: "Strategic thinking abilities to identify and capitalize on new opportunities.",
             },
             {
                 content: "Experience designing, implementing, and integrating Spring and/or Spring Boot.",
             },
             {
-                content: "Experience in writing unit tests and documentation.",
+                content: "Proficiency in utilizing CRM systems, sales tools, and researching open-source tools for sales growth.",
             },
             {
-                content: "Hands on experience in Enterprise Integration Patterns (EIP); Exposure with apache camel or spring integration."
+                content: "Capability to cultivate and maintain strong client relationships."
             },
             {
-                content: "Hands on experience with Kubernetes and exposure in no-SQL databases."
+                content: "Dedication to staying updated on industry trends and competitor activities."
             },
             {
-                content: "Deep understanding of data architecture, industry standards, and best practices."
+                content: "Expertise in effectively communicating value propositions for IT solutions."
             },
             {
-                content: "Ability to clearly and concisely document architectural diagrams, technical proposals, and research results."
+                content: "Proven track record of meeting and exceeding IT sales targets."
             },
             {
-                content: "Experience with writing complex queries for Oracle database."
+                content: "Proficiency in lead generation strategies specific to the IT industry."
             },
             {
-                content: "Linux and systems management experience."
+                content: "Strong skills in proposal writing and creating compelling sales pitches."
             },
             {
-                content: "Experience in high-volume, transaction processing productions systems."
+                content: "Ability to work both independently and collaboratively within a team environment."
             },
-            {
-                content: "Object oriented analysis, design and programming skills."
-            },
-            {
-                content: "Experience with a recognized software development life cycle methodology."
-            }
            
         ]
     }

@@ -281,7 +281,7 @@ function Footer() {
   const submit = (data) => {
     return emailjs
       .sendForm(
-        "service_h4akrmg",
+        "service_e7ig9fn",
         "template_h0xkqot",
         emailDetails.current,
         "yz7dQlM6o3Rz3cnB8"
