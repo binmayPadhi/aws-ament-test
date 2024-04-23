@@ -88,7 +88,7 @@ const ApplicationForm = () => {
     data["resume"] = uploadedPhotos[0];
     return emailjs
       .sendForm(
-        "service_h4akrmg",
+        "service_e7ig9fn",
         "template_h0xkqot",
         applicationDetails.current,
         "yz7dQlM6o3Rz3cnB8"
