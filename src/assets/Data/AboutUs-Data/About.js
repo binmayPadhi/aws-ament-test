@@ -74,16 +74,16 @@ const Aboutdata = {
     {
       id: 1,
       image: mission,
-      heading: "Our Mission",
+      heading: "Mission",
       description:
-        "Our mission is to help businesses build and adapt a data-driven culture by creating innovative end-to-end digital solutions. With a unique blend of Data Analytics and AI we dedicate our business process, technology innovation know-how, deep industry expertise, and resources to assist modern businesses going beyond.",
+        "Apply Advanced Analytics and AI to deliver continuous value to our clients.",
     },
     {
       id: 2,
       image: vision,
-      heading: "Our Vision",
+      heading: "Vision",
       description:
-        "Our brand’s bolder vision is to assist customers to achieve their business goals along with better futures for communities and the planet. Transform traditional and emerging businesses with Data Analytics and AI to generate meaningful value through our AI-driven solutions.",
+        " Transform traditional and emerging businesses with our Data, Analytics & AI solutions.",
     },
   ],
   aboutvalues: [
