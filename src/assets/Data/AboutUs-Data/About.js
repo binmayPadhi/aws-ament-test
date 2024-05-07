@@ -74,14 +74,14 @@ const Aboutdata = {
     {
       id: 1,
       image: mission,
-      heading: "Our Mission",
+      heading: "Mission",
       description:
         "Apply Advanced Analytics and AI to deliver continuous value to our clients.",
     },
     {
       id: 2,
       image: vision,
-      heading: "Our Vision",
+      heading: "Vision",
       description:
         " Transform traditional and emerging businesses with our Data, Analytics & AI solutions.",
     },
