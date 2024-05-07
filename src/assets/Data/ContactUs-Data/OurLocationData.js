@@ -16,7 +16,7 @@ const ourLocationData = [
     id: 2,
     cityName: "Hyderabad, India",
     address:
-      "2nd Floor, Building # 10, The Skyview, HITEC City, Hyderabad, 500081, India",
+      "Orbit, 11th floor, HITEC City, Hyderabad 500019",
     locationIcon: hyd,
     icon: amnetLocationIcon,
   },
@@ -24,7 +24,7 @@ const ourLocationData = [
     id: 3,
     cityName: "Scotland, UK",
     address:
-      "89 Queens Crescent, Livingston, West Lothian EH54 8EG, Scotland, UK",
+      "89 Queens Crescent, Livingston, West Lothian EH54 8EG",
     locationIcon: scotland,
     icon: amnetLocationIcon,
   },
