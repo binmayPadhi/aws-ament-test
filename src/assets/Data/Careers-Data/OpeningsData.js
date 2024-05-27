@@ -25,6 +25,15 @@ const Openings = [
     //   sublink: "/careers/dataengineer",
     // },
     {
+      id: 13,
+      heading: "SENIOR LEVEL",
+      role: "Senior Data Engineer",
+      location: "Texas, US",
+      button: "Apply Now",
+      sublink: "senior-data-engineer",
+     
+    },
+    {
       id: 4,
       heading: "MID-SENIOR LEVEL",
       role: "Data Scientist",
@@ -132,22 +141,15 @@ const Openings = [
       button: "Apply Now",
       sublink: "lead-full-stack",
     },
-    // {
-    //   id: 13,
-    //   heading: "SENIOR LEVEL",
-    //   role: "React Js Developer",
-    //   location: "Hyderabad",
-    //   button: "Apply Now",
-    //   sublink: "react-js-developer",
-    // },
     {
       id: 13,
       heading: "SENIOR LEVEL",
-      role: "Java Full Stack",
+      role: "React Js Developer",
       location: "Hyderabad",
       button: "Apply Now",
-      sublink: "java-full-stack",
+      sublink: "react-js-developer",
     },
+  
     {
       id: 13,
       heading: "SENIOR LEVEL",

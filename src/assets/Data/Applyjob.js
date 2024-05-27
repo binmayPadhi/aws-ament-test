@@ -82,6 +82,7 @@ const Jobdescription = [
         title: "Data Scientist",
         level:"mid-senior",
         experience:"3 to 7 years",
+        location:"Hyderabad, India",
         aboutdescription: "A Data Scientists roles and responsibilities include  extracting data from multiple sources, using machine learning   tools to organize data, process, clean, and validate the data, analyze the data for information and patterns, develop prediction systems, present the data in a clear manner, and propose solutions.",
         unorderedlist: [
             {
@@ -419,6 +420,7 @@ const Jobdescription = [
         title: "Python Developer",
         level:"mid-senior",
         experience:"4 to 8 years",
+        location:"Hyderabad, India",
         aboutdescription: "The role of a Python developer is to contribute to coding done using Python language in different areas of web development, application development, game development, data science,  machine learning, AI, etc.",
         unorderedlist: [
             {
@@ -517,6 +519,7 @@ const Jobdescription = [
         title: "UX Designer",
         level:"senior",
         experience:"7+ years",
+        location:"Hyderabad, India",
         aboutdescription: "We are looking for a smart and talented Ux/Ui designer who possess passion for delivering high quality work and wants to be involved in designing a wide variety of things across digital and offline media. A self-starter, capable of delivering creative ideas and showing amazing attention to detail will be preferred.",
         unorderedlist: [
             {
@@ -591,6 +594,7 @@ const Jobdescription = [
         title: "Data Science Lead",
         level:"mid-senior",
         experience:"7 - 9 years",
+        location:"Hyderabad, India",
         aboutdescription: "A Data Scientists roles and responsibilities include extracting data from multiple sources, using machine learning tools to organize data, process, clean, and validate the data, analyze the data for information and patterns, develop prediction systems, present the data in a clear manner, and propose solutions.",
         unorderedlist: [
             {
@@ -675,6 +679,7 @@ const Jobdescription = [
         title: "Einstein Analytics",
         level:"mid-senior",
         experience:"7 - 12 years",
+        location:"Hyderabad, India",
         aboutdescription: "Contribute to our team's success by spearheading model development, accurate predictions, and advanced analytics leveraging Einstein Discovery. Drive the implementation of CRM Analytics Dashboard, Recipes, and data replications, playing a crucial role in shaping our data-driven strategies.",
         unorderedlist: [
             {
@@ -858,6 +863,7 @@ const Jobdescription = [
         title: "Lead Full Stack",
         level:"senior",
         experience:"7 - 9 years",
+        location:"Hyderabad, India",
         aboutdescription: "We are looking to add bright, focused, resourceful and highly goal-oriented Software Developer with experience in Node Js. Candidates should enjoy working in a challenging environment; have the enthusiasm and ambition to develop & complete projects to the highest standard and want to be part of an organization that puts technology at the heart of everything it does.",
         unorderedlist: [
             {
@@ -1016,6 +1022,7 @@ const Jobdescription = [
         title: "Java Full Stack",
         level:"senior",
         experience:"7 - 9 years",
+        location:"Hyderabad, India",
         aboutdescription: "We are looking to add bright, focused, resourceful and highly goal-oriented Software Developer with experience in Node Js. Candidates should enjoy working in a challenging environment; have the enthusiasm and ambition to develop & complete projects to the highest standard and want to be part of an organization that puts technology at the heart of everything it does.",
         unorderedlist: [
             {
@@ -1084,6 +1091,7 @@ const Jobdescription = [
         title: "BDM / Sales",
         level:"mid - senior",
         experience:"5 to 10 years",
+        location:"Hyderabad, India",
         aboutdescription: "Join us as a key player in our team, driving IT sales initiatives with a focus on lead generation. Your responsibilities include developing effective sales strategies, identifying new business opportunities, and nurturing client relationships. With your expertise in IT solutions and track record of exceeding targets, you'll play a critical role in our growth journey.",
         unorderedlist: [
             {
@@ -1181,7 +1189,88 @@ const Jobdescription = [
             },
            
         ]
-    }
+    },
+    {
+        applyfor: "Senior Data Engineer",
+        note:"Note* ",
+        joblocation:"Job Location: ",
+        address:"660 South Bagdad Road #320, Leander, Texas 78641.",
+        notedescription:"Job may require some travel in the US with expenses paid by the employer. 40hrs per week. Applicant must be authorized to work in the United States. Send your resume to Amnet Tech LLC, 660 South Bagdad Road #320, Leander, TX 78641 or varaprasad@amnetdigital.com.",
+        title: "Senior Data Engineer",
+        level:"Mid- Senior level ",
+        experience:"5+ years",
+        location:"Texas, US",
+        aboutdescription: "AMNET TECH LLC is seeking a Senior Data Engineer with a Bachelor's degree, or equivalent, in Computer Science, Information Technology, Engineering (any branch), or a related discipline, plus 5 years of progressive experience in SQL, T-SQL, Scala, Azure Data Factory (ADF), Azure Data Lake Gen2 (ADLS), Azure Synapse Analytics, Databricks, Hive, HDFS, Spark, Power BI, SQL Server Management Studio (SSMS), IBM DB2, SQL Server Integration Services (SSIS), SQL Server Analysis Services (SSAS), SQL Server Reporting Services (SSRS), Visual Studio, GitHub, and Azure DevOps (CI/CD).",
+        unorderedlist: [
+            {
+                content: "Designing and maintaining Data Pipelines, Databases, and Data Warehouse infrastructure.",
+            },
+            {
+                content: "Leading Data Curation efforts to ensure dataset quality.",
+            },
+            {
+                content: "Building infrastructure for optimal data extraction, transformation, and loading using SQL & Scala.",
+            },
+            {
+                content: "Participating in client consultations to understand requirements comprehensively.",
+            },
+            {
+                content: "Contributing to cross-functional code evaluation sessions to ensure code quality and knowledge sharing."
+            },
+            {
+                content: "Supporting the planning, designing, development, and delivery of Data Engineering solutions."
+            },
+            {
+                content: "Incorporating core data management competencies including governance, security, and quality. "
+            },
+            {
+                content: "Designing, building, testing, and maintaining efficient data pipeline architecture using Azure stack."
+            },
+            {
+                content: "Knowledge of master data management, data warehousing, and business intelligence architecture."
+            },
+            {
+                content: "Automating data platform operations and managing post-production systems and processes."
+            },
+            {
+                content: "Performing thorough assessments and evaluations of existing databases for optimization and migration to the cloud."
+            },
+           
+        ],
+        unorderedlist1: [
+            {
+                content: "Bachelor's degree in Computer Science, Information Technology, Engineering, or related discipline.",
+            },
+            {
+                content: "5+ years of progressive experience in SQL, T-SQL, Scala, and various data engineering technologies.",
+            },
+            {
+                content: "Proficiency in Azure Data Factory, Azure Data Lake Gen2, Azure Synapse Analytics, Databricks, Hive, HDFS, Spark, Power BI, SSMS, IBM DB2, SSIS, SSAS, SSRS, Visual Studio, GitHub, and Azure DevOps.",
+            },
+            {
+                content: "Strong understanding of data governance, security, and quality principles.",
+            },
+            {
+                content: "Experience in designing and maintaining data pipelines, databases, and data warehouses.",
+            },
+            {
+                content: "Ability to lead data curation efforts and ensure dataset quality.",
+            },
+            {
+                content: "Excellent communication and collaboration skills for client consultations and cross-functional teamwork.",
+            },
+            {
+                content: "Familiarity with master data management, data warehousing, and business intelligence architecture.",
+            },
+            {
+                content: "Proven ability to automate data platform operations and manage post-production systems efficiently.",
+            },
+            {
+                content: "Capability to assess and evaluate existing databases for optimization and migration to the cloud.",
+            },
+           
+        ]
+    },
 ]
 
 export default Jobdescription;
