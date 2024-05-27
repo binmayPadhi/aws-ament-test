@@ -247,7 +247,7 @@ const Apply = () => {
                                 <div className="col-lg-4 col-md-4 col-sm-12 text-black text-lg-right text-sm-left fs-18 fw-bold-600">
                                     Location: {" "}
                                     <span className="text-black fs-16 fw-bold-400">
-                                        Hyderabad, India
+                                        {res.location}
                                     </span>
                                 </div>
                             </div>
@@ -298,6 +298,14 @@ const Apply = () => {
                                 ) : (
                                     ""
                                 )}
+                                <div className="mt-5">
+                                 <span className="fs-18 fw-bold-600 mt-5">{res.joblocation}</span>
+                                 <span className="fs-16  mt-5 line-height-class">{res.address}</span>
+                                 </div>
+                                 <div className="mt-4">
+                                 <span className="fs-18 fw-bold-600 mt-5">{res.note}</span>
+                                 <span className="fs-16  mt-5 line-height-class">{res.notedescription}</span>
+                                 </div>
                             </div>
                         </div>
                     </div>
