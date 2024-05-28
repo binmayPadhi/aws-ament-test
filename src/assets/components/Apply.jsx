@@ -304,7 +304,11 @@ const Apply = () => {
                                  </div>
                                  <div className="mt-4">
                                  <span className="fs-18 fw-bold-600 mt-5">{res.note}</span>
-                                 <span className="fs-16  mt-5 line-height-class">{res.notedescription}</span>
+                                 <h1 className="fs-16  line-height-class mt-3">{res.notedescription}</h1>
+                                 <h1 className="fs-16  line-height-class pt-2 pb-2">{res.notedescription1}</h1>
+                                 <h1 className="fs-16  line-height-class ">{res.notedescription2}</h1>
+                                 <h1><span  className="fs-16  ">{res.notedescription3}</span><span><a  className="fs-16 " href="mailto:varaprasad@amnetdigital.com">{res.mail}</a></span></h1>
+                                 
                                  </div>
                             </div>
                         </div>
