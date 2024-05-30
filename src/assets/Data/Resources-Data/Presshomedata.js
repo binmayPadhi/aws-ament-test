@@ -17,6 +17,13 @@ import pressrelease4 from "../../images/Webinar-images/Bg-webinar-Img.png";
 const Presshomedata = {
   carddetails: [
     {
+      id:"amnet-digital-partners-with-intel",
+      date:"May 30, 2024",
+      title:"Amnet Digital announces a launch of Swift Insights, an AI-powered",
+      description:"Amnet Digital launches Swift Insights, an AI-powered analytics platform, empowering businesses with...",
+      image:pressrelease1,
+    },
+    {
       id:"ament-digital-announces-launch-of-swift-insights",
       date:"January 10, 2024",
       title:"Amnet Digital announces a launch of Swift Insights, an AI-powered",
