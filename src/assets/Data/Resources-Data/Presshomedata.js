@@ -20,7 +20,7 @@ const Presshomedata = {
     {
       id:"amnet-digital-partners-with-intel",
       date:"May 30, 2024",
-      title:"Amnet Digital announces a launch of Swift Insights, an AI-powered",
+      title:"Amnet Digital unveils partnership with Intel, blending IT expertise with innovation",
       description:"Excited to announce partnership with Intel, merging digital prowess with cutting-edge tech for promising tranformative outcomes for businesses worldwide.",
       image:intelbg,
     },
