@@ -177,7 +177,7 @@ function Navbar(props) {
   }
   gtag("js", new Date());
 
-  gtag("config", "G-WMMZT165YM");
+  gtag("config", "G-R4T4JBBDGV");
   const [storeRibbonval, setstoreRibbon] = useState("show");
 
   useLayoutEffect(() => {
