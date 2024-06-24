@@ -75,7 +75,7 @@ const DataMigration = () => {
                       {list.textbold}{" "}
                     </span>
                     <span>
-                      <a className="fs-18 fw-bold-800" href="/contactus">
+                      <a className="fs-18 fw-bold-800" href="/contact-us">
                         {list.ref}
                       </a>
                     </span>
@@ -138,7 +138,7 @@ const DataMigration = () => {
                 We are on a mission to solve complex problems and provide
                 solutions that make a difference, Come work with us.
               </p>
-              <a href="/contactus">
+              <a href="/contact-us">
                 <button
                   type="button"
                   className="btn btn-default contact-us-button"

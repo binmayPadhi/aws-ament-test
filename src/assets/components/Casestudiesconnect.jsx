@@ -5,7 +5,7 @@ const Letsconnect = () => {
   const history = useNavigate();
   const redirectTo = (e) => {
     e.preventDefault();
-    history(`/contactus`);
+    history(`/contact-us`);
   };
   return (
     <>

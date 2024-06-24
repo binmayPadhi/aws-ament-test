@@ -70,7 +70,7 @@ const BlogIT = () => {
                       <h4 className="fs-16 fw-bold-700 mt-3">
                         {list.description6}{" "}
                         <span>
-                          <a className="fs-18" href="/contactus">
+                          <a className="fs-18" href="/contact-us">
                             {list.hyperlink}
                           </a>
                         </span>
@@ -165,7 +165,7 @@ const BlogIT = () => {
                 We are on a mission to solve complex problems and provide
                 solutions that make a difference, Come work with us.
               </p>
-              <a href="/contactus">
+              <a href="/contact-us">
                 <button
                   type="button"
                   className="btn btn-default contact-us-button"

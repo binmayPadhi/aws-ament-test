@@ -80,7 +80,7 @@ const Homeservices = [
   {
     id: 32,
     name: "Data Engineering",
-    link: "dataengineering",
+    link: "data-engineering",
     heading: "Data Engineering",
     headingDescription:
       "Amnet Digital takes a business focused approach to data engineering to align analytics and technology. By leveraging modern techniques like fast cluster computing you can maximize the value of your data assets. Create foundation of data and transform extracted knowledge into insights for more informed and timely business decisions.",
@@ -137,7 +137,7 @@ const Homeservices = [
   {
     id: 33,
     name: "Data Annotation",
-    link: "dataannotation",
+    link: "data-annotation",
     heading: "Data Annotation",
     headingDescription:
       "At Amnet Digital we combine our human-assisted approach with machine-learning and give you the high-quality training data you need. Our image & video annotation, text annotation, speech/audio annotation services will give you the confidence to deploy your AI and ML models at scale.",
@@ -185,7 +185,7 @@ const Homeservices = [
   {
     id: 34,
     name: "Data Management",
-    link: "datamanagement",
+    link: "data-management",
     heading: "Data Management",
     headingDescription:
       "Our data management services span a wide range of business capabilities around data quality management. We help businesses create robust data management solutions that capture the most critical information within your organization 'master data' & create a single source of truth.",
@@ -242,7 +242,7 @@ const Homeservices = [
   {
     id: 35,
     name: "Cloud Services",
-    link: "cloudservices",
+    link: "cloud-services",
     heading: "Cloud Services",
     headingDescription:
       "We adopt a structured approach that offers the flexibility needed to unify your systems within an optimized environment that prioritizes the performance you want , yet at the lowest cost.",
@@ -347,7 +347,7 @@ const Homeservices = [
   {
     id: 37,
     name: "Quality Assurance",
-    link: "qualityassurance",
+    link: "quality-assurance",
     heading: "Quality Assurance",
     headingDescription:
       "We provide dedicated Quality Assurance services aligned to latest agile, AI/ML and Digital Transformation trends and offer end-to-end testing & report validation services. At Amnet Digital, we strive for quality shift left and high-grade deliverables with optimized Cost of Quality and significant Return on Investments.",
@@ -404,7 +404,7 @@ const Homeservices = [
   {
     id: 38,
     name: "Advanced Analytics",
-    link: "advancedanalytics",
+    link: "advanced-analytics",
     heading: "Advanced Analytics",
     headingDescription:
       "Our proven experience in delivering analytics solutions to enterprises can help your business gain a competitive advantage. We can contribute in a crucial role to formulate the ways to improve business operations and make smart business decisions that result in best return on investments.",
@@ -461,7 +461,7 @@ const Homeservices = [
   {
     id: 39,
     name: "User Experience",
-    link: "userexperinces",
+    link: "user-experience",
     heading: "User Experience",
     headingDescription:
       "Amnet Digital aims at designing products that deliver a positive experience by bridging the gap between the stakeholder goals and user expectations. With an emotionally balanced human-centered approach we empathize with the end users and leverage effective user-centric design techniques delivering the best experience for your users across all touch points of your business!",
@@ -518,7 +518,7 @@ const Homeservices = [
   {
     id: 40,
     name: "Strategy & Consulting",
-    link: "strategyconsulting",
+    link: "strategy-consulting",
     heading: "Strategy & Consulting",
     headingDescription:
       "The era of the standalone digital project is over. We can help you create solutions that influence your whole organization. Digital powers virtually every move a company makes. Analytics informs every high-stakes decision. And emerging technologies offer huge advantage to companies that adopt them first...",

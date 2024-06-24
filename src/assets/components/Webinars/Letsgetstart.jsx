@@ -105,11 +105,11 @@ const Letsgetstart = (props) => {
               </p>
             </div>
           </div>
-          <div className="w-25 bg-right  d-flex align-items-center">
+          <div className="w-25 bg-right  d-flex align-items-center"   onClick={handleShow}>
             <div className="center-98">
               <p
                 className="mb-0 text-white fs-20 font-weight-bold w-100 pl-md-4 pl-sm-2"
-                onClick={handleShow}
+              
               >
                 Let's get started
                 <i

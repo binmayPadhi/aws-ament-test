@@ -24,7 +24,7 @@ function InformationManagement ( ){
                             <NavLink to="/services">
                             <button type="button" className="btn btn-default sub-service-contact-us-btn">Services</button>
                             </NavLink>
-                            <NavLink to="/casestudies">
+                            <NavLink to="/case-studies">
                             <button type="button" className="btn btn-default sub-service-contact-us-btn">Case Studies</button>
                             </NavLink>
                             </div>
@@ -56,7 +56,7 @@ function InformationManagement ( ){
                             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                             Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
                         </p>
-                        <NavLink to="/contactus">
+                        <NavLink to="/contact-us">
                             <button type="button" className="btn btn-default industry-detail-section-contact-us-btn">Contact Us</button>
                         </NavLink>
                     </div>

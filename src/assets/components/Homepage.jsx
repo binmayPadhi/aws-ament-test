@@ -86,7 +86,7 @@ function Test() {
 
   const navigate = useNavigate();
   const connectTo = () => {
-    navigate("/contactus");
+    navigate("/contact-us");
   };
 
   return (
@@ -357,7 +357,7 @@ function Test() {
                 solutions that make a difference, Come work with us.
               </p>
 
-              <a href="/contactus">
+              <a href="/contact-us">
                 <button
                   type="button"
                   className="btn btn-default contact-us-button"
