@@ -9,7 +9,7 @@ const Product = () => {
     
     e.preventDefault();
     if (name === "contact") {
-      history(`/contactus`);
+      history(`/contact-us`);
     } else {
       history(`/careers`);
     }
@@ -42,7 +42,7 @@ const Product = () => {
                   Learn More
                 </a>
                 <a
-                   href="/contactus"
+                   href="/contact-us"
                   type="button"
                   className="fw-bold-700 fs-14 px-4 py-3 text-white btn-orange d-table rounded-1 cr-pointer ml-5"
                 >
@@ -72,7 +72,7 @@ const Product = () => {
              </p>
              <div className="d-flex">
                 <a
-                   href="/contactus"
+                   href="/contact-us"
                   type="button"
                   className="fw-bold-700 fs-14 px-4 py-3 text-white btn-blue d-table rounded-1 cr-pointer "
                 >

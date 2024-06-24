@@ -104,55 +104,55 @@ function Footer() {
         {
           id: 31,
           name: "AI/ML",
-          link: "/services/aiml",
+          link: "/services/ai-ml",
           // target: "_balnk",
         },
         {
           id: 32,
           name: "Advanced Analytics",
-          link: "/services/advancedanalytics",
+          link: "/services/advanced-analytics",
           target: "_balnk",
         },
         {
           id: 33,
           name: "Data Engineering",
-          link: "/services/dataengineering",
+          link: "/services/data-engineering",
           target: "_balnk",
         },
         {
           id: 34,
           name: "Data Management",
-          link: "/services/datamanagement",
+          link: "/services/data-management",
           target: "_balnk",
         },
         {
           id: 35,
           name: "Cloud Services",
-          link: "/services/cloudservices",
+          link: "/services/cloud-services",
           target: "_balnk",
         },
         {
           id: 36,
           name: "User Experience",
-          link: "/services/userexperinces",
+          link: "/services/user-experience",
           target: "_balnk",
         },
         {
           id: 37,
           name: "Strategy & Consulting",
-          link: "/services/strategyconsulting",
+          link: "/services/strategy-consulting",
           target: "_balnk",
         },
         {
           id: 38,
           name: "Data Annotation",
-          link: "/services/dataannotation",
+          link: "/services/data-annotation",
           target: "_balnk",
         },
         {
           id: 39,
           name: "Quality Assurance",
-          link: "/services/qualityassurance",
+          link: "/services/quality-assurance",
           target: "_balnk",
         },
       ],
@@ -204,7 +204,7 @@ function Footer() {
         {
           id: 53,
           name: "Case Studies",
-          link: "/casestudies",
+          link: "/case-studies",
           target: "_balnk",
         },
         {
@@ -423,7 +423,7 @@ function Footer() {
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-3 text-md-center text-lg-center text-sm-left">
               <MediaQuery minWidth={200} maxWidth={759}>
                 <p className="listName w-sm-100">
-                  <a href="/legalresources" className="fs-13 text-black">
+                  <a href="/legal-resources" className="fs-13 text-black">
                     Legal Resources
                   </a>
                 </p>
@@ -440,7 +440,7 @@ function Footer() {
               </MediaQuery>
               <MediaQuery minWidth={760}>
                 <span className="px-2 listName w-sm-100">
-                  <a href="/legalresources" className="fs-13 text-black">
+                  <a href="/legal-resources" className="fs-13 text-black">
                     Legal Resources
                   </a>
                 </span>

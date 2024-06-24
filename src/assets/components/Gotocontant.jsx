@@ -8,7 +8,7 @@ const Gotocontact = ({ componentFrom }) => {
   const redirectTo = (e, name) => {
     e.preventDefault();
     if (name === "contact") {
-      history(`/contactus`);
+      history(`/contact-us`);
     } else {
       history(`/careers`);
     }

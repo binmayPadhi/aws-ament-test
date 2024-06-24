@@ -29,7 +29,7 @@ function Case () {
                   <div className="card-body propensity-modelling">
                     <h5 className="card-title">{list.caseStudiesTitle}</h5>
                     <p>{list.caseStudiesDesc}</p>
-                    <a href={`./casestudies#${list.id}`}>{`Read More ->`}</a>
+                    <a href={`./case-studies#${list.id}`}>{`Read More ->`}</a>
                   </div>
                 </div>
               </div>
