@@ -82,7 +82,7 @@ const Generative = [
         description42: "Deploying AI and ML tech stacks to automate your retail processes requires robust infrastructure, a data-driven mindset during the model development phase, and cognitive engagement when systems work autonomously.",
         description43: "Partner with  ",
         description44: " Amnet Digital ",
-        link4: "https://www.amnetdigital.com/services/aiml",
+        link4: "https://www.amnetdigital.com/services/ai-ml",
         description45: "for end-to-end AI implementation and management, from statistical data analysis to anomaly detection. We assist in rapid data aggregation from various sources, get actionable business insights, build hyper-personalized chatbots, email screening & automating, unpack customer behavior, deploy intelligent chatbots and virtual assistants, and predict future demand from patterns, trends, and seasonality.",
         description46: "Our comprehensive Gen AI services also aid in customer segmentation for personalized marketing and product recommendations, logistics and inventory optimization, and social media analytics to understand customer sentiment and brand perception.",
         description47: "This way, we help retailers position themselves as pioneers in the ever-evolving retail landscape and pave the way for their sustained growth, increased customer satisfaction, and competitive advantage.",

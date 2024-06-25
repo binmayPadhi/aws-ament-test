@@ -172,7 +172,7 @@ import Genicon from "../../images/services-images/Strategy_Consulting/Genicon.pn
 const subservices = [
   {
     id: 1,
-    serviceName: "aiml",
+    serviceName: "ai-ml",
     serviceImgaetitle: "AI & ML Services",
     serviceImg: aiml,
     serviceSubheaading: "AI & ML Services for Business",

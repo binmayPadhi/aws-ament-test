@@ -73,7 +73,7 @@ const Inventorydata = [
         description42: "AI will play a pivotal role in reshaping the retail landscape as technology evolves. From personalized customer experiences to optimized supply chain and inventory management, AI-powered solutions will help retailers operate efficiently and accurately like never before. That’s why it’s high time to embrace advanced AI algorithms to unlock new opportunities, boost revenue, and create a more engaging and convenient shopping experience for your customers worldwide.",
         description43: "Connect with  ",
         description44: " Amnet Digital ",
-        link4: "https://www.amnetdigital.com/services/aiml",
+        link4: "https://www.amnetdigital.com/services/ai-ml",
         description45: "to get a trusted digital partner in configuring your AI infrastructure and helping you maintain data-driven mindsets across your business processes. Our end-to-end AI solutions cover your needs from the early model development phase to the final deployment phase, utilizing data-backed solutions for your inventory and logistics needs. We power your inventory management with product analysis, demand forecasting, outlier analysis, and financial model development to help you efficiently meet current and emerging market demands.",
         description46: "Moreover, our customized ML models accurately predict shipment schedules to optimize logistics processes and support preventive maintenance without service disruptions. That way, you can ensure optimal product availability, streamline supply chains, and enhance customer satisfaction to boost your brand perception.",  
     },
