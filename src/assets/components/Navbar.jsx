@@ -359,7 +359,7 @@ function Navbar(props) {
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`aiml`}/${`generative-ai`}`}
+                                href={`/services/${`ai-ml`}/${`generative-ai`}`}
                               >
                                 Generative AI
                               </a>
@@ -369,14 +369,14 @@ function Navbar(props) {
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`aiml`}/${`statistical-analysis`}`}
+                                href={`/services/${`ai-ml`}/${`statistical-analysis`}`}
                               >
                                 Statistical Analysis
                               </a>
                             </p>
                             <p className="sub-service-links">
                               <a
-                                href={`/services/${`aiml`}/${`visualizations`}`}
+                                href={`/services/${`ai-ml`}/${`visualizations`}`}
                               >
                                 Visualizations
                               </a>

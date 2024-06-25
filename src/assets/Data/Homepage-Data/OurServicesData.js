@@ -8,12 +8,12 @@ import UXDropdownIcon from "../../images/HomePage/our-services/ux-icon.png";
 
 const OurServicesData = [
   {
-    id: "aiml",
+    id: "ai-ml",
     serviceTitle: "AI & ML Services",
     serviceDesc:
       "Take advantage of the data-driven mindset that leverages cutting-edge technologies to develop world class solutions.",
     serviceIcon: AimlDropdownIcon,
-    link: "aiml",
+    link: "ai-ml",
   },
 
   {
