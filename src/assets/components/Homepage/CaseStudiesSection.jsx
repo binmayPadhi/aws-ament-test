@@ -38,7 +38,7 @@ function CaseStudiesSection() {
                     <p>
                       <a
                         className="anchor_styles"
-                        href={`./casestudies#${list.id}`}
+                        href={`./case-studies#${list.id}`}
                       >{`Learn More ->`}</a>
                     </p>
                   </div>
@@ -49,7 +49,7 @@ function CaseStudiesSection() {
         </div>
       </div>
       <div className="new-explore-link text-center">
-        <a href="/casestudies">Explore All Case Studies</a>
+        <a href="/case-studies">Explore All Case Studies</a>
       </div>
     </>
   );

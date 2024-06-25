@@ -29,7 +29,7 @@ function FinancialServices ( ){
                             <NavLink to="/services">
                             <button type="button" className="btn btn-default sub-service-contact-us-btn">Services</button>
                             </NavLink>
-                            <NavLink to="/casestudies">
+                            <NavLink to="/case-studies">
                             <button type="button" className="btn btn-default sub-service-contact-us-btn">Case Studies</button>
                             </NavLink>
                             </div>
@@ -60,7 +60,7 @@ function FinancialServices ( ){
                         Superior customer experience and innovative delivery models have become the key differentiators to grow in this market. Ranosys delivers these differentiators 
                         with technical expertise and partnership with powerful platforms.
                         </p>
-                        <NavLink to="/contactus">
+                        <NavLink to="/contact-us">
                             <button type="button" className="btn btn-default industry-detail-section-contact-us-btn">Contact Us</button>
                         </NavLink>
                     </div>

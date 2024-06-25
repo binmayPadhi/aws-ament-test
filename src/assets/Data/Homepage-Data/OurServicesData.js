@@ -8,12 +8,12 @@ import UXDropdownIcon from "../../images/HomePage/our-services/ux-icon.png";
 
 const OurServicesData = [
   {
-    id: "aiml",
+    id: "ai-ml",
     serviceTitle: "AI & ML Services",
     serviceDesc:
       "Take advantage of the data-driven mindset that leverages cutting-edge technologies to develop world class solutions.",
     serviceIcon: AimlDropdownIcon,
-    link: "aiml",
+    link: "ai-ml",
   },
 
   {
@@ -23,7 +23,7 @@ const OurServicesData = [
       "Uncover complex patterns in your data to anticipate and prepare your business for the next business opportunity.",
     // serviceIMG : AdvancedAnalyticsIMG,
     serviceIcon: AdvancedAnalyticsDropdownIcon,
-    link: "advancedanalytics",
+    link: "advanced-analytics",
   },
   {
     id: "data-management",
@@ -32,7 +32,7 @@ const OurServicesData = [
       "Ensuring available, accurate, and accessible data. Transformation needs to take place in the way businesses consume data protection and cloud needs to be at the center of that evolution.",
     // serviceIMG : DataManagementIMG,
     serviceIcon: DataManagementDropdownIcon,
-    link: "datamanagement",
+    link: "data-management",
   },
   {
     id: "data-engineering",
@@ -50,7 +50,7 @@ const OurServicesData = [
       "Discover the most efficient way to deliver highly available services that can scale with your business growth and keep you ahead of competition.",
     // serviceIMG : PlatformEngineeringIMG,
     serviceIcon: cloud,
-    link: "cloudservices",
+    link: "cloud-services",
   },
   {
     id: "user-experience",
@@ -59,7 +59,7 @@ const OurServicesData = [
       "Deliver a complete digital experience like a glue binding together all the touch points creating omnichannel experiences using better practices.",
     // serviceIMG : UserExperienceIMG,
     serviceIcon: UXDropdownIcon,
-    link: "userexperinces",
+    link: "user-experience",
   },
   // {
   //     id : "cloud",

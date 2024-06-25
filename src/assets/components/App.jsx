@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Route, Routes, useLocation, Navigate } from "react-router-dom";
 import Homepage from "./Homepage";
 import ContactUs from "./ContactUs";
 import AboutUs from "./AboutUs";
@@ -58,29 +58,31 @@ function App() {
   return (
     <>
       {url != "/webinars/reshaping-the-retail-industry-through-AI" &&
-      url !=
+        url !=
         "/blogs/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
-      url != "/swiftinisghts-Webinar" ? (
+        url != "/swiftinisghts-Webinar" ? (
         <div>
           <Navbar />
         </div>
       ) : null}
       <div>
-     
-        <Routes>  
+
+        <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="/contactus" element={<ContactUs />} />
-          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/contactus" element={<Navigate to="/contact-us" replace />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/aboutus" element={<Navigate to="/about-us" replace />} />
+          <Route path="/about-us" element={<AboutUs />} />
           <Route
-              exact
-              path="/odc-and-iso-recognized-certification"
-              element={<Isoimg />}
-            />
-           <Route
-              exact
-              path="/generative-ai-solutions"
-              element={<GenAI/>}
-            />
+            exact
+            path="/odc-and-iso-recognized-certification"
+            element={<Isoimg />}
+          />
+          <Route
+            exact
+            path="/generative-ai-solutions"
+            element={<GenAI />}
+          />
           <Route path="/services" element={<OurServices />}>
             <Route path="" element={<Services />} />
             <Route path=":name" element={<AIservices />} />
@@ -89,22 +91,24 @@ function App() {
           </Route>
           <Route path="/careers" element={<CareerHome />}>
             <Route path="" element={<Careers />} />
-            <Route path=":name" element={<Apply />}/>
+            <Route path=":name" element={<Apply />} />
           </Route>
-          <Route path="/casestudies" element={<CaseStudies />} />
-          <Route path="/legalresources" element={<Legalterms />} />
+          <Route path="/casestudies" element={<Navigate to="/case-studies" replace />} />
+          <Route path="/case-studies" element={<CaseStudies />} />
+          <Route path="/legalresources" element={<Navigate to="/legal-resources" replace />} />
+          <Route path="/legal-resources" element={<Legalterms />} />
           <Route path="/products" element={<Product />} />
           <Route path="/press-releases" element={<Pressrelease />} >
-            <Route exact path="" element={<Pressreleasehome />}/>
+            <Route exact path="" element={<Pressreleasehome />} />
             <Route
               path="reshaping-the-retail-industry-through-AI"
               element={<Thankswebinarcopy />}
             />
-            <Route path="ament-digital-announces-launch-of-swift-insights" element={<Pressreleasetwo/>}/>
-            <Route path="telangana-state-awards-winner" element={<Telangana/>}/>
-            <Route path="amnet-digital-partners-with-intel" element={<Amnetpartner/>}/>
-           <Route path="amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023" element={<Pressdata />} />
-           </Route>
+            <Route path="ament-digital-announces-launch-of-swift-insights" element={<Pressreleasetwo />} />
+            <Route path="telangana-state-awards-winner" element={<Telangana />} />
+            <Route path="amnet-digital-partners-with-intel" element={<Amnetpartner />} />
+            <Route path="amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023" element={<Pressdata />} />
+          </Route>
           <Route path="/blogs" element={<Blog />}>
             <Route exact path="" element={<Insighthome />} />
             <Route
@@ -135,22 +139,22 @@ function App() {
               element={<ScaleAI />}
             />
             <Route
-            exact 
-            path="the-real-value-ai-can-bring-to-retail-industry"
-            element={<RealValue />}
+              exact
+              path="the-real-value-ai-can-bring-to-retail-industry"
+              element={<RealValue />}
             />
             <Route
-            exact 
-            path="medical-image-video-data-annotation-services"
-            element={ <ImageVideoAnnotation />}
+              exact
+              path="medical-image-video-data-annotation-services"
+              element={<ImageVideoAnnotation />}
             />
             <Route
-            exact
-            path="supply-chain-planning-decisions-with-actionable-demand-forecasting-insights"
-            element={ <Forecasting/>}/>
-              <Route exact path="10-ways-how-generative-ai-is-impacting-retail-organizations" 
-              element={<GenerativeAI/>}/>
-             <Route
+              exact
+              path="supply-chain-planning-decisions-with-actionable-demand-forecasting-insights"
+              element={<Forecasting />} />
+            <Route exact path="10-ways-how-generative-ai-is-impacting-retail-organizations"
+              element={<GenerativeAI />} />
+            <Route
               exact
               path="6-steps-to-include-in-your-data-migration-journey"
               element={<DataMigration />}
@@ -166,24 +170,28 @@ function App() {
             />
           </Route>
           <Route path="/webinars" element={<Webinar />}>
-          <Route
+            <Route
               path="reshaping-the-retail-industry-through-AI"
               element={<Thankswebinar />}
             />
           </Route>
-          <Route path="/cookiespolicy" element={<CookiesPolicy />} />
-          <Route path="/privacypolicy" element={<Privacypolicy />} />
-          <Route path="/termsandconditions" element={<Termsandconditions />} />
-          <Route path="/aiml" element={<RedirectAIML />} />
+          <Route path="/cookiespolicy" element={<Navigate to="/cookies-policy" replace />} />
+          <Route path="/cookies-policy" element={<CookiesPolicy />} />
+          <Route path="/privacypolicy" element={<Navigate to="/privacy-policy" replace/>}/>
+          <Route path="/privacy-policy" element={<Privacypolicy />} />
+          <Route path="/termsandconditions" element={<Navigate to="/terms-of-use" replace/>}/>
+          <Route path="/terms-of-use" element={<Termsandconditions />} />
+          <Route path="/aiml" element={<Navigate to="/ai-ml" replace/>}/>
+          <Route path="/ai-ml" element={<RedirectAIML />} />
           <Route path="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" element={<Redirectways />} />
           <Route path="/webinar-reshaping-the-retail-industry-through-AI" element={<RedirectWebinar />} />
           <Route path="/swiftinisghts-Webinar" element={<RedirectanotherWebinar />} />
         </Routes>
       </div>
       {url != "webinars/reshaping-the-retail-industry-through-AI" &&
-      url !=
+        url !=
         "blogs/webinar-thank-you-reshaping-the-retail-industry-through-AI" &&
-      url != "blogs/swiftinisghts-Webinar" ? (
+        url != "blogs/swiftinisghts-Webinar" ? (
         <div className="industry-section-row">
           <Footer />
         </div>

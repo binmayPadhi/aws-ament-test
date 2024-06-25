@@ -15,14 +15,14 @@ function Navbar(props) {
   const [color, setNavcolor] = useState("homepage");
   const changebackgroundcolor = () => {
     if (
-      url === "/legalresources" ||
+      url === "/legal-resources" ||
       url ===
         "/blogs/seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" ||
         url === 
         "/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" ||
-      url === "/cookiespolicy" ||
-      url === "/privacypolicy" ||
-      url === "/termsandconditions" ||
+      url === "/cookies-policy" ||
+      url === "/privacy-policy" ||
+      url === "/terms-of-use" ||
       url === "/blogs/AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations" ||
       url === "/blogs/What-is-AIOps-and-explore-how-it-is-revolutionizing-the-retail-industry-by-solving-complex-challenges" ||
       url === "/blogs/Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment" ||
@@ -310,7 +310,7 @@ function Navbar(props) {
                           </div>
                         </div>
                       
-                        <a  href={`/services/${`dataengineering`}/${`data-transformations`}`}
+                        <a  href={`/services/${`data-engineering`}/${`data-transformations`}`}
                          className="fs-13 fw-bold-500 text-underline text-black">
                           DIGITAL TRANSFORMATION
                         </a>
@@ -347,7 +347,7 @@ function Navbar(props) {
                           <p className="service-aiml mt-5">
                             <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/aiml`)
+                                  serviceTo(e, `/services/ai-ml`)
                                 }
                                 className="cr-pointer"
                               >
@@ -359,7 +359,7 @@ function Navbar(props) {
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`aiml`}/${`generative-ai`}`}
+                                href={`/services/${`ai-ml`}/${`generative-ai`}`}
                               >
                                 Generative AI
                               </a>
@@ -369,21 +369,21 @@ function Navbar(props) {
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`aiml`}/${`statistical-analysis`}`}
+                                href={`/services/${`ai-ml`}/${`statistical-analysis`}`}
                               >
                                 Statistical Analysis
                               </a>
                             </p>
                             <p className="sub-service-links">
                               <a
-                                href={`/services/${`aiml`}/${`visualizations`}`}
+                                href={`/services/${`ai-ml`}/${`visualizations`}`}
                               >
                                 Visualizations
                               </a>
                             </p>
                             <p className="sub-service-links dropdown-view-all-link mb-0">
                               <span
-                                onClick={(e) => serviceTo(e, `/services/aiml`)}
+                                onClick={(e) => serviceTo(e, `/services/ai-ml`)}
                               >
                                 {`See more >`}
                               </span>
@@ -392,7 +392,7 @@ function Navbar(props) {
                             <p className="service-aiml mt-5">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/advancedanalytics`)
+                                  serviceTo(e, `/services/advanced-analytics`)
                                 }
                                 className="cr-pointer"
                               >
@@ -404,21 +404,21 @@ function Navbar(props) {
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`advancedanalytics`}/${`complex-event-processing`}`}
+                                href={`/services/${`advanced-analytics`}/${`complex-event-processing`}`}
                               >
                                 Complex Event Processing
                               </a>
                             </p>
                             <p className="sub-service-links">
                               <a
-                                href={`/services/${`advancedanalytics`}/${`deep-learning`}`}
+                                href={`/services/${`advanced-analytics`}/${`deep-learning`}`}
                               >
                                 Deep Learning
                               </a>
                             </p>
                             <p className="sub-service-links">
                               <a
-                                href={`/services/${`advancedanalytics`}/${`graph-analysis`}`}
+                                href={`/services/${`advanced-analytics`}/${`graph-analysis`}`}
                               >
                                 Graph Analysis
                               </a>
@@ -426,7 +426,7 @@ function Navbar(props) {
                             <p className="sub-service-links dropdown-view-all-link mb-0">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/advancedanalytics`)
+                                  serviceTo(e, `/services/advanced-analytics`)
                                 }
                               >
                                 {`See more >`}
@@ -435,7 +435,7 @@ function Navbar(props) {
                             <p className="service-aiml mt-5">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/strategyconsulting`)
+                                  serviceTo(e, `/services/strategy-consulting`)
                                 }
                                 className="cr-pointer"
                               >
@@ -447,21 +447,21 @@ function Navbar(props) {
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`strategyconsulting`}/${`data-strategy`}`}
+                                href={`/services/${`strategy-consulting`}/${`data-strategy`}`}
                               >
                                 Data Strategy
                               </a>
                             </p>
                             <p className="sub-service-links">
                               <a
-                                href={`/services/${`strategyconsulting`}/${`ai-strategy`}`}
+                                href={`/services/${`strategy-consulting`}/${`ai-strategy`}`}
                               >
                                 AI Strategy
                               </a>
                             </p>
                             <p className="sub-service-links">
                               <a
-                                href={`/services/${`strategyconsulting`}/${`application-development`}`}
+                                href={`/services/${`strategy-consulting`}/${`application-development`}`}
                               >
                                 Application Development
                               </a>
@@ -469,7 +469,7 @@ function Navbar(props) {
                             <p className="sub-service-links dropdown-view-all-link mb-0">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/strategyconsulting`)
+                                  serviceTo(e, `/services/strategy-consulting`)
                                 }
                               >
                                 {`See more >`}
@@ -484,7 +484,7 @@ function Navbar(props) {
                             <p className="service-aiml mt-5">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/dataannotation`)
+                                  serviceTo(e, `/services/data-annotation`)
                                 }
                                 className="cr-pointer"
                               >
@@ -496,21 +496,21 @@ function Navbar(props) {
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`dataannotation`}/${`image-annotation`}`}
+                                href={`/services/${`data-annotation`}/${`image-annotation`}`}
                               >
                                 Image Annotation
                               </a>
                             </p>
                             <p className="sub-service-links">
                               <a
-                                href={`/services/${`dataannotation`}/${`video-annotation`}`}
+                                href={`/services/${`data-annotation`}/${`video-annotation`}`}
                               >
                                 Video Annotation
                               </a>
                             </p>
                             <p className="sub-service-links">
                               <a
-                                href={`/services/${`dataannotation`}/${`audio-annotation`}`}
+                                href={`/services/${`data-annotation`}/${`audio-annotation`}`}
                               >
                                 Audio Annotation
                               </a>
@@ -518,7 +518,7 @@ function Navbar(props) {
                             <p className="sub-service-links dropdown-view-all-link mb-0">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/dataannotation`)
+                                  serviceTo(e, `/services/data-annotation`)
                                 }
                               >
                                 {`See more >`}
@@ -528,7 +528,7 @@ function Navbar(props) {
                             <p className="service-aiml mt-5">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/dataengineering`)
+                                  serviceTo(e, `/services/data-engineering`)
                                 }
                                 className="cr-pointer"
                               >
@@ -540,21 +540,21 @@ function Navbar(props) {
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`dataengineering`}/${`data-pipelines`}`}
+                                href={`/services/${`data-engineering`}/${`data-pipelines`}`}
                               >
                                 Data Pipelines
                               </a>
                             </p>
                             <p className="sub-service-links">
                               <a
-                                href={`/services/${`dataengineering`}/${`data-transformations`}`}
+                                href={`/services/${`data-engineering`}/${`data-transformations`}`}
                               >
                                 Data Transformations
                               </a>
                             </p>
                             <p className="sub-service-links">
                               <a
-                                href={`/services/${`dataengineering`}/${`data-cleansing`}`}
+                                href={`/services/${`data-engineering`}/${`data-cleansing`}`}
                               >
                                 Data Cleansing
                               </a>
@@ -562,7 +562,7 @@ function Navbar(props) {
                             <p className="sub-service-links dropdown-view-all-link mb-0">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/dataengineering`)
+                                  serviceTo(e, `/services/data-engineering`)
                                 }
                               >
                                 {`See more >`}
@@ -572,7 +572,7 @@ function Navbar(props) {
                             <p className="service-aiml mt-5">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/datamanagement`)
+                                  serviceTo(e, `/services/data-management`)
                                 }
                                 className="cr-pointer"
                               >
@@ -584,21 +584,21 @@ function Navbar(props) {
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`datamanagement`}/${`data-architecture-management`}`}
+                                href={`/services/${`data-management`}/${`data-architecture-management`}`}
                               >
                                 Data Architecture Management
                               </a>
                             </p>
                             <p className="sub-service-links">
                               <a
-                                href={`/services/${`datamanagement`}/${`data-development`}`}
+                                href={`/services/${`data-management`}/${`data-development`}`}
                               >
                                 Data Development
                               </a>
                             </p>
                             <p className="sub-service-links">
                               <a
-                                href={`/services/${`datamanagement`}/${`data-governance`}`}
+                                href={`/services/${`data-management`}/${`data-governance`}`}
                               >
                                 Data Governance
                               </a>
@@ -606,7 +606,7 @@ function Navbar(props) {
                             <p className="sub-service-links dropdown-view-all-link mb-0">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/datamanagement`)
+                                  serviceTo(e, `/services/data-management`)
                                 }
                               >
                                 {`See more >`}
@@ -617,7 +617,7 @@ function Navbar(props) {
                             <p className="service-aiml mt-5">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/userexperinces`)
+                                  serviceTo(e, `/services/user-experience`)
                                 }
                                 className="cr-pointer"
                               >
@@ -629,21 +629,21 @@ function Navbar(props) {
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`userexperinces`}/${`design-thinking`}`}
+                                href={`/services/${`user-experience`}/${`design-thinking`}`}
                               >
                                 Design Thinking
                               </a>
                             </p>
                             <p className="sub-service-links">
                               <a
-                                href={`/services/${`userexperinces`}/${`user-research-and-analysis`}`}
+                                href={`/services/${`user-experience`}/${`user-research-and-analysis`}`}
                               >
                                 User Research
                               </a>
                             </p>
                             <p className="sub-service-links">
                               <a
-                                href={`/services/${`userexperinces`}/${`experience-and-interaction-design`}`}
+                                href={`/services/${`user-experience`}/${`experience-and-interaction-design`}`}
                               >
                                 Interaction Design
                               </a>
@@ -651,7 +651,7 @@ function Navbar(props) {
                             <p className="sub-service-links dropdown-view-all-link ">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/userexperinces`)
+                                  serviceTo(e, `/services/user-experience`)
                                 }
                               >
                                 {`See more >`}
@@ -661,7 +661,7 @@ function Navbar(props) {
                             <p className="service-aiml mt-5">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/cloudservices`)
+                                  serviceTo(e, `/services/cloud-services`)
                                 }
                                 className="cr-pointer"
                               >
@@ -673,21 +673,21 @@ function Navbar(props) {
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`cloudservices`}/${`cloud-advisory-services`}`}
+                                href={`/services/${`cloud-services`}/${`cloud-advisory-services`}`}
                               >
                                 Cloud Advisory Services
                               </a>
                             </p>
                             <p className="sub-service-links">
                               <a
-                                href={`/services/${`cloudservices`}/${`cloud-migration-services`}`}
+                                href={`/services/${`cloud-services`}/${`cloud-migration-services`}`}
                               >
                                 Cloud Migration Services
                               </a>
                             </p>
                             <p className="sub-service-links">
                               <a
-                                href={`/services/${`cloudservices`}/${`cloud-integration`}`}
+                                href={`/services/${`cloud-services`}/${`cloud-integration`}`}
                               >
                                 Cloud Integration
                               </a>
@@ -695,7 +695,7 @@ function Navbar(props) {
                             <p className="sub-service-links dropdown-view-all-link ">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/cloudservices`)
+                                  serviceTo(e, `/services/cloud-services`)
                                 }
                               >
                                 {`See more >`}
@@ -705,7 +705,7 @@ function Navbar(props) {
                             <p className="service-aiml mt-5">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/qualityassurance`)
+                                  serviceTo(e, `/services/quality-assurance`)
                                 }
                                 className="cr-pointer"
                               >
@@ -717,21 +717,21 @@ function Navbar(props) {
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`qualityassurance`}/${`functional-testing`}`}
+                                href={`/services/${`quality-assurance`}/${`functional-testing`}`}
                               >
                                 Functional Testing
                               </a>
                             </p>
                             <p className="sub-service-links">
                               <a
-                                href={`/services/${`qualityassurance`}/${`compatibility-testing`}`}
+                                href={`/services/${`quality-assurance`}/${`compatibility-testing`}`}
                               >
                                 Compatibility Testing
                               </a>
                             </p>
                             <p className="sub-service-links">
                               <a
-                                href={`/services/${`qualityassurance`}/${`performance-testing`}`}
+                                href={`/services/${`quality-assurance`}/${`performance-testing`}`}
                               >
                                 Performance Testing
                               </a>
@@ -739,7 +739,7 @@ function Navbar(props) {
                             <p className="sub-service-links dropdown-view-all-link ">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/qualityassurance`)
+                                  serviceTo(e, `/services/quality-assurance`)
                                 }
                               >
                                 {`See more >`}
@@ -781,7 +781,7 @@ function Navbar(props) {
                   >
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/services/aiml`}
+                      to={`/services/ai-ml`}
                       onClick={closeNavpopup}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
                     >
@@ -789,21 +789,21 @@ function Navbar(props) {
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/services/datamanagement`}
+                      to={`/services/data-management`}
                       onClick={closeNavpopup}
                     >
                       Data Management
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/services/advancedanalytics`}
+                      to={`/services/advanced-analytics`}
                       onClick={closeNavpopup}
                     >
                       Advanced Analytics
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/services/dataengineering`}
+                      to={`/services/data-engineering`}
                       onClick={closeNavpopup}
                     >
                       Data Engineering
@@ -817,35 +817,35 @@ function Navbar(props) {
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/services/userexperinces`}
+                      to={`/services/user-experience`}
                       onClick={closeNavpopup}
                     >
                       User Experience
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/services/cloudservices`}
+                      to={`/services/cloud-services`}
                       onClick={closeNavpopup}
                     >
                       Cloud
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/services/qualityassurance`}
+                      to={`/services/quality-assurance`}
                       onClick={closeNavpopup}
                     >
                       Quality Assurance
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/services/strategyconsulting`}
+                      to={`/services/strategy-consulting`}
                       onClick={closeNavpopup}
                     >
                       Consulting
                     </NavLink>
                     <NavLink
                       className="dropdown-item sub-service-dropdown-item"
-                      to={`/services/dataannotation`}
+                      to={`/services/data-annotation`}
                       onClick={closeNavpopup}
                     >
                       Data Annotation
@@ -993,8 +993,8 @@ function Navbar(props) {
 
                 <div className="service-dropdown-menu " style={navStyle}>
                   <NavLink
-                    to="/casestudies"
-                    onClick={() => (window.location.href = "/casestudies")}
+                    to="/case-studies"
+                    onClick={() => (window.location.href = "/case-studies")}
                     style={navStyle}
                     className={color === "app" ? "text-black" : "text-white"}
                   >
@@ -1013,7 +1013,7 @@ function Navbar(props) {
                     aria-expanded="false"
                   >
                     <NavLink
-                      to="/casestudies"
+                      to="/case-studies"
                       style={navStyle}
                       onClick={closeNavpopup}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
@@ -1255,7 +1255,7 @@ function Navbar(props) {
                 </div>
 
                 <NavLink
-                  to="/contactus"
+                  to="/contact-us"
                   className="contactus-button mb-sm-3"
                   onClick={closeNavpopup}
                   activeStyle={{ color: "black", textDecoration: "none" }}

@@ -195,7 +195,7 @@ const Aboutdata = {
     {
       id: 31,
       name: "AI/ML",
-      link: "aiml",
+      link: "ai-ml",
     },
     {
       id: 32,

@@ -194,7 +194,7 @@ const GenAI = () => {
                                             <p>
                                                 <a
                                                     className="anchor_styles"
-                                                    href={`./casestudies#${list.id}`}
+                                                    href={`./case-studies#${list.id}`}
                                                 >{`Learn More ->`}</a>
                                             </p>
                                         </div>

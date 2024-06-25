@@ -172,7 +172,7 @@ import Genicon from "../../images/services-images/Strategy_Consulting/Genicon.pn
 const subservices = [
   {
     id: 1,
-    serviceName: "aiml",
+    serviceName: "ai-ml",
     serviceImgaetitle: "AI & ML Services",
     serviceImg: aiml,
     serviceSubheaading: "AI & ML Services for Business",
@@ -406,7 +406,7 @@ const subservices = [
   },
   {
     id: 2,
-    serviceName: "dataengineering",
+    serviceName: "data-engineering",
     serviceImgaetitle: "Data Engineering",
     serviceImg: de,
     serviceSubheaading: "Data Engineering for Business",
@@ -494,7 +494,7 @@ const subservices = [
   },
   {
     id: 3,
-    serviceName: "dataannotation",
+    serviceName: "data-annotation",
     serviceImgaetitle: "Data Annotation",
     serviceImg: da,
     serviceSubheaading: "Data Annotation for Business",
@@ -546,7 +546,7 @@ const subservices = [
   },
   {
     id: 4,
-    serviceName: "datamanagement",
+    serviceName: "data-management",
     serviceImgaetitle: "Data Management",
     serviceImg: dm,
     serviceSubheaading: "Data Management for Business",
@@ -652,7 +652,7 @@ const subservices = [
   },
   {
     id: 5,
-    serviceName: "cloudservices",
+    serviceName: "cloud-services",
     serviceImgaetitle: "Cloud Services",
     serviceImg: csa,
     serviceSubheaading: "Cloud Services for Business",
@@ -774,7 +774,7 @@ const subservices = [
   },
   {
     id: 7,
-    serviceName: "qualityassurance",
+    serviceName: "quality-assurance",
     serviceImgaetitle: "Quality Assurance",
     serviceImg: qaa,
     serviceSubheaading: "Quality Assurance for Business",
@@ -844,7 +844,7 @@ const subservices = [
   },
   {
     id: 8,
-    serviceName: "advancedanalytics",
+    serviceName: "advanced-analytics",
     serviceImgaetitle: "Advanced Analytics",
     serviceImg: aa,
     serviceSubheaading: "Advanced Analytics for Business",
@@ -941,7 +941,7 @@ const subservices = [
   },
   {
     id: 9,
-    serviceName: "userexperinces",
+    serviceName: "user-experience",
     serviceImgaetitle: "User Experience",
     serviceImg: ue,
     serviceSubheaading: "User Experience for Business",
@@ -1002,7 +1002,7 @@ const subservices = [
   },
   {
     id: 10,
-    serviceName: "strategyconsulting",
+    serviceName: "strategy-consulting",
     serviceImgaetitle: "Strategy & Consulting",
     serviceImg: scc,
     serviceSubheaading: "Strategy & Consulting for Business",
