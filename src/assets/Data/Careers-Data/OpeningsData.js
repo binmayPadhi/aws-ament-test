@@ -16,14 +16,15 @@ const Openings = [
     //   button: "Apply Now",
     //   sublink: "/careers/applicationengineering",
     // },
-    // {
-    //   id: 3,
-    //   heading: "MID-SENIOR LEVEL",
-    //   role: "Data Engineer",
-    //   location: "Hyderabad",
-    //   button: "Apply Now",
-    //   sublink: "/careers/dataengineer",
-    // },
+    {
+      id: 4,
+      heading: "MID-SENIOR LEVEL",
+      role: "Data Analyst",
+      location: "Hyderabad",
+      button: "Apply Now",
+      link:"/careers",
+      sublink: "data-analyst",
+    },
     {
       id: 13,
       heading: "SENIOR LEVEL",
@@ -141,14 +142,14 @@ const Openings = [
       button: "Apply Now",
       sublink: "lead-full-stack",
     },
-    {
-      id: 13,
-      heading: "SENIOR LEVEL",
-      role: "React Js Developer",
-      location: "Hyderabad",
-      button: "Apply Now",
-      sublink: "react-js-developer",
-    },
+    // {
+    //   id: 13,
+    //   heading: "SENIOR LEVEL",
+    //   role: "React Js Developer",
+    //   location: "Hyderabad",
+    //   button: "Apply Now",
+    //   sublink: "react-js-developer",
+    // },
   
     {
       id: 13,

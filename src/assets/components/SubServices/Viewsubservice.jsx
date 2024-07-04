@@ -16,10 +16,10 @@ const Viewsubservice = () => {
   const [selectedServicesobj, setSelectedserviceobj] = useState({});
   const history = useNavigate();
   useEffect(() => {
+    // console.log(params.service,"welcom");
     services.map((res) => {
-      console.log(res.serviceName);
+  
       if (res.serviceName === params.name) {
-
         setServiceData(res);
         let x = Object.values(res.sub);
         setList(x[0]);
@@ -49,6 +49,12 @@ const Viewsubservice = () => {
         <title>{`${serviceData.metaname}`} </title>
         <meta name="description" content={`${serviceData.metadescription}`} />
         <meta name="keywords" content="" />
+        {/* <link rel="canonical" href="https://www.amnetdigital.com/about-us" /> */}
+        <meta property="og:title" content={`${serviceData.metaname}`}  />
+        <meta property="og:description" content={`${serviceData.metadescription}`} />
+        {/* <meta property="og:url" content="https://www.amnetdigital.com/about-us" /> */}
+        <meta property="og:type" content="website" />
+        {/* <meta property="og:image" content="../images/About-Us-Page/worker-reading-news-with-tablet.png" /> */}
       </Helmet>
       <div
         className="sub-service-intro position-relative"

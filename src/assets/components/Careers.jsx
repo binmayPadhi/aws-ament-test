@@ -24,6 +24,13 @@ function TestCareers() {
 Search jobs best suited for you. Apply today!
 " />
         <meta name="keywords" content="Amnet Digital careers." />
+        <link rel="canonical" href="https://www.amnetdigital.com/careers" />
+        <meta property="og:title" content="Data, Analytics & AI solutions | Amnet Digital Careers" />
+        <meta property="og:description" content="Amnet Digital opens doors for  professional growth, where your skills are developed and tested in exciting ways. 
+Search jobs best suited for you. Apply today!" />
+        <meta property="og:url" content="https://www.amnetdigital.com/careers" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="../images/careers-page/Careerhome.png" />
       </Helmet>
       <div
         className="sub-service-intro container-fluid"

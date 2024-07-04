@@ -14,6 +14,12 @@ function TestContactUs() {
         <title>Contact Us | Amnet Digital </title>
         <meta name="description" content="Like what you’ve seen? Get in touch to learn more." />
         <meta name="keywords" content="" />
+        <link rel="canonical" href="https://www.amnetdigital.com/contact-us" />
+        <meta property="og:title" content="Contact Us | Amnet Digital" />
+        <meta property="og:description" content="Like what you’ve seen? Get in touch to learn more." />
+        <meta property="og:url" content="https://www.amnetdigital.com/contact-us" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="../images/Contact-Us-Page/contactusbanner.svg" />
       </Helmet>
       <div
         className="sub-service-intro position-realtive"

@@ -50,6 +50,7 @@ import Pressreleasetwo from "./Resources/Pressreleasepages/Pressreleasetwo";
 import Telangana from "./Resources/Pressreleasepages/Telangana";
 import Thankswebinarcopy from "./Resources/Pressreleasepages/Thankswebinarcopy";
 import Amnetpartner from "./Resources/Pressreleasepages/Amnetpartner";
+import Sitemap from "./Sitemap/sitemap";
 
 
 function App() {
@@ -93,8 +94,10 @@ function App() {
             <Route path="" element={<Careers />} />
             <Route path=":name" element={<Apply />} />
           </Route>
+          <Route path="/xml" element={<Sitemap />} />
           <Route path="/casestudies" element={<Navigate to="/case-studies" replace />} />
           <Route path="/case-studies" element={<CaseStudies />} />
+          <Route path="/site-map" element={<Sitemap />} />
           <Route path="/legalresources" element={<Navigate to="/legal-resources" replace />} />
           <Route path="/legal-resources" element={<Legalterms />} />
           <Route path="/products" element={<Product />} />
@@ -177,15 +180,17 @@ function App() {
           </Route>
           <Route path="/cookiespolicy" element={<Navigate to="/cookies-policy" replace />} />
           <Route path="/cookies-policy" element={<CookiesPolicy />} />
-          <Route path="/privacypolicy" element={<Navigate to="/privacy-policy" replace/>}/>
+          <Route path="/privacypolicy" element={<Navigate to="/privacy-policy" replace/>} />
           <Route path="/privacy-policy" element={<Privacypolicy />} />
-          <Route path="/termsandconditions" element={<Navigate to="/terms-of-use" replace/>}/>
+          <Route path="/termsandconditions" element={<Navigate to="/terms-of-use" replace/>} />
           <Route path="/terms-of-use" element={<Termsandconditions />} />
-          <Route path="/aiml" element={<Navigate to="/ai-ml" replace/>}/>
+          <Route path="/aiml" element={<Navigate to="/ai-ml" replace/>} />
           <Route path="/ai-ml" element={<RedirectAIML />} />
+          {/* <Route path="/services/:name" element={<RedirectAIML />} /> */}
           <Route path="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" element={<Redirectways />} />
           <Route path="/webinar-reshaping-the-retail-industry-through-AI" element={<RedirectWebinar />} />
           <Route path="/swiftinisghts-Webinar" element={<RedirectanotherWebinar />} />
+          {/* <Route path="*" element={<Termsandconditions />}/> */}
         </Routes>
       </div>
       {url != "webinars/reshaping-the-retail-industry-through-AI" &&

@@ -33,7 +33,8 @@ function Navbar(props) {
       url === "/blogs/supply-chain-planning-decisions-with-actionable-demand-forecasting-insights" ||
       url === "/blogs/10-ways-how-generative-ai-is-impacting-retail-organizations" ||
       url === "/products" ||
-      url === "/blogs/5-ways-AI-can-enhance-and-optimize-your-inventory-management"
+      url === "/blogs/5-ways-AI-can-enhance-and-optimize-your-inventory-management" ||
+      url === "/site-map"
     ) {
       setNavcolor("app");
     } else {

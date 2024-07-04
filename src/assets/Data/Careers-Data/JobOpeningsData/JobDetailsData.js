@@ -178,7 +178,7 @@ const jobDetailsData = [
         toBringLists: [
             {
                 id : 162,
-                list : "5 to 6 years of experience in an analytical role with a heavy focus on querying data, analyzing and clearly presenting analyses to stakeholders across the organization."
+                list : "5 to 10 years of experience in an analytical role with a heavy focus on querying data, analyzing and clearly presenting analyses to stakeholders across the organization."
             },
             {
                 id : 163,
