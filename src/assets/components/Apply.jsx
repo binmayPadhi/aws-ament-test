@@ -149,13 +149,13 @@ const Apply = () => {
                 <div className="bottom-img w-100 bottom-0" style={{ top: "50%" }}>
                     <div className="row">
                         <div className="col-lg-1 col-md-1 col-sm-12"></div>
-                        <div className="col-lg-6 col-md-6 col-sm-12">
+                        <div className="col-lg-8 col-md-8 col-sm-12">
                             <p className="fs-50 fw-bold-700 text-white pl-4">
                                 {res.title}
 
                             </p>
                         </div>
-                        <div className="col-lg-5 col-md-5 col-sm-12"></div>
+                        <div className="col-lg-3 col-md-3 col-sm-12"></div>
                     </div>
                 </div>
             </div>
@@ -251,7 +251,7 @@ const Apply = () => {
                                     </span>
                                 </div>
                             </div>
-                            <div className="w-90">
+                            <div className="w-100">
                                 <h1 className="fs-18 fw-bold-600">About the Role</h1>
                                 <p className="fs-16 fw-bold-400">
                                     {res.aboutdescription}
