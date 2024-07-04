@@ -15,6 +15,13 @@ function TestCaseStudies() {
         <meta name="description" content="Case studies illustrating how Amnet Digital assists clients globally, across industries, in overcoming challenges and 
           creating long-term value. Learn more." />
       <meta name="keywords" content="Amnet Digital cases studies." />
+      <link rel="canonical" href="https://www.amnetdigital.com/case-studies" />
+        <meta property="og:title" content="Business & Client | Case Studies | Amnet Digital" />
+        <meta property="og:description" content="Case studies illustrating how Amnet Digital assists clients globally, across industries, in overcoming challenges and 
+          creating long-term value. Learn more." />
+        <meta property="og:url" content="https://www.amnetdigital.com/case-studies" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="../images/Case-Studies-Page/casestudies.png" />
       </Helmet>
       <div
         className="sub-service-intro position-realtive "

@@ -407,6 +407,7 @@ const subservices = [
   {
     id: 2,
     serviceName: "data-engineering",
+    urlname: "dataengineering",
     serviceImgaetitle: "Data Engineering",
     serviceImg: de,
     serviceSubheaading: "Data Engineering for Business",

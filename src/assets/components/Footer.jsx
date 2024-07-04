@@ -51,13 +51,19 @@ function Footer() {
           id: "13",
           name: "Our Partners",
           link: "",
-          target: "_balnk",
+          target: "",
         },
         {
           id: "14",
           name: "Leadership Team",
-          link: "",
+          link: "/site-map",
           target: "_balnk",
+        },
+        {
+          id: "16",
+          name: "Sitemap",
+          link: "/site-map",
+          target: "",
         },
         {
           id: "15",

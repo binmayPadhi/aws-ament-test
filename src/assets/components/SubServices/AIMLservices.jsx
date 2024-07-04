@@ -12,6 +12,7 @@ const AIservices = () => {
   const [listlabel, setList] = useState([]);
   const [selectedServices, setSelectedservice] = useState("");
   const [selectedServicesobj, setSelectedserviceobj] = useState({});
+  const [serviceUrl, setServiceUrl] = useState("");
   
   useEffect(() => {
     services.map((res) => {
@@ -20,10 +21,19 @@ const AIservices = () => {
         let x = Object.values(res.sub);
         setList(x[0]);
         setSelectedservice(res.sub.data[0]["name"]);
-        setSelectedserviceobj(res.sub.data[0]);
+        setSelectedserviceobj(res.sub.data[0]);   
+        const url =`https://www.amnetdigital.com/services/${res.serviceName}/${res.sub.data[0].sublink}`;
+        setServiceUrl(url);
+        // console.log(url,"data")  
+      }else{
+        const url =`https://www.amnetdigital.com/services/${res.serviceName}`;
+        setServiceUrl(url);
+        // console.log(url,"data-annotation")  
       }
+
     });
   }, [params.name]);
+
 
   const fetchService = (e, obj) => {
     e.preventDefault();
@@ -38,7 +48,13 @@ const AIservices = () => {
         <meta charSet="utf-8" />
         <title>{`${serviceData.metaname}`} </title>   
         <meta name="description" content={`${serviceData.metadescription}`} />
-        <meta name="keywords" content="" />
+        <meta name="keywords" content={`${serviceData.keywords}`}  />
+           <link rel="canonical" href={setServiceUrl} />
+           <meta property="og:title" content={`${serviceData.metaname}`}  />
+        <meta property="og:description" content={`${serviceData.metadescription}`} />
+        <meta property="og:url" content={setServiceUrl}/>
+        <meta property="og:type" content="website" />
+        {/* <meta property="og:image" content="../images/About-Us-Page/worker-reading-news-with-tablet.png" /> */}
       </Helmet>
       <div
         className="sub-service-intro position-relative"

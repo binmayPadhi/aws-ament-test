@@ -29,16 +29,23 @@ function TestAboutUs() {
     history(`/services`);
   };
 
-  return (  
+  return (
     <>
-    <Helmet>
+      <Helmet>
         <meta charSet="utf-8" />
         <title>Your Partner in making Data-Driven Decisions | Amnet Digital</title>
         <meta name="description" content="Amnet Digital is a Data, Analytics & AI solutions company that helps businesses make 
             data-driven decisions." />
-            <meta name="keywords" content="Data, Analytics, AI" />
+        <meta name="keywords" content="Data, Analytics, AI" />
+        <link rel="canonical" href="https://www.amnetdigital.com/about-us" />
+        <meta property="og:title" content="Your Partner in making Data-Driven Decisions | Amnet Digital" />
+        <meta property="og:description" content="Amnet Digital is a Data, Analytics & AI solutions company that helps businesses make 
+            data-driven decisions." />
+        <meta property="og:url" content="https://www.amnetdigital.com/about-us" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="../images/About-Us-Page/worker-reading-news-with-tablet.png" />
       </Helmet>
-    
+
       <div
         className="sub-service-intro position-realtive"
         style={{
@@ -148,7 +155,7 @@ function TestAboutUs() {
               <div className="w-90 mx-auto">
                 <p className="fw-bold-500 fs-32 text-white">CEO Message</p>
                 <p className="text-white fs-16 fw-bold-700 mt-4">
-                Our purpose is to make a  positive business impact that matters.
+                  Our purpose is to make a  positive business impact that matters.
                 </p>
                 <p className="mt-2 text-white fs-16 fw-bold-400 mt-5">
                   Our only goal is to deliver real business value to all our stakeholders—customers, associates, and partners. We empower organizations with our deep tech (Data, Analytics & AI) and industry experience in solving their biggest technology challenges and contributing toward business growth consistently.
@@ -184,7 +191,7 @@ function TestAboutUs() {
                 </p>
                 <p className="d-flex w-100 justify-content-between mt-15px">
                   <span className="text-white fs-16 fw-bold-700 mt-4">
-                  Our purpose is to make a  positive business impact that matters.
+                    Our purpose is to make a  positive business impact that matters.
                   </span>
                   <span className="text-white fs-16 fw-bold-700">
                     <p className="text-white fs-24 fw-bold-700 mb-0">
@@ -237,7 +244,7 @@ function TestAboutUs() {
         <Letsconnect />
       </div>
 
-     
+
 
     </>
   );

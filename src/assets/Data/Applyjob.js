@@ -1018,6 +1018,75 @@ const Jobdescription = [
     //     ]
     // },
     {
+        applyfor: "Data Analyst",
+        title: "Data Analyst",
+        level:"mid-senior",
+        experience:"3 to 10 years",
+        location:"Hyderabad, India",
+        aboutdescription: "We are looking for a detail-oriented and collaborative Data Analyst to join our business analytics team.  The ideal candidate should have experience working with large data sets and understand how to manipulate and analyze  them using various statistical and mathematical methods. Must have prior experience with BI and visualization tools,   have intimate knowledge of Relational Database and Data Warehousing technologies, and have an innate curiosity towards  finding ways to create value for customers from data. The Data Analyst will work alongside product management,  product development, data engineers, and data scientists.",
+        unorderedlist: [
+                {
+                    content: "Work with a variety of data sources - extracting knowledge and actionable information from massive datasets towards solving business problems."
+                },
+                {
+                   content: "Own the design of advanced analytics dashboards and KPI reports in our BI tool starting from requirements gathering across sales, product and senior leadership teams to the delivery of final, polished reports in production."
+                },
+                {
+                    content: "Work closely with the Data Science and Data Engineering team to deliver actionable insights to the organization."
+                },
+                {
+                    content: "Strong ability to troubleshoot and resolve data-related bugs in a timely manner."
+                },
+                {
+                    content: "Ability to build tabular and/or visualization reports as needed."
+                },
+                {
+                    content: "Build and flesh out data models in our Data Warehouse for use in regular and/or automated reporting and analysis."
+                },
+                {
+                    content: "Evaluate operations for inefficiencies and identify areas where you can create, automate, and develop tools (SQL-based or otherwise)."
+                },
+                {
+                    content: "Continuously strive for a deeper understanding of our business drivers."
+                },
+                {
+                    content: "Grow to serve as the team’s subject matter expert for advanced analytics and report design, offering insights and suggestions on what potential problems the team should be solving."
+                }
+        ],
+        unorderedlist1: [
+                {
+                    content: "5 to 10 years of experience in an analytical role with a heavy focus on querying data, analyzing and clearly presenting analyses to stakeholders across the organization."
+                },
+                {
+                    content: "Ability to translate between technical metrics and business KPIs and act as a bridge between technical and non-technical internal stakeholders."
+                },
+                {
+                    content: "A love for insights, innate curiosity, and a deep desire to find ways to create value."
+                },
+                {
+                    content: "Expertise with SQL and Excel (experience working with Python, HiveQL will be a plus)."
+                },
+                {
+                    content: "Familiarity with transactional and data warehouse environments."
+                },
+                {
+                    content: "Experience designing reports, dashboards, and visualizations with a BI product."
+                },
+                {
+                    content: "Previous experience on a data team in an agile environment preferred."
+                },
+                {
+                    content: "A flexible, collaborative teammate with the ability to deliver both high level explanations of complex problems while also able to deep dive into complex problems."
+                },
+                {
+                    content: "Strong communication skills, both verbal and written."
+                },
+                {
+                    content: "The business sense to understand why you are pulling the data and whether it seems accurate...not just pulling it."
+                }
+        ],
+    },
+    {
         applyfor: "Java Full Stack",
         title: "Java Full Stack",
         level:"senior",
