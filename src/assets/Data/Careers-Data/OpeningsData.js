@@ -72,7 +72,7 @@ const Openings = [
     },
     {
       id: 4,
-      heading: "MID-SENIOR LEVEL",
+      heading: "SENIOR LEVEL",
       role: "MEAN Stack Developer Lead",
       location: "Hyderabad",
       button: "Apply Now",

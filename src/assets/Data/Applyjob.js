@@ -80,7 +80,7 @@ const Jobdescription = [
     {
         applyfor: "Data Science",
         title: "Data Science",
-        level:"mid-senior",
+        level:"Mid-Senior",
         experience:"5 to 8 years",
         location:"Hyderabad, India",
         aboutdescription: "A Data Scientists roles and responsibilities include  extracting data from multiple sources, using machine learning   tools to organize data, process, clean, and validate the data, analyze the data for information and patterns, develop prediction systems, present the data in a clear manner, and propose solutions.",
@@ -418,7 +418,7 @@ const Jobdescription = [
     {
         applyfor: "MEAN Stack Developer Lead",
         title: "MEAN Stack Developer - Lead",
-        level:"mid-senior level",
+        level:"Senior level",
         experience:"8 - 12 years",
         location:"Hyderabad, India",
         aboutdescription: "We are seeking a skilled Full Stack Developer to join our team. As a Full Stack Developer, you will be responsible for designing and developing end-to-end web applications using the MEAN stack (MongoDB, Express.js, Angular, Node.js). You will play a key role in implementing features and functionality based on requirements, ensuring the seamless integration of front-end and back-end components.",
@@ -475,7 +475,7 @@ const Jobdescription = [
                 content: "Familiarity with Express.jsfor building web applications and APIs.",
             },
             {
-                content: "Understanding of core web technologiessuch as HTML, CSS, and JavaScript.",
+                content: "Understanding of core web technologies such as HTML, CSS, and JavaScript.",
             },
             {
                 content: "Strong communication skills and the ability to work collaboratively in a team  environment",
@@ -485,7 +485,7 @@ const Jobdescription = [
     {
         applyfor: "Java Full Stack Developer",
         title: "Java Full Stack Developer",
-        level:"mid-senior level",
+        level:"Mid-Senior level",
         experience:"6 - 8 years",
         location:"Hyderabad, India",
         aboutdescription: "We are looking for a Java Full Stack Developer to join our dynamic team. You will be responsible for both front-end and back-end development, including creating Java-based applications and supporting frameworks.",
@@ -570,7 +570,7 @@ const Jobdescription = [
     {
         applyfor: "Product Owner - AI/Analytics",
         title: "Product Owner - AI/Analytics",
-        level:"mid-senior level",
+        level:"Mid-Senior level",
         experience:"6 - 8 years",
         location:"Hyderabad, India",
         aboutdescription: "We are seeking a talented and experienced Product Owner to join our dynamic AI/Analytics team. As a Product Owner, you will be responsible for leading the development and execution of our AI and analytics product roadmap. You will collaborate closely with cross-functional teams including software engineers, data scientists, designers, and stakeholders to deliver high-quality AI and analytics solutions that meet the needs of our customers and drive business growth.",
@@ -615,9 +615,6 @@ const Jobdescription = [
                 content: "Proven experience (8 years) as a Product Owner or Product Manager, with a focus on AI, machine  learning, or analytics products a plus.",
             },
             {
-                content: "Proficiency in Core Java, Servlets, APIs, Oracle DB, web architecture, Design Patterns DevOps  Tools(Jenkins, Docker, Kubernetes) and Git and GitHub.",
-            },
-            {
                 content: "Strong understanding of Agile software development methodologies, with experience working in  Agile/Scrum environments.",
             },
             {
@@ -640,7 +637,7 @@ const Jobdescription = [
     {
         applyfor: "ETL Test Lead",
         title: "ETL Test Lead",
-        level:"mid-senior",
+        level:"Mid-Senior",
         experience:"5+ years",
         location:"Hyderabad, India",
         aboutdescription: "We are seeking a highly motivated and experienced ETL Test Lead to join our team and play a crucial role in ensuring the quality and reliability of our data platform and pipelines. You will be responsible for leading the development and implementation of an automated testing framework specifically designed for validating the Extract, Transform, Load (ETL) processes.",
@@ -665,9 +662,6 @@ const Jobdescription = [
             },
             {
                 content: "Define and implement a testing approach encompassing various aspects like data integrity,  completeness, accuracy, and performance.",
-            },
-            {
-                content: "Collaborate on MLOPS life cycle experience with MLOPS workflows traceability and versioning of datasets.",
             },
             {
                 content: "Develop test plans and test cases covering different scenarios and edge cases.",
@@ -749,7 +743,7 @@ const Jobdescription = [
     {
         applyfor: "Python Developer",
         title: "Python Developer",
-        level:"mid-senior",
+        level:"Mid-Senior",
         experience:"4 to 8 years",
         location:"Hyderabad, India",
         aboutdescription: "The role of a Python developer is to contribute to coding done using Python language in different areas of web development, application development, game development, data science,  machine learning, AI, etc.",
@@ -923,7 +917,7 @@ const Jobdescription = [
     {
         applyfor: "Data Science Lead",
         title: "Data Science Lead",
-        level:"mid-senior",
+        level:"Mid-Senior",
         experience:"7 - 9 years",
         location:"Hyderabad, India",
         aboutdescription: "A Data Scientists roles and responsibilities include extracting data from multiple sources, using machine learning tools to organize data, process, clean, and validate the data, analyze the data for information and patterns, develop prediction systems, present the data in a clear manner, and propose solutions.",
@@ -1008,7 +1002,7 @@ const Jobdescription = [
     {
         applyfor: "Einstein Analytics",
         title: "Einstein Analytics",
-        level:"mid-senior",
+        level:"Mid-Senior",
         experience:"7 - 12 years",
         location:"Hyderabad, India",
         aboutdescription: "Contribute to our team's success by spearheading model development, accurate predictions, and advanced analytics leveraging Einstein Discovery. Drive the implementation of CRM Analytics Dashboard, Recipes, and data replications, playing a crucial role in shaping our data-driven strategies.",
@@ -1351,7 +1345,7 @@ const Jobdescription = [
     {
         applyfor: "Data Analyst",
         title: "Data Analyst",
-        level:"mid-senior",
+        level:"Mid-Senior",
         experience:"5 to 10 years",
         location:"Hyderabad, India",
         aboutdescription: "We are looking for a detail-oriented and collaborative Data Analyst to join our business analytics team.  The ideal candidate should have experience working with large data sets and understand how to manipulate and analyze  them using various statistical and mathematical methods. Must have prior experience with BI and visualization tools,   have intimate knowledge of Relational Database and Data Warehousing technologies, and have an innate curiosity towards  finding ways to create value for customers from data. The Data Analyst will work alongside product management,  product development, data engineers, and data scientists.",
