@@ -252,11 +252,11 @@ const Apply = () => {
                                 </div>
                             </div>
                             <div className="w-100">
-                                <h1 className="fs-18 fw-bold-600">About the Role</h1>
+                                <h1 className="fs-18 fw-bold-600 mb-4">About the Role</h1>
                                 <p className="fs-16 fw-bold-400">
                                     {res.aboutdescription}
                                 </p>
-                                <h1 className="fs-18 fw-bold-600 mt-5">
+                                <h1 className="fs-18 fw-bold-600 mt-5 mb-4">
                                     Your Key Responsibilities
                                 </h1>
                                 {res.hasOwnProperty("unorderedlist") === true ? (
@@ -278,7 +278,7 @@ const Apply = () => {
                                 ) : (
                                     ""
                                 )}
-                                <h1 className="fs-18 fw-bold-600 mt-5">What To Bring</h1>
+                                <h1 className="fs-18 fw-bold-600 mt-5 mb-4">What To Bring</h1>
                                 {res.hasOwnProperty("unorderedlist1") === true ? (
                                     <>
                                         {
