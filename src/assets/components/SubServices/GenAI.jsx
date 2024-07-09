@@ -152,7 +152,7 @@ const GenAI = () => {
                     {GenAIData.genfirstdata.map((list) => {
                         return (
                             <div className="col-lg-4 text-center pt-5">
-                                <img src={list.icon} className="w-25 pb-5" />
+                                <img loading="lazy" src={list.icon} className="w-25 pb-5" />
                                 <h1 className="fs-18 fw-bold-800 pb-4">{list.title}</h1>
                                 <p className="fs-16 ">{list.paragraph}</p>
                             </div>

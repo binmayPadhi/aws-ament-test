@@ -16,7 +16,7 @@ function JobDetails (){
                                     {data.jobTitle}
                                     {/* {data.jobTitle.length > 15 ? data.jobTitle.substring(0,15)+"..." : data.jobTitle } */}
                                 </button>
-                                <span className="job-icon"><img src={careerListIcon} className="img-fluid career-job-icon" alt="icon" /></span>
+                                <span className="job-icon"><img src={careerListIcon} className="img-fluid career-job-icon" alt="icon" loading="lazy" /></span>
                                 {/* <div className="career-job-icon">
                                     <img src={careerListIcon} className="img-fluid" alt="icon" />
                                 </div> */}

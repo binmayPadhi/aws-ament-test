@@ -300,7 +300,7 @@ function Navbar(props) {
                           What's New
                         </h1>
                         <div className="d-flex border-bottom-black pb-4">
-                          <img src={gen} className="w-20" />
+                          <img src={gen} className="w-20" loading="lazy" />
                           <div className="ml-3">
                             <a href="/generative-ai-solutions" className="fs-13 fw-bold-500 text-underline text-black">
                               Generative AI
@@ -330,7 +330,7 @@ function Navbar(props) {
                           Amnet Insight{" "}
                         </h1>
                         <div className="d-flex mt-4">
-                          <img src={group} className="w-20" />
+                          <img src={group} className="w-20" loading="lazy" />
                           <div className="ml-3">
                             <h1 className="fs-13 fw-bold-500 text-underline">
                               BY VALUER

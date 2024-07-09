@@ -53,8 +53,8 @@ const Amnetpartner = () => {
                 </div>
                 <div className="mt-5 w-80 mx-auto">
                     <div className="d-flex justify-content-center">
-                        <img src={intelpartner} className="p-3" />
-                        <span><img src={ADintel} className="p-3" /></span>
+                        <img loading="lazy" src={intelpartner} className="p-3" />
+                        <span><img loading="lazy" src={ADintel} className="p-3" /></span>
                     </div>
                     {AmnetpartnerData.map((list) => {
                         return (
@@ -120,8 +120,8 @@ const Amnetpartner = () => {
                                 </p>
                                 <p className="fs-19">{list.description5} <span><a className="fs-19" href="">{list.link}</a></span></p>
                                 <div className="d-flex justify-content-center">
-                                    <img src={intelXoen} className="p-3" />
-                                    <span><img src={openVN} className="p-3" /></span>
+                                    <img loading="lazy" src={intelXoen} className="p-3" />
+                                    <span><img loading="lazy" src={openVN} className="p-3" /></span>
                                 </div>
                                 <h2 className=" fw-bold-600">{list.sideheading1}</h2>
                                 <p className="fs-19">{list.description6} <span><a className="fs-19" href="">{list.link1}</a></span><span className="fs-19">{list.description7}</span></p>

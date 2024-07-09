@@ -116,6 +116,7 @@ function Test() {
             <source
               src="https://amnet-digital-website.s3.amazonaws.com/FinalVersion.mp4"
               type="video/mp4"
+               loading="lazy"
             />
           </video>
           <div class="card-overlay"></div>
@@ -165,7 +166,7 @@ function Test() {
                             </td>
                             <td className="border-0">
                               {list.id != 3 ? (
-                                <img src={vector} width="2" height="75" />
+                                <img src={vector} width="2" height="75" loading="lazy" />
                               ) : null}
                             </td>
                           </tr>

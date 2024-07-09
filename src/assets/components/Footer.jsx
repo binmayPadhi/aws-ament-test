@@ -302,7 +302,7 @@ function Footer() {
       <div className="container-fluid footer pt-5 pb-b-5">
         <div className="center-88">
           <p className="pt-4 text-center w-100">
-            <img className="img-fluid logo" src={amnetLogo} alt="logo" />
+            <img className="img-fluid logo" src={amnetLogo} alt="logo" loading="lazy"  />
           </p>
           <p className="pb-4 para_footer text-center fs-13 font-weight-bold w-100">
             Subscribe for latest AI & Analytics Insights
@@ -323,7 +323,7 @@ function Footer() {
                     className="position-absolute icon-footer cr-pointer bgc-white"
                     type="submit"
                   >
-                    <img src={send} width="25" />
+                    <img src={send} width="25" loading="lazy"  />
                   </button>
                 </p>
               </form>
@@ -373,12 +373,12 @@ function Footer() {
             {/* <p className="mb-0 mt-md-5 spacing-first" ><a href=""><img src={Equalitas} /></a> <span><a href=""><img src={Equalitas} /></a></span> </p> */}
             <MediaQuery minWidth={760} >
               {
-              <div className="ml-lg-5 d-flex flex-row justify-content-center"><span className="me-5"><a href="/odc-and-iso-recognized-certification"><img src={ISO} /></a></span><span className="me-5"><a href="/odc-and-iso-recognized-certification"><img src={Equalitas} /></a></span><span ><a ><img src={soc} /></a></span></div>
+              <div className="ml-lg-5 d-flex flex-row justify-content-center"><span className="me-5"><a href="/odc-and-iso-recognized-certification"><img src={ISO} loading="lazy" /></a></span><span className="me-5"><a href="/odc-and-iso-recognized-certification"><img src={Equalitas} loading="lazy" /></a></span><span ><a ><img src={soc} loading="lazy" /></a></span></div>
               }
             </MediaQuery>
             <MediaQuery minWidth={320} maxWidth={759}>
               {
-              <p> <a href="/odc-and-iso-recognized-certification"><img  className="" src={ISO} /></a> <span><a href="/odc-and-iso-recognized-certification"><img  className="" src={Equalitas} /></a></span><span><a ><img className="" src={soc} /></a></span></p>
+              <p> <a href="/odc-and-iso-recognized-certification"><img  className="" src={ISO} loading="lazy" /></a> <span><a href="/odc-and-iso-recognized-certification"><img  className="" src={Equalitas} loading="lazy" /></a></span><span><a ><img className="" src={soc} loading="lazy" /></a></span></p>
               }
             </MediaQuery>
             </div>
@@ -414,7 +414,7 @@ function Footer() {
                       className="p-1 p-lg-2"
                       style={{ cursor: "pointer" }}
                     >
-                      <img src={listedicon.image} />
+                      <img src={listedicon.image} loading="lazy" />
                     </a>
                   );
                 })}
@@ -503,7 +503,7 @@ function Footer() {
             />
           </p>
           <p className="text-black fw-bold-500 fs-18 text-center lh-26 my-3">
-            <img alt="checkmark" src={star} className="img-25" />
+            <img alt="checkmark" src={star} className="img-25" loading="lazy" />
           </p>
           <div className="text-black thank-style text-center my-3">
             Thank you for subscribing!

@@ -115,7 +115,7 @@ function TestAboutUs() {
                   className="col-md-3 col-lg-3 col-sm-12 text-center"
                 >
                   <p className="mb-0">
-                    <img src={list.image} className="w-25" />
+                    <img src={list.image} className="w-25"loading="lazy"  />
                   </p>
                   <p className="fw-bold-600 fs-19 text-nero">{list.heading}</p>
                   <p className="fw-bold-400 fs-16 text-grey">
@@ -145,7 +145,7 @@ function TestAboutUs() {
       </div>
 
       <div className="mt-5 w-100">
-        <img alt=" " src={achievement} className="w-100" />
+        <img alt=" " src={achievement} className="w-100" loading="lazy" />
       </div>
 
       <MediaQuery query="(max-width: 767px)">
@@ -163,7 +163,7 @@ function TestAboutUs() {
                 </p>
                 <p className="w-100 align-items-center">
                   <div className="d-flex justify-content-center">
-                    <img src={ceo} className="ceo-image-style" />
+                    <img src={ceo} className="ceo-image-style" loading="lazy" />
                   </div>
                   <div className="d-flex justify-content-center">
                     <p className="text-white fs-24 fw-bold-700 mb-0">
@@ -204,7 +204,7 @@ function TestAboutUs() {
             </div>
             <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12">
               <div className="d-flex w-100 justify-content-center align-items-end">
-                <img src={ceo} className="w-100" />
+                <img src={ceo} className="w-100" loading="lazy" />
               </div>
             </div>
           </div>
@@ -232,7 +232,7 @@ function TestAboutUs() {
         <h1 className="section-title text-center mb-5">Global Footprint</h1>
       </div>
       <div className="w-98 mx-auto">
-        <img src={global} className="gload-title" />
+        <img src={global} className="gload-title" loading="lazy" />
       </div>
 
 

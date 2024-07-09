@@ -183,7 +183,7 @@ const Forecasting = () => {
 
             <div className="center-85">
                 <a href="/contactus">
-                    <img src={CTAIMG} className="w-100 mt-4" />
+                    <img loading="lazy" src={CTAIMG} className="w-100 mt-4" />
                 </a>
             </div>
 

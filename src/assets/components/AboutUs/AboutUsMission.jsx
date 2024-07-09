@@ -19,7 +19,7 @@ const AboutUsMission = () => {
                       {list.heading}
                     </p>
                     <p>
-                      <img src={list.image} className="w-100" />
+                      <img src={list.image} className="w-100" loading="lazy" />
                     </p>
                     <p className="fw-bold-300 fs-18 text-blackrock text-left">
                       {list.description}
@@ -44,7 +44,7 @@ const AboutUsMission = () => {
                   </div>
                   <div className={"col-md-6 col-lg-6 mt-5" + " " + reverse1}>
                     <p className="mb-0">
-                      <img src={list.image} />
+                      <img src={list.image} loading="lazy" />
                     </p>
                   </div>
                 </>
