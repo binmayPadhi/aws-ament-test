@@ -16,7 +16,7 @@ const Whyamnet = () => {
       <div className="col-md-6 col-lg-7 col-xs-12 col-sm-12  mt-15">
         <div className="w-100 d-flex text-left">
           <span>
-            <img src={image1} className="w-100" />
+            <img loading="lazy" src={image1} className="w-100" />
           </span>
           <span>
             <p className="heading_why pl-4 mb-0">Proven track record</p>
@@ -38,12 +38,12 @@ const Whyamnet = () => {
             </p>
           </span>
           <span>
-            <img src={image2} className="w-100"/>
+            <img loading="lazy" src={image2} className="w-100"/>
           </span>
         </div>
         <div className="w-100 d-flex text-left">
           <span>
-            <img src={image3} className="w-100"/>
+            <img loading="lazy" src={image3} className="w-100"/>
           </span>
           <span>
             <p className="heading_why pl-4 mb-0">Awesome talent</p>
@@ -66,7 +66,7 @@ const Whyamnet = () => {
             </p>
           </span>
           <span>
-            <img src={image4} className="w-100"/>
+            <img loading="lazy" src={image4} className="w-100"/>
           </span>
         </div>
       </div>

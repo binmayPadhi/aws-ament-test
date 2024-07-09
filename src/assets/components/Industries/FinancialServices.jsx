@@ -65,7 +65,7 @@ function FinancialServices ( ){
                         </NavLink>
                     </div>
                     <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 detail-section-img-column">
-                        <img className="img-fluid" src={ServiceBG} alt="industry-image" />
+                        <img className="img-fluid" src={ServiceBG} alt="industry-image" loading="lazy" />
                     </div>
                 </div>
             </div>
@@ -79,7 +79,7 @@ function FinancialServices ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={bankingImg} alt="industry-image" />
+                                <img className="img-fluid" src={bankingImg} alt="industry-image" loading="lazy" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -91,7 +91,7 @@ function FinancialServices ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={fintechImg} alt="industry-image" />
+                                <img className="img-fluid" src={fintechImg} alt="industry-image" loading="lazy"  />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -103,7 +103,7 @@ function FinancialServices ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={stockImg} alt="industry-image" />
+                                <img className="img-fluid" src={stockImg} alt="industry-image" loading="lazy" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -115,7 +115,7 @@ function FinancialServices ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={capitalRestructuringImg} alt="industry-image" />
+                                <img className="img-fluid" src={capitalRestructuringImg} alt="industry-image" loading="lazy" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -139,7 +139,7 @@ function FinancialServices ( ){
                         <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Digital Banking Platform
+                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" loading="lazy" /></span>Digital Banking Platform
                                 </div>
                                 <p>Accelerate your journey to cloud with banking technology solutions that modernize core systems and applications.
                                 </p>
@@ -150,7 +150,7 @@ function FinancialServices ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Insurance Claim Management
+                                <span><img loading="lazy"  className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Insurance Claim Management
                                 </div>
                                 <p>Insurance claims management products can help insurers reduce 
                                     claims management costs, reduce fraudulent claims, and enhance customer experience.
@@ -162,7 +162,7 @@ function FinancialServices ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Digital Wallet Solution
+                                <span><img loading="lazy"  className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Digital Wallet Solution
                                 </div>
                                 <p>Amnet Digital helps you to best use the power of digital payment. With a diverse experience of developing digital payment solutions, 
                                     we ensure that every specific need of the client is addressed.
@@ -174,7 +174,7 @@ function FinancialServices ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business Intelligence Solutions
+                                <span><img  loading="lazy" className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business Intelligence Solutions
                                 </div>
                                 <p>We combine the power of data analytics, machine learning, and software development to build astonishingly efficient software applications. 
                                     Our feature-rich BI solutions have helped many clients make insights-based decisions.
@@ -189,7 +189,7 @@ function FinancialServices ( ){
                         <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Loan Management Solutions
+                                <span><img  loading="lazy"  className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Loan Management Solutions
                                 </div>
                                 <p>Track customers’ loan data, repayment history, missed installments, etc. with powerful loan management solutions. We help you significantly 
                                     reduce the risks of defaulting while expanding the scope of your business.
@@ -210,23 +210,23 @@ function FinancialServices ( ){
 
                     <div className="our-offering-row row">
                         <div className="col-xl-3 col-lg-12 col-md-12 col-sm-12 our-offering-img text-center">
-                            <img className="img-fluid" src={ServiceBG} alt="industry-image" />
+                            <img className="img-fluid" src={ServiceBG} alt="industry-image" loading="lazy" />
                         </div>
                         <div className="col-xl-9 col-lg-12 col-md-12 col-sm-12 our-offering-details">
                             <div className="our-offering-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Digital Transformation
+                                <span><img loading="lazy"  className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Digital Transformation
                             </div>
                             <div className="our-offering-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Application Development
+                                <span><img  loading="lazy" className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Application Development
                             </div>
                             <div className="our-offering-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Managed Cloud Services
+                                <span><img loading="lazy" className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Managed Cloud Services
                             </div>
                             <div className="our-offering-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Product Engineering
+                                <span><img  loading="lazy"  className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Product Engineering
                             </div>
                             <div className="our-offering-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Solutions and Accelerators
+                                <span><img loading="lazy" className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Solutions and Accelerators
                             </div>
                         </div>
                     </div>

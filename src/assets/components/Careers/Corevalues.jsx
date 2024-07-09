@@ -19,7 +19,7 @@ function CoreValues() {
                     className="col-lg-4 col-md-4 col-sm-12 text-center"
                   >
                     <p className="mb-0">
-                      <img src={response.img} className="w-25" />
+                      <img src={response.img} className="w-25" loading="lazy" />
                     </p>
                     <p className="fw-bold-600 fs-20 text-black">
                       {response.heading}

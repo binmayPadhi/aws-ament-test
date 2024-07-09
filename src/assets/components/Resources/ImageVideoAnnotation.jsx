@@ -133,7 +133,7 @@ video annotation services, data labeling services, data annotation" />
                     <span className="fs-19">{list.textelements}</span>
                   </p>
                   <p className="fs-19">{list.description25}</p>
-                  <img src={list.image} alt={list.image} className="w-100" />
+                  <img loading="lazy" src={list.image} alt={list.image} className="w-100" />
                   <p className="fs-19 ">{list.description27}</p>
                   <p className="fs-19 ">{list.description28}</p>
                   <p className="fs-19 ">{list.description29}</p>
@@ -158,7 +158,7 @@ video annotation services, data labeling services, data annotation" />
 
       <div className="center-85">
         <a href="/contactus">
-          <img src={CTAIMG} className="w-100 mt-4" />
+          <img loading="lazy" src={CTAIMG} className="w-100 mt-4" />
         </a>
       </div>
    

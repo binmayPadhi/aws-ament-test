@@ -164,7 +164,7 @@ const ApplicationForm = () => {
                 className="d-flex flex-row justify-content-end cr-pointer"
                 onClick={clearInformation}
               >
-                <img src={clear} className="width-clear" />
+                <img src={clear} className="width-clear" loading="lazy"  />
                 <p className="fs-16 fw-bold-400 text-lightgrey ml-3">clear</p>
               </div>
             </div>
@@ -244,7 +244,7 @@ const ApplicationForm = () => {
                     className="d-flex flex-row justify-content-end cr-pointer"
                     onClick={clearProfile}
                   >
-                    <img src={clear} className="width-clear" />
+                    <img src={clear} className="width-clear" loading="lazy" />
                     <p className="fs-16 fw-bold-400 text-lightgrey ml-3">
                       clear
                     </p>
@@ -317,7 +317,7 @@ const ApplicationForm = () => {
                     className="d-flex flex-row justify-content-end cr-pointer"
                     onClick={clearDetails}
                   >
-                    <img src={clear} className="width-clear" />
+                    <img src={clear} className="width-clear" loading="lazy" />
                     <p className="fs-16 fw-bold-400 text-lightgrey ml-3">
                       clear
                     </p>
@@ -471,7 +471,7 @@ const ApplicationForm = () => {
               Thank you for applying this job!
             </p>
             <p className="text-black fw-bold-500 fs-18 text-center lh-26 my-3">
-              <img alt="checkmark" src={correct} className="img-35" />
+              <img alt="checkmark" src={correct} className="img-35" loading="lazy" />
             </p>
             <p className="text-black fw-bold-500 fs-18 text-center lh-26 my-3">
               Your application has been submitted successfully.

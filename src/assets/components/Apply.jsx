@@ -195,14 +195,14 @@ const Apply = () => {
                                 </div>
                                 <div className="text-lg-right text-lg-left text-black fs-18 fw-bold-600">
                                     Share this job
-                                    <img src={shareimg} className="img-25 pl-3 cr-pointer" onClick={showModal} />
+                                    <img src={shareimg} className="img-25 pl-3 cr-pointer" onClick={showModal} loading="lazy" />
                                 </div>
                             </div>
                             <Modal show={show} centered >
                                 <Modal.Body className="margin-styling">
                                     <div className="d-flex justify-content-between mb-5">
                                         <h1 className="p-2 mb-5">Share with</h1>
-                                        <img src={cross} className="cross-img cr-pointer" onClick={closeModal} />
+                                        <img src={cross} className="cross-img cr-pointer" onClick={closeModal} loading="lazy" />
                                     </div>
                                     {icons.map((listedicon) => {
                                         return (
@@ -213,7 +213,7 @@ const Apply = () => {
                                                 className="border-circle-grey m-lg-3 m-sm-1 mt-5 mb-5"
                                                 style={{ cursor: "pointer" }}
                                             >
-                                                <img src={listedicon.image} className="img-size" />
+                                                <img src={listedicon.image} className="img-size"  loading="lazy"/>
                                             </a>
                                         );
                                     })}

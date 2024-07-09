@@ -72,7 +72,7 @@ function RetailEcommerce ( ){
                         </NavLink>
                     </div>
                     <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 detail-section-img-column">
-                        <img className="img-fluid" src={ServiceBG} alt="industry-image" />
+                        <img loading="lazy" className="img-fluid" src={ServiceBG} alt="industry-image" />
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@ function RetailEcommerce ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={B2CImg} alt="industry-image" />
+                                <img loading="lazy" className="img-fluid" src={B2CImg} alt="industry-image" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -98,7 +98,7 @@ function RetailEcommerce ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={B2BImg} alt="industry-image" />
+                                <img loading="lazy" className="img-fluid" src={B2BImg} alt="industry-image" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -110,7 +110,7 @@ function RetailEcommerce ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={D2CImg} alt="industry-image" />
+                                <img loading="lazy"  className="img-fluid" src={D2CImg} alt="industry-image" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -122,7 +122,7 @@ function RetailEcommerce ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={ MarketplaceSolutionsImg} alt="industry-image" />
+                                <img loading="lazy" className="img-fluid" src={ MarketplaceSolutionsImg} alt="industry-image" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -146,7 +146,7 @@ function RetailEcommerce ( ){
                         <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title d-flex">
-                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimizing Marketing Strategy
+                                <span><img  loading="lazy" className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimizing Marketing Strategy
                                 </div>
                                 <p>Marketing Optimization is the process of improving the marketing efforts of 
                                     an organization in an effort to maximize the desired business outcomes.
@@ -158,7 +158,7 @@ function RetailEcommerce ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title d-flex">
-                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize your content for high purchase
+                                <span><img  loading="lazy" className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize your content for high purchase
                                 </div>
                                 <p>Optimizing content is less a matter of keyword presence and metadata and more an issue of 
                                     trust, intent, quality, and authority.
@@ -170,7 +170,7 @@ function RetailEcommerce ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title d-flex">
-                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize your digital and social media strategy
+                                <span><img loading="lazy" className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize your digital and social media strategy
                                 </div>
                                 <p>Collect, analyze and evaluate vast amount of semi-structured and unstructured 
                                     social media data and turn it into insights for business with descriptive, predictive 
@@ -183,7 +183,7 @@ function RetailEcommerce ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title d-flex">
-                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize product pages
+                                <span><img loading="lazy" className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Optimize product pages
                                 </div>
                                 <p>Identification of optimal price points influenced by multiple 
                                     factors such as Item, brand, sub-category, category, location, product affinity, 
@@ -198,7 +198,7 @@ function RetailEcommerce ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title d-flex">
-                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Supply Chain Management
+                                <span><img loading="lazy" className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Supply Chain Management
                                 </div>
                                 <p>Improve efficiency of supply chain activities to achieve the capability to cater to customers demands with accuracy and minimum possible investment.
                                 </p>
@@ -218,29 +218,29 @@ function RetailEcommerce ( ){
 
                     <div className="our-offering-row row">
                         <div className="col-xl-3 col-lg-12 col-md-12 col-sm-12 our-offering-img text-center">
-                            <img className="img-fluid" src={ServiceBG} alt="industry-img" />
+                            <img loading="lazy" className="img-fluid" src={ServiceBG} alt="industry-img" />
                         </div>
                         <div className="col-xl-9 col-lg-12 col-md-12 col-sm-12 our-offering-details">
                             <div className="our-offering-title d-flex">
-                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Omnichannel Commerce Solutions
+                                <span><img loading="lazy" className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Omnichannel Commerce Solutions
                             </div>
                             <div className="our-offering-title d-flex">
-                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Mobile Commerce
+                                <span><img loading="lazy" className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Mobile Commerce
                             </div>
                             <div className="our-offering-title d-flex">
-                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>System Integrations
+                                <span><img loading="lazy" className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>System Integrations
                             </div>
                             <div className="our-offering-title d-flex">
-                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Ecommerce Platform Migration
+                                <span><img loading="lazy" className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Ecommerce Platform Migration
                             </div>
                             <div className="our-offering-title d-flex">
-                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Product Information Management
+                                <span><img loading="lazy" className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Product Information Management
                             </div>
                             <div className="our-offering-title d-flex">
-                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business Intelligence
+                                <span><img loading="lazy" className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Business Intelligence
                             </div>
                             <div className="our-offering-title d-flex">
-                                <span><img className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>SaaS Enablement
+                                <span><img loading="lazy" className=" ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>SaaS Enablement
                             </div>
                         </div>
                     </div>

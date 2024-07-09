@@ -20,7 +20,7 @@ const Ribbon = (props) => {
               <table className="w-100">
                 <tr className="border-0">
                   <td className="border-0">
-                    <img src={notification} alt="speaker" className="img-35" />
+                    <img src={notification} alt="speaker" className="img-35" loading="lazy" />
                   </td>
                   <td className="border-0">
                     <span className="ribbon_content px-2 mb-0">
@@ -36,7 +36,7 @@ const Ribbon = (props) => {
                 className="close_icon_mob d-flex w-100 justify-content-end pr-4 cr-pointer"
                 onClick={(e) => close(e)}
               >
-                <img src={cross} alt="close" className="img-35" />
+                <img src={cross} alt="close" className="img-35" loading="lazy" />
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ const Ribbon = (props) => {
               <div className="col-md-10 col-lg-10 col-sm-12 my-auto">
                 <p className="mb-0 text-center">
                   <div className="d-flex w-100 align-items-center justify-content-center">
-                    <img src={notification} alt="speaker" className="img-35" />
+                    <img src={notification} alt="speaker" className="img-35" loading="lazy" />
                     <span className="ribbon_content px-2 mb-0">
                       On-Demand Webinar - See how leading Retailers are
                       embracing AI & Analytics to win in 2023
@@ -84,7 +84,7 @@ const Ribbon = (props) => {
                     className="text-center cr-pointer"
                     onClick={(e) => close(e)}
                   >
-                    <img src={cross} alt="close" className="img-35" />
+                    <img src={cross} alt="close" className="img-35" loading="lazy" />
                   </div>
                 </p>
               </div>

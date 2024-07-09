@@ -82,7 +82,7 @@ const DataMigration = () => {
                     <span className="fs-19 fw-bold-800">{list.description10}</span>
                   </p>
                   <p className="fs-19 ">{list.description24}</p>
-                  <img src={list.image} className="w-100" />
+                  <img loading="lazy" src={list.image} className="w-100" />
                   {list.hasOwnProperty("unorderedlist") === true ? (
                     <>
                       {

@@ -63,7 +63,7 @@ function Healthcare ( ){
                         </NavLink>
                     </div>
                     <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 detail-section-img-column">
-                        <img className="img-fluid" src={HealthcareBG} alt="industry-image" />
+                        <img loading="lazy"  className="img-fluid" src={HealthcareBG} alt="industry-image" />
                     </div>
                 </div>
             </div>
@@ -77,7 +77,7 @@ function Healthcare ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={healthSolutionsImg} alt="industry-image" />
+                                <img loading="lazy" className="img-fluid" src={healthSolutionsImg} alt="industry-image" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -89,7 +89,7 @@ function Healthcare ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={infoRequestImg} alt="industry-image" />
+                                <img loading="lazy"  className="img-fluid" src={infoRequestImg} alt="industry-image" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -101,7 +101,7 @@ function Healthcare ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={HealthcareBG} alt="industry-image" />
+                                <img loading="lazy" className="img-fluid" src={HealthcareBG} alt="industry-image" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -113,7 +113,7 @@ function Healthcare ( ){
                     <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                     <div className="business-vertical-card card">
                             <div className="card-img-top">
-                                <img className="img-fluid" src={telehealthImg} alt="industry-image" />
+                                <img loading="lazy" className="img-fluid" src={telehealthImg} alt="industry-image" />
                             </div>
                             <div className="card-body">
                                 <div className="card-title">
@@ -137,7 +137,7 @@ function Healthcare ( ){
                         <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Health system optimization
+                                <span><img loading="lazy" className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Health system optimization
                                 </div>
                                 <p>Create an efficient, more sustainable and secure healthcare system.
                                 </p>
@@ -148,7 +148,7 @@ function Healthcare ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Population health insights
+                                <span><img loading="lazy" className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Population health insights
                                 </div>
                                 <p>Unlock the power of your data to help improve quality, safety and population health management.
                                 </p>
@@ -159,7 +159,7 @@ function Healthcare ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Individual insights and engagement
+                                <span><img loading="lazy" className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Individual insights and engagement
                                 </div>
                                 <p>Engage, improve and transform the experience for your health consumers.
                                 </p>
@@ -170,7 +170,7 @@ function Healthcare ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Healthcare cybersecurity
+                                <span><img loading="lazy" className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Healthcare cybersecurity
                                 </div>
                                 <p>Protect your systems and data with an intelligent and orchestrated approach.
                                     </p>
@@ -184,7 +184,7 @@ function Healthcare ( ){
                         <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Digital Healthcare Solutions
+                                <span><img loading="lazy" className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Digital Healthcare Solutions
                                 </div>
                                 <p>We develop custom mobile and web-based software solution for clinics and hospitals to deliver benefits like 
                                     inventory management, patient engagement, managing health records, medical billing, and revenue cycle.
@@ -196,7 +196,7 @@ function Healthcare ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Diagnostic Imaging
+                                <span><img loading="lazy" className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Diagnostic Imaging
                                 </div>
                                 <p>Scale delivery of care, strengthen clinical diagnoses and transform your raw data into actionable insights
                                     </p>
@@ -207,7 +207,7 @@ function Healthcare ( ){
                     <div className="ai-solutions-card card">
                             <div className="card-body">
                                 <div className="card-title d-flex">
-                                <span><img className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Payer
+                                <span><img loading="lazy" className="ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Payer
                                 </div>
                                 <p>Driving adoption of emerging solutions and platforms to give you the edge.
                                 </p>
@@ -227,29 +227,29 @@ function Healthcare ( ){
 
                     <div className="our-offering-row row">
                         <div className="col-xl-3 col-lg-12 col-md-12 col-sm-12 our-offering-img text-center">
-                            <img className="img-fluid" src={HealthcareBG} alt="industry-image" />
+                            <img loading="lazy" className="img-fluid" src={HealthcareBG} alt="industry-image" />
                         </div>
                         <div className="col-xl-9 col-lg-12 col-md-12 col-sm-12 our-offering-details">
                             <div className="our-offering-title d-flex">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Digital Transformation
+                                <span><img loading="lazy" className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Digital Transformation
                             </div>
                             <div className="our-offering-title d-flex">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Application Development
+                                <span><img loading="lazy" className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Application Development
                             </div>
                             <div className="our-offering-title d-flex">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Managed Cloud Services
+                                <span><img loading="lazy" className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Managed Cloud Services
                             </div>
                             <div className="our-offering-title d-flex">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Product Engineering
+                                <span><img loading="lazy"  className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Product Engineering
                             </div>
                             <div className="our-offering-title d-flex">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Solutions and Accelerators
+                                <span><img loading="lazy"  className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Solutions and Accelerators
                             </div>
                             <div className="our-offering-title d-flex">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Tool Agnostic Approach
+                                <span><img  loading="lazy" className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Tool Agnostic Approach
                             </div>
                             <div className="our-offering-title d-flex">
-                                <span><img className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Healthcare Modernization
+                                <span><img loading="lazy" className="img-fluid ai-solutions-icon" src = {AiSolutionIcon} alt ="icon" /></span>Healthcare Modernization
                             </div>
                         </div>
                     </div>

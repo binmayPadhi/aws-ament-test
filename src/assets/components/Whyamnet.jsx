@@ -7,7 +7,7 @@ let data = amnetData.whyamnet.map(response => {
     response.placement === 'left' ? (
       <div className="w-100 d-flex text-left">
         <span>
-          <img src={response.image} />
+          <img src={response.image} loading="lazy" />
         </span>
         <span>
           <p className="heading_why pl-4 mb-0">{response.heading}</p>
@@ -27,7 +27,7 @@ let data = amnetData.whyamnet.map(response => {
           </p>
         </span>
         <span>
-          <img src={response.image} />
+          <img src={response.image} loading="lazy" />
         </span>
       </div>
     )
