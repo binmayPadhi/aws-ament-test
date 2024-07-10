@@ -34,6 +34,13 @@ const Insighthome = () => {
         <meta name="description" content="Read the Amnet Digital Insights blog where we address the most challenging issues in an effort to create a better workplace. 
           Discover our most recent ideas." />
         <meta name="keywords" content="Amnet Digital Insights." />
+        <link rel="canonical" href="https://www.amnetdigital.com/blogs" />
+        <meta property="og:title" content="Insights Blog - What we think | Amnet Digital" />
+        <meta property="og:description" content="Read the Amnet Digital Insights blog where we address the most challenging issues in an effort to create a better workplace. 
+          Discover our most recent ideas." />
+        <meta property="og:url" content="https://www.amnetdigital.com/blogs" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="../../images/HomePage/blog_banner.png" />
       </Helmet>
       <div className="bg-insights mb-0">
         <div className="">

@@ -149,13 +149,13 @@ const Apply = () => {
                 <div className="bottom-img w-100 bottom-0" style={{ top: "50%" }}>
                     <div className="row">
                         <div className="col-lg-1 col-md-1 col-sm-12"></div>
-                        <div className="col-lg-6 col-md-6 col-sm-12">
+                        <div className="col-lg-8 col-md-8 col-sm-12">
                             <p className="fs-50 fw-bold-700 text-white pl-4">
                                 {res.title}
 
                             </p>
                         </div>
-                        <div className="col-lg-5 col-md-5 col-sm-12"></div>
+                        <div className="col-lg-3 col-md-3 col-sm-12"></div>
                     </div>
                 </div>
             </div>
@@ -195,14 +195,14 @@ const Apply = () => {
                                 </div>
                                 <div className="text-lg-right text-lg-left text-black fs-18 fw-bold-600">
                                     Share this job
-                                    <img src={shareimg} className="img-25 pl-3 cr-pointer" onClick={showModal} />
+                                    <img src={shareimg} className="img-25 pl-3 cr-pointer" onClick={showModal} loading="lazy" />
                                 </div>
                             </div>
                             <Modal show={show} centered >
                                 <Modal.Body className="margin-styling">
                                     <div className="d-flex justify-content-between mb-5">
                                         <h1 className="p-2 mb-5">Share with</h1>
-                                        <img src={cross} className="cross-img cr-pointer" onClick={closeModal} />
+                                        <img src={cross} className="cross-img cr-pointer" onClick={closeModal} loading="lazy" />
                                     </div>
                                     {icons.map((listedicon) => {
                                         return (
@@ -213,7 +213,7 @@ const Apply = () => {
                                                 className="border-circle-grey m-lg-3 m-sm-1 mt-5 mb-5"
                                                 style={{ cursor: "pointer" }}
                                             >
-                                                <img src={listedicon.image} className="img-size" />
+                                                <img src={listedicon.image} className="img-size"  loading="lazy"/>
                                             </a>
                                         );
                                     })}
@@ -251,12 +251,12 @@ const Apply = () => {
                                     </span>
                                 </div>
                             </div>
-                            <div className="w-90">
-                                <h1 className="fs-18 fw-bold-600">About the Role</h1>
+                            <div className="w-100">
+                                <h1 className="fs-18 fw-bold-600 mb-4">About the Role</h1>
                                 <p className="fs-16 fw-bold-400">
                                     {res.aboutdescription}
                                 </p>
-                                <h1 className="fs-18 fw-bold-600 mt-5">
+                                <h1 className="fs-18 fw-bold-600 mt-5 mb-4">
                                     Your Key Responsibilities
                                 </h1>
                                 {res.hasOwnProperty("unorderedlist") === true ? (
@@ -278,7 +278,7 @@ const Apply = () => {
                                 ) : (
                                     ""
                                 )}
-                                <h1 className="fs-18 fw-bold-600 mt-5">What To Bring</h1>
+                                <h1 className="fs-18 fw-bold-600 mt-5 mb-4">What To Bring</h1>
                                 {res.hasOwnProperty("unorderedlist1") === true ? (
                                     <>
                                         {

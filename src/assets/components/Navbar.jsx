@@ -33,7 +33,8 @@ function Navbar(props) {
       url === "/blogs/supply-chain-planning-decisions-with-actionable-demand-forecasting-insights" ||
       url === "/blogs/10-ways-how-generative-ai-is-impacting-retail-organizations" ||
       url === "/products" ||
-      url === "/blogs/5-ways-AI-can-enhance-and-optimize-your-inventory-management"
+      url === "/blogs/5-ways-AI-can-enhance-and-optimize-your-inventory-management" ||
+      url === "/site-map"
     ) {
       setNavcolor("app");
     } else {
@@ -299,7 +300,7 @@ function Navbar(props) {
                           What's New
                         </h1>
                         <div className="d-flex border-bottom-black pb-4">
-                          <img src={gen} className="w-20" />
+                          <img src={gen} className="w-20" loading="lazy" />
                           <div className="ml-3">
                             <a href="/generative-ai-solutions" className="fs-13 fw-bold-500 text-underline text-black">
                               Generative AI
@@ -329,7 +330,7 @@ function Navbar(props) {
                           Amnet Insight{" "}
                         </h1>
                         <div className="d-flex mt-4">
-                          <img src={group} className="w-20" />
+                          <img src={group} className="w-20" loading="lazy" />
                           <div className="ml-3">
                             <h1 className="fs-13 fw-bold-500 text-underline">
                               BY VALUER

@@ -62,10 +62,10 @@ const Isoimg = () =>{
           <div className="w-50 mx-auto mt-5">
             <div className="row">
               <div className="col-12">
-           {/* <img src={ISO} className="isoimg-styling"/> */}
+           {/* <img loading="lazy" src={ISO} className="isoimg-styling"/> */}
            </div>
            <div className="col-12">
-           <img src={EQUALITAS} className="certification-styling" />
+           <img loading="lazy" src={EQUALITAS} className="certification-styling" />
            </div>
            </div>          
            </div>

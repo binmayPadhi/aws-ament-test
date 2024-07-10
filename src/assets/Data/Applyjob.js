@@ -78,10 +78,10 @@ const Jobdescription = [
     //     ]
     // },
     {
-        applyfor: "Data Scientist",
-        title: "Data Scientist",
-        level:"mid-senior",
-        experience:"3 to 7 years",
+        applyfor: "Data Science",
+        title: "Data Science",
+        level:"Mid-Senior",
+        experience:"5 to 8 years",
         location:"Hyderabad, India",
         aboutdescription: "A Data Scientists roles and responsibilities include  extracting data from multiple sources, using machine learning   tools to organize data, process, clean, and validate the data, analyze the data for information and patterns, develop prediction systems, present the data in a clear manner, and propose solutions.",
         unorderedlist: [
@@ -416,9 +416,334 @@ const Jobdescription = [
     //     ]
     // },
     {
+        applyfor: "MEAN Stack Developer Lead",
+        title: "MEAN Stack Developer - Lead",
+        level:"Senior level",
+        experience:"8 - 12 years",
+        location:"Hyderabad, India",
+        aboutdescription: "We are seeking a skilled Full Stack Developer to join our team. As a Full Stack Developer, you will be responsible for designing and developing end-to-end web applications using the MEAN stack (MongoDB, Express.js, Angular, Node.js). You will play a key role in implementing features and functionality based on requirements, ensuring the seamless integration of front-end and back-end components.",
+        unorderedlist: [
+            {
+                content: "Full Stack Development: Design and develop end-to-end web applications using the MEAN stack  (MongoDB, Express.js, Angular, Node.js).",
+            },
+            {
+                content: "Angular Development: Proficient in creating dynamic,responsive user interfaces using Angular.  Implement features and functionality based on requirements.",
+            },
+            {
+                content: "Node.js Development: Build scalable and efficient server-side applications using Node.js. Handle  server-side logic and integrate third-party APIs.",
+            },
+            {
+                content: "Database Management: Work with MongoDB for data storage and retrieval. Design and implement  database schemas, ensuring data integrity and security.",
+            },
+            {
+                content: "RESTful API Development: Create and maintain RESTful APIs to facilitate communication between the  front-end and back-end components. Ensure high performance and responsiveness."
+            },
+            {
+                content: "Code Optimization: Write efficient, reusable, and modular code. Optimize applications for maximum  speed and scalability."
+            },
+            {
+                content: "Collaboration: Collaborate with cross-functional teams, including designers and other developers, to  bring features and applications to life."
+            },
+            {
+                content: "Testing and Debugging: Conduct thorough testing of applications, identify and fix bugs or  bottlenecks. Ensure the quality and reliability of the codebase."
+            },
+            {
+                content: "Version Control: Use version control systems(e.g., Git) to manage and track changes to the  codebase."
+            },
+            {
+                content: "Documentation: Maintain clear and comprehensive technical documentation for projects. Ensure  that code is well-documented for future reference and collaboration."
+            },
+        
+        ],
+        unorderedlist1: [
+            {
+                content: "Bachelor’s degree in computer science, Software Engineering, or related field.",
+            },
+            {
+                content: "Proven experience as a MEAN Stack Developer or similar role.",
+            },
+            {
+                content: "Advanced proficiency in Angular for front-end development.",
+            },
+            {
+                content: "Strong knowledge of Node.js for server-side development.",
+            },
+            {
+                content: "Experience with MongoDB and database management.",
+            },
+            {
+                content: "Familiarity with Express.jsfor building web applications and APIs.",
+            },
+            {
+                content: "Understanding of core web technologies such as HTML, CSS, and JavaScript.",
+            },
+            {
+                content: "Strong communication skills and the ability to work collaboratively in a team  environment",
+            },      
+        ]
+    },
+    {
+        applyfor: "Java Full Stack Developer",
+        title: "Java Full Stack Developer",
+        level:"Mid-Senior level",
+        experience:"6 - 8 years",
+        location:"Hyderabad, India",
+        aboutdescription: "We are looking for a Java Full Stack Developer to join our dynamic team. You will be responsible for both front-end and back-end development, including creating Java-based applications and supporting frameworks.",
+        unorderedlist: [
+            {
+                content: "Designing, developing, and maintaining Java-based applications.",
+            },
+            {
+                content: "Troubleshooting and resolving software defects and issues in a timely manner.",
+            },
+            {
+                content: "Integrating user-facing elements with server-side logic.",
+            },
+            {
+                content: "Participating in code reviews to ensure code quality and adherence to coding standards.",
+            },
+            {
+                content: "Keeping up to date with the latest industry trends and technologies."
+            },
+            {
+                content: "Providing technical support and guidance to team members as needed."
+            },
+            {
+                content: "Continuously improving software development processes and practices."
+            },
+            {
+                content: "Developing front-end components using modern JavaScript frameworks."
+            },
+            {
+                content: "Ensuring responsiveness of applications."
+            },
+            {
+                content: "Implementing security and data protection measures."
+            },
+            {
+                content: "Writing scalable code for both front-end and back-end components."
+            },
+            {
+                content: "Testing and debugging applications."
+            },
+            {
+                content: "Collaborating with other team members and stakeholders."
+            },
+        
+        ],
+        unorderedlist1: [
+            {
+                content: "6 to 8 years of proven experience in software development using Full stack Java developer or Similar  role.",
+            },
+            {
+                content: "Proficiency in Java and related frameworks (Spring, Hibernate, etc.).",
+            },
+            {
+                content: "Proficiency in Core Java, Servlets, APIs, Oracle DB, web architecture, Design Patterns DevOps  Tools(Jenkins, Docker, Kubernetes) and Git and GitHub.",
+            },
+            {
+                content: "Experience with front-end development languages including JavaScript, HTML5, and CSS3. Knowledge on IntelliJ IDE/Eclipse or STS Suite.",
+            },
+            {
+                content: "Familiarity with JavaScript frameworks such as React, or Vue.js.",
+            },
+            {
+                content: "Knowledge of relational databases (SQL, PostgreSQL, MySQL, Oracle) and NoSQL databases  (MongoDB, Redis, etc.).",
+            },
+            {
+                content: "Experience with RESTful web services.",
+            },
+            {
+                content: "Understanding of DevOps practices and CI/CD pipelines.",
+            },
+            {
+                content: "Ability to work independently and in a team environment.",
+            },
+            {
+                content: "Excellent communication and interpersonal skills.",
+            },  
+            {
+                content: "Attention to detail and ability to meet project deadlines.",
+            },         
+        ]
+    },
+    {
+        applyfor: "Product Owner - AI/Analytics",
+        title: "Product Owner - AI/Analytics",
+        level:"Mid-Senior level",
+        experience:"6 - 8 years",
+        location:"Hyderabad, India",
+        aboutdescription: "We are seeking a talented and experienced Product Owner to join our dynamic AI/Analytics team. As a Product Owner, you will be responsible for leading the development and execution of our AI and analytics product roadmap. You will collaborate closely with cross-functional teams including software engineers, data scientists, designers, and stakeholders to deliver high-quality AI and analytics solutions that meet the needs of our customers and drive business growth.",
+        unorderedlist: [
+            {
+                content: "Develop and communicate a clear product vision and strategy for our AI  and analytics product portfolio, aligned with the company's overall objectives.",
+            },
+            {
+                content: "Define and prioritize features, enhancements, and projects for the  AI/Analytics product roadmap based on market research, customer feedback, and business goals. ",
+            },
+            {
+                content: "Champion the importance of design thinking and user experience (UX)  principles throughout the product development lifecycle, collaborating closely with designers to  ensure a seamless and intuitive user interface.",
+            },
+            {
+                content: "Gather and prioritize product requirements from stakeholders,  customers, and internal teams, ensuring alignment with the product vision and strategic objectives.",
+            },
+            {
+                content: "Work closely with software engineering, data science, and design  teams to translate product requirements into actionable user stories, epics, and acceptance criteria."
+            },
+            {
+                content: "Serve as the Product Owner in Agile development processes, including  sprint planning, backlog grooming, daily stand-ups, and sprint reviews, ensuring timely delivery of  high-quality product increments."
+            },
+            {
+                content: "Collaborate with internal and external stakeholders to gather  feedback, validate product assumptions, and drive consensus on product priorities and direction."
+            },
+            {
+                content: " Conduct market research and competitive analysis to identify emerging  trends, customer needs, and opportunities for innovation in AI and analytics. "
+            },
+            {
+                content: "Monitor key performance indicators (KPIs) and user feedback to  measure the success and effectiveness of our AI/Analytics products and drive continuous  improvement initiatives."
+            },
+            {
+                content: "Identify potential risks and dependencies that may impact product  delivery or quality and work proactively to mitigate them."
+            },
+        
+        ],
+        unorderedlist1: [
+            {
+                content: "Bachelor's degree in Computer Science, Engineering, Business, or related field. Master's degree  preferred..",
+            },
+            {
+                content: "Proven experience (8 years) as a Product Owner or Product Manager, with a focus on AI, machine  learning, or analytics products a plus.",
+            },
+            {
+                content: "Strong understanding of Agile software development methodologies, with experience working in  Agile/Scrum environments.",
+            },
+            {
+                content: "Knowledge of AI, machine learning, and analytics technologies and their applications in business  contexts.",
+            },
+            {
+                content: "Excellent communication, collaboration, and stakeholder management skills.",
+            },
+            {
+                content: "Strong analytical and problem-solving abilities, with a data-driven approach to decision-making.",
+            },
+            {
+                content: "Ability to thrive in a fast-paced, dynamic environment and manage multiple priorities effectively.",
+            },
+            {
+                content: "Certification in Agile (e.g., Certified Scrum Product Owner) and/or Product Management (e.g.,  Pragmatic Marketing, Certified Product Manager) is a plus.",
+            },       
+        ]
+    },
+    {
+        applyfor: "ETL Test Lead",
+        title: "ETL Test Lead",
+        level:"Mid-Senior",
+        experience:"5+ years",
+        location:"Hyderabad, India",
+        aboutdescription: "We are seeking a highly motivated and experienced ETL Test Lead to join our team and play a crucial role in ensuring the quality and reliability of our data platform and pipelines. You will be responsible for leading the development and implementation of an automated testing framework specifically designed for validating the Extract, Transform, Load (ETL) processes.",
+        unorderedlist: [
+            {
+                content: "Lead the development and implementation of an automated testing framework for ETL  processes.",
+            },
+            {
+                content: "Analyze and understand ETL requirements and data flows.",
+            },
+            {
+                content: "Select and configure appropriate ETL testing tools (e.g., open-source frameworks or commercial  solutions).",
+            },
+            {
+                content: "Design and develop automated test scripts to validate data extraction, transformation logic, and data  loading.",
+            },
+            {
+                content: "Integrate automated tests into the CI/CD pipeline for continuous validation.",
+            },
+            {
+                content: "Drive a comprehensive ETL testing strategy.",
+            },
+            {
+                content: "Define and implement a testing approach encompassing various aspects like data integrity,  completeness, accuracy, and performance.",
+            },
+            {
+                content: "Develop test plans and test cases covering different scenarios and edge cases.",
+            },
+            {
+                content: "Collaborate with data engineers and developers to ensure clear test coverage and address identified  issues.",
+            },
+            {
+                content: "Manage and maintain the automated testing framework.",
+            },
+            {
+                content: "Implement best practices for test automation including modularity, maintainability, and scalability.",
+            },
+            {
+                content: "Continuously improve the test suite by identifying new testing requirements and adding relevant test  cases.",
+            },
+            {
+                content: "Monitor test execution, analyze results, and troubleshoot any issues.",
+            },
+            {
+                content: "Provide expertise and guidance to the QA team.",
+            },
+            {
+                content: "Mentor and train other QA testers on ETL testing methodologies and automated testing tools.",
+            },
+            {
+                content: "Foster a collaborative environment and encourage knowledge sharing within the team. Communicate effectively.",
+            },
+            {
+                content: "Clearly document test plans, test cases, and automation scripts.",
+            },
+            {
+                content: "Present test results and findings to stakeholders in a comprehensive and understandable manner.",
+            },
+            {
+                content: "Collaborate effectively with data engineers, developers, and other teams to address data quality  concerns.",
+            },
+
+        ],
+        unorderedlist1: [
+            {
+                content: "Minimum 5+ years of experience in software testing, preferably with a focus on data quality and ETL  processes.",
+            },
+            {
+                content: "Proven experience in designing and implementing automated testing frameworks.",
+            },
+            {
+                content: "Strong understanding of ETL concepts (Extract, Transform, Load) and data quality principles.",
+            },
+            {
+                content: "Experience in major machine learning frameworks such as Pytorch, Scikit-Learn, TensorFlow,SparkML etc.",
+            },
+            {
+                content: "Hands-on knowledge of data wrangling, data cleaning/preparation, dimensionality reduction techniques is required.",
+            },
+            {
+                content: "Knowledge of creating data architectures/pipeline.",
+            },
+            {
+                content: "Fluency in Python programming.",
+            },
+            {
+                content: "Familiarity with SQL and NoSQL (anyone) databases is desirable.",
+            },
+            {
+                content: "Experience working with Machine Learning deployment frameworks like Azure ML studio, AWS sage maker etc is an added advantage.",
+            },
+            {
+                content: "Strong analytical and critical thinking skills.",
+            },
+            {
+                content: "Have a business mindset, swift to identify risk situations and opportunities, and able to generate creative solutions to business problems.",
+            },
+            {
+                content: "Effective communication skills (written and verbal) to properly articulate complicated statistical models/ reports to management and other IT development partner.",
+            },
+        ],
+    },
+    {
         applyfor: "Python Developer",
         title: "Python Developer",
-        level:"mid-senior",
+        level:"Mid-Senior",
         experience:"4 to 8 years",
         location:"Hyderabad, India",
         aboutdescription: "The role of a Python developer is to contribute to coding done using Python language in different areas of web development, application development, game development, data science,  machine learning, AI, etc.",
@@ -592,7 +917,7 @@ const Jobdescription = [
     {
         applyfor: "Data Science Lead",
         title: "Data Science Lead",
-        level:"mid-senior",
+        level:"Mid-Senior",
         experience:"7 - 9 years",
         location:"Hyderabad, India",
         aboutdescription: "A Data Scientists roles and responsibilities include extracting data from multiple sources, using machine learning tools to organize data, process, clean, and validate the data, analyze the data for information and patterns, develop prediction systems, present the data in a clear manner, and propose solutions.",
@@ -677,7 +1002,7 @@ const Jobdescription = [
     {
         applyfor: "Einstein Analytics",
         title: "Einstein Analytics",
-        level:"mid-senior",
+        level:"Mid-Senior",
         experience:"7 - 12 years",
         location:"Hyderabad, India",
         aboutdescription: "Contribute to our team's success by spearheading model development, accurate predictions, and advanced analytics leveraging Einstein Discovery. Drive the implementation of CRM Analytics Dashboard, Recipes, and data replications, playing a crucial role in shaping our data-driven strategies.",
@@ -1017,6 +1342,75 @@ const Jobdescription = [
            
     //     ]
     // },
+    {
+        applyfor: "Data Analyst",
+        title: "Data Analyst",
+        level:"Mid-Senior",
+        experience:"5 to 10 years",
+        location:"Hyderabad, India",
+        aboutdescription: "We are looking for a detail-oriented and collaborative Data Analyst to join our business analytics team.  The ideal candidate should have experience working with large data sets and understand how to manipulate and analyze  them using various statistical and mathematical methods. Must have prior experience with BI and visualization tools,   have intimate knowledge of Relational Database and Data Warehousing technologies, and have an innate curiosity towards  finding ways to create value for customers from data. The Data Analyst will work alongside product management,  product development, data engineers, and data scientists.",
+        unorderedlist: [
+                {
+                    content: "Work with a variety of data sources - extracting knowledge and actionable information from massive datasets towards solving business problems."
+                },
+                {
+                   content: "Own the design of advanced analytics dashboards and KPI reports in our BI tool starting from requirements gathering across sales, product and senior leadership teams to the delivery of final, polished reports in production."
+                },
+                {
+                    content: "Work closely with the Data Science and Data Engineering team to deliver actionable insights to the organization."
+                },
+                {
+                    content: "Strong ability to troubleshoot and resolve data-related bugs in a timely manner."
+                },
+                {
+                    content: "Ability to build tabular and/or visualization reports as needed."
+                },
+                {
+                    content: "Build and flesh out data models in our Data Warehouse for use in regular and/or automated reporting and analysis."
+                },
+                {
+                    content: "Evaluate operations for inefficiencies and identify areas where you can create, automate, and develop tools (SQL-based or otherwise)."
+                },
+                {
+                    content: "Continuously strive for a deeper understanding of our business drivers."
+                },
+                {
+                    content: "Grow to serve as the team’s subject matter expert for advanced analytics and report design, offering insights and suggestions on what potential problems the team should be solving."
+                }
+        ],
+        unorderedlist1: [
+                {
+                    content: "5 to 10 years of experience in an analytical role with a heavy focus on querying data, analyzing and clearly presenting analyses to stakeholders across the organization."
+                },
+                {
+                    content: "Ability to translate between technical metrics and business KPIs and act as a bridge between technical and non-technical internal stakeholders."
+                },
+                {
+                    content: "A love for insights, innate curiosity, and a deep desire to find ways to create value."
+                },
+                {
+                    content: "Expertise with SQL and Excel (experience working with Python, HiveQL will be a plus)."
+                },
+                {
+                    content: "Familiarity with transactional and data warehouse environments."
+                },
+                {
+                    content: "Experience designing reports, dashboards, and visualizations with a BI product."
+                },
+                {
+                    content: "Previous experience on a data team in an agile environment preferred."
+                },
+                {
+                    content: "A flexible, collaborative teammate with the ability to deliver both high level explanations of complex problems while also able to deep dive into complex problems."
+                },
+                {
+                    content: "Strong communication skills, both verbal and written."
+                },
+                {
+                    content: "The business sense to understand why you are pulling the data and whether it seems accurate...not just pulling it."
+                }
+        ],
+    },
     {
         applyfor: "Java Full Stack",
         title: "Java Full Stack",

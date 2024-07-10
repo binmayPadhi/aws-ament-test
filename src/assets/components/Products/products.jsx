@@ -52,7 +52,7 @@ const Product = () => {
           </div>
           <div className="col-lg-1"></div>
           <div className="col-lg-6">
-          <img src={test} className="test-image" />
+          <img loading="lazy" src={test} className="test-image" />
           </div>
         </div>
         </div>
@@ -82,7 +82,7 @@ const Product = () => {
           </div>
           <div className="col-lg-1"></div>
           <div className="col-lg-6">
-          <img src={second} className="test-image" />
+          <img loading="lazy" src={second} className="test-image" />
           </div>
         </div>
         </div>

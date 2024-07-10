@@ -98,28 +98,28 @@ function TechnologyStack() {
 
       {/* <Slider {...settings}>
           <div>
-          <img className="img-fluid mx-auto" src= {microsoftLogo} alt = "Partner"/>
+          <img loading="lazy" className="img-fluid mx-auto" src= {microsoftLogo} alt = "Partner"/>
           </div>
           <div>
-          <img className="img-fluid mx-auto" src= {microsoftLogo} alt = "Partner"/>
+          <img loading="lazy" className="img-fluid mx-auto" src= {microsoftLogo} alt = "Partner"/>
           </div>
           <div>
-          <img className="img-fluid mx-auto" src= {microsoftLogo} alt = "Partner"/>
+          <img loading="lazy" className="img-fluid mx-auto" src= {microsoftLogo} alt = "Partner"/>
           </div>
           <div>
-          <img className="img-fluid mx-auto" src= {microsoftLogo} alt = "Partner"/>
+          <img loading="lazy" className="img-fluid mx-auto" src= {microsoftLogo} alt = "Partner"/>
           </div>
           <div>
-          <img className="img-fluid mx-auto" src= {microsoftLogo} alt = "Partner"/>
+          <img loading="lazy" className="img-fluid mx-auto" src= {microsoftLogo} alt = "Partner"/>
           </div>
           <div>
-          <img className="img-fluid mx-auto" src= {microsoftLogo} alt = "Partner"/>
+          <img loading="lazy" className="img-fluid mx-auto" src= {microsoftLogo} alt = "Partner"/>
           </div>
           <div>
-          <img className="img-fluid mx-auto" src= {microsoftLogo} alt = "Partner"/>
+          <img loading="lazy" className="img-fluid mx-auto" src= {microsoftLogo} alt = "Partner"/>
           </div>
           <div>
-          <img className="img-fluid mx-auto" src= {microsoftLogo} alt = "Partner"/>
+          <img loading="lazy" className="img-fluid mx-auto" src= {microsoftLogo} alt = "Partner"/>
           </div>
           </Slider> */}
     </>

@@ -28,7 +28,7 @@ const Exploreservices = ({ selectedServicesobj }) => {
                         <Link
                           to={`/services/${selectedServicesobj.link}/${response.sublink}`}
                         >
-                          <img src={response["arrow-image"]} />
+                          <img loading="lazy" src={response["arrow-image"]} />
                         </Link>
                       </span>
                     </div>
@@ -56,7 +56,7 @@ const Exploreservices = ({ selectedServicesobj }) => {
                             <Link
                               to={`/services/${selectedServicesobj.link}/${response.sublink}`}
                             >
-                              <img src={response["arrow-image"]} />
+                              <img loading="lazy" src={response["arrow-image"]} />
                             </Link>
                           </span>
                         </div>

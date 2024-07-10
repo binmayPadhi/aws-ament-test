@@ -18,7 +18,7 @@ function Encourageopportunities() {
           </p>
           <div className="row mt-5">
             <div className="col-lg-6 col-md-6 col-sm-12">
-              <img src={encourage} className="encourage-img" />
+              <img src={encourage} className="encourage-img" loading="lazy" />
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 pt-4">
               {opportunitiesJson.map((response) => {

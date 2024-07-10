@@ -96,6 +96,12 @@ function Test() {
         <title>Artificial Intelligence (AI) and Data Analytics Services Provider </title>
         <meta name="description" content="Amnet digital is a Data Analytics and AI solutions company that helps businesses make data-driven decisions. Request Free AI & Data Analytics consultation" />
         <meta name="keywords" content="AI, data analytics, advanced analytics, analytics" />
+        <link rel="canonical" href="https://www.amnetdigital.com/" />
+        <link rel="canonical" href="https://www.amnetdigital.com/about-us" />
+        <meta property="og:title" content="Artificial Intelligence (AI) and Data Analytics Services Provider" />
+        <meta property="og:description" content="Amnet digital is a Data Analytics and AI solutions company that helps businesses make data-driven decisions. Request Free AI & Data Analytics consultation" />
+        <meta property="og:url" content="https://www.amnetdigital.com/" />
+        <meta property="og:type" content="website" />
       </Helmet>
       <MediaQuery minWidth={1025}>
         <div className="h-100 position-relative">
@@ -110,6 +116,7 @@ function Test() {
             <source
               src="https://amnet-digital-website.s3.amazonaws.com/FinalVersion.mp4"
               type="video/mp4"
+               loading="lazy"
             />
           </video>
           <div class="card-overlay"></div>
@@ -159,7 +166,7 @@ function Test() {
                             </td>
                             <td className="border-0">
                               {list.id != 3 ? (
-                                <img src={vector} width="2" height="75" />
+                                <img src={vector} width="2" height="75" loading="lazy" />
                               ) : null}
                             </td>
                           </tr>

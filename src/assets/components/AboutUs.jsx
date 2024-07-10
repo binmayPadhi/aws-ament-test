@@ -29,16 +29,23 @@ function TestAboutUs() {
     history(`/services`);
   };
 
-  return (  
+  return (
     <>
-    <Helmet>
+      <Helmet>
         <meta charSet="utf-8" />
         <title>Your Partner in making Data-Driven Decisions | Amnet Digital</title>
         <meta name="description" content="Amnet Digital is a Data, Analytics & AI solutions company that helps businesses make 
             data-driven decisions." />
-            <meta name="keywords" content="Data, Analytics, AI" />
+        <meta name="keywords" content="Data, Analytics, AI" />
+        <link rel="canonical" href="https://www.amnetdigital.com/about-us" />
+        <meta property="og:title" content="Your Partner in making Data-Driven Decisions | Amnet Digital" />
+        <meta property="og:description" content="Amnet Digital is a Data, Analytics & AI solutions company that helps businesses make 
+            data-driven decisions." />
+        <meta property="og:url" content="https://www.amnetdigital.com/about-us" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="../images/About-Us-Page/worker-reading-news-with-tablet.png" />
       </Helmet>
-    
+
       <div
         className="sub-service-intro position-realtive"
         style={{
@@ -108,7 +115,7 @@ function TestAboutUs() {
                   className="col-md-3 col-lg-3 col-sm-12 text-center"
                 >
                   <p className="mb-0">
-                    <img src={list.image} className="w-25" />
+                    <img src={list.image} className="w-25"loading="lazy"  />
                   </p>
                   <p className="fw-bold-600 fs-19 text-nero">{list.heading}</p>
                   <p className="fw-bold-400 fs-16 text-grey">
@@ -138,7 +145,7 @@ function TestAboutUs() {
       </div>
 
       <div className="mt-5 w-100">
-        <img alt=" " src={achievement} className="w-100" />
+        <img alt=" " src={achievement} className="w-100" loading="lazy" />
       </div>
 
       <MediaQuery query="(max-width: 767px)">
@@ -148,7 +155,7 @@ function TestAboutUs() {
               <div className="w-90 mx-auto">
                 <p className="fw-bold-500 fs-32 text-white">CEO Message</p>
                 <p className="text-white fs-16 fw-bold-700 mt-4">
-                Our purpose is to make a  positive business impact that matters.
+                  Our purpose is to make a  positive business impact that matters.
                 </p>
                 <p className="mt-2 text-white fs-16 fw-bold-400 mt-5">
                   Our only goal is to deliver real business value to all our stakeholders—customers, associates, and partners. We empower organizations with our deep tech (Data, Analytics & AI) and industry experience in solving their biggest technology challenges and contributing toward business growth consistently.
@@ -156,7 +163,7 @@ function TestAboutUs() {
                 </p>
                 <p className="w-100 align-items-center">
                   <div className="d-flex justify-content-center">
-                    <img src={ceo} className="ceo-image-style" />
+                    <img src={ceo} className="ceo-image-style" loading="lazy" />
                   </div>
                   <div className="d-flex justify-content-center">
                     <p className="text-white fs-24 fw-bold-700 mb-0">
@@ -184,7 +191,7 @@ function TestAboutUs() {
                 </p>
                 <p className="d-flex w-100 justify-content-between mt-15px">
                   <span className="text-white fs-16 fw-bold-700 mt-4">
-                  Our purpose is to make a  positive business impact that matters.
+                    Our purpose is to make a  positive business impact that matters.
                   </span>
                   <span className="text-white fs-16 fw-bold-700">
                     <p className="text-white fs-24 fw-bold-700 mb-0">
@@ -197,7 +204,7 @@ function TestAboutUs() {
             </div>
             <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12">
               <div className="d-flex w-100 justify-content-center align-items-end">
-                <img src={ceo} className="w-100" />
+                <img src={ceo} className="w-100" loading="lazy" />
               </div>
             </div>
           </div>
@@ -225,7 +232,7 @@ function TestAboutUs() {
         <h1 className="section-title text-center mb-5">Global Footprint</h1>
       </div>
       <div className="w-98 mx-auto">
-        <img src={global} className="gload-title" />
+        <img src={global} className="gload-title" loading="lazy" />
       </div>
 
 
@@ -237,7 +244,7 @@ function TestAboutUs() {
         <Letsconnect />
       </div>
 
-     
+
 
     </>
   );

@@ -73,11 +73,11 @@ function IndustrySection() {
    
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <img src={previous} className="w-25"/>
+    <img src={previous} className="w-25" loading="lazy" />
     <span class="visually-hidden">Previous</span>
   </button>
   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-  <img src={next} className="w-25"/>
+  <img src={next} className="w-25" loading="lazy" />
     <span class="visually-hidden">Next</span>
   </button>
 </div>

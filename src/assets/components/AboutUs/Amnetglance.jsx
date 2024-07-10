@@ -55,7 +55,7 @@ setInterval(function () {
                           }}
                           className={list.count}
                         >
-                          <img src={list.image} className="w-50px" />
+                          <img src={list.image} className="w-50px" loading="lazy"  />
                         </p>
                       </td>
                     </tr>
@@ -105,7 +105,7 @@ setInterval(function () {
                           }}
                           className={list.count === "60" ? "mt-4" : ""}
                         >
-                          <img src={list.image} className="w-50px" />
+                          <img src={list.image} className="w-50px" loading="lazy"  />
                         </p>
                       </td>
                     </tr>

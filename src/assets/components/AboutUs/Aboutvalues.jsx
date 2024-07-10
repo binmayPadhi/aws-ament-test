@@ -18,7 +18,7 @@ const Aboutvalues = () => {
                 >
                   <div className="row">
                     <div className="col-2 text-right">
-                      <img src={list.image} className="w-50px" />
+                      <img src={list.image} className="w-50px" loading="lazy" />
                     </div>
                     <div className="col-10">
                       <p className="fs-18 fw-bold-600 text-white mb-0">
