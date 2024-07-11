@@ -24,7 +24,6 @@ import Equalitas from "../images/HomePage/Equalitasimag.svg";
 import Business from "../images/HomePage/Business Connect Award.png";
 import soc from "../images/HomePage/SOC2img.svg";
 
-// import soc from "../images/Resources-page/SOC2_Logo.png";
 
 
 function Footer() {
@@ -94,13 +93,6 @@ function Footer() {
           target: " ",
           tooltip: "Coming Soon...",
         },
-        // {
-        //   id: 23,
-        //   name: "Intelligent Document Processor",
-        //   link: "",
-        //   target: "_blank",
-
-        // }
       ],
     },
     {
@@ -111,7 +103,6 @@ function Footer() {
           id: 31,
           name: "AI/ML",
           link: "/services/ai-ml",
-          // target: "_balnk",
         },
         {
           id: 32,

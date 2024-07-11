@@ -3,8 +3,6 @@ import "../../CSS/Services.css";
 import OurServicesData from "../../Data/Homepage-Data/OurServicesData";
 import { Card } from "react-bootstrap";
 
-// import {BrowserRouter as Router, Link} from "react-router-dom";
-
 function OurServices() {
   return (
     <>

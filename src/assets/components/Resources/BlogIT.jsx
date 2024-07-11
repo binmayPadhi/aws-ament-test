@@ -3,7 +3,6 @@ import blog4 from "../../images/Resources-page/blog4.png";
 import BlogITdata from "../../Data/Resources-Data/BlogITdata";
 import { Helmet } from "react-helmet";
 import { useNavigate } from "react-router-dom";
-// import "../../CSS/Insight.css";
 import Letsgetstart from "../Webinars/Letsgetstart";
 import Newgetstart from "../Webinars/Newgetstart";
 

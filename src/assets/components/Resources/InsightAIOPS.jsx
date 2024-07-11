@@ -2,7 +2,6 @@ import React from "react";
 import blog3 from "../../images/Resources-page/blog3.png";
 import BlogAIOPS from "../../Data/Resources-Data/BlogAIOPS";
 import { useNavigate } from "react-router-dom";
-// import "../../CSS/Insight.css";
 import Letsgetstart from "../Webinars/Letsgetstart";
 import { Helmet } from "react-helmet";
 import Newgetstart from "../Webinars/Newgetstart";

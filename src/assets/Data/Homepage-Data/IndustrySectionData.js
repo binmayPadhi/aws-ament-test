@@ -15,11 +15,6 @@ const IndustrySectionData = {
     industryTitle: "Logistics & Supply Chain",
     industryIMG: LogisticsIMG, 
   },
-  // {
-  //   id: "healthcare",
-  //   industryTitle: "Healthcare",
-  //   industryIMG: HealthcareIMG,
-  // },
   {
     id: "information-management",
     industryTitle: "Information Management",
@@ -54,11 +49,6 @@ SectionDatasecond:[
     Titleindustry: "Healthcare",
     IMGindustry: HealthcareIMG,
   },
-  // {
-  //   id: "retail-ecommerce",
-  //   Titleindustry: "Retail & E-Commerce",
-  //   IMGindustry: ReatilIMG,
-  // },
  
 ]
 

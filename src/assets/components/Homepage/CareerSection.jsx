@@ -3,12 +3,7 @@ import careerBG from "../../images/HomePage/amnet-career-section-bg.jpg";
 import styled from "styled-components";
 
 function CareerSection() {
-  // const careerStyle = {
-  //     backgroundImage:`url(${careerBG})`,
-  //     backgroundAttachment: "scroll",
-  //     backgroundRepeat: "no-repeat",
-  //     backgroundSize: "cover",
-  // }
+
 
   const Content = styled.div`
     padding: 10px;

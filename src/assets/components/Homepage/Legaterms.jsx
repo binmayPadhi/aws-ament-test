@@ -25,20 +25,6 @@ const Legalterms = () => {
       desc: "This Site provides online access to information about our organization, products, solutions, services, and opportunities...",
       link: "termsandconditions",
     },
-    // {
-    //   id: 4,
-    //   heading: "Trademarks",
-    //   updated: "Last updated on 26 July 2022",
-    //   desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
-    //   link: "privacy",
-    // },
-    // {
-    //   id: 5,
-    //   heading: "Licenses",
-    //   updated: "Last updated on 26 July 2022",
-    //   desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
-    //   link: "privacy",
-    // },
   ];
   return (
     <>

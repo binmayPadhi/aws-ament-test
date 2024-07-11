@@ -1,6 +1,7 @@
 import React, { useEffect, useState, Suspense } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import services from "../../Data/Services-Data/ExploreservicesData";
+import redirectservice from "../../Data/serviceredirect-dta/Redirectdata";
 import thinborder from "../../images/Service-Page/thin-border.png";
 import borderBg from "../../images/Service-Page/border.png";
 import CaseStudiesSection from "../Homepage/CaseStudiesSection";
@@ -15,7 +16,9 @@ const AIservices = () => {
   const [serviceUrl, setServiceUrl] = useState("");
   
   useEffect(() => {
+    console.log(params,"params1")
     services.map((res) => {
+      console.log(params,"params2")
       if (res.serviceName === params.name) {
         setServiceData(res);
         let x = Object.values(res.sub);
@@ -23,12 +26,16 @@ const AIservices = () => {
         setSelectedservice(res.sub.data[0]["name"]);
         setSelectedserviceobj(res.sub.data[0]);   
         const url =`https://www.amnetdigital.com/services/${res.serviceName}/${res.sub.data[0].sublink}`;
-        setServiceUrl(url);
-        // console.log(url,"data")  
+        setServiceUrl(url); 
       }else{
+        redirectservice.map((res)=>{
+          if(res.name === params.name){
+            history(res.redirecturl)
+          }
+          
+        })
         const url =`https://www.amnetdigital.com/services/${res.serviceName}`;
-        setServiceUrl(url);
-        // console.log(url,"data-annotation")  
+        setServiceUrl(url); 
       }
 
     });
