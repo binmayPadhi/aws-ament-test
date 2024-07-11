@@ -23,10 +23,6 @@ const Telanganadata = [
         description10: " under Best Services category. ",
         links3: "mailto:careers@amnetdigital.com",
         dst3: " avinash.addi@amnetdigital.com ",
-        // descri:"Click on the",
-        // link:"https://businessconnectindia.in/amnet-digital/",
-        // ds:"link",
-        // textelem:" to see an announcement on Business Connect.",
     },
 
 ]

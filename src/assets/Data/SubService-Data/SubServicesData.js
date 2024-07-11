@@ -1,9 +1,7 @@
 import AIMLBG from "../../images/Sub-Service-Images/AI-ML-Images/ai-ml-bg.jpg";
-// import dmBG from "../../images/Sub-Service-Images/Data-Labeling-Images/we-are-available-bg.jpg";
 import dmBG1 from "../../images/Sub-Service-Images/Data-Labeling-Images/data-annotation-bg.jpg";
 import CloudServiceBG from "../../images/Sub-Service-Images/Cloud-Images/cloud-services-bg.jpg";
 import PlatformEngineeringBG from "../../images/Sub-Service-Images/Platform-Engineering-Images/platform-engineering-bg.jpg";
-// import QualityAssuranceBG from "../../images/Sub-Service-Images/Quality-Assurance-Images/quality-assurance-bg.jpg";
 import ConsultingBG from "../../images/Sub-Service-Images/Consulting-Images/consulting-bg.jpg";
 import DataEngineeringBG from "../../images/Sub-Service-Images/Data-Engineering-Images/data-engg-bg.jpg";
 import DataManagementBG from "../../images/Sub-Service-Images/Data-Management-Images/data-mgmt-bg.jpg";
@@ -98,7 +96,3 @@ const subServicesData = [
 
 export default subServicesData;
 
-
-// if('a nice string'.includes('nice')){
-//     return console.log("working");
-// }

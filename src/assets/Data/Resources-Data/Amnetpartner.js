@@ -1,9 +1,7 @@
 const AmnetpartnerData = [
     {
         id: 1,
-        // title: "NEWS PROVIDED BY",
-        // amnet: "Amnet Digital ->",
-        // subtitle: "30 May, 2024, 10:00 AM IST",
+       
         paragraph: "AUSTIN, DUBAI, HYDERABAD, May. 30, 2024/Intel Partner Alliance/– -", 
         parag:"Amnet Digital, a prominent IT services company offering comprehensive software solutions, is delighted to unveil its latest partnership with Intel, a global leader in technology innovation. This collaboration represents a significant milestone for Amnet Digital, blending its extensive expertise in IT services with Intel's cutting-edge technology offerings. ",
         paragraph1: "By integrating our software solutions with Intel's advanced technology, we are poised to redefine the digital landscape, empowering businesses with unparalleled capabilities and driving transformative outcomes. This partnership underscores our steadfast commitment to delivering innovative solutions that address the evolving needs of our clients and propel them towards greater success in the digital era.",
@@ -11,30 +9,15 @@ const AmnetpartnerData = [
         des:"Swift Insights ",
         textelement: " is a cutting-edge artificial intelligence solution designed to meet the evolving needs of businesses across various industries. By harnessing the power of AI, Swift Insight offers unparalleled efficiency, accuracy, and scalability, enabling organizations to drive innovation and achieve competitive advantages. Key features of Solution include computing-intensive tasks, that transforms your data into actionable insights each tailored to enhance operational workflows, data analysis, and decision-making processes.",
         des1: "Optimization on Intel Architecture",
-        // textelement1: "Single platform for enterprise data discovery and report management.",
-        // des2: "Decision Making: ",
-        // textelement2: "Make the right decisions at the right time and act fast under dynamic market needs.",
-        // des3: "Business Insights: ",
-        // textelement3: "AI-powered reports with actionable insights.",
-        // des4: "Q&A Analytics: ",
-        // textelement4: "LLM powered instant business related answers from the data.",
+    
         description2: "To maximize performance and efficiency, Swift Insight has been meticulously optimized for Intel Architecture, leveraging the advanced capabilities of OpenVINO AI Toolkits. This optimization ensures that Swift insight fully utilizes the underlying hardware, resulting in faster processing times, reduced latency, and increased throughput for AI workloads.",
-        // textnrml: "As we launch ",
-        // boldtext: "Swift Insights, ",
         textnrml1: "The optimization process involved showcase inference performance speed, that reduces latency which were applied to critical components of Solution. These enhancements allow the solution to take full advantage of Intel's powerful processors, making Swift Insight not only more efficient but also more versatile across different deployment scenarios.",
-        // boldtext1: " Krishna Reddy, CEO ",
-        // textnrml2: "at ",
-        // boldtext2: "Amnet Digital.",
+     
         textnrml3: "Amnet Digital Solution has been optimized on the Intel(R) Xeon(R) Gold 6454S processor (Sapphire Rapids) which is renowned for its robust performance and reliability. The Intel Platform offers an extensive ecosystem of tools and libraries that further streamline the development and deployment of AI solutions, making it an ideal choice for Swift Insight.",
-        // boldtext3: " 10x ",
-        // textnrml4: "faster from your business data stack! Would you like to see how? ",
-        // textelement5: "Request a demo",
-        // description5: "We drive and measure our success by the real value we deliver for our clients, partners, communities, and employees. Visit us at",
-        // link: "www.swiftinsights.ai",
+   
         sideheading1: "About Amnet Digital",
         description6: "Amnet Digital is a leading provider of AI solutions, committed to delivering innovative and effective solutions that empower businesses to stay ahead in the digital era. With a focus on research and development, Amnet Digital continues to push the boundaries of what's possible with artificial intelligence. ",
-        // link1: "AI-powered analytics platform ",
-        // description7: " that accelerates and transforms your business data into actionable insights to make informed decisions. * Powered by Amnet Digital.",
+       
         sideheading2: "About Amnet Digital",
         description8: "For more information about  Amnet Digital please visit our website at",
         link2: " https://www.amnetdigital.com/.",
@@ -43,10 +26,6 @@ const AmnetpartnerData = [
         description10: "https://www.linkedin.com/company/amnet-digital/",
         links3: "mailto:careers@amnetdigital.com",
         dst3: " anikey.dey@amnetdigital.com",
-        // descri:"Click on the",
-        // link:"https://businessconnectindia.in/amnet-digital/",
-        // ds:"link",
-        // textelem:" to see an announcement on Business Connect.",
     },
 
 ]

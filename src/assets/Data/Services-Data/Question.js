@@ -6,10 +6,6 @@ const Question = ({ title, info }) => {
   const showHandler = e => {
     setShowInfo(!showInfo);
 
-    // //2. Another way to use handler
-    // setShowInfo(prevShowInfo => {
-    //   return !prevShowInfo;
-    // });
   };
   return (
     <article className="question">

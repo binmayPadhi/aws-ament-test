@@ -51,7 +51,7 @@ const Sitemap = () => {
              <a href="/services/ai-ml/generative-ai">Generative AI</a>
              </p>
              <p className="fs-18">
-             <a href="/services/ai-ml/generative-ai">Data Engineering</a>
+             <a href="/services/data-engineering">Data Engineering</a>
              </p>
              <p className="fs-18">
              <a href="/services/cloud-services">Cloud Services</a>

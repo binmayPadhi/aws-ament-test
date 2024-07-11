@@ -3,6 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import services from "../../Data/Services-Data/ExploreservicesData";
 import thinborder from "../../images/Service-Page/thin-border.png";
 import borderBg from "../../images/Service-Page/border.png";
+import ServiceRedirectData from "../../Data/serviceredirect-dta/Redirectdata";
 import "../../CSS/Services.css";
 import CaseStudiesSection from "../Homepage/CaseStudiesSection";
 import { Helmet } from "react-helmet";
@@ -16,7 +17,7 @@ const Viewsubservice = () => {
   const [selectedServicesobj, setSelectedserviceobj] = useState({});
   const history = useNavigate();
   useEffect(() => {
-    // console.log(params.service,"welcom");
+    console.log(params,"manikanta")
     services.map((res) => {
   
       if (res.serviceName === params.name) {
@@ -29,6 +30,12 @@ const Viewsubservice = () => {
             setSelectedserviceobj(data);
           }
         });
+      }else{
+        ServiceRedirectData.map((res)=>{
+           if(res.name === params.service ){
+            history(res.redirecturl)
+           }
+        })
       }
     });
     if (window.innerWidth > 1024) {

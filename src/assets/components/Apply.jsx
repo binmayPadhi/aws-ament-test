@@ -57,9 +57,7 @@ const Apply = () => {
 
     const [res, setObject] = useState({});
     let location = window.location.pathname;
-    // console.log(location)
     let getSelectedJobFromRoute = location.split("/");
-    // console.log(getSelectedJobFromRoute[2])
     useEffect(() => {
         let selectedJob = sessionStorage.getItem('job');
         if (selectedJob === null) {

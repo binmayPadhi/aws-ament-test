@@ -4,7 +4,7 @@ const RedirectAIML = () => {
 
     const navigate = useNavigate();
     useEffect(() => {
-      navigate("/services/aiml");
+      navigate("/services/ai-ml");
     })
 }
 
