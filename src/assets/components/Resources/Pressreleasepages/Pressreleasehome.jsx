@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import blogImg from "../../../images/Resources-page/pressimage.png";
-// import "../../CSS/Insight.css";
 import { useNavigate } from "react-router-dom";
 import Presshomedata from "../../../Data/Resources-Data/Presshomedata";
 import { Helmet } from "react-helmet";

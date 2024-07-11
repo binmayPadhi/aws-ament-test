@@ -51,18 +51,7 @@ const Presshomedata = {
       title:"Webinar Press release - Reshaping the Retail Industry through Advanced Analytics and AI",
       description:"Amnet Digital introduced a webinar featuring three of its most experienced industry experts who addressed the uses of Advanced Analytics and AI in Retail.",
       image:pressrelease4,
-    },
-    // {
-    //   id:"the-real-value-ai-can-bring-to-retail-industry",
-    //   date:"August 16, 2023",
-    //   title:"The Real Value AI Can Bring to Your Retail Business",
-    //   description:"Did you know? Gartner predicts that by 2025, 80% of customer interactions will be managed by AI technologies, leading to more personalized experiences....",
-    //   image: blog7,
-    // },
-   
-   
-   
-    
+    },   
     
   ],
   ResourceData: [

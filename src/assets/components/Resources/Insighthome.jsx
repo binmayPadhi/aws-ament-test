@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import blogImg from "../../images/HomePage/blog_banner.png";
-// import "../../CSS/Insight.css";
 import Letsgetstart from "../Webinars/Letsgetstart";
 import { useNavigate } from "react-router-dom";
 import Insightdata from "../../Data/Resources-Data/Insightdata";

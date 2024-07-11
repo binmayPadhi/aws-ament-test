@@ -12,13 +12,6 @@ import AboutUsBG from "../images/About-Us-Page/amnet-about-us-bg.jpg";
 
 function Test() {
   const [cookieName, setCookievalue] = useState("");
-  // useEffect(() => {
-  //   document.head.innerHTML+=`
-  //   <meta name='description' content='My description value!!!'/>
-  //   <meta name='keywords' content='My keywords!!!'/>
-  //   <title>hompage</title>
-  //   `
-  // }, []);
   useEffect(() => {
     let checkCookie = getCookie("username");
     setCookievalue(checkCookie);

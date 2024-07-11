@@ -1,10 +1,3 @@
-// import propensityIMG from "../../images/HomePage/case-studies/amnet-propensity-cs.jpg";
-// import riskAnalyticsIMG from "../../images/HomePage/case-studies/amnet-risk-analytics-cs.jpg";
-// import preventiveIMG from "../../images/HomePage/case-studies/amnet-recom-system-cs.jpg";
-// import propensityIcon from "../../images/HomePage/case-studies/amnet-propensity-cs-icon.png";
-// import riskAnalyticsIcon from "../../images/HomePage/case-studies/amnet-risk-analytics-cs-icon.png";
-// import preventiveIcon from "../../images/HomePage/case-studies/amnet-recom-system-cs-icon.png";
-
 
 import propensityIMG from "../../images/HomePage/case-studies/home-cs-propensity-modelling.jpg";
 import riskAnalyticsIMG from "../../images/HomePage/case-studies/home-cs-risk-analytics.jpg";

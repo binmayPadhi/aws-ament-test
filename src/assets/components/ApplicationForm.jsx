@@ -44,7 +44,6 @@ const schema = yup
       .matches(/[0-9]+/, "salary expectation is not valid")
       .required("Salary Expectation is required"),
     avaliblityDate: yup.string().required("Date Avaliblity is required"),
-    // resume: yup.string().required("Resume is required"),
     location: yup
       .string()
       .matches(/^[a-zA-Z ]*$/, "location is not valid")

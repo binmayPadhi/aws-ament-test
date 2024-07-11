@@ -37,10 +37,7 @@ const Webinarform = (props) => {
     });
   };
 
-  // const redirect = () => {
-  //   <Redirect to="/webinar-thank-you-reshaping-the-retail-industry-through-AI " />;
-  // };
-  // "template_3xhvl04",
+
 
   const submitregisterDetails = (e) => {
     e.preventDefault();

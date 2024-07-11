@@ -1,4 +1,3 @@
-// import listIcon from "../../images/HomePage/list-icon.png";
 import AIIcon from "../../images/HomePage/ai-icon.png";
 
 const careersDetailsData = [

@@ -39,17 +39,6 @@ const CurrentOpenings = () => {
     }
 
     const [toggle, settoggle] = useState("dataarchitect")
-    // const handleKeyPress = (event) => {
-    //     if(event.key === 'Enter'){
-    //       console.log('enter press here! ')
-    //     }
-    //   }
-
-    // const {       
-    //     formState: { },
-    // } = useForm({
-    //     resolver: yupResolver(),
-    // });
     return (
         <>
             <h1 className="fs-40 fw-bold-600 text-center pt-5">CURRENT OPENINGS</h1>

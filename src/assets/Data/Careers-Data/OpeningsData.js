@@ -1,21 +1,5 @@
 const Openings = [
-    // {
-    //   id: 1,
-    //   heading: "MID-SENIOR LEVEL",
-    //   role: "Full Stack Node",
-    //   location: "Hyderabad",
-    //   button: "Apply Now",
-    //   link:"/careers",
-    //   sublink: "full-stack-node",
-    // },
-    // {
-    //   id: 2,
-    //   heading: "MID-SENIOR LEVEL",
-    //   role: "Application Engineer",
-    //   location: "Hyderabad",
-    //   button: "Apply Now",
-    //   sublink: "/careers/applicationengineering",
-    // },
+  
     {
       id: 4,
       heading: "MID-SENIOR LEVEL",
@@ -79,57 +63,7 @@ const Openings = [
       link:"/careers",
       sublink: "MEAN-stack-developer-lead",
     },
-    // {
-    //   id: 5,
-    //   heading: "MID-SENIOR LEVEL",
-    //   role: "Data Visualization",
-    //   location: "Hyderabad",
-    //   button: "Apply Now",
-    //   sublink: "/careers/datavisualization",
-    // },
-    // {
-    //   id: 6,
-    //   heading: "SENIOR LEVEL",
-    //   role: "Dot Net Developer",
-    //   location: "Hyderabad",
-    //   button: "Apply Now",
-    //   link:"/careers",
-    //   sublink: "dot-net-developer",
-    // },
-    // {
-    //   id: 7,
-    //   heading: "SENIOR LEVEL",
-    //   role: "Project Manager",
-    //   location: "Hyderabad",
-    //   button: "Apply Now",
-    //   sublink: "/careers/projectmanager",
-    // },
-    // {
-    //   id: 8,
-    //   heading: "MID-SENIOR LEVEL",
-    //   role: "QA Lead/Analyst",
-    //   location: "Hyderabad",
-    //   button: "Apply Now",
-    //   sublink: "/careers/qalead",
-    // },
-    // {
-    //   id: 9,
-    //   heading: "SENIOR LEVEL",
-    //   role: "Azure Architect",
-    //   location: "Hyderabad",
-    //   button: "Apply Now",
-    //   link:"/careers",
-    //   sublink: "azure-architect",
-    // },
-    // {
-    //   id: 10,
-    //   heading: "SENIOR LEVEL",
-    //   role: "Data Architect",
-    //   location: "Hyderabad",
-    //   button: "Apply Now",
-    //   link:"/careers",
-    //   sublink: "data-architect",
-    // },
+    
     {
       id: 11,
       heading: "SENIOR LEVEL",
@@ -162,14 +96,6 @@ const Openings = [
       button: "Apply Now",
       sublink: "einstein-analytics",
     },
-    // {
-    //   id: 13,
-    //   heading: "SENIOR LEVEL",
-    //   role: "Java Architect",
-    //   location: "Hyderabad",
-    //   button: "Apply Now",
-    //   sublink: "java-architect",
-    // },
     {
       id: 13,
       heading: "SENIOR LEVEL",
@@ -178,14 +104,6 @@ const Openings = [
       button: "Apply Now",
       sublink: "lead-full-stack",
     },
-    // {
-    //   id: 13,
-    //   heading: "SENIOR LEVEL",
-    //   role: "React Js Developer",
-    //   location: "Hyderabad",
-    //   button: "Apply Now",
-    //   sublink: "react-js-developer",
-    // },
   
     {
       id: 13,
