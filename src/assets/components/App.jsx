@@ -51,6 +51,7 @@ import Telangana from "./Resources/Pressreleasepages/Telangana";
 import Thankswebinarcopy from "./Resources/Pressreleasepages/Thankswebinarcopy";
 import Amnetpartner from "./Resources/Pressreleasepages/Amnetpartner";
 import Sitemap from "./Sitemap/sitemap";
+import AIrecognition from "./Resources/Pressreleasepages/AIrecognition";
 
 
 function App() {
@@ -110,6 +111,7 @@ function App() {
             <Route path="ament-digital-announces-launch-of-swift-insights" element={<Pressreleasetwo />} />
             <Route path="telangana-state-awards-winner" element={<Telangana />} />
             <Route path="amnet-digital-partners-with-intel" element={<Amnetpartner />} />
+            <Route path="leading-gen-ai-chatbot-solutions" element={<AIrecognition />} />
             <Route path="amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023" element={<Pressdata />} />
           </Route>
           <Route path="/blogs" element={<Blog />}>
