@@ -14,14 +14,22 @@ import pressrelease2 from "../../images/Resources-page/TSAwards.png";
 import pressrelease3 from "../../images/Resources-page/pressreleasetwo.png";
 import pressrelease4 from "../../images/Webinar-images/Bg-webinar-Img.png";
 import intelbg from "../../images/Resources-page/Partnershipbgimg.jpg";
+import pressrelease5 from "../../images/press-release-latest.png";
 
 const Presshomedata = {
   carddetails: [
     {
+      id:"leading-gen-ai-chatbot-solutions",
+      date:"July 24, 2024",
+      title:"Amnet Digital recognized as Leading Generative AI & Chatbot Solutions 2024",
+      description:"Amnet Digital is recognized as a leader in Generative AI and Chatbot solutions for 2024...",
+      image:pressrelease5,
+    },
+    {
       id:"amnet-digital-partners-with-intel",
       date:"May 30, 2024",
       title:"Amnet Digital unveils partnership with Intel, blending IT expertise with innovation",
-      description:"Excited to announce partnership with Intel, merging digital prowess with cutting-edge tech for promising tranformative outcomes for businesses worldwide.",
+      description:"Excited to announce partnership with Intel, merging digital prowess with cutting-edge...",
       image:intelbg,
     },
     {
@@ -48,8 +56,8 @@ const Presshomedata = {
     {
       id:"reshaping-the-retail-industry-through-AI",
       date:"November 17, 2022",
-      title:"Webinar Press release - Reshaping the Retail Industry through Advanced Analytics and AI",
-      description:"Amnet Digital introduced a webinar featuring three of its most experienced industry experts who addressed the uses of Advanced Analytics and AI in Retail.",
+      title:"Webinar Press release - Reshaping the Retail Industry...",
+      description:"Amnet Digital introduced a webinar featuring three of its most experienced industry experts who addressed...",
       image:pressrelease4,
     },   
     
