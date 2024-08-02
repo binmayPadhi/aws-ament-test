@@ -2154,9 +2154,7 @@ label {
   color: black;
 }
 
-/* .about-us-details {
-  margin-top: 50px;
-} */
+
 
 .about-us-desc-img-right h2 {
   font-size: 3rem;
@@ -2177,9 +2175,6 @@ label {
 /* .............................................................................................................................. */
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
-  /* body{
-        overflow-x: hidden;
-    } */
 
   .about-us-img-left {
     float: none;
@@ -2254,12 +2249,6 @@ label {
 /* SERVICES PAGE STYLES */
 /* ................................................................................................ */
 
-/* .service-page-intro {
-  background-image:url('../images/Service-Page/amnet-our-services-bg.jpg');
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 .img-left {
   float: left;
@@ -2279,13 +2268,9 @@ label {
   box-shadow: 3px 6px 16px #0000004d;
 }
 
-/* .service-page-img:nth-child(even) {
-    float: right;
-  } */
 
 .service-desc {
   margin-left: 10px;
-  /* padding: 60px; */
   font-family: "Poppins", sans-serif;
 }
 
@@ -2499,12 +2484,6 @@ label {
 /* CASE STUDIES PAGE STYLES */
 /* .................................................................................................................... */
 
-/* .case-studies-intro {
-  background-image:url('../images/Case-Studies-Page/amnet-case-studies-bg.jpg');
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 .case-studies-page-row {
   margin-top: -30px;
@@ -2596,7 +2575,6 @@ label {
     position: absolute;
     height: 80px;
     width: 80px;
-    /* top: 50%; */
     left: 38%;
     transform: translate(0%, -90%);
   }
@@ -2624,7 +2602,6 @@ label {
     position: absolute;
     height: 100px;
     width: 100px;
-    /* top: 50%; */
     left: 43%;
     transform: translate(0%, -90%);
   }
@@ -2652,7 +2629,6 @@ label {
     position: absolute;
     height: 100px;
     width: 100px;
-    /* top: 50%; */
     left: 43%;
     transform: translate(0%, -90%);
   }
@@ -2723,10 +2699,6 @@ label {
   height: 394px;
 }
 
-/* INDUSTRY BUSINESS VERTICAL */
-/* .industry-page-business-vertical-section {
-  margin-top: 60px;
-} */
 
 .industry-page-business-vertical {
   background-color: black;
@@ -2763,10 +2735,7 @@ label {
   padding: 10px 0px;
 }
 
-/* INDUSTRY AI SOLUTIONS */
-/* .industry-page-ai-solution-section {
-  margin-top: 60px;
-} */
+
 
 .industry-page-ai-solution-section .section-title {
   text-align: center;
@@ -2819,7 +2788,6 @@ label {
 
 /* INDUSTRY OUR OFFERINGS */
 .industry-page-our-offering-section {
-  /* margin-top: 60px; */
   margin-bottom: 60px;
 }
 
@@ -2828,7 +2796,6 @@ label {
 }
 
 .industry-page-our-offering {
-  /* background-image: linear-gradient(to right,#19AF8F , #0ebe98); */
   background-color: #e7e7e7;
   padding: 40px 0px;
   border-radius: 8px;
@@ -2845,7 +2812,6 @@ label {
 .our-offering-img img {
   width: 350px;
   height: 350px;
-  /* border-radius: 50%; */
   margin-top: 15px;
   margin-left: 50px;
 }
@@ -3084,9 +3050,7 @@ label {
     margin-left: 0px;
   }
 
-  /* .our-offering-details{
-        justify-content: center;
-    } */
+
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1451px) {
@@ -3098,12 +3062,6 @@ label {
 /* CAREERS PAGE STYLES */
 /* ........................................................................................................................... */
 
-/* .careers-page-bg {
-  background-image:url('../images/careers-page/amnet-careers-bg.jpg');
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 .careers-page-details {
   font-family: "Poppins", sans-serif;
@@ -3135,19 +3093,6 @@ label {
   padding: 15px 0px;
 }
 
-/* .our-culture-section .culture-img-left{
-    padding-left: 5px !important;
-    padding-right: 5px !important;
-} */
-
-/* .our-culture-section .culture-img-right{
-    padding-left: 0px !important;
-} */
-
-/* .our-culture-section .amnet-images{
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-} */
 
 .culture-img-left .team-img {
   margin-top: 8px;
@@ -3525,7 +3470,6 @@ label {
 .sub-service-img-right-desc .about-icons {
   margin-left: 15px;
   margin-right: 20px;
-  /* margin-top: 30px; */
 }
 
 .sub-service-img-left-desc .about-icons {
@@ -3545,19 +3489,7 @@ label {
   padding: 10px 0px;
 }
 
-/* .service-all-margin .about-us-img-right{
-    width: 664px;
-    height: 380px;
-} */
 
-/* .sub-service-data-section img{
-    width: 610px;
-    height: 374px;
-} */
-
-/* .sub-service-data-section .sub-service-all-margin{
-    margin: 0px 100px 0px 100px;
-} */
 
 .sub-service-data-section .service-all-margin {
   margin: 0px 100px 0px 100px;
@@ -3574,10 +3506,6 @@ label {
   width: 100%;
   height: 250px;
   margin-bottom: 50px;
-  /* background-image:url("../src/assets/images/HomePage/amnet-career-section-bg.jpg");
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 .sub-service-career .career-caption {
@@ -3696,17 +3624,13 @@ label {
     margin-top: 20px;
   }
 
-  /* .sub-service-intro {
-        height: 80vh;
-    } */
+
   .subService-AIML-intro-caption h2 {
     font-size: 2rem;
     font-weight: 800;
   }
 
-  /* .subService-AIML-intro-caption {
-        top: 110px;
-    } */
+
 
   .subService-AIML-intro-caption p {
     font-size: 1.2rem;
@@ -3770,9 +3694,7 @@ label {
     height: 10px;
   }
 
-  /* .sub-service-intro {
-        height: 80vh;
-    } */
+
   .subService-AIML-intro-caption {
     top: 130px;
   }
@@ -4000,9 +3922,6 @@ label {
   }
 }
 
-/* .dropdown:hover>.dropdown-menu {
-    display: block;
-} */
 
 /*..................................................................................*/
 .video-background {
@@ -4081,11 +4000,7 @@ label {
   padding-inline-start: 0px;
 }
 
-/* .new-solutions-services-lists .list-details{
-    font-size: 1.7rem;
-    color: black;
-    padding: 10px 5px;
-} */
+
 
 .new-solutions-services-lists li {
   margin-top: 10px;
@@ -4177,9 +4092,7 @@ label {
   margin-top: 40px;
 }
 
-/* .new-our-service-card .card-img-top{
-    padding: 15px 0px;
-} */
+
 
 .new-our-service-card img {
   margin-top: 15px;
@@ -4452,9 +4365,7 @@ label {
   color: white;
 }
 
-/* .new-career-section h2{
-    font-family: 'Jost', sans-serif !important;
-} */
+
 
 /* NEW ABOUT US PAGE DESIGN SECTION */
 
@@ -4572,9 +4483,6 @@ label {
 
 .new-service-image {
   width: 120px;
-  /* height: 150px; */
-  /* margin-left: 30px; */
-  /* margin-top: 30px; */
   transform: translate(40px, 45px);
   padding: 10px 0px;
 }
@@ -4659,9 +4567,7 @@ label {
   color: black;
 }
 
-/* .new-case-studies-list h4 {
-  color: #19af8f;
-} */
+
 
 /* NEW CAREERS PAGES DESIGN */
 
@@ -4690,9 +4596,6 @@ label {
   padding: 60px 0px;
 }
 
-/* .weValueInnovationCarousel .carousel-inner{
-    border-left: 5px solid #19AF8F;
-} */
 
 .weValueInnovationCarousel .carousel-indicators {
   top: 95%;
@@ -4702,9 +4605,7 @@ label {
   width: 20px;
 }
 
-/* .career-job-icon{
-    float: right;
-} */
+
 
 .employeesSay .card {
   border-style: none;
@@ -4756,7 +4657,6 @@ label {
   height: 30px;
   width: 30px;
   border-radius: 50%;
-  /* background-color:#19AF8F; */
   box-shadow: 3px 6px 16px #00000029;
   margin-top: 50px;
 }
@@ -5199,9 +5099,7 @@ label {
   /* FOR NEW CASE STUDIES PAGE RESPONSIVE SECTION */
   /* ............................................................................................................................... */
 
-  /* .case-studies-list {
-        margin-top: 40px;
-    } */
+
 
   .case-studies hr {
     width: 40%;
@@ -5415,9 +5313,7 @@ label {
     height: auto;
   }
 
-  /* .new-case-studies-list p {
-    font-size: 1.5rem;
-  } */
+
 
   /* FOR AI SOLUTIONS RESPONSIVE SECTION */
   /* ............................................................................................................................... */
@@ -5648,9 +5544,7 @@ label {
     height: 720px;
   }
 
-  /* .new-case-studies-list p {
-    font-size: 1.5rem;
-  } */
+ 
 
   /* FOR NEW ABOUT US PAGE RESPONSIVE SECTION */
   /* ............................................................................................................................... */
@@ -5886,46 +5780,6 @@ label {
   }
 }
 
-/* @keyframes bottomTop {
-    0% {
-        margin-top: 30px;
-        opacity: 0;
-    }
-    50% {
-        margin-top: 10px;
-        opacity: .8;
-    }
-    100% {
-        margin-top: 15px;
-        opacity: 1;
-    }
-}
-
-.card-img-top:hover img {
-    animation: bottomTop .8s;
-} */
-
-/* .job-desc-card:hover .job-icon{
-    transform: rotateZ(-180deg);
-    transition: 1s;
-} */
-
-/* .textAnimation{
-    position: relative;
-}
-
-.textAnimation::before{
-   content: attr(data-text);
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   color:white;
-   overflow: hidden;
-   animation: animate 6s linear infinite;
-   white-space: nowrap;
-} */
 
 @keyframes animate {
   0% {
@@ -6733,10 +6587,7 @@ color: #FFFFFF;
   color:#c2c2c2;
 }
 
-/* .justification{
-  text-align: justify;
-  text-justify: inter-word;
-} */
+
 
 .certification-styling{
   height:100%;
@@ -6906,15 +6757,6 @@ background-color:black;
 background-color:#1A4598;
 }
 
-/* .carousel-inner > .item {
-  position: relative;
-  display: none;
-  -webkit-transition: 0.6s ease-in-out left;
-  -moz-transition: 0.6s ease-in-out left;
-  -o-transition: 0.6s ease-in-out left;
-  transition: 0.6s ease-in-out left;
-} */
-
 
 .carousel-inner .carousel-item {
   transition: -webkit-transform 0.1s ease;
@@ -6930,19 +6772,12 @@ background-color:#1A4598;
 }
 
 .color-change{
-
   color:white!important;
 }
+
 .carousel-indicators li { visibility: hidden; }
 
 
- /* .carousel-control-next {
- width:50px;
- height:50px;
- background-color: #000;
- border-radius: 50%;
-top:100px;
-} */
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -6959,23 +6794,22 @@ top:100px;
 
 .text-darkgreen{
   color: #1dad8f;
-  font-weight:800;
-  
+  font-weight:800; 
 }
 
-/* .carousel-control-next-icon:after
-{
-
-  font-size: 55px;
-  color: red;
-}
-
-.carousel-control-prev-icon:after {
- 
-  font-size: 55px;
-  color: red;
-} */
 
 .line-height-class{
   line-height: 22px;
+}
+
+.h-600{
+  height: 600px;
+}
+
+.h-500{
+  height: 500px;
+}
+
+.top-space{
+  margin-top: 50px !important;
 }
