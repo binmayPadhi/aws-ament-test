@@ -2,8 +2,8 @@ import React from "react";
 import PressreleaseData from "../../../Data/Resources-Data/pressreleasetwo";
 import { Helmet } from "react-helmet";
 import Pressimg from "../../../images/Resources-page/pressreleasefirst.png";
-import pressrelease5 from "../../../images/Resources-page/Press-latest-Bg.png";
-import pressrelease6 from "../../../images/mobilelatest.png";
+import pressrelease5 from "../../../images/Press-release-latest-bg.png";
+import pressrelease6 from "../../../images/press-latest-small-bg.png";
 import Driveservices from "../../../components/SubServices/Driveservices";
 import Aidata from "../../../Data/Resources-Data/AIrecognition";
 const AIrecognition = () => {
@@ -30,29 +30,29 @@ const AIrecognition = () => {
                             <>
                                 {/* <h1 className="press-title">{list.title}</h1> */}
                                 {/* <p className="press-title"><a  target="_blank" href="https://ts-msme.globallinker.com/bizforum/article/winners-of-the-telangana-state-industry-awards-2023/108813/#/overlay/signup/articleview/108813">{list.amnet}</a></p> */}
-                                <h2 className="mt-5 fw-bold-600">{list.subtitle}</h2>
+                                <h2 className=" top-space fw-bold-600">{list.subtitle}</h2>
                                 <p className="mt-5" >
                                   <span className="fs-19 fw-bold-600 mt-5">{list.para}</span>
                                    <span className="fs-19 mt-5">   {list.paragraph}{" "}  </span> 
                                 </p>
-                                <p className="fs-19 mt-3">
+                                <p className="fs-19 mt-5">
                                     {list.paragraph1}{" "}
                                 </p>
-                                <p className="mt-3">
+                                <p className="mt-5">
                                 <span className="fs-19 fw-bold-600 mt-5">{list.sub}</span>
                                 <span className="fs-19 mt-5"> {list.paragraph2}{" "}</span>
                                 </p>
                                 
-                                <p className="fs-19 mt-3">
+                                <p className="fs-19 mt-5">
                                     {list.paragraph111}{" "}
                                 </p>
-                                <h2 className="fw-bold-600 mb-5 mt-5">{list.sideheading}</h2>
-                                <p>
-                                    <span className="fs-19 ">{list.textelement}</span>
+                                <h2 className="fw-bold-600  mt-5">{list.sideheading}</h2>
+                                <p className="mt-4 fs-19">
+                                   {list.textelement}
                                 </p>
 
                                 <h2 className="fw-bold-600 mt-5">{list.sideheading1}</h2>
-                                <p className="fs-19 mt-5">{list.description6}</p>
+                                <p className="fs-19 mt-4">{list.description6}</p>
 
                                 <h2 className=" fw-bold-600 mb-4 mt-5">Press Contact</h2>
                                 <h1 className="fs-19">Aniket Dey</h1>
