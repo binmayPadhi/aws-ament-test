@@ -46,6 +46,11 @@
   background-color: #f2f2f2;
 }
 
+.grey-bgk{
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+
 body {
   margin: 0px 140px 0px 140px;
   left: 140px;
@@ -6813,3 +6818,104 @@ background-color:#1A4598;
 .top-space{
   margin-top: 50px !important;
 }
+
+.contain-lop {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cricle-img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+/* Positioning img1 and img2 at diagonal right positions */
+.img1 {
+  right: 50px; /* Slightly left from the right edge */
+  top: 50px; /* Start from the top right */
+  animation: moveInfinity1 30s infinite ease-in-out;
+}
+
+.img2 {
+  left: 50px; 
+  top: 0px; 
+  animation: moveInfinity2 30s infinite ease-in-out;
+}
+
+/* .img3{
+  right:50px;
+  top: 0px; 
+  animation: moveInfinity3 30s infinite ease-in-out;
+} */
+
+.img3 {
+  right: 50px; 
+  top: 0px; 
+  animation: moveInfinity3 30s infinite ease-in-out;
+}
+
+
+/* Infinity path animation for img1 */
+@keyframes moveInfinity1 {
+  0% {
+    transform: translate(0, 0); /* Start at the top right */
+  }
+  25% {
+    transform: translate(-50px, 70px); /* Move diagonally left and down */
+  }
+  50% {
+    transform: translate(-100px, 0); /* Move left and back up */
+  }
+  75% {
+    transform: translate(-40px, -60px); /* Move diagonally up */
+  }
+  100% {
+    transform: translate(0, 0); /* Return to start */
+  }
+}
+
+/* Infinity path animation for img2 */
+@keyframes moveInfinity2 {
+  0% {
+    transform: translate(0, 0); /* Start slightly lower */
+  }
+  25% {
+    transform: translate(-50px, 20px); /* Move diagonally left and down */
+  }
+  50% {
+    transform: translate(-100px, 0); /* Move left and back up */
+  }
+  75% {
+    transform: translate(-40px, -40px); /* Move diagonally up */
+  }
+  100% {
+    transform: translate(0, 0); /* Return to start */
+  }
+}
+
+@keyframes moveInfinity3 {
+  0% {
+    transform: translate(0, 0); /* Start slightly lower */
+  }
+  25% {
+    transform: translate(-50px, 20px); /* Move diagonally left and down */
+  }
+  50% {
+    transform: translate(-100px, 0); /* Move left and back up */
+  }
+  75% {
+    transform: translate(-40px, -40px); /* Move diagonally up */
+  }
+  100% {
+    transform: translate(0, 0); /* Return to start */
+  }
+}
+
+
+
