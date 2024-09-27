@@ -1,15 +1,8 @@
 import { Helmet } from "react-helmet";
-import homebg from "../images/swiftinisghts/group-bg.svg";
-import imageone from "../images/swiftinisghts/image-one.svg";
-import image1 from "../images/swiftinisghts/image2.svg";
-import image2 from "../images/swiftinisghts/image3.svg";
-import image3 from "../images/swiftinisghts/image4.svg";
 import previous from "../images/HomePage/homepage-industry-IMG/left-arrow.png";
 import next from "../images/HomePage/homepage-industry-IMG/right-arrow.png";
 import AmnetDigitalData from "../Data/Privacypolicy-Data/Amnetdigitaldata";
-import enrichimg from "../images/swiftinisghts/enrich-img.svg";
 import Gotocontact from "./Gotocontant";
-import Circle from "../images/swiftinisghts/circle.svg";
 import imageyellow from "../images/swiftinisghts/img-yellow.svg";
 import imagegreen from "../images/swiftinisghts/imag-green.svg";
 import employegreen from "../images/swiftinisghts/employee-green.svg";
