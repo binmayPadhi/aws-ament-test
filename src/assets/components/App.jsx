@@ -52,6 +52,7 @@ import Thankswebinarcopy from "./Resources/Pressreleasepages/Thankswebinarcopy";
 import Amnetpartner from "./Resources/Pressreleasepages/Amnetpartner";
 import Sitemap from "./Sitemap/sitemap";
 import AIrecognition from "./Resources/Pressreleasepages/AIrecognition";
+import AmnetDigital from "./AmnetDigital";
 
 
 function App() {
@@ -75,6 +76,7 @@ function App() {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/aboutus" element={<Navigate to="/about-us" replace />} />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/life-at-amnet-digital" element={<AmnetDigital />}/>
           <Route
             exact
             path="/odc-and-iso-recognized-certification"
