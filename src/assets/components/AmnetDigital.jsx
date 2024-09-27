@@ -31,6 +31,7 @@ Search jobs best suited for you. Apply today!" />
                     backgroundAttachment: "scroll",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
+                    height: "110vh"
                 }}
             >
                 <div className="w-90 mx-auto">
@@ -54,9 +55,11 @@ Search jobs best suited for you. Apply today!" />
                    
                 </div>
                 <h1 className="text-center culture-innovation space-read">A Culture of Innovation</h1>
+                <div className="width-animation mx-auto">
                 <p className="innovation-text">
                     Innovation is at the heart of everything we do at Amnet Services. We encourage our employees to think outside the box and bring new ideas to the table. Our open-door policy ensures that every voice is heard, and great ideas can come from anyone, at any level. With regular brainstorming sessions, hackathons, and innovation challenges, we continuously push the boundaries of what’s possible.
                 </p>
+                </div>
                 <div className="contain-lop ">
                 <img src={imageyellow} className="cricle-img img2" alt="Image 2" />
                 </div>
@@ -71,6 +74,7 @@ Search jobs best suited for you. Apply today!" />
                         <div className="col-lg-8">
                        
                             <h1 className="culture-innovation ">Employee Recognition</h1>
+                           
                             <p className="innovation-text">We believe in recognizing and rewarding the hard work and dedication of our employees.
                                 Our recognition programs, such as Employee of the Month, spotlight awards, and performance bonuses,
                                 ensure that outstanding contributions are celebrated. Regular feedback and appraisal sessions help employees understand their strengths and areas for improvement, fostering a culture of continuous growth and excellence.</p>
