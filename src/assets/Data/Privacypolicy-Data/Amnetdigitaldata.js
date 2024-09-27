@@ -1,15 +1,4 @@
-import leftimg from "../../images/swiftinisghts/left-full-image.svg";
-import topright from "../../images/swiftinisghts/right-top-img.svg";
-import bottomright from "../../images/swiftinisghts/right-bottom-img.svg";
-import leftimg1 from "../../images/swiftinisghts/left-img1.svg";
-import topright1 from "../../images/swiftinisghts/right-top-img1.svg";
-import bottomright1 from "../../images/swiftinisghts/right-bottom-img1.svg";
-import leftimg2 from "../../images/swiftinisghts/left-img2.svg";
-import topright2 from "../../images/swiftinisghts/right-top-img2.svg";
-import bottomright2 from "../../images/swiftinisghts/right-bottom-img2.svg";
-import leftimg3 from "../../images/swiftinisghts/left-img3.svg";
-import topright3 from "../../images/swiftinisghts/right-top-img3.svg";
-import bottomright3 from "../../images/swiftinisghts/right-bottom-img3.svg";
+
 const AmnetDigitalData = [
   {
     id: "1",
