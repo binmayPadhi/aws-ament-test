@@ -41,6 +41,12 @@ function Footer() {
           target: "_balnk",
         },
         {
+          id: "11",
+          name: "Life at Amnet Digital",
+          link: "/life-at-amnet-digital",
+          target: "_balnk",
+        },
+        {
           id: "12",
           name: "Careers",
           link: "/careers",
