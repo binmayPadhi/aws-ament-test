@@ -4,7 +4,7 @@ module.exports = {
       '@babel/preset-react' // For React support
     ],
     ignore: [
-      "src/assets/images/**/*.svg" // Ignore large SVG files
+      "src/assets/images/swiftinishts/*.svg" // Ignore large SVG files
     ]
   };
   
