@@ -20,14 +20,14 @@ function AmnetDigital() {
                 <meta property="og:title" content="Data, Analytics & AI solutions | Amnet Digital Careers" />
                 <meta property="og:description" content="Amnet Digital opens doors for  professional growth, where your skills are developed and tested in exciting ways. 
 Search jobs best suited for you. Apply today!" />
-                <meta property="og:url" content="https://www.amnetdigital.com/careers" />
+                <meta property="og:url" content="https://www.amnetdigital.com/life-at-amnet-digital" />
                 <meta property="og:type" content="website" />
                 <meta property="og:image" content="../images/careers-page/Careerhome.png" />
             </Helmet>
             <div
                 className="sub-service-intro container-fluid"
                 style={{
-                    backgroundImage: 'url("https://s3.amazonaws.com/swiftinsights.ai/Amnetdigital_website_assets/group-bg.svg")',
+                    backgroundImage: 'url("https://s3.amazonaws.com/swiftinsights.ai/Amnetdigital_website_assets/Hero+image.jpg")',
                     backgroundAttachment: "scroll",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
@@ -80,19 +80,19 @@ Search jobs best suited for you. Apply today!" />
                                 ensure that outstanding contributions are celebrated. Regular feedback and appraisal sessions help employees understand their strengths and areas for improvement, fostering a culture of continuous growth and excellence.</p>
                         </div>
                         <div className="col-lg-4 ">
-                            <img className="w-100 p-2" src="https://s3.amazonaws.com/swiftinsights.ai/Amnetdigital_website_assets/image-one.svg" loading="lazy" />
+                            <img className="w-100 p-2" src="https://s3.amazonaws.com/swiftinsights.ai/Amnetdigital_website_assets/slide1_1.jpg" loading="lazy" />
                         </div>
                       
                     </div>
                     <div className="row pb-5">
                         <div className="col-lg-4">
-                            <img className="w-100 p-2" src="https://s3.amazonaws.com/swiftinsights.ai/Amnetdigital_website_assets/image2.svg" loading="lazy" />
+                            <img className="w-100 p-2" src="https://s3.amazonaws.com/swiftinsights.ai/Amnetdigital_website_assets/slide1_2.jpg" loading="lazy" />
                         </div>
                         <div className="col-lg-4">
-                            <img className="w-100 p-2" src="https://s3.amazonaws.com/swiftinsights.ai/Amnetdigital_website_assets/image3.svg" loading="lazy" />
+                            <img className="w-100 p-2" src="https://s3.amazonaws.com/swiftinsights.ai/Amnetdigital_website_assets/slide1_3.jpg" loading="lazy" />
                         </div>
                         <div className="col-lg-4">
-                            <img className="w-100 p-2" src="https://s3.amazonaws.com/swiftinsights.ai/Amnetdigital_website_assets/image4.svg" loading="lazy" />
+                            <img className="w-100 p-2" src="https://s3.amazonaws.com/swiftinsights.ai/Amnetdigital_website_assets/slide1_4.jpg" loading="lazy" />
                         </div>
                     </div>
                     <div className="contain-lop ">
@@ -143,7 +143,7 @@ Search jobs best suited for you. Apply today!" />
             <div
                 className="sub-service-intro container-fluid space-read"
                 style={{
-                    backgroundImage: `url("https://s3.amazonaws.com/swiftinsights.ai/Amnetdigital_website_assets/enrich-img.svg")`,
+                    backgroundImage: `url("https://s3.amazonaws.com/swiftinsights.ai/Amnetdigital_website_assets/slide3_1.jpg")`,
                     backgroundAttachment: "scroll",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
