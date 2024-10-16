@@ -486,152 +486,140 @@ const Jobdescription = [
         applyfor: "Java Full Stack Developer",
         title: "Java Full Stack Developer",
         level:"Mid-Senior level",
-        experience:"6 - 8 years",
+        experience:"5 - 8 years",
         location:"Hyderabad, India",
         aboutdescription: "We are looking for a Java Full Stack Developer to join our dynamic team. You will be responsible for both front-end and back-end development, including creating Java-based applications and supporting frameworks.",
         unorderedlist: [
             {
-                content: "Designing, developing, and maintaining Java-based applications.",
+                content: "Design, develop, and maintain scalable Java (17) applications, utilizing Spring Boot, Microservices, and RESTful architecture.",
             },
             {
-                content: "Troubleshooting and resolving software defects and issues in a timely manner.",
+                content: "Build front-end applications using AngularJS, RxJS, and the Angular framework, with experience in any Design Systems considered a plus.",
             },
             {
-                content: "Integrating user-facing elements with server-side logic.",
+                content: "Develop React applications, leveraging Redux, Material UI, and ReCharts for data visualization, along with solid expertise in Javascript.",
             },
             {
-                content: "Participating in code reviews to ensure code quality and adherence to coding standards.",
+                content: "Manage and maintain code repositories using GitLab, ensuring smooth collaboration and version control.",
             },
             {
-                content: "Keeping up to date with the latest industry trends and technologies."
+                content: "Integrate APIs (RESTful) with front-end and back-end systems."
             },
             {
-                content: "Providing technical support and guidance to team members as needed."
+                content: "Work with both SQL and NoSQL databases such as MongoDB, DynamoDB, and PostgreSQL for effective data storage solutions."
             },
             {
-                content: "Continuously improving software development processes and practices."
+                content: "Utilize Kafka as a message bus to handle high-volume, real-time data streams."
             },
             {
-                content: "Developing front-end components using modern JavaScript frameworks."
+                content: "Deploy applications on cloud platforms like AWS and GCP, utilizing Docker images, Container as a Service (CaaS), and Kubernetes."
             },
             {
-                content: "Ensuring responsiveness of applications."
+                content: "Work with microservices and serverless architectures, contributing to robust, scalable systems."
             },
             {
-                content: "Implementing security and data protection measures."
+                content: "Implement and maintain DevOps practices, including CI/CD pipelines, for streamlined development and deployment processes."
             },
             {
-                content: "Writing scalable code for both front-end and back-end components."
-            },
-            {
-                content: "Testing and debugging applications."
-            },
-            {
-                content: "Collaborating with other team members and stakeholders."
+                content: "Collaborate within an Agile environment, following Agile methodologies for rapid development and iteration."
             },
         
         ],
         unorderedlist1: [
             {
-                content: "6 to 8 years of proven experience in software development using Full stack Java developer or Similar  role.",
+                content: "Proven experience as a seasoned developer, with strong expertise in Java (17), Spring Boot, and Microservices.",
             },
             {
-                content: "Proficiency in Java and related frameworks (Spring, Hibernate, etc.).",
+                content: "Proficiency in front-end technologies such as AngularJS, RxJS, Angular Framework, and ReactJS, along with Redux and Material UI.",
             },
             {
-                content: "Proficiency in Core Java, Servlets, APIs, Oracle DB, web architecture, Design Patterns DevOps  Tools(Jenkins, Docker, Kubernetes) and Git and GitHub.",
+                content: "Solid understanding of API integration (RESTful) and experience with SQL/NoSQL databases like MongoDB, DynamoDB, and PostgreSQL.",
             },
             {
-                content: "Experience with front-end development languages including JavaScript, HTML5, and CSS3. Knowledge on IntelliJ IDE/Eclipse or STS Suite.",
+                content: "Hands-on experience with cloud platforms (AWS, GCP), containerization technologies (Docker), and orchestration tools like Kubernetes.",
             },
             {
-                content: "Familiarity with JavaScript frameworks such as React, or Vue.js.",
+                content: "Familiarity with messaging systems like Kafka and their integration into microservices architectures.",
             },
             {
-                content: "Knowledge of relational databases (SQL, PostgreSQL, MySQL, Oracle) and NoSQL databases  (MongoDB, Redis, etc.).",
+                content: "Strong understanding of DevOps practices, particularly with CI/CD pipelines.",
             },
             {
-                content: "Experience with RESTful web services.",
+                content: "Experience working in Agile environments and the ability to adapt to fast-paced development cycles.",
             },
             {
-                content: "Understanding of DevOps practices and CI/CD pipelines.",
-            },
-            {
-                content: "Ability to work independently and in a team environment.",
-            },
-            {
-                content: "Excellent communication and interpersonal skills.",
-            },  
-            {
-                content: "Attention to detail and ability to meet project deadlines.",
-            },         
+                content: "Excellent communication and teamwork skills, with great attention to detail.",
+            },       
         ]
     },
     {
-        applyfor: "Product Owner - AI/Analytics",
-        title: "Product Owner - AI/Analytics",
-        level:"Mid-Senior level",
-        experience:"6 - 8 years",
+        applyfor: "BPO Outbound Sales - Night Shift",
+        title: "BPO Outbound Sales - Night Shift",
+        level:"Junior",
+        experience:"3 - 6  years",
         location:"Hyderabad, India",
-        aboutdescription: "We are seeking a talented and experienced Product Owner to join our dynamic AI/Analytics team. As a Product Owner, you will be responsible for leading the development and execution of our AI and analytics product roadmap. You will collaborate closely with cross-functional teams including software engineers, data scientists, designers, and stakeholders to deliver high-quality AI and analytics solutions that meet the needs of our customers and drive business growth.",
+        aboutdescription: "As an Outbound Sales Executive, you will engage potential clients through cold/warm calls, build strong relationships, and close deals. Your focus will be on delivering compelling product presentations, negotiating contracts, and ensuring client satisfaction. This is a Night Shift role suited for a motivated, results-driven individual with a passion for sales.",
         unorderedlist: [
             {
-                content: "Develop and communicate a clear product vision and strategy for our AI  and analytics product portfolio, aligned with the company's overall objectives.",
+                content: "Identify and pursue potential customers or clients through various sales channels, such as cold/warm calling, networking, and referrals.",
             },
             {
-                content: "Define and prioritize features, enhancements, and projects for the  AI/Analytics product roadmap based on market research, customer feedback, and business goals. ",
+                content: "Develop and nurture strong relationships with existing and prospective clients to understand their needs, preferences, and pain points.",
             },
             {
-                content: "Champion the importance of design thinking and user experience (UX)  principles throughout the product development lifecycle, collaborating closely with designers to  ensure a seamless and intuitive user interface.",
+                content: "Deliver compelling product and service presentations to showcase their value and address client questions head-on.",
             },
             {
-                content: "Gather and prioritize product requirements from stakeholders,  customers, and internal teams, ensuring alignment with the product vision and strategic objectives.",
+                content: "Negotiate terms, pricing, and contracts with clients to secure deals while maintaining profitability for the company.",
             },
             {
-                content: "Work closely with software engineering, data science, and design  teams to translate product requirements into actionable user stories, epics, and acceptance criteria."
+                content: "Convert leads into sales by resolving client concerns and guiding them through the purchasing process."
             },
             {
-                content: "Serve as the Product Owner in Agile development processes, including  sprint planning, backlog grooming, daily stand-ups, and sprint reviews, ensuring timely delivery of  high-quality product increments."
+                content: "Provide ongoing support to existing clients while ensuring their satisfaction and fostering long-term relationships."
             },
             {
-                content: "Collaborate with internal and external stakeholders to gather  feedback, validate product assumptions, and drive consensus on product priorities and direction."
+                content: "Stay current on industry trends, competitor activities, and customer feedback to identify new opportunities for improvement."
             },
             {
-                content: " Conduct market research and competitive analysis to identify emerging  trends, customer needs, and opportunities for innovation in AI and analytics. "
+                content: "Set and track sales goals and implement strategies for driving growth."
             },
             {
-                content: "Monitor key performance indicators (KPIs) and user feedback to  measure the success and effectiveness of our AI/Analytics products and drive continuous  improvement initiatives."
+                content: "Maintain sales records and timely documentation on CRM."
             },
             {
-                content: "Identify potential risks and dependencies that may impact product  delivery or quality and work proactively to mitigate them."
+                content: "Work closely with cross-functional teams in customer service to align efforts, leverage resources, and maximize sales opportunities."
             },
         
         ],
         unorderedlist1: [
             {
-                content: "Bachelor's degree in Computer Science, Engineering, Business, or related field. Master's degree  preferred..",
+                content: "Proven experience as a Sales Executive or relevant role.",
             },
             {
-                content: "Proven experience (8 years) as a Product Owner or Product Manager, with a focus on AI, machine  learning, or analytics products a plus.",
+                content: "Proficiency in English.",
             },
             {
-                content: "Strong understanding of Agile software development methodologies, with experience working in  Agile/Scrum environments.",
+                content: "Excellent knowledge of MS Office.",
             },
             {
-                content: "Knowledge of AI, machine learning, and analytics technologies and their applications in business  contexts.",
+                content: "Hands-on experience with CRM software.",
             },
             {
-                content: "Excellent communication, collaboration, and stakeholder management skills.",
+                content: "Thorough understanding of Sales and negotiating techniques.",
             },
             {
-                content: "Strong analytical and problem-solving abilities, with a data-driven approach to decision-making.",
+                content: "Fast learner and passion for sales.",
             },
             {
-                content: "Ability to thrive in a fast-paced, dynamic environment and manage multiple priorities effectively.",
+                content: "Self-motivated with a results-driven approach.",
             },
             {
-                content: "Certification in Agile (e.g., Certified Scrum Product Owner) and/or Product Management (e.g.,  Pragmatic Marketing, Certified Product Manager) is a plus.",
-            },       
+                content: "Aptitude in delivering attractive presentations.",
+            },    
+            {
+                content: "Graduation.",
+            },     
         ]
     },
     {
