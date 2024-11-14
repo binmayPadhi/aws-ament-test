@@ -34,7 +34,8 @@ function Navbar(props) {
       url === "/blogs/10-ways-how-generative-ai-is-impacting-retail-organizations" ||
       url === "/products" ||
       url === "/blogs/5-ways-AI-can-enhance-and-optimize-your-inventory-management" ||
-      url === "/site-map"
+      url === "/site-map" ||
+      url === "/leadership"
     ) {
       setNavcolor("app");
     } else {

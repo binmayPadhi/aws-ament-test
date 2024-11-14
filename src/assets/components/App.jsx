@@ -53,6 +53,7 @@ import Amnetpartner from "./Resources/Pressreleasepages/Amnetpartner";
 import Sitemap from "./Sitemap/sitemap";
 import AIrecognition from "./Resources/Pressreleasepages/AIrecognition";
 import AmnetDigital from "./AmnetDigital";
+import Leadership from "./ContactUs/Leadership";
 
 
 function App() {
@@ -182,6 +183,11 @@ function App() {
               element={<Thankswebinar />}
             />
           </Route>
+          <Route
+              exact
+              path="leadership"
+              element={<Leadership/>}
+            />
           <Route path="/cookiespolicy" element={<Navigate to="/cookies-policy" replace />} />
           <Route path="/cookies-policy" element={<CookiesPolicy />} />
           <Route path="/privacypolicy" element={<Navigate to="/privacy-policy" replace/>} />
