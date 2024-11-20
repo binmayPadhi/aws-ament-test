@@ -7086,6 +7086,25 @@ text-align: justified;
   }
 }
 
+.blog_section {
+  padding-top:36em;
+}
+
+.blog_section_body {
+  font-size:14px;
+}
+.email_margin{
+  margin-inline: .5em;
+  display:inline-block;
+}
+.conclusion_section{
+  display:inline-block;
+  padding-top:1em;
+}
+
+.inner-links{
+  margin-left:3em;
+}
 @keyframes moveInfinity3 {
   0% {
     transform: translate(0, 0); /* Start slightly lower */

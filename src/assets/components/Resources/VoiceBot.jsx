@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import blog11 from "../../images/Resources-page/blog11.png";
 import CTAIMG from "../../images/Resources-page/bloginventory.png";
 import Voicebotdata from "../../Data/Resources-Data/Voicebot-Data";
+import ai_voicebot from "../../images/Resources-page/ai-voicebot.jpg"
 
 
 const VoiceBot = () => {
@@ -35,115 +36,178 @@ const VoiceBot = () => {
                             <img
                                 loading="lazy"
                                 className="img-fluid mb-5 w-100"
-                                src={blog11}
+                                src={ai_voicebot}
                                 alt="blog"
                             />
                         </div>
                     </div>
                     <div className="row  ml-0 mr-0">
                         {Voicebotdata.map((list) => {
-                            return (
-                                <div className="col-12  p-0" key={list.id}>
-                                    <p className="fs-18">{list.description1}</p>
-                                    <p className="fs-18">{list.descriptionss}</p>
-                           
-                                    <p className="fs-24 font-weight-bold fw-bold">
-                                        {list.sub_heading}
-                                    </p>
-                            
-                                    <p className="fs-18">{list.description2}</p>
-                                    <p className="fs-24 fw-bold font-weight-bold">{list.description4}</p>
-                                    <p className="fs-18">{list.description5}</p>
-                                    {list.hasOwnProperty("orderedlist") === true ? (
-                                        <>
-                                            {
-                                                <ol className="pl-4">
-                                                    {list.orderedlist.map((response) => {
-                                                        return (
-                                                            <>
-                                                                <li className="fs-18 pb-3 goway-hlist">
-                                                                    <span className="fs-18 fw-bold">{response.sidehead}</span>
-                                                                    {response.content}
-                                                                </li>
 
-                                                            </>
-                                                        );
-                                                    })}
-                                                </ol>
-                                            }
-                                        </>
-                                    ) : (
-                                        ""
-                                    )}
-                                    <p className="fs-18">{list.description7}</p>
-                                    <p className="fs-22 font-weight-bold fw-bold">
-                                        {list.side_heading1}
-                                    </p>
-                                        <p className="fs-18 "  >
-                                            {list.description6}
-                                        </p>
+                            switch(list.type) {
+                             
+                            case 'paragraphs':
+                                return (
+                                <>
 
-                                    <p className="fs-20 fw-bold font-weight-bold">{list.description71}</p>
-                                    <p className="fs-18 ">
-                                        <span className="fs-18 fw-bold font-weight-bold">{list.description8}</span>
-                                        <span className="fs-18 ">
-                                            {list.description9}
-                                        </span>
-                                    </p>
-                                    <p className="fs-18 ">
-                                        <span className="fs-18 fw-bold font-weight-bold">{list.description10}</span>
-                                        <span className="fs-18 ">
-                                            {list.description11}
-                                        </span>
-                                    </p>
-                                    <p className="fs-24 fw-bold font-weight-bold">{list.description72}</p>
-                                    <p className="fs-18">{list.description12}</p>
-                                    <p className="fs-18 ">
-                                        <span className="fs-18 fw-bold font-weight-bold">{list.description13}</span>
-                                        <span className="fs-18 ">
-                                            {list.description14}
-                                        </span>
-                                    </p>
-                                    <p className="fs-18 ">
-                                        <span className="fs-18 fw-bold font-weight-bold">{list.description15}</span>
-                                        <span className="fs-18 ">
-                                            {list.description16}
-                                        </span>
-                                    </p>
-                                    <p className="fs-18 ">
-                                        <span className="fs-18 fw-bold font-weight-bold">{list.description17}</span>
-                                        <span className="fs-18 ">
-                                            {list.description18}
-                                        </span>
-                                    </p>
-                                    <p className="fs-18">{list.description73}</p>
-                                    <p className="fs-24 fw-bold font-weight-bold">{list.description74}</p>
- 
-                                    <p className="fs-18">{list.description25}</p>
-                                    <p className="fs-22 fw-bold font-weight-bold">{list.description26}</p>
-                                    <p className="fs-18 ">
-                                        <span className="fs-18 fw-bold font-weight-bold">{list.description19}</span>
-                                        <span className="fs-18 ">
-                                            {list.description20}
-                                        </span>
-                                    </p>
-                                    <p className="fs-18 ">
-                                        <span className="fs-18 fw-bold font-weight-bold">{list.description21}</span>
-                                        <span className="fs-18 ">
-                                            {list.description22}
-                                        </span>
-                                    </p>
-                                    <p className="fs-18 ">
-                                        <span className="fs-18 fw-bold font-weight-bold">{list.description23}</span>
-                                        <span className="fs-18 ">
-                                            {list.description24}
-                                        </span>
-                                    </p>
-                                    <p className="fs-20 fw-bold font-weight-bold">{list.question}</p>
-
-                                </div>
+                                    <div className="col-12  p-0" key={list.id}>
+                                            <p className="fs-14">{list.paragraph1}</p>
+                                            <p className="fs-14">{list.paragraph2}</p>
+                                    </div>
+                                    
+                                </>
                             );
-                        })}
+
+                            case 'orderedList':
+                                return (
+                                    <>
+                                    <div key={list.id} className="blog_section">
+                                       <p className="fs-24 font-weight-bold fw-bold">
+                                            {list.sub_heading}
+                                        </p>
+                                        {list.sub_heading_description && <p className="fs-14">{list.sub_heading_description}</p>}
+                                
+                                        
+                                        {list.hasOwnProperty("orderedlist") && list.orderedlist?.length > 0 && (
+                                            <ol className="pl-4">
+                                                {list.orderedlist.map((response, index) => (
+                                                    <li key={index} className="fs-14 pb-3 goway-hlist">
+                                                        {response.sidehead && (
+                                                            <span className="fs-14 fw-bold">{response.sidehead}</span>
+                                                        )}
+                                                        <span className="blog_section_body">{response.content} </span>
+                                                    </li>
+                                                ))}
+                                            </ol>
+                                        )}
+
+                                    </div>
+                                       
+                                    </>
+                                );
+
+
+                            case 'main_orderedList':
+                                return (
+                                    <>
+                                    <div key={list.id} className="blog_section">
+                                        <p className="fs-24 font-weight-bold fw-bold">
+                                            { list.sub_heading && list.sub_heading}
+                                        </p>
+                                        {list.sub_heading_description && <p className="fs-14">{list.sub_heading_description}</p>}
+                                
+                                        {  list.sub_heading_mains && 
+                                            list.sub_heading_mains.map((item,item_index) => (
+                                                <div key={item_index}>
+                                                   <p className="fs-18 font-weight-bold fw-bold"> {item.subheader}</p>
+
+                                                     {/* <ol className="pl-4"> */}
+                                                             {item.content && item.content.map((contentItem, content_index) => (
+                                                                <li key={content_index} className="fs-14 pb-3 goway-hlist">
+                                                                    {contentItem.sidehead && (<span className="fs-14 fw-bold">{contentItem.sidehead}</span>)}
+                                                                    {contentItem.content}
+
+                                                                    {/* { contentItem.sub_heading_mains.length} */}
+
+                                                                    {/* index{content_index} */}
+                                                                    <div className="inner-links">
+
+                                                                   
+                                                                    <ul>
+
+                                                                        {
+                                                                            contentItem.sub_heading_mains && 
+                                                                            contentItem.sub_heading_mains.map((inner_item,inneritem_index)=>(
+                                                                               <>
+
+                                                                                <li key={inneritem_index*100} className="fs-14 pb-3 goway-hlist" >
+                                                                                
+
+                                                                    {/* index{inneritem_index} */}
+                                                                                {inner_item.sidehead && (<span className="fs-14 fw-bold">{inner_item.sidehead}</span>)}
+                                                                                {inner_item.content}
+                                                                                </li>
+</>
+
+                                                                            ))
+                                                                        }
+                                                                    </ul>
+
+                                                                    </div>
+
+                                                    </li>))}
+
+                                                    {/* </ol> */}
+                                                
+
+
+
+
+
+                                                
+                                                </div> 
+
+
+
+                                                
+                                      
+
+                                               
+                                            ))
+                                        }
+                                        
+                                        {list.hasOwnProperty("orderedlist") && list.orderedlist?.length > 0 && (
+                                            <ol className="pl-4">
+                                                {list.orderedlist.map((response, index) => (
+                                                    <li key={index} className="fs-18 pb-3 goway-hlist">
+                                                        {response.sidehead && (
+                                                            <span className="fs-18 fw-bold">{response.sidehead}</span>
+                                                        )}
+                                                        {response.content}
+
+
+                                                     
+
+                                           
+                                                      
+
+
+                                                    </li>
+                                                ))}
+                                            </ol>
+                                        )}
+
+                                    </div>
+                                       
+                                    </>
+                                );
+                 
+
+                            case 'conclusion':
+                            return (
+                            <>
+
+                                <div className="col-12 blog_section " key={list.id}>
+                                        <p className="fs-24  font-weight-bold fw-bold">{list.heading}</p>
+                                        <p className="fs-14">{list.description}</p>
+                                        <b className="fs-14 conclusion_section">{list.question}</b>
+                                        <p className="fs-14">Contact us at 
+
+                                        <a href="mailto:info@amnetdigital.com" className="contact-email fs-14 email_margin" >  
+                                            info@amnetdigital.com 
+                                        </a> 
+                                         to discover how our AI voice assistant can revolutionize your business.</p>
+                                </div>
+                                
+                            </>
+                            );
+               
+                               
+                                
+                                
+                            }
+                           
+           })}
                     </div>
                 </div>
             </div>
