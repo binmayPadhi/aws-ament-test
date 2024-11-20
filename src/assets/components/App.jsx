@@ -53,6 +53,8 @@ import Amnetpartner from "./Resources/Pressreleasepages/Amnetpartner";
 import Sitemap from "./Sitemap/sitemap";
 import AIrecognition from "./Resources/Pressreleasepages/AIrecognition";
 import AmnetDigital from "./AmnetDigital";
+import Leadership from "./ContactUs/Leadership";
+import VoiceBot from "./Resources/VoiceBot";
 
 
 function App() {
@@ -156,6 +158,11 @@ function App() {
               element={<ImageVideoAnnotation />}
             />
             <Route
+            exact
+            path="how-our-next-Gen-AI-voice-bot-is-transforming-conversational-AI"
+            element={<VoiceBot/>}
+            />
+            <Route
               exact
               path="supply-chain-planning-decisions-with-actionable-demand-forecasting-insights"
               element={<Forecasting />} />
@@ -182,6 +189,11 @@ function App() {
               element={<Thankswebinar />}
             />
           </Route>
+          <Route
+              exact
+              path="leadership"
+              element={<Leadership/>}
+            />
           <Route path="/cookiespolicy" element={<Navigate to="/cookies-policy" replace />} />
           <Route path="/cookies-policy" element={<CookiesPolicy />} />
           <Route path="/privacypolicy" element={<Navigate to="/privacy-policy" replace/>} />
