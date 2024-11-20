@@ -61,7 +61,7 @@ function Footer() {
         {
           id: "14",
           name: "Leadership Team",
-          link: "/site-map",
+          link: "",
           target: "_balnk",
         },
         {
