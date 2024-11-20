@@ -179,13 +179,15 @@ const Leadership = () => {
                                 </div>
                                 <p className="text-fonts">{teamMembers[currentIndex].name}</p>
                                 <p className="small-font-popup">{teamMembers[currentIndex].position}</p>
+                                <a href="" target="_blank">
                                 <img alt="profile" src={teamMembers[currentIndex].icon} className="linkedin-img pt-3" loading="lazy" />
+                                    </a> 
                             </div>
                             <div className="col-lg-6">
-                                <p className="text-black fw-bold-500 fs-14 text-left mt-4">{teamMembers[currentIndex].text}</p>
-                                <p className="text-black fw-bold-500 fs-14 text-left mt-4">{teamMembers[currentIndex].text1}</p>
-                                <p className="text-black fw-bold-500 fs-14 text-left mt-4">{teamMembers[currentIndex].text2}</p>
-                                <p className="text-black fw-bold-500 fs-14 text-left mt-4">{teamMembers[currentIndex].text3}</p>
+                                <p className="text-black fw-bold-500 fs-14  mt-4">{teamMembers[currentIndex].text}</p>
+                                <p className="text-black fw-bold-500 fs-14  mt-4">{teamMembers[currentIndex].text1}</p>
+                                <p className="text-black fw-bold-500 fs-14  mt-4">{teamMembers[currentIndex].text2}</p>
+                                <p className="text-black fw-bold-500 fs-14  mt-4">{teamMembers[currentIndex].text3}</p>
                             </div>
                            
                         </div>

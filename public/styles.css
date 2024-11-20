@@ -6469,6 +6469,10 @@ color: #FFFFFF;
   margin-top: 40px;
 }
 
+.fs-22{
+  font-size: 22px;
+}
+
 .goway-hlist {
   list-style-type: disc;
 }
@@ -6926,7 +6930,7 @@ text-align: left;
   text-align: justify;
 }
 .image-sample-one{
-
+  border-radius: 4px;
 }
 
 
@@ -6970,7 +6974,7 @@ text-align: justified;
   font-family: 'Poppins';
 font-size: 14px;
 font-weight: 500;
-line-height: 14px;
+line-height: 20px;
 text-align: justified;
 
 }
@@ -6979,7 +6983,7 @@ text-align: justified;
   font-family: 'Poppins';
   font-size: 14px;
   font-weight: 500;
-  line-height: 1px;
+  line-height: 6px;
   text-align: justified;
 }
 
@@ -7012,6 +7016,35 @@ text-align: justified;
   max-height: 80vh; /* Adjust the height as needed */
   overflow-y: auto;
   overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+ 
+::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #3f3f3f;
+  border-radius: 3px;
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #00aeff, #a68eff);
+  border-radius: 4px;
+}
+ 
+ 
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
 }
 
 

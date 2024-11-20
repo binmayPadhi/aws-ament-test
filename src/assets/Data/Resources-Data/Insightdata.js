@@ -12,6 +12,14 @@ import blog11 from "../../images/Resources-page/blog11.png";
 
 const Insightdata = {
   carddetails: [
+    
+    {
+      id:"how-our-next-Gen-AI-voice-bot-is-transforming-conversational-AI",
+      date:"November 21, 2023",
+      title:"5 Ways AI can Enhance and Optimize your Inventory Management",
+      description:"47% of global retail brands have embraced AI to forecast demand, reduce stock-outs, automate warehousing, and improve logistics efficiency.",
+      image:blog11,
+    },
     {
       id:"5-ways-AI-can-enhance-and-optimize-your-inventory-management",
       date:"November 21, 2023",

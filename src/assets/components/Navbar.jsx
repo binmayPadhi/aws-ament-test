@@ -35,7 +35,8 @@ function Navbar(props) {
       url === "/products" ||
       url === "/blogs/5-ways-AI-can-enhance-and-optimize-your-inventory-management" ||
       url === "/site-map" ||
-      url === "/leadership"
+      url === "/leadership" || 
+      url === "/blogs/how-our-next-Gen-AI-voice-bot-is-transforming-conversational-AI"
     ) {
       setNavcolor("app");
     } else {

@@ -54,6 +54,7 @@ import Sitemap from "./Sitemap/sitemap";
 import AIrecognition from "./Resources/Pressreleasepages/AIrecognition";
 import AmnetDigital from "./AmnetDigital";
 import Leadership from "./ContactUs/Leadership";
+import VoiceBot from "./Resources/VoiceBot";
 
 
 function App() {
@@ -155,6 +156,11 @@ function App() {
               exact
               path="medical-image-video-data-annotation-services"
               element={<ImageVideoAnnotation />}
+            />
+            <Route
+            exact
+            path="how-our-next-Gen-AI-voice-bot-is-transforming-conversational-AI"
+            element={<VoiceBot/>}
             />
             <Route
               exact
