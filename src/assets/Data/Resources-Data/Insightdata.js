@@ -9,16 +9,17 @@ import blog8 from "../../images/Resources-page/blog_image-min.png";
 import blog9 from "../../images/Resources-page/blog9.png";
 import blog10 from "../../images/Resources-page/image10.jpg";
 import blog11 from "../../images/Resources-page/blog11.png";
+import blog12 from "../../images/Resources-page/ai-voicebot.jpg";
 
 const Insightdata = {
   carddetails: [
     
     {
       id:"how-our-next-Gen-AI-voice-bot-is-transforming-conversational-AI",
-      date:"November 21, 2023",
-      title:"5 Ways AI can Enhance and Optimize your Inventory Management",
-      description:"47% of global retail brands have embraced AI to forecast demand, reduce stock-outs, automate warehousing, and improve logistics efficiency.",
-      image:blog11,
+      date:"November 20, 2024",
+      title:" Reinventing the Voice Assistant: How Our Next-Gen AI Voice Bot is Transforming Conversational AI",
+      description:"Our AI voice assistant is not just a technological upgrade—it's a strategic investment that can drive substantial benefits across your organization. By harnessing the power of advanced AI, businesses can unlock new levels of efficiency, revenue growth, productivity, and competitive positioning.",
+      image:blog12,
     },
     {
       id:"5-ways-AI-can-enhance-and-optimize-your-inventory-management",
