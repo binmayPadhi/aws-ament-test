@@ -18,7 +18,7 @@ const Insightdata = {
       id:"how-our-next-Gen-AI-voice-bot-is-transforming-conversational-AI",
       date:"November 20, 2024",
       title:" Reinventing the Voice Assistant: How Our Next-Gen AI Voice Bot is Transforming Conversational AI",
-      description:"Our AI voice assistant is not just a technological upgrade—it's a strategic investment that can drive substantial benefits across your organization. By harnessing the power of advanced AI, businesses can unlock new levels of efficiency, revenue growth, productivity, and competitive positioning.",
+      description:"Our AI voice assistant is not just a technological upgrade—it's a strategic investment that can drive substantial benefits across your organization.",
       image:blog12,
     },
     {
