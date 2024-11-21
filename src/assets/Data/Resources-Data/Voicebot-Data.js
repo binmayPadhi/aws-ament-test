@@ -399,7 +399,7 @@ const Voicebotdata = [
                 {
                   sidehead:"End-to-End Encryption ",
                   content:
-                    "Protecting your data is our top priority. We employ state-of-the-art end-to-end encryption to secure data during both transmission and storage. This means that from the moment your voice or text data leaves your device, it's converted into a secure code that's indecipherable to unauthorized parties. Even if intercepted, the encrypted data remains unreadable without the correct decryption key. Our encryption protocols are built on industry-leading standards like AES-256 and TLS 1.3, ensuring that your information is shielded from cyber threats. We regularly update our encryption methods to counteract emerging vulnerabilities, providing you with peace of mind that your personal information and conversations remain confidential and protected against unauthorized access.",
+                    "Protecting your data is our top priority. We employ state-of-the-art end-to-end encryption to secure data during both transmission and storage. This means that from the moment your voice or text data leaves your device, it's converted into a secure code that's indecipherable to unauthorized parties. Even if intercepted, the encrypted data remains unreadable without the correct decryption key.",
                 },
                 {
                   sidehead:"Compliance with Global Data Protection Regulations  ",
@@ -415,18 +415,18 @@ const Voicebotdata = [
                         {
                             sidehead:"Access Your Data:",
                             content:
-                              "Review the information we've collected to ensure accuracy and transparency. ",
+                              " Review the information we've collected to ensure accuracy and transparency. ",
                           },
                           {
                             sidehead:"Modify or Delete Information: ",
                             content:
-                              "Make changes to your personal data or request its deletion at any time. ",
+                              " Make changes to your personal data or request its deletion at any time. ",
                           },
 
                           {
                             sidehead:"Manage Consent Preferences:",
                             content:
-                              "Opt-in or opt-out of data collection features, such as usage analytics or personalized recommendations. We provide clear, easy-to-understand privacy policies and settings interfaces, so you're never in the dark about how your data is used. By putting control back into your hands, we aim to foster a relationship built on trust and transparency.  ",
+                              " Opt-in or opt-out of data collection features, such as usage analytics or personalized recommendations. We provide clear, easy-to-understand privacy policies and settings interfaces, so you're never in the dark about how your data is used. By putting control back into your hands, we aim to foster a relationship built on trust and transparency.  ",
                           },
                     ]
 
@@ -631,11 +631,7 @@ const Voicebotdata = [
                   content:
                     "Exploring the integration of symbolic AI with machine learning for more robust performance. ",
                 },
-                {
-                  sidehead:"Quantum Computing: ",
-                  content:
-                    "Investigating quantum algorithms to accelerate processing speeds and capabilities",
-                },
+
                 {
                   sidehead:"Enhanced Emotional Intelligence: ",
                   content:
@@ -655,11 +651,6 @@ const Voicebotdata = [
                     " Creating interfaces that adjust not just in response but in presentation based on user emotions. ",
                 },
                 {
-                  sidehead:"Gamification Elements: ",
-                  content:
-                    "Incorporating game-like features to increase user engagement and satisfaction. ",
-                },
-                {
                   sidehead:"Accessibility Features: ",
                   content:
                     "Enhancing support for users with disabilities, ensuring inclusivity. ",
@@ -677,7 +668,7 @@ const Voicebotdata = [
                 {
                   sidehead:"Localization: ",
                   content:
-                    "Adapting our AI assistant to meet the cultural and linguistic needs of new markets. ",
+                    "Adapting our AI voice assistant to meet the cultural and linguistic needs of new markets. ",
                 },
                 {
                   sidehead:"Strategic Partnerships: ",

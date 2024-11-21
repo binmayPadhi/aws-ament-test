@@ -7018,6 +7018,10 @@ text-align: justified;
   overflow-x: hidden;
 }
 
+.img-size-partner{
+  width: 150px;
+}
+
 ::-webkit-scrollbar {
   width: 6px;
 }

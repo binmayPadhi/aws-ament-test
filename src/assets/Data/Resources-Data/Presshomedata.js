@@ -13,7 +13,7 @@ import pressrelease1 from "../../images/Resources-page/pressreleasefirst.png";
 import pressrelease2 from "../../images/Resources-page/TSAwards.png";
 import pressrelease3 from "../../images/Resources-page/pressreleasetwo.png";
 import pressrelease4 from "../../images/Webinar-images/Bg-webinar-Img.png";
-import intelbg from "../../images/Resources-page/Partnershipbgimg.jpg";
+import intelbg from "../../images/Resources-page/ad-partnership-bg.svg";
 import pressrelease5 from "../../images/press-release-latest.png";
 
 const Presshomedata = {

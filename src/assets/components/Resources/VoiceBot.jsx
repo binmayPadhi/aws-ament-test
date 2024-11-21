@@ -105,13 +105,12 @@ const VoiceBot = () => {
                                                              {item.content && item.content.map((contentItem, content_index) => (
                                                                 <li key={content_index} className="fs-14 pb-3 goway-hlist">
                                                                     {contentItem.sidehead && (<span className="fs-14 fw-bold">{contentItem.sidehead}</span>)}
-                                                                    {contentItem.content}
+                                                                   <p className="fs-14 pb-3 goway-hlist"> {contentItem.content}</p>
 
                                                                     {/* { contentItem.sub_heading_mains.length} */}
 
                                                                     {/* index{content_index} */}
                                                                     <div className="inner-links">
-
                                                                    
                                                                     <ul>
 
@@ -200,10 +199,7 @@ const VoiceBot = () => {
                                 </div>
                                 
                             </>
-                            );
-               
-                               
-                                
+                            );          
                                 
                             }
                            
