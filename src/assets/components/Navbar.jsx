@@ -36,7 +36,8 @@ function Navbar(props) {
       url === "/blogs/5-ways-AI-can-enhance-and-optimize-your-inventory-management" ||
       url === "/site-map" ||
       url === "/leadership" || 
-      url === "/blogs/how-our-next-Gen-AI-voice-bot-is-transforming-conversational-AI"
+      url === "/blogs/how-our-next-Gen-AI-voice-bot-is-transforming-conversational-AI" ||
+      url === "/press-releases/amnet-digital-partners-with-intel"
     ) {
       setNavcolor("app");
     } else {
@@ -1140,7 +1141,7 @@ function Navbar(props) {
                                   serviceTo(e, `/blogs`)
                                 }
                               >
-                                {`see more >`}
+                                {`See more >`}
                               </span>
                             </p>
                         </div>
