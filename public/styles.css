@@ -5546,7 +5546,7 @@ label {
   }
 
   .new-case-studies-list .card-body {
-    height: 720px;
+    height: 650px;
   }
 
  
@@ -5673,6 +5673,17 @@ label {
   display: block;
   animation: slideUp 0.8s ease-in-out;
 }
+
+.seemore {
+  color: #19af8f !important;
+  font-weight: 500 !important;
+  font-size: 13px;
+  padding-bottom: 5px;
+  text-decoration: underline !important;
+  margin-top: 3px;
+}
+
+
 
 @keyframes slideUp {
   0% {

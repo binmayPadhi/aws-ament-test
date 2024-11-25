@@ -117,12 +117,14 @@ Search jobs best suited for you. Apply today!" />
                                                     <img src={list.firstimg} className="w-100 p-2" alt="First Image" loading="lazy" />
                                                 </div>
                                                 <div>
-                                                    <img src={list.secondimg} className="w-100 mt-4 p-2" alt="Second Image" loading="lazy" />
+                                                    <img src={list.secondimg} className="w-100 mt-4 p-2 height-img" alt="Second Image" loading="lazy" />
                                                 </div>
                                             </div>
                                             <div className="col-lg-4">
                                                 <h1 className="collaborate-text">{list.title}</h1>
                                                 <p className="key-text">{list.description}</p>
+                                                <p className="key-text">{list.description1}</p>
+                                                <p className="key-text">{list.description2}</p>
                                             </div>
                                         </div>
                                     </div>
