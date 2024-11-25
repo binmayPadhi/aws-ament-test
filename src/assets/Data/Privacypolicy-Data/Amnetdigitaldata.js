@@ -32,6 +32,15 @@ const AmnetDigitalData = [
    title: "Community Engagement",
    description:"Giving back to the community is an integral part of our company culture. Amnet Services actively participates in various social responsibility initiatives, including environmental sustainability programs, educational outreach, and charitable donations. Our employees are encouraged to volunteer their time and skills to make a positive impact on society. Together, we strive to create a better world for future generations." 
  },
+ {
+  id:"5",
+ fullimg: "https://s3.us-east-1.amazonaws.com/swiftinsights.ai/Activities/office_activity.jfif",
+ firstimg: "https://s3.us-east-1.amazonaws.com/swiftinsights.ai/Amnetdigital_website_assets/UMA_8110_resize.JPG",
+ secondimg: "https://s3.us-east-1.amazonaws.com/swiftinsights.ai/Activities/Media+(19)+1+(1)+1.png",
+ title: "Our Culture",
+ description:"At Amnet Digital, we’re more than a workplace—we’re a community rooted in collaboration, creativity, and mutual respect. Every voice is valued, and every contribution makes a difference as we work together with integrity, passion, and a commitment to excellence.",
+description1:"We believe in growing together—professionally and personally—while making a meaningful impact on our clients, communities, and each other. United by our values and shared purpose, we inspire, support, and celebrate one another to build something extraordinary.",
+},
 
 ]
 
