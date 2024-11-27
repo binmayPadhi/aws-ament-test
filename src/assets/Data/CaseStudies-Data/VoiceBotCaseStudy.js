@@ -130,7 +130,7 @@ const voicebotcasestudy = [
     sub_heading_mains : [
 
         {
-            subheader: "Client Reengament: ",
+            subheader: "Client Reengagement: ",
             content:[
                 {
                   sidehead:"Reactivated Accounts: ",
