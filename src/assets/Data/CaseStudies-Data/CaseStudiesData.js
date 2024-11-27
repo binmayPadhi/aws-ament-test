@@ -18,7 +18,7 @@ const caseStudiesData = [
     solutionDesc:
     "Implemented an AI-based voice bot to reach out to inactive clients. The solution leveraged historical data, client segmentation, and personalized communication to identify and address specific client needs effectively. ",
     caseStudiesIMG: aibotimg,
-    seemoretext: "Seemore >",
+    seemoretext: "Read more >",
     orderedList: [  
       {  
         sidehead: "CRM Integration: ",  

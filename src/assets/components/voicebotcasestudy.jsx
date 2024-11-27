@@ -14,10 +14,10 @@ const VoiceBotCasestudy = () => {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title></title>
-                <meta name="title" content="5 Ways AI Can Optimize Your Inventory Management | Amnet Digital" />
-                <meta name="description" content="AI will play a pivotal role in reshaping the retail landscape from personalizing customer experiences to optimizing supply chain and inventory management." />
-                <meta name="keywords" content="AI for inventory management, AI to optimize inventory management, AI solutions for inventory management, inventory management AI solutions." />
+                <title>Next-Gen AI Voice Bot for Retail | Amnet Digital Case Study</title>
+                <meta name="title" content="Next-Gen AI Voice Bot for Retail | Amnet Digital Case Study" />
+                <meta name="description" content="Learn how Amnet Digital’s AI Voice Bot transforms Retail by enhancing engagement, streamlining support, and driving sales. Explore our case study for insights!." />
+                <meta name="keywords" content="AI Voice Bot in Retail, Retail Customer Engagement, AI-Powered Customer Support, Voice Bot Sales Enhancement, Retail Industry AI Solutions, Conversational AI in Retail, AI-Driven Retail Transformation, Intelligent Voice Assistants for Retail, Retail Client Relationship Management, AI Outreach in Retail" />
             </Helmet>
             <div className="contact-us-intro container-fluid"></div>
             <div className="container-fluid">
@@ -93,7 +93,7 @@ const VoiceBotCasestudy = () => {
                                                     list.sub_heading_mains.map((item, item_index) => (
                                                         
                                                         <div key={item_index}>
-                                                               <h1 className="fs-18 font-weight-bold fw-bold">{item.Supersubheader}</h1>
+                                                               <h1 className="fs-18 font-weight-bold fw-bold spacing-superheader">{item.Supersubheader}</h1>
                                                             <p className="fs-18 font-weight-bold fw-bold"> {item.subheader}</p>
                                                          
 
