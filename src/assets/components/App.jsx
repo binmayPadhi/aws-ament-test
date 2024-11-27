@@ -55,6 +55,9 @@ import AIrecognition from "./Resources/Pressreleasepages/AIrecognition";
 import AmnetDigital from "./AmnetDigital";
 import Leadership from "./ContactUs/Leadership";
 import VoiceBot from "./Resources/VoiceBot";
+import VoiceBotCasestudy from "./voicebotcasestudy";
+// import WhitePapers from "./whitepapers";
+// import Perplexity from "./Perplexity";
 
 
 function App() {
@@ -202,10 +205,13 @@ function App() {
           <Route path="/terms-of-use" element={<Termsandconditions />} />
           <Route path="/aiml" element={<Navigate to="/ai-ml" replace/>} />
           <Route path="/ai-ml" element={<RedirectAIML />} />
+          <Route path="/case-studies/ai-voice-bot" element={<VoiceBotCasestudy />}/>
           {/* <Route path="/services/:name" element={<RedirectAIML />} /> */}
           <Route path="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" element={<Redirectways />} />
           <Route path="/webinar-reshaping-the-retail-industry-through-AI" element={<RedirectWebinar />} />
           <Route path="/swiftinisghts-Webinar" element={<RedirectanotherWebinar />} />
+          {/* <Route path="/whitepaper" element={<WhitePapers />} /> */}
+          {/* <Route path="/perplexity" element={<Perplexity />} /> */}
           {/* <Route path="*" element={<Termsandconditions />}/> */}
         </Routes>
       </div>

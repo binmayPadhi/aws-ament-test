@@ -2,8 +2,52 @@ import propensityIMG from "../../images/Case-Studies-Page/PropensityM.png";
 import preventiveIMG from "../../images/Case-Studies-Page/RiskM.png";
 import virtualShoppingIMG from "../../images/Case-Studies-Page/PreventiveM.jpg";
 import riskAnalyticsIMG from "../../images/Case-Studies-Page/VirtualM.png";
+import aibotimg from "../../images/Case-Studies-Page/ai-voice-bot.png";
 
 const caseStudiesData = [
+  {
+    id: "risk-analytics",
+    title: "RISK ANALYTICS",
+    newTitle: "AI Voice Bot for Client Reengagement ",
+    requirement: "Requirement",
+    solution: "Solution Approach",
+    highlight: "Highlights/Tech Components",
+    benefits: "Benefits Observed",
+    requirementDesc:
+    "Reignite business relationships with dormant clients and boost revenue by proactively engaging customers through AI-driven solutions, tailored for a US-based B2B supplier of industrial electronic components. ",
+    solutionDesc:
+    "Implemented an AI-based voice bot to reach out to inactive clients. The solution leveraged historical data, client segmentation, and personalized communication to identify and address specific client needs effectively. ",
+    caseStudiesIMG: aibotimg,
+    seemoretext: "Read more >",
+    orderedList: [  
+      {  
+        sidehead: "CRM Integration: ",  
+        content: " Synchronized with historical client data for personalized interactions.",  
+      },  
+      {  
+        sidehead: "AI Features: ",  
+        content: "Included natural language processing for dynamic, two-way conversations and feedback collection.",  
+      },  
+      {  
+        sidehead: "Automation: ",  
+        content: "Enabled follow-ups, lead qualification, and meeting scheduling.",  
+      }, 
+    ], 
+    benefitList:[
+      {  
+        sidehead: "Client Reengagement: ",  
+        content: "Reactivated 12% of dormant accounts, generating ~$850,000 in revenue.",  
+      }, 
+      {  
+        sidehead: "Improved Efficiency: ",  
+        content: "Saved ~$90,000 in labor costs while scaling client outreach.",  
+      }, 
+      {  
+        sidehead: "Enhanced Client Understanding: ",  
+        content: "Gathered actionable feedback for better service offerings.",  
+      }, 
+    ] 
+  },
   {
     id: "propensity-modelling",
     title: "PROPENSITY MODELLING & RECOMMENDATION SYSTEM",
@@ -75,6 +119,7 @@ const caseStudiesData = [
       "Reduces risk of loss, higher interest incomes, lower sales and operating costs, reduced costs associated with risk mitigation, improved capital efficiency.",
     caseStudiesIMG: riskAnalyticsIMG,
   },
+  
 ];
 
 export default caseStudiesData;
