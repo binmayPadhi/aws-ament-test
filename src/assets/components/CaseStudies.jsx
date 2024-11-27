@@ -14,8 +14,8 @@ function TestCaseStudies() {
         <title>Business & Client | Case Studies | Amnet Digital</title>
         <meta name="description" content="Case studies illustrating how Amnet Digital assists clients globally, across industries, in overcoming challenges and 
           creating long-term value. Learn more." />
-      <meta name="keywords" content="Amnet Digital cases studies." />
-      <link rel="canonical" href="https://www.amnetdigital.com/case-studies" />
+        <meta name="keywords" content="Amnet Digital cases studies." />
+        <link rel="canonical" href="https://www.amnetdigital.com/case-studies" />
         <meta property="og:title" content="Business & Client | Case Studies | Amnet Digital" />
         <meta property="og:description" content="Case studies illustrating how Amnet Digital assists clients globally, across industries, in overcoming challenges and 
           creating long-term value. Learn more." />
@@ -86,7 +86,6 @@ function TestCaseStudies() {
                     alt="case-studies"
                   />
                   <div className="card-body">
-                    {/* <span className="case-studies-icon"><img className="img-fluid" src={caseStudy.caseStudiesIcon} alt ="case-studies-icon"/> </span> */}
                     <h2 className="case-studies-page-card-title card-title">
                       {caseStudy.newTitle}
                     </h2>
@@ -99,9 +98,39 @@ function TestCaseStudies() {
 
                       <h4>{caseStudy.highlight}</h4>
                       <p>{caseStudy.highlightDesc}</p>
+                      {/* Render ordered list if it exists */}
+                      {caseStudy.orderedList && caseStudy.orderedList.length > 0 && (
+                        <ol className="text-left">
+                          {caseStudy.orderedList.map((response, index) => (
+                            <li key={index} className="fs-14 pb-3 goway-hlist">
+                              {response.sidehead && (
+                                <span className="fs-14 fw-bold text-left text-side-head">{response.sidehead}</span>
+                              )}
+                              <span className="content-styles">{response.content}</span>
+                            </li>
+                          ))}
+                        </ol>
+                      )}
 
                       <h4>{caseStudy.benefits}</h4>
                       <p>{caseStudy.benefitDesc}</p>
+                      {caseStudy.benefitList && caseStudy.benefitList.length > 0 && (
+                        <ol className="text-left">
+                          {caseStudy.benefitList.map((response, index) => (
+                            <li key={index} className="fs-14 pb-3 goway-hlist">
+                              {response.sidehead && (
+                                <span className="fs-14 fw-bold text-left text-side-head">{response.sidehead}</span>
+                              )}
+                              <span className="content-styles">{response.content}</span>
+                            </li>
+                          ))}
+                        </ol>
+                      )}
+                      <p>
+                        <a href="/case-studies/voice-bot-outreach" className="seemore">
+                          {caseStudy.seemoretext}
+                        </a>
+                      </p>
                     </div>
                   </div>
                 </div>

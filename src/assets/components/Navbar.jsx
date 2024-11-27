@@ -37,7 +37,9 @@ function Navbar(props) {
       url === "/site-map" ||
       url === "/leadership" || 
       url === "/blogs/how-our-next-Gen-AI-voice-bot-is-transforming-conversational-AI" ||
-      url === "/press-releases/amnet-digital-partners-with-intel"
+      url === "/press-releases/amnet-digital-partners-with-intel" ||
+      url === "/case-studies/ai-voice-bot" 
+      // ||url === "/whitepaper"
     ) {
       setNavcolor("app");
     } else {

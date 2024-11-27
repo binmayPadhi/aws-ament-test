@@ -5546,7 +5546,7 @@ label {
   }
 
   .new-case-studies-list .card-body {
-    height: 650px;
+    height: 720px;
   }
 
  
@@ -6072,6 +6072,7 @@ label {
   font-size: 1.5rem;
   font-weight: 800;
   color: #19af8f;
+  text-decoration: none;
 }
 
 .card_body_description {
@@ -7099,6 +7100,15 @@ text-align: justified;
   100% {
     transform: translate(0, 0); /* Return to start */
   }
+}
+
+.content-styles{
+  font-size: 1.2rem;
+  margin:0!important;
+}
+
+.text-side-head{
+  color: #463F3F;
 }
 
 .blog_section {

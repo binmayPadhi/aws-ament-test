@@ -1,12 +1,10 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import blog11 from "../../images/Resources-page/blog11.png";
-import CTAIMG from "../../images/Resources-page/bloginventory.png";
-import Voicebotdata from "../../Data/Resources-Data/Voicebot-Data";
-import ai_voicebot from "../../images/Resources-page/ai-voicebot.jpg"
+import voicebotcasestudy from "../Data/CaseStudies-Data/VoiceBotCaseStudy";
+import ai_voicebot from "../images/Case-Studies-Page/ai-voice-bot-details.png";
 
 
-const VoiceBot = () => {
+const VoiceBotCasestudy = () => {
     const btnColor = {
         backgroundColor: "#ecac27",
         borderRadius: "50px",
@@ -27,7 +25,7 @@ const VoiceBot = () => {
                     <div className="new-home-about-details row ml-0 mr-0 above-spacings">
                         <div className="col-12 pl-0 pr-0 mb-5">
                             <h1>
-                                Reinventing the Voice Assistant: How Our Next-Gen AI Voice Bot is Transforming Conversational AI
+                                US-based B2B Retail Giant Revitalizes Client Relationships with AI Voice Bot Outreach
                             </h1>
                         </div>
                     </div>
@@ -42,14 +40,14 @@ const VoiceBot = () => {
                         </div>
                     </div>
                     <div className="row  ml-0 mr-0">
-                        {Voicebotdata.map((list) => {
-
+                        {voicebotcasestudy.map((list) => {
                             switch (list.type) {
-
                                 case 'paragraphs':
                                     return (
                                         <>
                                             <div className="col-12  p-0" key={list.id}>
+                                                <h1 className="fs-24 fw-bold">{list.header}</h1>
+                                                <p className="fs-14">{list.header_text}</p>
                                                 <p className="fs-14">{list.paragraph1}</p>
                                                 <p className="fs-14">{list.paragraph2}</p>
                                             </div>
@@ -64,8 +62,6 @@ const VoiceBot = () => {
                                                     {list.sub_heading}
                                                 </p>
                                                 {list.sub_heading_description && <p className="fs-14">{list.sub_heading_description}</p>}
-
-
                                                 {list.hasOwnProperty("orderedlist") && list.orderedlist?.length > 0 && (
                                                     <ol className="pl-4">
                                                         {list.orderedlist.map((response, index) => (
@@ -95,15 +91,17 @@ const VoiceBot = () => {
 
                                                 {list.sub_heading_mains &&
                                                     list.sub_heading_mains.map((item, item_index) => (
+                                                        
                                                         <div key={item_index}>
+                                                               <h1 className="fs-18 font-weight-bold fw-bold">{item.Supersubheader}</h1>
                                                             <p className="fs-18 font-weight-bold fw-bold"> {item.subheader}</p>
+                                                         
 
                                                             {/* <ol className="pl-4"> */}
                                                             {item.content && item.content.map((contentItem, content_index) => (
-                                                                <li key={content_index} className="fs-14 pb-3 goway-hlist">
+                                                                <li key={content_index} className="fs-14  goway-hlist">
                                                                     {contentItem.sidehead && (<span className="fs-14 fw-bold">{contentItem.sidehead}</span>)}
-                                                                    <p className="fs-14 pb-3 goway-hlist"> {contentItem.content}</p>
-
+                                                                    <p className="fs-14  goway-hlist"> {contentItem.content}</p>
 
                                                                     {/* index{content_index} */}
                                                                     <div className="inner-links">
@@ -114,30 +112,22 @@ const VoiceBot = () => {
                                                                                 contentItem.sub_heading_mains &&
                                                                                 contentItem.sub_heading_mains.map((inner_item, inneritem_index) => (
                                                                                     <>
-
                                                                                         <li key={inneritem_index * 100} className="fs-14 pb-3 goway-hlist" >
-
-
                                                                                             {/* index{inneritem_index} */}
                                                                                             {inner_item.sidehead && (<span className="fs-14 fw-bold">{inner_item.sidehead}</span>)}
                                                                                             {inner_item.content}
                                                                                         </li>
                                                                                     </>
-
                                                                                 ))
                                                                             }
                                                                         </ul>
 
                                                                     </div>
-
                                                                 </li>))}
-
                                                         </div>
-
 
                                                     ))
                                                 }
-
                                                 {list.hasOwnProperty("orderedlist") && list.orderedlist?.length > 0 && (
                                                     <ol className="pl-4">
                                                         {list.orderedlist.map((response, index) => (
@@ -164,12 +154,6 @@ const VoiceBot = () => {
                                                 <p className="fs-24  font-weight-bold fw-bold">{list.heading}</p>
                                                 <p className="fs-14">{list.description}</p>
                                                 <b className="fs-14 conclusion_section">{list.question}</b>
-                                                <p className="fs-14">Contact us at
-
-                                                    <a href="mailto:info@amnetdigital.com" className="contact-email fs-14 email_margin" >
-                                                        info@amnetdigital.com
-                                                    </a>
-                                                    to discover how our AI voice assistant can revolutionize your business.</p>
                                             </div>
 
                                         </>
@@ -229,4 +213,4 @@ const VoiceBot = () => {
     );
 };
 
-export default VoiceBot;
+export default VoiceBotCasestudy;
