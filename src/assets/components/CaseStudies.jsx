@@ -127,7 +127,7 @@ function TestCaseStudies() {
                         </ol>
                       )}
                       <p>
-                        <a href="/case-studies/voice-bot-outreach" className="seemore">
+                        <a href="/case-studies/ai-voice-bot" className="seemore">
                           {caseStudy.seemoretext}
                         </a>
                       </p>
