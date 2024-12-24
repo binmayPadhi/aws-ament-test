@@ -1,8 +1,8 @@
-import ReatilIMG from "../../images/HomePage/homepage-industry-IMG/amnet-retail-industry.jpg";
-import HealthcareIMG from "../../images/HomePage/homepage-industry-IMG/amnet-healthcare-indsutry.jpg";
-import EnterpriseIMG from "../../images/HomePage/homepage-industry-IMG/amnet-information-mgmt-industry.jpg";
-import FinancialIMG from "../../images/HomePage/homepage-industry-IMG/Financial-Servicesimg.png";
-import LogisticsIMG from "../../images/HomePage/homepage-industry-IMG/LogisticsImage.png";
+import ReatilIMG from "../../images/HomePage/homepage-industry-IMG/retail.jpg";
+import HealthcareIMG from "../../images/HomePage/homepage-industry-IMG/healthcare.jpg";
+import EnterpriseIMG from "../../images/HomePage/homepage-industry-IMG/information-management.jpg";
+import FinancialIMG from "../../images/HomePage/homepage-industry-IMG/Financial-Services.jpg";
+import LogisticsIMG from "../../images/HomePage/homepage-industry-IMG/Logistics.jpg";
 const IndustrySectionData = {
   SectionData:[
   {

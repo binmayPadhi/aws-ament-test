@@ -28,8 +28,6 @@ const AIrecognition = () => {
                     {Aidata.map((list) => {
                         return (
                             <>
-                                {/* <h1 className="press-title">{list.title}</h1> */}
-                                {/* <p className="press-title"><a  target="_blank" href="https://ts-msme.globallinker.com/bizforum/article/winners-of-the-telangana-state-industry-awards-2023/108813/#/overlay/signup/articleview/108813">{list.amnet}</a></p> */}
                                 <h2 className=" top-space fw-bold-600">{list.subtitle}</h2>
                                 <p className="mt-5" >
                                   <span className="fs-19 fw-bold-600 mt-5">{list.para}</span>

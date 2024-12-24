@@ -219,59 +219,6 @@ const GenerativeAI = () => {
                 </a>
             </div>
 
-
-
-            {/** let gets started */}
-            <div className="center-85">
-                {/* <div
-        className="sub-CTA-intro position-realtive"
-        style={{
-          backgroundImage: `url(${AboutUsBG})`,
-          backgroundAttachment: "scroll",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
-      > */}
-                {/* <div className="fs-35 text-white position-absolute top-0">
-          <Navbar navChange={navColor} />
-        </div> */}
-                {/* <div className="w-85 mx-auto">
-          <div className="text-center-img-CTA">
-            <div className="row">
-            <div className="col-lg-4 col-md-4 col-sm-12"></div>
-              <div className="col-lg-8 col-md-8 col-sm-12">
-                <h2
-                  className="fw-bold font-weight-bold-600 text-white fs-35 text-capitalize"
-                  data-text="Your Tech Innovation Catalyst"
-                >
-                  Powering Businesses To Achieve More
-                </h2>
-                <p className="fw-bold font-weight-bold-400 fs-16 text-white mb-5 mr-5 mt-4">
-                  At Amnet Digital, our focus is to infuse Data, Analytics & AI that enables clients to realize the higher value of their digital transformation initiatives and drive positive business impact.
-                </p>
-                <button
-                  type="button"
-                  className="fw-bold font-weight-bold-700 fs-14 px-4 py-3 text-white bg-grey d-table rounded-1 cr-pointer"
-                >
-                  Explore Services
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="bottom-img-about w-100">
-            <div className="row">
-            <div className="col-lg-4 col-md-4 col-sm-12"></div>
-              <div className="col-lg-8 col-md-8 col-sm-12">
-                <p className="fs-24 fw-bold font-weight-bold-600 text-white">About Us</p>
-              </div>
-            </div>
-          </div>
-        </div> */}
-                {/* </div> */}
-            </div>
-            {/* <Newgetstart componentFrom={"blog"} /> */}
-
-
             {/* NEW HOMEPAGE CAREER SECTION */}
 
             <div

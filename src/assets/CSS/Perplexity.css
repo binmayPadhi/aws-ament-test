@@ -1,0 +1,712 @@
+/* App.css */  
+.container {  
+  display: flex;  
+  position: relative;  
+  height: 100vh; /* Full height to allow scrolling */  
+}  
+
+
+
+
+
+@media only screen and (min-width: 769px) {
+ .col-2-5 {
+    flex: 0 0 20.833333%;
+    max-width: 20.833333%;
+    top: 0;
+  }
+
+  .highlight-text{
+    padding: 0 !important;
+  }
+
+.video-height{
+  width: 100%;
+  height: 315px;
+}
+  
+
+  .centered-text {
+    position: absolute;
+    width: 80%; /* Restricts the text block to 30% width */
+    top: 60%;
+    right: 40%;
+    right: 5%; /* Adds some margin from the right edge */
+    transform: translate(0, -50%); /* Center vertically only */
+    text-align: center;
+    color: white; /* Adjust text color as needed */
+    padding: 20px; /* Optional: Adds padding inside the text block */
+    border-radius: 8px; /* Optional: Rounds corners for aesthetics */
+  }
+  
+
+  .centered-text p {
+    font-size: 54px;
+    font-weight: 700;
+    color: #f6f6f6;
+    line-height: 110%;
+    text-align: left;
+    margin-top: 26px;
+    font-family: 'Poppins';
+  }
+
+  .scrolling-bar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .space-above {
+    margin-top: 80px;
+  }
+
+  .col-3-5 {
+    flex: 0 0 29.166667%;
+    max-width: 29.166667%;
+  }
+
+
+  .sticky-cls {
+  position: sticky;
+  top: 100px; /* Sidebar sticks to the top while scrolling */
+  align-self: flex-start;
+}
+
+.sticky-cls-first{
+  position: sticky;
+  top: 100px; 
+  align-self: flex-start;
+}
+}
+
+
+
+
+
+
+.category-font{
+  font-size: 14px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  color: #808080;
+  padding: 10px 0px;
+}
+
+.hr-line-category{
+  border: 1px solid #d9d9d9;
+  margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 500px){
+  .centered-text p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f6f6f6;
+    line-height: 110%;
+    text-align: left;
+    margin-top: 26px;
+    font-family: 'Poppins';
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .sticky-cls {
+    position: relative; /* Disable sticky for smaller screens */
+    top: auto;
+  }
+
+  .highlight-text{
+    padding: 10px;
+  }
+
+  .new-case-studies-row{
+    padding-left:16px;
+  }
+
+  .centered-text p {
+    font-size: 28px;
+    font-weight: 700;
+    color: #f6f6f6;
+    line-height: 110%;
+    text-align: left;
+    margin-top: 26px;
+    font-family: 'Poppins';
+  }
+
+
+
+  .video-height{
+    height: 100%;
+    width: 100%;
+  }
+
+  .iframe iframe{
+    width: 560px;
+      height: 315px;
+   }
+
+
+  .centered-text {
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    transform: translate(0, -50%); 
+    text-align: center;
+    color: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+  }
+
+
+
+  .sticky-cls-first{
+    display: none;
+    }
+
+  .col-2-5,
+  .col-3-5 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .scrolling-bar {
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  
+  .space-above {
+    margin-top: 80px;
+    width: 100% !important;
+    padding: 10px;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For IE and Edge */
+  }
+}
+
+.question-style{
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.btnn-styles{
+  border-radius:4px;
+  width:100%;
+  font-size: 14px;
+  color: #fff;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.border-green{
+  border-radius:4px;
+  width:100%;
+  font-size: 14px;
+  color: #fff;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sidehead-space{
+  margin-bottom: 30px;
+}
+
+.line-h{
+  line-height: 22px;
+}
+
+
+/* 
+.col-lg-3{
+  padding: 0 !important;
+} */
+
+.card_body_description {
+  color: black;
+  font-size: 14px;
+  margin-top: 10px;
+  opacity: 1;
+  font-weight: 400;
+  height: auto;
+}
+
+
+
+
+
+.color-date{
+  font-family: Poppins;
+font-size: 12px;
+font-weight: 300;
+line-height: 16.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #808080;
+}
+
+.card-body-heading {
+  color: black;
+  font-family: Poppins;
+font-size: 18px;
+font-weight: 800;
+line-height: 21.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+
+
+.minute-text{
+  font-family: Poppins;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.w-93{
+  width: 93%;
+}
+
+.background-container {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Adjust height as needed */
+  background-image: url('../images/About-Us-Page/worker-reading-news-with-tablet.png'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.centered-text h1 {
+  font-size: 14px; /* Adjust size as needed */
+  text-align: left;
+  line-height: normal;
+  font-weight: 500;
+  color: #c4c4c4;
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+
+
+.grey-background{
+  background-color: #f6f6f6;
+  margin-top: 80px;
+  padding-bottom:80px;
+  padding-top:80px;
+}
+
+.related-articles{
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 26px;
+  align-items: start;
+}
+
+.check-articles{
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 26px;
+  color: #1dad8f;
+  align-items: end;
+  padding-right: 18px;
+}
+
+.highlight-text:hover .card-body-heading {
+  color: #1dad8f; /* Changes the text color to green */
+}
+
+.heading {  
+  padding: 12px;  
+  font-size: 12px;  
+  cursor: pointer;  
+  color:#808080;
+  transition: background-color 0.3s;  
+  margin:20px 0px;
+}  
+
+.heading.active {  
+  font-weight: 400; 
+  font-size: 12px;
+  color: #000;
+  border-left: 1px solid green; 
+  margin:20px 0px;
+}  
+
+.green-star{
+  color: #18ae8e;
+  font-size: 16px;
+}
+
+.heading:not(.active) {  
+  border-left: 1px solid #e1e1e1; /* Grey border for inactive heading */  
+  /* margin:20px 0px; */
+}  
+
+.description-section h1 {  
+  font-size: 34px;  
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 26px;
+} 
+
+.description-section h2 {  
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-bottom: 16px;
+    margin-top: 44px !important;
+} 
+
+.description-section h3 {  
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 120%;
+} 
+
+.description-section p{
+  margin: 0;
+    margin-bottom: 20px;
+    font-weight: 300;
+    line-height: 160%;
+    font-size: 14px;
+}
+
+.li-margin{
+  margin-top:16px;
+}
+
+strong{
+  font-weight: 700;
+}
+
+.spacing-divs-l{
+    height: 44px;
+}
+
+.ai-styles{
+  color: #1dad8f;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 10px;
+}
+
+.spacing-divs-ss{
+  height: 24px;
+}
+
+.spacing-divs-xss{
+ height: 6px;
+}
+
+.description-section p {  
+  font-size: 14px;  
+  line-height: 1.6;  
+}  
+
+
+
+
+
+.h5{
+  font-size: 18px;
+color: #000000;
+font-weight: 600!important;
+line-height: 132% !important;
+letter-spacing: 0.5px!important;
+}
+
+.share-text{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.h5:hover{
+  font-size: 18px;
+  color: green;
+  
+}
+
+.font-form{
+  font-size: 12px;
+  font-weight: 300;
+  color: #5e5e5e;
+}
+
+.spacing-input-l{
+  padding-left: 12px;
+}
+
+.checkmarks-in{
+  height: 24px;
+  -webkit-box-shadow: none;
+}
+
+
+.flex{
+  display: flex;
+}
+
+.share-text{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+
+.card.servicess:hover .animation__img::before {  
+  opacity: 0; /* Remove overlay on hover */  
+}
+
+.card.servicess .card__content {
+  padding: 16px;
+}
+
+.card.servicess {  
+  position: relative; 
+  border: none; 
+  box-shadow:0px 12px 30px rgba(103, 180, 106, 0.1);
+  overflow: hidden;   
+
+}  
+
+.card.servicess h5{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: 0.5px;
+}
+
+
+.card.newsletter h5{
+    font-size: 18px;
+    font-weight: 600!important;
+    line-height: 110%!important;
+    letter-spacing: 0.5px!important;
+}
+
+.animation__img {  
+  position: relative; /* Ensure positioning for the overlay */  
+}  
+
+.animation__img img {  
+  height:150px;
+  width: 100%; /* Make sure the image fills the card */  
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */  
+}  
+
+.animation__img::before {  
+  content: '';  
+  position: absolute;  
+  top: 0;  
+  left: 0;  
+  right: 0;  
+  bottom: 0;  
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */  
+  opacity: 1; /* Show overlay by default */  
+  transition: opacity 0.3s ease; /* Smooth transition for overlay */  
+  z-index: 1; /* Overlay should be above the image */  
+}  
+
+.card.servicess:hover .animation__img::before {  
+  opacity: 0; /* Remove overlay on hover */  
+}  
+
+.h6{
+  font-size: 14px;
+  color: #1dad8f;
+}
+
+.card__content {  
+  position: relative; /* Ensure content is above the overlay */  
+  z-index: 2; /* Ensure content appears above the overlay */  
+  color: black; /* Default text color */  
+  transition: color 0.3s ease; /* Smooth transition for text color */  
+}  
+
+.card.servicess:hover .card__content {  
+  color: green; /* Change to your desired hover text color */  
+}
+
+
+
+.w-8{
+  width: 8%;
+}
+
+.reading-text{
+  font-family: Poppins;
+font-size: 14px;
+font-weight: 300;
+line-height: 22.4px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #808080;
+
+}
+
+
+
+.card.newsletter {
+  padding: 35px;
+  margin-top: 20px;
+  background: #fff;
+  border: 1px solid #f6f6f6;
+  box-shadow: 0px 12px 30px rgba(103, 180, 106, 0.1);
+}
+
+.checkMark-in{
+  width: 100%;
+  max-width: 100%;
+  padding: 12px 24px;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  outline: none;
+  resize: none;
+}
+
+.w-92{
+  width: 92%;
+}
+
+.signup-button {
+  text-decoration: "none";
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 11px 10px;
+  margin-top: 15px;
+  border: 0px;
+  border-radius: 4px;
+  text-align: center;
+  height: 45px;
+  width: 150px;
+  background-color: #1dad8f;
+  margin-bottom: 10px;
+}
+
+.schedule-button{
+  text-decoration: "none";
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 11px 10px;
+  margin-top: 15px;
+  border: 0px;
+  border-radius: 4px;
+  text-align: center;
+  height: 45px;
+  width: 150px;
+  background-color: #1dad8f;
+  margin-bottom: 10px;
+}
+
+.border-rounded{
+  width: 100%;
+  max-width: 100%;
+  padding: 24px 14px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 0!important;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  outline: none;
+  resize: none;
+}
+
+.share-container {  
+  display: flex;  
+  align-items: center;  
+  margin-top: 26px;
+}  
+
+.checkbox-space{
+  margin-top: 10px;
+}
+
+.share-container p {  
+  margin-right: 10px;  
+  font-size: 16px;  
+}  
+
+.social-icons {  
+  display: flex;  
+  gap: 10px; /* Space between icons */  
+}  
+
+.icon {  
+  margin-right: 8px; 
+}  
+
+
+
+.icon-text {  
+  font-size: 12px;
+
+  display: inline-block;  
+  margin-right: 5px; /* Space between icon and text */  
+  font-weight: bold;  
+}  
+
+.bottom-right-button {
+  bottom: 10px; /* Adjust the vertical position */
+  right: 10px; /* Adjust the horizontal position */
+  background-color: white; /* White background */
+  border: 1px solid #ccc; /* Optional border for better visibility */
+  padding: 5px 16px; /* Adjust padding as needed */
+  font-size: 14px; /* Adjust font size as needed */
+  cursor: pointer; /* Pointer cursor for hover effect */
+  border-radius: 20px;/* Rounded corners */
+  transition: all 0.3s ease; /* Smooth hover effects */
+  font-size: 12px;
+  font-weight: 500;
+  color: #1dad8f;
+}
+
+.bottom-right-button:hover {
+  font-size: 12px;
+  font-weight: 500;
+  color: #1dad8f;
+  background-color: #fff; /* Slight gray background on hover */
+}
+
+

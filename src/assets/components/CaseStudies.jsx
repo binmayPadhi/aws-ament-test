@@ -62,8 +62,6 @@ function TestCaseStudies() {
         </div>
       </div>
 
-      {/* New Case Studies QUOTE SECTION */}
-
 
       {/* <!-- CASE STUDIES PAGE ALL CASE STUDIES --> */}
       <div
@@ -139,8 +137,6 @@ function TestCaseStudies() {
           })}
         </div>
       </div>
-
-      {/* NEW HOMEPAGE CAREER SECTION */}
 
       <div className="mt-5">
         <Letsconnect />

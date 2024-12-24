@@ -16,7 +16,7 @@ const VoiceBot = () => {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title></title>
+                <title>5 Ways AI Can Optimize Your Inventory Management | Amnet Digital</title>
                 <meta name="title" content="5 Ways AI Can Optimize Your Inventory Management | Amnet Digital" />
                 <meta name="description" content="AI will play a pivotal role in reshaping the retail landscape from personalizing customer experiences to optimizing supply chain and inventory management." />
                 <meta name="keywords" content="AI for inventory management, AI to optimize inventory management, AI solutions for inventory management, inventory management AI solutions." />

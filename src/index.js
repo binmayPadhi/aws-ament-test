@@ -5,7 +5,7 @@ import App from "./assets/components/App";
 import ScrollToTop from "./assets/components/ScrollTop";
 
 ReactDOM.createRoot(document.getElementById("root"));
-document.getElementById("root").style.overflowX = "hidden";
+// document.getElementById("root").style.overflowX = "hidden";
 
 ReactDOM.render(
   <BrowserRouter>

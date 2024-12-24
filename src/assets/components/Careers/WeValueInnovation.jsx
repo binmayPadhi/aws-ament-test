@@ -5,17 +5,6 @@ function WeValueInnovation() {
   return (
     <>
       <div className="weValueInnovation w-90 mx-auto">
-        {/* <div className="careers-our-culture-header text-center">
-                    <h1 className="section-title mt-3">WE VALUE INNOVATION</h1>    
-                </div> */}
-        {/* <div className="description">
-                    <p>lorem ipsulm lorem ipsulm lorem ipsulmlorem ipsulmlorem ipsulm lorem ipsulm lorem ipsulm lorem ipsulm 
-                    lorem ipsulm lorem ipsulm lorem ipsulm lorem ipsulm lorem ipsulm lorem ipsulmlorem ipsulmlorem ipsulm lorem 
-                    ipsulm lorem ipsulm lorem ipsulm 
-                    lorem ipsulm lorem ipsulm lorem ipsulm
-                    </p>
-                </div> */}
-
         <div className="weValueInnovationCarousel">
           <div
             id="carouselExampleIndicators"

@@ -9,7 +9,6 @@ const Generative = [
         link: "https://www.gartner.com/en/information-technology/insights/cio-agenda",
         textelement: "of retail decision-makers expect to spend more on data analytics, over 35% believe artificial intelligence is the game-changing technology holding tremendous potential for transforming the retail landscape.",
         description1: "In this dynamic retail world, organizations constantly look for innovative ways to enhance customer experiences, optimize processes, and boost profitability. More than 70% of retailers have already adopted a digital-first approach to increase competitiveness, efficiency, and customer satisfaction.",
-
     },
     {
         id: 2,

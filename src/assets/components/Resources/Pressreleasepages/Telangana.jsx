@@ -26,28 +26,6 @@ const Telangana = () => {
                         width: "100%",
                     }}
                 >
-
-                    {/* <div className="w-85 mx-auto">
-                        <div className="text-center-img">
-                            <div className="row">
-                                <div className="col-lg-7 col-md-7 col-sm-12">
-                                    <h2
-                                        className="fw-bold-600 text-white fs-35 text-capitalize"
-                                        data-text="Your Tech Innovation Catalyst"
-                                    >
-                                        Amnet Digital announces the launch of Swift Insights, an AI-powered analytics platform
-                                    </h2>
-
-                                </div>
-                                <div className="col-lg-4 col-md-4 col-sm-12"></div>
-                            </div>
-                        </div>
-                        <div className="bottom-img-insight w-90">
-                            <div className=" mx-auto">
-                                <p className="fs-20 fw-bold-600 text-white">Press Release</p>
-                            </div>
-                        </div>
-                    </div> */}
                 </div>
                 <div className="mt-5 w-80 mx-auto">
                     {Telanganadata.map((list) => {
@@ -90,17 +68,7 @@ const Telangana = () => {
                                 <p class="mt-2">
                                     <span className="fs-19">First published on PR Newswire - </span><span><a href=""  className="fs-19">https://www.prnewswire.com/in/news-releases/amnet-digital-announces-a-launch-of-swift-insights-an-ai-powered-analytics-platform-help-businesses-make-informed-decisions-302030923.html</a></span>
                                 </p>
-                                {/* <p className="fs-19">
-                    {list.descr}{" "}
-                    <span>
-                      <a className="fs-18" target="_blank" href={list.links}>
-                        {list.dst}
-                      </a>
-                    </span>
-                    <span className="fs-19">{list.textel}</span>
-                  </p> */}
                                
-
                             </>
                         )
                     })}

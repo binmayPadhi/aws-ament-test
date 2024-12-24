@@ -367,7 +367,6 @@ function Footer() {
               );
             })}
           <div className="w-90 mx-auto">
-            {/* <p className="mb-0 mt-md-5 spacing-first" ><a href=""><img src={Equalitas} /></a> <span><a href=""><img src={Equalitas} /></a></span> </p> */}
             <MediaQuery minWidth={760} >
               {
               <div className="ml-lg-5 d-flex flex-row justify-content-center"><span className="me-5"><a href="/odc-and-iso-recognized-certification"><img src={ISO} loading="lazy" /></a></span><span className="me-5"><a href="/odc-and-iso-recognized-certification"><img src={Equalitas} loading="lazy" /></a></span><span ><a ><img src={soc} loading="lazy" /></a></span></div>
