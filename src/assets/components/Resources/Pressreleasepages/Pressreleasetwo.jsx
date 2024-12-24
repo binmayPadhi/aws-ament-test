@@ -125,17 +125,6 @@ const Pressreleasetwo = () => {
                                 <p class="mt-2">
                                     <span className="fs-19">First published on PR Newswire - </span><span><a href=""  className="fs-19">https://www.prnewswire.com/in/news-releases/amnet-digital-announces-a-launch-of-swift-insights-an-ai-powered-analytics-platform-help-businesses-make-informed-decisions-302030923.html</a></span>
                                 </p>
-                                {/* <p className="fs-19">
-                    {list.descr}{" "}
-                    <span>
-                      <a className="fs-18" target="_blank" href={list.links}>
-                        {list.dst}
-                      </a>
-                    </span>
-                    <span className="fs-19">{list.textel}</span>
-                  </p> */}
-                               
-
                             </>
                         )
                     })}

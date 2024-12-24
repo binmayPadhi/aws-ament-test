@@ -141,9 +141,7 @@ const Apply = () => {
                     height: "500px",
                 }}
             >
-                {/* <div className="fs-35 text-white position-absolute top-0">
-                    <Navbar navChange={navColor} />
-                </div> */}
+              
                 <div className="bottom-img w-100 bottom-0" style={{ top: "50%" }}>
                     <div className="row">
                         <div className="col-lg-1 col-md-1 col-sm-12"></div>

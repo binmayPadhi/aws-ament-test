@@ -56,8 +56,20 @@ import AmnetDigital from "./AmnetDigital";
 import Leadership from "./ContactUs/Leadership";
 import VoiceBot from "./Resources/VoiceBot";
 import VoiceBotCasestudy from "./voicebotcasestudy";
-// import WhitePapers from "./whitepapers";
-// import Perplexity from "./Perplexity";
+import WhitePapers from "./whitepapers";
+import Perplexity from "./Perplexity";
+import GenBlog from "./Blogs/Genai-blog";
+import Inventorymanagement from "./Blogs/Inventorymanagement";
+import Generativeai from "./Blogs/Generativeai";
+import ForeCasting from "./Blogs/ForeCasting";
+import Videoannotation from "./Blogs/Videoannotation";
+import RealValues from "./Blogs/RealValues";
+import Datamigration from "./Blogs/Datamigration";
+import Scaleai from "./Blogs/Scaleai";
+import AIOPenvironment from "./Blogs/AIopenvironment";
+import AIOPSretail from "./Blogs/AIOPSretail";
+import Insightdiscover from "./Blogs/Insightdiscover";
+import Sevensignificant from "./Blogs/Sevensignificant";
 
 
 function App() {
@@ -126,55 +138,58 @@ function App() {
             <Route
               exact
               path="seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
-              element={<Insight />}
+              element={<Sevensignificant />}
             />
             <Route exact path="Insighthome" element={<Insighthome />} />
             <Route
               exact
               path="What-is-AIOps-and-explore-how-it-is-revolutionizing-the-retail-industry-by-solving-complex-challenges"
-              element={<InsightAIOPS />}
+              element={<AIOPSretail />}
             />
-            <Route exact path="Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment" element={<BlogIT />} />
+            <Route 
+            exact
+             path="Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment"
+              element={<AIOPenvironment />} />
             <Route
               exact
               path="AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations"
-              element={<InsightAI />}
+              element={<Insightdiscover/>}
             />
             <Route
               exact
               path="5-ways-AI-can-enhance-and-optimize-your-inventory-management"
-              element={<InventoryManagement />}
+              element={<Inventorymanagement />}
             />
             <Route
               exact
               path="how-to-scale-ai-in-retail-industry-with-data-management"
-              element={<ScaleAI />}
+              element={<Scaleai />}
             />
             <Route
               exact
               path="the-real-value-ai-can-bring-to-retail-industry"
-              element={<RealValue />}
+              element={<RealValues />}
             />
             <Route
               exact
               path="medical-image-video-data-annotation-services"
-              element={<ImageVideoAnnotation />}
+              element={<Videoannotation />}
             />
             <Route
             exact
             path="how-our-next-Gen-AI-voice-bot-is-transforming-conversational-AI"
-            element={<VoiceBot/>}
+            element={<GenBlog/>}
             />
             <Route
               exact
               path="supply-chain-planning-decisions-with-actionable-demand-forecasting-insights"
-              element={<Forecasting />} />
+              element={<ForeCasting />} />
             <Route exact path="10-ways-how-generative-ai-is-impacting-retail-organizations"
-              element={<GenerativeAI />} />
+              element={<Generativeai/>} />
             <Route
               exact
               path="6-steps-to-include-in-your-data-migration-journey"
-              element={<DataMigration />}
+              element={<Datamigration />}
             />
             <Route
               exact
@@ -206,12 +221,12 @@ function App() {
           <Route path="/aiml" element={<Navigate to="/ai-ml" replace/>} />
           <Route path="/ai-ml" element={<RedirectAIML />} />
           <Route path="/case-studies/ai-voice-bot" element={<VoiceBotCasestudy />}/>
-          {/* <Route path="/services/:name" element={<RedirectAIML />} /> */}
           <Route path="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" element={<Redirectways />} />
           <Route path="/webinar-reshaping-the-retail-industry-through-AI" element={<RedirectWebinar />} />
           <Route path="/swiftinisghts-Webinar" element={<RedirectanotherWebinar />} />
-          {/* <Route path="/whitepaper" element={<WhitePapers />} /> */}
-          {/* <Route path="/perplexity" element={<Perplexity />} /> */}
+          <Route path="/whitepaper" element={<WhitePapers />} />
+          <Route path="/perplexity" element={<Perplexity />} />
+          <Route path="/GenBlog" element={< GenBlog/>}/>
           {/* <Route path="*" element={<Termsandconditions />}/> */}
         </Routes>
       </div>
@@ -228,3 +243,21 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

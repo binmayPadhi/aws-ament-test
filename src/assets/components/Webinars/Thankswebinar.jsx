@@ -109,9 +109,7 @@ enabled by technology. Watch the on-demand webinar now!" />
       <div className="mt-5-rem mb-5-rem">
         <Letsgetstart />
       </div>
-      {/* Footer */}
-      {/* <Webinarfooter /> */}
-    </>
+     </>
   );
 };
 

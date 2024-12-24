@@ -20,17 +20,13 @@ function SolutionsServices(){
 
             <div className="col-xl-6 col-lg-12 col-sm-12 solutions-services-details-img animation-card">
             <img loading="lazy" className="img-fluid" src={AIServiceIMG} alt="Solutions and Service" />
-                {/* <img className="img-fluid" src={AIServiceIMG} srcSet={`${AboutIcon} 300w, ${AIIcon} 768w, ${OurServiceBG} 1280w, ${IndustryIMG} 3200w`} alt="Solutions and Service" /> */}
             </div>
 
             <div className="col-xl-6 col-lg-12 col-sm-12 solutions-services-details">
                 <ul className="new-solutions-services-lists">
 
                                 <li className="ai-list">
-                                    {/* <span>
-                                        <img loading="lazy" src={AIIcon} className="img-fluid ai-icon" alt="icon"></img>
-                                    </span>
-                                    User-centered & research backed design Robust & Scalable Architecture and Infrastructure design Advanced Analytics, Data Engineering & Visualization practices */}
+                                   
                                     <div className="AISolutionIcon">
                                     <span>
                                         <img loading="lazy" src={AIIcon} className="img-fluid ai-icon" alt="icon"></img>

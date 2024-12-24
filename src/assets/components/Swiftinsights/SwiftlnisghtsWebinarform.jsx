@@ -92,11 +92,7 @@ const SwiftlnisghtsWebinarform = ({ getSuccessResponse }) => {
                       required
                     />
                   </p>
-                  {/* <span className="help-block">
-                            <div>FullName is required</div>
-                            <div>The minimum length for this field is 1</div>
-                            <div>Please enter valid Fullname</div>
-                          </span> */}
+           
                 </div>
               </div>
               <div className="row ml-0 mr-0">
@@ -116,10 +112,6 @@ const SwiftlnisghtsWebinarform = ({ getSuccessResponse }) => {
                       required
                     />
                   </p>
-                  {/* <span className="help-block">
-                            <div>Email is required</div>
-                            <div>Email must be a valid email address</div>
-                          </span> */}
                 </div>
               </div>
               <div className="row ml-0 mr-0">
