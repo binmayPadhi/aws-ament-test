@@ -758,7 +758,7 @@ function Navbar(props) {
                             <p className="service-aiml mt-5">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/bpo-services`)
+                                  serviceTo(e, `/services/business-process-outsourcing-services`)
                                 }
                                 className="cr-pointer"
                               >

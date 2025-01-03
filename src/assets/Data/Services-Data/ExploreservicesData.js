@@ -1064,13 +1064,14 @@ const subservices = [
   },
   {
     id: 11,
-    serviceName: "bpo-services",
+    serviceName: "business-process-outsourcing-services",
     urlname: "bposervices",
     serviceImgaetitle: "BPO Services",
     serviceImg: BPO,
-    serviceSubheaading: "Data Engineering for Business",
-    metaname: "Expert BPO Services",
-    metadescription:"Transform your business with our professional BPO services. From customer support to IT solutions, we handle your non-core operations efficiently. Enjoy 24/7 operational excellence, tailored solutions, and cost-effective services to focus on your growth.",
+    serviceSubheaading: "Business Process Outsourcing (BPO) | Amnet Digital",
+    metaname: "Business Process Outsourcing (BPO) | Amnet Digital",
+    metadescription:"Amnet Digital empowers businesses with innovative BPO solutions. Enhance efficiency, streamline operations, and deliver exceptional customer experiences. Learn more.",
+    keywords:"BPO services, BPO solutions, strategic managed services, business process outsourcing, business process outsourcing services, business process services, BPO consulting.",
     servideSubdescription:
       "Transform your business with our expert BPO services. From customer support to IT solutions, we handle your non-core operations with precision and care. Focus on growth while we deliver cost-effective, scalable, and secure solutions tailored to your needs. Partner with us to streamline efficiency and ensure 24/7 operational excellence.",
     sub: {
