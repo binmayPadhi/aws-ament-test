@@ -770,21 +770,21 @@ function Navbar(props) {
                               style={{ marginTop: "5px" }}
                             >
                               <a
-                                href={`/services/${`bpo-services`}/${`customer-support-services`}`}
+                                href={`/services/${`business-process-outsourcing-services`}/${`customer-support-services`}`}
                               >
                                 Customer Support Services
                               </a>
                             </p>
                             <p className="sub-service-links">
                               <a
-                                href={`/services/${`bpo-services`}/${`back-office-support`}`}
+                                href={`/services/${`business-process-outsourcing-services`}/${`back-office-support`}`}
                               >
                                 Back-Office Support
                               </a>
                             </p>
                             <p className="sub-service-links">
                               <a
-                                href={`/services/${`bpo-services`}/${`it-support-development`}`}
+                                href={`/services/${`business-process-outsourcing-services`}/${`it-support-development`}`}
                               >
                                 IT Support & Development
                               </a>
@@ -793,7 +793,7 @@ function Navbar(props) {
                             <p className="sub-service-links dropdown-view-all-link mb-0">
                               <span
                                 onClick={(e) =>
-                                  serviceTo(e, `/services/bpo-services`)
+                                  serviceTo(e, `/services/business-process-outsourcing-services`)
                                 }
                               >
                                 {`See more >`}

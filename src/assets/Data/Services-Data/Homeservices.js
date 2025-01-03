@@ -569,7 +569,7 @@ const Homeservices = [
   {
     id: 41,
     name: "BPO Services",
-    link: "bpo-services",
+    link: "business-process-outsourcing-services",
     heading: "BPO Services",
     headingDescription:
       "Transform your business with our expert BPO services. From customer support to IT solutions, we handle your non-core operations with precision and care. Focus on growth while we deliver cost-effective, scalable, and secure solutions tailored to your needs. Partner with us to streamline efficiency and ensure 24/7 operational excellence..",
