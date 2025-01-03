@@ -10,6 +10,8 @@ import AD from "../../images/services-images/Advanced Analytics/advanced-analyti
 import UE from "../../images/services-images/UserExperience/user-experience-experience-_-interaction-design.png";
 import SC from "../../images/services-images/Strategy_Consulting/services-strategy_consulting-application-development.png";
 import it_support_development from "../../images/services-images/Bpo/it_support_development.jpg";
+import it_suppourt from "../../images/services-images/Bpo/it_suppourt.png";
+
 
 const Homeservices = [
   {
@@ -598,7 +600,7 @@ const Homeservices = [
         description:
           "Our IT Support & Development services streamline your technology needs with 24/7 helpdesk support, custom software development, infrastructure management, and regular maintenance. Enhance efficiency and customer experiences with our expert, reliable solutions.",
         "arrow-image": vector,
-        "side-image": it_support_development,
+        "side-image": it_suppourt,
         sublink: "it-support-development",
       },
       {
