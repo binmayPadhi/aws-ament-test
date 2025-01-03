@@ -26,6 +26,9 @@ const ServiceRedirectData = [
     {
         name: "qualityassurance", redirecturl: "/services/quality-assurance"
     },
+    {
+        name: "bposervices", redirecturl: "/services/bpo-services"
+    },
     // {
     //     name: "imageannotation", redirecturl:"/services/data-annotation/image-annotation"
     // }

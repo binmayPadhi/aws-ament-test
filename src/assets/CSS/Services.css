@@ -272,6 +272,10 @@
 .margin-15{
   margin-top:3rem;
 }
+
+.mt-15.mt-14 {
+  margin-top:3rem;
+}
  @media only screen and (min-width:270px) and (max-width:767px){
   .margin-15{
     margin-top:0rem;

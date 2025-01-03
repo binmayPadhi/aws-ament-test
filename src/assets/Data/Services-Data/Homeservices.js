@@ -9,6 +9,9 @@ import QA from "../../images/services-images/QualityAssurance/quality-assurance-
 import AD from "../../images/services-images/Advanced Analytics/advanced-analytics-graph-analysis.png";
 import UE from "../../images/services-images/UserExperience/user-experience-experience-_-interaction-design.png";
 import SC from "../../images/services-images/Strategy_Consulting/services-strategy_consulting-application-development.png";
+import it_support_development from "../../images/services-images/Bpo/it_support_development.jpg";
+import it_suppourt from "../../images/services-images/Bpo/it_suppourt.png";
+
 
 const Homeservices = [
   {
@@ -561,6 +564,55 @@ const Homeservices = [
         "side-image": null,
         sublink: "ai-customization",
       },
+    ],
+  },
+  {
+    id: 41,
+    name: "BPO Services",
+    link: "business-process-outsourcing-services",
+    heading: "BPO Services",
+    headingDescription:
+      "Transform your business with our expert BPO services. From customer support to IT solutions, we handle your non-core operations with precision and care. Focus on growth while we deliver cost-effective, scalable, and secure solutions tailored to your needs. Partner with us to streamline efficiency and ensure 24/7 operational excellence..",
+    // description:
+    //   "We blend our knowledge of diverse business domains and deep expertise in Data Management, AI/ML and Advanced Analytics to solve complex business problems.",
+    services: [
+      {
+        id: 404,
+        heading: "Customer Support Services",
+        description:
+          "Deliver exceptional customer experiences with our 24/7 multilingual support. From call center operations to live chat and email assistance, we ensure your customers are always heard, valued, and supported, fostering loyalty and satisfaction.",
+        "arrow-image": vector,
+        "side-image": null,
+        sublink: "customer-support-services",
+      },
+      {
+        id: 405,
+        heading: "Back-Office Support",
+        description:
+          "Streamline your administrative tasks with our comprehensive back-office support services. From data entry and document management to HR and payroll processing, our skilled team ensures accuracy, efficiency, and compliance. Focus on your core operations while we handle the behind-the-scenes essentials to keep your business running smoothly.",
+        "arrow-image": vector,
+        "side-image": null,
+        sublink: "back-office-support",
+      },
+      {
+        id: 406,
+        heading: "IT Support & Development",
+        description:
+          "Our IT Support & Development services streamline your technology needs with 24/7 helpdesk support, custom software development, infrastructure management, and regular maintenance. Enhance efficiency and customer experiences with our expert, reliable solutions.",
+        "arrow-image": vector,
+        "side-image": it_suppourt,
+        sublink: "it-support-development",
+      },
+      {
+        id: 407,
+        heading: "Industry-Specific Solutions",
+        description:
+          "Our industry-specific BPO solutions cater to sectors like healthcare, finance, e-commerce, and IT. From medical billing to risk assessment and inventory support, we offer tailored services that enhance efficiency, ensure compliance, and drive success.",
+        "arrow-image": vector,
+        "side-image": null,
+        sublink: "industry-specific-solutions",
+      }
+  
     ],
   },
 ];

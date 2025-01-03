@@ -171,7 +171,7 @@ const Viewsubservice = () => {
               }}
             >
               <div className="w-95 mx-auto py-5">
-                <p className="mt-15">
+                <p className="mt-15.mt-14">
                   <img
                     className="w-100 mx-auto"
                     src={selectedServicesobj.subimg}

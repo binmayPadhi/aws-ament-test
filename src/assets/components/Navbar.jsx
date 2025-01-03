@@ -486,14 +486,14 @@ function Navbar(props) {
                             </p>
                           </div>
                           <div className="col-lg-4">
-                            <p className="service-aiml mt-5">
+                            {/* <p className="service-aiml mt-5">
                               <span
                                 onClick={(e) =>
                                   serviceTo(e, `/services/data-annotation`)
                                 }
                                 className="cr-pointer"
                               >
-                                Data Annotation
+                                Data Annotation 
                               </span>
                             </p>
                             <p
@@ -528,7 +528,7 @@ function Navbar(props) {
                               >
                                 {`See more >`}
                               </span>
-                            </p>
+                            </p> */}
 
                             <p className="service-aiml mt-5">
                               <span
@@ -617,8 +617,8 @@ function Navbar(props) {
                                 {`See more >`}
                               </span>
                             </p>
-                          </div>
-                          <div className="col-lg-4">
+
+
                             <p className="service-aiml mt-5">
                               <span
                                 onClick={(e) =>
@@ -662,6 +662,9 @@ function Navbar(props) {
                                 {`See more >`}
                               </span>
                             </p>
+                          </div>
+                          <div className="col-lg-4">
+                            
 
                             <p className="service-aiml mt-5">
                               <span
@@ -745,6 +748,52 @@ function Navbar(props) {
                               <span
                                 onClick={(e) =>
                                   serviceTo(e, `/services/quality-assurance`)
+                                }
+                              >
+                                {`See more >`}
+                              </span>
+                            </p>
+
+
+                            <p className="service-aiml mt-5">
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/business-process-outsourcing-services`)
+                                }
+                                className="cr-pointer"
+                              >
+                                BPO Services
+                              </span>
+                            </p>
+                            <p
+                              className="sub-service-links"
+                              style={{ marginTop: "5px" }}
+                            >
+                              <a
+                                href={`/services/${`business-process-outsourcing-services`}/${`customer-support-services`}`}
+                              >
+                                Customer Support Services
+                              </a>
+                            </p>
+                            <p className="sub-service-links">
+                              <a
+                                href={`/services/${`business-process-outsourcing-services`}/${`back-office-support`}`}
+                              >
+                                Back-Office Support
+                              </a>
+                            </p>
+                            <p className="sub-service-links">
+                              <a
+                                href={`/services/${`business-process-outsourcing-services`}/${`it-support-development`}`}
+                              >
+                                IT Support & Development
+                              </a>
+                            </p>
+                        
+                            <p className="sub-service-links dropdown-view-all-link mb-0">
+                              <span
+                                onClick={(e) =>
+                                  serviceTo(e, `/services/business-process-outsourcing-services`)
                                 }
                               >
                                 {`See more >`}
