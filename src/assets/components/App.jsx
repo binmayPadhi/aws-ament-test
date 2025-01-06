@@ -175,11 +175,11 @@ function App() {
               path="medical-image-video-data-annotation-services"
               element={<ImageVideoAnnotation />}
             />
-            <Route
+            {/* <Route
             exact
             path="how-our-next-Gen-AI-voice-bot-is-transforming-conversational-AI"
             element={<GenBlog/>}
-            />
+            /> */}
             <Route
               exact
               path="supply-chain-planning-decisions-with-actionable-demand-forecasting-insights"
