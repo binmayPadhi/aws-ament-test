@@ -26,15 +26,7 @@ const Openings = [
     link: "/careers",
     sublink: "data-analyst",
   },
-  {
-    id: 13,
-    heading: "SENIOR LEVEL",
-    role: "Senior Data Engineer",
-    location: "Texas, US",
-    button: "Apply Now",
-    sublink: "senior-data-engineer",
 
-  },
   {
     id: 4,
     heading: "MID-SENIOR LEVEL",

@@ -158,6 +158,12 @@ function Footer() {
           link: "/services/quality-assurance",
           target: "_balnk",
         },
+        {
+          id: 39,
+          name: "BPO Services",
+          link: "/services/business-process-outsourcing-services",
+          target: "_balnk",
+        },
       ],
     },
     {

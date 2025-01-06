@@ -16,27 +16,27 @@ function Navbar(props) {
   const changebackgroundcolor = () => {
     if (
       url === "/legal-resources" ||
-      // url ===
-      //   "/blogs/seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" ||
+      url ===
+        "/blogs/seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" ||
         url === 
         "/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" ||
       url === "/cookies-policy" ||
       url === "/privacy-policy" ||
       url === "/terms-of-use" ||
-      // url === "/blogs/AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations" ||
-      // url === "/blogs/What-is-AIOps-and-explore-how-it-is-revolutionizing-the-retail-industry-by-solving-complex-challenges" ||
-      // url === "/blogs/Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment" ||
-      // url === "/blogs/how-to-scale-ai-in-retail-industry-with-data-management" ||
-      // url === "/blogs/6-steps-to-include-in-your-data-migration-journey" ||
-      // url === "/blogs/the-real-value-ai-can-bring-to-retail-industry" ||
-      // url === "/blogs/medical-image-video-data-annotation-services" ||
-      // url === "/blogs/supply-chain-planning-decisions-with-actionable-demand-forecasting-insights" ||
-      // url === "/blogs/10-ways-how-generative-ai-is-impacting-retail-organizations" ||
+      url === "/blogs/AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations" ||
+      url === "/blogs/What-is-AIOps-and-explore-how-it-is-revolutionizing-the-retail-industry-by-solving-complex-challenges" ||
+      url === "/blogs/Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment" ||
+      url === "/blogs/how-to-scale-ai-in-retail-industry-with-data-management" ||
+      url === "/blogs/6-steps-to-include-in-your-data-migration-journey" ||
+      url === "/blogs/the-real-value-ai-can-bring-to-retail-industry" ||
+      url === "/blogs/medical-image-video-data-annotation-services" ||
+      url === "/blogs/supply-chain-planning-decisions-with-actionable-demand-forecasting-insights" ||
+      url === "/blogs/10-ways-how-generative-ai-is-impacting-retail-organizations" ||
       url === "/products" ||
-      // url === "/blogs/5-ways-AI-can-enhance-and-optimize-your-inventory-management" ||
+      url === "/blogs/5-ways-AI-can-enhance-and-optimize-your-inventory-management" ||
       url === "/site-map" ||
       url === "/leadership" || 
-      // url === "/blogs/how-our-next-Gen-AI-voice-bot-is-transforming-conversational-AI" ||
+      url === "/blogs/how-our-next-Gen-AI-voice-bot-is-transforming-conversational-AI" ||
       url === "/press-releases/amnet-digital-partners-with-intel" ||
       url === "/case-studies/ai-voice-bot" 
       // ||url === "/whitepaper"
