@@ -17,15 +17,13 @@ const Viewsubservice = () => {
   const [selectedServicesobj, setSelectedserviceobj] = useState({});
   const history = useNavigate();
   useEffect(() => {
-    console.log(params,"manikanta")
     services.map((res) => {
-  
       if (res.serviceName === params.name) {
         setServiceData(res);
         let x = Object.values(res.sub);
         setList(x[0]);
         res.sub.data.map((data) => {
-          if (data["sublink"] === params["service"]) {
+          if (data["sublink"] === params["service"] ) {
             setSelectedservice(data["name"]);
             setSelectedserviceobj(data);
           }

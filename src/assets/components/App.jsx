@@ -108,7 +108,6 @@ function App() {
             <Route path="" element={<Services />} />
             <Route path=":name" element={<AIservices />} />
             <Route path=":name/:service" element={<Viewsubservice />} />
-            {/* <Route path=":name/:service" element={<Viewsubservicestart />} /> */}
           </Route>
           <Route path="/careers" element={<CareerHome />}>
             <Route path="" element={<Careers />} />
@@ -120,7 +119,8 @@ function App() {
           <Route path="/site-map" element={<Sitemap />} />
           <Route path="/legalresources" element={<Navigate to="/legal-resources" replace />} />
           <Route path="/legal-resources" element={<Legalterms />} />
-          <Route path="/products" element={<Product />} />
+          <Route path="/products" element={<Product />}  />
+          <Route path='/press-release/amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023' element={<Navigate to="/press-releases/amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023" replace/> } />
           <Route path="/press-releases" element={<Pressrelease />} >
             <Route exact path="" element={<Pressreleasehome />} />
             <Route
@@ -138,42 +138,42 @@ function App() {
             <Route
               exact
               path="seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry"
-              element={<Sevensignificant />}
+              element={<Insight />}
             />
             <Route exact path="Insighthome" element={<Insighthome />} />
             <Route
               exact
               path="What-is-AIOps-and-explore-how-it-is-revolutionizing-the-retail-industry-by-solving-complex-challenges"
-              element={<AIOPSretail />}
+              element={<InsightAIOPS />}
             />
             <Route 
             exact
              path="Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment"
-              element={<AIOPenvironment />} />
+              element={<BlogIT />} />
             <Route
               exact
               path="AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations"
-              element={<Insightdiscover/>}
+              element={<InsightAI />}
             />
             <Route
               exact
               path="5-ways-AI-can-enhance-and-optimize-your-inventory-management"
-              element={<Inventorymanagement />}
+              element={<InventoryManagement />}
             />
             <Route
               exact
               path="how-to-scale-ai-in-retail-industry-with-data-management"
-              element={<Scaleai />}
+              element={<ScaleAI />}
             />
             <Route
               exact
               path="the-real-value-ai-can-bring-to-retail-industry"
-              element={<RealValues />}
+              element={<RealValue />}
             />
             <Route
               exact
               path="medical-image-video-data-annotation-services"
-              element={<Videoannotation />}
+              element={<ImageVideoAnnotation />}
             />
             <Route
             exact
@@ -183,13 +183,13 @@ function App() {
             <Route
               exact
               path="supply-chain-planning-decisions-with-actionable-demand-forecasting-insights"
-              element={<ForeCasting />} />
+              element={<Forecasting />} />
             <Route exact path="10-ways-how-generative-ai-is-impacting-retail-organizations"
-              element={<Generativeai/>} />
+              element={<GenerativeAI/>} />
             <Route
               exact
               path="6-steps-to-include-in-your-data-migration-journey"
-              element={<Datamigration />}
+              element={<DataMigration />}
             />
             <Route
               exact
@@ -219,6 +219,14 @@ function App() {
           <Route path="/termsandconditions" element={<Navigate to="/terms-of-use" replace/>} />
           <Route path="/terms-of-use" element={<Termsandconditions />} />
           <Route path="/aiml" element={<Navigate to="/ai-ml" replace/>} />
+          <Route path="/services/dataengineering/data-pipelines" element={<Navigate to="/services/data-engineering/data-pipelines"/>}/>
+          <Route path="/services/datamanagement/data-architecture-management" element={<Navigate to="/services/data-management/data-architecture-management"/>}/>
+          <Route path="/services/cloudservices/cloud-integration" element={<Navigate to="/services/cloud-services/cloud-integration"/>}/>
+          <Route path="/services/strategyconsulting/data-strategy" element={<Navigate to="/services/strategy-consulting/data-strategy"/>}/>
+          <Route path="/services/strategyconsulting/application-development" element={<Navigate to="/services/strategy-consulting/application-development"/>}/>
+          <Route path="/services/qualityassurance/functional-testing" element={<Navigate to="/services/quality-assurance/functional-testing"/>}/>
+          <Route path="/services/userexperinces/user-research-and-analysis" element={<Navigate to="/services/user-experience/user-research-and-analysis"/>}/>
+          <Route path="/services/dataengineering/data-transformations" element={<Navigate to="/services/data-engineering/data-transformations"/>}/>
           <Route path="/ai-ml" element={<RedirectAIML />} />
           <Route path="/case-studies/ai-voice-bot" element={<VoiceBotCasestudy />}/>
           <Route path="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" element={<Redirectways />} />

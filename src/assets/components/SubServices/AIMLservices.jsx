@@ -16,9 +16,7 @@ const AIservices = () => {
   const [serviceUrl, setServiceUrl] = useState("");
   
   useEffect(() => {
-    console.log(params,"params1")
     services.map((res) => {
-      console.log(params,"params2")
       if (res.serviceName === params.name) {
         setServiceData(res);
         let x = Object.values(res.sub);
@@ -32,7 +30,6 @@ const AIservices = () => {
           if(res.name === params.name){
             history(res.redirecturl)
           }
-          
         })
         const url =`https://www.amnetdigital.com/services/${res.serviceName}`;
         setServiceUrl(url); 
