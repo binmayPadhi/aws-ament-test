@@ -168,6 +168,15 @@ import aic from "../../images/services-images/Strategy_Consulting/services-strat
 import aici from "../../images/services-images/Strategy_Consulting/strategy_consulting-icon-ai-customization.png";
 import GenAIimg from "../../images/services-images/Strategy_Consulting/GenAIimage.png";
 import Genicon from "../../images/services-images/Strategy_Consulting/Genicon.png";
+import BPO from "../../images/services-images/Bpo/bpo.jpg";
+import customer_support_service from "../../images/services-images/Bpo/CustomerSupportServices.jpg";
+import Customer_icon from "../../images/services-images/Bpo/Customer-icon.svg";
+import back_office_support from "../../images/services-images/Bpo/back_office_support.jpg";
+import Back_Office_support_icon from "../../images/services-images/Bpo/Back_Office_icon.svg";
+import it_support_development from "../../images/services-images/Bpo/it_support_development.jpg";
+import it_support_development_icon from "../../images/services-images/Bpo/it_support_development_icon.svg";
+import industry_specific_solutions from "../../images/services-images/Bpo/industry_specific_solutions.jpg";
+import industry_specific_solutions_icon from "../../images/services-images/Bpo/industry_specific_solutions_icon.svg";
 
 const subservices = [
   {
@@ -1051,6 +1060,60 @@ const subservices = [
           sublink: "ai-customization",
         },
       ],
+    },
+  },
+  {
+    id: 11,
+    serviceName: "business-process-outsourcing-services",
+    urlname: "bposervices",
+    serviceImgaetitle: "BPO Services",
+    serviceImg: BPO,
+    serviceSubheaading: "Business Process Outsourcing (BPO) | Amnet Digital",
+    metaname: "Business Process Outsourcing (BPO) | Amnet Digital",
+    metadescription:"Amnet Digital empowers businesses with innovative BPO solutions. Enhance efficiency, streamline operations, and deliver exceptional customer experiences. Learn more.",
+    keywords:"BPO services, BPO solutions, strategic managed services, business process outsourcing, business process outsourcing services, business process services, BPO consulting.",
+    servideSubdescription:
+      "Transform your business with our expert BPO services. From customer support to IT solutions, we handle your non-core operations with precision and care. Focus on growth while we deliver cost-effective, scalable, and secure solutions tailored to your needs. Partner with us to streamline efficiency and ensure 24/7 operational excellence.",
+    sub: {
+      data: [
+        {
+          id: 105,
+          name: "Customer Support Services",
+          subimg: customer_support_service,
+          subDes:
+            "Deliver exceptional customer experiences with our 24/7 multilingual support. From call center operations to live chat and email assistance, we ensure your customers are always heard, valued, and supported, fostering loyalty and satisfaction.",
+          subImgdata: Customer_icon,
+          sublink: "customer-support-services",
+        },
+        {
+          id: 106,
+          name: "Back-Office Support",
+          subimg: back_office_support,
+          subDes:
+            "Streamline your administrative tasks with our comprehensive back-office support services. From data entry and document management to HR and payroll processing, our skilled team ensures accuracy, efficiency, and compliance. Focus on your core operations while we handle the behind-the-scenes essentials to keep your business running smoothly.",
+          subImgdata: Back_Office_support_icon,
+          sublink: "back-office-support",
+        },
+        {
+          id: 107,
+          name: "IT Support & Development",
+          subimg: it_support_development,
+          subDes:
+            "Our IT Support & Development services streamline your technology needs with 24/7 helpdesk support, custom software development, infrastructure management, and regular maintenance. Enhance efficiency and customer experiences with our expert, reliable solutions.",
+          subImgdata: it_support_development_icon,
+          sublink: "it-support-development",
+        },
+        {
+          id: 108,
+          name: "Industry-Specific Solutions",
+          subimg: industry_specific_solutions,
+          subDes:
+            "Our industry-specific BPO solutions cater to sectors like healthcare, finance, e-commerce, and IT. From medical billing to risk assessment and inventory support, we offer tailored services that enhance efficiency, ensure compliance, and drive success.",
+          subImgdata: industry_specific_solutions_icon,
+          sublink: "industry-specific-solutions",
+        }
+      
+       ],
     },
   },
 ];

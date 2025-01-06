@@ -1,0 +1,154 @@
+.whitepaper-img-styles{
+    height: 420px;
+    padding-top: 40px;
+}
+
+.ptf-4{
+    padding-top: 50px;
+}
+
+.space-top-text{
+    padding-top: 16em;
+}
+
+.w-84 {
+    width: 84%;
+}
+
+.bg-blue {
+    background: #172b4d;
+    padding-bottom: 50px;
+    margin-top:80px;
+    padding-top: 50px;
+  }
+
+.download-text{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.evolution-text{
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 20px;
+    line-height: -1;
+    letter-spacing: 1px;
+}
+
+.project-text{
+    font-size: 14px;
+    font-weight:500;
+    color: #fff;
+    padding-top: 20px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+}
+
+.download-button{
+    margin-top: 20px;
+    font-size: 14px;
+    color:#002A5C;
+    background-color: #1dad8f;
+    font-weight: 700;
+    padding: 9px 20px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+}
+
+.submit-download {
+    background-color: #1dad8f;
+    color: #fff !important;
+    border: 1px solid #1dad8f;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 9px 20px;
+    text-align: center;
+    line-height: 3px;
+    font-weight: bold;
+  }
+
+.download-button:hover{
+    background-color: #fff;
+}
+
+.executive-text{
+    font-size: 24px;
+    font-weight: 700;
+    color: #172b4d;
+}
+
+.realm-text{
+    font-size: 16px;
+    color: #000;
+    padding-top: 20px;
+    letter-spacing: 0.5px;
+}
+
+.keys-text{
+    font-size: 16px;
+    font-weight: bold;
+    color:#172b4d;
+}
+
+.list-image{
+    margin-top: 20px;
+    margin-right: 50em;
+}
+
+.bg-blue-bottom {
+    background: #172b4d;
+    padding-bottom: 50px;
+    margin-top:80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    box-shadow:30px 30px 40px 80px#172b4d;
+    margin-bottom: 130px;
+  }
+
+.access-text{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 800; 
+}
+
+.learn-why-text{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.width-content{
+    width: 600px;
+    text-align: center;
+}
+
+.required-text{
+    font-size: 14px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.text-start{
+    text-align: start;
+    color: #fff;
+}
+
+.border-rounded{
+    border-radius: 4px;
+}
+
+.acknowledgment{
+    font-size: 15px;
+    color: #fff;
+   font-weight: 800;
+   
+}
+

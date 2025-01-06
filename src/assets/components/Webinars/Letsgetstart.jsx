@@ -85,7 +85,7 @@ const Letsgetstart = (props) => {
         <div className="d-flex w-100 justify-content-center">
           <div className="w-75 bg-left  d-flex align-items-center">
             <div className="center-88">
-              <p className="mb-0 text-white fs-20 font-weight-bold py-4">
+              <p className="mb-0 text-white fs-14 font-weight-bold py-4">
                 {props.componentFrom === "blog" ? (
                   <>
                     Do you want your AI & Data Analytics investment to bring
@@ -100,7 +100,7 @@ const Letsgetstart = (props) => {
                   </>
                 )}
               </p>
-              <p className="mb-0 text-white fs-20 font-weight-bold">
+              <p className="mb-0 text-white fs-14 font-weight-bold pb-3">
                 Schedule your FREE consulation now!
               </p>
             </div>
@@ -108,14 +108,13 @@ const Letsgetstart = (props) => {
           <div className="w-25 bg-right  d-flex align-items-center"   onClick={handleShow}>
             <div className="center-98">
               <p
-                className="mb-0 text-white fs-20 font-weight-bold w-100 pl-md-4 pl-sm-2"
-              
+                className="mb-0 text-white fs-14 font-weight-bold w-100 pl-md-2 pl-sm-2"
               >
-                Let's get started
-                <i
+                Let's get started ->
+                                {/* <i
                   className="fa fa-long-arrow-right text-white fs-18 pl-2"
                   aria-hidden="true"
-                ></i>
+                ></i> */}
               </p>
             </div>
           </div>

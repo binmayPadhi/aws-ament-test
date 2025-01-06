@@ -5,10 +5,8 @@ import AmnetOfficeIMG from "../../images/careers-page/amnet-office.jpg";
 function OurCulture() {
   return (
     <>
-      {/* <!-- CAREER-PAGE-OUR-CULTURE --> */}
        <div className="bg">
       <div className="careers-our-culture-header pt-5 text-center">
-        {/* <h3 className="section-header">IT'S EXCITING</h3> */}
         <h1
           data-aos="fade-up"
           data-aos-offset="200"

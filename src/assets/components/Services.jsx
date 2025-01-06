@@ -106,19 +106,23 @@ function TestService() {
                       >
                         {list.name}
                       </p>
-                      {list.id != 30 && list.id != 40 ? (
-                        <p
-                          style={{
-                            backgroundImage: `url(${thinborder})`,
-                            backgroundAttachment: "scroll",
-                            backgroundRepeat: "no-repeat",
-                            backgroundSize: "100% 100%",
-                            top: "80px",
-                            width: "100%",
-                            height: "1px",
-                          }}
-                          className="mt-1"
-                        ></p>
+                      {list.id != 30 && list.id != 41 ? (
+                       <div>
+
+                         <p
+                            style={{
+                              backgroundImage: `url(${thinborder})`,
+                              backgroundAttachment: "scroll",
+                              backgroundRepeat: "no-repeat",
+                              backgroundSize: "100% 100%",
+                              top: "80px",
+                              width: "100%",
+                              height: "1px",
+                            }}
+                            className="mt-1"
+                          ></p>
+                          <p>{list.id}</p>
+                       </div>
                       ) : null}
                     </>
                   );

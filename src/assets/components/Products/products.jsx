@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import test from "../../images/HomePage/SI_Image.png";
 import second from "../../images/HomePage/SD_Image.png";
 
+
 const Product = () => {
   const history = useNavigate();
   const redirectTo = (e, name) => {
@@ -16,13 +17,13 @@ const Product = () => {
   };
   return (
     <>
-     <div className="press-start">
+     <div >
       <div className="gradient-orange">
         <div className="w-88 mx-auto">
         <h1 className="fs-40 fw-bold-800 swift-color">Swift Insights</h1>
         </div>
       </div>
-      <div className="bg-grey-insights">
+      <div className="bg-grey-insights pb-5">
         <div className="w-88 mx-auto">
         <div className="row">
           <div className="col-lg-5 analytics-space">
@@ -57,12 +58,12 @@ const Product = () => {
         </div>
         </div>
       </div>
-      <div className="gradient-blue press-start">
+      <div className="gradient-blue press-start" id="swift-data">
         <div className="w-88 mx-auto">
         <h1 className="fs-40 fw-bold-800 swift-color">Swift Data</h1>
         </div>
       </div>
-      <div className="bg-grey-insights">
+      <div className="bg-grey-insights pb-5">
         <div className="w-88 mx-auto">
         <div className="row">
           <div className="col-lg-5 analytics-space">

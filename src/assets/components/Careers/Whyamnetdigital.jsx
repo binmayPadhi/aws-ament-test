@@ -61,9 +61,4 @@ function Whyamnetdigital() {
 
 export default Whyamnetdigital;
 
-{
-  /* <h2 className="text-white impact-space ">Impact</h2>
-              <h2 className="text-white impact-space">Development</h2>
-              <h2 className="text-white impact-space">Progress</h2>
-              <h2 className="text-white impact-space">Support</h2> */
-}
+

@@ -8,14 +8,11 @@ const Voicebotdata = [
         type: 'paragraphs',
         link: "https://www.statista.com/statistics/1197958/ai-use-cases-consumer-goods-retail-global/",
         textelement: "of global retail brands have already embraced AI to forecast demand, reduce stockouts, automate warehousing, and improve logistics efficiency. Because that helps them decrease carrying costs, maintain integrated supplier relationships, improve customer satisfaction, and stay competitive in this dynamic retail market.",
-        paragraph1: "In an age where technology seamlessly integrates into our daily routines, voice-based AI assistants have emerged as indispensable tools. From asking about the weather to managing complex schedules, these digital companions have redefined convenience. Yet, as user expectations soar, traditional voice assistants often lag behind—struggling with contextual understanding, personalization, and emotional intelligence.",
-        paragraph2: "At Amnet Digital, we're thrilled to unveil our next-generation AI voice assistant, a revolutionary leap in conversational AI. Designed to overcome the limitations of current voice assistants, our AI voice bot leverages cutting-edge technologies like generative AI and GPT-4 architecture to deliver an experience that's more intuitive, empathetic, and human-like than ever before. ",
     },
     {
         id: 2,
         type: 'orderedList',
-        sub_heading:"The Evolution of Voice Assistants ",
-        sub_heading_description:"Voice assistants have come a long way since their inception. Early iterations were limited to executing simple commands—setting alarms, making calls, or providing weather updates. With advancements in artificial intelligence and machine learning, they began to handle more complex interactions. However, significant challenges remain: ",
+        title:"The Evolution of Voice Assistants ",
        
         orderedlist: [
             {
@@ -44,8 +41,7 @@ const Voicebotdata = [
 {
     id: 3,
     type: 'orderedList',
-    sub_heading:"Why Advanced Conversational AI Is Needed  ",
-    sub_heading_description: "In today's fast-paced world, users demand more from their digital assistants: ",
+    title:"Why Advanced Conversational AI Is Needed  ",
     
     orderedlist: [
         {
@@ -72,10 +68,9 @@ const Voicebotdata = [
 {
     id: 4,
     type: 'main_orderedList',
-    sub_heading:"Introducing Our Next-Generation AI Voice Assistant",
-    sub_heading_description: "Our Generative AI voice bot is not just an incremental improvement—it's a transformative solution poised to redefine conversational AI. Here's how it stands out:   ",
+    title:"Introducing Our Next-Generation AI Voice Assistant",
     
-    sub_heading_mains : [
+    nestedOrderedList : [
 
         {
             subheader: "1. Contextual Understanding ",
@@ -177,10 +172,10 @@ const Voicebotdata = [
 {
     id: 4,
     type: 'main_orderedList',
-    sub_heading:"The Technology Behind Our Voice Assistant",
-    sub_heading_description: "Our AI voice bot is built on a foundation of advanced technologies that set it apart from the competition:  ",
+    title:"The Technology Behind Our Voice Assistant",
+    description: "Our AI voice bot is built on a foundation of advanced technologies that set it apart from the competition:  ",
     
-    sub_heading_mains : [
+    nestedOrderedList : [
 
         {
             subheader: "Generative AI and GPT-4 Architecture",
@@ -283,10 +278,10 @@ const Voicebotdata = [
 {
     id: 5,
     type: 'main_orderedList',
-    sub_heading:"Applications Across Industries ",
-    sub_heading_description: "Our AI voice assistant has versatile applications across various sectors, driving innovation and efficiency. ",
+    title:"Applications Across Industries ",
+    description: "Our AI voice assistant has versatile applications across various sectors, driving innovation and efficiency. ",
     
-    sub_heading_mains : [
+    nestedOrderedList : [
 
         {
             subheader: "Customer Service Transformation",
@@ -388,10 +383,10 @@ const Voicebotdata = [
 {
     id: 6,
     type: 'main_orderedList',
-    sub_heading:"Commitment to Security and Ethics  ",
-    sub_heading_description: "At Amnet Digital, we understand that trust is the cornerstone of any successful relationship between users and technology. That's why we prioritize user trust through robust security measures and ethical practices. Ensuring the safety, privacy, and autonomy of our users isn't just a feature—it's a fundamental principle that guides every aspect of our AI voice bot's development and deployment. ",
+    title:"Commitment to Security and Ethics  ",
+    description: "At Amnet Digital, we understand that trust is the cornerstone of any successful relationship between users and technology. That's why we prioritize user trust through robust security measures and ethical practices. Ensuring the safety, privacy, and autonomy of our users isn't just a feature—it's a fundamental principle that guides every aspect of our AI voice bot's development and deployment. ",
     
-    sub_heading_mains : [
+    nestedOrderedList : [
 
         {
             subheader: "Security and Privacy Measures ",
@@ -411,7 +406,7 @@ const Voicebotdata = [
                   content:
                     "We believe that you should have complete control over your personal data. Our AI voice bot is designed with user empowerment in mind, providing intuitive tools that allow you to manage your data and consent preferences easily. You can: ",
 
-                    sub_heading_mains:[
+                    nestedOrderedList:[
                         {
                             sidehead:"Access Your Data:",
                             content:
@@ -449,7 +444,7 @@ const Voicebotdata = [
     id: 6,
     type: 'main_orderedList',
     
-    sub_heading_mains : [
+    nestedOrderedList : [
 
         {
             subheader: "Ethical AI Practices  ",
@@ -463,7 +458,7 @@ const Voicebotdata = [
                   sidehead:"Transparency and Explainable AI  ",
                   content:
                     "We recognize that AI technologies can seem like a 'black box,' making it difficult for users to understand how decisions are made. To address this, we are committed to developing explainable AI systems that offer insights into how our voice bot processes information and generates responses. ",
-                    sub_heading_mains:[
+                    nestedOrderedList:[
                         {
                             sidehead:"User-Friendly Explanations: ",
                             content:
@@ -488,7 +483,7 @@ const Voicebotdata = [
                   sidehead:"User Autonomy and Opt-In Features ",
                   content:
                     "Respecting your autonomy is fundamental to our ethical approach. We design our AI voice bot with opt-in features rather than assuming default consent. This means: ",
-                  sub_heading_mains:[
+                  nestedOrderedList:[
                         {
                             sidehead:"No Presumptive Data Collection: ",
                             content:
@@ -524,10 +519,10 @@ const Voicebotdata = [
 {
     id: 7,
     type: 'main_orderedList',
-    sub_heading:"Realizing Business Impact  ",
-    sub_heading_description: "Implementing our AI voice assistant is not just a technological upgrade—it's a strategic investment that can drive substantial benefits across your organization. By harnessing the power of advanced AI, businesses can unlock new levels of efficiency, revenue growth, productivity, and competitive positioning. ",
+    title:"Realizing Business Impact  ",
+    description: "Implementing our AI voice assistant is not just a technological upgrade—it's a strategic investment that can drive substantial benefits across your organization. By harnessing the power of advanced AI, businesses can unlock new levels of efficiency, revenue growth, productivity, and competitive positioning. ",
     
-    sub_heading_mains : [
+    nestedOrderedList : [
 
         {
             subheader: "Operational Efficiency  ",
@@ -618,10 +613,10 @@ const Voicebotdata = [
 {
     id: 8,
     type: 'main_orderedList',
-    sub_heading:"Looking Ahead: Our Future Roadmap  ",
-    sub_heading_description: "We are committed to continuous innovation and excellence: ",
+    title:"Looking Ahead: Our Future Roadmap  ",
+    description: "We are committed to continuous innovation and excellence: ",
     
-    sub_heading_mains : [
+    nestedOrderedList : [
 
         {
             subheader: "Technological Advancements: ",
@@ -689,11 +684,7 @@ const Voicebotdata = [
     ],
     
 },
-// ---------------------------------
 
-
-
-// --------------------------------
 
    {
         id: 9,
@@ -704,200 +695,6 @@ const Voicebotdata = [
         details:"Contact us at info@amnetdigital.com to discover how our AI voice assistant can revolutionize your business." 
     },
 
-
-
-// ----------------------------------
-    // {
-    //     id: 4,
-    //     sub_heading:"Introducing Our Next-Generation AI Voice Assistant ",
-    //     description2: "Our Generative AI voice bot is not just an incremental improvement—it's a transformative solution poised to redefine conversational AI. Here's how it stands out:  ",
-    //     description71:"Contextual Understanding ",
-    //     description8:"Maintains Conversation Flow:",
-    //     description9:" Remembers previous interactions to provide coherent, relevant responses. ",
-    //     description10:"Multi-Turn Dialogues:",
-    //     description11:"  Handles complex conversations involving multiple topics seamlessly.",
-      
-    // },
-    // {
-    //     id: 5,
-    //     description71:"Emotional Intelligence ",
-    //     description8:"Sentiment Analysis:",
-    //     description9:" Detects emotions through voice tone and language cues.",
-    //     description10:"Adaptive Responses:",
-    //     description11:" Adjusts replies to match the user's emotional state, offering empathy and support when needed. ",
-    // },
-    // {
-    //     id: 6,
-    //     description71:"Personalized Interactions  ",
-    //     description8:"Behavioral Learning:",
-    //     description9:" Learns from user preferences to tailor responses and recommendations.",
-    //     description10:"User Profiling: ",
-    //     description11:" Builds individualized profiles for a more personalized experience. "
-    // },
-    // {
-    //     id: 7,
-    //     description71:"Multilingual Support   ",
-    //     description8:"Global Communication: ",
-    //     description9:" Supports over 50 languages and recognizes regional dialects.",
-    //     description10:"Cultural Sensitivity: ",
-    //     description11:" Understands and respects cultural nuances in communication. "
-    // },
-    // {
-    //     id: 8,
-    //     description72:"Market Trends and Growth ",
-    //    description12:"The voice assistant market is booming. As reported by Statista, the number of digital voice assistants is expected to reach 8.4 billion units by 2024, surpassing the global population. Key drivers include: ",
-    //    description13:"Smart Device Integration: ",
-    //    description14:" Growth in smart speakers, wearables, and IoT devices.",
-    //    description15:"Consumer Demand for Convenience: ",
-    //    description16:" A preference for hands-free, quick access to information.",
-    //    description17:"Advancements in AI: ",
-    //    description18:" Improved voice recognition and NLP technologies.",
-    //    description73:"Despite this growth, user satisfaction lags due to the limitations of existing voice assistants. Our AI voice bot aims to bridge this gap, offering a solution that meets and exceeds user expectations. ",
-    // },
-    // {
-    //     id: 9,
-    //     description74:"The Technology Behind Our Voice Bot ",
-    //     description25:"Our voice bot is built on advanced technologies that enable superior performance: ",
-    //     description26:"Generative AI and GPT-4 Architecture ",
-    //     description19:"Human-Like Text Generation: ",
-    //     description20:" Utilizes GPT-4 to produce natural, coherent responses. ",
-    //     description21:"Deep Neural Networks:",
-    //     description22:" Processes and understands complex speech inputs. "
-    // },
-    // {
-    //     id: 10,
-    //     description26:"Advanced Natural Language Processing ",
-    //     description19:"Semantic Analysis:  ",
-    //     description20:"  Interprets the meaning behind words, including idioms and colloquial expressions.  ",
-    //     description21:"Pragmatic Understanding:",
-    //     description22:" Considers context and intent for accurate communication. "
-    // },
-    // {
-    //     id: 11,
-    //     description26:"Emotional Intelligence Integration ",
-    //     description19:"Sentiment and Tone Analysis:   ",
-    //     description20:"  Detects emotions from vocal cues like pitch and pace.  ",
-    //     description21:"Adaptive Response Generation: ",
-    //     description22:" Modulates replies to align with the user's feelings. "
-    // },
-    // {
-    //     id: 12,
-    //     description26:"Machine Learning and Adaptive Algorithms  ",
-    //     description19:"Continuous Learning:  ",
-    //     description20:"  Improves over time through user interactions.  ",
-    //     description21:"Reinforcement Learning:",
-    //     description22:" Receives feedback to optimize performance. "
-    // },
-    // {
-    //     id: 13,
-    //     description26:"Advanced Natural Language Processing ",
-    //     description19:"Semantic Analysis:  ",
-    //     description20:"  Interprets the meaning behind words, including idioms and colloquial expressions.  ",
-    //     description21:"Pragmatic Understanding:",
-    //     description22:" Considers context and intent for accurate communication. "
-    // },
-    // {
-    //     id: 14,
-    //     description74:"Applications Across Industries  ",
-    //     description25:"Our AI voice bot has versatile applications that can revolutionize various sectors:  ",
-    //     description26:"Customer Service Transformation  ",
-    //     description19:"24/7 Support:  ",
-    //     description20:" Provides instant responses, reducing wait times.  ",
-    //     description21:"Multichannel Integration:",
-    //     description22:" Works across phone systems, websites, and messaging apps.  ",
-    //     description23:"Data Insights: ",
-    //     description24:" Collects valuable customer data to enhance services. "
-    // },
-    // {
-    //     id: 15,
-    //     description26:"Retail and E-Commerce  ",
-    //     description19:"Personalized Shopping:   ",
-    //     description20:" Offers product recommendations based on user preferences.  ",
-    //     description21:"Seamless Purchasing:",
-    //     description22:" Assists with the entire buying process, from selection to checkout.  ",
-    //     description23:"Re-Engagement: ",
-    //     description24:" Activates dormant customers with personalized outreach. "
-    // },
-    // {
-    //     id: 16,
-    //     description26:"Food Delivery Services   ",
-    //     description19:"Simplified Ordering:   ",
-    //     description20:" Enables voice-activated menu navigation and order placement.  ",
-    //     description21:"Real-Time Updates: ",
-    //     description22:" Provides live tracking and notifications.  ",
-    //     description23:"Promotions: ",
-    //     description24:" Informs users about new products and special offers. "
-    // },
-    // {
-    //     id: 17,
-    //     description26:"Human Resources Applications    ",
-    //     description19:"Streamlined Recruitment:    ",
-    //     description20:" Automates candidate screening and interview scheduling.   ",
-    //     description21:"Employee Engagement: ",
-    //     description22:" Enhances onboarding and provides ongoing support.   ",
-    //     description23:"Training Support: ",
-    //     description24:" Offers interactive learning and development resources.  "
-    // },
-    // {
-    //     id: 18,
-    //      description74:"Commitment to Security and Ethics  ",
-    //     description25:"We prioritize user trust through robust security measures and ethical practices:  ",
-    //     description26:"Security and Privacy Measures    ",
-    //     description19:"End-to-End Encryption:    ",
-    //     description20:" Protects data during transmission and storage.  ",
-    //     description21:"Compliance: ",
-    //     description22:" Adheres to GDPR, CCPA, and other global data protection regulations.   ",
-    //     description23:"User Control: ",
-    //     description24:" Empowers users to manage their data and consent preferences.  "
-    // },
-    // {
-    //     id: 19,
-    //     description26:"Ethical AI Practices  ",
-    //     description19:"Bias Mitigation: ",
-    //     description20:" Uses diverse datasets and regular audits to prevent biases. ",
-    //     description21:"Transparency: ",
-    //     description22:" Provides explainable AI that users can understand.   ",
-    //     description23:"User Autonomy: ",
-    //     description24:" Respects user choices and offers opt-in features.   "
-    // },
-    // {
-    //     id: 20,
-    //     description74:"Realizing Business Impact ",
-    //     description25:"Implementing our AI voice bot can lead to significant returns on investment: ",
-    //     description19:"Operational Efficiency:   ",
-    //     description20:" Reduces customer service costs by up to 50%.  ",
-    //     description21:"Revenue Growth:  ",
-    //     description22:" Increases repeat business by 20% through enhanced customer satisfaction.    ",
-    //     description23:"Productivity Boost:",
-    //     description24:" Allows staff to focus on complex tasks, improving productivity by 30%.   "
-    // },
-    // {
-    //     id: 21,
-    //     description74:"Looking Ahead: Our Future Roadmap ",
-    //     description25:"We're committed to continuous innovation: ",
-    //     description19:"Technological Advancements:     ",
-    //     description20:" Exploring hybrid AI models and quantum computing for enhanced capabilities.  ",
-    //     description21:"User Experience Enhancements: ",
-    //     description22:" Developing emotionally adaptive interfaces and gamification elements.   ",
-    //     description23:"Global Expansion: ",
-    //     description24:" Focusing on localization and strategic partnerships to reach new markets.  "
-    // },
-    // {
-    //     id: 22,
-    //     description74:"Conclusion ",
-    //     description25:"The future of conversational AI lies in creating more natural, intelligent, and emotionally aware interactions. Our next-gen AI voice bot is not just an incremental improvement—it's a transformative solution poised to redefine how we communicate with technology. By addressing the limitations of current voice assistants and exceeding user expectations, we're paving the way for a more connected and intuitive digital world. ",
-    //     question:"Ready to transform your customer interactions with advanced AI technology? ",
-    // },
-    // {
-    //     id: 23,
-    //     subtitle: "What is the future of AI in the retail industry?",
-    //     description42: "AI will play a pivotal role in reshaping the retail landscape as technology evolves. From personalized customer experiences to optimized supply chain and inventory management, AI-powered solutions will help retailers operate efficiently and accurately like never before. That’s why it’s high time to embrace advanced AI algorithms to unlock new opportunities, boost revenue, and create a more engaging and convenient shopping experience for your customers worldwide.",
-    //     description43: "Connect with  ",
-    //     description44: " Amnet Digital ",
-    //     link4: "https://www.amnetdigital.com/services/ai-ml",
-    //     description45: "to get a trusted digital partner in configuring your AI infrastructure and helping you maintain data-driven mindsets across your business processes. Our end-to-end AI solutions cover your needs from the early model development phase to the final deployment phase, utilizing data-backed solutions for your inventory and logistics needs. We power your inventory management with product analysis, demand forecasting, outlier analysis, and financial model development to help you efficiently meet current and emerging market demands.",
-    //     description46: "Moreover, our customized ML models accurately predict shipment schedules to optimize logistics processes and support preventive maintenance without service disruptions. That way, you can ensure optimal product availability, streamline supply chains, and enhance customer satisfaction to boost your brand perception.",  
-    // },
 
 ]
 export default Voicebotdata;

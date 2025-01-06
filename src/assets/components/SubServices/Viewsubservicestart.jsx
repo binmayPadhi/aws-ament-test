@@ -88,13 +88,6 @@ const Viewsubservicestart = () => {
         </div>
       </div>
 
-      {/* Service Page QUOTE SECTION */}
-      {/* <div className="mt-15 fw-bold-700 fs-35 text-black w-100 text-center">
-        <p>{serviceData.serviceSubheaading}</p>
-        <p className="fw-bold-500 fs-18 w-75 mx-auto">
-          {serviceData.servideSubdescription}
-        </p>
-      </div> */}
 
       {/* NEW SERVICE PAGE BUTTON GROUPS */}
       <div className="center-95">
@@ -192,22 +185,6 @@ const Viewsubservicestart = () => {
         </div>
       </Suspense>
 
-      {/*NEW AboutUS Page Career Link SECTION */}
-      {/* <div className="mt-5">
-        <div className="w-90 mx-auto">
-          <Whyamnet />
-        </div>
-      </div> */}
-
-      {/* <div className="mt-5">
-        <Driveservices />
-      </div> */}
-
-      {/* NEW HOMEPAGE OUR PARTNER SECTION */}
-      {/* <div className="new-our-partner">
-        <h1 className="section-title mt-3 text-center">TECHNOLOGY STACK</h1>
-        <OurPartner />
-      </div> */}
     </>
   );
 };

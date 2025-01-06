@@ -15,9 +15,7 @@ const Sitemap = () => {
           width: "100%",
         }}
       >
-        {/* <div className="fs-35 text-white position-absolute top-0">
-          <Navbar navChange={navColor} />
-        </div> */}
+      
         <div className="w-85 mx-auto">
           <div className="text-center-img">
           </div>

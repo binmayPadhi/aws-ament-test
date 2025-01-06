@@ -1,3 +1,5 @@
+import { redirect } from "react-router-dom";
+
 const ServiceRedirectData = [
     {
         name: "aiml", redirecturl: "/services/ai-ml"
@@ -17,8 +19,9 @@ const ServiceRedirectData = [
     {
         name: "datamanagement", redirecturl: "/services/data-management"
     },
+   
     {
-        name: "userexperience", redirecturl: "/services/user-experience"
+        name: "userexperinces", redirecturl: "/services/user-experience"
     },
     {
         name: "cloudservices", redirecturl: "/services/cloud-services"
@@ -26,6 +29,10 @@ const ServiceRedirectData = [
     {
         name: "qualityassurance", redirecturl: "/services/quality-assurance"
     },
+    {
+        name: "/services/dataengineering/data-pipelines", redirecturl: "/services/data-engineering/data-pipelines"  // Added entry for sub-URL redirection
+    },
+
     // {
     //     name: "imageannotation", redirecturl:"/services/data-annotation/image-annotation"
     // }

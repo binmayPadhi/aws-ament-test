@@ -49,17 +49,9 @@ function TestContactUs() {
 
       <div className="mt-6">
         <h1 className="section-title text-center">Global Footprint</h1>
-        {/* <div class="container">
-          <div class="row">
-            <div class="col">
-              <img class="img-fluid" src={global} />
-            </div>
-          </div>
-        </div> */}
       </div>
 
       <div className="contact-us-intro container-fluid"></div>
-      {/* <!-- CONTACT US PAGE CONTACT FORM --> */}
 
       {/* <!-- NEW ABOUT US PAGE LOCATION SECTION --> */}
 

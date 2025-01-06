@@ -37,9 +37,6 @@ function Case () {
           })}
         </div>
       </div>
-      {/* <div className="new-explore-link text-center">
-        <a href="/casestudies">Explore All</a>
-      </div> */}
     </>
   );
 }

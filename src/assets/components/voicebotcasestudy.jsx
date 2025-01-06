@@ -96,8 +96,6 @@ const VoiceBotCasestudy = () => {
                                                                <h1 className="fs-18 font-weight-bold fw-bold spacing-superheader">{item.Supersubheader}</h1>
                                                             <p className="fs-18 font-weight-bold fw-bold"> {item.subheader}</p>
                                                          
-
-                                                            {/* <ol className="pl-4"> */}
                                                             {item.content && item.content.map((contentItem, content_index) => (
                                                                 <li key={content_index} className="fs-14  goway-hlist">
                                                                     {contentItem.sidehead && (<span className="fs-14 fw-bold">{contentItem.sidehead}</span>)}
@@ -105,9 +103,7 @@ const VoiceBotCasestudy = () => {
 
                                                                     {/* index{content_index} */}
                                                                     <div className="inner-links">
-
                                                                         <ul>
-
                                                                             {
                                                                                 contentItem.sub_heading_mains &&
                                                                                 contentItem.sub_heading_mains.map((inner_item, inneritem_index) => (

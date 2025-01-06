@@ -95,7 +95,6 @@ const Amnetpartner = () => {
                             
                             <p className="fs-14">{list.sidehead1}</p>
                             <p className="fs-14">{list.sidehead2}</p>
-                                <p className="fs-14">{list.description5} <span><a className="fs-14" href="">{list.link}</a></span></p>
                                 <div className="d-flex justify-content-center">
                                     <img loading="lazy" src={intelXoen} className="p-3" />
                                     <span><img loading="lazy" src={openVN} className="p-3" /></span>
@@ -114,16 +113,6 @@ const Amnetpartner = () => {
                                         {list.dst3}
                                     </a>
                                 </span>
-                                {/* <p className="fs-14">
-                    {list.descr}{" "}
-                    <span>
-                      <a className="fs-14" target="_blank" href={list.links}>
-                        {list.dst}
-                      </a>
-                    </span>
-                    <span className="fs-14">{list.textel}</span>
-                  </p> */}
-
 
                             </>
                         )

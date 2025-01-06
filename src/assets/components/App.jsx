@@ -56,8 +56,20 @@ import AmnetDigital from "./AmnetDigital";
 import Leadership from "./ContactUs/Leadership";
 import VoiceBot from "./Resources/VoiceBot";
 import VoiceBotCasestudy from "./voicebotcasestudy";
-// import WhitePapers from "./whitepapers";
-// import Perplexity from "./Perplexity";
+import WhitePapers from "./whitepapers";
+import Perplexity from "./Perplexity";
+import GenBlog from "./Blogs/Genai-blog";
+import Inventorymanagement from "./Blogs/Inventorymanagement";
+import Generativeai from "./Blogs/Generativeai";
+import ForeCasting from "./Blogs/ForeCasting";
+import Videoannotation from "./Blogs/Videoannotation";
+import RealValues from "./Blogs/RealValues";
+import Datamigration from "./Blogs/Datamigration";
+import Scaleai from "./Blogs/Scaleai";
+import AIOPenvironment from "./Blogs/AIopenvironment";
+import AIOPSretail from "./Blogs/AIOPSretail";
+import Insightdiscover from "./Blogs/Insightdiscover";
+import Sevensignificant from "./Blogs/Sevensignificant";
 
 
 function App() {
@@ -96,7 +108,6 @@ function App() {
             <Route path="" element={<Services />} />
             <Route path=":name" element={<AIservices />} />
             <Route path=":name/:service" element={<Viewsubservice />} />
-            {/* <Route path=":name/:service" element={<Viewsubservicestart />} /> */}
           </Route>
           <Route path="/careers" element={<CareerHome />}>
             <Route path="" element={<Careers />} />
@@ -108,7 +119,8 @@ function App() {
           <Route path="/site-map" element={<Sitemap />} />
           <Route path="/legalresources" element={<Navigate to="/legal-resources" replace />} />
           <Route path="/legal-resources" element={<Legalterms />} />
-          <Route path="/products" element={<Product />} />
+          <Route path="/products" element={<Product />}  />
+          <Route path='/press-release/amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023' element={<Navigate to="/press-releases/amnet-digital-named-best-ai-data-analytics-company-of-the-year-2023" replace/> } />
           <Route path="/press-releases" element={<Pressrelease />} >
             <Route exact path="" element={<Pressreleasehome />} />
             <Route
@@ -134,7 +146,10 @@ function App() {
               path="What-is-AIOps-and-explore-how-it-is-revolutionizing-the-retail-industry-by-solving-complex-challenges"
               element={<InsightAIOPS />}
             />
-            <Route exact path="Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment" element={<BlogIT />} />
+            <Route 
+            exact
+             path="Why-do-we-need-AIOps-and-where-does-it-fit-with-the-modern-IT-environment"
+              element={<BlogIT />} />
             <Route
               exact
               path="AI-for-Retail-Discover-how-AI-can-revolutionize-the-retail-industry-and-help-businesses-increase-sales-improve-customer-experience-and-optimize-operations"
@@ -163,14 +178,14 @@ function App() {
             <Route
             exact
             path="how-our-next-Gen-AI-voice-bot-is-transforming-conversational-AI"
-            element={<VoiceBot/>}
+            element={<GenBlog/>}
             />
             <Route
               exact
               path="supply-chain-planning-decisions-with-actionable-demand-forecasting-insights"
               element={<Forecasting />} />
             <Route exact path="10-ways-how-generative-ai-is-impacting-retail-organizations"
-              element={<GenerativeAI />} />
+              element={<GenerativeAI/>} />
             <Route
               exact
               path="6-steps-to-include-in-your-data-migration-journey"
@@ -204,14 +219,22 @@ function App() {
           <Route path="/termsandconditions" element={<Navigate to="/terms-of-use" replace/>} />
           <Route path="/terms-of-use" element={<Termsandconditions />} />
           <Route path="/aiml" element={<Navigate to="/ai-ml" replace/>} />
+          <Route path="/services/dataengineering/data-pipelines" element={<Navigate to="/services/data-engineering/data-pipelines"/>}/>
+          <Route path="/services/datamanagement/data-architecture-management" element={<Navigate to="/services/data-management/data-architecture-management"/>}/>
+          <Route path="/services/cloudservices/cloud-integration" element={<Navigate to="/services/cloud-services/cloud-integration"/>}/>
+          <Route path="/services/strategyconsulting/data-strategy" element={<Navigate to="/services/strategy-consulting/data-strategy"/>}/>
+          <Route path="/services/strategyconsulting/application-development" element={<Navigate to="/services/strategy-consulting/application-development"/>}/>
+          <Route path="/services/qualityassurance/functional-testing" element={<Navigate to="/services/quality-assurance/functional-testing"/>}/>
+          <Route path="/services/userexperinces/user-research-and-analysis" element={<Navigate to="/services/user-experience/user-research-and-analysis"/>}/>
+          <Route path="/services/dataengineering/data-transformations" element={<Navigate to="/services/data-engineering/data-transformations"/>}/>
           <Route path="/ai-ml" element={<RedirectAIML />} />
           <Route path="/case-studies/ai-voice-bot" element={<VoiceBotCasestudy />}/>
-          {/* <Route path="/services/:name" element={<RedirectAIML />} /> */}
           <Route path="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" element={<Redirectways />} />
           <Route path="/webinar-reshaping-the-retail-industry-through-AI" element={<RedirectWebinar />} />
           <Route path="/swiftinisghts-Webinar" element={<RedirectanotherWebinar />} />
-          {/* <Route path="/whitepaper" element={<WhitePapers />} /> */}
-          {/* <Route path="/perplexity" element={<Perplexity />} /> */}
+          <Route path="/whitepaper" element={<WhitePapers />} />
+          <Route path="/perplexity" element={<Perplexity />} />
+          <Route path="/GenBlog" element={< GenBlog/>}/>
           {/* <Route path="*" element={<Termsandconditions />}/> */}
         </Routes>
       </div>
@@ -228,3 +251,21 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

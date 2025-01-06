@@ -21,9 +21,7 @@ function Healthcare ( ){
                             </p>
 
                             <div className="subService-AIML-intro-btn industries-intro-section">
-                                {/* <a href="/casestudies">
-                                    <button type="button" className="btn btn-default">View Details</button>
-                                </a> */}
+                              
                             <NavLink to="/services">
                             <button type="button" className="btn btn-default sub-service-contact-us-btn">Services</button>
                             </NavLink>
