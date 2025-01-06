@@ -14,13 +14,13 @@ import blog12 from "../../images/Resources-page/ai-voicebot.jpg";
 const Insightdata = {
   carddetails: [
     
-    {
-      id:"how-our-next-Gen-AI-voice-bot-is-transforming-conversational-AI",
-      date:"November 20, 2024",
-      title:" Reinventing the Voice Assistant: How Our Next-Gen AI Voice Bot is Transforming Conversational AI",
-      description:"Our AI voice assistant is not just a technological upgrade—it's a strategic investment that can drive substantial benefits across your organization.",
-      image:blog12,
-    },
+    // {
+    //   id:"how-our-next-Gen-AI-voice-bot-is-transforming-conversational-AI",
+    //   date:"November 20, 2024",
+    //   title:" Reinventing the Voice Assistant: How Our Next-Gen AI Voice Bot is Transforming Conversational AI",
+    //   description:"Our AI voice assistant is not just a technological upgrade—it's a strategic investment that can drive substantial benefits across your organization.",
+    //   image:blog12,
+    // },
     {
       id:"5-ways-AI-can-enhance-and-optimize-your-inventory-management",
       date:"November 21, 2023",
