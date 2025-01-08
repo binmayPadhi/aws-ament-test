@@ -53,7 +53,7 @@ const schema = yup
 const headings = [
     {
         "id": "heading1",
-        "title": "5 Ways AI can Enhance and Optimize your Inventory Management",
+        "title": "",
         description: "Retail organizations are increasingly adopting advanced algorithms to streamline their product offerings, customer services, and inventory management in this evolving AI-driven business landscape",
         "description1": "While traditional manual approaches are no longer sufficient to handle supply chain complexities, more than 47% of global retail brands have already embraced AI to forecast demand, reduce stockouts, automate warehousing, and improve logistics efficiency. Because that helps them decrease carrying costs, maintain integrated supplier relationships, improve customer satisfaction, and stay competitive in this dynamic retail market.",
         description2: "Let’s dive deeper into how you can deploy AI to optimize your inventory management and enhance customer experience",
@@ -196,10 +196,10 @@ const Inventorymanagement = () => {
                 <meta name="keywords" content="AI for inventory management, AI to optimize inventory management, AI solutions for inventory management, inventory management AI solutions." />
             </Helmet>
         <div className="scroll-class">
-            <div class="background-container">
+            <div class="background-container bg-container-inventory">
                 <div class="centered-text">
-                    <h1>November 19, 2024</h1>
-                    <p>Perplexity: AI search diruptor is taking a big swing with new shopping feature</p>
+                    <h1>November 21, 2023</h1>
+                    <p>5 Ways AI can Enhance and Optimize your Inventory Management</p>
                 </div>
             </div>
 
@@ -384,7 +384,7 @@ const Inventorymanagement = () => {
                         <div className="text-start related-articles">Related Articles</div>
                         <div className="text-end check-articles">check all Articles</div>
                     </div>
-                    {Insightdata.perplexitydetails.map((list) => {
+                    {Insightdata.inventorydetails.map((list) => {
                         return (
                             <div
                                 className="col-lg-3 col-md-6 col-sm-12 col-xs-12 cr-pointer highlight-text d-flex align-items-strech mb-4"
@@ -411,7 +411,7 @@ const Inventorymanagement = () => {
                                                 className="blog_images"
                                             />
                                             <button className="btn btn-white position-absolute bottom-right-button">
-                                                AI Industry News
+                                                {list.button}
                                             </button>
                                         </div>
                                         <div className="card-body propensity-modelling height-auto margin pb-2">

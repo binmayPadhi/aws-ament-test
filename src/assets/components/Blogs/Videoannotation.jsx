@@ -53,7 +53,7 @@ const schema = yup
 const headings = [
     {
         "id": "heading1",
-        title:"Medical Image / Video Data Annotation: How to go about it?",
+        title:"",
         description:"In the realm of modern healthcare and medical research, the value of data is immeasurable. As medical technology advances, the vast amount of visual data, including medical images, reports, and videos, continues to grow exponentially. These visuals hold a treasure trove of invaluable information that can revolutionize diagnostics, treatment, and research outcomes. However, to unlock the full potential of this data, it must first be properly annotated.",
         description1:"There’s no exaggeration that GenAI, Machine Learning, Deep Learning, and Image Annotation have the power to transform the healthcare industry to deliver better patient outcomes. Medical applications are wide-ranging and include the entirety of the medical imaging life cycle starting from image creation, data analysis, and uncovering diagnosis to predict outcomes with accuracy. However, medical professionals are dealing with a multitude of obstacles that are preventing them from successfully implementing AI technology for clinical practice.",
         description2:"Medical data annotation, the process of labeling and categorizing visual data, plays a pivotal role in enabling machine learning algorithms and artificial intelligence systems to analyze and interpret these complex visuals accurately. Medical ",
@@ -338,10 +338,10 @@ transform the healthcare industry to deliver better patient outcomes." />
 video annotation services, data labeling services, data annotation" />
       </Helmet>
         <div className="scroll-class">
-            <div class="background-container">
+            <div class="background-container bg-container-annotation">
                 <div class="centered-text">
-                    <h1>November 19, 2024</h1>
-                    <p>Perplexity: AI search diruptor is taking a big swing with new shopping feature</p>
+                    <h1>September 20, 2023</h1>
+                    <p>Medical Image / Video Data Annotation: How to go about it?</p>
                 </div>
             </div>
 
@@ -528,7 +528,7 @@ video annotation services, data labeling services, data annotation" />
                         <div className="text-start related-articles">Related Articles</div>
                         <div className="text-end check-articles">check all Articles</div>
                     </div>
-                    {Insightdata.perplexitydetails.map((list) => {
+                    {Insightdata.annotationdetails.map((list) => {
                         return (
                             <div
                                 className="col-lg-3 col-md-6 col-sm-12 col-xs-12 cr-pointer highlight-text d-flex align-items-strech mb-4"

@@ -219,15 +219,27 @@ function App() {
           <Route path="/termsandconditions" element={<Navigate to="/terms-of-use" replace/>} />
           <Route path="/terms-of-use" element={<Termsandconditions />} />
           <Route path="/aiml" element={<Navigate to="/ai-ml" replace/>} />
+          <Route path="/services/aiml/statistical-analysis" element={<Navigate to="/services/ai-ml/statistical-analysis"/>}/>
           <Route path="/services/dataengineering/data-pipelines" element={<Navigate to="/services/data-engineering/data-pipelines"/>}/>
           <Route path="/services/datamanagement/data-architecture-management" element={<Navigate to="/services/data-management/data-architecture-management"/>}/>
           <Route path="/services/cloudservices/cloud-integration" element={<Navigate to="/services/cloud-services/cloud-integration"/>}/>
+          <Route path="/services/strategyconsulting/data-strategy" element={<Navigate to="/services/strategy-consulting/data-strategy"/>}/>
+          <Route path="/services/advancedanalytics/complex-event-processing" element={<Navigate to="/services/advanced-analytics/complex-event-processing"/>}/>
+          <Route path="/services/advancedanalytics/deep-learning" element={<Navigate to="/services/advanced-analytics/deep-learning"/>}/>
           <Route path="/services/strategyconsulting/data-strategy" element={<Navigate to="/services/strategy-consulting/data-strategy"/>}/>
           <Route path="/services/strategyconsulting/application-development" element={<Navigate to="/services/strategy-consulting/application-development"/>}/>
           <Route path="/services/qualityassurance/functional-testing" element={<Navigate to="/services/quality-assurance/functional-testing"/>}/>
           <Route path="/services/userexperinces/user-research-and-analysis" element={<Navigate to="/services/user-experience/user-research-and-analysis"/>}/>
           <Route path="/services/dataengineering/data-transformations" element={<Navigate to="/services/data-engineering/data-transformations"/>}/>
           <Route path="/ai-ml" element={<RedirectAIML />} />
+          <Route path="/services/cloudservices/cloud-advisory-services" element={<Navigate to="/services/cloud-services/cloud-advisory-services"/>}/>
+          <Route path="/services/advancedanalytics/graph-analysis" element={<Navigate to="/services/advanced-analytics/graph-analysis"/>}/>
+          <Route path="/services/dataengineering/data-cleansing" element={<Navigate to="/services/data-engineering/data-cleansing"/>}/>
+          <Route path="/services/qualityassurance/compatibility-testing" element={<Navigate to="/services/quality-assurance/compatibility-testing"/>}/>
+          <Route path="/services/aiml/competitor-analysis" element={<Navigate to="/services/ai-ml/competitor-analysis"/>}/>
+          <Route path="/services/strategyconsulting/data-strategy" element={<Navigate to="/services/strategy-consulting/data-strategy"/>}/>
+          <Route path="/services/qualityassurance/performance-testing" element={<Navigate to="/services/quality-assurance/performance-testing"/>}/>
+          <Route path="/services/cloudservices/cloud-migration-services" element={<Navigate to="/services/cloud-services/cloud-migration-services"/>}/>
           <Route path="/case-studies/ai-voice-bot" element={<VoiceBotCasestudy />}/>
           <Route path="/blog-seven-significant-ways-artificial-intelligence-is-impacting-the-retail-industry" element={<Redirectways />} />
           <Route path="/webinar-reshaping-the-retail-industry-through-AI" element={<RedirectWebinar />} />

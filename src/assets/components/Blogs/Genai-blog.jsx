@@ -55,7 +55,7 @@ const headings = [
 
   {
     id: 'heading1',
-    title: 'Reinventing the Voice Assistant: How Our Next-Gen AI Voice Bot is Transforming Conversational AI?',
+    title: '',
     description: "In an age where technology seamlessly integrates into our daily routines, voice-based AI assistants have emerged as indispensable tools. From asking about the weather to managing complex schedules, these digital companions have redefined convenience. Yet, as user expectations soar, traditional voice assistants often lag behind—struggling with contextual understanding, personalization, and emotional intelligence.",
     description2: "At Amnet Digital, we're thrilled to unveil our next-generation AI voice assistant, a revolutionary leap in conversational AI. Designed to overcome the limitations of current voice assistants, our AI voice bot leverages cutting-edge technologies like generative AI and GPT-4 architecture to deliver an experience that's more intuitive, empathetic, and human-like than ever before. ",
     // videourl: "https://www.youtube.com/embed/oOBETYjihPk",
@@ -653,10 +653,10 @@ useEffect(() => {
                 <meta name="keywords" content="AI for inventory management, AI to optimize inventory management, AI solutions for inventory management, inventory management AI solutions." />
             </Helmet>
     <div className="scroll-class">
-      <div class="background-container">
+      <div class="background-container bg-container-gen">
         <div class="centered-text">
-          <h1>November 19, 2024</h1>
-          <p>Perplexity: AI search diruptor is taking a big swing with new shopping feature</p>
+          <h1>November 20, 2024</h1>
+          <p>Reinventing the Voice Assistant: How Our Next-Gen AI Voice Bot is Transforming Conversational AI?</p>
         </div>
       </div>
 
@@ -938,7 +938,7 @@ useEffect(() => {
                         className="blog_images"
                       />
                       <button className="btn btn-white position-absolute bottom-right-button">
-                        AI Industry News
+                      {list.button}
                       </button>
                     </div>
                     <div className="card-body propensity-modelling height-auto margin pb-2">

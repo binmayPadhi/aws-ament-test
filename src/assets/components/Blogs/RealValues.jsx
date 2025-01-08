@@ -55,7 +55,7 @@ const schema = yup
 const headings = [
     {
         "id": "heading1",
-        title:"The Real Value AI Can Bring to Your Retail Business",
+        title:"",
          "description": "Did you know? Gartner predicts that by 2025, 80% of customer interactions will be managed by AI technologies, leading to more personalized experiences. In today's fast-paced and highly competitive retail landscape, simply offering high-quality products and exceptional customer service is no longer enough to stay ahead of the competition. To thrive in this digital era, retail businesses need to leverage advanced technologies that can provide them with invaluable insights, facilitate data-driven decision-making, and enhance the overall shopping experience.",
          "description1": "One such groundbreaking technology that has revolutionized the retail industry is Artificial Intelligence (AI). AI is transforming the way retailers operate helping them gain a deeper understanding of their customers, optimize operations, and drive revenue growth. By harnessing the power of AI, retail businesses can unlock a wealth of opportunities and stay ahead in a rapidly evolving market.",
          "description2": "As a leading AI, Data, & Analytics solutions company, we specialize in helping businesses leverage the transformative potential of AI in the retail sector. Our expertise lies in assisting retail businesses in making data-driven decisions and implementing AI technologies to gain a competitive edge. In this blog post, we will outline the real value AI can bring to your retail business and how it can revolutionize your retail business operations in an increasingly digital world.",
@@ -232,10 +232,10 @@ const RealValues = () => {
         <meta name="keywords" content="AI in the retail, AI in the retail industry, AI for retail business, AI for retail, retail business, AI for retail, AI technology for retail businesses" />
       </Helmet>
         <div className="scroll-class">
-            <div class="background-container">
+            <div class="background-container bg-container-realvalue">
                 <div class="centered-text">
-                    <h1>November 19, 2024</h1>
-                    <p>Perplexity: AI search diruptor is taking a big swing with new shopping feature</p>
+                    <h1>August 16, 2023</h1>
+                    <p>The Real Value AI Can Bring to Your Retail Business</p>
                 </div>
             </div>
 
@@ -422,7 +422,7 @@ const RealValues = () => {
                         <div className="text-start related-articles">Related Articles</div>
                         <div className="text-end check-articles">check all Articles</div>
                     </div>
-                    {Insightdata.perplexitydetails.map((list) => {
+                    {Insightdata.realvaluedetails.map((list) => {
                         return (
                             <div
                                 className="col-lg-3 col-md-6 col-sm-12 col-xs-12 cr-pointer highlight-text d-flex align-items-strech mb-4"
