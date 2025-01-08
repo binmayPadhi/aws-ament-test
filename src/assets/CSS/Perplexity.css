@@ -299,10 +299,34 @@ text-decoration-skip-ink: none;
   position: relative;
   width: 100%;
   height: 400px; /* Adjust height as needed */
-  background-image: url('../images/About-Us-Page/worker-reading-news-with-tablet.png'); /* Replace with your image URL */
+  /* background-image: url('../images/About-Us-Page/worker-reading-news-with-tablet.png');  */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.bg-container-gen{
+  background-image: url('../images/Resources-page/ai-voicebot.jpg');
+}
+
+.bg-container-inventory{
+  background-image: url('../images/Resources-page/blog11.png');
+}
+
+.bg-container-generative{
+  background-image: url('../images/Resources-page/image10.jpg');
+}
+
+.bg-container-forecast{
+  background-image: url('../images/Resources-page/blog9.png'); 
+}
+
+.bg-container-annotation{
+  background-image: url('../images/Resources-page/blog_image-min.png'); 
+}
+
+.bg-container-realvalue{
+  background-image: url('../images/Resources-page/blog7.jpg');
 }
 
 
