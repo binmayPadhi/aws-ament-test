@@ -8,24 +8,6 @@ const Openings = [
     link: "/careers",
     sublink: "java-full-stack-developer",
   },
-  {
-    id: 1,
-    heading: "JUNIOR LEVEL",
-    role: "BPO Outbound Sales - Night Shift",
-    location: "Hyderabad",
-    button: "Apply Now",
-    link: "/careers",
-    sublink: "bpo-outbound-sales",
-  },
-  {
-    id: 4,
-    heading: "MID-SENIOR LEVEL",
-    role: "Data Analyst",
-    location: "Hyderabad",
-    button: "Apply Now",
-    link: "/careers",
-    sublink: "data-analyst",
-  },
 
   {
     id: 4,
@@ -36,43 +18,7 @@ const Openings = [
     link: "/careers",
     sublink: "data-science",
   },
-  {
-    id: 4,
-    heading: "MID-SENIOR LEVEL",
-    role: "ETL Test Lead",
-    location: "Hyderabad",
-    button: "Apply Now",
-    link: "/careers",
-    sublink: "ETL-test-lead",
-  },
 
-  {
-    id: 4,
-    heading: "MID-SENIOR LEVEL",
-    role: "Product Owner - AI/Analytics",
-    location: "Hyderabad",
-    button: "Apply Now",
-    link: "/careers",
-    sublink: "product-owner-ai-analytics",
-  },
-  {
-    id: 4,
-    heading: "SENIOR LEVEL",
-    role: "MEAN Stack Developer Lead",
-    location: "Hyderabad",
-    button: "Apply Now",
-    link: "/careers",
-    sublink: "MEAN-stack-developer-lead",
-  },
-
-  {
-    id: 11,
-    heading: "SENIOR LEVEL",
-    role: "Python Developer",
-    location: "Hyderabad",
-    button: "Apply Now",
-    sublink: "python-developer",
-  },
   {
     id: 12,
     heading: "SENIOR LEVEL",
@@ -81,14 +27,7 @@ const Openings = [
     button: "Apply Now",
     sublink: "ux-designer",
   },
-  {
-    id: 13,
-    heading: "SENIOR LEVEL",
-    role: "Data Science Lead",
-    location: "Hyderabad",
-    button: "Apply Now",
-    sublink: "data-science-lead",
-  },
+
   {
     id: 13,
     heading: "SENIOR LEVEL",
@@ -96,14 +35,6 @@ const Openings = [
     location: "Hyderabad",
     button: "Apply Now",
     sublink: "einstein-analytics",
-  },
-  {
-    id: 13,
-    heading: "SENIOR LEVEL",
-    role: "Lead Full Stack",
-    location: "Hyderabad",
-    button: "Apply Now",
-    sublink: "lead-full-stack",
   },
 
   {

@@ -52,7 +52,7 @@ const schema = yup
 const headings = [
     {
         "id": "heading1",
-        "title": "Foster Supply Chain Planning Decisions with Actionable Demand Forecasting Insights",
+        "title": "",
         description:"If you want to make faster supply chain planning decisions and stay ahead of the business competition, you require strategic decision-making backed by data-driven demand forecasting insights. One such critical aspect that fuels success and drives growth is demand forecasting. In today’s customer-first strategic approach times, businesses across industries rely on demand forecasting methods to clearly understand future customer product needs, customer historical data, buying patterns, market trends, customer preferences, and sales expectations.",
         description1:"Make faster supply chain planning decisions with actionable Demand Forecasting insights.",
         description2:"Demand forecasting is the process of predicting future customer demand for a product or service. It involves analyzing historical sales data, market trends, and various influencing factors to project sales volumes accurately. By implementing effective demand forecasting and planning strategies, businesses can optimize their sales operations, enhance inventory management, and make informed decisions to meet customer demands efficiently.",
@@ -324,10 +324,10 @@ const ForeCasting = () => {
                 <meta name="keywords" content="demand planning services, demand forecasting services provider, sales performance dashboards, optimize inventory operations, demand forecasting methods, products demand forecasting dashboards, supply chain planning decisions, demand forecasting insights" />
             </Helmet>
         <div className="scroll-class">
-            <div class="background-container">
+            <div class="background-container bg-container-forecast">
                 <div class="centered-text">
-                    <h1>November 19, 2024</h1>
-                    <p>Perplexity: AI search diruptor is taking a big swing with new shopping feature</p>
+                    <h1>November 2, 2023</h1>
+                    <p>Foster Supply Chain Planning Decisions with Actionable Demand Forecasting Insights</p>
                 </div>
             </div>
 
@@ -514,7 +514,7 @@ const ForeCasting = () => {
                         <div className="text-start related-articles">Related Articles</div>
                         <div className="text-end check-articles">check all Articles</div>
                     </div>
-                    {Insightdata.perplexitydetails.map((list) => {
+                    {Insightdata.forecastdetails.map((list) => {
                         return (
                             <div
                                 className="col-lg-3 col-md-6 col-sm-12 col-xs-12 cr-pointer highlight-text d-flex align-items-strech mb-4"

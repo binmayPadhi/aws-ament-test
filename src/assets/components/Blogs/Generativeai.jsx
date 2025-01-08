@@ -53,7 +53,7 @@ const schema = yup
 const headings = [
     {
         "id": "heading1",
-        "title": "10 ways how Generative AI has a positive impact on Retail organizations",
+        "title": "",
         description:"In this dynamic retail world, organizations constantly look for innovative ways to enhance customer experiences, optimize processes, and boost profitability. More than 70% of retailers have already adopted a digital-first approach to increase competitiveness, efficiency, and customer satisfaction.",
         description1:"While nearly 63% of retail decision-makers expect to spend more on data analytics, over 35% believe artificial intelligence is the game-changing technology holding tremendous potential for transforming the retail landscape.",
        description2:"Specifically, generative AI in the retail market predicts exponential growth from $395Mn in 2022 to $8386Mn in 2032 at a 36.8% CAGR. That’s because it helps in innovative product development, highly personalized product recommendations, 24/7 customer support, and increased workflow efficiency at a reduced cost.",
@@ -226,10 +226,10 @@ const Generativeai = () => {
                 <meta name="keywords" content="Generative AI in Retail, Impact of AI in Retail, Retail Data Analysis, AI for Retail, AI sales Predictions, Retail Automation, Retail AI trends, AI for Fraud Detection in Retail, Chatbots in Retail, Retail Industry AI Trends, AI-Driven Customer Insights, Impact of AI on Retail." />
             </Helmet>
         <div className="scroll-class">
-            <div class="background-container">
+            <div class="background-container bg-container-generative">
                 <div class="centered-text">
-                    <h1>November 19, 2024</h1>
-                    <p>Perplexity: AI search diruptor is taking a big swing with new shopping feature</p>
+                    <h1>November 8, 2023</h1>
+                    <p>10 ways how Generative AI has a positive impact on Retail organizations</p>
                 </div>
             </div>
 
@@ -415,7 +415,7 @@ const Generativeai = () => {
                         <div className="text-start related-articles">Related Articles</div>
                         <div className="text-end check-articles">check all Articles</div>
                     </div>
-                    {Insightdata.perplexitydetails.map((list) => {
+                    {Insightdata.generativedetails.map((list) => {
                         return (
                             <div
                                 className="col-lg-3 col-md-6 col-sm-12 col-xs-12 cr-pointer highlight-text d-flex align-items-strech mb-4"
