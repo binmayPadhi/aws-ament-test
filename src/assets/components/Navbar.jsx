@@ -242,8 +242,8 @@ function Navbar(props) {
                 {/*--For Mobile Navigation--*/}
                 <div className="service-dropdown-menu" style={navStyle}>    
                   <NavLink
-                    to="/aboutus"
-                    onClick={() => (window.location.href = "/aboutus")}
+                    to="/about-us"
+                    onClick={() => (window.location.href = "/about-us")}
                     style={navStyle}
                     className={color === "app" ? "text-black" : "text-white"}
                   >
@@ -262,7 +262,7 @@ function Navbar(props) {
                     aria-expanded="false"
                   >
                     <NavLink
-                      to="/aboutus"
+                      to="/about-us"
                       style={navStyle}
                       onClick={closeNavpopup}
                       activeStyle={{ color: "#19AF8F", textDecoration: "none" }}
