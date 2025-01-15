@@ -54,7 +54,7 @@ const schema = yup
 const headings = [
     {
         "id": "heading1",
-        title:"6 Key Steps To Include In Your Data Migration Project",
+        title:"",
         "description1": "Forward-thinking businesses across the globe effectively utilize AI, big data, and predictive analytics for targeted advertising, capitalizing on its vast subscriber base of 231 million users. By leveraging user search and watch data, the organization offers personalized messages and product pricing, discounts, and suggestions, showcasing its ability to understand and cater to individual preferences, thus solidifying the brand position, saving significant IT costs, uncovering business insights, and enhancing customer retention strategies.",
         "description2": "In today's fast-paced digital world, where data is the new oil, data migration projects have become an absolute game-changer for businesses aiming to thrive and stay ahead of the competition. The seamless transfer of data from one system to another can unlock valuable business insights, boost operational efficiency, and empower informed decision-making.",
         "description3": "In this blog post, we're going to break down the six key steps that are absolutely essential for your critical data migration project. Whether you're a C-suite executive, a decision-maker, or a tech-savvy influencer, this blog is packed with valuable insights to ensure your data migration journey is a roaring success.",
@@ -213,10 +213,10 @@ const Datamigration = () => {
         <meta name="keywords" content="data migration, data migration services, data migration assessment, data migration process, data migration consultation, data migration services provider, data migration solution" />
       </Helmet>
         <div className="scroll-class">
-            <div class="background-container">
+            <div class="background-container bg-container-migration">
                 <div class="centered-text">
-                    <h1>November 19, 2024</h1>
-                    <p>Perplexity: AI search diruptor is taking a big swing with new shopping feature</p>
+                    <h1>August 8, 2023</h1>
+                    <p>6 Key Steps To Include In Your Data Migration Project</p>
                 </div>
             </div>
 
@@ -406,7 +406,7 @@ const Datamigration = () => {
                         <div className="text-start related-articles">Related Articles</div>
                         <div className="text-end check-articles">check all Articles</div>
                     </div>
-                    {Insightdata.perplexitydetails.map((list) => {
+                    {Insightdata.migrationdetails.map((list) => {
                         return (
                             <div
                                 className="col-lg-3 col-md-6 col-sm-12 col-xs-12 cr-pointer highlight-text d-flex align-items-strech mb-4"

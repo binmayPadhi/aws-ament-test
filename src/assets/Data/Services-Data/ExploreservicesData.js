@@ -1,11 +1,11 @@
-import aiml from "../../images/services-images/Al_ML/aimlimage.png";
-import de from "../../images/services-images/DataEngineering/de.png";
+import aiml from "../../images/services-images/Al_ML/aimlimage.jpg";
+import de from "../../images/services-images/DataEngineering/de.jpg";
 import da from "../../images/services-images/DataAnnotation/da.png";
-import dm from "../../images/services-images/DataManagement/dm.png";
+import dm from "../../images/services-images/DataManagement/dm.jpg";
 import pe from "../../images/services-images/PlatformEngineering/pe.png";
-import aa from "../../images/services-images/Advanced Analytics/aa.png";
+import aa from "../../images/services-images/Advanced Analytics/aa.jpg";
 import qaa from "../../images/services-images/QualityAssurance/qaa.png";
-import csa from "../../images/services-images/CloudServices/csa.png";
+import csa from "../../images/services-images/CloudServices/csa.jpg";
 import ue from "../../images/services-images/UserExperience/ue.png";
 import scc from "../../images/services-images/Strategy_Consulting/scc.png";
 import SA from "../../images/services-images/Al_ML/ai-ml-statistical-analysis.png";
@@ -60,7 +60,7 @@ import dpl from "../../images/services-images/DataEngineering/data-engineering-d
 import depli from "../../images/services-images/DataEngineering/data-engineering-icon-data-pipelines.png";
 import transformation from "../../images/services-images/DataEngineering/data-engineering-data-transformations.png";
 import transformationI from "../../images/services-images/DataEngineering/data-engineering-icon-data-transformations.png";
-import DCLEN from "../../images/services-images/DataEngineering/data-engineering-data-cleansing.png";
+import DCLEN from "../../images/services-images/DataEngineering/data-engineering-data-cleansing.jpg";
 import DCLENI from "../../images/services-images/DataEngineering/data-engineering-icon-data-cleansing.png";
 import DataIntegraity from "../../images/services-images/DataEngineering/data-engineering-data-integrity.png";
 import DataIntegraityI from "../../images/services-images/DataEngineering/data-engineering-icon-data-integrity.png";
@@ -166,7 +166,7 @@ import add from "../../images/services-images/Strategy_Consulting/services-strat
 import addi from "../../images/services-images/Strategy_Consulting/strategy_consulting-icon-application-development.png";
 import aic from "../../images/services-images/Strategy_Consulting/services-strategy_consulting-ai-customization.png";
 import aici from "../../images/services-images/Strategy_Consulting/strategy_consulting-icon-ai-customization.png";
-import GenAIimg from "../../images/services-images/Strategy_Consulting/GenAIimage.png";
+import GenAIimg from "../../images/services-images/Strategy_Consulting/GenAIimage.jpg";
 import Genicon from "../../images/services-images/Strategy_Consulting/Genicon.png";
 import BPO from "../../images/services-images/Bpo/bpo.jpg";
 import customer_support_service from "../../images/services-images/Bpo/CustomerSupportServices.jpg";
@@ -179,6 +179,7 @@ import industry_specific_solutions from "../../images/services-images/Bpo/indust
 import industry_specific_solutions_icon from "../../images/services-images/Bpo/industry_specific_solutions_icon.svg";
 
 const subservices = [
+  
   {
     id: 1,
     serviceName: "ai-ml",
