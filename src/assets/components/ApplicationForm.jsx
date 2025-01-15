@@ -148,7 +148,7 @@ const ApplicationForm = () => {
   const inputRef = useRef();
   return (
     <>
-      <div className="container">
+      <div className="container h-auto">
         <form ref={applicationDetails} onSubmit={handleSubmit(onSubmit)}>
           <h1 className="fs-16 fw-bold-400 mt-5">
             Required fields<span className="star-color">*</span>

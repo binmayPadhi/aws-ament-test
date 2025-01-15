@@ -6846,6 +6846,10 @@ background-color:#1A4598;
   height: 500px;
 }
 
+.h-auto{
+  height:auto;
+}
+
 .top-space{
   margin-top: 50px !important;
 }
