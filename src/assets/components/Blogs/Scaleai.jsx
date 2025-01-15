@@ -53,7 +53,7 @@ const schema = yup
 const headings = [
     {
         "id": "heading1",
-        title:"How to Scale AI in the Retail Industry with Advanced Data Management Strategies",
+        title:"",
             "description": "The retail industry has witnessed a transformative shift worldwide, with the integration of cutting-edge technologies like AI, Data, & Analytics and sales best practices. Based on Statista’s statistics, the global retail market generated over $27 trillion in sales in 2022, projected to surpass $30 trillion by 2024.",
             "description1": "Specifically, adopting AI in the retail industry offers immense potential to drive profitable growth, supercharge customer retention, optimize operations, personalize customer experiences, and gain actionable insights. However, scaling AI in the retail industry effectively requires a robust data management strategy. Companies must acquire clean datasets, apply appropriate techniques, track a project's base opportunity value (BOV), reduce technical debts, and adopt hardware innovations to explore new business avenues.",
             "description2": "Let’s dive deeper into how AI transforms the retail industry, the importance of data management in scaling AI initiatives, and the key strategies retailers can adopt to thrive in this dynamic environment.",
@@ -270,10 +270,10 @@ const Scaleai = () => {
         <meta name="keywords" content="AI in the retail industry, AI for the retail industry, data management strategies, data management strategy for retail sector, impact of AI on the retail" />
       </Helmet>
         <div className="scroll-class">
-            <div class="background-container">
+            <div class="background-container bg-container-scaleai">
                 <div class="centered-text">
-                    <h1>November 19, 2024</h1>
-                    <p>Perplexity: AI search diruptor is taking a big swing with new shopping feature</p>
+                    <h1>July 31, 2023</h1>
+                    <p>How to Scale AI in the Retail Industry with Advanced Data Management Strategies</p>
                 </div>
             </div>
 
@@ -463,7 +463,7 @@ const Scaleai = () => {
                         <div className="text-start related-articles">Related Articles</div>
                         <div className="text-end check-articles">check all Articles</div>
                     </div>
-                    {Insightdata.perplexitydetails.map((list) => {
+                    {Insightdata.scaleaidetails.map((list) => {
                         return (
                             <div
                                 className="col-lg-3 col-md-6 col-sm-12 col-xs-12 cr-pointer highlight-text d-flex align-items-strech mb-4"

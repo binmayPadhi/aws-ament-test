@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import blog11 from "../../images/Resources-page/blog11.png";
+import blog11 from "../../images/Resources-page/blog11.jpg";
 import CTAIMG from "../../images/Resources-page/bloginventory.png";
 import Inventorydata from "../../Data/Resources-Data/Inventorydata";
 

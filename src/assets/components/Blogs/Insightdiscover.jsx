@@ -55,7 +55,7 @@ const schema = yup
 const headings = [
     {
         "id": "heading1",
-        title: "AI for Retail - Discover how AI can revolutionize the retail industry and help businesses increase sales, improve customer experience, and optimize operations",
+        title: "",
         heading1: "Unlocking the Potential of AI for Retail Businesses",
         description2: "The world of retail is constantly evolving, and businesses must keep up with the latest technology to stay competitive. One of the most promising advancements in recent years has been the rise of artificial intelligence. This powerful technology has the potential to transform retail operations and improve customer experiences in ways that were previously impossible. In this article, we'll explore the role of AI in retail and how businesses can unlock its potential to stay ahead in the ever-changing retail landscape",
     },
@@ -290,10 +290,10 @@ const Insightdiscover = () => {
          <meta name="keywords" content="" />
       </Helmet>
         <div className="scroll-class">
-            <div class="background-container">
+            <div class="background-container bg-container-insightdiscover">
                 <div class="centered-text">
-                    <h1>November 19, 2024</h1>
-                    <p>Perplexity: AI search diruptor is taking a big swing with new shopping feature</p>
+                    <h1>April 21, 2023</h1>
+                    <p>AI for Retail - Discover how AI can revolutionize the retail industry and help businesses increase sales, improve customer experience, and optimize operations</p>
                 </div>
             </div>
 
@@ -502,7 +502,7 @@ const Insightdiscover = () => {
                         <div className="text-start related-articles">Related Articles</div>
                         <div className="text-end check-articles">check all Articles</div>
                     </div>
-                    {Insightdata.perplexitydetails.map((list) => {
+                    {Insightdata.Insightdiscover.map((list) => {
                         return (
                             <div
                                 className="col-lg-3 col-md-6 col-sm-12 col-xs-12 cr-pointer highlight-text d-flex align-items-strech mb-4"

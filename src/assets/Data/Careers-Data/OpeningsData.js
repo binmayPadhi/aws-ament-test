@@ -1,6 +1,24 @@
 const Openings = [
   {
     id: 1,
+    heading: "SENIOR LEVEL",
+    role: "Lead Azure Data Engineer",
+    location: "Hyderabad",
+    button: "Apply Now",
+    link: "/careers",
+    sublink: "lead-azure-data-engineer",
+  },
+  {
+    id: 2,
+    heading: "MID-SENIOR LEVEL",
+    role: "DevOps Engineer",
+    location: "Hyderabad",
+    button: "Apply Now",
+    link: "/careers",
+    sublink: "devops-engineer",
+  },
+  {
+    id: 3,
     heading: "MID-SENIOR LEVEL",
     role: "Java Full Stack Developer",
     location: "Hyderabad",
