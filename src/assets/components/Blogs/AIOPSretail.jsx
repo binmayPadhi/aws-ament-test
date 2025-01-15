@@ -53,7 +53,7 @@ const schema = yup
 const headings = [
     {
         "id": "heading1",
-        title:"What is AIOps and explore how it is revolutionizing the retail industry by solving complex challenges?",
+        title:"",
        heading1:"What is AIOps?",
        description2:"Artificial Intelligence for IT Operations (AIOps) is a discipline that combines the power of Artificial Intelligence (AI), Natural Language Processing (NLP), and Machine Learning (ML) to automate traditional IT operations (such as event correlation, anomaly detection, and causality determination). It is designed to help organizations better manage their IT infrastructure, reduce downtime, and optimize system performance. AIOps provides IT teams with a unified view of their entire IT environment and automates many of the routine tasks associated with monitoring and managing complex IT systems to free up their critical resources by automating low and high-value tasks.",
        description3:"In recent years, the retail industry has been struggling to keep pace with the increasing demands of customers, growing competition, and the need for seamless supply chain operations. This is where AIOps comes in—an innovative technology that is transforming the way the retail industry operates. In this article, we'll explore what AIOps is and how it plays a crucial role in solving retail industry challenges."
@@ -281,10 +281,10 @@ const AIOPSretail = () => {
         <meta name="keywords" content="" />
       </Helmet>
         <div className="scroll-class">
-            <div class="background-container">
+            <div class="background-container bg-container-AIOPexplore">
                 <div class="centered-text">
-                    <h1>November 19, 2024</h1>
-                    <p>Perplexity: AI search diruptor is taking a big swing with new shopping feature</p>
+                    <h1>April 28, 2023</h1>
+                    <p>What is AIOps and explore how it is revolutionizing the retail industry by solving complex challenges?</p>
                 </div>
             </div>
 
@@ -322,15 +322,9 @@ const AIOPSretail = () => {
                                 <div className="spacing-divs-l"></div>
                                 {heading.title && <h1>{heading.title}</h1>}
                                 {heading.description && <p>{heading.description}</p>}
-                                {heading.description1 && <p>{heading.description1}</p>}
                                 {heading.heading1 && <h2>{heading.heading1}</h2>}
-                           
                                 {heading.description2 && <p>{heading.description2}</p>}
                                 {heading.description3 && <p>{heading.description3}</p>}
-                               
-                               
-                                {heading.heading2 && <h3>{heading.heading2}</h3>}
-                                {heading.heading3 && <h2>{heading.heading3}</h2>}
                                 {heading.question && (
                                     <h5>
                                         <span className="question-style">{heading.question}</span>

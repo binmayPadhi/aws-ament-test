@@ -13,7 +13,7 @@ import preventiveIMG from "../../images/services-images/GenAI/Preventive Mainten
 import virtualIMG from "../../images/services-images/GenAI/Propensity Modelling.png";
 import blog7 from "../../images/Resources-page/blog7.jpg";
 import blog10 from "../../images/Resources-page/image10.jpg";
-import blog11 from "../../images/Resources-page/blog11.png";
+import blog11 from "../../images/Resources-page/blog11.jpg";
 import myimage1 from "../../images/services-images/GenAI/vert-card_Retail.png";
 import hoverimage1 from "../../images/services-images/GenAI/vert-card_b1.png";
 import myimage2 from "../../images/services-images/GenAI/vert-card_Human Resource.png";

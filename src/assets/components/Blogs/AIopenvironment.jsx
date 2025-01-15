@@ -53,7 +53,7 @@ const schema = yup
 const headings = [
     {
         "id": "heading1",
-        title:"Why do we need AIOps and where does it fit with the modern IT environment?",
+        title:"",
         "description": "We need AIOps (Artificial Intelligence for IT Operations) because modern IT environments have become increasingly complex and difficult to manage using traditional methods. AIOps leverages machine learning and artificial intelligence algorithms to automate and streamline IT operations, making it easier for IT teams to monitor, manage, and optimize their IT environments.",
         "heading1": "AIOps is particularly well-suited to modern IT environments for several reasons:",
         "orderedlist": [
@@ -228,10 +228,10 @@ const AIOPenvironment = () => {
         <meta name="keywords" content="" />
       </Helmet>
         <div className="scroll-class">
-            <div class="background-container">
+            <div class="background-container bg-container-AIOP">
                 <div class="centered-text">
-                    <h1>November 19, 2024</h1>
-                    <p>Perplexity: AI search diruptor is taking a big swing with new shopping feature</p>
+                    <h1>May 5, 2023</h1>
+                    <p>Why do we need AIOps and where does it fit with the modern IT environment?</p>
                 </div>
             </div>
 
@@ -423,7 +423,7 @@ const AIOPenvironment = () => {
                         <div className="text-start related-articles">Related Articles</div>
                         <div className="text-end check-articles">check all Articles</div>
                     </div>
-                    {Insightdata.perplexitydetails.map((list) => {
+                    {Insightdata.AIOPenvironmentdetails.map((list) => {
                         return (
                             <div
                                 className="col-lg-3 col-md-6 col-sm-12 col-xs-12 cr-pointer highlight-text d-flex align-items-strech mb-4"

@@ -1,82 +1,140 @@
 const Jobdescription = [
-    // {
-    //     applyfor: "Full Stack Node",
-    //     title: "Full Stack Node",
-    //     level:"mid-senior",
-    //     experience:"4 to 6 years",
-    //     aboutdescription: "We are looking to add bright, focused, resourceful and highly goal-oriented Software Developer with experience in Node Js. Candidates should enjoy working in a challenging environment; have the enthusiasm and ambition to develop & amp; complete projects to the highest standard and want to be part of an organization that puts technology at the heart of everything it does.",
-    //     unorderedlist: [
-    //         {
-    //             content: "Must be able to develop state of art Angular applications using RESTful micro services, Node.js and MongoDB Stack.",
-    //         },
-    //         {
-    //             content: "Implementation of security and data protection.",
-    //         },
-    //         {
-    //             content: "Implementation of robust set of services / APIs to power the web application.",
-    //         },
-    //         {
-    //             content: "Building reusable code and libraries for future use.",
-    //         },
-    //         {
-    //             content: "Optimisation of the application for maximum speed and scalability.",
-    //         },
-    //         {
-    //             content: "Integration of the front-end and back-end aspects of the web application.",
-    //         },
-    //         {
-    //             content: "Execute testing plans/strategy, create test cases, and user acceptance criteria.",
-    //         },
-    //         {
-    //             content: "Assist with test execution during test life cycle.",
-    //         },
-    //         {
-    //             content: "Maintain the defect management life cycle, using a defect tracking tool.",
-    //         },
-    //         {
-    //             content: "Work with the developer team to ensure all defects are cleared out.",
-    //         },
-    //         {
-    //             content: "Document defects, reasons, find trends and minimize the defects from happening again.",
-    //         },
-    //         {
-    //             content: "Provide training.",
-    //         },
-    //         {
-    //             content: "Maintain system documentation and user guides.",
-    //         },
-    //     ],
-    //     unorderedlist1: [
-    //         {
-    //             content: "Experience: 4 to 6 years",
-    //         },
-    //         {
-    //             content: "Design  & develop web-based applications as per the business requirements and specifications.",
-    //         },
-    //         {
-    //             content: "Develop front-end and back-end components and codes as per the robust architectural approach and design patterns. Adhere to guiding principles and code standards.",
-    //         },
-    //         {
-    //             content: "Write efficient, re-usable, optimal, and well-documented code.",
-    //         },
-    //         {
-    //             content: "Perform unit testing & system integration testing involve in troubleshooting and debugging critical problems and resolving complex technical issues that may arise.",
-    //         },
-    //         {
-    //             content: "Should have experience in the design and development of web services and API and XML.",
-    //         },
-    //         {
-    //             content: "Should preferably have a working understanding of cloud infrastructure components.",
-    //         },
-    //         {
-    //             content: "Experience and Knowledge of NodeJS and the concept of RESTful API is a must.",
-    //         },
-    //         {
-    //             content: "Experience in Angular-based applications is needed Experience in end-to-end web development Experience with SQL (PostgreSQL preferred) & NoSQL (Mongo preferred) databases.",
-    //         },
+    {
+        applyfor: "Lead Azure Data Engineer",
+        title: "Lead Azure Data Engineer",
+        level:"Senior level",
+        experience:"8 - 12 years",
+        location:"Hyderabad, India",
+        aboutdescription:"Azure Data engineering team is leading the transformation of data analytics with products like  databases, data integration, messaging & real-time analytics, and business intelligence. Within Azure Data, the databases team builds and maintains Microsoft's operational Database systems. We store and manage data in a structured way to enable multitude of applications across various industries",
+        unorderedlist: [
+            {
+                content: "Expertly perform tasks under supervision.",
+            },
+            {
+                content: "Develop and maintain end-to-end data pipelines using cloud-native solutions to extract, load, and transform data from disparate data sources to a cloud data warehouse.",
+            },
+            {
+                content: "Capable of formatting and distributing custom data extracts through various means like RestAPIs and other bulk data transfer mediums) and optimizing data storage options based on business requirements.",
+            },
+            {
+                content: "Hands on experience of designing architecture for data focused Microsoft Azure projects.",
+            },
+            {
+                content: "Competent in helping to develop design database structure and function, schema design, and database testing protocols.",
+            },
+            {
+                content: "Contribute to the process of defining company data assets (data models) and custom client workflows, as well as standardized data quality protocols.",
+            },
+            {
+                content: "Capable of independently and collaboratively troubleshooting database issues and queries for improving data retrieval times across various systems (e.g., via SQL).",
+            },
+            {
+                content: "Collaborate with both technical and non-technical stakeholders including IT, Data Science, and various team members across a diverse array of business units.",
+            },
+            {
+                content: "Work closely with IT team whenever necessary to help facilitate, troubleshoot, or develop database connectivity between internal external resources (e.g., on-premises Azure Data Lakes, Data Warehouses, and Data Hubs).",
+            },
+            {
+                content: "Help implement and enforce enterprise reference architecture and ensure that data infrastructure design reflects enterprise business rules as well as data governance and security guidelines.",
+            },
+            {
+                content: "Hands-on experience in Azure Blob storage, ADLS.",
+            },
+            {
+                content: "Proficient in SQL Scripting on cloud-based data warehousing tools.",
+            },
+            {
+                content: "A willingness to learn and grow with MS Fabric technology and advanced analytical tools.",
+            },
+            {
+                content: "Microsoft Certified: Fabric Analytics Engineer Associate certification or working knowledge on Microsoft Fabric Lake house is a plus.",
+            },
+            {
+                content: "Knowledge on version control tool preferably GitHub.",
+            },
+        ],
+      
+        joblocation:"Key Skills:",
+        unorderedjoblist:[
+            {
+                content: "Azure Data Factory",
+            },
+            {
+                content: "Azure ADF",
+            },
+            {
+                content: "Azure Data Lake",
+            },
+            {
+                content: "Microsoft Fabric",
+            },
+            {
+                content: "Python / Pyspark",
+            },
+            {
+                content: "SSIS",
+            },
+            {
+                content: "SQL",
+            },
+        ],
+       jobtimings:"Job Timings: ",
+       timeline:" 5PM to 2AM IST" 
+    },
+    {
+        applyfor: "DevOps Engineer",
+        title: "DevOps Engineer",
+        level:"Mid-Senior level",
+        experience:"5 - 8 years",
+        location:"Hyderabad, India",
+        aboutdescription:"Our team is looking for a DevOps Engineer to join us in our mission. In this role, you will contribute to the design, implementation, and maintenance of our DevOps infrastructure and processes. The primary responsibility will be to ensure that our solutions can be reliably deployed to various environments (testing, staging, production) with minimal friction. The ideal candidate will have experience in both software development and systems administration and be well-versed in modern DevOps practices such as infrastructure as code, containerization, continuous integration, and automation. We currently have a couple of dozen production products based on a variety of technologies and several development teams, so the ideal candidate is someone who likes variety, is great at solving tough problems, and works and communicates well with people across countries and time zones.",
+        unorderedlist: [
+            {
+                content: "Collaborate with development teams to ensure seamless integration of new features and services into our DevOps environment, and mentor/educate developers in DevOps related practices in their teams and products.",
+            },
+            {
+                content: "Monitor and troubleshoot production systems, and lead incident response efforts as needed.",
+            },
+            {
+                content: "Continuously improving the scalability, security, and reliability of our infrastructure.",
+            },
+            {
+                content: "Candidates with 6+ years of relevant experience in DevOps practices, cloud computing, containerization (e.g., Docker, Kubernetes), version control systems (e.g., Git).",
+            },
+            {
+                content: "Knowledge and hands-on experience with Cloud Infrastructure such as GCP, AWS, or Azure on Network, Security, IAM, and DNS related services.",
+            },
+            {
+                content: "Git Platforms such as Gitlab (Preferred), GitHub, or similar for enabling Continuous Delivery and Release Management using provided CI tools and Databases such as NoSQL or Graph DB, Linux system administration or bash scripting.",
+            },
+            {
+                content: "Strong hands-on experience building enterprise scalable Kubernetes infrastructure.",
+            },
+            {
+                content: "Ability to demonstrate knowledge of applying Observability to a network of clusters using open-source stack.",
+            },
+            {
+                content: "Capable of debugging production outages related to resources such as network connectivity, DNS resolution, IP shortage, low disk space, crashing pods to keep the systems within strict SLAs while being cost effective.",
+            },
+            {
+                content: "Strong understanding with containerization technologies such as Docker. Ability to containerize machine learning applications and manage containerized deployments efficiently.",
+            },
+            {
+                content: "Strong hands-on experience in building Gitlab CICD pipelines.",
+            },
+            {
+                content: "Strong Python knowledge is essential to develop and publish PyPi packages in addition to writing API services.",
+            },
+            {
+                content: "Knowledge of monitoring and logging tools for tracking the performance, health, and reliability of machine learning models and infrastructure components. Experience with tools like Prometheus, Grafana, ELK stack (Elasticsearch, Logstash, Kibana) is beneficial.",
+            },
+            {
+                content: "Experience in working with distributed teams.",
+            },
+        ],
+        
 
-    //     ]
-    // },
+    },
     {
         applyfor: "Data Science",
         title: "Data Science",

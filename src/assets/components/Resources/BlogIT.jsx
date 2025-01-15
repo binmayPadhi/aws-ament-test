@@ -1,5 +1,5 @@
 import React from "react";
-import blog4 from "../../images/Resources-page/blog4.png";
+import blog4 from "../../images/Resources-page/blog4.jpg";
 import BlogITdata from "../../Data/Resources-Data/BlogITdata";
 import { Helmet } from "react-helmet";
 import { useNavigate } from "react-router-dom";
