@@ -38,7 +38,8 @@ function Navbar(props) {
       url === "/leadership" || 
       url === "/blogs/how-our-next-Gen-AI-voice-bot-is-transforming-conversational-AI" ||
       url === "/press-releases/amnet-digital-partners-with-intel" ||
-      url === "/case-studies/ai-voice-bot" 
+      url === "/case-studies/ai-voice-bot" ||
+      url === "/blogs/ai-powered-semiconductor-sales-marketing-solution"
       // ||url === "/whitepaper"
     ) {
       setNavcolor("app");

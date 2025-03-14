@@ -70,6 +70,7 @@ import AIOPenvironment from "./Blogs/AIopenvironment";
 import AIOPSretail from "./Blogs/AIOPSretail";
 import Insightdiscover from "./Blogs/Insightdiscover";
 import Sevensignificant from "./Blogs/Sevensignificant";
+import Semiconductor from "./Resources/Semiconductor";
 
 
 function App() {
@@ -174,6 +175,11 @@ function App() {
               exact
               path="medical-image-video-data-annotation-services"
               element={<ImageVideoAnnotation />}
+            />
+              <Route
+              exact
+              path="ai-powered-semiconductor-sales-marketing-solution"
+              element={<Semiconductor />}
             />
             {/* <Route
             exact
