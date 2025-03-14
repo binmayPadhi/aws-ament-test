@@ -112,10 +112,7 @@ const headings = [
         "description2": "We understand the critical importance of data migration projects and have established ourselves as a trusted data migration services provider in offering comprehensive data migration consulting services. With deep expertise in managing complex data migration projects, we help businesses streamline their data operations and maximise the value of their information assets.",
         "description3": "At Amnet Digital, our data migration services team ensures businesses moving data is successful and efficient, without impacting the business, whether it is to a new system, or location. We enable your entire organization to simplify your data operations to become more efficient as part of your digital transformation journey.",
         "description5": "Book your FREE and no-strings attached data migration assessment now!"
-    }
-    ,
-   
-     
+    }    
       
 ];
 
